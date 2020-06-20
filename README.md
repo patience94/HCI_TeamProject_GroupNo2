@@ -1,33 +1,33 @@
 # HCI_TeamProject_GroupNo2
  
-## 집에 가고 싶다(x)
+## 집에 가고 싶다
 
 
 1. Team member
 
-Title & main image
+## Title & main image
 
-Members
+## Members
 
 ### (1) Introduction: Background and goal of your research
 
 ### (2) Main contents
 
-How to build your program
+#### How to build your program
 
-Necessary images (idea sketches, paper prototype, a screen capture of your program, …)
+#### Necessary images (idea sketches, paper prototype, a screen capture of your program, …)
 
-Explanation of source code if necessary (or just share the source code as a file)
+#### Explanation of source code if necessary (or just share the source code as a file)
 
-Explanation of your program with images
+#### Explanation of your program with images
 
-Demo video
+#### Demo video
 
 ### (3) Conclusion
 
-Limitations and future studies (for what you couldn’t finish in this project)
+#### Limitations and future studies (for what you couldn’t finish in this project)
 
-The conclusion paragraph of the document (including how the project was, what was difficult)
+#### The conclusion paragraph of the document (including how the project was, what was difficult)
 
 
-### References
+## References
