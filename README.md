@@ -1,8 +1,5 @@
 # HCI_TeamProject_GroupNo2
 
-
-1. Team member
-
 ## Title & main image
 
 ## Members
