@@ -1,5 +1,5 @@
 # HCI_TeamProject_GroupNo2
  
-## 희수는 캡이다
+## 집에 가고 싶다
 
 1. Team member
