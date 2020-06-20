@@ -1,6 +1,6 @@
 # HCI_TeamProject_GroupNo2
  
-## 집에 가고 싶다
+## 집에 가고 싶다(x)
 
 
 1. Team member
