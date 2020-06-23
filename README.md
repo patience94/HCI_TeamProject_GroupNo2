@@ -12,6 +12,8 @@
 ##### &nbsp;&nbsp;&nbsp;&nbsp;We used Maya to implement spheres, grass, constellation textures, etc. It was possible to efficiently generate various 3D objects through Maya and Unity interlocking systems.
 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;Unity was used to align the object with layout and to implement the functions required for the program. We implemented various interventions such as smooth screen movement, laycast, zoom in/out, fade in/out, etc.
+
+##### &nbsp;&nbsp;&nbsp;&nbsp;We conducted two user tests. Through user test, I could get positive feedback that I understood the program, had no difficulty in using it, and had a neat design. However, there was a lack of diversity in content, and I also received feedback that it would be nice to support Korean. We adjusted the direction of development by reflecting some of these feedbacks, and we decided to refer to them in future research in the future.
 -------
 #### Idea Sketches
 ![수정됨_1](https://user-images.githubusercontent.com/55008408/85475863-d2680680-b5f1-11ea-91de-e60cbd2baaae.jpg)
