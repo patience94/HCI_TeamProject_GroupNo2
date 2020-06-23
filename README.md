@@ -9,7 +9,9 @@
 ### (2) Main contents
 
 #### How to build your program
+##### &nbsp;&nbsp;&nbsp;&nbsp;We used Maya to implement spheres, grass, constellation textures, etc. It was possible to efficiently generate various 3D objects through Maya and Unity interlocking systems.
 
+##### &nbsp;&nbsp;&nbsp;&nbsp;Unity was used to align the object with layout and to implement the functions required for the program. We implemented various interventions such as smooth screen movement, laycast, zoom in/out, fade in/out, etc.
 -------
 #### Idea Sketches
 ![수정됨_1](https://user-images.githubusercontent.com/55008408/85475863-d2680680-b5f1-11ea-91de-e60cbd2baaae.jpg)
