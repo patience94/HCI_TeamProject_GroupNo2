@@ -10,8 +10,29 @@
 
 #### How to build your program
 
-#### Necessary images (idea sketches, paper prototype, a screen capture of your program, …)
-
+-------
+#### Idea Sketches
+![수정됨_1](https://user-images.githubusercontent.com/55008408/85475863-d2680680-b5f1-11ea-91de-e60cbd2baaae.jpg)
+![수정됨_2](https://user-images.githubusercontent.com/55008408/85475954-fd525a80-b5f1-11ea-8fe5-fd6b3cb1b435.jpg)
+![수정됨_3](https://user-images.githubusercontent.com/55008408/85475950-fc212d80-b5f1-11ea-95d3-4f9f6f51d9af.jpg)
+![수정됨_4](https://user-images.githubusercontent.com/55008408/85475952-fd525a80-b5f1-11ea-9fb1-f803ac634f92.jpg)
+-------
+#### Paper Prototype
+![paper1](https://user-images.githubusercontent.com/55008408/85476223-c7fa3c80-b5f2-11ea-8200-4dbaa23ac1d0.jpg)
+![paper4](https://user-images.githubusercontent.com/55008408/85476225-c892d300-b5f2-11ea-8405-8f3da3c1c600.jpg)
+![paper6](https://user-images.githubusercontent.com/55008408/85476220-c761a600-b5f2-11ea-995e-da5df8df66fb.jpg)
+![paper3](https://user-images.githubusercontent.com/55008408/85476221-c761a600-b5f2-11ea-8abc-5e0fa00cf066.jpg)
+![paper5](https://user-images.githubusercontent.com/55008408/85476217-c6307900-b5f2-11ea-917c-f1c5ebf37db3.jpg)
+![paper2](https://user-images.githubusercontent.com/55008408/85476224-c7fa3c80-b5f2-11ea-9e25-ef2ab4a92d14.jpg)
+-------
+#### Screen Capture of Program
+![수정됨_first_scene](https://user-images.githubusercontent.com/55008408/85476454-47880b80-b5f3-11ea-925c-e2775d202d33.png)
+![수정됨_main_screen](https://user-images.githubusercontent.com/55008408/85476456-4820a200-b5f3-11ea-954a-6053dfdf29b8.png)
+![수정됨_spread_mod](https://user-images.githubusercontent.com/55008408/85476449-4656de80-b5f3-11ea-87c0-c3a3281cb2b1.png)
+![수정됨_explanation](https://user-images.githubusercontent.com/55008408/85476451-47880b80-b5f3-11ea-8c5d-37944379d928.png)
+![수정됨_check_my_sign](https://user-images.githubusercontent.com/55008408/85476450-46ef7500-b5f3-11ea-8d6d-6f661865da97.png)
+![수정됨_Setting](https://user-images.githubusercontent.com/55008408/85476446-45be4800-b5f3-11ea-8186-442b043711ea.png)
+-------
 #### Explanation of source code if necessary (or just share the source code as a file)
 
 #### Explanation of your program with images
