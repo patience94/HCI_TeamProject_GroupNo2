@@ -1,5 +1,5 @@
 # SignZ*ONE Educational Contellations Program
-#### A constellation education program that freely identifies constellations with simple hand gestures and provides the origins and information of constellations through leap motion.
+#### &nbsp;&nbsp;&nbsp;&nbsp;A constellation education program that freely identifies constellations with simple hand gestures and provides the origins and information of constellations through leap motion.
 ![사진1](https://user-images.githubusercontent.com/65612495/85523963-99a44d80-b642-11ea-8ba7-1b9131764299.jpg)![사진2](https://user-images.githubusercontent.com/65612495/85524310-06b7e300-b643-11ea-96be-c0e2010dc3e7.jpg)
 
 ### Members
@@ -7,7 +7,7 @@
 
 ### (1) Introduction: Background and goal of your research
 #### Background
-##### We found it difficult to see the constellations due to urbanization and some problems of textbook-based constellation education. Because of the lighting that doesn't go out at night due to urbanization, children no longer have the chance to see the beautiful stars in the night sky. We have developed a constellation education program to provide opportunities to actually see numerous constellations in the night sky, rather than to check out flat constellations in books or textbooks. To maximize user interaction, our program wanted to use Leap Motion devices to increase the effectiveness of constellation training.
+##### &nbsp;&nbsp;&nbsp;&nbsp;We found it difficult to see the constellations due to urbanization and some problems of textbook-based constellation education. Because of the lighting that doesn't go out at night due to urbanization, children no longer have the chance to see the beautiful stars in the night sky. We have developed a constellation education program to provide opportunities to actually see numerous constellations in the night sky, rather than to check out flat constellations in books or textbooks. To maximize user interaction, our program wanted to use Leap Motion devices to increase the effectiveness of constellation training.
 
 #### Purpose of the program
 #####  - Make it interesting to be interested in the night sky and constellations.- Reveals myths and origins related to the location of constellations in the night sky.
