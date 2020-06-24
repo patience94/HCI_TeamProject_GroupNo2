@@ -49,35 +49,36 @@
 ### Explanation of program
 -------
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/55008408/85473406-253fbf00-b5ee-11ea-8e7c-1951ee7f1e96.gif)
-##### &nbsp;&nbsp;&nbsp;&nbsp;[시작화면]
-##### - 별똥별이 떨어지는 밤하늘 일러스트를 통해 별자리를 보러가는 느낌을 주었다.
-##### - 화면 페이드아웃을 통해 자연스럽게 메인화면으로 넘어가게 구성하였다.
+##### &nbsp;&nbsp;&nbsp;&nbsp;[Start menu]
+##### - We make users feel like they're going to see constellations by using night sky illust that shooting stars fall.
+##### - Through fade-out, the screen naturally moves over to the main screen.
 -------
 ![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/55008408/85473423-2a9d0980-b5ee-11ea-9681-39beb6b8c667.gif)
-##### &nbsp;&nbsp;&nbsp;&nbsp;[Observing constellation 실행]
-##### - SignZONE 프로그램의 메인기능인 Observing Constellation은 Spread Mode와 Constellation Mode로 구성되어있다.
-##### - 기능 선택시 defalut 값으로 Spread Mode가 선택되어 실행된다.
+##### &nbsp;&nbsp;&nbsp;&nbsp;[Observing constellation]
+##### - The main function of the SignZ*ONE program, Observing Constellation, consists of the Spread Mode and Constellation Mode.
+##### - When the function is selected, the Spread mode is selected as the default setting.
 -------
 ![ezgif com-video-to-gif (4)](https://user-images.githubusercontent.com/55008408/85473443-34bf0800-b5ee-11ea-811c-0cbae20fad2e.gif)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;[Spread Mode & zoom in/out]
-##### - Spread Mode에서는 수 많은 별이 밤하늘에 흩뿌려진 모습을 관찰할 수 있어 마치 사용자가 밤하늘을 보고 있는 듯한 착각을 준다.
-##### - 줌인아웃을 통해 보고싶은 별을 확대 또는 축소해서 볼 수 있다.
+##### - In the Spread Mode, you can observe countless stars scattered in the night sky, giving the illusion that the user is looking at the night sky.
+##### - You can zoom in or out on the stars you want to see.
 -------
 ![ezgif com-video-to-gif (2)](https://user-images.githubusercontent.com/55008408/85473430-2e309080-b5ee-11ea-8697-012c38f4647a.gif)
-##### &nbsp;&nbsp;&nbsp;&nbsp; [Constellation mode & 살펴보기]
-##### - Constellation Mode에서는 밤하늘에 있는 여러 가지 별자리를 살펴볼 수 있다.
-##### - 화면이동을 통해 원하는 별자리를 찾아 확인할 수 있다.
+##### &nbsp;&nbsp;&nbsp;&nbsp; [Constellation mode]
+##### - In Constellation Mode, you can look at various constellations in the night sky.
+##### - You can find and check the constellation you want through moving the screen.
 -------
 ![ezgif com-video-to-gif (3)](https://user-images.githubusercontent.com/55008408/85473437-31c41780-b5ee-11ea-8bf7-6b66c71ad2c2.gif)
-##### &nbsp;&nbsp;&nbsp;&nbsp; [별자리 설명보기]
-##### - 별자리가 화면 중앙에 위치하게 되면 별자리가 활성화되어 해당 별자리의 일러스트와 설명을 확인할 수 있다.
-##### - 활성화되지 않은 별자리는 불투명하게 보여 사용자는 별자리의 형태 및 일러스트를 동시에 확인할 수 있다.
+##### &nbsp;&nbsp;&nbsp;&nbsp; [Checking constellations' description]
+##### - When the constellation is placed in the center of the screen, the constellation is activated to check the illustration and explanation of the constellation.
+##### - Unactivated constellations appear opaque, allowing users to simultaneously check the shape and illustration of constellations.
+
 -------
 ![ezgif com-video-to-gif (5)](https://user-images.githubusercontent.com/55008408/85473236-e578d780-b5ed-11ea-9b6c-d3db3c1d30d0.gif)
-##### &nbsp;&nbsp;&nbsp;&nbsp; [홈버튼 클릭, 세팅, check my sign]
-##### - 홈버튼을 누르면 메인화면으로 돌아간다.
-##### - Setting을 통해 사용자는 밝기, GPS, 위치를 설정할 수 있다.
-##### - Check my sing을 통해 사용자는 자신의 별자리를 확인할 수 있다.
+##### &nbsp;&nbsp;&nbsp;&nbsp; [Home button, Setting, check my sign]
+##### - Ppress the home button to return to the main screen.
+##### - Setting allows users to set brightness, GPS, and position.
+##### - Check my sign allows users to identify their constellations.
 -------
 #### Demo video
 ##### https://youtu.be/nyjZu3eqUgc
@@ -99,6 +100,13 @@
         
         
 ### References
+##### Unity core assets and modules for leap motion make it easy to design hands, user interfaces, and interactions. (LeapMotion, 2020) https://code.tutsplus.com/tutorials/introduction-to-unity3d--mobile-107
+##### Graphic Renderer https://leapmotion.github.io/UnityModules/graphic-renderer.html#shader-variants
+##### Leap Motion SDK for Unity. https://developer.leapmotion.com/unity
+##### Leap Motion is now part of Ultraleap (2020), ultraleap, Retrieved from https://www.ultraleap.com/tracking/#how-it-works on March 25, 2019.
+##### Leap Motion Unity Modules (2020, January 31), Github, Retrived from https://github.com/leapmotion/UnityModules on March 25, 2019.
+##### Leap Motion Unity Modules Leap Motion’s Unity SDK 4.4.0 (2018, January), leapmotion, Retrieved from https://leapmotion.github.io/UnityModules/index.html on March 25, 2019.
+##### MAYA 3D computer animation, modeling, simulation, and rending software (2020), Autodesk, Retrieved form https://www.autodesk.com/products/maya/overview on March 25, 2019.
 ##### Checkmysign image : http://woman.chosun.com/mobile/news/view.asp?cate=C04&mcate=M1004&nNewsNumb=20200465643
 ##### Constellation image : https://blog.naver.com/washington22/221455419675
 ##### Unity Ray casting : https://gyugyu.tistory.com/3
