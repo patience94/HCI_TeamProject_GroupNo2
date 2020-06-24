@@ -3,21 +3,21 @@
 ![사진1](https://user-images.githubusercontent.com/65612495/85523963-99a44d80-b642-11ea-8ba7-1b9131764299.jpg)![사진2](https://user-images.githubusercontent.com/65612495/85524310-06b7e300-b643-11ea-96be-c0e2010dc3e7.jpg)
 
 ### Members
-#### Heesu Kim Dongchan Park Jihoon Kim Minjoo Park 
+##### Heesu Kim Dongchan Park Jihoon Kim Minjoo Park 
 
 ### (1) Introduction: Background and goal of your research
 ### Background
-#### We found it difficult to see the constellations due to urbanization and some problems of textbook-based constellation education. Because of the lighting that doesn't go out at night due to urbanization, children no longer have the chance to see the beautiful stars in the night sky. We have developed a constellation education program to provide opportunities to actually see numerous constellations in the night sky, rather than to check out flat constellations in books or textbooks. To maximize user interaction, our program wanted to use Leap Motion devices to increase the effectiveness of constellation training.
+##### We found it difficult to see the constellations due to urbanization and some problems of textbook-based constellation education. Because of the lighting that doesn't go out at night due to urbanization, children no longer have the chance to see the beautiful stars in the night sky. We have developed a constellation education program to provide opportunities to actually see numerous constellations in the night sky, rather than to check out flat constellations in books or textbooks. To maximize user interaction, our program wanted to use Leap Motion devices to increase the effectiveness of constellation training.
 
 ### Purpose of the program
-####  - Make it interesting to be interested in the night sky and constellations.- Reveals myths and origins related to the location of constellations in the night sky.
-####  - Make sure you know what your birthday sign is.
-####  - Create your own constellation and develop your creativity.
-####  - It makes you feel the beauty of constellations in the night sky by making you feel like you are actually looking at the night sky.
+#####  - Make it interesting to be interested in the night sky and constellations.- Reveals myths and origins related to the location of constellations in the night sky.
+#####  - Make sure you know what your birthday sign is.
+#####  - Create your own constellation and develop your creativity.
+#####  - It makes you feel the beauty of constellations in the night sky by making you feel like you are actually looking at the night sky.
 
 ### (2) Main contents
 
-#### How to build your program
+#### How to build our program
 ##### &nbsp;&nbsp;&nbsp;&nbsp;We used Maya to implement spheres, grass, constellation textures, etc. It was possible to efficiently generate various 3D objects through Maya and Unity interlocking systems.
 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;Unity was used to align the object with layout and to implement the functions required for the program. We implemented various interventions such as smooth screen movement, laycast, zoom in/out, fade in/out, etc.
@@ -99,5 +99,6 @@
         
         
 ### References
-#### Constellation image : http://woman.chosun.com/mobile/news/view.asp?cate=C04&mcate=M1004&nNewsNumb=20200465643
-#### Unity Ray casting : https://gyugyu.tistory.com/3
+##### Checkmysign image : http://woman.chosun.com/mobile/news/view.asp?cate=C04&mcate=M1004&nNewsNumb=20200465643
+##### Constellation image : https://blog.naver.com/washington22/221455419675
+##### Unity Ray casting : https://gyugyu.tistory.com/3
