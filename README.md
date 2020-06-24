@@ -2,8 +2,11 @@
 #### &nbsp;&nbsp;&nbsp;&nbsp;A constellation education program that freely identifies constellations with simple hand gestures and provides the origins and information of constellations through leap motion.
 ![사진1](https://user-images.githubusercontent.com/65612495/85523963-99a44d80-b642-11ea-8ba7-1b9131764299.jpg)![사진2](https://user-images.githubusercontent.com/65612495/85524310-06b7e300-b643-11ea-96be-c0e2010dc3e7.jpg)
 
-### Members
-##### Heesu Kim Dongchan Park Jihoon Kim Minjoo Park 
+### Team Members
+##### Heesu Kim 
+##### Dongchan Park 
+##### Jihoon Kim 
+##### Minjoo Park 
 
 ### (1) Introduction: Background and goal of your research
 #### Background
