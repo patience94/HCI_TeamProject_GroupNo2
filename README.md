@@ -6,10 +6,10 @@
 ##### Heesu Kim Dongchan Park Jihoon Kim Minjoo Park 
 
 ### (1) Introduction: Background and goal of your research
-### Background
+#### Background
 ##### We found it difficult to see the constellations due to urbanization and some problems of textbook-based constellation education. Because of the lighting that doesn't go out at night due to urbanization, children no longer have the chance to see the beautiful stars in the night sky. We have developed a constellation education program to provide opportunities to actually see numerous constellations in the night sky, rather than to check out flat constellations in books or textbooks. To maximize user interaction, our program wanted to use Leap Motion devices to increase the effectiveness of constellation training.
 
-### Purpose of the program
+#### Purpose of the program
 #####  - Make it interesting to be interested in the night sky and constellations.- Reveals myths and origins related to the location of constellations in the night sky.
 #####  - Make sure you know what your birthday sign is.
 #####  - Create your own constellation and develop your creativity.
