@@ -80,8 +80,9 @@
 ##### - Setting allows users to set brightness, GPS, and position.
 ##### - Check my sign allows users to identify their constellations.
 -------
-#### Demo video
+### Demo video
 ##### https://youtu.be/nyjZu3eqUgc
+-------
 ### (3) Conclusion
 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;Our project was expected to embody with leap motion. Firstly, we have realized the project skills with the keyboard and mouse. And then leap motion skills were required. However, because of technical and time constraints, we could not handle about this subjects. That is the biggest limitation of our project. 
