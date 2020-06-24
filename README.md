@@ -37,32 +37,41 @@
 ![수정됨_check_my_sign](https://user-images.githubusercontent.com/55008408/85476450-46ef7500-b5f3-11ea-8d6d-6f661865da97.png)
 ![수정됨_Setting](https://user-images.githubusercontent.com/55008408/85476446-45be4800-b5f3-11ea-8186-442b043711ea.png)
 -------
-#### Explanation of source code if necessary (or just share the source code as a file)
-
 #### Explanation of your program with images
 -------
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/55008408/85473406-253fbf00-b5ee-11ea-8e7c-1951ee7f1e96.gif)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;[시작화면]
-##### 1. 별똥별이 떨어지는 밤하늘 일러스트를 통해 별자리를 보러가는 느낌을 주었다.
-##### 2. 화면 페이드아웃을 통해 자연스럽게 메인화면으로 넘어가게 구성하였다.
+##### - 별똥별이 떨어지는 밤하늘 일러스트를 통해 별자리를 보러가는 느낌을 주었다.
+##### - 화면 페이드아웃을 통해 자연스럽게 메인화면으로 넘어가게 구성하였다.
 -------
 ![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/55008408/85473423-2a9d0980-b5ee-11ea-9681-39beb6b8c667.gif)
-##### &nbsp;&nbsp;&nbsp;&nbsp;Observing constellation 실행
+##### &nbsp;&nbsp;&nbsp;&nbsp;[Observing constellation 실행]
+##### - SignZONE 프로그램의 메인기능인 Observing Constellation은 Spread Mode와 Constellation Mode로 구성되어있다.
+##### - 기능 선택시 defalut 값으로 Spread Mode가 선택되어 실행된다.
 -------
 ![ezgif com-video-to-gif (4)](https://user-images.githubusercontent.com/55008408/85473443-34bf0800-b5ee-11ea-811c-0cbae20fad2e.gif)
-##### &nbsp;&nbsp;&nbsp;&nbsp;Spread Mode & zoom in/out
+##### &nbsp;&nbsp;&nbsp;&nbsp;[Spread Mode & zoom in/out]
+##### - Spread Mode에서는 수 많은 별이 밤하늘에 흩뿌려진 모습을 관찰할 수 있어 마치 사용자가 밤하늘을 보고 있는 듯한 착각을 준다.
+##### - 줌인아웃을 통해 보고싶은 별을 확대 또는 축소해서 볼 수 있다.
 -------
 ![ezgif com-video-to-gif (2)](https://user-images.githubusercontent.com/55008408/85473430-2e309080-b5ee-11ea-8697-012c38f4647a.gif)
-##### &nbsp;&nbsp;&nbsp;&nbsp; Constellation mode 살펴보기
+##### &nbsp;&nbsp;&nbsp;&nbsp; [Constellation mode & 살펴보기]
+##### - Constellation Mode에서는 밤하늘에 있는 여러 가지 별자리를 살펴볼 수 있다.
+##### - 화면이동을 통해 원하는 별자리를 찾아 확인할 수 있다.
 -------
 ![ezgif com-video-to-gif (3)](https://user-images.githubusercontent.com/55008408/85473437-31c41780-b5ee-11ea-8bf7-6b66c71ad2c2.gif)
-##### &nbsp;&nbsp;&nbsp;&nbsp; 설명보기
+##### &nbsp;&nbsp;&nbsp;&nbsp; [별자리 설명보기]
+##### - 별자리가 화면 중앙에 위치하게 되면 별자리가 활성화되어 해당 별자리의 일러스트와 설명을 확인할 수 있다.
+##### - 활성화되지 않은 별자리는 불투명하게 보여 사용자는 별자리의 형태 및 일러스트를 동시에 확인할 수 있다.
 -------
 ![ezgif com-video-to-gif (5)](https://user-images.githubusercontent.com/55008408/85473236-e578d780-b5ed-11ea-9b6c-d3db3c1d30d0.gif)
-##### &nbsp;&nbsp;&nbsp;&nbsp; 홈버튼 클릭, 세팅, check my sign
+##### &nbsp;&nbsp;&nbsp;&nbsp; [홈버튼 클릭, 세팅, check my sign]
+##### - 홈버튼을 누르면 메인화면으로 돌아간다.
+##### - Setting을 통해 사용자는 밝기, GPS, 위치를 설정할 수 있다.
+##### - Check my sing을 통해 사용자는 자신의 별자리를 확인할 수 있다.
 -------
 #### Demo video
-
+##### https://youtu.be/nyjZu3eqUgc
 ### (3) Conclusion
 
 ##### &nbsp;&nbsp;&nbsp;&nbsp;Our project was expected to embody with leap motion. Firstly, we have realized the project skills with the keyboard and mouse. And then leap motion skills were required. However, because of technical and time constraints, we could not handle about this subjects. That is the biggest limitation of our project. 
