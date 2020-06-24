@@ -1,4 +1,4 @@
-# HCI_TeamProject_GroupNo2
+# SignZ*ONE Educational Contellations Program
 
 ### Title & main image
 
