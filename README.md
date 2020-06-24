@@ -42,7 +42,9 @@
 #### Explanation of your program with images
 -------
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/55008408/85473406-253fbf00-b5ee-11ea-8e7c-1951ee7f1e96.gif)
-##### &nbsp;&nbsp;&nbsp;&nbsp;제일 처음 시작화면
+##### &nbsp;&nbsp;&nbsp;&nbsp;[시작화면]
+##### 1. 별똥별이 떨어지는 밤하늘 일러스트를 통해 별자리를 보러가는 느낌을 주었다.
+##### 2. 화면 페이드아웃을 통해 자연스럽게 메인화면으로 넘어가게 구성하였다.
 -------
 ![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/55008408/85473423-2a9d0980-b5ee-11ea-9681-39beb6b8c667.gif)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;Observing constellation 실행
