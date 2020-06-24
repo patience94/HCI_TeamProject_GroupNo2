@@ -1,8 +1,8 @@
 # HCI_TeamProject_GroupNo2
 
-## Title & main image
+### Title & main image
 
-## Members
+### Members
 
 ### (1) Introduction: Background and goal of your research
 
@@ -37,7 +37,7 @@
 ![수정됨_check_my_sign](https://user-images.githubusercontent.com/55008408/85476450-46ef7500-b5f3-11ea-8d6d-6f661865da97.png)
 ![수정됨_Setting](https://user-images.githubusercontent.com/55008408/85476446-45be4800-b5f3-11ea-8186-442b043711ea.png)
 -------
-#### Explanation of your program with images
+### Explanation of program
 -------
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/55008408/85473406-253fbf00-b5ee-11ea-8e7c-1951ee7f1e96.gif)
 ##### &nbsp;&nbsp;&nbsp;&nbsp;[시작화면]
@@ -89,4 +89,4 @@
 ##### &nbsp;&nbsp;&nbsp;&nbsp;If we finally success the leap motion based project and supplement diverse skills, this software would be great educational program for young students and for whom are interested in constellation. 
         
         
-## References
+### References
