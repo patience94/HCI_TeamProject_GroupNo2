@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<ThirdParties>
+  <!-- 7zip -->
+  <ThirdParty Id="7zip">
+    <Platform Target="WIN64" Version="16.04" Package="win64_1">
+    </Platform>
+    <Platform Target="MAC64" Version="9.20.0.1" Package="MAC64b">
+    </Platform>
+  </ThirdParty>
+
+  <!-- CMAKE -->
+  <!-- Last update by: Cloud Peng -->
+  <ThirdParty Id="CMAKE" SDK="True">
+    <Platform Package="WIN" Target="WIN64" Version="3.14.5">
+      <Configuration Target="Debug">
+        <Path>bin</Path>
+      </Configuration>
+      <Configuration Target="Release">
+        <Path>bin</Path>
+      </Configuration>
+    </Platform>
+    <Platform Package="MAC64" Target="MAC64" Version="3.14.5">
+      <Configuration Target="Debug">
+        <Path>CMake.app/Contents/bin</Path>
+      </Configuration>
+      <Configuration Target="Release">
+        <Path>CMake.app/Contents/bin</Path>
+      </Configuration>
+    </Platform>
+  </ThirdParty>
+
+  <!-- NINJA -->
+  <ThirdParty Id="ninja" SDK="True">
+    <Platform Package="WIN64" Target="WIN64" Version="1.9.0">
+      <Configuration Target="Debug">
+        <Path></Path>
+      </Configuration>
+      <Configuration Target="Release">
+        <Path></Path>
+      </Configuration>
+    </Platform>
+    <Platform Package="MAC64" Target="MAC64" Version="1.9.0">
+      <Configuration Target="Debug">
+        <Path></Path>
+      </Configuration>
+      <Configuration Target="Release">
+        <Path></Path>
+      </Configuration>
+    </Platform>
+  </ThirdParty>
+
+  <!-- CCACHE -->
+  <ThirdParty Id="CCACHE" SDK="True">
+    <Platform Package="MAC64" Target="MAC64" Version="3.5+108">
+      <Configuration Target="Debug">
+        <Path>bin</Path>
+      </Configuration>
+      <Configuration Target="Release">
+        <Path>bin</Path>
+      </Configuration>
+    </Platform>
+  </ThirdParty>
+
+  <!-- MOXI -->
+  <ThirdParty Id="MOXI" SDK="True">
+      <Platform Package="MAC64" Target="MAC64" Version="5.1.1-5723"/>
+  </ThirdParty>
+
+</ThirdParties>

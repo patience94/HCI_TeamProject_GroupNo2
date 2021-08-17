@@ -1,0 +1,14 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"addin",
+	"author":	"Autodesk Inc.",
+	"description":	{
+		"":	"This is sample addin."
+	},
+	"supportedOS":	"windows|mac",
+	"id":	"48f0023c-5c4f-4c64-9030-5d644cd9ee2a",
+	"version":	"",
+	"runOnStartup":	false,
+	"sourcewindows":	"AddInSample.vcxproj",
+	"sourcemac":	"AddInSample.xcodeproj"
+}

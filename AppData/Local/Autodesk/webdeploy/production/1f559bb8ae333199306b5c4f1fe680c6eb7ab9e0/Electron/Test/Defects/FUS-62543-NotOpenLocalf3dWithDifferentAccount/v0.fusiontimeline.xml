@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TimelineCheck RootComponent="FUS-58778-CrashCloseEcadDocumentTab v1" TimelineSliderPosition="5">
+  <DcFeature CompName="FUS-58778-CrashCloseEcadDocumentTab v1" FeatureName="Outline" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+  <DcFeature CompName="FUS-58778-CrashCloseEcadDocumentTab v1" FeatureName="Extrude1" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+  <DcFeature CompName="FUS-58778-CrashCloseEcadDocumentTab v1" FeatureName="Silkscreen Top" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+  <DcFeature CompName="FUS-58778-CrashCloseEcadDocumentTab v1" FeatureName="Silkscreen Bottom" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+  <DcFeature CompName="Multiple" FeatureName=" Packages:1" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+</TimelineCheck>

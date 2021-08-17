@@ -1,0 +1,9 @@
+<ThirdPartyServers>
+    <ThirdPartyServer Id="Bobcat" Host="art-bobcat.autodesk.com/artifactory/team-fusion360-generic/3p" user="fusion" pass="ope**00" useART="true"/>
+    <ThirdPartyServer Id="Cougar" Host="art-cougar.autodesk.com/artifactory/team-fusion360-generic/3p" user="fusion" pass="ope**00" useART="true"/>
+    <ThirdPartyServer Id="Hare" Host="art-hare.autodesk.com/artifactory/team-fusion360-generic/3p" user="fusion" pass="ope**00" useART="true"/>
+    <ThirdPartyServer Id="Lion" Host="art-lion.autodesk.com/artifactory/team-fusion360-generic/3p" user="fusion" pass="ope**00" useART="true"/>
+    <ThirdPartyServer Id="Panda" Host="art-panda.autodesk.com/artifactory/team-fusion360-generic/3p" user="fusion" pass="ope**00" useART="true"/>
+    <ThirdPartyServer Id="Bear" Host="art-bear.autodesk.com/artifactory/team-fusion360-generic/3p" user="fusion" pass="ope**00" useART="true"/>
+    <ThirdPartyServer Id="Toucan" Host="art-toucan.autodesk.com/artifactory/team-fusion360-generic/3p" user="fusion" pass="ope**00" useART="true"/>
+</ThirdPartyServers>

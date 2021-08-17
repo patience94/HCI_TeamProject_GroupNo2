@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root DllName="NaElectron10" Identifier="Electron" IsCoreAddIn="0" IsUIAddIn="0" IsApplicationAddIn="1" AppName ="Electron" Name="Electron">
+  <NeededAddIns>
+    <NeededAddIn>Scene</NeededAddIn>
+    <NeededAddIn>CommonData</NeededAddIn>
+    <NeededAddIn>Component</NeededAddIn>
+    <NeededAddIn>Body</NeededAddIn>
+    <NeededAddIn>EntityTracking</NeededAddIn>
+  </NeededAddIns>
+  <!--  <DocumentType DocTypeId="ElectronDocType" Extension=".epz" Name="Electron Project Document" Description="Eagle Electron Document"/> -->
+  <AssetType Name="ElectronicDesign" Identifier="ElectronAssetType" BaseServerIdentifier="ElectronProjectType" AddInId="Electron" DefaultDocTypeId="FusionDocType"/>
+  <DependentApps></DependentApps>
+  <Extensions></Extensions>
+</root>

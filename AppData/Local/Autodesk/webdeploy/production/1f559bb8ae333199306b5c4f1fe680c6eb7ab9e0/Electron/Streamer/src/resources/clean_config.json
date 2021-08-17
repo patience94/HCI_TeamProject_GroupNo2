@@ -1,0 +1,393 @@
+{
+    "description" : "Configuration file that contains the files that clean uninstall tool wants to remove",
+	"version" : "0.0.6",
+	"build_version" : "20170623023300",
+	"windows" :
+	{
+	    "Items" : [
+		    {
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Neutron",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Neutron Platform",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Production",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Webdeploy",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Web Services",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360\\AcCore",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Fusion Documentation\\AcCore",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%PROGRAMFILES%\\Autodesk\\FusDoc",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+		    {
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Autodesk Fusion 360",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Common\\Material Library",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Common\\DB Manager",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\Common\\Exchange Archives",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Temp",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : "7Z|7z"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Temp\\Autodesk\\BrowserCache",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Temp\\Autodesk",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Temp\\Proteinrun",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Temp\\ProtoLabs",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Temp\\Neutron",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Temp\\FusionStreamer",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%AppData%\\Autodesk\\MC3",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%AppData%\\Autodesk\\Neutron Platform",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%AppData%\\Autodesk\\NINVFUS",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%AppData%\\Autodesk\\Synergy",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%AppData%\\Autodesk\\Neutron",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%AppData%\\Autodesk\\Autodesk Fusion 360",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%APPDATA%\\Autodesk\\CAM360\\configuration\\libraries.json",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : ""
+			},
+			{
+			    "path" : "C:\\WorkData\\data\\clean_tool\\localTest\\buildinfo.json",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : ""
+			},
+			{
+			    "path" : "%AppData%\\Autodesk\\Fusion 360 CAM\\Settings",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "%USERPROFILE%\\Desktop",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : "Autodesk Fusion 360"
+			},
+			{
+			    "path" : "%LOCALAPPDATA%\\Autodesk\\autodesk.webdeploy.streamer.log",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "autodesk.webdeploy.streamer.log"
+			}
+	    ]
+	},
+	"mac" :
+	{
+	    "Items" : [
+		    {
+			    "path" : "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360",
+				"CleanFlag" : "ForceAll",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/MC3",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/FusionDoc 2016",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Synergy",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Neutron",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Neutron Platform",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/NINVFUS",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Production",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Web Services",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Webdeploy",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/CAM360/configuration/libraries.json",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Fusion 360 CAM/Settings",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/Common",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Downloads",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : "Fusion 360 Client Downloader"
+			},
+			{
+			    "path" : "$HOME/Library/Caches/com.autodesk.senddump",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Preferences/com.autodesk.MC3Framework.plist",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/CrashReporter/MaterialLibraryMigrator...plist",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : ""
+			}, 
+			{
+			    "path" : "/Library/Application Support/Autodesk",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$TMPDIR/Autodesk",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$TMPDIR/Neutron",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$TMPDIR/Proteinrun",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$TMPDIR/FusionStreamer",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Containers/com.autodesk.mas",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Containers/com.autodesk.mas.fusion360",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Application Support/Autodesk/FusionDoc R3",
+				"CleanFlag" : "Default",
+				"isFile" : false,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Preferences/com.autodesk.AcCoreConsole.plist",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : ""
+			},
+			{
+			    "path" : "$HOME/Library/Logs/autodesk.webdeploy.streamer.log",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "autodesk.webdeploy.streamer.log"
+			},
+			{
+			    "path" : "$HOME/Library/Preferences/com.autodesk.Autodesk Fusion 360.Autodesk Fusion 360.plist",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "com.autodesk.Autodesk Fusion 360"
+			},
+			{
+			    "path" : "$HOME/Library/Preferences/com.autodesk.Autodesk Sim 360.Autodesk Sim 360.plist",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "com.autodesk.Autodesk Sim 360"
+			},
+			{
+			    "path" : "$HOME/Library/Preferences/com.autodesk.fusion360.Autodesk Fusion 360.plist",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "com.autodesk.fusion360"
+			},
+			{
+			    "path" : "$HOME/Library/Preferences/com.autodesk.edu.fusion360.plist",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "com.autodesk.edu.fusion360"
+			},
+			{
+			    "path" : "$HOME/Library/Preferences/com.autodesk.mas.fusion360.plist",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "com.autodesk.mas.fusion360"
+			},
+			{
+			    "path" : "$HOME/Library/Preferences/com.autodesk.Neutron.plist",
+				"CleanFlag" : "Default",
+				"isFile" : true,
+				"filter" : "com.autodesk.Neutron"
+			}
+	    ]
+	}
+}

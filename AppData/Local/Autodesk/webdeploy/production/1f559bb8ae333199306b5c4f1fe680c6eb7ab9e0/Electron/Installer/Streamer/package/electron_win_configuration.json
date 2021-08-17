@@ -1,0 +1,17 @@
+{
+	"build"	   : "Release",
+
+	"platform" : "win32",
+	
+	"packageId": "3cb417bbc9f040edb401a69843afc9bc",
+
+	"included-files" : [
+	{
+    "include-filter": [
+      "Applications/Electron/",
+      "Translators/NaEagleTranslator/",
+      "Electron/"
+    ]
+	}
+    ]
+}

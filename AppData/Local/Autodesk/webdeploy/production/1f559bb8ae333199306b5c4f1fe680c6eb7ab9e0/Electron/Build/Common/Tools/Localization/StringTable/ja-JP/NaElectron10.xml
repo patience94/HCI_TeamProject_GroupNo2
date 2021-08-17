@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="ElectronComponentRootDefaultUserName" devLabel="ElectronComponent" translation="ElectronComponent"/>
+	<label commandName="ElectronDesignDocumentsNotInSync" devLabel="Board and schematic are not consistent!&#xA;&#xA;No forward-/backannotation will be performed!&#xA;&#xA;Use the ERC command to get a detailed error report." translation="ボードと回路図が一致しません。&#xA;&#xA;前後の注釈付けは実行されません。&#xA;&#xA;ERC コマンドを使用して詳細なエラー レポートを取得してください。"/>
+	<label commandName="ElectronExtFileBlobSerializer" devLabel="Electron failed to generate a small thumbnail." translation="Electron は小さなサムネイルの生成に失敗しました。"/>
+	<label commandName="ElectronLbrDocAssetType" devLabel="Library Document Asset" translation="ライブラリ ドキュメント アセット"/>
+	<label commandName="ElectronOptionGroupUserName" devLabel="ECAD" translation="ECAD"/>
+	<label commandName="ElectronPcbDocAssetType" devLabel="PCB Document Asset" translation="PCB ドキュメント アセット"/>
+	<label commandName="ElectronProjectDocAssetType" devLabel="Electronics Design Document Asset" translation="電子部品デザイン ドキュメント アセット"/>
+	<label commandName="ElectronSchDocAssetType" devLabel="Schematic Document Asset" translation="回路図ドキュメント アセット"/>
+	<label commandName="PCB2dUpdateToLatestConfirm" devLabel="The linked PCB2d file has new version(s).&#xA;Do you want to load the latest version?" translation="リンクされた PCB2d ファイルに新しいバージョンがあります。&#xA;新バージョンをロードしますか?"/>
+	<label commandName="PCB3dUpdateToLatestConfirm" devLabel="The linked PCB3d file has new version(s).&#xA;Do you want to load the latest version?" translation="リンクされた PCB3d ファイルに新しいバージョンがあります。&#xA;新バージョンをロードしますか?"/>
+	<label commandName="PCBUpdateToLatestConfirm" devLabel="The linked PCB file has new version(s).&#xA;Do you want to load the latest version?" translation="リンクされた PCB ファイルに新しいバージョンがあります。&#xA;新バージョンをロードしますか?"/>
+	<label commandName="SCHUpdateToLatestConfirm" devLabel="The linked Schematic file has new version(s).&#xA;Do you want to load the latest version?" translation="リンクされた回路図ファイルに新しいバージョンがあります。&#xA;新バージョンをロードしますか?"/>
+	<label commandName="UnsavedDocumentLabel" devLabel="(Unsaved)" translation="(未保存)"/>
+	<label commandName="UpdateToLatestConfirm" devLabel="The linked file has new version(s).&#xA;Do you want to load the latest version?" translation="リンクされたファイルに新しいバージョンがあります。&#xA;新バージョンをロードしますか?"/>
+</Resource>

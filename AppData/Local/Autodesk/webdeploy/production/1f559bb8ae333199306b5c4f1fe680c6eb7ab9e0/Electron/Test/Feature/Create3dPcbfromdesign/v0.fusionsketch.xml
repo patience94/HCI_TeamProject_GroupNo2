@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FusionBrowserDumpRoot>
+  <FusionComponentInstanceBrowserEntry Name="(Unsaved)">
+    <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes">
+      <FusionMSketchBrowserEntry Name="Outline" Visible="No">
+        <MSketch>
+          <Points Size="1">
+            <Point IsFixed="Yes" Position="0, 0, 0"/>
+          </Points>
+          <Curves Size="1">
+            <Curve IsConstruction="No" IsFixed="No" Radius="4.242641" Type="CircArc3D" Vector="0, 0, -1">
+              <CenterPoint IsFixed="No" Position="4.242641, 4.242641, -0.15"/>
+            </Curve>
+          </Curves>
+        </MSketch>
+      </FusionMSketchBrowserEntry>
+    </FusionSketchesBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Name="1-copper:1">
+      <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes"/>
+    </FusionComponentInstanceBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Name="16-copper:1">
+      <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes"/>
+    </FusionComponentInstanceBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Name="1-soldermask:1">
+      <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes"/>
+    </FusionComponentInstanceBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Name="16-soldermask:1">
+      <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes"/>
+    </FusionComponentInstanceBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Name="Packages:1">
+      <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes"/>
+    </FusionComponentInstanceBrowserEntry>
+  </FusionComponentInstanceBrowserEntry>
+</FusionBrowserDumpRoot>

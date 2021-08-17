@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="3D PCB Environment" devLabel="Package" translation="" />
+	<label commandName="3D Package Editor" devLabel="3D Package Editor" translation="" />
+	<label commandName="AllPackagesUpdatedFromModifiedFootprint" devLabel="Packages are updated and synced successfully with the footprints. Save the library to include the changes." translation="" />
+	<label commandName="BoardLayoutEditorEnvironment" devLabel="PCB Editor" translation="" />
+	<label commandName="ChangeLinkedSketchForBoard" devLabel="The board in 3D PCB links with derived sketch, do you want to update the components only? Click &quot;No&quot; to reassociate the outline." translation="" />
+	<label commandName="ChatSupport" devLabel="Chat with an Expert" translation="" />
+	<label commandName="CommonTab" devLabel="COMMON" translation="" />
+	<label commandName="ConfirmToOpenElectronicDesign1" devLabel="The linked file is used by this electronics design:&#10;" translation="" />
+	<label commandName="ConfirmToOpenElectronicDesign3" devLabel="&#10;Do you want to close it and open the new one?" translation="" />
+	<label commandName="ContentManagerPanel" devLabel="Content Manager" translation="" />
+	<label commandName="ContentManagerPanelCloseCmd" devLabel="Hide Content Manager Command" translation="" />
+	<label commandName="ContentManagerPanelCloseCommand" devLabel="Hide Content Manager Panel" translation="" />
+	<label commandName="ContentManagerPanelOpenCmd" devLabel="Show Content Manager Command" translation="" />
+	<label commandName="ContentManagerPanelOpenCommand" devLabel="Show Content Manager Panel" translation="" />
+	<label commandName="Create Footprint" devLabel="Create Footprint" translation="" />
+	<label commandName="Create New Package" devLabel="Create New Package" translation="" />
+	<label commandName="CreatePCBHeightInput" devLabel="Thickness" translation="" />
+	<label commandName="CreatePCBProfileInput" devLabel="Profile" translation="" />
+	<label commandName="DesignManager" devLabel="Design Manager" translation="" />
+	<label commandName="EditElectronDescription" devLabel="Edit Electron Description" translation="" />
+	<label commandName="EditorSidePanelCloseCommand" devLabel="Hide Editor Side Panel" translation="" />
+	<label commandName="EditorSidePanelOpenCommand" devLabel="Show Editor Side Panel" translation="" />
+	<label commandName="Electron::AddHoleTips" devLabel="A hole generates a symbol in the Holes layer as well as a circle with the diameter of the hole in the Dimension layer." translation="" />
+	<label commandName="Electron::AddHoleTitle" devLabel="Hole" translation="" />
+	<label commandName="Electron::AddPartDesc" devLabel="The AddPart command can be used with wildcards ('*' or '?') to find a specific device." translation="" />
+	<label commandName="Electron::AddPartTips" devLabel="Usually you click the AddPart command and select the footprint or symbol from the menu that opens. If necessary, parameters can be entered from the keyboard." translation="" />
+	<label commandName="Electron::AddPartTitle" devLabel="Add Part" translation="" />
+	<label commandName="Electron::AddTextTips" devLabel="The orientation of the text can be defined by the Text command (orientation) using the definitions listed in the Add command, such as R0 and R90. The right mouse button changes the rotation of the text and the center mouse button changes the current layer." translation="" />
+	<label commandName="Electron::AddTextTitle" devLabel="AddText" translation="" />
+	<label commandName="Electron::AlignTips" devLabel="The Align command uses axis aligned bounding boxes of objects to be aligned for all modes except for Align Origin to Grid mode (which as the name implies uses the origin of the object to be aligned)." translation="" />
+	<label commandName="Electron::AlignTitle" devLabel="Align Objects" translation="" />
+	<label commandName="Electron::ArcTips" devLabel="Use the parameters CW (clockwise) and CCW (counterclockwise) to define the direction of the arc. ROUND and FLAT define whether the arc endings are round or flat, respectively." translation="" />
+	<label commandName="Electron::ArcTitle" devLabel="Arc" translation="" />
+	<label commandName="Electron::AttributeTips" devLabel="Attributes can be defined in the library (for individual devices), in the schematic (for an actual part) or in the board (for an actual element). Attributes defined on the device level will be used for every part of that device type in the schematic. In a schematic, additional attributes can be defined for each part, and existing attributes from the devices can be overwritten with new values (if the attributes have been defined as variable). An element in the board has all the attributes of its corresponding part, and can have further attributes of its own." translation="" />
+	<label commandName="Electron::AttributeTitle" devLabel="Attribute" translation="" />
+	<label commandName="Electron::AutoRouterTips" devLabel="The Load and Save options can be used to load the AutoRouter parameters from or save them to the given file. If filename doesn't have the extension '.ctl' it will be appended automatically." translation="" />
+	<label commandName="Electron::AutoRouterTitle" devLabel="Autorouter" translation="" />
+	<label commandName="Electron::BusTips" devLabel="Reusable bus specifications can be saved as Predefined Buses (PDBs). The PDBs are saved in a file and can be used across projects, even shared with others. " translation="" />
+	<label commandName="Electron::BusTitle" devLabel="Bus" translation="" />
+	<label commandName="Electron::ChangeTips" devLabel="Parameters adjusted with the Change command remain as preset properties for objects added later." translation="" />
+	<label commandName="Electron::ChangeTitle" devLabel="Change" translation="" />
+	<label commandName="Electron::CircleTips" devLabel="Circles in the layers tRestrict, bRestrict, and vRestrict define restricted areas. They should be defined with a width of 0." translation="" />
+	<label commandName="Electron::CircleTitle" devLabel="Circle" translation="" />
+	<label commandName="Electron::CopyTips" devLabel="Copy places the selected group of objects on the clipboard, to support multiple Paste operations." translation="" />
+	<label commandName="Electron::CopyTitle" devLabel="Copy" translation="" />
+	<label commandName="Electron::DRCTips" devLabel="Any errors found are displayed as error polygons in the respective layers, and can be browsed through using the Errors command." translation="" />
+	<label commandName="Electron::DRCTitle" devLabel="Design Rule Check" translation="" />
+	<label commandName="Electron::DeleteTips" devLabel="After deleting a group, airwires may be left over from the removal of a component, because the airwires were not part of the group. In such a case you can recalculate the airwires with the RatsNest command." translation="" />
+	<label commandName="Electron::DeleteTitle" devLabel="Delete" translation="" />
+	<label commandName="Electron::DimensionTips" devLabel="Control how dimensions are drawn by using the Change command with options such as DLine and DUnit." translation="" />
+	<label commandName="Electron::DimensionTitle" devLabel="Dimension" translation="" />
+	<label commandName="Electron::DisplayTips" devLabel="Layer Settings." translation="" />
+	<label commandName="Electron::DisplayTitle" devLabel="Layer Settings" translation="" />
+	<label commandName="Electron::ERCTips" devLabel="ERC detects inconsistencies between the implicit power and supply pins in the schematic and the actual signal connections in the board. Such inconsistencies can occur if the supply pin configuration is modified after the board has been created with the Board command." translation="" />
+	<label commandName="Electron::ERCTitle" devLabel="Electrical Rule Check" translation="" />
+	<label commandName="Electron::ErrorsTips" devLabel="The list view in the Errors dialog has up to four sections that contain Consistency errors, Errors, Warnings and Approved messages." translation="" />
+	<label commandName="Electron::ErrorsTitle" devLabel="Errors" translation="" />
+	<label commandName="Electron::FanoutTips" devLabel="The Width parameter defines the width of the routed wire for the fanout and is the same parameter as used in the Route command. The width can be changed with the command 'Change Width width;'." translation="" />
+	<label commandName="Electron::FanoutTitle" devLabel="Fanout" translation="" />
+	<label commandName="Electron::FlipBoardTips" devLabel="" translation="" />
+	<label commandName="Electron::FlipBoardTitle" devLabel="" translation="" />
+	<label commandName="Electron::GateSwapTips" devLabel="The name used in the GateSwap command is the displayed name on the schematic (e.g. U1A for gate A in device U1)" translation="" />
+	<label commandName="Electron::GateSwapTitle" devLabel="GateSwap" translation="" />
+	<label commandName="Electron::GridTips" devLabel="" translation="" />
+	<label commandName="Electron::GridTitle" devLabel="Grid" translation="" />
+	<label commandName="Electron::GroupTips" devLabel="The group includes all objects whose origin is inside the polygon, all wires with at least one endpoint inside the polygon, all circles whose center is inside the polygon, and all rectangles with any corner inside the polygon." translation="" />
+	<label commandName="Electron::GroupTitle" devLabel="Group" translation="" />
+	<label commandName="Electron::InfoTips" devLabel="Parts, pads, smds, pins and gates can be selected by their name, which is useful if the object is outside the currently shown window area." translation="" />
+	<label commandName="Electron::InfoTitle" devLabel="Info" translation="" />
+	<label commandName="Electron::InvokeTips" devLabel="To activate gates, first enter the part name (e.g. IC5) and select the gate from the popup dialog. Then define device and gate name from the keyboard (e.g. Invoke IC5 Power). Select an existing gate from the device with the mouse and then select the desired gate from the popup menu that appears. Finally, click to position the new gate." translation="" />
+	<label commandName="Electron::InvokeTitle" devLabel="Invoke" translation="" />
+	<label commandName="Electron::JunctionTips" devLabel="If a net wire is placed at a point where there are at least two other net wires and/or pins, a junction will automatically be placed. " translation="" />
+	<label commandName="Electron::JunctionTitle" devLabel="Junction" translation="" />
+	<label commandName="Electron::LabelTips" devLabel="Labels are handled as text, but their value corresponds to the name of the particular bus or net. If a bus or net is renamed with the Name command, all associated labels are renamed automatically." translation="" />
+	<label commandName="Electron::LabelTitle" devLabel="Label" translation="" />
+	<label commandName="Electron::LayerTips" devLabel="On the command line, specify a different layer by name or number: 'Layer layer_name' or 'Layer layer_number'." translation="" />
+	<label commandName="Electron::LayerTitle" devLabel="Layer" translation="" />
+	<label commandName="Electron::LineTips" devLabel="Press the center mouse button to bring up a popup menu and select the layer on which to draw the line." translation="" />
+	<label commandName="Electron::LineTitle" devLabel="Line" translation="" />
+	<label commandName="Electron::ManualRouteTips" devLabel="When you select an airwire (a connection on the Unrouted layer), routing begins at the signal object connected to the airwire that is closest to your selection point. Otherwise, the ManualRoute command automatically creates a new airwire from your selected route start point to a nearby target object that is a member of the same signal." translation="" />
+	<label commandName="Electron::ManualRouteTitle" devLabel="ManualRoute" translation="" />
+	<label commandName="Electron::MarkTips" devLabel="Choose a grid fine enough before using the Mark command." translation="" />
+	<label commandName="Electron::MarkTitle" devLabel="Mark" translation="" />
+	<label commandName="Electron::MeanderTips" devLabel="The meander starts at the first click point and extends to the second point the mouse is moved to. The maximum (perpendicular) size of the meander is defined by the distance of the mouse to the meandered wire." translation="" />
+	<label commandName="Electron::MeanderTitle" devLabel="Meander" translation="" />
+	<label commandName="Electron::MirrorTips" devLabel="Parts, pads, smds and pins can also be selected by their name, which is useful if the object is outside the currently shown window area." translation="" />
+	<label commandName="Electron::MirrorTitle" devLabel="Mirror" translation="" />
+	<label commandName="Electron::MiterTips" devLabel="If you select a point where exactly two straight wires join, an additional wire will be inserted between these two wires, according to the given radius. If you click-drag on such a point with the left mouse button, you can define the mitering wire dynamically." translation="" />
+	<label commandName="Electron::MiterTitle" devLabel="Miter" translation="" />
+	<label commandName="Electron::ModuleTips" devLabel="The orientation of the module instance can be defined textually using the usual definitions as listed in the Add command, such as R0 or R90." translation="" />
+	<label commandName="Electron::ModuleTitle" devLabel="Module" translation="" />
+	<label commandName="Electron::MoveTips" devLabel="When moving elements, connected wires (tracks) that belong to a signal are moved too (beware of short circuits!)." translation="" />
+	<label commandName="Electron::MoveTitle" devLabel="Move" translation="" />
+	<label commandName="Electron::NetTips" devLabel="Net wires snap to the tips of pins. When the mouse is within Snap_Length of any portion of a pin (either before or after grid snapping), a small circle appears at the tip of the pin. This indicates that if the mouse is clicked, the resulting net wire point will be placed at the pin tip, creating a connection to the pin." translation="" />
+	<label commandName="Electron::NetTitle" devLabel="Net" translation="" />
+	<label commandName="Electron::OptimizeTips" devLabel="When selecting a wire without name, all unnamed wires of the drawing are optimized." translation="" />
+	<label commandName="Electron::OptimizeTitle" devLabel="Optimize" translation="" />
+	<label commandName="Electron::PaintRollerTips" devLabel="Start the command in the command line or with the PaintRoller icon in the commands toolbar." translation="" />
+	<label commandName="Electron::PaintRollerTitle" devLabel="PaintRoller" translation="" />
+	<label commandName="Electron::PasteTips" devLabel="When pasting from a file, nets that have a label or are connected to a supply pin retain their names, while all others get newly generated names." translation="" />
+	<label commandName="Electron::PasteTitle" devLabel="Paste" translation="" />
+	<label commandName="Electron::PatternTips" devLabel="This command can be used in the Schematic, Layout, and Library Editor." translation="" />
+	<label commandName="Electron::PatternTitle" devLabel="Pattern" translation="" />
+	<label commandName="Electron::PinSwapTips" devLabel="Wires attached to the swapped pins are moved with the pins, so short circuits can appear. Run the design rules check (DRC) and correct possible errors." translation="" />
+	<label commandName="Electron::PinSwapTitle" devLabel="PinSwap" translation="" />
+	<label commandName="Electron::PolygonTips" devLabel="The polygon width should always be larger than the hardware resolution of the output device." translation="" />
+	<label commandName="Electron::PolygonTitle" devLabel="Polygon" translation="" />
+	<label commandName="Electron::PortTips" devLabel="The position and orientation are calculated automatically on the closest side of the module symbol." translation="" />
+	<label commandName="Electron::PortTitle" devLabel="Port" translation="" />
+	<label commandName="Electron::QuickRouteAirWireTips" devLabel="You can select an existing wire, pad, or via in the design, and if the command can determine an unambiguous nearby airwire then it will route that." translation="" />
+	<label commandName="Electron::QuickRouteAirWireTitle" devLabel="QuickRouteAirWire" translation="" />
+	<label commandName="Electron::QuickRouteMultiWireTips" devLabel="Press the Esc key if you need to clear the selection list and begin again." translation="" />
+	<label commandName="Electron::QuickRouteMultiWireTitle" devLabel="QuickRouteMultiWire" translation="" />
+	<label commandName="Electron::QuickRouteSignalTips" devLabel="When the signal that you have selected is one side of a differential pair, the command automatically routes both differential pair signals together." translation="" />
+	<label commandName="Electron::QuickRouteSignalTitle" devLabel="QuickRouteSignal" translation="" />
+	<label commandName="Electron::RatsnestTips" devLabel="Ratsnest also calculates all polygons belonging to a signal. This avoids the calculation of airwires for pads already connected through polygons." translation="" />
+	<label commandName="Electron::RatsnestTitle" devLabel="Ratsnest" translation="" />
+	<label commandName="Electron::RectangleTips" devLabel="The orientation (see description in Add command) can be any angle in the range R0–R359.9." translation="" />
+	<label commandName="Electron::RectangleTitle" devLabel="Rectangle" translation="" />
+	<label commandName="Electron::ReplaceTips" devLabel="Without parameters, the Replace command opens a dialog from which to select a device from all libraries currently in use. After such a device has been selected, subsequent mouse clicks on parts replace those parts' devices with the selected one if possible." translation="" />
+	<label commandName="Electron::ReplaceTitle" devLabel="Replace" translation="" />
+	<label commandName="Electron::RepositionAttributesTips" devLabel="Parts and elements can also be selected by their name, which is useful if the object is outside the currently shown window area. " translation="" />
+	<label commandName="Electron::RepositionAttributesTitle" devLabel="RepositionAttributes" translation="" />
+	<label commandName="Electron::RipupAllPolygonsTips" devLabel="To invoke the same command using the command line, enter RIPUP @; and press 'ENTER'." translation="" />
+	<label commandName="Electron::RipupAllPolygonsTitle" devLabel="RipupAllPolygons" translation="" />
+	<label commandName="Electron::RipupAllTips" devLabel="If the Ripup command with a name is applied to a signal that contains a polygon, the polygon is displayed with its outlines for faster screen redraw. Use the Ratsnest command to have polygons displayed in the 'real mode' again." translation="" />
+	<label commandName="Electron::RipupAllTitle" devLabel="Ripup" translation="" />
+	<label commandName="Electron::RipupConnectedSameLayerTips" devLabel="Use Ripup Connected Copper on the same layer to ripup fanouts, BGA breakouts, etc." translation="" />
+	<label commandName="Electron::RipupConnectedSameLayerTitle" devLabel="RipupConnectedSameLayer" translation="" />
+	<label commandName="Electron::RipupConnectedTips" devLabel="Use Ripup Connected Copper to limit the scope of a ripup and make reworking sections easier." translation="" />
+	<label commandName="Electron::RipupConnectedTitle" devLabel="RipupConnected" translation="" />
+	<label commandName="Electron::RipupElementToElementTips" devLabel="Useful when rerouting connections between components including memory signals, buses, etc" translation="" />
+	<label commandName="Electron::RipupElementToElementTitle" devLabel="RipupElementToElement" translation="" />
+	<label commandName="Electron::RipupSignalTips" devLabel="Use to ripup all tracks, vias and polygons in a selected signal" translation="" />
+	<label commandName="Electron::RipupSignalTitle" devLabel="RipupSignal" translation="" />
+	<label commandName="Electron::RipupTips" devLabel="If the Ripup command with a name is applied to a signal that contains a polygon, the polygon is displayed with its outlines for faster screen redraw. Use the Ratsnest command to have polygons displayed in the 'real mode' again." translation="" />
+	<label commandName="Electron::RipupTitle" devLabel="Ripup" translation="" />
+	<label commandName="Electron::RotateTips" devLabel="If orientation angle is specified, that value will be added to the current orientation of the selected object. Prefixing orientation with the character '=' causes the angle value not to be added, but set absolutely." translation="" />
+	<label commandName="Electron::RotateTitle" devLabel="Rotate" translation="" />
+	<label commandName="Electron::RouteDiffPairTips" devLabel="When selecting an airwire of a Differential Pair, both signals are routed in parallel. The distance between the two signals as well as the wire and via sizes are determined by the signals' net class. This is done independent of the setting of Options/Set/Misc/Auto set route width and drill." translation="" />
+	<label commandName="Electron::RouteDiffPairTitle" devLabel="RouteDiff" translation="" />
+	<label commandName="Electron::RouteMultiTips" devLabel="To select the signals to route, draw a selection line that intersects through the signal objects that you wish to route concurrently (existing wires, pads, and vias). Continue to draw additional selection lines to add more signal objects." translation="" />
+	<label commandName="Electron::RouteMultiTitle" devLabel="RouteMulti" translation="" />
+	<label commandName="Electron::RunScriptTips" devLabel="If RunScript is typed in at the keyboard and 'file_name' has no extension, the program automatically uses '.scr'." translation="" />
+	<label commandName="Electron::RunScriptTitle" devLabel="RunScript" translation="" />
+	<label commandName="Electron::ShowTips" devLabel="Select more than one object for highlighting by pressing the Ctrl key when clicking on the objects." translation="" />
+	<label commandName="Electron::ShowTitle" devLabel="Show" translation="" />
+	<label commandName="Electron::SignalTips" devLabel="If you use the Signal command to connect pads (or smds) that already belong to different signals, a popup will ask you if you want to connect the signals together, and which name to use for the signal." translation="" />
+	<label commandName="Electron::SignalTitle" devLabel="Signal" translation="" />
+	<label commandName="Electron::SliceTips" devLabel="Only lines from from displayed layers can be sliced. Air lines and polygons are not sliced." translation="" />
+	<label commandName="Electron::SliceTitle" devLabel="Slice" translation="" />
+	<label commandName="Electron::SplitTips" devLabel="A mouseclick defines the point at which the wire is split. The shorter of the two new segments follows the current wire bend rules and can therefore become two more segments; the longer segment is a straight segment running to the next end point." translation="" />
+	<label commandName="Electron::SplitTitle" devLabel="Split" translation="" />
+	<label commandName="Electron::Tips" devLabel="Started from a context menu, the object is assigned to a group. It can be identified with the built-in function ingroup() for further processing." translation="" />
+	<label commandName="Electron::Title" devLabel="RunULP" translation="" />
+	<label commandName="Electron::ToggleSingleLayerTips" devLabel="ToggleSingleLayer." translation="" />
+	<label commandName="Electron::ToggleSingleLayerTitle" devLabel="ToggleSingleLayer" translation="" />
+	<label commandName="Electron::ValueTips" devLabel="If you type in a value before you select an element, then all of the subsequently selected elements receive this value." translation="" />
+	<label commandName="Electron::ValueTitle" devLabel="Value" translation="" />
+	<label commandName="Electron::ViaTips" devLabel="The via is added to a signal if it is placed on an existing signal wire." translation="" />
+	<label commandName="Electron::ViaTitle" devLabel="Via" translation="" />
+	<label commandName="Electron::ZoomInTips" devLabel="TBD" translation="" />
+	<label commandName="Electron::ZoomInTitle" devLabel="ZoomIn" translation="" />
+	<label commandName="Electron::ZoomOutTips" devLabel="TBD" translation="" />
+	<label commandName="Electron::ZoomOutTitle" devLabel="ZoomOut" translation="" />
+	<label commandName="Electron::ZoomRectTips" devLabel="TBD" translation="" />
+	<label commandName="Electron::ZoomRectTitle" devLabel="ZoomRect" translation="" />
+	<label commandName="Electron::ZoomToFitTips" devLabel="TBD" translation="" />
+	<label commandName="Electron::ZoomToFitTitle" devLabel="ZoomToFit" translation="" />
+	<label commandName="ElectronColorOptionsDescription" devLabel="Color Preferences for Electronics" translation="" />
+	<label commandName="ElectronColorOptionsName" devLabel="Color" translation="" />
+	<label commandName="ElectronDesignDocumentsNotInSync" devLabel="Board and schematic are not consistent!&#10;&#10;No forward-/backannotation will be performed!&#10;&#10;Use the ERC command to get a detailed error report." translation="" />
+	<label commandName="ElectronDrillOptionsDescription" devLabel="Drill Preferences for Electronics" translation="" />
+	<label commandName="ElectronDrillOptionsName" devLabel="Drill" translation="" />
+	<label commandName="ElectronMiscOptionsDescription" devLabel="Misc Preferences for Electronics" translation="" />
+	<label commandName="ElectronMiscOptionsName" devLabel="Misc" translation="" />
+	<label commandName="ElectronNewDesignDocument" devLabel="New Electronics Design" translation="" />
+	<label commandName="ElectronNewDocument" devLabel="New Electron Document" translation="" />
+	<label commandName="ElectronNewLbrDocument" devLabel="New Electronics Library" translation="" />
+	<label commandName="ElectronNewPcbDocument" devLabel="New PCB" translation="" />
+	<label commandName="ElectronNewSchDocument" devLabel="New Schematic" translation="" />
+	<label commandName="ElectronOptionsDescription" devLabel="Preferences for Electronics" translation="" />
+	<label commandName="ElectronOptionsName" devLabel="Electronics" translation="" />
+	<label commandName="ElectronSaveAllCmd" devLabel="Save all command" translation="" />
+	<label commandName="Electronic3DPCB" devLabel="3D PCB" translation="" />
+	<label commandName="ElectronicBoard" devLabel="Board" translation="" />
+	<label commandName="ElectronicPCB" devLabel="PCB" translation="" />
+	<label commandName="ElectronicPCB3DBottom" devLabel="PCB3D Bottom" translation="" />
+	<label commandName="ElectronicPCB3DTop" devLabel="PCB3D Top" translation="" />
+	<label commandName="ElectronicProjectDesign" devLabel="Project Design" translation="" />
+	<label commandName="ElectronicSchematic" devLabel="Schematic" translation="" />
+	<label commandName="ElectronicSheet" devLabel="Sheet%1" translation="" />
+	<label commandName="Electronics Library Device Design Environment" devLabel="Device" translation="" />
+	<label commandName="Electronics Library EmptyLbr Design Environment" devLabel="EmptyLbr" translation="" />
+	<label commandName="Electronics Library Footprint Design Environment" devLabel="Footprint" translation="" />
+	<label commandName="Electronics Library Package 3D Browse Environment" devLabel="Package 3d" translation="" />
+	<label commandName="Electronics Library Symbol Design Environment" devLabel="Symbol" translation="" />
+	<label commandName="FailToAccessPackage3DDoc" devLabel="Fail to access new 3d package document." translation="" />
+	<label commandName="FailToCreatePCB3dDoc" devLabel="Fail to create PCB 3d document!" translation="" />
+	<label commandName="FailToCreatePCBDoc" devLabel="Fail to create PCB document!" translation="" />
+	<label commandName="FailToCreatePackage3DDoc" devLabel="Fail to create new 3d package document." translation="" />
+	<label commandName="FailToCreatePackageFromFootprint" devLabel="Package can not be created from empty footprint." translation="" />
+	<label commandName="FailToExecuteEagleULP" devLabel="Fail to execute eagle ulp." translation="" />
+	<label commandName="FailToGenerateResult" devLabel="Fail to generate result." translation="" />
+	<label commandName="FailToOpenPCB3DDoc" devLabel="Fail to open PCB3D document!" translation="" />
+	<label commandName="FailToOpenPCBDoc" devLabel="Fail to open PCB document!" translation="" />
+	<label commandName="FailedToDownload3DModel" devLabel="Failed to store downloaded 3d model." translation="" />
+	<label commandName="FailedToGetReferenceFile" devLabel="Failed to get the referenced file." translation="" />
+	<label commandName="FailedToOpenPackage3D" devLabel="Failed to open 3D package document." translation="" />
+	<label commandName="FailedToOpenReferenceFile" devLabel="Failed to open the referenced file." translation="" />
+	<label commandName="FailedToReferenceTheFile" devLabel="Failed to get the referenced file." translation="" />
+	<label commandName="FailedToStore3DModel" devLabel="Failed to load 3d model." translation="" />
+	<label commandName="FileOpenFilterDesignPCB" devLabel="All supported files (*.fbrd *.brd)" translation="" />
+	<label commandName="FileOpenFilterDesignSch" devLabel="All supported files (*.fsch *.sch)" translation="" />
+	<label commandName="FinishPackage3D" devLabel="Do you want to finish the package and add to the library?" translation="" />
+	<label commandName="FinishPackage3DWarning" devLabel="Package can not be finished without a footprint." translation="" />
+	<label commandName="FinishPackage3DWarningWhenSavingDocument" devLabel="The document is currently being saved. You can finish the package after saving the document." translation="" />
+	<label commandName="FocusEagleCommandLine" devLabel="Set focus on EAGLE command line bar" translation="" />
+	<label commandName="FusionPackage3DStop" devLabel="Finish" translation="" />
+	<label commandName="GetLatestElectronCommand" devLabel="Get All Latest" translation="" />
+	<label commandName="GetLatestPcbCommand" devLabel="Get Latest PCB" translation="" />
+	<label commandName="GetLatestSchCommand" devLabel="Get Latest Schematic" translation="" />
+	<label commandName="HideElectronDescriptionCmd" devLabel="Hide Electron Description Command" translation="" />
+	<label commandName="HideElectronDescriptionCommand" devLabel="Hide Electron Design Description" translation="" />
+	<label commandName="HideElectronDesignManagerCmd" devLabel="Hide Electron Design Manager Command" translation="" />
+	<label commandName="HideElectronDesignManagerCommand" devLabel="Hide Design Manager" translation="" />
+	<label commandName="HideElectronInspectorCmd" devLabel="Hide Electron Inspector Command" translation="" />
+	<label commandName="HideElectronInspectorCommand" devLabel="Hide Inspector" translation="" />
+	<label commandName="HideElectronSelectionFilterCmd" devLabel="Hide Electron Selection Filter Command" translation="" />
+	<label commandName="HideElectronSelectionFilterCommand" devLabel="Hide Selection Filter" translation="" />
+	<label commandName="HideElectronSheetsCmd" devLabel="Hide Electron Sheets Command" translation="" />
+	<label commandName="HideElectronSheetsCommand" devLabel="Hide Sheets" translation="" />
+	<label commandName="Inspector" devLabel="Inspector" translation="" />
+	<label commandName="LaunchRedoCmdDef" devLabel="Launch the redo command" translation="" />
+	<label commandName="LaunchUndoCmdDef" devLabel="Launch the undo command" translation="" />
+	<label commandName="LearningPanel" devLabel="In Product Marketing" translation="" />
+	<label commandName="Link 3D PCB to existing brd" devLabel="Link to 2D PCB" translation="" />
+	<label commandName="LinkedDocumentNotReady" devLabel="The linked document wasn't ready yet, please try it again." translation="" />
+	<label commandName="LinktoSelectTarget" devLabel="Link to" translation="" />
+	<label commandName="MainDashboard" devLabel="Data Panel" translation="" />
+	<label commandName="MissPCBDesign" devLabel="Please open or create an electronics design to continue." translation="" />
+	<label commandName="NewElectronDesignMenuCommand" devLabel="New Electronics Design" translation="" />
+	<label commandName="OpenLinkedDocument" devLabel="Open" translation="" />
+	<label commandName="PCB2DAndPCB3DOutOfSync1" devLabel="The 2D and 3D PCB documents are out of sync.&#10;To synchronize, ensure any changes to the 2D document have been pushed to 3D from the Switch section located in the main PCB toolbar. From the 3D PCB, push changes by clicking the PCB icon in the Modify section of the main toolbar.&#10;Do you want to continue?" translation="" />
+	<label commandName="PCB2DAndPCB3DOutOfSync2" devLabel="The 2D and 3D PCB documents are out of sync.&#10;To synchronize, ensure any changes to the 2D document have been pushed to 3D from the Switch section located in the main PCB toolbar. From the 3D PCB, push changes by clicking the PCB icon in the Modify section of the main toolbar." translation="" />
+	<label commandName="PCBDesignEnvironment" devLabel="Electronics Design" translation="" />
+	<label commandName="PLM360NotAuthenticated" devLabel="No valid login session, try logging in again." translation="" />
+	<label commandName="Package3DCmd" devLabel="Package 3D editor" translation="" />
+	<label commandName="Package3DLibrarySwitchWarning" devLabel="Could not find the library document for this 3D package." translation="" />
+	<label commandName="Package3DStop" devLabel="Finish and update library" translation="" />
+	<label commandName="PanelInDesign" devLabel="" translation="" />
+	<label commandName="PcbManufacturing" devLabel="Manufacturing" translation="" />
+	<label commandName="PcbRulesDrcErc" devLabel="Rules DRC/ERC" translation="" />
+	<label commandName="Push 3D PCB to brd" devLabel="Push to 2D PCB" translation="" />
+	<label commandName="ReferenceSelectSource" devLabel="Reference to" translation="" />
+	<label commandName="ReferenceToPCBCommand" devLabel="Reference to a PCB document" translation="" />
+	<label commandName="ReferenceToSCHCommand" devLabel="Reference to a Schematic document" translation="" />
+	<label commandName="Referral" devLabel="Refer a Friend" translation="" />
+	<label commandName="RemovePCB3DLinkCommand" devLabel="Remove 3D PCB Link" translation="" />
+	<label commandName="RemovePCBLinkCommand" devLabel="Remove PCB Link" translation="" />
+	<label commandName="RemoveSCHLinkCommand" devLabel="Remove Schematic Link" translation="" />
+	<label commandName="SaveNewPackage3D" devLabel="Package with the same name already exists in the library. You need to rename the new package before adding it to the library. Do you want to continue?" translation="" />
+	<label commandName="SavedWithPCBDesign" devLabel="Saved with electronics design" translation="" />
+	<label commandName="SchDesignTab" devLabel="DESIGN" translation="" />
+	<label commandName="SchValidateTab" devLabel="VALIDATE" translation="" />
+	<label commandName="SchematicEditorEnvironment" devLabel="Schematic Editor" translation="" />
+	<label commandName="SchematicSheets" devLabel="Sheets" translation="" />
+	<label commandName="SelectionFilter" devLabel="Selection Filter" translation="" />
+	<label commandName="ShowElectronDescriptionCmd" devLabel="Show Electron Description Command" translation="" />
+	<label commandName="ShowElectronDescriptionCommand" devLabel="Show Electron Design Description" translation="" />
+	<label commandName="ShowElectronDesignManagerCmd" devLabel="Show Electron Design Manager Command" translation="" />
+	<label commandName="ShowElectronDesignManagerCommand" devLabel="Show Design Manager" translation="" />
+	<label commandName="ShowElectronInspectorCmd" devLabel="Show Electron Inspector Command" translation="" />
+	<label commandName="ShowElectronInspectorCommand" devLabel="Show Inspector" translation="" />
+	<label commandName="ShowElectronSelectionFilterCmd" devLabel="Show Electron Selection Filter Command" translation="" />
+	<label commandName="ShowElectronSelectionFilterCommand" devLabel="Show Selection Filter" translation="" />
+	<label commandName="ShowElectronSheetsCmd" devLabel="Show Electron Sheets Command" translation="" />
+	<label commandName="ShowElectronSheetsCommand" devLabel="Show Sheets" translation="" />
+	<label commandName="Survey" devLabel="Send Your Feedback" translation="" />
+	<label commandName="SwitchPcbDocumentCommand" devLabel="Switch to PCB document" translation="" />
+	<label commandName="SwitchSchematicDocumentCommand" devLabel="Switch to Schematic document" translation="" />
+	<label commandName="TextCommands" devLabel="Text Commands" translation="" />
+	<label commandName="UpdatePCB3DPreview" devLabel="Update the PCB3d preview." translation="" />
+	<label commandName="UpdatePackageFromModifiedFootprintRequestMessage" devLabel="Packages from Fusion Team are out of sync with the footprints in the library. Do you want to update the packages now?" translation="" />
+	<label commandName="UpdateSCHOrPCBNode" devLabel="Update the Schematic or PCB node." translation="" />
+	<label commandName="View 3D PCB" devLabel="View 3D PCB" translation="" />
+	<label commandName="View 3D PCB With Canvas" devLabel="View 3D PCB With Canvas" translation="" />
+	<label commandName="WillNotUpdatePCB" devLabel="PCB or 3d PCB is read only, so will not update PCB." translation="" />
+	<label commandName="WillNotUpdatePCB3D" devLabel="PCB or 3d PCB is read only, so will not update 3d PCB." translation="" />
+	<label commandName="lclzAnnotatePanel" devLabel="ANNOTATE" translation="" />
+	<label commandName="lclzCreatePanel" devLabel="CREATE" translation="" />
+	<label commandName="lclzDefaultDocumentName" devLabel="Untitled" translation="" />
+	<label commandName="lclzElectron::1" devLabel="Executes a User Language Program." translation="" />
+	<label commandName="lclzElectron::2" devLabel="The Run command starts the User Language Program from the file 'file_name'." translation="" />
+	<label commandName="lclzElectron::AddDesignBlock1" devLabel="Add a design block to a drawing." translation="" />
+	<label commandName="lclzElectron::AddDesignBlock2" devLabel="If the design block consists of board and schematic the Layout part can be placed with the mouse cursor." translation="" />
+	<label commandName="lclzElectron::AddDesignBlockTips" devLabel="The Schematic part will be added automatically to the Schematic on new sheets accordingly." translation="" />
+	<label commandName="lclzElectron::AddDesignBlockTitle" devLabel="Add Design Block" translation="" />
+	<label commandName="lclzElectron::AddHole1" devLabel="Adds a drill hole to a board or footprint." translation="" />
+	<label commandName="lclzElectron::AddHole2" devLabel="The parameter drill defines the diameter of the hole in the actual unit." translation="" />
+	<label commandName="lclzElectron::AddPart1" devLabel="Add elements to a drawing, or symbols to a device." translation="" />
+	<label commandName="lclzElectron::AddPart2" devLabel="The AddPart command fetches a circuit symbol (gate) or a footprint from the active library and places it into the drawing. During device definition the AddPart command fetches a symbol into the device." translation="" />
+	<label commandName="lclzElectron::AddText1" devLabel="Adds text to a drawing." translation="" />
+	<label commandName="lclzElectron::AddText2" devLabel="When entering several texts it is not necessary to invoke the command each time, as the text command remains active after placing text with the mouse." translation="" />
+	<label commandName="lclzElectron::Align1" devLabel="Aligns selected objects in the Layout editor" translation="" />
+	<label commandName="lclzElectron::Align2" devLabel="Use the Align command to align objects in relation to each other or to move their origin to the nearest grid point. Use the commnd toolbar, the command line, or the Edit menu to start the Align command." translation="" />
+	<label commandName="lclzElectron::Arc1" devLabel="Draw an arc of variable diameter, width, and length." translation="" />
+	<label commandName="lclzElectron::Arc2" devLabel="The ARC command, followed by three mouse clicks on a drawing, draws an arc of defined width. The first point defines a point on a circle, the second its diameter. Entering the second coordinate reduces the circle to a semi-circle, while the right button alters the direction from first to second point. Entry of a third coordinate truncates the semi-circle to an arc extending to a point defined by the intersection of the circumference and a line between the third point and the arc center." translation="" />
+	<label commandName="lclzElectron::Attribute1" devLabel="Definition of attributes for parts." translation="" />
+	<label commandName="lclzElectron::Attribute2" devLabel="An attribute is an arbitrary combination of a name and a value, that can be used to specify any kind of information for a given part." translation="" />
+	<label commandName="lclzElectron::AutoRouter1" devLabel="Starts the AutoRouter" translation="" />
+	<label commandName="lclzElectron::AutoRouter2" devLabel="If signal names are specified or signals are selected with the mouse, only these signals are routed. Without parameters the command will try to route all signals. If a '!' character is specified all signals are routed except the signals following the '!' character. The '!' character must be the first parameter and must show up only once." translation="" />
+	<label commandName="lclzElectron::Bus1" devLabel="Draws buses on the bus layer of a schematic." translation="" />
+	<label commandName="lclzElectron::Bus2" devLabel="A Bus is a collection of nets. A Bus has a specification and is drawn as one or more bus line segments. The bus specification may include a unique alias, which is a short name used to identify the bus." translation="" />
+	<label commandName="lclzElectron::Change1" devLabel="Changes parameters." translation="" />
+	<label commandName="lclzElectron::Change2" devLabel="The Change command is used to change or preset properties of objects. The objects are clicked on with the mouse after the desired parameters have been selected from the Change command menu or have been typed in from the keyboard." translation="" />
+	<label commandName="lclzElectron::Circle1" devLabel="Adds circles to a drawing." translation="" />
+	<label commandName="lclzElectron::Circle2" devLabel="The width parameter defines the width of the circle's circumference and is the same parameter as used in the Line command. The width can be changed with the command 'Change Width width;''" translation="" />
+	<label commandName="lclzElectron::Copy1" devLabel="Copies objects." translation="" />
+	<label commandName="lclzElectron::Copy2" devLabel="The Copy command copies objects within the same drawing, or between libraries. The system generates a new name for the copy but retains the old value. When copying signals (wires), buses, and nets the names are retained, but in all other cases a new name is assigned." translation="" />
+	<label commandName="lclzElectron::DRC1" devLabel="Checks design rules." translation="" />
+	<label commandName="lclzElectron::DRC2" devLabel="The board is checked against the current design rules. Electrically irrelevant objects (wires in footprints, rectangles, circles and texts) are not checked against each other for clearance errors. " translation="" />
+	<label commandName="lclzElectron::Delete1" devLabel="Deletes selected objects." translation="" />
+	<label commandName="lclzElectron::Delete2" devLabel="Parts, pads, smds, pins and gates can also be selected by their name, which is especially useful if the object is outside the currently shown window area. Note that when selecting a multi-gate part in a schematic by name, you will need to enter the full instance name, consisting of part and gate name." translation="" />
+	<label commandName="lclzElectron::Dimension1" devLabel="Adds dimensioning to a drawing." translation="" />
+	<label commandName="lclzElectron::Dimension2" devLabel="If an object is first selected, a dimension is applied, such as the length of a straight wire, or diameter of a hole. If no object is selected, the current dimension type is added; right-click to cycle through the various types." translation="" />
+	<label commandName="lclzElectron::Display1" devLabel="Layer Settings." translation="" />
+	<label commandName="lclzElectron::Display2" devLabel="Layer Settings." translation="" />
+	<label commandName="lclzElectron::ERC1" devLabel="Checks electrical rules." translation="" />
+	<label commandName="lclzElectron::ERC2" devLabel="Use this command to test schematics for electrical errors. If a board file is loaded, the ERC command also runs a consistency check between schematic and board. " translation="" />
+	<label commandName="lclzElectron::Errors1" devLabel="Shows the errors found by the ERC or DRC command." translation="" />
+	<label commandName="lclzElectron::Errors2" devLabel="If no ERC or DRC has yet been run for the loaded drawing, the check will be started first." translation="" />
+	<label commandName="lclzElectron::Fanout1" devLabel="Creates fanouts from devices and signals." translation="" />
+	<label commandName="lclzElectron::Fanout2" devLabel="The command creates a routed wire and attached via from pads of the selected device or signal. Only surface mount devices (SMD) or ball-grid array (BGA) devices are fanned out; devices with through-hole pads are ignored." translation="" />
+	<label commandName="lclzElectron::FlipBoard1" devLabel="" translation="" />
+	<label commandName="lclzElectron::FlipBoard2" devLabel="" translation="" />
+	<label commandName="lclzElectron::GateSwap1" devLabel="Swaps equivalent gates on a schematic." translation="" />
+	<label commandName="lclzElectron::GateSwap2" devLabel="Both gates must be identical with the same number of pins and must be allocated the same Swaplevel in the device definition. But they do not need to be in the same device." translation="" />
+	<label commandName="lclzElectron::Grid1" devLabel="Grid Settings." translation="" />
+	<label commandName="lclzElectron::Grid2" devLabel="Grid Settings." translation="" />
+	<label commandName="lclzElectron::Group1" devLabel="Defines a group of objects for a subsequent command." translation="" />
+	<label commandName="lclzElectron::Group2" devLabel="After activating the Group command, objects are selected by click-dragging a rectangle or drawing a polygon with the mouse." translation="" />
+	<label commandName="lclzElectron::Info1" devLabel="Displays and modifies object properties." translation="" />
+	<label commandName="lclzElectron::Info2" devLabel="An object's properties are displayed in a dialog, where they can be modified." translation="" />
+	<label commandName="lclzElectron::Invoke1" devLabel="Calls a specific symbol from a device." translation="" />
+	<label commandName="lclzElectron::Invoke2" devLabel="Select a particular gate from a device which is already in use and place it in the schematic (e.g. a power symbol with Addlevel = Request)." translation="" />
+	<label commandName="lclzElectron::Junction1" devLabel="Places a dot at intersecting nets." translation="" />
+	<label commandName="lclzElectron::Junction2" devLabel="A connection dot is placed at the intersection of nets that are to be connected. Junction points can be placed only on a net. If placed on the intersection of different nets, the user is given the option to connect the nets." translation="" />
+	<label commandName="lclzElectron::Label1" devLabel="Attaches text labels to buses and nets." translation="" />
+	<label commandName="lclzElectron::Label2" devLabel="Bus or net names can be placed on a schematic in any location. Click the bus or net with the mouse, and the relevant label attaches to the mouse cursor. It can be rotated, and moved to a different location or layer. The second mouse click defines the location of the label." translation="" />
+	<label commandName="lclzElectron::Layer1" devLabel="Changes and defines layers." translation="" />
+	<label commandName="lclzElectron::Layer2" devLabel="Use the Layer command with one parameter to change the current layer." translation="" />
+	<label commandName="lclzElectron::Line1" devLabel="Adds lines (tracks) to a drawing." translation="" />
+	<label commandName="lclzElectron::Line2" devLabel="The line begins at the first point specified and runs to the second. Additional points draw additional line segments. Two mouse clicks at the same position finish the line, and a new one can be started at the position of the next mouse click." translation="" />
+	<label commandName="lclzElectron::ManualRoute1" devLabel="Converts unrouted connections into routed wires (tracks)." translation="" />
+	<label commandName="lclzElectron::ManualRoute2" devLabel="This command activates the manual router, which converts airwires (unrouted connections) into real wires." translation="" />
+	<label commandName="lclzElectron::Mark1" devLabel="Defines a mark on the drawing area." translation="" />
+	<label commandName="lclzElectron::Mark2" devLabel="The coordinates of the mouse cursor relative to that point are displayed in the upper left corner of the screen, with an 'R' prefix. This command is useful when board dimensions or cutouts are to be defined. Entering MARK; turns the mark on or off." translation="" />
+	<label commandName="lclzElectron::Meander1" devLabel="Balances the lengths of signals in a differential pair." translation="" />
+	<label commandName="lclzElectron::Meander2" devLabel="Click on a wire of a differential pair and move the mouse cursor away from the selection point. If there is a difference in the length of the two signals, and the current mouse position is far enough away from the selection point, a meander-shaped sequence of wires is drawn that increases the length of the shorter signal segment. An indicator attached to the mouse cursor shows the target length, as well as the deviation (in percent) of the two signals from the target length." translation="" />
+	<label commandName="lclzElectron::Mirror1" devLabel="Mirrors objects and groups." translation="" />
+	<label commandName="lclzElectron::Mirror2" devLabel="With this command, objects can be mirrored about the y axis. One application for this command is to mirror components for placement on the reverse side of the board." translation="" />
+	<label commandName="lclzElectron::Miter1" devLabel="Miters wire joints." translation="" />
+	<label commandName="lclzElectron::Miter2" devLabel="Use this command to take the edge off a point where two wires join. The two wires must be on the the same layer, and must have the same width and wire style." translation="" />
+	<label commandName="lclzElectron::Module1" devLabel="Module" translation="" />
+	<label commandName="lclzElectron::Module2" devLabel="Creates a module, and adds module instances into a sheet." translation="" />
+	<label commandName="lclzElectron::Move1" devLabel="Moves selected objects." translation="" />
+	<label commandName="lclzElectron::Move2" devLabel="Parts, pads, smds, pins and gates can also be selected by their name, which is especially useful if the object is outside the currently shown window area. Note that when selecting a multi-gate part in a schematic by name, you will need to enter the full instance name, consisting of part and gate name." translation="" />
+	<label commandName="lclzElectron::Name1" devLabel="Displays and optionally edits names." translation="" />
+	<label commandName="lclzElectron::Name2" devLabel="Parts, elements, pads, smds, pins and gates can also be selected by their name, which is especially useful if the object is outside the currently shown window area. Other object types (e.g. nets, buses, signals) have to be clicked first." translation="" />
+	<label commandName="lclzElectron::Net1" devLabel="Draws nets on a schematic." translation="" />
+	<label commandName="lclzElectron::Net2" devLabel="Draw individual connections (nets) onto the Net layer of a schematic drawing. The first mouse click marks the starting point for the net, the second marks the end point of a segment. Two mouse clicks on the same point end the net." translation="" />
+	<label commandName="lclzElectron::Optimize1" devLabel="Joins wire segments." translation="" />
+	<label commandName="lclzElectron::Optimize2" devLabel="This command joins wire segments that lie in a straight line. The individual segments must be on the same layer and have the same width. This command is useful to reduce the number of objects in a drawing and to facilitate moving a complete track instead of individual segments." translation="" />
+	<label commandName="lclzElectron::PaintRoller1" devLabel="Transfers selected properties of an object to other objects of the same type." translation="" />
+	<label commandName="lclzElectron::PaintRoller2" devLabel="Select the properties you want to transfer to other objects of the same type in the Copy Properties dialog of the selected object, then close the dialog with OK, and click the target objects." translation="" />
+	<label commandName="lclzElectron::Paste1" devLabel="Copies the contents of the clipboard or a drawing or a design block file to a drawing." translation="" />
+	<label commandName="lclzElectron::Paste2" devLabel="Using the commands Group, Cut, and Paste, parts of a drawing/library can be copied to the same or different drawings/libraries." translation="" />
+	<label commandName="lclzElectron::Pattern1" devLabel="Makes multiple copies of an object and arranges them in a linear or circular pattern." translation="" />
+	<label commandName="lclzElectron::Pattern2" devLabel="A dialog opens where you specify the number of copies and the X and Y spacing in the linear mode. Click OK to close the dialog, then click the object to be duplicated. The next click into the drawing area fixes the position of the first object to be placed." translation="" />
+	<label commandName="lclzElectron::PinSwap1" devLabel="Swaps pins or pads." translation="" />
+	<label commandName="lclzElectron::PinSwap2" devLabel="Use this command to swap pins within the same symbol that have been allocated the same swaplevel (&gt; 0). If a board is tied to a schematic via Back Annotation, two pads can only be swapped if the related pins are swappable." translation="" />
+	<label commandName="lclzElectron::Polygon1" devLabel="Draws polygon areas." translation="" />
+	<label commandName="lclzElectron::Polygon2" devLabel="Polygons in the layers Top, Bottom, and Route2–15 are treated as signals. Polygons in the layers t/b/vRestrict are protected areas for the AutoRouter." translation="" />
+	<label commandName="lclzElectron::Port1" devLabel="Adds ports to modules." translation="" />
+	<label commandName="lclzElectron::Port2" devLabel="Use this command to add ports to modules used in hierarchical schematics." translation="" />
+	<label commandName="lclzElectron::QuickRouteAirWire1" devLabel="Automatically routes an individual airwire." translation="" />
+	<label commandName="lclzElectron::QuickRouteAirWire2" devLabel="In QuickRouteAirwire mode, you select individual airwires to be automatically routed, and the Route command instantly routes them." translation="" />
+	<label commandName="lclzElectron::QuickRouteMultiWire1" devLabel="Automatically routes multiple airwires simultaneously." translation="" />
+	<label commandName="lclzElectron::QuickRouteMultiWire2" devLabel="Begin by drawing a selection line that intersects through the signal objects that you wish to route concurrently (existing wires, pads, and vias). Continue to draw additional selection lines to add more signal objects. Right-click to route all the airwires connected to the selected objects. The signals are routed on the active layer." translation="" />
+	<label commandName="lclzElectron::QuickRouteSignal1" devLabel="Automatically routes a signal." translation="" />
+	<label commandName="lclzElectron::QuickRouteSignal2" devLabel="With QuickRouteSignal, you select any signal object (airwire, wire, pad, or via) and the command instantly routes all airwires that are members of that signal." translation="" />
+	<label commandName="lclzElectron::QuickRouteSmooth1" devLabel="Automatically smooths the wire sequence on a selected signal." translation="" />
+	<label commandName="lclzElectron::QuickRouteSmooth2" devLabel="Select an existing routed signal wire, and the QuickRouteSmooth command smooths the wire sequence on the selected wire's layer by reducing the number of wire bends in the sequence." translation="" />
+	<label commandName="lclzElectron::Ratsnest1" devLabel="Calculates the shortest possible airwires and polygons." translation="" />
+	<label commandName="lclzElectron::Ratsnest2" devLabel="This command assesses the airwire connections to achieve the shortest possible paths, such as after components have been moved." translation="" />
+	<label commandName="lclzElectron::Rectangle1" devLabel="Adds rectangles to a drawing." translation="" />
+	<label commandName="lclzElectron::Rectangle2" devLabel="Two points define two opposite corners of the rectangle. Press the center mouse button to change the layer on which to add the rectangle." translation="" />
+	<label commandName="lclzElectron::Replace1" devLabel="Replaces a part." translation="" />
+	<label commandName="lclzElectron::Replace2" devLabel="Use this command to replace a part with a different device (even from a different library). The old and new device must be compatible, in that their used gates and connected pins/pads must match, either by their names or their coordinates." translation="" />
+	<label commandName="lclzElectron::RepositionAttributes1" devLabel="Separates text variables and attributes from parts or elements." translation="" />
+	<label commandName="lclzElectron::RepositionAttributes2" devLabel="After separating the text parameters, they can be placed in fixed positions such as Top-Left or Bottom-Right, or in a new and more convenient location by using the Move command." translation="" />
+	<label commandName="lclzElectron::Ripup1" devLabel="Changes routed wires and vias into airwires, and changes the display of polygons to 'outlines'." translation="" />
+	<label commandName="lclzElectron::Ripup2" devLabel="Selecting an airwire with Ripup converts all adjacent routed wires and vias into airwires, up to the next pad, smd or airwire." translation="" />
+	<label commandName="lclzElectron::RipupAll1" devLabel="Changes routed wires and vias into airwires, and changes the display of polygons to 'outlines'." translation="" />
+	<label commandName="lclzElectron::RipupAll2" devLabel="Selecting an airwire with Ripup converts all adjacent routed wires and vias into airwires, up to the next pad, smd or airwire." translation="" />
+	<label commandName="lclzElectron::RipupAllPolygons1" devLabel="Returns all polygons to an 'unpoured' state, drawn only as outlines." translation="" />
+	<label commandName="lclzElectron::RipupAllPolygons2" devLabel="Select the command Ripup Polygons command to unpour all polygons and edit polygon boundaries as lines." translation="" />
+	<label commandName="lclzElectron::RipupConnected1" devLabel="Ripup connected copper will ripup 'direct' connections along a signal path." translation="" />
+	<label commandName="lclzElectron::RipupConnected2" devLabel="Select the command and select a route segment to ripup connected copper." translation="" />
+	<label commandName="lclzElectron::RipupConnectedSameLayer1" devLabel="Ripup connected copper on current layer." translation="" />
+	<label commandName="lclzElectron::RipupConnectedSameLayer2" devLabel="Select to ripup connected copper on current signal layer." translation="" />
+	<label commandName="lclzElectron::RipupElementToElement1" devLabel="Ripup connections between selected components." translation="" />
+	<label commandName="lclzElectron::RipupElementToElement2" devLabel="Select to ripup connections between two selected components." translation="" />
+	<label commandName="lclzElectron::RipupSignal1" devLabel="Ripup selected signal path." translation="" />
+	<label commandName="lclzElectron::RipupSignal2" devLabel="Use to ripup all tracks, vias and polygons in a selected signal" translation="" />
+	<label commandName="lclzElectron::Rotate1" devLabel="Rotates objects." translation="" />
+	<label commandName="lclzElectron::Rotate2" devLabel="Use this command to change the orientation of objects." translation="" />
+	<label commandName="lclzElectron::RouteDiffPair1" devLabel="Converts unrouted connections of a differential pair into routed wires (tracks)." translation="" />
+	<label commandName="lclzElectron::RouteDiffPair2" devLabel="This command activates the differential-pair manual router, and the differential pairs in the design are highlighted. To begin routing a differential pair, left button click over one of the highlighted differential pair airwire or copper objects. " translation="" />
+	<label commandName="lclzElectron::RouteMulti1" devLabel="Converts multiple unrouted connections into routed wires (tracks)." translation="" />
+	<label commandName="lclzElectron::RouteMulti2" devLabel="This command activates the manual router, which converts multiple airwires (unrouted connections) into real wires." translation="" />
+	<label commandName="lclzElectron::RunScript1" devLabel="Executes a command file." translation="" />
+	<label commandName="lclzElectron::RunScript2" devLabel="Use this command to execute sequences of commands that are stored in a script file." translation="" />
+	<label commandName="lclzElectron::Show1" devLabel="Highlights objects." translation="" />
+	<label commandName="lclzElectron::Show2" devLabel="Complete signals and nets can be highlighted with the SHOW command, and details are listed in the status bar. If a bus is selected, all nets belonging to that bus will also be highlighted." translation="" />
+	<label commandName="lclzElectron::Signal1" devLabel="Defines signals (connections between the various footprints)." translation="" />
+	<label commandName="lclzElectron::Signal2" devLabel="Define a minimum of two element_name/pad_name pairs; otherwise, no airwire can be generated." translation="" />
+	<label commandName="lclzElectron::Slice1" devLabel="Splits lines." translation="" />
+	<label commandName="lclzElectron::Slice2" devLabel="Use this command to separate board traces or schematic nets for rerouting. The width defines how much of the line is removed by the slice. The amount of a line that is removed is the larger of either the width setting or twice the line width." translation="" />
+	<label commandName="lclzElectron::Split1" devLabel="Splits wires and polygon edges into segments." translation="" />
+	<label commandName="lclzElectron::Split2" devLabel="Use this command to split a wire, segment, or polygon edge into two segments in order, for example, to introduce a bend. This means you can split wires into parts that can be moved with the mouse during the Split command." translation="" />
+	<label commandName="lclzElectron::ToggleSingleLayer1" devLabel="Single Layer Mode." translation="" />
+	<label commandName="lclzElectron::ToggleSingleLayer2" devLabel="Single Layer Mode." translation="" />
+	<label commandName="lclzElectron::Value1" devLabel="Displays and changes values." translation="" />
+	<label commandName="lclzElectron::Value2" devLabel="Assign values to circuit elements, such as '1k' for a resistor." translation="" />
+	<label commandName="lclzElectron::Via1" devLabel="Adds vias to a board." translation="" />
+	<label commandName="lclzElectron::Via2" devLabel="When the Via command is active, a via symbol is attached to the cursor. Click the left mouse button to place a via at the current position." translation="" />
+	<label commandName="lclzElectron::ZoomIn1" devLabel="TBD" translation="" />
+	<label commandName="lclzElectron::ZoomIn2" devLabel="TBD" translation="" />
+	<label commandName="lclzElectron::ZoomOut1" devLabel="TBD" translation="" />
+	<label commandName="lclzElectron::ZoomOut2" devLabel="TBD" translation="" />
+	<label commandName="lclzElectron::ZoomRect1" devLabel="TBD" translation="" />
+	<label commandName="lclzElectron::ZoomRect2" devLabel="TBD" translation="" />
+	<label commandName="lclzElectron::ZoomToFit1" devLabel="TBD" translation="" />
+	<label commandName="lclzElectron::ZoomToFit2" devLabel="TBD" translation="" />
+	<label commandName="lclzGetLatestElectronCmd1" devLabel="Generate or switch to a PCB document." translation="" />
+	<label commandName="lclzGetLatestElectronCmd2" devLabel="If there is a linked PCB document, will switch to the PCB document, otherwise, will create a new PCB document to link with it." translation="" />
+	<label commandName="lclzGetLatestElectronCmdTipsAndTricksDesc" devLabel="If there is a linked PCB document, will switch to the PCB document, otherwise, will create a new PCB document to link with it." translation="" />
+	<label commandName="lclzGetLatestElectronCmdTipsAndTricksTips" devLabel="Generate or switch to a PCB document." translation="" />
+	<label commandName="lclzGetLatestElectronCmdTipsAndTricksTitle" devLabel="Generate Or Switch PCB Document" translation="" />
+	<label commandName="lclzLbrCreatePanel" devLabel="CREATE" translation="" />
+	<label commandName="lclzLbrDeviceModifyPanel" devLabel="MODIFY" translation="" />
+	<label commandName="lclzLbrDevicePanel" devLabel="DEVICE" translation="" />
+	<label commandName="lclzLbrDeviceSelectPanel" devLabel="SELECT" translation="" />
+	<label commandName="lclzLbrDeviceTab" devLabel="DEVICE" translation="" />
+	<label commandName="lclzLbrDrawCommonPanel" devLabel="DRAW" translation="" />
+	<label commandName="lclzLbrEmptyTab" devLabel="CREATE" translation="" />
+	<label commandName="lclzLbrFootprintCreatePanel" devLabel="CREATE" translation="" />
+	<label commandName="lclzLbrFootprintDrawPanel" devLabel="DRAW" translation="" />
+	<label commandName="lclzLbrFootprintEditPanel" devLabel="EDIT" translation="" />
+	<label commandName="lclzLbrFootprintLayersPanel" devLabel="LAYERS" translation="" />
+	<label commandName="lclzLbrFootprintModifyPanel" devLabel="MODIFY" translation="" />
+	<label commandName="lclzLbrFootprintSelectPanel" devLabel="SELECT" translation="" />
+	<label commandName="lclzLbrFootprintTab" devLabel="FOOTPRINT" translation="" />
+	<label commandName="lclzLbrFootprintViewPanel" devLabel="VIEW" translation="" />
+	<label commandName="lclzLbrManagementPanel" devLabel="MANAGEMENT" translation="" />
+	<label commandName="lclzLbrManagementTab" devLabel="MANAGE" translation="" />
+	<label commandName="lclzLbrPackagePanel" devLabel="EDIT" translation="" />
+	<label commandName="lclzLbrPackageTab" devLabel="PACKAGE 3D" translation="" />
+	<label commandName="lclzLbrSymbolEditPanel" devLabel="EDIT" translation="" />
+	<label commandName="lclzLbrSymbolLayersPanel" devLabel="LAYERS" translation="" />
+	<label commandName="lclzLbrSymbolModifyPanel" devLabel="MODIFY" translation="" />
+	<label commandName="lclzLbrSymbolPlacePanel" devLabel="PLACE" translation="" />
+	<label commandName="lclzLbrSymbolSelectPanel" devLabel="SELECT" translation="" />
+	<label commandName="lclzLbrSymbolTab" devLabel="SYMBOL" translation="" />
+	<label commandName="lclzLbrSymbolViewPanel" devLabel="VIEW" translation="" />
+	<label commandName="lclzLock" devLabel="Lock" translation="" />
+	<label commandName="lclzPCB3DWorkspaceTitle" devLabel="3D Packaged editor" translation="" />
+	<label commandName="lclzPcbAutomate" devLabel="AUTOMATION" translation="" />
+	<label commandName="lclzPcbBoardShapePanel" devLabel="BOARD SHAPE" translation="" />
+	<label commandName="lclzPcbDesignTab" devLabel="DESIGN" translation="" />
+	<label commandName="lclzPcbDocument" devLabel="DOCUMENT" translation="" />
+	<label commandName="lclzPcbDrawPanel" devLabel="DRAW" translation="" />
+	<label commandName="lclzPcbEditPanel" devLabel="EDIT" translation="" />
+	<label commandName="lclzPcbFanoutPanel" devLabel="FANOUT" translation="" />
+	<label commandName="lclzPcbLayersPanel" devLabel="LAYERS" translation="" />
+	<label commandName="lclzPcbLibraryPanel" devLabel="LIBRARIES" translation="" />
+	<label commandName="lclzPcbLibraryTab" devLabel="LIBRARY" translation="" />
+	<label commandName="lclzPcbManufacturingPanel" devLabel="Manufacturing" translation="" />
+	<label commandName="lclzPcbModifyPanel" devLabel="MODIFY" translation="" />
+	<label commandName="lclzPcbOutputPanel" devLabel="OUTPUTS" translation="" />
+	<label commandName="lclzPcbPlacePanel" devLabel="PLACE" translation="" />
+	<label commandName="lclzPcbPourPanel" devLabel="POUR" translation="" />
+	<label commandName="lclzPcbQuickRoutePanel" devLabel="QUICK ROUTE" translation="" />
+	<label commandName="lclzPcbReworkPanel" devLabel="REWORK" translation="" />
+	<label commandName="lclzPcbRipupPanel" devLabel="RIPUP" translation="" />
+	<label commandName="lclzPcbRoutePanel" devLabel="ROUTE" translation="" />
+	<label commandName="lclzPcbRulesPanel" devLabel="DRC" translation="" />
+	<label commandName="lclzPcbSelectPanel" devLabel="SELECT" translation="" />
+	<label commandName="lclzPcbViewPanel" devLabel="VIEW" translation="" />
+	<label commandName="lclzReferenceToPCBCmd1" devLabel="Reference to a PCB document." translation="" />
+	<label commandName="lclzReferenceToPCBCmd2" devLabel="Reference to a PCB document." translation="" />
+	<label commandName="lclzReferenceToPCBCmdTipsAndTricksDesc" devLabel="Reference to a PCB document." translation="" />
+	<label commandName="lclzReferenceToPCBCmdTipsAndTricksTips" devLabel="Reference to a PCB document." translation="" />
+	<label commandName="lclzReferenceToPCBCmdTipsAndTricksTitle" devLabel="Reference to a PCB document" translation="" />
+	<label commandName="lclzReferenceToSCHCmd1" devLabel="Reference to a Schematic document." translation="" />
+	<label commandName="lclzReferenceToSCHCmd2" devLabel="Reference to a Schematic document." translation="" />
+	<label commandName="lclzReferenceToSCHCmdTipsAndTricksDesc" devLabel="Reference to a Schematic document." translation="" />
+	<label commandName="lclzReferenceToSCHCmdTipsAndTricksTips" devLabel="Reference to a Schematic document." translation="" />
+	<label commandName="lclzReferenceToSCHCmdTipsAndTricksTitle" devLabel="Reference to a Schematic document" translation="" />
+	<label commandName="lclzRemovePCB3DLinkCmd1" devLabel="Remove PCB3D Link." translation="" />
+	<label commandName="lclzRemovePCB3DLinkCmd2" devLabel="Remove PCB3D Link." translation="" />
+	<label commandName="lclzRemovePCB3DLinkCmdTipsAndTricksDesc" devLabel="Remove PCB3D Link." translation="" />
+	<label commandName="lclzRemovePCB3DLinkCmdTipsAndTricksTips" devLabel="Remove PCB3D Link." translation="" />
+	<label commandName="lclzRemovePCB3DLinkCmdTipsAndTricksTitle" devLabel="Remove PCB3D Link." translation="" />
+	<label commandName="lclzRemovePCBLinkCmd1" devLabel="Remove PCB Link." translation="" />
+	<label commandName="lclzRemovePCBLinkCmd2" devLabel="Remove PCB Link." translation="" />
+	<label commandName="lclzRemovePCBLinkCmdTipsAndTricksDesc" devLabel="Remove PCB Link." translation="" />
+	<label commandName="lclzRemovePCBLinkCmdTipsAndTricksTips" devLabel="Remove PCB Link." translation="" />
+	<label commandName="lclzRemovePCBLinkCmdTipsAndTricksTitle" devLabel="Remove PCB Link." translation="" />
+	<label commandName="lclzRemoveSCHLinkCmd1" devLabel="Remove SCH Link." translation="" />
+	<label commandName="lclzRemoveSCHLinkCmd2" devLabel="Remove SCH Link." translation="" />
+	<label commandName="lclzRemoveSCHLinkCmdTipsAndTricksDesc" devLabel="Remove SCH Link." translation="" />
+	<label commandName="lclzRemoveSCHLinkCmdTipsAndTricksTips" devLabel="Remove SCH Link." translation="" />
+	<label commandName="lclzRemoveSCHLinkCmdTipsAndTricksTitle" devLabel="Remove SCH Link." translation="" />
+	<label commandName="lclzSchAutomation" devLabel="AUTOMATION" translation="" />
+	<label commandName="lclzSchAutomationTab" devLabel="AUTOMATE" translation="" />
+	<label commandName="lclzSchConnectPanel" devLabel="CONNECT" translation="" />
+	<label commandName="lclzSchDocumentTab" devLabel="DOCUMENT" translation="" />
+	<label commandName="lclzSchDrawPanel" devLabel="DRAW" translation="" />
+	<label commandName="lclzSchEditPanel" devLabel="EDIT" translation="" />
+	<label commandName="lclzSchLibraryPanel" devLabel="LIBRARIES" translation="" />
+	<label commandName="lclzSchLibraryTab" devLabel="LIBRARY" translation="" />
+	<label commandName="lclzSchModifyPanel" devLabel="MODIFY" translation="" />
+	<label commandName="lclzSchOutputPanel" devLabel="Output" translation="" />
+	<label commandName="lclzSchPlacePanel" devLabel="PLACE" translation="" />
+	<label commandName="lclzSchSelectPanel" devLabel="SELECT" translation="" />
+	<label commandName="lclzSchSimulatePanel" devLabel="SIMULATE" translation="" />
+	<label commandName="lclzSchSwitchPanel" devLabel="SWITCH" translation="" />
+	<label commandName="lclzSchValidatePanel" devLabel="VALIDATE" translation="" />
+	<label commandName="lclzSchVariantPanel" devLabel="Variant" translation="" />
+	<label commandName="lclzSchViewPanel" devLabel="VIEW" translation="" />
+	<label commandName="lclzSwitchPanel" devLabel="SWITCH" translation="" />
+	<label commandName="lclzSwitchPcbDocCmd1" devLabel="Switch to a PCB document." translation="" />
+	<label commandName="lclzSwitchPcbDocCmd2" devLabel="If there is a linked PCB document, will switch to the PCB document, otherwise, will switch to electronics design to remind user to create a PCB document." translation="" />
+	<label commandName="lclzSwitchPcbDocCmdTipsAndTricksDesc" devLabel="If there is a linked PCB document, will switch to the PCB document, otherwise, will switch to electronics design to remind user to create a PCB document." translation="" />
+	<label commandName="lclzSwitchPcbDocCmdTipsAndTricksTips" devLabel="Switch to a PCB document." translation="" />
+	<label commandName="lclzSwitchPcbDocCmdTipsAndTricksTitle" devLabel="Switch PCB Document" translation="" />
+	<label commandName="lclzSwitchSchDocCmd1" devLabel="Switch to a Schematic document." translation="" />
+	<label commandName="lclzSwitchSchDocCmd2" devLabel="If there is a linked Schematic document, will switch to the Schematic document, otherwise, will switch to electronics design to remind user to create a Schematic document." translation="" />
+	<label commandName="lclzSwitchSchDocCmdTipsAndTricksDesc" devLabel="If there is a linked Schematic document, will switch to the Schematic document, otherwise, will switch to electronics design to remind user to create a Schematic document." translation="" />
+	<label commandName="lclzSwitchSchDocCmdTipsAndTricksTips" devLabel="Switch to a Schematic document." translation="" />
+	<label commandName="lclzSwitchSchDocCmdTipsAndTricksTitle" devLabel="Switch Schematic Document" translation="" />
+	<label commandName="lclzWorkspace" devLabel="Workspace" translation="" />
+</Resource>

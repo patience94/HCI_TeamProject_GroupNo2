@@ -1,0 +1,11 @@
+<!-- The file is used to configrate the info that :
+  1) which third parties that their symbols need be uploaded with Fusion360 automatically : every 3P has one node named "pdb";
+  2) which platforms: WIN64 or MAC64;
+  3) the path of pdb zip file path. Generally the path is %pdbZipPath%/%currentBuildNumber%/%pdbZipName%: pdbZipPath and pdbZipName need be wrote here\
+ -->
+  
+ <pdbs>
+ <pdb tpId="VCS">
+    <WIN64 pdbZipPath="\\fisionserver\epstore\Neutron\CER\VCS" pdbZipName="WIN64_pdb.7z" />
+  </pdb>
+ </pdbs>

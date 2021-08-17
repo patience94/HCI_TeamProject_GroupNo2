@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root DllName="MSFWorkingModelUI" Identifier="MSFWorkingModelUI" IsCoreAddIn="0" IsUIAddIn="1" IsApplicationAddIn="1" AppName="Fabrication" Name="MSFWorkingModelUI">
+  <NeededAddIns>
+    <NeededAddIn>Scene</NeededAddIn>
+    <NeededAddIn>CommonData</NeededAddIn>
+    <NeededAddIn>Body</NeededAddIn>
+    <NeededAddIn>Component</NeededAddIn>
+    <NeededAddIn>EntityTracking</NeededAddIn>
+    <NeededAddIn>Fusion</NeededAddIn>
+    <NeededAddIn>MSFWorkingModel</NeededAddIn>
+  </NeededAddIns>
+</root>

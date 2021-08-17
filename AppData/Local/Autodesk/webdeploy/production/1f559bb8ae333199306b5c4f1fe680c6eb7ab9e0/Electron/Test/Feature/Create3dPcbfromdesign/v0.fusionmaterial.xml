@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<materialDumpRoot>
+  <Component ComponentName="(Unsaved)">
+    <VisualMaterialOverride Color="(Red: 1, Green: 0.749, Blue: 0, Alpha: 1)" Luminescence="0" OccurrencePath="1-copper:1" ProteinMaterialID="PrismOpaque" ProteinMaterialScale="1" Reflectance="0.02" Roughness="0.2" SourceComponent="(Unsaved)" TranslucencyDepth="0.5" VisualMaterialName="Opaque(255,190,0)" proteinMaterialRotation="0"/>
+    <VisualMaterialOverride Color="(Red: 1, Green: 0.749, Blue: 0, Alpha: 1)" Luminescence="0" OccurrencePath="16-copper:1" ProteinMaterialID="PrismOpaque" ProteinMaterialScale="1" Reflectance="0.02" Roughness="0.2" SourceComponent="(Unsaved)" TranslucencyDepth="0.5" VisualMaterialName="Opaque(255,190,0)" proteinMaterialRotation="0"/>
+    <VisualMaterialOverride AbsorptionDistance="1000" Color="(Red: 0.2157, Green: 0.2157, Blue: 0.2157, Alpha: 1)" OccurrencePath="1-soldermask:1" ProteinMaterialID="Prism-1170" ProteinMaterialScale="1" RefractiveIndex="1.5" Roughness="0.8" SourceComponent="(Unsaved)" VisualMaterialName="Transparent(55,55,55)" proteinMaterialRotation="0"/>
+    <VisualMaterialOverride AbsorptionDistance="1000" Color="(Red: 0.2157, Green: 0.2157, Blue: 0.2157, Alpha: 1)" OccurrencePath="16-soldermask:1" ProteinMaterialID="Prism-1170" ProteinMaterialScale="1" RefractiveIndex="1.5" Roughness="0.8" SourceComponent="(Unsaved)" VisualMaterialName="Transparent(55,55,55)" proteinMaterialRotation="0"/>
+    <BrepBody BodyName="Board">
+      <VisualMaterial Color="(Red: 0.470588, Green: 0.431372, Blue: 0.2745, Alpha: 1)" Luminescence="0" ProteinMaterialID="PrismOpaque" ProteinMaterialScale="1" Reflectance="0.02" Roughness="0.2" TranslucencyDepth="0.5" VisualMaterialName="Opaque(119,109,69)" proteinMaterialRotation="0"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+  </Component>
+  <Component ComponentName="1-copper"/>
+  <Component ComponentName="16-copper"/>
+  <Component ComponentName="1-soldermask"/>
+  <Component ComponentName="16-soldermask"/>
+  <Component ComponentName="Packages"/>
+</materialDumpRoot>

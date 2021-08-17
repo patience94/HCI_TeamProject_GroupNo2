@@ -1,0 +1,11 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"script",
+	"author": "Brian Ekins",
+	"description":	{
+		"":	"Create a spur gear."
+	},
+	"supportedOS":	"windows|mac",
+	"sourcewindows":	"SpurGear.vcxproj",
+	"sourcemac":	"SpurGear.xcodeproj"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?><ThirdParties>
+    <ThirdParty Id="FusionCoreSymbols">
+        <Platform Package="MAC64" Target="MAC64" Type="7z" Version="{latest-release}" Branch="ReleaseCandidate">
+            <Configuration PackageName="osx_debug_{Branch}_{Version}_symbols.7z" Target="Debug" Type="7z"/>
+            <Configuration PackageName="osx_release_{Branch}_{Version}_symbols.7z" Target="Release" Type="7z"/>
+        </Platform>
+    </ThirdParty>
+</ThirdParties>

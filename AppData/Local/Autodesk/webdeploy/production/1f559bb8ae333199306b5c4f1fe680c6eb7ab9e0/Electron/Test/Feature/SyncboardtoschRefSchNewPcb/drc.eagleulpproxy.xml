@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DRCErrors>
+<error type="" description="Airwire" layernr="19" signature="21,19,49dab7dab626b5df" state="active" code="21" xmin="-21.400006" ymin="10.159994" xmax="-15.239994" ymax="22.860006" x="-18.320000" y="16.510000"/>
+<error type="" description="Airwire" layernr="19" signature="21,19,8534854979488548" state="active" code="21" xmin="-25.884606" ymin="17.779994" xmax="-14.159994" ymax="22.860006" x="-20.022300" y="20.320000"/>
+<error type="" description="Airwire" layernr="19" signature="21,19,9b386538674464bb" state="active" code="21" xmin="-24.915406" ymin="2.539994" xmax="-15.239994" ymax="17.780006" x="-20.077700" y="10.160000"/>
+<error type="error" description="Dimension" layernr="1" signature="4,1,d21e98ce02564a9a" state="active" code="4" xmin="-14.250816" ymin="21.722000" xmax="-13.103934" ymax="22.435831" x="-13.677375" y="22.078916"/>
+<error type="error" description="Dimension" layernr="16" signature="4,16,d21e98ce02564a9a" state="active" code="4" xmin="-14.250816" ymin="21.722000" xmax="-13.103934" ymax="22.435831" x="-13.677375" y="22.078916"/>
+</DRCErrors>

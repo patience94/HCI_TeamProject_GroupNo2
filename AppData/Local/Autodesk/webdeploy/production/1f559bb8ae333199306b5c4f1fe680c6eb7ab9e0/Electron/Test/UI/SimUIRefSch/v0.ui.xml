@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ui>
+  <ElectronSchDocAssetType_CommandToolbar>
+    <item Active="No" Enabled="Yes" Name="SchDesign" Text="DESIGN" Type="eCmdTab" Visible="Yes"/>
+    <item Active="No" Enabled="Yes" Name="SchDocument" Text="DOCUMENT" Type="eCmdTab" Visible="Yes"/>
+    <item Active="No" Enabled="Yes" Name="SchValidate" Text="VALIDATE" Type="eCmdTab" Visible="Yes"/>
+    <item Active="No" Enabled="Yes" Name="SchAutomation" Text="AUTOMATE" Type="eCmdTab" Visible="Yes"/>
+    <item Active="No" Enabled="Yes" Name="SchLibrary" Text="LIBRARY" Type="eCmdTab" Visible="Yes"/>
+    <item Active="No" Enabled="Yes" Name="SchSwitchPanel" Text="SWITCH" Type="ePanel" Visible="Yes">
+      <item Active="No" Enabled="Yes" Label="Switch to PCB document" Name="SwitchPcbDocCmd" Text="Switch to PCB document" Type="eButton" Visible="Yes"/>
+    </item>
+    <item Active="No" Enabled="Yes" Name="SchViewPanel" Text="VIEW" Type="ePanel" Visible="Yes">
+      <item Active="No" Enabled="Yes" Label="Info" Name="Electron::Info" Text="Info" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Show" Name="Electron::Show" Text="Show" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Grid Settings" Name="Electron::Grid" Text="Grid Settings" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Display" Name="Electron::Display" Text="Display" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Zoom to Fit" Name="Electron::ZoomToFit" Text="Zoom to Fit" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Redraw" Name="Electron::ZoomRedraw" Text="Redraw" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Zoom Window" Name="Electron::ZoomRect" Text="Zoom Window" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Name="Electron::ZoomSelect" Type="eButton" Visible="No"/>
+    </item>
+    <item Active="No" Enabled="Yes" Name="SchEditPanel" Text="EDIT" Type="ePanel" Visible="Yes">
+      <item Active="No" Enabled="Yes" Label="Copy" Name="Electron::Copy" Text="Copy" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Paste" Name="Electron::Paste" Text="Paste" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Delete" Name="Electron::Delete" Text="Delete" Type="eButton" Visible="Yes"/>
+    </item>
+    <item Active="No" Enabled="Yes" Name="SchPlacePanel" Text="PLACE" Type="ePanel" Visible="Yes">
+      <item Active="No" Enabled="Yes" Label="Add Part" Name="Electron::AddPart" Text="Add Part" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Move" Name="Electron::Move" Text="Move" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Rotate" Name="Electron::Rotate" Text="Rotate" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Mirror" Name="Electron::Mirror" Text="Mirror" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Name="Electron::Frame" Type="eButton" Visible="No"/>
+    </item>
+    <item Active="No" Enabled="Yes" Name="SchConnectPanel" Text="CONNECT" Type="ePanel" Visible="Yes">
+      <item Active="No" Enabled="Yes" Label="Net" Name="Electron::Net" Text="Net" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Name" Name="Electron::Name" Text="Name" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Label" Name="Electron::Label" Text="Label" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Junction" Name="Electron::Junction" Text="Junction" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Port" Name="Electron::Port" Text="Port" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Add Bus" Name="Electron::Bus" Text="Add Bus" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Module" Name="Electron::Module" Text="Module" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Name="Electron::Pinswap" Type="eButton" Visible="No"/>
+      <item Active="No" Enabled="Yes" Name="Electron::Gateswap" Type="eButton" Visible="No"/>
+    </item>
+    <item Active="No" Enabled="Yes" Name="SchSimulatePanel" Text="SIMULATE" Type="ePanel" Visible="Yes">
+      <item Active="No" Enabled="Yes" Label="Simulate" Name="Electron::Simulate" Text="Simulate" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Show Simulation Overlay" Name="Electron::SimOpToggle" Text="Show Simulation Overlay" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Analog Source Setup" Name="Electron::SourceSetup" Text="Analog Source Setup" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Digital Source Setup" Name="Electron::DSourceSetup" Text="Digital Source Setup" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Voltage Probe" Name="Electron::VProbe" Text="Voltage Probe" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Phase Probe" Name="Electron::VpProbe" Text="Phase Probe" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Add Model" Name="Electron::AddSimModel" Text="Add Model" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Remove Model" Name="Electron::RemoveSimModel" Text="Remove Model" Type="eButton" Visible="Yes"/>
+    </item>
+    <item Active="No" Enabled="Yes" Name="SchModifyPanel" Text="MODIFY" Type="ePanel" Visible="Yes">
+      <item Active="No" Enabled="Yes" Label="Change" Name="Electron::Change" Text="Change" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Value" Name="Electron::Value" Text="Value" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Split" Name="Electron::Split" Text="Split" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Miter" Name="Electron::Miter" Text="Miter" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Slice" Name="Electron::Slice" Text="Slice" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Invoke" Name="Electron::Invoke" Text="Invoke" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Replace" Name="Electron::Replace" Text="Replace" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Paint Roller" Name="Electron::PaintRoller" Text="Paint Roller" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Pattern" Name="Electron::Pattern" Text="Pattern" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Optimize" Name="Electron::Optimize" Text="Optimize" Type="eButton" Visible="Yes"/>
+    </item>
+    <item Active="No" Enabled="Yes" Name="SchDrawPanel" Text="DRAW" Type="ePanel" Visible="Yes">
+      <item Active="No" Enabled="Yes" Label="Line" Name="Electron::Line" Text="Line" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Text" Name="Electron::AddText" Text="Text" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Arc" Name="Electron::Arc" Text="Arc" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Circle" Name="Electron::Circle" Text="Circle" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Rectangle" Name="Electron::Rectangle" Text="Rectangle" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Polygon" Name="Electron::Polygon" Text="Polygon" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Attribute" Name="Electron::Attribute" Text="Attribute" Type="eButton" Visible="Yes"/>
+    </item>
+    <item Active="No" Enabled="Yes" Name="SchVariantPanel" Text="Variant" Type="ePanel" Visible="Yes">
+      <item Active="No" Enabled="Yes" Label="Variant" Name="Electron::Variant" Text="Variant" Type="eButton" Visible="Yes"/>
+    </item>
+    <item Active="No" Enabled="Yes" Name="SchOutputPanel" Text="Output" Type="ePanel" Visible="Yes">
+      <item Active="No" Enabled="Yes" Label="Bill of Materials" Name="Electron::Bom" Text="Bill of Materials" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Name="Electron::Print" Type="eButton" Visible="No"/>
+    </item>
+    <item Active="No" Enabled="Yes" Name="SchValidatePanel" Text="VALIDATE" Type="ePanel" Visible="Yes">
+      <item Active="No" Enabled="Yes" Label="ERC" Name="Electron::ERC" Text="ERC" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Errors" Name="Electron::Errors" Text="Errors" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Class" Name="Electron::Class" Text="Class" Type="eButton" Visible="Yes"/>
+    </item>
+    <item Active="No" Enabled="Yes" Name="SchAutomationPanel" Text="AUTOMATION" Type="ePanel" Visible="Yes">
+      <item Active="No" Enabled="Yes" Label="Run ULP" Name="Electron::RunULP" Text="Run ULP" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Run Script" Name="Electron::RunScript" Text="Run Script" Type="eButton" Visible="Yes"/>
+    </item>
+    <item Active="No" Enabled="Yes" Name="SchSelectPanel" Text="SELECT" Type="ePanel" Visible="Yes">
+      <item Active="No" Enabled="Yes" Label="Group" Name="Electron::Group" Text="Group" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Group with Polygon" Name="Electron::GroupPolygon" Text="Group with Polygon" Type="eButton" Visible="Yes"/>
+    </item>
+    <item Active="No" Enabled="Yes" Name="SchLibraryPanel" Text="LIBRARIES" Type="ePanel" Visible="Yes">
+      <item Active="No" Enabled="Yes" Label="Open Library Manager" Name="Electron::LibraryManager" Text="Open Library Manager" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Update design from library" Name="Electron::UpdateDesignFromLibrary" Text="Update design from library" Type="eButton" Visible="Yes"/>
+      <item Active="No" Enabled="Yes" Label="Update design from all libraries used in design" Name="Electron::UpdateDesignFromAllLibraries" Text="Update design from all libraries used in design" Type="eButton" Visible="Yes"/>
+    </item>
+  </ElectronSchDocAssetType_CommandToolbar>
+</ui>

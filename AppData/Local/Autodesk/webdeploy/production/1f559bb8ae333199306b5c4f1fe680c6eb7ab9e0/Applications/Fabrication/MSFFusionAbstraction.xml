@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root DllName="MSFFusionAbstraction" Identifier="MSFFusionAbstraction" IsCoreAddIn="0" IsUIAddIn="0" IsApplicationAddIn="1" AppName="Fabrication" Name="MSFFusionAbstraction">
+	<NeededAddIns>
+		<NeededAddIn>Scene</NeededAddIn>
+		<NeededAddIn>CommonData</NeededAddIn>
+	    <NeededAddIn>Body</NeededAddIn>
+		<NeededAddIn>Component</NeededAddIn>
+		<NeededAddIn>EntityTracking</NeededAddIn>
+	    <NeededAddIn>Fusion</NeededAddIn>
+	</NeededAddIns>
+</root>

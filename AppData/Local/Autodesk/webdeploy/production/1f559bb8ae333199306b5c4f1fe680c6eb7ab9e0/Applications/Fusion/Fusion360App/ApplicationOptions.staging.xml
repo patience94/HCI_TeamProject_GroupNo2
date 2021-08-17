@@ -1,0 +1,69 @@
+<?xml version="1.0" standalone="yes" ?>
+<!DOCTYPE serverconfig [
+  <!ENTITY dashboardHost "https://ui-dls360-staging.autodesk.com">
+  <!ENTITY dashboardServiceRoot "&dashboardHost;/dashboard">
+]>
+<ApplicationOptions SchemaVersion="1.0">
+    <Option key="serverType" value="STAGING" />
+    <Option key="homePageUrl" value="https://login.staging.autodesk360.com/login" />
+    <Option key="exchangeMaterialUrl" value="https://ui-dls360-staging.autodesk.com/emb/index.html" />
+    <Option key="exchangeServiceUrl" value="http://exchange.services-staging.autodesk.com" />
+    <Option key="gaAccount" value="UA-41472239-1" />
+    <Option key="serviceStatusUrl" value="https://ui-dls360-staging.autodesk.com/fusion" />
+    <Option key="translationStatusUrl" value="https://translation-staging.api.autodesk.com/data/v1/" />
+    <Option key="hubType" value="personal" />
+    <Option key="notificationsUrl" value="https://notifications.stg.fusionapi.autodesk.com" />
+    <Option key="maintenanceUrl" value="https://s3.amazonaws.com/a360-statusdashboard_stg/autodesk_maintenance.json" />
+    <Option key="blockcheck" value="&dashboardHost;/dufo/scripts/check_blocked.js" />
+    <Option key="trytobuyOptionsUrl" value="https://ui-dls360-staging.autodesk.com/fusion/IPM.html" />
+    <Option key="lxUrl" value="https://ui-dls360-staging.autodesk.com/lxv2/" />
+    <Option key="liveData" value="urn:adsk.wipstg:fs.folder:co.52mPZJUwRp6mBEqEeMVcAA" />
+    <Option key="liveDataHub" value="https://myhub.staging.autodesk360.com/pe29cbcc2" />
+    <Option key="liveDataProject" value="20160301973269" />
+    <Option key="RaasServer" value="https://mercury-staging.autodesk.com" />
+    <Option key="migrationBucket" value="fusionerrorreports-stg" />
+    <Option key="apigeeEndpointUrl" value="https://developer-stg.api.autodesk.com" />
+    <Option key="apigeeEndpointDataPath" value="/data/v1/projects/"/>
+    <Option key="changesServiceUrl" value="https://changes-staging.api.autodesk.com" />
+    <Option key="CollaborationServer" value="https://livereview.stg.fusionapi.autodesk.com" />
+    <Option key="CollaborationViewer" value="http://ec2-54-82-121-16.compute-1.amazonaws.com:8080/viewer3d.html" />
+    <Option key="simServiceUrl" value="https://simulation.stg.fusionapi.autodesk.com/v1" />
+    <Option key="gdServicesUrl" value="https://developer-stg.api.autodesk.com/gcp/v2/agd" />
+    <Option key="gdExploreUrl" value="https://stg.dreamcatcher.autodesk.com" />
+    <Option key="hawkeyeUrl" value="https://stg.hawkeye.autodesk.com" />
+    <Option key="hawkeyeServiceUrl" value="https://beta-svc.hawkeye.autodesk.com" />
+    <Option key="meteringServerUrl" value="https://metering-staging.autodesk.com" />
+    <Option key="frvServerUrl" value="https://frv-s-ue1-dn.cosv2-s-ue1-dn.autodesk.com" />
+    <Option key="cepPageUrl" value="https://customer-stg.autodesk.com" />
+    <Option key="saasquatchTenant" value="test_akkc2xtioto9q" />
+    <Option key="surveyUrl" value="https://autodeskfeedback.az1.qualtrics.com/jfe/form/SV_02N0kS0VHnBRSZv" />
+    <Option key="fusionStaticsUrl" value="https://js.stg.fusionapi.autodesk.com/" />
+    <Option key="healthStatusUrl" value="https://js.stg.fusionapi.autodesk.com/hds/fusion360.json" />
+    <Option key="healthStatusWebUrl" value="https://health-stg.autodesk.com/" />
+    <Option key="hsmGaAccount" value="UA-93571112-1" />
+    <Option key="derivativeServiceUrl" value="https://developer-stg.api.autodesk.com/derivativeservice/v2/derivatives/" />
+    <Option key="fusionDMUrl" value="https://fusiondm-stg.ft.autodesk.com/fusiondm" />
+    <Option key="ldUrl" value="https://app.launchdarkly.com/api/v2/users/fusion/staging/fusion360/flags" />
+    <Option key="symphonyServiceUrl" value="https://symphonydm-stg.ft.autodesk.com/symphonydm/v2" />
+    <Option key="hfdmUrl" value="https://developer-stg.api.autodesk.com/hfdm-soc2" />
+    <Option key="pimUrl"  value="https://developer-stg.api.autodesk.com/pim" />
+    <Option key="pimServerUrl" value="https://developer-stg.api.autodesk.com/hfdm-soc2" />
+    <Option key="pimFdServerUrl" value="https://developer-stg.api.autodesk.com/assetgraph" />
+    <Option key="applicationType" value="staging" />
+    <Option key="learningPageUrl" value="https://ui-dls360-staging.autodesk.com/fusion-learning-panel/online.js" />
+    <Option key="LibraryIOUrl" value="https://contapi-staging.circuits.io/" />
+    <Option key="EagleDevEnvironment" value="Staging" />
+    <Option key="forgeDataInspectorUrl" value="http://inspector.autodesk.com/staging_soc2.html" />
+    <Option key="clsUrl" value="https://api-stg.v3license.access.np.clic.autodesk.com" />
+    <Option key="GCPEnvironment" value="alpha" />
+    <Option key="simecoolWorker" value="fec2020" />
+    <Option key="simfimWorker" value="fim2021" />
+    <Option key="simecoolGCPMoniker" value="simecool" />
+    <Option key="simfimGCPMoniker" value="simfim" />
+    <Option key="simecoolMoniker" value="simecool-s-ue1" />
+    <Option key="simsampMoniker" value="simsamp-s-ue1" />
+    <Option key="SCMBucket" value="56308d22-5724-4f09-b704-8b749e192f79" />
+    <Option key="CloudOSJMAPI" value="https://developer-stg.api.autodesk.com/fpccomp-s-ue1-dn/jm/api/v1" />
+    <Option key="GCPJMAPI" value="https://developer-stg.api.autodesk.com/gcp/a/v2" />
+    <Option key="OSSPrefix" value="oss:stg:" />
+</ApplicationOptions>

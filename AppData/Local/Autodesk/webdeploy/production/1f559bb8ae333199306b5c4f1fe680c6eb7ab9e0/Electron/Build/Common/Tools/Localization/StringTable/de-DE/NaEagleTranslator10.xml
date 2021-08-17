@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="EagleFileFilterDescription" devLabel="EAGLE Schematic Files (*.sch);;EAGLE Board Files (*.brd);;EAGLE Libraries Files (*.lbr)" translation="EAGLE-Stromlaufplandateien (*.sch);;EAGLE-Leiterplattendateien (*.brd);;EAGLE-Bibliotheksdateien (*.lbr)"/>
+</Resource>

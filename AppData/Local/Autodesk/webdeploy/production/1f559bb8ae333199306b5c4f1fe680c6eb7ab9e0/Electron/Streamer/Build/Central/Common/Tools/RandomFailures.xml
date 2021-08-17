@@ -1,0 +1,44 @@
+<root>
+	<!--    <item status="Fixed" type="crash">
+        <callstack>
+            <function>Ns::XSegEntityRef::getTarget</function>
+            <file>/main/src/Neutron/Applications/Neutron/../../Server/DataModel/Refs/XSegEntityRef.cpp</file>
+        </callstack>
+        <failedtests>
+            <test>testSmokeTestMigrationSamples</test>
+        </failedtests>
+    </item>
+    <item status="Fixed" type="crash">
+        <callstack>
+            <function>Ns::ASMInterface::TagTable::QLT_add</function>
+            <file>/main/src/Neutron/Applications/Neutron/../../Server/ASMInterface/TagDefs/TagTable.cpp</file>
+        </callstack>
+        <failedtests>
+            <test>saveAsUnitTest</test>
+        </failedtests>
+    </item>
+    <item status="Fixed" type="test">
+        <callstack/>
+        <failedtests>
+            <test>NFusion_Smoke_Patterns</test>
+            <test>NFusion_Smoke_TweakFace</test>
+            <test>NFusion_Smoke_WorkGeometry</test>
+            <test>NFusion_Acceptance_Persistence</test>
+            <test>NFusion_Acceptance_Features</test>
+        </failedtests>
+    </item>
+    <item status="Fixed" type="crash">
+        <callstack>
+            <function>__CFURLCache::CloseDatabase ()</function>
+        </callstack>
+    </item>
+-->
+	<!--samples above, change "Fixed" to "check" will active the random check.-->
+	<!--For crash case, funciton is the must have node, all others are optional.-->
+	<!--For test case, failedtests node is must have, all others are optional.-->
+	<item status="check" type="crash">
+		<callstack>
+			<function>autodesk::platform::core::memory::FastPool::_dumpLeak ()</function>
+		</callstack>
+	</item>
+</root>

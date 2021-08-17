@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="3D PCB Environment" devLabel="Package" translation="パッケージ"/>
+	<label commandName="3D Package Editor" devLabel="3D Package Editor" translation="3D パッケージ エディタ"/>
+	<label commandName="AllPackagesUpdatedFromModifiedFootprint" devLabel="Packages are updated and synced successfully with the footprints. Save the library to include the changes." translation="パッケージが更新され、フットプリントと正常に同期されました。変更を含めるにはライブラリを保存します。"/>
+	<label commandName="BoardLayoutEditorEnvironment" devLabel="PCB Editor" translation="PCB エディタ"/>
+	<label commandName="ChangeLinkedSketchForBoard" devLabel="The board in 3D PCB links with derived sketch, do you want to update the components only? Click &quot;No&quot; to reassociate the outline." translation="The board in 3D PCB links with derived sketch, do you want to update the components only? Click &quot;No&quot; to reassociate the outline."/>
+	<label commandName="ChatSupport" devLabel="Chat with an Expert" translation="専門の担当者とチャットする"/>
+	<label commandName="CommonTab" devLabel="COMMON" translation="共通"/>
+	<label commandName="ConfirmToOpenElectronicDesign1" devLabel="The linked file is used by this electronics design:&#xA;" translation="この電子部品設計ではリンク ファイルが使用されます:&#xA;"/>
+	<label commandName="ConfirmToOpenElectronicDesign3" devLabel="&#xA;Do you want to close it and open the new one?" translation="&#xA;閉じてから新規に開きますか?"/>
+	<label commandName="ContentManagerPanel" devLabel="Content Manager" translation="コンテンツ マネージャ"/>
+	<label commandName="ContentManagerPanelCloseCmd" devLabel="Hide Content Manager Command" translation="[コンテンツ マネージャを非表示]コマンド"/>
+	<label commandName="ContentManagerPanelCloseCommand" devLabel="Hide Content Manager Panel" translation="[コンテンツ マネージャを非表示]パネル"/>
+	<label commandName="ContentManagerPanelOpenCmd" devLabel="Show Content Manager Command" translation="[コンテンツ マネージャを表示]コマンド"/>
+	<label commandName="ContentManagerPanelOpenCommand" devLabel="Show Content Manager Panel" translation="[コンテンツ マネージャを表示]パネル"/>
+	<label commandName="Create Footprint" devLabel="Create Footprint" translation="フットプリントを作成"/>
+	<label commandName="Create New Package" devLabel="Create New Package" translation="新しいパッケージを作成"/>
+	<label commandName="CreatePCBHeightInput" devLabel="Thickness" translation="厚さ"/>
+	<label commandName="CreatePCBProfileInput" devLabel="Profile" translation="プロファイル"/>
+	<label commandName="DesignManager" devLabel="Design Manager" translation="デザイン マネージャ"/>
+	<label commandName="EditElectronDescription" devLabel="Edit Electron Description" translation="Electron の説明を編集"/>
+	<label commandName="EditorSidePanelCloseCommand" devLabel="Hide Editor Side Panel" translation="エディタのサイド パネルを非表示"/>
+	<label commandName="EditorSidePanelOpenCommand" devLabel="Show Editor Side Panel" translation="エディタのサイド パネルを表示"/>
+	<label commandName="Electron::AddHoleTips" devLabel="A hole generates a symbol in the Holes layer as well as a circle with the diameter of the hole in the Dimension layer." translation="穴により、[穴]画層に記号が生成され、[寸法]画層に穴の直径を持つ円が生成されます。"/>
+	<label commandName="Electron::AddHoleTitle" devLabel="Hole" translation="穴"/>
+	<label commandName="Electron::AddPartDesc" devLabel="The AddPart command can be used with wildcards ('*' or '?') to find a specific device." translation="AddPart コマンドは、特定のデバイスを検索するためにワイルドカード('*' または '?')と一緒に使用することができます。"/>
+	<label commandName="Electron::AddPartTips" devLabel="Usually you click the AddPart command and select the footprint or symbol from the menu that opens. If necessary, parameters can be entered from the keyboard." translation="通常は、[パーツを追加]コマンドをクリックし、メニューが開いたらフットプリントまたはシンボルを選択します。必要に応じて、キーボードからパラメータを入力できます。"/>
+	<label commandName="Electron::AddPartTitle" devLabel="Add Part" translation="パーツを追加"/>
+	<label commandName="Electron::AddTextTips" devLabel="The orientation of the text can be defined by the Text command (orientation) using the definitions listed in the Add command, such as R0 and R90. The right mouse button changes the rotation of the text and the center mouse button changes the current layer." translation="テキストの方向は、[追加]コマンドにリストされている定義(R0、R90 など)を使用して、[テキスト]コマンド(方向)で定義できます。マウスの右ボタンでテキストの回転角度を変更し、マウスの中央ボタンで現在の画層を変更します。"/>
+	<label commandName="Electron::AddTextTitle" devLabel="AddText" translation="AddText"/>
+	<label commandName="Electron::AlignTips" devLabel="The Align command uses axis aligned bounding boxes of objects to be aligned for all modes except for Align Origin to Grid mode (which as the name implies uses the origin of the object to be aligned)." translation="[位置合わせ]コマンドは、オブジェクトの軸に位置合わせされた境界ボックスを使用して、[原点をグリッドに位置合わせ]モード(名前で示すように、位置合わせするオブジェクトの原点を使用)以外のすべてのモードで位置合わせします。"/>
+	<label commandName="Electron::AlignTitle" devLabel="Align Objects" translation="オブジェクトを位置合わせ"/>
+	<label commandName="Electron::ArcTips" devLabel="Use the parameters CW (clockwise) and CCW (counterclockwise) to define the direction of the arc. ROUND and FLAT define whether the arc endings are round or flat, respectively." translation="パラメータ CW (時計回り)と CCW (反時計回り)を使用して、円弧の方向を定義します。ROUND と FLAT は、それぞれ円弧の終端が丸いか平坦かを定義します。"/>
+	<label commandName="Electron::ArcTitle" devLabel="Arc" translation="円弧"/>
+	<label commandName="Electron::AttributeTips" devLabel="Attributes can be defined in the library (for individual devices), in the schematic (for an actual part) or in the board (for an actual element). Attributes defined on the device level will be used for every part of that device type in the schematic. In a schematic, additional attributes can be defined for each part, and existing attributes from the devices can be overwritten with new values (if the attributes have been defined as variable). An element in the board has all the attributes of its corresponding part, and can have further attributes of its own." translation="属性は、ライブラリ(個々のデバイス)、回路図(実際のパーツ)、またはボード(実際の要素)で定義できます。デバイス レベルで定義した属性は、回路図内のそのデバイス タイプのすべてのパーツに使用されます。回路図では、追加の属性を各パーツに定義でき、デバイスの既存の属性を新しい値で上書きできます(属性が変数として定義されている場合)。ボード内の要素は、対応するパーツのすべての属性を持っており、独自の属性を追加することができます。"/>
+	<label commandName="Electron::AttributeTitle" devLabel="Attribute" translation="属性"/>
+	<label commandName="Electron::AutoRouterTips" devLabel="The Load and Save options can be used to load the AutoRouter parameters from or save them to the given file. If filename doesn't have the extension '.ctl' it will be appended automatically." translation="[ロード]オプションと[保存]オプションを使用すると、オートルータのパラメータを指定されたファイルからロードしたり、指定されたファイルに保存することができます。ファイル名に拡張子 '.ctl' がない場合、自動的に追加されます。"/>
+	<label commandName="Electron::AutoRouterTitle" devLabel="Autorouter" translation="オートルータ"/>
+	<label commandName="Electron::BusTips" devLabel="Reusable bus specifications can be saved as Predefined Buses (PDBs). The PDBs are saved in a file and can be used across projects, even shared with others. " translation="再利用可能なバスの仕様は、定義済みバス(PDB)として保存できます。PDB はファイルに保存され、複数のプロジェクト間で使用できます。他のユーザと共有することもできます。 "/>
+	<label commandName="Electron::BusTitle" devLabel="Bus" translation="バス"/>
+	<label commandName="Electron::ChangeTips" devLabel="Parameters adjusted with the Change command remain as preset properties for objects added later." translation="[変更]コマンドで調整したパラメータは、後で追加されるオブジェクトのプリセット プロパティとして残ります。"/>
+	<label commandName="Electron::ChangeTitle" devLabel="Change" translation="変更"/>
+	<label commandName="Electron::CircleTips" devLabel="Circles in the layers tRestrict, bRestrict, and vRestrict define restricted areas. They should be defined with a width of 0." translation="画層 tRestrict、bRestrict、および vRestrict 内の円は、制限領域を定義します。これらの円は幅 0 で定義する必要があります。"/>
+	<label commandName="Electron::CircleTitle" devLabel="Circle" translation="円"/>
+	<label commandName="Electron::CopyTips" devLabel="Copy places the selected group of objects on the clipboard, to support multiple Paste operations." translation="[コピー]を使用すると、選択したオブジェクトのグループがクリップボードに配置され、複数回の[貼り付け]操作がサポートされます。"/>
+	<label commandName="Electron::CopyTitle" devLabel="Copy" translation="コピー"/>
+	<label commandName="Electron::DRCTips" devLabel="Any errors found are displayed as error polygons in the respective layers, and can be browsed through using the Errors command." translation="見つかったエラーは、それぞれの画層のエラー ポリゴンとして表示され、[エラー]コマンドを使用して参照することができます。"/>
+	<label commandName="Electron::DRCTitle" devLabel="Design Rule Check" translation="デザイン ルール チェック"/>
+	<label commandName="Electron::DeleteTips" devLabel="After deleting a group, airwires may be left over from the removal of a component, because the airwires were not part of the group. In such a case you can recalculate the airwires with the RatsNest command." translation="グループを削除した後、エアワイヤがそのグループに含まれていなかったため、コンポーネントの削除からエアワイヤが残ることがあります。このような場合は、RatsNest コマンドを使用してエアワイヤを再計算できます。"/>
+	<label commandName="Electron::DeleteTitle" devLabel="Delete" translation="削除"/>
+	<label commandName="Electron::DimensionTips" devLabel="Control how dimensions are drawn by using the Change command with options such as DLine and DUnit." translation="DLine や DUnit などのオプションを指定して[変更]コマンドを使用することで、寸法の描画方法をコントロールします。"/>
+	<label commandName="Electron::DimensionTitle" devLabel="Dimension" translation="寸法"/>
+	<label commandName="Electron::DisplayTips" devLabel="Layer Settings." translation="画層設定。"/>
+	<label commandName="Electron::DisplayTitle" devLabel="Layer Settings" translation="画層設定"/>
+	<label commandName="Electron::ERCTips" devLabel="ERC detects inconsistencies between the implicit power and supply pins in the schematic and the actual signal connections in the board. Such inconsistencies can occur if the supply pin configuration is modified after the board has been created with the Board command." translation="ERC は、回路図内の暗黙的な電力および供給ピンとボード内の実際の信号接続の間の不整合を検出します。このような不整合は、[ボード]コマンドを使用してボードを作成した後に供給ピン設定を変更した場合に発生します。"/>
+	<label commandName="Electron::ERCTitle" devLabel="Electrical Rule Check" translation="電気ルール チェック"/>
+	<label commandName="Electron::ErrorsTips" devLabel="The list view in the Errors dialog has up to four sections that contain Consistency errors, Errors, Warnings and Approved messages." translation="[エラー]ダイアログの一覧表示には、一貫性エラー、エラー、警告、および承認済みメッセージを含む最大 4 つのセクションがあります。"/>
+	<label commandName="Electron::ErrorsTitle" devLabel="Errors" translation="エラー"/>
+	<label commandName="Electron::FanoutTips" devLabel="The Width parameter defines the width of the routed wire for the fanout and is the same parameter as used in the Route command. The width can be changed with the command 'Change Width width;'." translation="[幅]パラメータはファンアウトの配線ワイヤの幅を定義し、[ルート]コマンドで使用されているパラメータと同じです。幅は、'Change Width width;' コマンドで変更できます。"/>
+	<label commandName="Electron::FanoutTitle" devLabel="Fanout" translation="ファンアウト"/>
+	<label commandName="Electron::FlipBoardTips" devLabel="" translation=""/>
+	<label commandName="Electron::FlipBoardTitle" devLabel="" translation=""/>
+	<label commandName="Electron::GateSwapTips" devLabel="The name used in the GateSwap command is the displayed name on the schematic (e.g. U1A for gate A in device U1)" translation="GateSwap コマンドで使用される名前は、回路図上に表示される名前です(例: デバイス U1 のゲート A の場合は U1A)"/>
+	<label commandName="Electron::GateSwapTitle" devLabel="GateSwap" translation="GateSwap"/>
+	<label commandName="Electron::GridTips" devLabel="" translation=""/>
+	<label commandName="Electron::GridTitle" devLabel="Grid" translation="グリッド"/>
+	<label commandName="Electron::GroupTips" devLabel="The group includes all objects whose origin is inside the polygon, all wires with at least one endpoint inside the polygon, all circles whose center is inside the polygon, and all rectangles with any corner inside the polygon." translation="グループには、原点がポリゴンの内側にあるすべてのオブジェクト、ポリゴンの内側に少なくとも 1 つの端点を持つすべての配線、中心がポリゴンの内側にあるすべての円、およびいずれかのコーナーがポリゴンの内側にあるすべての長方形が含まれます。"/>
+	<label commandName="Electron::GroupTitle" devLabel="Group" translation="グループ"/>
+	<label commandName="Electron::InfoTips" devLabel="Parts, pads, smds, pins and gates can be selected by their name, which is useful if the object is outside the currently shown window area." translation="パーツ、パッド、SMD、ピン、ゲートは名前で選択できます。これは、オブジェクトが現在表示されているウィンドウ領域の外側にある場合に便利です。"/>
+	<label commandName="Electron::InfoTitle" devLabel="Info" translation="情報"/>
+	<label commandName="Electron::InvokeTips" devLabel="To activate gates, first enter the part name (e.g. IC5) and select the gate from the popup dialog. Then define device and gate name from the keyboard (e.g. Invoke IC5 Power). Select an existing gate from the device with the mouse and then select the desired gate from the popup menu that appears. Finally, click to position the new gate." translation="ゲートをアクティブにするには、まずパーツ名(例: IC5)を入力し、ポップアップ ダイアログからゲートを選択します。次に、キーボードからデバイスとゲート名を定義します(例: Invoke IC5 Power)。マウスを使用してデバイスから既存のゲートを選択してから、表示されるポップアップ メニューから目的のゲートを選択します。最後にクリックして新しいゲートを配置します。"/>
+	<label commandName="Electron::InvokeTitle" devLabel="Invoke" translation="呼び出し"/>
+	<label commandName="Electron::JunctionTips" devLabel="If a net wire is placed at a point where there are at least two other net wires and/or pins, a junction will automatically be placed. " translation="他の 2 つ以上のネット ワイヤやピンがあるポイントにネット ワイヤが配置されている場合、接合が自動的に配置されます。"/>
+	<label commandName="Electron::JunctionTitle" devLabel="Junction" translation="接合"/>
+	<label commandName="Electron::LabelTips" devLabel="Labels are handled as text, but their value corresponds to the name of the particular bus or net. If a bus or net is renamed with the Name command, all associated labels are renamed automatically." translation="ラベルはテキストとして処理されますが、値は特定のバスまたはネットの名前に対応します。[名前]コマンドを使用してバスまたはネットの名前を変更すると、関連付けられているすべてのラベルの名前が自動的に変更されます。"/>
+	<label commandName="Electron::LabelTitle" devLabel="Label" translation="ラベル"/>
+	<label commandName="Electron::LayerTips" devLabel="On the command line, specify a different layer by name or number: 'Layer layer_name' or 'Layer layer_number'." translation="コマンド ラインで、名前または番号('画層 layer_name' または '画層 layer_number')で別の画層を指定します。"/>
+	<label commandName="Electron::LayerTitle" devLabel="Layer" translation="画層"/>
+	<label commandName="Electron::LineTips" devLabel="Press the center mouse button to bring up a popup menu and select the layer on which to draw the line." translation="マウスの中央ボタンを押してポップアップ メニューを表示し、線分を描画する画層を選択します。"/>
+	<label commandName="Electron::LineTitle" devLabel="Line" translation="線分"/>
+	<label commandName="Electron::ManualRouteTips" devLabel="When you select an airwire (a connection on the Unrouted layer), routing begins at the signal object connected to the airwire that is closest to your selection point. Otherwise, the ManualRoute command automatically creates a new airwire from your selected route start point to a nearby target object that is a member of the same signal." translation="エアワイヤ(未配線の画層上の接続)を選択すると、選択した点に最も近い、エアワイヤに接続されている信号オブジェクトから配線が開始されます。または、ManualRoute コマンドを使用すると、選択したルートの始点から、同じ信号のメンバである近接するターゲット オブジェクトまで、自動的に新しいエアワイヤが作成されます。"/>
+	<label commandName="Electron::ManualRouteTitle" devLabel="ManualRoute" translation="ManualRoute"/>
+	<label commandName="Electron::MarkTips" devLabel="Choose a grid fine enough before using the Mark command." translation="[マーク]コマンドを使用する前に、十分に細かいグリッドを選択します。"/>
+	<label commandName="Electron::MarkTitle" devLabel="Mark" translation="マーク"/>
+	<label commandName="Electron::MeanderTips" devLabel="The meander starts at the first click point and extends to the second point the mouse is moved to. The maximum (perpendicular) size of the meander is defined by the distance of the mouse to the meandered wire." translation="蛇行は、最初のクリック点から始まり、マウスが移動する 2 番目の点まで延びます。蛇行の最大(垂直)サイズは、マウスと蛇行ワイヤとの距離によって定義されます。"/>
+	<label commandName="Electron::MeanderTitle" devLabel="Meander" translation="蛇行"/>
+	<label commandName="Electron::MirrorTips" devLabel="Parts, pads, smds and pins can also be selected by their name, which is useful if the object is outside the currently shown window area." translation="パーツ、パッド、SMD、ピンは名前でも選択できます。これは、オブジェクトが現在表示されているウィンドウ領域の外側にある場合に便利です。"/>
+	<label commandName="Electron::MirrorTitle" devLabel="Mirror" translation="ミラー"/>
+	<label commandName="Electron::MiterTips" devLabel="If you select a point where exactly two straight wires join, an additional wire will be inserted between these two wires, according to the given radius. If you click-drag on such a point with the left mouse button, you can define the mitering wire dynamically." translation="正確に 2 本の直線ワイヤが結合する点を選択した場合、指定した半径に基づいて、これらの 2 本のワイヤの間に追加のワイヤが挿入されます。マウスの左ボタンを使用してこのような点をクリックしてドラッグすると、マイタ ワイヤを動的に定義できます。"/>
+	<label commandName="Electron::MiterTitle" devLabel="Miter" translation="マイタ"/>
+	<label commandName="Electron::ModuleTips" devLabel="The orientation of the module instance can be defined textually using the usual definitions as listed in the Add command, such as R0 or R90." translation="モジュール インスタンスの方向は、[追加]コマンドで一覧表示される通常の定義(R0 や R90 など)を使用して文字により定義できます。"/>
+	<label commandName="Electron::ModuleTitle" devLabel="Module" translation="モジュール"/>
+	<label commandName="Electron::MoveTips" devLabel="When moving elements, connected wires (tracks) that belong to a signal are moved too (beware of short circuits!)." translation="要素を移動すると、信号に属する接続ワイヤ(トラック)も移動します(短絡には注意してください)。"/>
+	<label commandName="Electron::MoveTitle" devLabel="Move" translation="移動"/>
+	<label commandName="Electron::NetTips" devLabel="Net wires snap to the tips of pins. When the mouse is within Snap_Length of any portion of a pin (either before or after grid snapping), a small circle appears at the tip of the pin. This indicates that if the mouse is clicked, the resulting net wire point will be placed at the pin tip, creating a connection to the pin." translation="ネット ワイヤはピンの先端にスナップします。マウスがピンのいずれかの部分の Snap_Length の範囲内にある場合(グリッド スナップの前または後)、小さな円がピンの先端に表示されます。これは、マウスをクリックすると、最終的なネット ワイヤの点がピンの先端に配置され、ピンへの接続が作成されることを示します。"/>
+	<label commandName="Electron::NetTitle" devLabel="Net" translation="ネット"/>
+	<label commandName="Electron::OptimizeTips" devLabel="When selecting a wire without name, all unnamed wires of the drawing are optimized." translation="名前のないワイヤを選択すると、図面内の名前のないワイヤがすべて最適化されます。"/>
+	<label commandName="Electron::OptimizeTitle" devLabel="Optimize" translation="最適化"/>
+	<label commandName="Electron::PaintRollerTips" devLabel="Start the command in the command line or with the PaintRoller icon in the commands toolbar." translation="コマンド ラインで、またはコマンド ツールバーの[PaintRoller]アイコンを使用して、コマンドを開始します。"/>
+	<label commandName="Electron::PaintRollerTitle" devLabel="PaintRoller" translation="PaintRoller"/>
+	<label commandName="Electron::PasteTips" devLabel="When pasting from a file, nets that have a label or are connected to a supply pin retain their names, while all others get newly generated names." translation="ファイルから貼り付ける場合、ラベルを持つネット、または供給ピンに接続されているネットは名前を保持しますが、他のすべてのネットは新しく生成された名前を取得します。"/>
+	<label commandName="Electron::PasteTitle" devLabel="Paste" translation="貼り付け"/>
+	<label commandName="Electron::PatternTips" devLabel="This command can be used in the Schematic, Layout, and Library Editor." translation="このコマンドは、回路図、レイアウト、およびライブラリ エディタで使用できます。"/>
+	<label commandName="Electron::PatternTitle" devLabel="Pattern" translation="パターン"/>
+	<label commandName="Electron::PinSwapTips" devLabel="Wires attached to the swapped pins are moved with the pins, so short circuits can appear. Run the design rules check (DRC) and correct possible errors." translation="スワップ ピンに接続されたワイヤはピンとともに移動するため、短絡が現れる場合があります。デザイン ルール チェック(DRC)を実行し、発生する可能性のあるエラーを修正してください。"/>
+	<label commandName="Electron::PinSwapTitle" devLabel="PinSwap" translation="PinSwap"/>
+	<label commandName="Electron::PolygonTips" devLabel="The polygon width should always be larger than the hardware resolution of the output device." translation="ポリゴンの幅は、常に出力デバイスのハードウェア解像度よりも大きくする必要があります。"/>
+	<label commandName="Electron::PolygonTitle" devLabel="Polygon" translation="ポリゴン"/>
+	<label commandName="Electron::PortTips" devLabel="The position and orientation are calculated automatically on the closest side of the module symbol." translation="位置と方向は、モジュール記号の最も近い側で自動的に計算されます。"/>
+	<label commandName="Electron::PortTitle" devLabel="Port" translation="ポート"/>
+	<label commandName="Electron::QuickRouteAirWireTips" devLabel="You can select an existing wire, pad, or via in the design, and if the command can determine an unambiguous nearby airwire then it will route that." translation="デザイン内の既存のワイヤ、パッド、またはビアを選択できます。コマンドで近くの明確なエアワイヤを特定できる場合は、その配線が自動的に行われます。"/>
+	<label commandName="Electron::QuickRouteAirWireTitle" devLabel="QuickRouteAirWire" translation="QuickRouteAirWire"/>
+	<label commandName="Electron::QuickRouteMultiWireTips" devLabel="Press the Esc key if you need to clear the selection list and begin again." translation="選択リストをクリアして再開する必要がある場合は、[Esc]キーを押します。"/>
+	<label commandName="Electron::QuickRouteMultiWireTitle" devLabel="QuickRouteMultiWire" translation="QuickRouteMultiWire"/>
+	<label commandName="Electron::QuickRouteSignalTips" devLabel="When the signal that you have selected is one side of a differential pair, the command automatically routes both differential pair signals together." translation="選択した信号が差動ペアの片側である場合、差動ペアの両方の信号が自動的に一緒に配線されます。"/>
+	<label commandName="Electron::QuickRouteSignalTitle" devLabel="QuickRouteSignal" translation="QuickRouteSignal"/>
+	<label commandName="Electron::RatsnestTips" devLabel="Ratsnest also calculates all polygons belonging to a signal. This avoids the calculation of airwires for pads already connected through polygons." translation="Ratsnest では、信号に属するすべてのポリゴンも計算されます。これにより、既にポリゴンを介して接続されているパッドのエアワイヤが計算されなくなります。"/>
+	<label commandName="Electron::RatsnestTitle" devLabel="Ratsnest" translation="Ratsnest"/>
+	<label commandName="Electron::RectangleTips" devLabel="The orientation (see description in Add command) can be any angle in the range R0–R359.9." translation="方向([追加]コマンドの説明を参照)は、R0 ～ R359.9 の範囲の任意の角度にすることができます。"/>
+	<label commandName="Electron::RectangleTitle" devLabel="Rectangle" translation="長方形"/>
+	<label commandName="Electron::ReplaceTips" devLabel="Without parameters, the Replace command opens a dialog from which to select a device from all libraries currently in use. After such a device has been selected, subsequent mouse clicks on parts replace those parts' devices with the selected one if possible." translation="パラメータを指定しないで[置換]コマンドを使用すると、現在使用中のすべてのライブラリからデバイスを選択するためのダイアログが開きます。デバイスを選択した後、パーツをクリックすると、選択したデバイスでパーツのデバイスが置換されます(可能な場合)。"/>
+	<label commandName="Electron::ReplaceTitle" devLabel="Replace" translation="置換"/>
+	<label commandName="Electron::RepositionAttributesTips" devLabel="Parts and elements can also be selected by their name, which is useful if the object is outside the currently shown window area. " translation="パーツおよび要素は名前でも選択できます。これは、オブジェクトが現在表示されているウィンドウ領域の外側にある場合に便利です。"/>
+	<label commandName="Electron::RepositionAttributesTitle" devLabel="RepositionAttributes" translation="RepositionAttributes"/>
+	<label commandName="Electron::RipupAllPolygonsTips" devLabel="To invoke the same command using the command line, enter RIPUP @; and press 'ENTER'." translation="コマンド ラインを使用して同じコマンドを呼び出すには、RIPUP @; と入力して 'ENTER' を押します。"/>
+	<label commandName="Electron::RipupAllPolygonsTitle" devLabel="RipupAllPolygons" translation="RipupAllPolygons"/>
+	<label commandName="Electron::RipupAllTips" devLabel="If the Ripup command with a name is applied to a signal that contains a polygon, the polygon is displayed with its outlines for faster screen redraw. Use the Ratsnest command to have polygons displayed in the 'real mode' again." translation="名前を指定してポリゴンが含まれている信号に[リップアップ]コマンドを適用すると、画面をすばやく再描画できるようにポリゴンがアウトラインで表示されます。ポリゴンを再度 'リアル モード' で表示するには、Ratsnest コマンドを使用します。"/>
+	<label commandName="Electron::RipupAllTitle" devLabel="Ripup" translation="リップアップ"/>
+	<label commandName="Electron::RipupConnectedSameLayerTips" devLabel="Use Ripup Connected Copper on the same layer to ripup fanouts, BGA breakouts, etc." translation="同じ画層上で[接続銅線をリップアップ]を使用して、ファンアウトや BGA ブレークアウトなどをリップアップします。"/>
+	<label commandName="Electron::RipupConnectedSameLayerTitle" devLabel="RipupConnectedSameLayer" translation="RipupConnectedSameLayer"/>
+	<label commandName="Electron::RipupConnectedTips" devLabel="Use Ripup Connected Copper to limit the scope of a ripup and make reworking sections easier." translation="[接続銅線をリップアップ]を使用してリップアップの範囲を制限し、セクションのやり直しを簡単にします。"/>
+	<label commandName="Electron::RipupConnectedTitle" devLabel="RipupConnected" translation="RipupConnected"/>
+	<label commandName="Electron::RipupElementToElementTips" devLabel="Useful when rerouting connections between components including memory signals, buses, etc" translation="メモリ信号やバスなどのコンポーネント間の接続を再配線する場合に便利です"/>
+	<label commandName="Electron::RipupElementToElementTitle" devLabel="RipupElementToElement" translation="RipupElementToElement"/>
+	<label commandName="Electron::RipupSignalTips" devLabel="Use to ripup all tracks, vias and polygons in a selected signal" translation="選択した信号内のすべてのトラック、ビア、ポリゴンをリップアップするために使用します"/>
+	<label commandName="Electron::RipupSignalTitle" devLabel="RipupSignal" translation="RipupSignal"/>
+	<label commandName="Electron::RipupTips" devLabel="If the Ripup command with a name is applied to a signal that contains a polygon, the polygon is displayed with its outlines for faster screen redraw. Use the Ratsnest command to have polygons displayed in the 'real mode' again." translation="名前を指定してポリゴンが含まれている信号に[リップアップ]コマンドを適用すると、画面をすばやく再描画できるようにポリゴンがアウトラインで表示されます。ポリゴンを再度 'リアル モード' で表示するには、Ratsnest コマンドを使用します。"/>
+	<label commandName="Electron::RipupTitle" devLabel="Ripup" translation="リップアップ"/>
+	<label commandName="Electron::RotateTips" devLabel="If orientation angle is specified, that value will be added to the current orientation of the selected object. Prefixing orientation with the character '=' causes the angle value not to be added, but set absolutely." translation="方向角度を指定すると、その値は選択したオブジェクトの現在の方向に追加されます。方向の前に文字 '=' を付けると、角度の値は追加されず、絶対値として設定されます。"/>
+	<label commandName="Electron::RotateTitle" devLabel="Rotate" translation="回転"/>
+	<label commandName="Electron::RouteDiffPairTips" devLabel="When selecting an airwire of a Differential Pair, both signals are routed in parallel. The distance between the two signals as well as the wire and via sizes are determined by the signals' net class. This is done independent of the setting of Options/Set/Misc/Auto set route width and drill." translation="差動ペアのエアワイヤを選択すると、両方の信号が並列に配線されます。2 つの信号間の距離、およびワイヤとビアのサイズは、信号のネット クラスによって決まります。これは、[オプション]/[設定]/[その他]/[ルート幅とドリルを自動設定]の設定から独立して行われます。"/>
+	<label commandName="Electron::RouteDiffPairTitle" devLabel="RouteDiff" translation="RouteDiff"/>
+	<label commandName="Electron::RouteMultiTips" devLabel="To select the signals to route, draw a selection line that intersects through the signal objects that you wish to route concurrently (existing wires, pads, and vias). Continue to draw additional selection lines to add more signal objects." translation="配線する信号を選択するには、同時に配線する信号オブジェクト(既存のワイヤ、パッド、ビア)を通る選択線を描画します。信号オブジェクトをさらに追加するには、引き続き選択線を描画します。"/>
+	<label commandName="Electron::RouteMultiTitle" devLabel="RouteMulti" translation="RouteMulti"/>
+	<label commandName="Electron::RunScriptTips" devLabel="If RunScript is typed in at the keyboard and 'file_name' has no extension, the program automatically uses '.scr'." translation="RunScript がキーボードで入力され、'file_name' に拡張子がない場合、プログラムは自動的に '.scr' を使用します。"/>
+	<label commandName="Electron::RunScriptTitle" devLabel="RunScript" translation="RunScript"/>
+	<label commandName="Electron::ShowTips" devLabel="Select more than one object for highlighting by pressing the Ctrl key when clicking on the objects." translation="ハイライト表示するオブジェクトを複数選択するには、[Ctrl]キーを押しながらオブジェクトをクリックします。"/>
+	<label commandName="Electron::ShowTitle" devLabel="Show" translation="表示"/>
+	<label commandName="Electron::SignalTips" devLabel="If you use the Signal command to connect pads (or smds) that already belong to different signals, a popup will ask you if you want to connect the signals together, and which name to use for the signal." translation="[信号]コマンドを使用して、既に異なる信号に属しているパッド(または SMD)を接続する場合、信号を相互に接続するかどうか、および信号に使用する名前をポップアップで尋ねられます。"/>
+	<label commandName="Electron::SignalTitle" devLabel="Signal" translation="信号"/>
+	<label commandName="Electron::SliceTips" devLabel="Only lines from from displayed layers can be sliced. Air lines and polygons are not sliced." translation="表示されている画層の線分のみを切断できます。エア ラインとポリゴンは切断されません。"/>
+	<label commandName="Electron::SliceTitle" devLabel="Slice" translation="スライス"/>
+	<label commandName="Electron::SplitTips" devLabel="A mouseclick defines the point at which the wire is split. The shorter of the two new segments follows the current wire bend rules and can therefore become two more segments; the longer segment is a straight segment running to the next end point." translation="マウスのクリックによって、ワイヤが分割される点が定義されます。2 つの新しいセグメントのうち短い方は現在のワイヤ曲げルールに従うため、さらに 2 つのセグメントになる場合があります。長い方のセグメントは次の端点に向かう直線セグメントになります。"/>
+	<label commandName="Electron::SplitTitle" devLabel="Split" translation="分割"/>
+	<label commandName="Electron::Tips" devLabel="Started from a context menu, the object is assigned to a group. It can be identified with the built-in function ingroup() for further processing." translation="コンテキスト メニューから起動され、オブジェクトがグループに割り当てられます。このグループは、組み込み関数 ingroup() で識別され、さらに処理することができます。"/>
+	<label commandName="Electron::Title" devLabel="RunULP" translation="RunULP"/>
+	<label commandName="Electron::ToggleSingleLayerTips" devLabel="ToggleSingleLayer." translation="ToggleSingleLayer。"/>
+	<label commandName="Electron::ToggleSingleLayerTitle" devLabel="ToggleSingleLayer" translation="ToggleSingleLayer"/>
+	<label commandName="Electron::ValueTips" devLabel="If you type in a value before you select an element, then all of the subsequently selected elements receive this value." translation="要素を選択する前に値を入力すると、その後に選択するすべての要素にこの値が適用されます。"/>
+	<label commandName="Electron::ValueTitle" devLabel="Value" translation="値"/>
+	<label commandName="Electron::ViaTips" devLabel="The via is added to a signal if it is placed on an existing signal wire." translation="ビアは、既存の信号ワイヤに配置されている場合、信号に追加されます。"/>
+	<label commandName="Electron::ViaTitle" devLabel="Via" translation="ビア"/>
+	<label commandName="Electron::ZoomInTips" devLabel="TBD" translation="TBD"/>
+	<label commandName="Electron::ZoomInTitle" devLabel="ZoomIn" translation="ZoomIn"/>
+	<label commandName="Electron::ZoomOutTips" devLabel="TBD" translation="TBD"/>
+	<label commandName="Electron::ZoomOutTitle" devLabel="ZoomOut" translation="ZoomOut"/>
+	<label commandName="Electron::ZoomRectTips" devLabel="TBD" translation="TBD"/>
+	<label commandName="Electron::ZoomRectTitle" devLabel="ZoomRect" translation="ZoomRect"/>
+	<label commandName="Electron::ZoomToFitTips" devLabel="TBD" translation="TBD"/>
+	<label commandName="Electron::ZoomToFitTitle" devLabel="ZoomToFit" translation="ZoomToFit"/>
+	<label commandName="ElectronColorOptionsDescription" devLabel="Color Preferences for Electronics" translation="電子部品の色の設定"/>
+	<label commandName="ElectronColorOptionsName" devLabel="Color" translation="カラー"/>
+	<label commandName="ElectronDesignDocumentsNotInSync" devLabel="Board and schematic are not consistent!&#xA;&#xA;No forward-/backannotation will be performed!&#xA;&#xA;Use the ERC command to get a detailed error report." translation="ボードと回路図が一致しません。&#xA;&#xA;前後の注釈付けは実行されません。&#xA;&#xA;ERC コマンドを使用して詳細なエラー レポートを取得してください。"/>
+	<label commandName="ElectronDrillOptionsDescription" devLabel="Drill Preferences for Electronics" translation="電子部品のドリルの設定"/>
+	<label commandName="ElectronDrillOptionsName" devLabel="Drill" translation="ドリル"/>
+	<label commandName="ElectronMiscOptionsDescription" devLabel="Misc Preferences for Electronics" translation="電子部品のその他の設定"/>
+	<label commandName="ElectronMiscOptionsName" devLabel="Misc" translation="その他"/>
+	<label commandName="ElectronNewDesignDocument" devLabel="New Electronics Design" translation="新しい電子部品デザイン"/>
+	<label commandName="ElectronNewDocument" devLabel="New Electron Document" translation="新しい Electron ドキュメント"/>
+	<label commandName="ElectronNewLbrDocument" devLabel="New Electronics Library" translation="新しい電子部品ライブラリ"/>
+	<label commandName="ElectronNewPcbDocument" devLabel="New PCB" translation="新しい PCB"/>
+	<label commandName="ElectronNewSchDocument" devLabel="New Schematic" translation="新しい回路図"/>
+	<label commandName="ElectronOptionsDescription" devLabel="Preferences for Electronics" translation="電子部品の設定"/>
+	<label commandName="ElectronOptionsName" devLabel="Electronics" translation="電子部品"/>
+	<label commandName="ElectronSaveAllCmd" devLabel="Save all command" translation="[すべて保存]コマンド"/>
+	<label commandName="Electronic3DPCB" devLabel="3D PCB" translation="3D PCB"/>
+	<label commandName="ElectronicBoard" devLabel="Board" translation="ボード"/>
+	<label commandName="ElectronicPCB" devLabel="PCB" translation="PCB"/>
+	<label commandName="ElectronicPCB3DBottom" devLabel="PCB3D Bottom" translation="PCB3D 下"/>
+	<label commandName="ElectronicPCB3DTop" devLabel="PCB3D Top" translation="PCB3D 上"/>
+	<label commandName="ElectronicProjectDesign" devLabel="Project Design" translation="プロジェクト設計"/>
+	<label commandName="ElectronicSchematic" devLabel="Schematic" translation="回路図"/>
+	<label commandName="ElectronicSheet" devLabel="Sheet%1" translation="シート%1"/>
+	<label commandName="Electronics Library Device Design Environment" devLabel="Device" translation="デバイス"/>
+	<label commandName="Electronics Library EmptyLbr Design Environment" devLabel="EmptyLbr" translation="EmptyLbr"/>
+	<label commandName="Electronics Library Footprint Design Environment" devLabel="Footprint" translation="フットプリント"/>
+	<label commandName="Electronics Library Package 3D Browse Environment" devLabel="Package 3d" translation="パッケージ 3D"/>
+	<label commandName="Electronics Library Symbol Design Environment" devLabel="Symbol" translation="記号"/>
+	<label commandName="FailToAccessPackage3DDoc" devLabel="Fail to access new 3d package document." translation="新しい 3D パッケージ ドキュメントへのアクセスに失敗しました。"/>
+	<label commandName="FailToCreatePCB3dDoc" devLabel="Fail to create PCB 3d document!" translation="PCB 3D ドキュメントの作成に失敗しました。"/>
+	<label commandName="FailToCreatePCBDoc" devLabel="Fail to create PCB document!" translation="PCB ドキュメントの作成に失敗しました。"/>
+	<label commandName="FailToCreatePackage3DDoc" devLabel="Fail to create new 3d package document." translation="新しい 3D パッケージ ドキュメントの作成に失敗しました。"/>
+	<label commandName="FailToCreatePackageFromFootprint" devLabel="Package can not be created from empty footprint." translation="空のフットプリントからパッケージを作成することはできません。"/>
+	<label commandName="FailToExecuteEagleULP" devLabel="Fail to execute eagle ulp." translation="Fail to execute eagle ulp."/>
+	<label commandName="FailToGenerateResult" devLabel="Fail to generate result." translation="Fail to generate result."/>
+	<label commandName="FailToOpenPCB3DDoc" devLabel="Fail to open PCB3D document!" translation="PCB3D ドキュメントを開くのに失敗しました。"/>
+	<label commandName="FailToOpenPCBDoc" devLabel="Fail to open PCB document!" translation="PCB ドキュメントを開くのに失敗しました。"/>
+	<label commandName="FailedToDownload3DModel" devLabel="Failed to store downloaded 3d model." translation="ダウンロードした 3D モデルの保存に失敗しました。"/>
+	<label commandName="FailedToGetReferenceFile" devLabel="Failed to get the referenced file." translation="参照ファイルの取得に失敗しました。"/>
+	<label commandName="FailedToOpenPackage3D" devLabel="Failed to open 3D package document." translation="3D パッケージ ドキュメントを開くのに失敗しました。"/>
+	<label commandName="FailedToOpenReferenceFile" devLabel="Failed to open the referenced file." translation="参照ファイルを開くのに失敗しました。"/>
+	<label commandName="FailedToReferenceTheFile" devLabel="Failed to get the referenced file." translation="参照ファイルの取得に失敗しました。"/>
+	<label commandName="FailedToStore3DModel" devLabel="Failed to load 3d model." translation="3D モデルのロードに失敗しました。"/>
+	<label commandName="FileOpenFilterDesignPCB" devLabel="All supported files (*.fbrd *.brd)" translation="サポートされているすべてのファイル(*.fbrd *.brd)"/>
+	<label commandName="FileOpenFilterDesignSch" devLabel="All supported files (*.fsch *.sch)" translation="サポートされているすべてのファイル(*.fsch *.sch)"/>
+	<label commandName="FinishPackage3D" devLabel="Do you want to finish the package and add to the library?" translation="パッケージを終了してライブラリに追加しますか?"/>
+	<label commandName="FinishPackage3DWarning" devLabel="Package can not be finished without a footprint." translation="フットプリントのないパッケージを終了することはできません。"/>
+	<label commandName="FinishPackage3DWarningWhenSavingDocument" devLabel="The document is currently being saved. You can finish the package after saving the document." translation="ドキュメントは現在保存中です。ドキュメントを保存した後にパッケージを終了することができます。"/>
+	<label commandName="FocusEagleCommandLine" devLabel="Set focus on EAGLE command line bar" translation="EAGLE のコマンド ライン バーにフォーカスを設定"/>
+	<label commandName="FusionPackage3DStop" devLabel="Finish" translation="終了"/>
+	<label commandName="GetLatestElectronCommand" devLabel="Get All Latest" translation="最新をすべて取得"/>
+	<label commandName="GetLatestPcbCommand" devLabel="Get Latest PCB" translation="最新の PCB を取得"/>
+	<label commandName="GetLatestSchCommand" devLabel="Get Latest Schematic" translation="最新の回路図を取得"/>
+	<label commandName="HideElectronDescriptionCmd" devLabel="Hide Electron Description Command" translation="[Electron の説明を非表示]コマンド"/>
+	<label commandName="HideElectronDescriptionCommand" devLabel="Hide Electron Design Description" translation="Electron のデザイン説明を非表示"/>
+	<label commandName="HideElectronDesignManagerCmd" devLabel="Hide Electron Design Manager Command" translation="[Electron のデザイン マネージャを非表示]コマンド"/>
+	<label commandName="HideElectronDesignManagerCommand" devLabel="Hide Design Manager" translation="デザイン マネージャを非表示"/>
+	<label commandName="HideElectronInspectorCmd" devLabel="Hide Electron Inspector Command" translation="[Electron のインスペクタを非表示]コマンド"/>
+	<label commandName="HideElectronInspectorCommand" devLabel="Hide Inspector" translation="インスペクタを非表示"/>
+	<label commandName="HideElectronSelectionFilterCmd" devLabel="Hide Electron Selection Filter Command" translation="[Electron の選択フィルタを非表示]コマンド"/>
+	<label commandName="HideElectronSelectionFilterCommand" devLabel="Hide Selection Filter" translation="選択フィルタを非表示"/>
+	<label commandName="HideElectronSheetsCmd" devLabel="Hide Electron Sheets Command" translation="[Electron のシートを非表示]コマンド"/>
+	<label commandName="HideElectronSheetsCommand" devLabel="Hide Sheets" translation="シートを非表示"/>
+	<label commandName="Inspector" devLabel="Inspector" translation="インスペクタ"/>
+	<label commandName="LaunchRedoCmdDef" devLabel="Launch the redo command" translation="[やり直し]コマンドを起動"/>
+	<label commandName="LaunchUndoCmdDef" devLabel="Launch the undo command" translation="[元に戻す]コマンドを起動"/>
+	<label commandName="LearningPanel" devLabel="In Product Marketing" translation="製品マーケティング"/>
+	<label commandName="Link 3D PCB to existing brd" devLabel="Link to 2D PCB" translation="2D PCB にリンク"/>
+	<label commandName="LinkedDocumentNotReady" devLabel="The linked document wasn't ready yet, please try it again." translation="リンクされたドキュメントの準備ができていません。再試行してください。"/>
+	<label commandName="LinktoSelectTarget" devLabel="Link to" translation="リンク先"/>
+	<label commandName="MainDashboard" devLabel="Data Panel" translation="データ パネル"/>
+	<label commandName="MissPCBDesign" devLabel="Please open or create an electronics design to continue." translation="続行するには、電子部品デザインを開くか作成してください。"/>
+	<label commandName="NewElectronDesignMenuCommand" devLabel="New Electronics Design" translation="新しい電子部品デザイン"/>
+	<label commandName="OpenLinkedDocument" devLabel="Open" translation="開く"/>
+	<label commandName="PCB2DAndPCB3DOutOfSync1" devLabel="The 2D and 3D PCB documents are out of sync.&#xA;To synchronize, ensure any changes to the 2D document have been pushed to 3D from the Switch section located in the main PCB toolbar. From the 3D PCB, push changes by clicking the PCB icon in the Modify section of the main toolbar.&#xA;Do you want to continue?" translation="2D と 3D の PCB ドキュメントが同期していません。&#xA;同期するには、メイン PCB ツールバーの[スイッチ]セクションから 2D ドキュメントに対する変更が 3D にプッシュされていることを確認します。3D PCB から、メイン ツールバーの[修正]セクションの PCB アイコンをクリックして変更をプッシュします。&#xA;続行しますか?"/>
+	<label commandName="PCB2DAndPCB3DOutOfSync2" devLabel="The 2D and 3D PCB documents are out of sync.&#xA;To synchronize, ensure any changes to the 2D document have been pushed to 3D from the Switch section located in the main PCB toolbar. From the 3D PCB, push changes by clicking the PCB icon in the Modify section of the main toolbar." translation="2D と 3D の PCB ドキュメントが同期していません。&#xA;同期するには、メイン PCB ツールバーの[スイッチ]セクションから 2D ドキュメントに対する変更が 3D にプッシュされていることを確認します。3D PCB から、メイン ツールバーの[修正]セクションの PCB アイコンをクリックして変更をプッシュします。"/>
+	<label commandName="PCBDesignEnvironment" devLabel="Electronics Design" translation="電子部品デザイン"/>
+	<label commandName="PLM360NotAuthenticated" devLabel="No valid login session, try logging in again." translation="有効なログイン セッションがありません。ログインし直してください。"/>
+	<label commandName="Package3DCmd" devLabel="Package 3D editor" translation="パッケージ 3D エディタ"/>
+	<label commandName="Package3DLibrarySwitchWarning" devLabel="Could not find the library document for this 3D package." translation="この 3D パッケージのライブラリ ドキュメントが見つかりませんでした。"/>
+	<label commandName="Package3DStop" devLabel="Finish and update library" translation="ライブラリを終了して更新"/>
+	<label commandName="PanelInDesign" devLabel="" translation=""/>
+	<label commandName="PcbManufacturing" devLabel="Manufacturing" translation="製造"/>
+	<label commandName="PcbRulesDrcErc" devLabel="Rules DRC/ERC" translation="ルール DRC/ERC"/>
+	<label commandName="Push 3D PCB to brd" devLabel="Push to 2D PCB" translation="2D PCB にプッシュ"/>
+	<label commandName="ReferenceSelectSource" devLabel="Reference to" translation="参照先"/>
+	<label commandName="ReferenceToPCBCommand" devLabel="Reference to a PCB document" translation="PCB ドキュメントへの参照"/>
+	<label commandName="ReferenceToSCHCommand" devLabel="Reference to a Schematic document" translation="回路図ドキュメントへの参照"/>
+	<label commandName="Referral" devLabel="Refer a Friend" translation="お友達を紹介"/>
+	<label commandName="RemovePCB3DLinkCommand" devLabel="Remove 3D PCB Link" translation="3D PCB リンクを削除"/>
+	<label commandName="RemovePCBLinkCommand" devLabel="Remove PCB Link" translation="PCB リンクを削除"/>
+	<label commandName="RemoveSCHLinkCommand" devLabel="Remove Schematic Link" translation="回路図リンクを削除"/>
+	<label commandName="SaveNewPackage3D" devLabel="Package with the same name already exists in the library. You need to rename the new package before adding it to the library. Do you want to continue?" translation="同じ名前のパッケージがライブラリ内に既に存在します。ライブラリに追加する前に新しいパッケージの名前を変更する必要があります。続行しますか?"/>
+	<label commandName="SavedWithPCBDesign" devLabel="Saved with electronics design" translation="電子部品デザインとともに保存"/>
+	<label commandName="SchDesignTab" devLabel="DESIGN" translation="デザイン"/>
+	<label commandName="SchValidateTab" devLabel="VALIDATE" translation="検証"/>
+	<label commandName="SchematicEditorEnvironment" devLabel="Schematic Editor" translation="回路図エディタ"/>
+	<label commandName="SchematicSheets" devLabel="Sheets" translation="シート"/>
+	<label commandName="SelectionFilter" devLabel="Selection Filter" translation="選択フィルタ"/>
+	<label commandName="ShowElectronDescriptionCmd" devLabel="Show Electron Description Command" translation="[Electron の説明を表示]コマンド"/>
+	<label commandName="ShowElectronDescriptionCommand" devLabel="Show Electron Design Description" translation="Electron のデザイン説明を表示"/>
+	<label commandName="ShowElectronDesignManagerCmd" devLabel="Show Electron Design Manager Command" translation="[Electron のデザイン マネージャを表示]コマンド"/>
+	<label commandName="ShowElectronDesignManagerCommand" devLabel="Show Design Manager" translation="デザイン マネージャを表示"/>
+	<label commandName="ShowElectronInspectorCmd" devLabel="Show Electron Inspector Command" translation="[Electron のインスペクタを表示]コマンド"/>
+	<label commandName="ShowElectronInspectorCommand" devLabel="Show Inspector" translation="インスペクタを表示"/>
+	<label commandName="ShowElectronSelectionFilterCmd" devLabel="Show Electron Selection Filter Command" translation="[Electron の選択フィルタを表示]コマンド"/>
+	<label commandName="ShowElectronSelectionFilterCommand" devLabel="Show Selection Filter" translation="選択フィルタを表示"/>
+	<label commandName="ShowElectronSheetsCmd" devLabel="Show Electron Sheets Command" translation="[Electron のシートを表示]コマンド"/>
+	<label commandName="ShowElectronSheetsCommand" devLabel="Show Sheets" translation="シートを表示"/>
+	<label commandName="Survey" devLabel="Send Your Feedback" translation="フィードバックを送信"/>
+	<label commandName="SwitchPcbDocumentCommand" devLabel="Switch to PCB document" translation="PCB ドキュメントに切り替え"/>
+	<label commandName="SwitchSchematicDocumentCommand" devLabel="Switch to Schematic document" translation="回路図ドキュメントに切り替え"/>
+	<label commandName="TextCommands" devLabel="Text Commands" translation="テキスト コマンド"/>
+	<label commandName="UpdatePCB3DPreview" devLabel="Update the PCB3d preview." translation="PCB3d プレビューを更新します。"/>
+	<label commandName="UpdatePackageFromModifiedFootprintRequestMessage" devLabel="Packages from Fusion Team are out of sync with the footprints in the library. Do you want to update the packages now?" translation="Fusion Team のパッケージがライブラリ内のフットプリントと同期していません。パッケージを今すぐ更新しますか?"/>
+	<label commandName="UpdateSCHOrPCBNode" devLabel="Update the Schematic or PCB node." translation="[回路図]ノードまたは[PCB]ノードを更新します。"/>
+	<label commandName="View 3D PCB" devLabel="View 3D PCB" translation="3D PCB を表示"/>
+	<label commandName="View 3D PCB With Canvas" devLabel="View 3D PCB With Canvas" translation="キャンバスで 3D PCB を表示"/>
+	<label commandName="WillNotUpdatePCB" devLabel="PCB or 3d PCB is read only, so will not update PCB." translation="PCB または 3D PCB は読み取り専用であるため、PCB は更新されません。"/>
+	<label commandName="WillNotUpdatePCB3D" devLabel="PCB or 3d PCB is read only, so will not update 3d PCB." translation="PCB または 3D PCB は読み取り専用であるため、3D PCB は更新されません。"/>
+	<label commandName="lclzAnnotatePanel" devLabel="ANNOTATE" translation="注釈を付ける"/>
+	<label commandName="lclzCreatePanel" devLabel="CREATE" translation="作成"/>
+	<label commandName="lclzDefaultDocumentName" devLabel="Untitled" translation="無題"/>
+	<label commandName="lclzElectron::1" devLabel="Executes a User Language Program." translation="ユーザ言語プログラムを実行します。"/>
+	<label commandName="lclzElectron::2" devLabel="The Run command starts the User Language Program from the file 'file_name'." translation="[実行]コマンドは、ファイル 'file_name' からユーザ言語プログラムを起動します。"/>
+	<label commandName="lclzElectron::AddDesignBlock1" devLabel="Add a design block to a drawing." translation="図面にデザイン ブロックを追加します。"/>
+	<label commandName="lclzElectron::AddDesignBlock2" devLabel="If the design block consists of board and schematic the Layout part can be placed with the mouse cursor." translation="デザイン ブロックがボードと回路図で構成されている場合、レイアウト パーツをマウス カーソルで配置できます。"/>
+	<label commandName="lclzElectron::AddDesignBlockTips" devLabel="The Schematic part will be added automatically to the Schematic on new sheets accordingly." translation="それに従って、新しいシートの回路図に自動的に回路図パーツが追加されます。"/>
+	<label commandName="lclzElectron::AddDesignBlockTitle" devLabel="Add Design Block" translation="デザイン ブロックを追加"/>
+	<label commandName="lclzElectron::AddHole1" devLabel="Adds a drill hole to a board or footprint." translation="ボードまたはフットプリントにドリル穴を追加します。"/>
+	<label commandName="lclzElectron::AddHole2" devLabel="The parameter drill defines the diameter of the hole in the actual unit." translation="パラメータ[ドリル]は、実際の単位で穴の直径を定義します。"/>
+	<label commandName="lclzElectron::AddPart1" devLabel="Add elements to a drawing, or symbols to a device." translation="図面に要素を追加、またはデバイスに記号を追加します。"/>
+	<label commandName="lclzElectron::AddPart2" devLabel="The AddPart command fetches a circuit symbol (gate) or a footprint from the active library and places it into the drawing. During device definition the AddPart command fetches a symbol into the device." translation="AddPart コマンドは、アクティブなライブラリから回路記号(ゲート)またはフットプリントを取得し、図面に配置します。デバイス定義中、AddPart コマンドはデバイスに記号を取り込みます。"/>
+	<label commandName="lclzElectron::AddText1" devLabel="Adds text to a drawing." translation="図面にテキストを追加します。"/>
+	<label commandName="lclzElectron::AddText2" devLabel="When entering several texts it is not necessary to invoke the command each time, as the text command remains active after placing text with the mouse." translation="複数のテキストを入力する場合、マウスでテキストを配置した後もテキスト コマンドがアクティブのままなので、毎回コマンドを呼び出す必要はありません。"/>
+	<label commandName="lclzElectron::Align1" devLabel="Aligns selected objects in the Layout editor" translation="レイアウト エディタで選択したオブジェクトを位置合わせします"/>
+	<label commandName="lclzElectron::Align2" devLabel="Use the Align command to align objects in relation to each other or to move their origin to the nearest grid point. Use the commnd toolbar, the command line, or the Edit menu to start the Align command." translation="[位置合わせ]コマンドを使用して、オブジェクトを相互に関連付けて位置合わせするか、最も近いグリッド点に原点を移動します。コマンド ツールバー、コマンド ライン、または[編集]メニューを使用して、[位置合わせ]コマンドを開始します。"/>
+	<label commandName="lclzElectron::Arc1" devLabel="Draw an arc of variable diameter, width, and length." translation="直径、幅、および長さが可変である円弧を描きます。"/>
+	<label commandName="lclzElectron::Arc2" devLabel="The ARC command, followed by three mouse clicks on a drawing, draws an arc of defined width. The first point defines a point on a circle, the second its diameter. Entering the second coordinate reduces the circle to a semi-circle, while the right button alters the direction from first to second point. Entry of a third coordinate truncates the semi-circle to an arc extending to a point defined by the intersection of the circumference and a line between the third point and the arc center." translation="ARC[円弧]コマンドを実行し、図面上で 3 回マウスをクリックして、定義された幅の円弧を描画します。最初の点は円上の点を定義し、2 番目の点は円の直径を定義します。2 番目の座標を入力すると円が半円に縮小され、右ボタンで方向が 1 番目の点から 2 番目の点に変更されます。3 番目の座標を入力すると、半円は、3 番目の点から円弧中心までの線分と円周の交点で定義される点まで延びる円弧に切りつめられます。"/>
+	<label commandName="lclzElectron::Attribute1" devLabel="Definition of attributes for parts." translation="パーツの属性の定義。"/>
+	<label commandName="lclzElectron::Attribute2" devLabel="An attribute is an arbitrary combination of a name and a value, that can be used to specify any kind of information for a given part." translation="属性は、名前と値の任意の組み合わせで、特定のパーツに関する任意の種類の情報を指定するために使用できます。"/>
+	<label commandName="lclzElectron::AutoRouter1" devLabel="Starts the AutoRouter" translation="オートルータを起動します"/>
+	<label commandName="lclzElectron::AutoRouter2" devLabel="If signal names are specified or signals are selected with the mouse, only these signals are routed. Without parameters the command will try to route all signals. If a '!' character is specified all signals are routed except the signals following the '!' character. The '!' character must be the first parameter and must show up only once." translation="信号名を指定するか、信号をマウスで選択した場合、これらの信号のみが配線されます。パラメータを指定しない場合、コマンドはすべての信号を配線しようとします。'!' 文字を指定した場合、'!' 文字に続く信号を除くすべての信号が配線されます。'!' 文字は最初のパラメータにする必要があり、一度だけしか使用できません。"/>
+	<label commandName="lclzElectron::Bus1" devLabel="Draws buses on the bus layer of a schematic." translation="回路図のバス画層にバスを描画します。"/>
+	<label commandName="lclzElectron::Bus2" devLabel="A Bus is a collection of nets. A Bus has a specification and is drawn as one or more bus line segments. The bus specification may include a unique alias, which is a short name used to identify the bus." translation="バスはネットの集合です。バスには仕様があり、1 つまたは複数のバス線分セグメントとして描画されます。バス仕様には、バスを識別するために使用される短い名前である一意のエイリアスを含めることができます。"/>
+	<label commandName="lclzElectron::Change1" devLabel="Changes parameters." translation="パラメータを変更します。"/>
+	<label commandName="lclzElectron::Change2" devLabel="The Change command is used to change or preset properties of objects. The objects are clicked on with the mouse after the desired parameters have been selected from the Change command menu or have been typed in from the keyboard." translation="[変更]コマンドは、オブジェクトのプロパティを変更またはプリセットする場合に使用します。目的のパラメータを[変更]コマンド メニューから選択するか、キーボードから入力した後、オブジェクトをマウスでクリックします。"/>
+	<label commandName="lclzElectron::Circle1" devLabel="Adds circles to a drawing." translation="図面に円を追加します。"/>
+	<label commandName="lclzElectron::Circle2" devLabel="The width parameter defines the width of the circle's circumference and is the same parameter as used in the Line command. The width can be changed with the command 'Change Width width;''" translation="幅パラメータは円の円周の幅を定義し、[線分]コマンドで使用されているパラメータと同じです。幅は、'Change Width width;' コマンドで変更できます。"/>
+	<label commandName="lclzElectron::Copy1" devLabel="Copies objects." translation="オブジェクトをコピーします。"/>
+	<label commandName="lclzElectron::Copy2" devLabel="The Copy command copies objects within the same drawing, or between libraries. The system generates a new name for the copy but retains the old value. When copying signals (wires), buses, and nets the names are retained, but in all other cases a new name is assigned." translation="[コピー]コマンドは、同じ図面内またはライブラリ間でオブジェクトをコピーします。システムはコピー用の新しい名前を生成しますが、古い値は保持されます。信号(ワイヤ)、バス、およびネットをコピーする際は名前が保持されますが、それ以外の場合は新しい名前が割り当てられます。"/>
+	<label commandName="lclzElectron::DRC1" devLabel="Checks design rules." translation="デザイン ルールをチェックします。"/>
+	<label commandName="lclzElectron::DRC2" devLabel="The board is checked against the current design rules. Electrically irrelevant objects (wires in footprints, rectangles, circles and texts) are not checked against each other for clearance errors. " translation="ボードは、現在のデザイン ルールに対して検証されます。電気的に無関係なオブジェクト(フットプリント、長方形、円、テキストの配線)は、クリアランス エラーに関して相互にチェックされません。"/>
+	<label commandName="lclzElectron::Delete1" devLabel="Deletes selected objects." translation="選択したオブジェクトを削除します。"/>
+	<label commandName="lclzElectron::Delete2" devLabel="Parts, pads, smds, pins and gates can also be selected by their name, which is especially useful if the object is outside the currently shown window area. Note that when selecting a multi-gate part in a schematic by name, you will need to enter the full instance name, consisting of part and gate name." translation="パーツ、パッド、SMD、ピン、ゲートは、名前によっても選択できます。これは、オブジェクトが現在表示されているウィンドウ領域の外側にある場合に特に便利です。回路図内のマルチゲート パーツを名前で選択する場合は、パーツとゲートの名前で構成される完全なインスタンス名を入力する必要があることに注意してください。"/>
+	<label commandName="lclzElectron::Dimension1" devLabel="Adds dimensioning to a drawing." translation="図面に寸法を追加します。"/>
+	<label commandName="lclzElectron::Dimension2" devLabel="If an object is first selected, a dimension is applied, such as the length of a straight wire, or diameter of a hole. If no object is selected, the current dimension type is added; right-click to cycle through the various types." translation="オブジェクトを最初に選択すると、直線ワイヤの長さや穴の直径などの寸法が適用されます。オブジェクトを選択していない場合は、現在の寸法タイプが追加されます。さまざまなタイプを順に選択するには、右クリックします。"/>
+	<label commandName="lclzElectron::Display1" devLabel="Layer Settings." translation="画層設定。"/>
+	<label commandName="lclzElectron::Display2" devLabel="Layer Settings." translation="画層設定。"/>
+	<label commandName="lclzElectron::ERC1" devLabel="Checks electrical rules." translation="電気的ルールをチェックします。"/>
+	<label commandName="lclzElectron::ERC2" devLabel="Use this command to test schematics for electrical errors. If a board file is loaded, the ERC command also runs a consistency check between schematic and board. " translation="このコマンドを使用して、回路図の電気的エラーをテストします。ボード ファイルがロードされている場合、ERC コマンドによる回路図とボードの間の整合性チェックも実行されます。"/>
+	<label commandName="lclzElectron::Errors1" devLabel="Shows the errors found by the ERC or DRC command." translation="ERC または DRC コマンドによって検出されたエラーを表示します。"/>
+	<label commandName="lclzElectron::Errors2" devLabel="If no ERC or DRC has yet been run for the loaded drawing, the check will be started first." translation="ロードされた図面に対して ERC または DRC がまだ実行されていない場合、最初にチェックが開始されます。"/>
+	<label commandName="lclzElectron::Fanout1" devLabel="Creates fanouts from devices and signals." translation="デバイスと信号からファンアウトを作成します。"/>
+	<label commandName="lclzElectron::Fanout2" devLabel="The command creates a routed wire and attached via from pads of the selected device or signal. Only surface mount devices (SMD) or ball-grid array (BGA) devices are fanned out; devices with through-hole pads are ignored." translation="このコマンドは、選択したデバイスまたは信号のパッドから配線されるワイヤおよびアタッチされるビアを作成します。表面実装型デバイス(SMD)またはボールグリッド アレイ(BGA)デバイスのみがファンアウトされます。貫通穴パッドを持つデバイスは無視されます。"/>
+	<label commandName="lclzElectron::FlipBoard1" devLabel="" translation=""/>
+	<label commandName="lclzElectron::FlipBoard2" devLabel="" translation=""/>
+	<label commandName="lclzElectron::GateSwap1" devLabel="Swaps equivalent gates on a schematic." translation="回路図上の同等のゲートを入れ替えます。"/>
+	<label commandName="lclzElectron::GateSwap2" devLabel="Both gates must be identical with the same number of pins and must be allocated the same Swaplevel in the device definition. But they do not need to be in the same device." translation="両方のゲートは、ピン数が同じで同等でなければなりません。また、デバイス定義内で同じスワップレベルを割り当てる必要があります。ただし、それらのゲートが同じデバイス内に存在する必要はありません。"/>
+	<label commandName="lclzElectron::Grid1" devLabel="Grid Settings." translation="グリッド設定。"/>
+	<label commandName="lclzElectron::Grid2" devLabel="Grid Settings." translation="グリッド設定。"/>
+	<label commandName="lclzElectron::Group1" devLabel="Defines a group of objects for a subsequent command." translation="後続のコマンド用にオブジェクトのグループを定義します。"/>
+	<label commandName="lclzElectron::Group2" devLabel="After activating the Group command, objects are selected by click-dragging a rectangle or drawing a polygon with the mouse." translation="[グループ]コマンドをアクティブにした後、長方形をクリックしてドラッグするか、マウスでポリゴンを描画すると、オブジェクトが選択されます。"/>
+	<label commandName="lclzElectron::Info1" devLabel="Displays and modifies object properties." translation="オブジェクトのプロパティを表示および修正します。"/>
+	<label commandName="lclzElectron::Info2" devLabel="An object's properties are displayed in a dialog, where they can be modified." translation="オブジェクトのプロパティがダイアログに表示され、修正することができます。"/>
+	<label commandName="lclzElectron::Invoke1" devLabel="Calls a specific symbol from a device." translation="デバイスから特定のシンボルを呼び出します。"/>
+	<label commandName="lclzElectron::Invoke2" devLabel="Select a particular gate from a device which is already in use and place it in the schematic (e.g. a power symbol with Addlevel = Request)." translation="既に使用されているデバイスから特定のゲートを選択して、回路図に配置します(例: Addlevel = Request の電源シンボル)。"/>
+	<label commandName="lclzElectron::Junction1" devLabel="Places a dot at intersecting nets." translation="交差するネットにドットを配置します。"/>
+	<label commandName="lclzElectron::Junction2" devLabel="A connection dot is placed at the intersection of nets that are to be connected. Junction points can be placed only on a net. If placed on the intersection of different nets, the user is given the option to connect the nets." translation="接続されるネットの交点に接続ドットが配置されます。接合点はネット上にのみ配置できます。異なるネットの交点に配置する場合、ユーザはネットを接続するオプションを選択できます。"/>
+	<label commandName="lclzElectron::Label1" devLabel="Attaches text labels to buses and nets." translation="バスおよびネットにテキスト ラベルをアタッチします。"/>
+	<label commandName="lclzElectron::Label2" devLabel="Bus or net names can be placed on a schematic in any location. Click the bus or net with the mouse, and the relevant label attaches to the mouse cursor. It can be rotated, and moved to a different location or layer. The second mouse click defines the location of the label." translation="バスまたはネットの名前は、回路図の任意の場所に配置できます。マウスを使用してバスまたはネットをクリックすると、関連するラベルがマウス カーソルにアタッチされます。ラベルは、回転したり、別の場所または画層に移動することができます。2 番目のマウス クリックにより、ラベルの位置を定義します。"/>
+	<label commandName="lclzElectron::Layer1" devLabel="Changes and defines layers." translation="画層を変更および定義します。"/>
+	<label commandName="lclzElectron::Layer2" devLabel="Use the Layer command with one parameter to change the current layer." translation="現在の画層を変更するには、1 つのパラメータを指定して[画層]コマンドを使用します。"/>
+	<label commandName="lclzElectron::Line1" devLabel="Adds lines (tracks) to a drawing." translation="線分(トラック)を図面に追加します。"/>
+	<label commandName="lclzElectron::Line2" devLabel="The line begins at the first point specified and runs to the second. Additional points draw additional line segments. Two mouse clicks at the same position finish the line, and a new one can be started at the position of the next mouse click." translation="線分は、指定した最初の点から始まり、2 番目の点に向かいます。追加の点によって、追加の線分セグメントが描画されます。同じ位置で 2 回マウス クリックすると線分が終了し、次にクリックした位置で新しい線分を開始することができます。"/>
+	<label commandName="lclzElectron::ManualRoute1" devLabel="Converts unrouted connections into routed wires (tracks)." translation="未配線接続を配線済みワイヤ(トラック)に変換します。"/>
+	<label commandName="lclzElectron::ManualRoute2" devLabel="This command activates the manual router, which converts airwires (unrouted connections) into real wires." translation="このコマンドは、手動のルータをアクティブにします。これにより、エアワイヤ(未配線の接続)が実際のワイヤに変換されます。"/>
+	<label commandName="lclzElectron::Mark1" devLabel="Defines a mark on the drawing area." translation="作図領域でマークを定義します。"/>
+	<label commandName="lclzElectron::Mark2" devLabel="The coordinates of the mouse cursor relative to that point are displayed in the upper left corner of the screen, with an 'R' prefix. This command is useful when board dimensions or cutouts are to be defined. Entering MARK; turns the mark on or off." translation="その点を基準にしたマウス カーソルの座標が、画面の左上隅に 'R' という接頭辞付きで表示されます。このコマンドは、ボードの寸法またはカットアウトを定義する場合に便利です。MARK; と入力すると、マークのオン/オフが切り替わります。"/>
+	<label commandName="lclzElectron::Meander1" devLabel="Balances the lengths of signals in a differential pair." translation="差動ペアの各信号の長さのバランスを取ります。"/>
+	<label commandName="lclzElectron::Meander2" devLabel="Click on a wire of a differential pair and move the mouse cursor away from the selection point. If there is a difference in the length of the two signals, and the current mouse position is far enough away from the selection point, a meander-shaped sequence of wires is drawn that increases the length of the shorter signal segment. An indicator attached to the mouse cursor shows the target length, as well as the deviation (in percent) of the two signals from the target length." translation="差動ペアのワイヤをクリックし、マウス カーソルを選択点から離れるように移動します。2 つの信号の長さに差があり、現在のマウス カーソルの位置が選択点から十分離れている場合、短い方の信号セグメントが長くなるようにワイヤの蛇行形状シーケンスが描画されます。マウス カーソルにアタッチされているインジケータには、ターゲットの長さ、およびターゲットの長さからの 2 つの信号の偏差(%)が表示されます。"/>
+	<label commandName="lclzElectron::Mirror1" devLabel="Mirrors objects and groups." translation="オブジェクトとグループをミラー化します。"/>
+	<label commandName="lclzElectron::Mirror2" devLabel="With this command, objects can be mirrored about the y axis. One application for this command is to mirror components for placement on the reverse side of the board." translation="このコマンドを使用すると、Y 軸を中心にしてオブジェクトをミラー化できます。このコマンドの用途の 1 つは、コンポーネントをミラー化してボードの反対側に配置することです。"/>
+	<label commandName="lclzElectron::Miter1" devLabel="Miters wire joints." translation="ワイヤのジョイントをマイタ接続します。"/>
+	<label commandName="lclzElectron::Miter2" devLabel="Use this command to take the edge off a point where two wires join. The two wires must be on the the same layer, and must have the same width and wire style." translation="このコマンドを使用して、2 本のワイヤが結合する点からエッジを取り外します。2 本のワイヤは同じ画層上にあり、幅とワイヤ スタイルが同じである必要があります。"/>
+	<label commandName="lclzElectron::Module1" devLabel="Module" translation="モジュール"/>
+	<label commandName="lclzElectron::Module2" devLabel="Creates a module, and adds module instances into a sheet." translation="モジュールを作成し、シートにモジュール インスタンスを追加します。"/>
+	<label commandName="lclzElectron::Move1" devLabel="Moves selected objects." translation="選択したオブジェクトを移動します。"/>
+	<label commandName="lclzElectron::Move2" devLabel="Parts, pads, smds, pins and gates can also be selected by their name, which is especially useful if the object is outside the currently shown window area. Note that when selecting a multi-gate part in a schematic by name, you will need to enter the full instance name, consisting of part and gate name." translation="パーツ、パッド、SMD、ピン、ゲートは、名前によっても選択できます。これは、オブジェクトが現在表示されているウィンドウ領域の外側にある場合に特に便利です。回路図内のマルチゲート パーツを名前で選択する場合は、パーツとゲートの名前で構成される完全なインスタンス名を入力する必要があることに注意してください。"/>
+	<label commandName="lclzElectron::Name1" devLabel="Displays and optionally edits names." translation="名前を表示し、必要に応じて編集します。"/>
+	<label commandName="lclzElectron::Name2" devLabel="Parts, elements, pads, smds, pins and gates can also be selected by their name, which is especially useful if the object is outside the currently shown window area. Other object types (e.g. nets, buses, signals) have to be clicked first." translation="パーツ、要素、パッド、SMD、ピン、ゲートは名前でも選択できます。これは、オブジェクトが現在表示されているウィンドウ領域の外側にある場合に便利です。その他のオブジェクト タイプ(例: ネット、バス、信号)を最初にクリックする必要があります。"/>
+	<label commandName="lclzElectron::Net1" devLabel="Draws nets on a schematic." translation="回路図にネットを描画します。"/>
+	<label commandName="lclzElectron::Net2" devLabel="Draw individual connections (nets) onto the Net layer of a schematic drawing. The first mouse click marks the starting point for the net, the second marks the end point of a segment. Two mouse clicks on the same point end the net." translation="個々の接続(ネット)を回路図図面のネット画層に描画します。最初のマウス クリックでネットの始点をマークし、2 番目のマウス クリックでセグメントの終点をマークします。同じ点を 2 回マウス クリックすると、ネットが終了します。"/>
+	<label commandName="lclzElectron::Optimize1" devLabel="Joins wire segments." translation="ワイヤ セグメントを結合します。"/>
+	<label commandName="lclzElectron::Optimize2" devLabel="This command joins wire segments that lie in a straight line. The individual segments must be on the same layer and have the same width. This command is useful to reduce the number of objects in a drawing and to facilitate moving a complete track instead of individual segments." translation="このコマンドは、直線上にあるワイヤ セグメントを結合します。個々のセグメントは同じ画層上にあり、同じ幅である必要があります。このコマンドは、図面内のオブジェクトの数を減らし、個々のセグメントではなくトラック全体を移動する場合に便利です。"/>
+	<label commandName="lclzElectron::PaintRoller1" devLabel="Transfers selected properties of an object to other objects of the same type." translation="オブジェクトの選択したプロパティを、同じタイプの他のオブジェクトに転送します。"/>
+	<label commandName="lclzElectron::PaintRoller2" devLabel="Select the properties you want to transfer to other objects of the same type in the Copy Properties dialog of the selected object, then close the dialog with OK, and click the target objects." translation="選択したオブジェクトの[プロパティをコピー]ダイアログで、同じタイプの他のオブジェクトに転送するプロパティを選択し、[OK]をクリックしてダイアログを閉じ、ターゲット オブジェクトをクリックします。"/>
+	<label commandName="lclzElectron::Paste1" devLabel="Copies the contents of the clipboard or a drawing or a design block file to a drawing." translation="クリップボード、図面、またはデザイン ブロック ファイルの内容を図面にコピーします。"/>
+	<label commandName="lclzElectron::Paste2" devLabel="Using the commands Group, Cut, and Paste, parts of a drawing/library can be copied to the same or different drawings/libraries." translation="[グループ]、[切り取り]、および[貼り付け]コマンドを使用すると、図面やライブラリのパーツを同じ図面やライブラリにコピーしたり、異なる図面やライブラリにコピーすることができます。"/>
+	<label commandName="lclzElectron::Pattern1" devLabel="Makes multiple copies of an object and arranges them in a linear or circular pattern." translation="オブジェクトの複数のコピーを作成し、直線または円形状のパターンに整列します。"/>
+	<label commandName="lclzElectron::Pattern2" devLabel="A dialog opens where you specify the number of copies and the X and Y spacing in the linear mode. Click OK to close the dialog, then click the object to be duplicated. The next click into the drawing area fixes the position of the first object to be placed." translation="ダイアログが開き、コピー数と、直線モードでの X 方向と Y 方向の間隔を指定します。[OK]をクリックしてダイアログを閉じ、複製するオブジェクトをクリックします。次に作図領域でクリックすると、配置する最初のオブジェクトの位置が固定されます。"/>
+	<label commandName="lclzElectron::PinSwap1" devLabel="Swaps pins or pads." translation="ピンまたはパッドを入れ替えます。"/>
+	<label commandName="lclzElectron::PinSwap2" devLabel="Use this command to swap pins within the same symbol that have been allocated the same swaplevel (&gt; 0). If a board is tied to a schematic via Back Annotation, two pads can only be swapped if the related pins are swappable." translation="このコマンドを使用して、同じスワップレベル(&gt; 0)が割り当てられている同じ記号内のピンを入れ替えます。ボードがバック注釈によって回路図に関連付けられている場合、関連するピンが入れ替え可能な場合にのみ、2 つのパッドを入れ替えることができます。"/>
+	<label commandName="lclzElectron::Polygon1" devLabel="Draws polygon areas." translation="ポリゴン領域を描画します。"/>
+	<label commandName="lclzElectron::Polygon2" devLabel="Polygons in the layers Top, Bottom, and Route2–15 are treated as signals. Polygons in the layers t/b/vRestrict are protected areas for the AutoRouter." translation="上、下、およびルート 2 ～ 15 の画層内のポリゴンは信号として扱われます。画層 t/b/vRestrict 内のポリゴンは、オートルータ用の保護された領域です。"/>
+	<label commandName="lclzElectron::Port1" devLabel="Adds ports to modules." translation="モジュールにポートを追加します。"/>
+	<label commandName="lclzElectron::Port2" devLabel="Use this command to add ports to modules used in hierarchical schematics." translation="このコマンドを使用して、階層的な回路図で使用されるモジュールにポートを追加します。"/>
+	<label commandName="lclzElectron::QuickRouteAirWire1" devLabel="Automatically routes an individual airwire." translation="個別のエアワイヤを自動的に配線します。"/>
+	<label commandName="lclzElectron::QuickRouteAirWire2" devLabel="In QuickRouteAirwire mode, you select individual airwires to be automatically routed, and the Route command instantly routes them." translation="QuickRouteAirwire モードでは、自動的に配線する個々のエアワイヤを選択し、[ルート]コマンドを使用すると即座に配線されます。"/>
+	<label commandName="lclzElectron::QuickRouteMultiWire1" devLabel="Automatically routes multiple airwires simultaneously." translation="複数のエアワイヤを同時に自動配線します。"/>
+	<label commandName="lclzElectron::QuickRouteMultiWire2" devLabel="Begin by drawing a selection line that intersects through the signal objects that you wish to route concurrently (existing wires, pads, and vias). Continue to draw additional selection lines to add more signal objects. Right-click to route all the airwires connected to the selected objects. The signals are routed on the active layer." translation="まず、同時に配線する信号オブジェクト(既存のワイヤ、パッド、ビア)を通る選択線を描画します。さらに信号オブジェクトを追加する場合は、引き続き選択線を描画します。右クリックすると、選択したオブジェクトに接続されているすべてのエアワイヤが配線されます。信号はアクティブな画層上に配線されます。"/>
+	<label commandName="lclzElectron::QuickRouteSignal1" devLabel="Automatically routes a signal." translation="信号を自動的に配線します。"/>
+	<label commandName="lclzElectron::QuickRouteSignal2" devLabel="With QuickRouteSignal, you select any signal object (airwire, wire, pad, or via) and the command instantly routes all airwires that are members of that signal." translation="QuickRouteSignal を使用して、任意の信号オブジェクト(エアワイヤ、ワイヤ、パッド、またはビア)を選択すると、その信号のメンバであるすべてのエアワイヤが即座に配線されます。"/>
+	<label commandName="lclzElectron::QuickRouteSmooth1" devLabel="Automatically smooths the wire sequence on a selected signal." translation="選択した信号のワイヤ シーケンスを自動的にスムージングします。"/>
+	<label commandName="lclzElectron::QuickRouteSmooth2" devLabel="Select an existing routed signal wire, and the QuickRouteSmooth command smooths the wire sequence on the selected wire's layer by reducing the number of wire bends in the sequence." translation="既存の配線済み信号ワイヤを選択すると、QuickRouteSmooth コマンドによって、選択したワイヤの画層上のワイヤ シーケンスがスムージングされます。その際、シーケンス内のワイヤの曲げ数が減らされます。"/>
+	<label commandName="lclzElectron::Ratsnest1" devLabel="Calculates the shortest possible airwires and polygons." translation="可能な限り短いエアワイヤおよびポリゴンを計算します。"/>
+	<label commandName="lclzElectron::Ratsnest2" devLabel="This command assesses the airwire connections to achieve the shortest possible paths, such as after components have been moved." translation="このコマンドは、コンポーネントを移動した後など、可能な限り短いパスを実現するためにエアワイヤ接続を評価します。"/>
+	<label commandName="lclzElectron::Rectangle1" devLabel="Adds rectangles to a drawing." translation="図面に長方形を追加します。"/>
+	<label commandName="lclzElectron::Rectangle2" devLabel="Two points define two opposite corners of the rectangle. Press the center mouse button to change the layer on which to add the rectangle." translation="2 つの点で、長方形の 2 つの対角コーナーが定義されます。マウスの中央ボタンを押すと、長方形を追加する画層が変更されます。"/>
+	<label commandName="lclzElectron::Replace1" devLabel="Replaces a part." translation="パーツを置き換えます。"/>
+	<label commandName="lclzElectron::Replace2" devLabel="Use this command to replace a part with a different device (even from a different library). The old and new device must be compatible, in that their used gates and connected pins/pads must match, either by their names or their coordinates." translation="このコマンドを使用して、パーツを別のデバイスで置き換えます(別のライブラリのデバイスの場合も含む)。使用するゲートおよび接続するピンまたはパッドが、名前または座標によって一致する必要があるため、その点で新旧のデバイスに互換性がある必要があります。"/>
+	<label commandName="lclzElectron::RepositionAttributes1" devLabel="Separates text variables and attributes from parts or elements." translation="パーツまたは要素からテキスト変数および属性を分離します。"/>
+	<label commandName="lclzElectron::RepositionAttributes2" devLabel="After separating the text parameters, they can be placed in fixed positions such as Top-Left or Bottom-Right, or in a new and more convenient location by using the Move command." translation="文字パラメータを分離した後、左上や右下などの固定された位置に配置したり、[移動]コマンドを使用して、より便利な新しい位置に配置することができます。"/>
+	<label commandName="lclzElectron::Ripup1" devLabel="Changes routed wires and vias into airwires, and changes the display of polygons to 'outlines'." translation="配線済みのワイヤおよびビアをエアワイヤに変更し、ポリゴンの表示を 'アウトライン' に変更します。"/>
+	<label commandName="lclzElectron::Ripup2" devLabel="Selecting an airwire with Ripup converts all adjacent routed wires and vias into airwires, up to the next pad, smd or airwire." translation="[リップアップ]を使用してエアワイヤを選択すると、次のパッド、SMD、またはエアワイヤまで、隣接するすべての配線ワイヤおよびビアがエアワイヤに変換されます。"/>
+	<label commandName="lclzElectron::RipupAll1" devLabel="Changes routed wires and vias into airwires, and changes the display of polygons to 'outlines'." translation="配線済みのワイヤおよびビアをエアワイヤに変更し、ポリゴンの表示を 'アウトライン' に変更します。"/>
+	<label commandName="lclzElectron::RipupAll2" devLabel="Selecting an airwire with Ripup converts all adjacent routed wires and vias into airwires, up to the next pad, smd or airwire." translation="[リップアップ]を使用してエアワイヤを選択すると、次のパッド、SMD、またはエアワイヤまで、隣接するすべての配線ワイヤおよびビアがエアワイヤに変換されます。"/>
+	<label commandName="lclzElectron::RipupAllPolygons1" devLabel="Returns all polygons to an 'unpoured' state, drawn only as outlines." translation="すべてのポリゴンを '未注入' 状態に戻し、アウトラインとしてのみ描画します。"/>
+	<label commandName="lclzElectron::RipupAllPolygons2" devLabel="Select the command Ripup Polygons command to unpour all polygons and edit polygon boundaries as lines." translation="[ポリゴンをリップアップ]コマンドを選択してすべてのポリゴンを未注入状態にし、ポリゴンの境界を線分として編集します。"/>
+	<label commandName="lclzElectron::RipupConnected1" devLabel="Ripup connected copper will ripup 'direct' connections along a signal path." translation="[接続銅線をリップアップ]は、信号パスに沿った '直接の' 接続をリップアップします。"/>
+	<label commandName="lclzElectron::RipupConnected2" devLabel="Select the command and select a route segment to ripup connected copper." translation="コマンドを選択し、接続銅線をリップアップするルート セグメントを選択します。"/>
+	<label commandName="lclzElectron::RipupConnectedSameLayer1" devLabel="Ripup connected copper on current layer." translation="現在の画層上の接続銅線をリップアップします。"/>
+	<label commandName="lclzElectron::RipupConnectedSameLayer2" devLabel="Select to ripup connected copper on current signal layer." translation="現在の信号画層上の接続銅線をリップアップする場合に選択します。"/>
+	<label commandName="lclzElectron::RipupElementToElement1" devLabel="Ripup connections between selected components." translation="選択したコンポーネント間の接続をリップアップします。"/>
+	<label commandName="lclzElectron::RipupElementToElement2" devLabel="Select to ripup connections between two selected components." translation="選択した 2 つのコンポーネント間の接続をリップアップする場合に選択します。"/>
+	<label commandName="lclzElectron::RipupSignal1" devLabel="Ripup selected signal path." translation="選択した信号パスをリップアップします。"/>
+	<label commandName="lclzElectron::RipupSignal2" devLabel="Use to ripup all tracks, vias and polygons in a selected signal" translation="選択した信号内のすべてのトラック、ビア、ポリゴンをリップアップするために使用します"/>
+	<label commandName="lclzElectron::Rotate1" devLabel="Rotates objects." translation="オブジェクトを回転します。"/>
+	<label commandName="lclzElectron::Rotate2" devLabel="Use this command to change the orientation of objects." translation="オブジェクトの方向を変更するには、このコマンドを使用します。"/>
+	<label commandName="lclzElectron::RouteDiffPair1" devLabel="Converts unrouted connections of a differential pair into routed wires (tracks)." translation="差動ペアの未配線接続を配線済みワイヤ(トラック)に変換します。"/>
+	<label commandName="lclzElectron::RouteDiffPair2" devLabel="This command activates the differential-pair manual router, and the differential pairs in the design are highlighted. To begin routing a differential pair, left button click over one of the highlighted differential pair airwire or copper objects. " translation="このコマンドは、差動ペアの手動ルータをアクティブにし、デザイン内の差動ペアをハイライト表示します。差動ペアの配線を開始するには、ハイライト表示された差動ペアのエアワイヤまたは銅線オブジェクト上で左ボタンをクリックします。 "/>
+	<label commandName="lclzElectron::RouteMulti1" devLabel="Converts multiple unrouted connections into routed wires (tracks)." translation="複数の未配線接続を配線済みワイヤ(トラック)に変換します。"/>
+	<label commandName="lclzElectron::RouteMulti2" devLabel="This command activates the manual router, which converts multiple airwires (unrouted connections) into real wires." translation="このコマンドは、手動のルータをアクティブにします。これにより、複数のエアワイヤ(未配線の接続)が実際のワイヤに変換されます。"/>
+	<label commandName="lclzElectron::RunScript1" devLabel="Executes a command file." translation="コマンド ファイルを実行します。"/>
+	<label commandName="lclzElectron::RunScript2" devLabel="Use this command to execute sequences of commands that are stored in a script file." translation="このコマンドは、スクリプト ファイルに保存されているコマンドのシーケンスを実行する場合に使用します。"/>
+	<label commandName="lclzElectron::Show1" devLabel="Highlights objects." translation="オブジェクトをハイライト表示します。"/>
+	<label commandName="lclzElectron::Show2" devLabel="Complete signals and nets can be highlighted with the SHOW command, and details are listed in the status bar. If a bus is selected, all nets belonging to that bus will also be highlighted." translation="[表示]コマンドを使用して信号とネット全体をハイライト表示し、ステータス バーに詳細を表示することができます。バスが選択されている場合、そのバスに属するすべてのネットもハイライト表示されます。"/>
+	<label commandName="lclzElectron::Signal1" devLabel="Defines signals (connections between the various footprints)." translation="信号(さまざまなフットプリント間の接続)を定義します。"/>
+	<label commandName="lclzElectron::Signal2" devLabel="Define a minimum of two element_name/pad_name pairs; otherwise, no airwire can be generated." translation="少なくとも 2 つの element_name/pad_name のペアを定義します。そうしないと、エアワイヤを生成できません。"/>
+	<label commandName="lclzElectron::Slice1" devLabel="Splits lines." translation="線分を分割します。"/>
+	<label commandName="lclzElectron::Slice2" devLabel="Use this command to separate board traces or schematic nets for rerouting. The width defines how much of the line is removed by the slice. The amount of a line that is removed is the larger of either the width setting or twice the line width." translation="このコマンドを使用して、再配線用にボードの配線または回路図のネットを分離します。幅は、スライスによって削除される線の量を定義します。削除される線の量は、幅設定または線幅の 2 倍の、大きい方になります。"/>
+	<label commandName="lclzElectron::Split1" devLabel="Splits wires and polygon edges into segments." translation="ワイヤとポリゴン エッジをセグメントに分割します。"/>
+	<label commandName="lclzElectron::Split2" devLabel="Use this command to split a wire, segment, or polygon edge into two segments in order, for example, to introduce a bend. This means you can split wires into parts that can be moved with the mouse during the Split command." translation="たとえば、曲げを導入するために、このコマンドを使用してワイヤ、セグメント、またはポリゴン エッジを 2 つのセグメントに分割します。つまり、ワイヤをパーツに分割して、[分割]コマンドの実行中にマウスを使用して移動できます。"/>
+	<label commandName="lclzElectron::ToggleSingleLayer1" devLabel="Single Layer Mode." translation="単一画層モード。"/>
+	<label commandName="lclzElectron::ToggleSingleLayer2" devLabel="Single Layer Mode." translation="単一画層モード。"/>
+	<label commandName="lclzElectron::Value1" devLabel="Displays and changes values." translation="値を表示および変更します。"/>
+	<label commandName="lclzElectron::Value2" devLabel="Assign values to circuit elements, such as '1k' for a resistor." translation="抵抗器に対する '1k' など、回路要素に値を割り当てます。"/>
+	<label commandName="lclzElectron::Via1" devLabel="Adds vias to a board." translation="ボードにビアを追加します。"/>
+	<label commandName="lclzElectron::Via2" devLabel="When the Via command is active, a via symbol is attached to the cursor. Click the left mouse button to place a via at the current position." translation="[ビア]コマンドがアクティブな場合、カーソルにビア記号がアタッチされます。現在の位置にビアを配置するには、マウスの左ボタンをクリックします。"/>
+	<label commandName="lclzElectron::ZoomIn1" devLabel="TBD" translation="TBD"/>
+	<label commandName="lclzElectron::ZoomIn2" devLabel="TBD" translation="TBD"/>
+	<label commandName="lclzElectron::ZoomOut1" devLabel="TBD" translation="TBD"/>
+	<label commandName="lclzElectron::ZoomOut2" devLabel="TBD" translation="TBD"/>
+	<label commandName="lclzElectron::ZoomRect1" devLabel="TBD" translation="TBD"/>
+	<label commandName="lclzElectron::ZoomRect2" devLabel="TBD" translation="TBD"/>
+	<label commandName="lclzElectron::ZoomToFit1" devLabel="TBD" translation="TBD"/>
+	<label commandName="lclzElectron::ZoomToFit2" devLabel="TBD" translation="TBD"/>
+	<label commandName="lclzGetLatestElectronCmd1" devLabel="Generate or switch to a PCB document." translation="PCB ドキュメントを生成するか、PCB ドキュメントに切り替えます。"/>
+	<label commandName="lclzGetLatestElectronCmd2" devLabel="If there is a linked PCB document, will switch to the PCB document, otherwise, will create a new PCB document to link with it." translation="リンクされた PCB ドキュメントがある場合は、PCB ドキュメントに切り替わります。それ以外の場合は、PCB ドキュメントにリンクする新しい PCB ドキュメントが作成されます。"/>
+	<label commandName="lclzGetLatestElectronCmdTipsAndTricksDesc" devLabel="If there is a linked PCB document, will switch to the PCB document, otherwise, will create a new PCB document to link with it." translation="リンクされた PCB ドキュメントがある場合は、PCB ドキュメントに切り替わります。それ以外の場合は、PCB ドキュメントにリンクする新しい PCB ドキュメントが作成されます。"/>
+	<label commandName="lclzGetLatestElectronCmdTipsAndTricksTips" devLabel="Generate or switch to a PCB document." translation="PCB ドキュメントを生成するか、PCB ドキュメントに切り替えます。"/>
+	<label commandName="lclzGetLatestElectronCmdTipsAndTricksTitle" devLabel="Generate Or Switch PCB Document" translation="PCB ドキュメントを生成または切り替え"/>
+	<label commandName="lclzLbrCreatePanel" devLabel="CREATE" translation="作成"/>
+	<label commandName="lclzLbrDeviceModifyPanel" devLabel="MODIFY" translation="修正"/>
+	<label commandName="lclzLbrDevicePanel" devLabel="DEVICE" translation="デバイス"/>
+	<label commandName="lclzLbrDeviceSelectPanel" devLabel="SELECT" translation="選択"/>
+	<label commandName="lclzLbrDeviceTab" devLabel="DEVICE" translation="デバイス"/>
+	<label commandName="lclzLbrDrawCommonPanel" devLabel="DRAW" translation="描画"/>
+	<label commandName="lclzLbrEmptyTab" devLabel="CREATE" translation="作成"/>
+	<label commandName="lclzLbrFootprintCreatePanel" devLabel="CREATE" translation="作成"/>
+	<label commandName="lclzLbrFootprintDrawPanel" devLabel="DRAW" translation="描画"/>
+	<label commandName="lclzLbrFootprintEditPanel" devLabel="EDIT" translation="編集"/>
+	<label commandName="lclzLbrFootprintLayersPanel" devLabel="LAYERS" translation="画層"/>
+	<label commandName="lclzLbrFootprintModifyPanel" devLabel="MODIFY" translation="修正"/>
+	<label commandName="lclzLbrFootprintSelectPanel" devLabel="SELECT" translation="選択"/>
+	<label commandName="lclzLbrFootprintTab" devLabel="FOOTPRINT" translation="フットプリント"/>
+	<label commandName="lclzLbrFootprintViewPanel" devLabel="VIEW" translation="表示"/>
+	<label commandName="lclzLbrManagementPanel" devLabel="MANAGEMENT" translation="MANAGEMENT"/>
+	<label commandName="lclzLbrManagementTab" devLabel="MANAGE" translation="MANAGE"/>
+	<label commandName="lclzLbrPackagePanel" devLabel="EDIT" translation="編集"/>
+	<label commandName="lclzLbrPackageTab" devLabel="PACKAGE 3D" translation="パッケージ 3D"/>
+	<label commandName="lclzLbrSymbolEditPanel" devLabel="EDIT" translation="編集"/>
+	<label commandName="lclzLbrSymbolLayersPanel" devLabel="LAYERS" translation="画層"/>
+	<label commandName="lclzLbrSymbolModifyPanel" devLabel="MODIFY" translation="修正"/>
+	<label commandName="lclzLbrSymbolPlacePanel" devLabel="PLACE" translation="配置"/>
+	<label commandName="lclzLbrSymbolSelectPanel" devLabel="SELECT" translation="選択"/>
+	<label commandName="lclzLbrSymbolTab" devLabel="SYMBOL" translation="記号"/>
+	<label commandName="lclzLbrSymbolViewPanel" devLabel="VIEW" translation="表示"/>
+	<label commandName="lclzLock" devLabel="Lock" translation="ロック"/>
+	<label commandName="lclzPCB3DWorkspaceTitle" devLabel="3D Packaged editor" translation="3D パッケージ エディタ"/>
+	<label commandName="lclzPcbAutomate" devLabel="AUTOMATION" translation="自動化"/>
+	<label commandName="lclzPcbBoardShapePanel" devLabel="BOARD SHAPE" translation="ボード形状"/>
+	<label commandName="lclzPcbDesignTab" devLabel="DESIGN" translation="デザイン"/>
+	<label commandName="lclzPcbDocument" devLabel="DOCUMENT" translation="ドキュメント"/>
+	<label commandName="lclzPcbDrawPanel" devLabel="DRAW" translation="描画"/>
+	<label commandName="lclzPcbEditPanel" devLabel="EDIT" translation="編集"/>
+	<label commandName="lclzPcbFanoutPanel" devLabel="FANOUT" translation="ファンアウト"/>
+	<label commandName="lclzPcbLayersPanel" devLabel="LAYERS" translation="画層"/>
+	<label commandName="lclzPcbLibraryPanel" devLabel="LIBRARIES" translation="ライブラリ"/>
+	<label commandName="lclzPcbLibraryTab" devLabel="LIBRARY" translation="ライブラリ"/>
+	<label commandName="lclzPcbManufacturingPanel" devLabel="Manufacturing" translation="製造"/>
+	<label commandName="lclzPcbModifyPanel" devLabel="MODIFY" translation="修正"/>
+	<label commandName="lclzPcbOutputPanel" devLabel="OUTPUTS" translation="出力"/>
+	<label commandName="lclzPcbPlacePanel" devLabel="PLACE" translation="配置"/>
+	<label commandName="lclzPcbPourPanel" devLabel="POUR" translation="注入"/>
+	<label commandName="lclzPcbQuickRoutePanel" devLabel="QUICK ROUTE" translation="クイック ルート"/>
+	<label commandName="lclzPcbReworkPanel" devLabel="REWORK" translation="やり直し"/>
+	<label commandName="lclzPcbRipupPanel" devLabel="RIPUP" translation="リップアップ"/>
+	<label commandName="lclzPcbRoutePanel" devLabel="ROUTE" translation="ルート"/>
+	<label commandName="lclzPcbRulesPanel" devLabel="DRC" translation="DRC"/>
+	<label commandName="lclzPcbSelectPanel" devLabel="SELECT" translation="選択"/>
+	<label commandName="lclzPcbViewPanel" devLabel="VIEW" translation="表示"/>
+	<label commandName="lclzReferenceToPCBCmd1" devLabel="Reference to a PCB document." translation="PCB ドキュメントへの参照です。"/>
+	<label commandName="lclzReferenceToPCBCmd2" devLabel="Reference to a PCB document." translation="PCB ドキュメントへの参照です。"/>
+	<label commandName="lclzReferenceToPCBCmdTipsAndTricksDesc" devLabel="Reference to a PCB document." translation="PCB ドキュメントへの参照です。"/>
+	<label commandName="lclzReferenceToPCBCmdTipsAndTricksTips" devLabel="Reference to a PCB document." translation="PCB ドキュメントへの参照です。"/>
+	<label commandName="lclzReferenceToPCBCmdTipsAndTricksTitle" devLabel="Reference to a PCB document" translation="PCB ドキュメントへの参照"/>
+	<label commandName="lclzReferenceToSCHCmd1" devLabel="Reference to a Schematic document." translation="回路図ドキュメントへの参照です。"/>
+	<label commandName="lclzReferenceToSCHCmd2" devLabel="Reference to a Schematic document." translation="回路図ドキュメントへの参照です。"/>
+	<label commandName="lclzReferenceToSCHCmdTipsAndTricksDesc" devLabel="Reference to a Schematic document." translation="回路図ドキュメントへの参照です。"/>
+	<label commandName="lclzReferenceToSCHCmdTipsAndTricksTips" devLabel="Reference to a Schematic document." translation="回路図ドキュメントへの参照です。"/>
+	<label commandName="lclzReferenceToSCHCmdTipsAndTricksTitle" devLabel="Reference to a Schematic document" translation="回路図ドキュメントへの参照"/>
+	<label commandName="lclzRemovePCB3DLinkCmd1" devLabel="Remove PCB3D Link." translation="PCB3D リンクを削除します。"/>
+	<label commandName="lclzRemovePCB3DLinkCmd2" devLabel="Remove PCB3D Link." translation="PCB3D リンクを削除します。"/>
+	<label commandName="lclzRemovePCB3DLinkCmdTipsAndTricksDesc" devLabel="Remove PCB3D Link." translation="PCB3D リンクを削除します。"/>
+	<label commandName="lclzRemovePCB3DLinkCmdTipsAndTricksTips" devLabel="Remove PCB3D Link." translation="PCB3D リンクを削除します。"/>
+	<label commandName="lclzRemovePCB3DLinkCmdTipsAndTricksTitle" devLabel="Remove PCB3D Link." translation="PCB3D リンクを削除します。"/>
+	<label commandName="lclzRemovePCBLinkCmd1" devLabel="Remove PCB Link." translation="PCB リンクを削除します。"/>
+	<label commandName="lclzRemovePCBLinkCmd2" devLabel="Remove PCB Link." translation="PCB リンクを削除します。"/>
+	<label commandName="lclzRemovePCBLinkCmdTipsAndTricksDesc" devLabel="Remove PCB Link." translation="PCB リンクを削除します。"/>
+	<label commandName="lclzRemovePCBLinkCmdTipsAndTricksTips" devLabel="Remove PCB Link." translation="PCB リンクを削除します。"/>
+	<label commandName="lclzRemovePCBLinkCmdTipsAndTricksTitle" devLabel="Remove PCB Link." translation="PCB リンクを削除します。"/>
+	<label commandName="lclzRemoveSCHLinkCmd1" devLabel="Remove SCH Link." translation="SCH リンクを削除します。"/>
+	<label commandName="lclzRemoveSCHLinkCmd2" devLabel="Remove SCH Link." translation="SCH リンクを削除します。"/>
+	<label commandName="lclzRemoveSCHLinkCmdTipsAndTricksDesc" devLabel="Remove SCH Link." translation="SCH リンクを削除します。"/>
+	<label commandName="lclzRemoveSCHLinkCmdTipsAndTricksTips" devLabel="Remove SCH Link." translation="SCH リンクを削除します。"/>
+	<label commandName="lclzRemoveSCHLinkCmdTipsAndTricksTitle" devLabel="Remove SCH Link." translation="SCH リンクを削除します。"/>
+	<label commandName="lclzSchAutomation" devLabel="AUTOMATION" translation="自動化"/>
+	<label commandName="lclzSchAutomationTab" devLabel="AUTOMATE" translation="自動化"/>
+	<label commandName="lclzSchConnectPanel" devLabel="CONNECT" translation="接続"/>
+	<label commandName="lclzSchDocumentTab" devLabel="DOCUMENT" translation="ドキュメント"/>
+	<label commandName="lclzSchDrawPanel" devLabel="DRAW" translation="描画"/>
+	<label commandName="lclzSchEditPanel" devLabel="EDIT" translation="編集"/>
+	<label commandName="lclzSchLibraryPanel" devLabel="LIBRARIES" translation="ライブラリ"/>
+	<label commandName="lclzSchLibraryTab" devLabel="LIBRARY" translation="ライブラリ"/>
+	<label commandName="lclzSchModifyPanel" devLabel="MODIFY" translation="修正"/>
+	<label commandName="lclzSchOutputPanel" devLabel="Output" translation="出力"/>
+	<label commandName="lclzSchPlacePanel" devLabel="PLACE" translation="配置"/>
+	<label commandName="lclzSchSelectPanel" devLabel="SELECT" translation="選択"/>
+	<label commandName="lclzSchSimulatePanel" devLabel="SIMULATE" translation="シミュレート"/>
+	<label commandName="lclzSchSwitchPanel" devLabel="SWITCH" translation="切り替え"/>
+	<label commandName="lclzSchValidatePanel" devLabel="VALIDATE" translation="検証"/>
+	<label commandName="lclzSchVariantPanel" devLabel="Variant" translation="バリアント"/>
+	<label commandName="lclzSchViewPanel" devLabel="VIEW" translation="表示"/>
+	<label commandName="lclzSwitchPanel" devLabel="SWITCH" translation="切り替え"/>
+	<label commandName="lclzSwitchPcbDocCmd1" devLabel="Switch to a PCB document." translation="PCB ドキュメントに切り替えます。"/>
+	<label commandName="lclzSwitchPcbDocCmd2" devLabel="If there is a linked PCB document, will switch to the PCB document, otherwise, will switch to electronics design to remind user to create a PCB document." translation="リンクされた PCB ドキュメントがある場合は、PCB ドキュメントに切り替わります。リンクされていない場合は、電子部品デザインに切り替わり、PCB ドキュメントを作成するようにユーザに促します。"/>
+	<label commandName="lclzSwitchPcbDocCmdTipsAndTricksDesc" devLabel="If there is a linked PCB document, will switch to the PCB document, otherwise, will switch to electronics design to remind user to create a PCB document." translation="リンクされた PCB ドキュメントがある場合は、PCB ドキュメントに切り替わります。リンクされていない場合は、電子部品デザインに切り替わり、PCB ドキュメントを作成するようにユーザに促します。"/>
+	<label commandName="lclzSwitchPcbDocCmdTipsAndTricksTips" devLabel="Switch to a PCB document." translation="PCB ドキュメントに切り替えます。"/>
+	<label commandName="lclzSwitchPcbDocCmdTipsAndTricksTitle" devLabel="Switch PCB Document" translation="PCB ドキュメントを切り替え"/>
+	<label commandName="lclzSwitchSchDocCmd1" devLabel="Switch to a Schematic document." translation="回路図ドキュメントに切り替えます。"/>
+	<label commandName="lclzSwitchSchDocCmd2" devLabel="If there is a linked Schematic document, will switch to the Schematic document, otherwise, will switch to electronics design to remind user to create a Schematic document." translation="リンクされた回路図ドキュメントがある場合は、回路図ドキュメントに切り替わります。リンクされていない場合は、電子部品デザインに切り替わり、回路図ドキュメントを作成するようにユーザに促します。"/>
+	<label commandName="lclzSwitchSchDocCmdTipsAndTricksDesc" devLabel="If there is a linked Schematic document, will switch to the Schematic document, otherwise, will switch to electronics design to remind user to create a Schematic document." translation="リンクされた回路図ドキュメントがある場合は、回路図ドキュメントに切り替わります。リンクされていない場合は、電子部品デザインに切り替わり、回路図ドキュメントを作成するようにユーザに促します。"/>
+	<label commandName="lclzSwitchSchDocCmdTipsAndTricksTips" devLabel="Switch to a Schematic document." translation="回路図ドキュメントに切り替えます。"/>
+	<label commandName="lclzSwitchSchDocCmdTipsAndTricksTitle" devLabel="Switch Schematic Document" translation="回路図ドキュメントを切り替え"/>
+	<label commandName="lclzWorkspace" devLabel="Workspace" translation="作業スペース"/>
+</Resource>

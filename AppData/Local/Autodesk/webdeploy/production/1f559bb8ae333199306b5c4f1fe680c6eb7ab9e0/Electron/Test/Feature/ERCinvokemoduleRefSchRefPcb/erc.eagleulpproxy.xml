@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ERCErrors>
+<error type="warning" description="Unconnected pin IC1C O" sheetnr="1" signature="M2" state="active" code="101" xmin="271.018000" ymin="1160.018000" xmax="273.558000" ymax="1162.558000" x="272.288000" y="1161.288000"/>
+<error type="warning" description="Part IC1 has uninvoked gate C with unconnected input pin I" sheetnr="1" signature="M1" state="active" code="114" xmin="-19.558000" ymin="14.647334" xmax="4.318000" ymax="26.055316" x="-7.620000" y="20.351325"/>
+<error type="error" description="Unconnected INPUT pin IC1A I2" sheetnr="1" signature="M1" state="active" code="202" xmin="-16.510000" ymin="16.510000" xmax="-13.970000" ymax="19.050000" x="-15.240000" y="17.780000"/>
+<error type="error" description="Unconnected INPUT pin IC1A I1" sheetnr="1" signature="M1" state="active" code="202" xmin="-16.510000" ymin="19.050000" xmax="-13.970000" ymax="21.590000" x="-15.240000" y="20.320000"/>
+<error type="error" description="Unconnected INPUT pin IC1A I0" sheetnr="1" signature="M1" state="active" code="202" xmin="-16.510000" ymin="21.590000" xmax="-13.970000" ymax="24.130000" x="-15.240000" y="22.860000"/>
+<error type="error" description="Unconnected INPUT pin IC1B I2" sheetnr="1" signature="M1" state="active" code="202" xmin="19.050000" ymin="16.510000" xmax="21.590000" ymax="19.050000" x="20.320000" y="17.780000"/>
+<error type="error" description="Unconnected INPUT pin IC1B I1" sheetnr="1" signature="M1" state="active" code="202" xmin="19.050000" ymin="19.050000" xmax="21.590000" ymax="21.590000" x="20.320000" y="20.320000"/>
+<error type="error" description="Unconnected INPUT pin IC1B I0" sheetnr="1" signature="M1" state="active" code="202" xmin="19.050000" ymin="21.590000" xmax="21.590000" ymax="24.130000" x="20.320000" y="22.860000"/>
+<error type="error" description="Unconnected INPUT pin IC1B I2" sheetnr="1" signature="M2" state="active" code="202" xmin="11.430000" ymin="41.910000" xmax="13.970000" ymax="44.450000" x="12.700000" y="43.180000"/>
+<error type="error" description="Unconnected INPUT pin IC1B I1" sheetnr="1" signature="M2" state="active" code="202" xmin="11.430000" ymin="44.450000" xmax="13.970000" ymax="46.990000" x="12.700000" y="45.720000"/>
+<error type="error" description="Unconnected INPUT pin IC1B I0" sheetnr="1" signature="M2" state="active" code="202" xmin="11.430000" ymin="46.990000" xmax="13.970000" ymax="49.530000" x="12.700000" y="48.260000"/>
+<error type="error" description="Unconnected INPUT pin IC1A I2" sheetnr="1" signature="M2" state="active" code="202" xmin="11.430000" ymin="67.310000" xmax="13.970000" ymax="69.850000" x="12.700000" y="68.580000"/>
+<error type="error" description="Unconnected INPUT pin IC1A I1" sheetnr="1" signature="M2" state="active" code="202" xmin="11.430000" ymin="69.850000" xmax="13.970000" ymax="72.390000" x="12.700000" y="71.120000"/>
+<error type="error" description="Unconnected INPUT pin IC1A I0" sheetnr="1" signature="M2" state="active" code="202" xmin="11.430000" ymin="72.390000" xmax="13.970000" ymax="74.930000" x="12.700000" y="73.660000"/>
+<error type="error" description="Unconnected INPUT pin IC1C I" sheetnr="1" signature="M2" state="active" code="202" xmin="250.698000" ymin="1160.018000" xmax="253.238000" ymax="1162.558000" x="251.968000" y="1161.288000"/>
+<error type="error" description="No SUPPLY for POWER pin IC1P VSS" sheetnr="1" signature="M2" state="active" code="204" xmin="260.858000" ymin="1797.558000" xmax="263.398000" ymax="1800.098000" x="262.128000" y="1798.828000"/>
+<error type="error" description="No SUPPLY for POWER pin IC1P VDD" sheetnr="1" signature="M2" state="active" code="204" xmin="260.858000" ymin="1812.798000" xmax="263.398000" ymax="1815.338000" x="262.128000" y="1814.068000"/>
+<error type="error" description="No SUPPLY for implicit POWER pin IC1P VDD" sheetnr="1" signature="M1" state="active" code="205" xmin="-19.558000" ymin="14.647334" xmax="4.318000" ymax="26.055316" x="-7.620000" y="20.351325"/>
+<error type="error" description="No SUPPLY for implicit POWER pin IC1P VSS" sheetnr="1" signature="M1" state="active" code="205" xmin="-19.558000" ymin="14.647334" xmax="4.318000" ymax="26.055316" x="-7.620000" y="20.351325"/>
+</ERCErrors>

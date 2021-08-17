@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ERCErrors>
+<error type="warning" description="Part R1 has no value" sheetnr="1" signature="" state="active" code="113" xmin="13.462000" ymin="79.400400" xmax="32.258000" ymax="86.380319" x="22.860000" y="82.890359"/>
+<error type="warning" description="Part S1 has no value" sheetnr="1" signature="" state="active" code="113" xmin="2.519681" ymin="51.562000" xmax="9.728200" ymax="75.438000" x="6.123941" y="63.500000"/>
+</ERCErrors>

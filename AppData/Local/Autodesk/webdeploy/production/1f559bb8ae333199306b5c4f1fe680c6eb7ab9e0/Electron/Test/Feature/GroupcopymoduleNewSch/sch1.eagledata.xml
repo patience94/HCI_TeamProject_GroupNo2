@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="88" name="SimResults" color="56" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="56" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="57" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="58" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="59" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="60" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="61" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="62" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="62" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="63" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="63" fill="1" visible="yes" active="yes"/>
+</layers>
+<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<libraries>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<modules>
+<module name="M1" prefix="" dx="30.48" dy="20.32">
+<ports>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="M2" prefix="" dx="30.48" dy="20.32">
+<ports>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+</modules>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<moduleinsts>
+<moduleinst name="MODULEM1_1" module="M1" x="10" y="20">
+<attribute name="NAME" x="10" y="20" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="MODULEM1_2" module="M2" x="50" y="20">
+<attribute name="NAME" x="50" y="20" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="MODULEM1_3" module="M1" x="29.52" y="49.68">
+<attribute name="NAME" x="29.52" y="49.68" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="MODULEM1_4" module="M2" x="69.52" y="49.68">
+<attribute name="NAME" x="69.52" y="49.68" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+</moduleinsts>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</schematic>
+</drawing>
+</eagle>

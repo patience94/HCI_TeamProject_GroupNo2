@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resources>
+	<ImplicitMacro>
+		<macro type="defineMacro">CLOUDSOLVE</macro>
+		<macro type="defineMacro">_DEBUG</macro>
+		<macro type="defineMacro">SIM_SPLITFACES</macro>
+		<macro type="defineMacro">LOCALIZE_PROCESSING</macro>
+		<macro type="undefineMacro">_WINDOWS</macro>
+		<macro type="undefineMacro">_WIN32</macro>
+		<macro type="undefineMacro">_WIN64</macro>
+		<macro type="undefineMacro">__APPLE__</macro>
+		<macro type="undefineMacro">__MATCH__</macro>
+	</ImplicitMacro>
+</Resources>

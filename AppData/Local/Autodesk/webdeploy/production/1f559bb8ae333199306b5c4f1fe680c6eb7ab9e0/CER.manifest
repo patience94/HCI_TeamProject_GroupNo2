@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
+    <assemblyIdentity name="CER" type="win32" version="0.0.0.0"/>
+    <file name="senddmpRes.dll"/>
+    <file name="CER\cs-CZ\senddmpRes.dll"/>
+    <file name="CER\de-DE\senddmpRes.dll"/>
+    <file name="CER\es-ES\senddmpRes.dll"/>
+    <file name="CER\fr-FR\senddmpRes.dll"/>
+    <file name="CER\hu-HU\senddmpRes.dll"/>
+    <file name="CER\it-IT\senddmpRes.dll"/>
+    <file name="CER\ja-JP\senddmpRes.dll"/>
+    <file name="CER\ko-KR\senddmpRes.dll"/>
+    <file name="CER\pl-PL\senddmpRes.dll"/>
+    <file name="CER\pt-BR\senddmpRes.dll"/>
+    <file name="CER\pt-PT\senddmpRes.dll"/>
+    <file name="CER\ru-RU\senddmpRes.dll"/>
+    <file name="CER\zh-CN\senddmpRes.dll"/>
+    <file name="CER\zh-TW\senddmpRes.dll"/>
+</assembly>

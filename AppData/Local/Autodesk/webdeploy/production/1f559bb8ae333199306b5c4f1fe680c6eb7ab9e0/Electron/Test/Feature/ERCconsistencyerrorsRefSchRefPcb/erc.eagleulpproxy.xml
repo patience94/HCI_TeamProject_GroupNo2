@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ERCErrors>
+<error type="error" description="Unconnected INPUT pin IC2 CLK" sheetnr="1" signature="" state="active" code="202" xmin="-21.590000" ymin="16.510000" xmax="-19.050000" ymax="19.050000" x="-20.320000" y="17.780000"/>
+<error type="error" description="Unconnected INPUT pin IC2 D4" sheetnr="1" signature="" state="active" code="202" xmin="-21.590000" ymin="21.590000" xmax="-19.050000" ymax="24.130000" x="-20.320000" y="22.860000"/>
+<error type="error" description="Unconnected INPUT pin IC2 D3" sheetnr="1" signature="" state="active" code="202" xmin="-21.590000" ymin="24.130000" xmax="-19.050000" ymax="26.670000" x="-20.320000" y="25.400000"/>
+<error type="error" description="Unconnected INPUT pin IC2 D2" sheetnr="1" signature="" state="active" code="202" xmin="-21.590000" ymin="29.210000" xmax="-19.050000" ymax="31.750000" x="-20.320000" y="30.480000"/>
+<error type="error" description="Unconnected INPUT pin IC2 D1" sheetnr="1" signature="" state="active" code="202" xmin="-21.590000" ymin="31.750000" xmax="-19.050000" ymax="34.290000" x="-20.320000" y="33.020000"/>
+<error type="error" description="Unconnected INPUT pin IC1 CLK" sheetnr="1" signature="" state="active" code="202" xmin="-21.590000" ymin="54.610000" xmax="-19.050000" ymax="57.150000" x="-20.320000" y="55.880000"/>
+<error type="error" description="Unconnected INPUT pin IC1 D4" sheetnr="1" signature="" state="active" code="202" xmin="-21.590000" ymin="59.690000" xmax="-19.050000" ymax="62.230000" x="-20.320000" y="60.960000"/>
+<error type="error" description="Unconnected INPUT pin IC1 D3" sheetnr="1" signature="" state="active" code="202" xmin="-21.590000" ymin="62.230000" xmax="-19.050000" ymax="64.770000" x="-20.320000" y="63.500000"/>
+<error type="error" description="Unconnected INPUT pin IC1 D2" sheetnr="1" signature="" state="active" code="202" xmin="-21.590000" ymin="67.310000" xmax="-19.050000" ymax="69.850000" x="-20.320000" y="68.580000"/>
+<error type="error" description="Unconnected INPUT pin IC1 D1" sheetnr="1" signature="" state="active" code="202" xmin="-21.590000" ymin="69.850000" xmax="-19.050000" ymax="72.390000" x="-20.320000" y="71.120000"/>
+<error type="error" description="No SUPPLY for implicit POWER pin IC2P VDD" sheetnr="1" signature="" state="active" code="205" xmin="-24.638000" ymin="12.107334" xmax="9.398000" ymax="38.755316" x="-7.620000" y="25.431325"/>
+<error type="error" description="No SUPPLY for implicit POWER pin IC2P VSS" sheetnr="1" signature="" state="active" code="205" xmin="-24.638000" ymin="12.107334" xmax="9.398000" ymax="38.755316" x="-7.620000" y="25.431325"/>
+<error type="error" description="No SUPPLY for implicit POWER pin IC1P VDD" sheetnr="1" signature="" state="active" code="205" xmin="-24.638000" ymin="50.207334" xmax="9.398000" ymax="76.855316" x="-7.620000" y="63.531325"/>
+<error type="error" description="No SUPPLY for implicit POWER pin IC1P VSS" sheetnr="1" signature="" state="active" code="205" xmin="-24.638000" ymin="50.207334" xmax="9.398000" ymax="76.855316" x="-7.620000" y="63.531325"/>
+<error type="consistency error" description="Part IC2 has inconsistent 3d packages in schematic and board (DIL14 from 40xx-simplified-03.lbr / DIL14 from 40xx-simplified-03.lbr)" sheetnr="1" signature="" state="active" code="313" xmin="-24.638000" ymin="12.107334" xmax="9.398000" ymax="38.755316" x="-7.620000" y="25.431325"/>
+</ERCErrors>

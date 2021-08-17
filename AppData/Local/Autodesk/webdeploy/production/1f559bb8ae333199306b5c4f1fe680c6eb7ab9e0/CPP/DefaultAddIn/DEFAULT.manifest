@@ -1,0 +1,10 @@
+{
+    "autodeskProduct":"Fusion360",
+    "type":"addin",
+    "author":"Autodesk Inc.",
+    "description":{
+        "":"This is sample script."
+    },
+    "supportedOS":"windows|mac",
+    "editEnabled": true
+}

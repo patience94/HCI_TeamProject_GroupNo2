@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DRCErrors>
+<error type="" description="Airwire" layernr="19" signature="21,19,b5f5b60bb4f7caf7" state="active" code="21" xmin="11.734794" ymin="4.444994" xmax="15.240006" ymax="11.734806" x="13.487400" y="8.089900"/>
+</DRCErrors>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<materialDumpRoot>
+  <Component ComponentName="(Unsaved)">
+    <BrepBody BodyName="Board">
+      <VisualMaterial Color="(Red: 0.470588, Green: 0.431373, Blue: 0.27451, Alpha: 1)" Luminescence="0" ProteinMaterialID="PrismOpaque" ProteinMaterialScale="1" Reflectance="0.02" Roughness="0.2" TranslucencyDepth="0.5" VisualMaterialName="Opaque(120,110,70)" proteinMaterialRotation="0"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+  </Component>
+  <Component ComponentName="Packages"/>
+</materialDumpRoot>

@@ -1,0 +1,3403 @@
+cManageLibrariesDialog QToolBar QToolButton#UserQTB::menu-button,
+cManufacturingFlyOut QToolBar QToolButton#UserQTB::menu-button,
+cCamExporterInterface QToolBar QToolButton#UserQTB::menu-button,
+OneClickMfgOverview QToolBar QToolButton#UserQTB::menu-button,
+[applicationQssScope="eagle"] QToolBar QToolButton#UserQTB::menu-button {
+  background: transparent;
+  border: transparent;
+  margin-left: 12px;
+  padding-right: 12px;
+  padding-left: 0px; }
+
+cManageLibrariesDialog QToolBar QToolButton#UserQTB::menu-arrow,
+cManufacturingFlyOut QToolBar QToolButton#UserQTB::menu-arrow,
+cCamExporterInterface QToolBar QToolButton#UserQTB::menu-arrow,
+OneClickMfgOverview QToolBar QToolButton#UserQTB::menu-arrow,
+[applicationQssScope="eagle"] QToolBar QToolButton#UserQTB::menu-arrow {
+  top: 5px;
+  right: 0px;
+  image: url(:/qss/icons/combobox_down_arrow.svg); }
+
+cManageLibrariesDialog QToolBar QToolButton#UserQTB,
+cManufacturingFlyOut QToolBar QToolButton#UserQTB,
+cCamExporterInterface QToolBar QToolButton#UserQTB,
+OneClickMfgOverview QToolBar QToolButton#UserQTB,
+[applicationQssScope="eagle"] QToolBar QToolButton#UserQTB {
+  max-height: 20px;
+  margin-bottom: 4px;
+  margin-top: 2px; }
+
+cManageLibrariesDialog QToolBar::separator,
+cManufacturingFlyOut QToolBar::separator,
+cCamExporterInterface QToolBar::separator,
+OneClickMfgOverview QToolBar::separator,
+[applicationQssScope="eagle"] QToolBar::separator {
+  margin-bottom: 1px; }
+
+cManageLibrariesDialog #ComposerWidget,
+cManufacturingFlyOut #ComposerWidget,
+cCamExporterInterface #ComposerWidget,
+OneClickMfgOverview #ComposerWidget,
+[applicationQssScope="eagle"] #ComposerWidget {
+  border-color: #C0C0C0;
+  border-style: solid;
+  border-width: 1px; }
+
+cManageLibrariesDialog QComboBox:focus,
+cManageLibrariesDialog QTreeWidget:focus,
+cManageLibrariesDialog QTextBrowser:focus,
+cManageLibrariesDialog QList:focus,
+cManufacturingFlyOut QComboBox:focus,
+cManufacturingFlyOut QTreeWidget:focus,
+cManufacturingFlyOut QTextBrowser:focus,
+cManufacturingFlyOut QList:focus,
+cCamExporterInterface QComboBox:focus,
+cCamExporterInterface QTreeWidget:focus,
+cCamExporterInterface QTextBrowser:focus,
+cCamExporterInterface QList:focus,
+OneClickMfgOverview QComboBox:focus,
+OneClickMfgOverview QTreeWidget:focus,
+OneClickMfgOverview QTextBrowser:focus,
+OneClickMfgOverview QList:focus,
+[applicationQssScope="eagle"] QComboBox:focus,
+[applicationQssScope="eagle"] QTreeWidget:focus,
+[applicationQssScope="eagle"] QTextBrowser:focus,
+[applicationQssScope="eagle"] QList:focus {
+  border: 1px solid rgba(6, 150, 215, 100%); }
+
+cManageLibrariesDialog QTextBrowser,
+cManufacturingFlyOut QTextBrowser,
+cCamExporterInterface QTextBrowser,
+OneClickMfgOverview QTextBrowser,
+[applicationQssScope="eagle"] QTextBrowser {
+  color: #3c3c3c;
+  selection-background-color: rgba(6, 150, 215, 100%);
+  selection-color: rgba(255, 255, 255, 100%);
+  background-color: rgba(255, 255, 255, 100%); }
+
+cManageLibrariesDialog QTextBrowser:hover,
+cManufacturingFlyOut QTextBrowser:hover,
+cCamExporterInterface QTextBrowser:hover,
+OneClickMfgOverview QTextBrowser:hover,
+[applicationQssScope="eagle"] QTextBrowser:hover {
+  border: 1px solid rgba(6, 150, 215, 100%); }
+
+cManageLibrariesDialog QWidget,
+cManufacturingFlyOut QWidget,
+cCamExporterInterface QWidget,
+OneClickMfgOverview QWidget,
+[applicationQssScope="eagle"] QWidget {
+  background-color: rgba(242, 242, 242, 100%);
+  color: rgba(57, 57, 57, 100%);
+  font-family: 'ArtifaktElement';
+  color: rgba(0, 0, 0, 100%);
+  font-weight: 400;
+  font-size: 13px; }
+
+cManageLibrariesDialog QWidget:disabled,
+cManufacturingFlyOut QWidget:disabled,
+cCamExporterInterface QWidget:disabled,
+OneClickMfgOverview QWidget:disabled,
+[applicationQssScope="eagle"] QWidget:disabled {
+  color: rgba(128, 128, 128, 15%); }
+
+cManageLibrariesDialog QCheckBox::indicator:unchecked,
+cManageLibrariesDialog QGroupBox::indicator:unchecked,
+cManufacturingFlyOut QCheckBox::indicator:unchecked,
+cManufacturingFlyOut QGroupBox::indicator:unchecked,
+cCamExporterInterface QCheckBox::indicator:unchecked,
+cCamExporterInterface QGroupBox::indicator:unchecked,
+OneClickMfgOverview QCheckBox::indicator:unchecked,
+OneClickMfgOverview QGroupBox::indicator:unchecked,
+[applicationQssScope="eagle"] QCheckBox::indicator:unchecked,
+[applicationQssScope="eagle"] QGroupBox::indicator:unchecked {
+  image: url(:/qss/icons/checkbox_default.svg); }
+  cManageLibrariesDialog QCheckBox::indicator:unchecked:hover,
+  cManageLibrariesDialog QGroupBox::indicator:unchecked:hover,
+  cManufacturingFlyOut QCheckBox::indicator:unchecked:hover,
+  cManufacturingFlyOut QGroupBox::indicator:unchecked:hover,
+  cCamExporterInterface QCheckBox::indicator:unchecked:hover,
+  cCamExporterInterface QGroupBox::indicator:unchecked:hover,
+  OneClickMfgOverview QCheckBox::indicator:unchecked:hover,
+  OneClickMfgOverview QGroupBox::indicator:unchecked:hover,
+  [applicationQssScope="eagle"] QCheckBox::indicator:unchecked:hover,
+  [applicationQssScope="eagle"] QGroupBox::indicator:unchecked:hover {
+    image: url(:/qss/icons/checkbox_hover.svg); }
+  cManageLibrariesDialog QCheckBox::indicator:unchecked:pressed,
+  cManageLibrariesDialog QGroupBox::indicator:unchecked:pressed,
+  cManufacturingFlyOut QCheckBox::indicator:unchecked:pressed,
+  cManufacturingFlyOut QGroupBox::indicator:unchecked:pressed,
+  cCamExporterInterface QCheckBox::indicator:unchecked:pressed,
+  cCamExporterInterface QGroupBox::indicator:unchecked:pressed,
+  OneClickMfgOverview QCheckBox::indicator:unchecked:pressed,
+  OneClickMfgOverview QGroupBox::indicator:unchecked:pressed,
+  [applicationQssScope="eagle"] QCheckBox::indicator:unchecked:pressed,
+  [applicationQssScope="eagle"] QGroupBox::indicator:unchecked:pressed {
+    image: url(:/qss/icons/checkbox_pressed.svg); }
+
+cManageLibrariesDialog QCheckBox::indicator:checked,
+cManageLibrariesDialog QGroupBox::indicator:checked,
+cManufacturingFlyOut QCheckBox::indicator:checked,
+cManufacturingFlyOut QGroupBox::indicator:checked,
+cCamExporterInterface QCheckBox::indicator:checked,
+cCamExporterInterface QGroupBox::indicator:checked,
+OneClickMfgOverview QCheckBox::indicator:checked,
+OneClickMfgOverview QGroupBox::indicator:checked,
+[applicationQssScope="eagle"] QCheckBox::indicator:checked,
+[applicationQssScope="eagle"] QGroupBox::indicator:checked {
+  image: url(:/qss/icons/checkbox_active.svg); }
+  cManageLibrariesDialog QCheckBox::indicator:checked:pressed,
+  cManageLibrariesDialog QGroupBox::indicator:checked:pressed,
+  cManufacturingFlyOut QCheckBox::indicator:checked:pressed,
+  cManufacturingFlyOut QGroupBox::indicator:checked:pressed,
+  cCamExporterInterface QCheckBox::indicator:checked:pressed,
+  cCamExporterInterface QGroupBox::indicator:checked:pressed,
+  OneClickMfgOverview QCheckBox::indicator:checked:pressed,
+  OneClickMfgOverview QGroupBox::indicator:checked:pressed,
+  [applicationQssScope="eagle"] QCheckBox::indicator:checked:pressed,
+  [applicationQssScope="eagle"] QGroupBox::indicator:checked:pressed {
+    image: url(:/qss/icons/checkbox_pressed.svg); }
+  cManageLibrariesDialog QCheckBox::indicator:checked:hover,
+  cManageLibrariesDialog QGroupBox::indicator:checked:hover,
+  cManufacturingFlyOut QCheckBox::indicator:checked:hover,
+  cManufacturingFlyOut QGroupBox::indicator:checked:hover,
+  cCamExporterInterface QCheckBox::indicator:checked:hover,
+  cCamExporterInterface QGroupBox::indicator:checked:hover,
+  OneClickMfgOverview QCheckBox::indicator:checked:hover,
+  OneClickMfgOverview QGroupBox::indicator:checked:hover,
+  [applicationQssScope="eagle"] QCheckBox::indicator:checked:hover,
+  [applicationQssScope="eagle"] QGroupBox::indicator:checked:hover {
+    image: url(:/qss/icons/checkbox_active_hover.svg); }
+
+cManageLibrariesDialog QCheckBox,
+cManufacturingFlyOut QCheckBox,
+cCamExporterInterface QCheckBox,
+OneClickMfgOverview QCheckBox,
+[applicationQssScope="eagle"] QCheckBox {
+  background-color: transparent;
+  margin-left: 0;
+  padding: 0; }
+  cManageLibrariesDialog QCheckBox:disabled,
+  cManufacturingFlyOut QCheckBox:disabled,
+  cCamExporterInterface QCheckBox:disabled,
+  OneClickMfgOverview QCheckBox:disabled,
+  [applicationQssScope="eagle"] QCheckBox:disabled {
+    color: rgba(128, 128, 128, 15%); }
+  cManageLibrariesDialog QCheckBox::indicator,
+  cManufacturingFlyOut QCheckBox::indicator,
+  cCamExporterInterface QCheckBox::indicator,
+  OneClickMfgOverview QCheckBox::indicator,
+  [applicationQssScope="eagle"] QCheckBox::indicator {
+    width: 16px;
+    height: 16px; }
+    cManageLibrariesDialog QCheckBox::indicator:checked,
+    cManufacturingFlyOut QCheckBox::indicator:checked,
+    cCamExporterInterface QCheckBox::indicator:checked,
+    OneClickMfgOverview QCheckBox::indicator:checked,
+    [applicationQssScope="eagle"] QCheckBox::indicator:checked {
+      image: url(:/qss/icons/checkbox_active.svg); }
+      cManageLibrariesDialog QCheckBox::indicator:checked:hover,
+      cManufacturingFlyOut QCheckBox::indicator:checked:hover,
+      cCamExporterInterface QCheckBox::indicator:checked:hover,
+      OneClickMfgOverview QCheckBox::indicator:checked:hover,
+      [applicationQssScope="eagle"] QCheckBox::indicator:checked:hover {
+        image: url(:/qss/icons/checkbox_active_hover.svg); }
+    cManageLibrariesDialog QCheckBox::indicator:indeterminate,
+    cManufacturingFlyOut QCheckBox::indicator:indeterminate,
+    cCamExporterInterface QCheckBox::indicator:indeterminate,
+    OneClickMfgOverview QCheckBox::indicator:indeterminate,
+    [applicationQssScope="eagle"] QCheckBox::indicator:indeterminate {
+      image: url(:/qss/icons/checkbox_tristate.svg); }
+      cManageLibrariesDialog QCheckBox::indicator:indeterminate:hover,
+      cManufacturingFlyOut QCheckBox::indicator:indeterminate:hover,
+      cCamExporterInterface QCheckBox::indicator:indeterminate:hover,
+      OneClickMfgOverview QCheckBox::indicator:indeterminate:hover,
+      [applicationQssScope="eagle"] QCheckBox::indicator:indeterminate:hover {
+        image: url(:/qss/icons/checkbox_tristate_hover.svg); }
+
+cManageLibrariesDialog QRadioButton,
+cManufacturingFlyOut QRadioButton,
+cCamExporterInterface QRadioButton,
+OneClickMfgOverview QRadioButton,
+[applicationQssScope="eagle"] QRadioButton {
+  background-color: transparent;
+  color: rgba(57, 57, 57, 100%); }
+
+cManageLibrariesDialog QRadioButton:disabled,
+cManufacturingFlyOut QRadioButton:disabled,
+cCamExporterInterface QRadioButton:disabled,
+OneClickMfgOverview QRadioButton:disabled,
+[applicationQssScope="eagle"] QRadioButton:disabled {
+  color: rgba(153, 153, 153, 100%); }
+
+cManageLibrariesDialog QRadioButton::indicator::unchecked,
+cManufacturingFlyOut QRadioButton::indicator::unchecked,
+cCamExporterInterface QRadioButton::indicator::unchecked,
+OneClickMfgOverview QRadioButton::indicator::unchecked,
+[applicationQssScope="eagle"] QRadioButton::indicator::unchecked {
+  image: url(:/qss/icons/radio_default.svg); }
+
+cManageLibrariesDialog QRadioButton::indicator:unchecked:hover,
+cManufacturingFlyOut QRadioButton::indicator:unchecked:hover,
+cCamExporterInterface QRadioButton::indicator:unchecked:hover,
+OneClickMfgOverview QRadioButton::indicator:unchecked:hover,
+[applicationQssScope="eagle"] QRadioButton::indicator:unchecked:hover {
+  image: url(:/qss/icons/radio_hover.svg); }
+
+cManageLibrariesDialog QRadioButton::indicator:unchecked:pressed,
+cManufacturingFlyOut QRadioButton::indicator:unchecked:pressed,
+cCamExporterInterface QRadioButton::indicator:unchecked:pressed,
+OneClickMfgOverview QRadioButton::indicator:unchecked:pressed,
+[applicationQssScope="eagle"] QRadioButton::indicator:unchecked:pressed {
+  image: url(:/qss/icons/radio_pressed.svg); }
+
+cManageLibrariesDialog QRadioButton::indicator::checked,
+cManufacturingFlyOut QRadioButton::indicator::checked,
+cCamExporterInterface QRadioButton::indicator::checked,
+OneClickMfgOverview QRadioButton::indicator::checked,
+[applicationQssScope="eagle"] QRadioButton::indicator::checked {
+  image: url(:/qss/icons/radio_button_active.svg); }
+
+cManageLibrariesDialog QRadioButton::indicator:checked:hover,
+cManufacturingFlyOut QRadioButton::indicator:checked:hover,
+cCamExporterInterface QRadioButton::indicator:checked:hover,
+OneClickMfgOverview QRadioButton::indicator:checked:hover,
+[applicationQssScope="eagle"] QRadioButton::indicator:checked:hover {
+  image: url(:/qss/icons/radio_active_hover.svg); }
+
+cManageLibrariesDialog QRadioButton::indicator:checked:pressed,
+cManufacturingFlyOut QRadioButton::indicator:checked:pressed,
+cCamExporterInterface QRadioButton::indicator:checked:pressed,
+OneClickMfgOverview QRadioButton::indicator:checked:pressed,
+[applicationQssScope="eagle"] QRadioButton::indicator:checked:pressed {
+  image: url(:/qss/icons/radio_pressed.svg); }
+
+cManageLibrariesDialog QRadioButton::indicator:disabled,
+cManufacturingFlyOut QRadioButton::indicator:disabled,
+cCamExporterInterface QRadioButton::indicator:disabled,
+OneClickMfgOverview QRadioButton::indicator:disabled,
+[applicationQssScope="eagle"] QRadioButton::indicator:disabled {
+  image: url(:/qss/icons/radio_button_disabled.svg); }
+
+cManageLibrariesDialog QGroupBox,
+cManufacturingFlyOut QGroupBox,
+cCamExporterInterface QGroupBox,
+OneClickMfgOverview QGroupBox,
+[applicationQssScope="eagle"] QGroupBox {
+  background-color: rgba(245, 245, 245, 100%);
+  border: 1px solid rgba(217, 217, 217, 100%);
+  border-radius: 2px;
+  margin-top: 18px; }
+
+cManageLibrariesDialog QGroupBox::title,
+cManufacturingFlyOut QGroupBox::title,
+cCamExporterInterface QGroupBox::title,
+OneClickMfgOverview QGroupBox::title,
+[applicationQssScope="eagle"] QGroupBox::title {
+  subcontrol-origin: margin;
+  subcontrol-position: top left;
+  padding: 0 4px;
+  color: #3c3c3c; }
+
+cManageLibrariesDialog QGroupBox > QWidget,
+cManufacturingFlyOut QGroupBox > QWidget,
+cCamExporterInterface QGroupBox > QWidget,
+OneClickMfgOverview QGroupBox > QWidget,
+[applicationQssScope="eagle"] QGroupBox > QWidget {
+  background-color: transparent; }
+
+cManageLibrariesDialog QGroupBox QComboBox QAbstractItemView,
+cManageLibrariesDialog QGroupBox QComboBox,
+cManageLibrariesDialog QGroupBox QPushButton,
+cManageLibrariesDialog QGroupBox QTreeView,
+cManageLibrariesDialog QGroupBox QTableView,
+cManufacturingFlyOut QGroupBox QComboBox QAbstractItemView,
+cManufacturingFlyOut QGroupBox QComboBox,
+cManufacturingFlyOut QGroupBox QPushButton,
+cManufacturingFlyOut QGroupBox QTreeView,
+cManufacturingFlyOut QGroupBox QTableView,
+cCamExporterInterface QGroupBox QComboBox QAbstractItemView,
+cCamExporterInterface QGroupBox QComboBox,
+cCamExporterInterface QGroupBox QPushButton,
+cCamExporterInterface QGroupBox QTreeView,
+cCamExporterInterface QGroupBox QTableView,
+OneClickMfgOverview QGroupBox QComboBox QAbstractItemView,
+OneClickMfgOverview QGroupBox QComboBox,
+OneClickMfgOverview QGroupBox QPushButton,
+OneClickMfgOverview QGroupBox QTreeView,
+OneClickMfgOverview QGroupBox QTableView,
+[applicationQssScope="eagle"] QGroupBox QComboBox QAbstractItemView,
+[applicationQssScope="eagle"] QGroupBox QComboBox,
+[applicationQssScope="eagle"] QGroupBox QPushButton,
+[applicationQssScope="eagle"] QGroupBox QTreeView,
+[applicationQssScope="eagle"] QGroupBox QTableView {
+  background-color: rgba(255, 255, 255, 100%); }
+
+cManageLibrariesDialog QComboBox,
+cManufacturingFlyOut QComboBox,
+cCamExporterInterface QComboBox,
+OneClickMfgOverview QComboBox,
+[applicationQssScope="eagle"] QComboBox {
+  background-color: rgba(255, 255, 255, 100%);
+  color: #3c3c3c;
+  border: 1px solid rgba(153, 153, 153, 100%);
+  padding: 1px 8px 1px 4px;
+  border-radius: 0px;
+  height: 22px; }
+  FilterConditionRow cManageLibrariesDialog QComboBox, FilterConditionRow cManufacturingFlyOut QComboBox, FilterConditionRow cCamExporterInterface QComboBox, FilterConditionRow OneClickMfgOverview QComboBox, FilterConditionRow [applicationQssScope="eagle"] QComboBox {
+    height: 16px; }
+  cComboBox4Strings cManageLibrariesDialog QComboBox, cComboBox4NetClasses cManageLibrariesDialog QComboBox, cComboBox4Numbers cManageLibrariesDialog QComboBox, cComboBox4Strings cManufacturingFlyOut QComboBox, cComboBox4NetClasses cManufacturingFlyOut QComboBox, cComboBox4Numbers cManufacturingFlyOut QComboBox, cComboBox4Strings cCamExporterInterface QComboBox, cComboBox4NetClasses cCamExporterInterface QComboBox, cComboBox4Numbers cCamExporterInterface QComboBox, cComboBox4Strings OneClickMfgOverview QComboBox, cComboBox4NetClasses OneClickMfgOverview QComboBox, cComboBox4Numbers OneClickMfgOverview QComboBox, cComboBox4Strings [applicationQssScope="eagle"] QComboBox, cComboBox4NetClasses [applicationQssScope="eagle"] QComboBox, cComboBox4Numbers [applicationQssScope="eagle"] QComboBox {
+    margin-left: 0px; }
+
+cManageLibrariesDialog QComboBox:hover,
+cManufacturingFlyOut QComboBox:hover,
+cCamExporterInterface QComboBox:hover,
+OneClickMfgOverview QComboBox:hover,
+[applicationQssScope="eagle"] QComboBox:hover {
+  border: 1px solid rgba(6, 150, 215, 100%); }
+
+cManageLibrariesDialog QComboBox::drop-down,
+cManufacturingFlyOut QComboBox::drop-down,
+cCamExporterInterface QComboBox::drop-down,
+OneClickMfgOverview QComboBox::drop-down,
+[applicationQssScope="eagle"] QComboBox::drop-down {
+  subcontrol-origin: padding;
+  subcontrol-position: top right;
+  width: 16px;
+  border-radius: 0px;
+  border-left-width: 0px; }
+
+cManageLibrariesDialog QComboBox::down-arrow,
+cManufacturingFlyOut QComboBox::down-arrow,
+cCamExporterInterface QComboBox::down-arrow,
+OneClickMfgOverview QComboBox::down-arrow,
+[applicationQssScope="eagle"] QComboBox::down-arrow {
+  color: #3c3c3c;
+  image: url(:/qss/icons/combobox_down_arrow.svg);
+  width: 6px;
+  height: 6px; }
+
+cManageLibrariesDialog QComboBox::icon,
+cManufacturingFlyOut QComboBox::icon,
+cCamExporterInterface QComboBox::icon,
+OneClickMfgOverview QComboBox::icon,
+[applicationQssScope="eagle"] QComboBox::icon {
+  margin: 5px; }
+
+cManageLibrariesDialog QComboBox::item,
+cManageLibrariesDialog cParameterComboBox QAbstractItemView::item,
+cManufacturingFlyOut QComboBox::item,
+cManufacturingFlyOut cParameterComboBox QAbstractItemView::item,
+cCamExporterInterface QComboBox::item,
+cCamExporterInterface cParameterComboBox QAbstractItemView::item,
+OneClickMfgOverview QComboBox::item,
+OneClickMfgOverview cParameterComboBox QAbstractItemView::item,
+[applicationQssScope="eagle"] QComboBox::item,
+[applicationQssScope="eagle"] cParameterComboBox QAbstractItemView::item {
+  height: 22px;
+  background-color: rgba(255, 255, 255, 100%);
+  padding-left: 8px;
+  color: #3c3c3c; }
+
+cManageLibrariesDialog cComboBox4Layers::item,
+cManageLibrariesDialog cParameterComboBox4Layers::item,
+cManufacturingFlyOut cComboBox4Layers::item,
+cManufacturingFlyOut cParameterComboBox4Layers::item,
+cCamExporterInterface cComboBox4Layers::item,
+cCamExporterInterface cParameterComboBox4Layers::item,
+OneClickMfgOverview cComboBox4Layers::item,
+OneClickMfgOverview cParameterComboBox4Layers::item,
+[applicationQssScope="eagle"] cComboBox4Layers::item,
+[applicationQssScope="eagle"] cParameterComboBox4Layers::item {
+  padding-left: 24px; }
+
+cManageLibrariesDialog cParameterComboBox4Layers2::item,
+cManageLibrariesDialog cParameterComboBox4Layers2 QAbstractItemView::item,
+cManufacturingFlyOut cParameterComboBox4Layers2::item,
+cManufacturingFlyOut cParameterComboBox4Layers2 QAbstractItemView::item,
+cCamExporterInterface cParameterComboBox4Layers2::item,
+cCamExporterInterface cParameterComboBox4Layers2 QAbstractItemView::item,
+OneClickMfgOverview cParameterComboBox4Layers2::item,
+OneClickMfgOverview cParameterComboBox4Layers2 QAbstractItemView::item,
+[applicationQssScope="eagle"] cParameterComboBox4Layers2::item,
+[applicationQssScope="eagle"] cParameterComboBox4Layers2 QAbstractItemView::item {
+  padding-left: 0px;
+  min-width: 80px; }
+
+cManageLibrariesDialog QComboBox::item:selected,
+cManageLibrariesDialog cParameterComboBox QAbstractItemView::item:selected,
+cManufacturingFlyOut QComboBox::item:selected,
+cManufacturingFlyOut cParameterComboBox QAbstractItemView::item:selected,
+cCamExporterInterface QComboBox::item:selected,
+cCamExporterInterface cParameterComboBox QAbstractItemView::item:selected,
+OneClickMfgOverview QComboBox::item:selected,
+OneClickMfgOverview cParameterComboBox QAbstractItemView::item:selected,
+[applicationQssScope="eagle"] QComboBox::item:selected,
+[applicationQssScope="eagle"] cParameterComboBox QAbstractItemView::item:selected {
+  background-color: #CDEAF8;
+  color: #3c3c3c; }
+
+cManageLibrariesDialog QComboBox::item:checked,
+cManageLibrariesDialog cParameterComboBox QAbstractItemView::item:checked,
+cManufacturingFlyOut QComboBox::item:checked,
+cManufacturingFlyOut cParameterComboBox QAbstractItemView::item:checked,
+cCamExporterInterface QComboBox::item:checked,
+cCamExporterInterface cParameterComboBox QAbstractItemView::item:checked,
+OneClickMfgOverview QComboBox::item:checked,
+OneClickMfgOverview cParameterComboBox QAbstractItemView::item:checked,
+[applicationQssScope="eagle"] QComboBox::item:checked,
+[applicationQssScope="eagle"] cParameterComboBox QAbstractItemView::item:checked {
+  background-color: #98D5EF; }
+
+cManageLibrariesDialog QCombobox:disabled,
+cManufacturingFlyOut QCombobox:disabled,
+cCamExporterInterface QCombobox:disabled,
+OneClickMfgOverview QCombobox:disabled,
+[applicationQssScope="eagle"] QCombobox:disabled {
+  background-color: #ededed;
+  color: #bbbbbb; }
+
+cManageLibrariesDialog QComboBox::item:disabled,
+cManageLibrariesDialog cParameterComboBox QAbstractItemView::item:disabled,
+cManufacturingFlyOut QComboBox::item:disabled,
+cManufacturingFlyOut cParameterComboBox QAbstractItemView::item:disabled,
+cCamExporterInterface QComboBox::item:disabled,
+cCamExporterInterface cParameterComboBox QAbstractItemView::item:disabled,
+OneClickMfgOverview QComboBox::item:disabled,
+OneClickMfgOverview cParameterComboBox QAbstractItemView::item:disabled,
+[applicationQssScope="eagle"] QComboBox::item:disabled,
+[applicationQssScope="eagle"] cParameterComboBox QAbstractItemView::item:disabled {
+  color: #808080; }
+
+cManageLibrariesDialog QComboBox::separator,
+cManageLibrariesDialog cParameterComboBox QAbstractItemView::separator,
+cManufacturingFlyOut QComboBox::separator,
+cManufacturingFlyOut cParameterComboBox QAbstractItemView::separator,
+cCamExporterInterface QComboBox::separator,
+cCamExporterInterface cParameterComboBox QAbstractItemView::separator,
+OneClickMfgOverview QComboBox::separator,
+OneClickMfgOverview cParameterComboBox QAbstractItemView::separator,
+[applicationQssScope="eagle"] QComboBox::separator,
+[applicationQssScope="eagle"] cParameterComboBox QAbstractItemView::separator {
+  background: rgba(217, 217, 217, 100%);
+  height: 1px;
+  margin-left: 0px;
+  margin-right: 0px; }
+
+cManageLibrariesDialog QComboBox::indicator,
+cManufacturingFlyOut QComboBox::indicator,
+cCamExporterInterface QComboBox::indicator,
+OneClickMfgOverview QComboBox::indicator,
+[applicationQssScope="eagle"] QComboBox::indicator {
+  background-color: transparent;
+  selection-background-color: transparent;
+  color: transparent;
+  selection-color: transparent; }
+
+cManageLibrariesDialog cParameterComboBox4Sizes,
+cManufacturingFlyOut cParameterComboBox4Sizes,
+cCamExporterInterface cParameterComboBox4Sizes,
+OneClickMfgOverview cParameterComboBox4Sizes,
+[applicationQssScope="eagle"] cParameterComboBox4Sizes {
+  min-width: 80px;
+  color: #3c3c3c;
+  selection-color: rgba(255, 255, 255, 100%);
+  selection-background-color: rgba(6, 150, 215, 100%); }
+
+cManageLibrariesDialog QLineEdit,
+cManageLibrariesDialog QLineEdit:editable,
+cManufacturingFlyOut QLineEdit,
+cManufacturingFlyOut QLineEdit:editable,
+cCamExporterInterface QLineEdit,
+cCamExporterInterface QLineEdit:editable,
+OneClickMfgOverview QLineEdit,
+OneClickMfgOverview QLineEdit:editable,
+[applicationQssScope="eagle"] QLineEdit,
+[applicationQssScope="eagle"] QLineEdit:editable {
+  selection-background-color: rgba(6, 150, 215, 100%);
+  selection-color: rgba(255, 255, 255, 100%);
+  padding-left: 8px;
+  border: 1px solid rgba(153, 153, 153, 100%);
+  background-color: rgba(255, 255, 255, 100%);
+  color: #3c3c3c;
+  min-height: 24px; }
+
+cManageLibrariesDialog QLineEdit:!editable,
+cManageLibrariesDialog QLineEdit:disabled,
+cManageLibrariesDialog QLineEdit:read-only,
+cManufacturingFlyOut QLineEdit:!editable,
+cManufacturingFlyOut QLineEdit:disabled,
+cManufacturingFlyOut QLineEdit:read-only,
+cCamExporterInterface QLineEdit:!editable,
+cCamExporterInterface QLineEdit:disabled,
+cCamExporterInterface QLineEdit:read-only,
+OneClickMfgOverview QLineEdit:!editable,
+OneClickMfgOverview QLineEdit:disabled,
+OneClickMfgOverview QLineEdit:read-only,
+[applicationQssScope="eagle"] QLineEdit:!editable,
+[applicationQssScope="eagle"] QLineEdit:disabled,
+[applicationQssScope="eagle"] QLineEdit:read-only {
+  color: #808080;
+  background-color: rgba(255, 255, 255, 100%);
+  border: 1px solid rgba(153, 153, 153, 100%); }
+
+cManageLibrariesDialog QLineEdit:hover,
+cManageLibrariesDialog QLineEdit:focus,
+cManufacturingFlyOut QLineEdit:hover,
+cManufacturingFlyOut QLineEdit:focus,
+cCamExporterInterface QLineEdit:hover,
+cCamExporterInterface QLineEdit:focus,
+OneClickMfgOverview QLineEdit:hover,
+OneClickMfgOverview QLineEdit:focus,
+[applicationQssScope="eagle"] QLineEdit:hover,
+[applicationQssScope="eagle"] QLineEdit:focus {
+  border: 1px solid rgba(6, 150, 215, 100%); }
+
+cManageLibrariesDialog QScrollBar,
+cManufacturingFlyOut QScrollBar,
+cCamExporterInterface QScrollBar,
+OneClickMfgOverview QScrollBar,
+[applicationQssScope="eagle"] QScrollBar {
+  background-color: transparent;
+  border: none; }
+  cManageLibrariesDialog QScrollBar:vertical,
+  cManufacturingFlyOut QScrollBar:vertical,
+  cCamExporterInterface QScrollBar:vertical,
+  OneClickMfgOverview QScrollBar:vertical,
+  [applicationQssScope="eagle"] QScrollBar:vertical {
+    width: 16px; }
+  cManageLibrariesDialog QScrollBar:horizontal,
+  cManufacturingFlyOut QScrollBar:horizontal,
+  cCamExporterInterface QScrollBar:horizontal,
+  OneClickMfgOverview QScrollBar:horizontal,
+  [applicationQssScope="eagle"] QScrollBar:horizontal {
+    height: 16px; }
+  cManageLibrariesDialog QScrollBar:handle:horizontal,
+  cManufacturingFlyOut QScrollBar:handle:horizontal,
+  cCamExporterInterface QScrollBar:handle:horizontal,
+  OneClickMfgOverview QScrollBar:handle:horizontal,
+  [applicationQssScope="eagle"] QScrollBar:handle:horizontal {
+    background: rgba(153, 153, 153, 100%);
+    border: 3px solid rgba(153, 153, 153, 100%);
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-width: 24px; }
+  cManageLibrariesDialog QScrollBar:handle:vertical,
+  cManufacturingFlyOut QScrollBar:handle:vertical,
+  cCamExporterInterface QScrollBar:handle:vertical,
+  OneClickMfgOverview QScrollBar:handle:vertical,
+  [applicationQssScope="eagle"] QScrollBar:handle:vertical {
+    background: rgba(153, 153, 153, 100%);
+    border: 3px solid rgba(153, 153, 153, 100%);
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-height: 24px; }
+  cManageLibrariesDialog QScrollBar::add-line:horizontal, cManageLibrariesDialog QScrollBar::sub-line:horizontal,
+  cManufacturingFlyOut QScrollBar::add-line:horizontal,
+  cManufacturingFlyOut QScrollBar::sub-line:horizontal,
+  cCamExporterInterface QScrollBar::add-line:horizontal,
+  cCamExporterInterface QScrollBar::sub-line:horizontal,
+  OneClickMfgOverview QScrollBar::add-line:horizontal,
+  OneClickMfgOverview QScrollBar::sub-line:horizontal,
+  [applicationQssScope="eagle"] QScrollBar::add-line:horizontal,
+  [applicationQssScope="eagle"] QScrollBar::sub-line:horizontal {
+    border: none;
+    background: transparent; }
+  cManageLibrariesDialog QScrollBar::add-line:vertical, cManageLibrariesDialog QScrollBar::sub-line:vertical,
+  cManufacturingFlyOut QScrollBar::add-line:vertical,
+  cManufacturingFlyOut QScrollBar::sub-line:vertical,
+  cCamExporterInterface QScrollBar::add-line:vertical,
+  cCamExporterInterface QScrollBar::sub-line:vertical,
+  OneClickMfgOverview QScrollBar::add-line:vertical,
+  OneClickMfgOverview QScrollBar::sub-line:vertical,
+  [applicationQssScope="eagle"] QScrollBar::add-line:vertical,
+  [applicationQssScope="eagle"] QScrollBar::sub-line:vertical {
+    border: none;
+    background: transparent; }
+
+cManageLibrariesDialog QPushButton,
+cManufacturingFlyOut QPushButton,
+cCamExporterInterface QPushButton,
+OneClickMfgOverview QPushButton,
+[applicationQssScope="eagle"] QPushButton {
+  color: #3c3c3c;
+  background-color: rgba(255, 255, 255, 100%);
+  border: 1px solid #808080;
+  border-radius: 4px;
+  height: 24px;
+  padding-right: 8px;
+  padding-left: 8px; }
+  cAnyPropertiesInspector cManageLibrariesDialog QPushButton, cAnyPropertiesInspector cManufacturingFlyOut QPushButton, cAnyPropertiesInspector cCamExporterInterface QPushButton, cAnyPropertiesInspector OneClickMfgOverview QPushButton, cAnyPropertiesInspector [applicationQssScope="eagle"] QPushButton {
+    margin-left: 8px; }
+  cManageLibrariesDialog QPushButton:default,
+  cManufacturingFlyOut QPushButton:default,
+  cCamExporterInterface QPushButton:default,
+  OneClickMfgOverview QPushButton:default,
+  [applicationQssScope="eagle"] QPushButton:default {
+    border: 2px solid rgba(6, 150, 215, 100%); }
+  cManageLibrariesDialog QPushButton:flat,
+  cManufacturingFlyOut QPushButton:flat,
+  cCamExporterInterface QPushButton:flat,
+  OneClickMfgOverview QPushButton:flat,
+  [applicationQssScope="eagle"] QPushButton:flat {
+    background-color: transparent; }
+  cManageLibrariesDialog QPushButton:hover,
+  cManufacturingFlyOut QPushButton:hover,
+  cCamExporterInterface QPushButton:hover,
+  OneClickMfgOverview QPushButton:hover,
+  [applicationQssScope="eagle"] QPushButton:hover {
+    background-color: rgba(217, 217, 217, 100%); }
+  cManageLibrariesDialog QPushButton:focus,
+  cManufacturingFlyOut QPushButton:focus,
+  cCamExporterInterface QPushButton:focus,
+  OneClickMfgOverview QPushButton:focus,
+  [applicationQssScope="eagle"] QPushButton:focus {
+    background-color: rgba(230, 244, 251, 100%);
+    border-color: rgba(6, 150, 215, 100%); }
+  cManageLibrariesDialog QPushButton:pressed,
+  cManufacturingFlyOut QPushButton:pressed,
+  cCamExporterInterface QPushButton:pressed,
+  OneClickMfgOverview QPushButton:pressed,
+  [applicationQssScope="eagle"] QPushButton:pressed {
+    color: rgba(255, 255, 255, 100%);
+    background-color: #808080; }
+  cManageLibrariesDialog QPushButton:focus:pressed, cManageLibrariesDialog QPushButton:default:pressed,
+  cManufacturingFlyOut QPushButton:focus:pressed,
+  cManufacturingFlyOut QPushButton:default:pressed,
+  cCamExporterInterface QPushButton:focus:pressed,
+  cCamExporterInterface QPushButton:default:pressed,
+  OneClickMfgOverview QPushButton:focus:pressed,
+  OneClickMfgOverview QPushButton:default:pressed,
+  [applicationQssScope="eagle"] QPushButton:focus:pressed,
+  [applicationQssScope="eagle"] QPushButton:default:pressed {
+    background-color: rgba(6, 150, 215, 100%);
+    border-color: rgba(6, 150, 215, 100%); }
+  cManageLibrariesDialog QPushButton:disabled,
+  cManufacturingFlyOut QPushButton:disabled,
+  cCamExporterInterface QPushButton:disabled,
+  OneClickMfgOverview QPushButton:disabled,
+  [applicationQssScope="eagle"] QPushButton:disabled {
+    background-color: #ededed;
+    color: #808080;
+    border-color: rgba(204, 204, 204, 100%); }
+  cManageLibrariesDialog QPushButton#SelectionFilterButton,
+  cManufacturingFlyOut QPushButton#SelectionFilterButton,
+  cCamExporterInterface QPushButton#SelectionFilterButton,
+  OneClickMfgOverview QPushButton#SelectionFilterButton,
+  [applicationQssScope="eagle"] QPushButton#SelectionFilterButton {
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 11px;
+    max-height: 20px; }
+  cManageLibrariesDialog QPushButton:on,
+  cManufacturingFlyOut QPushButton:on,
+  cCamExporterInterface QPushButton:on,
+  OneClickMfgOverview QPushButton:on,
+  [applicationQssScope="eagle"] QPushButton:on {
+    color: rgba(255, 255, 255, 100%);
+    background-color: #808080; }
+  cManageLibrariesDialog QPushButton:on:hover,
+  cManufacturingFlyOut QPushButton:on:hover,
+  cCamExporterInterface QPushButton:on:hover,
+  OneClickMfgOverview QPushButton:on:hover,
+  [applicationQssScope="eagle"] QPushButton:on:hover {
+    background-color: rgba(217, 217, 217, 100%);
+    color: rgba(255, 255, 255, 100%); }
+  cManageLibrariesDialog QPushButton:on:pressed,
+  cManufacturingFlyOut QPushButton:on:pressed,
+  cCamExporterInterface QPushButton:on:pressed,
+  OneClickMfgOverview QPushButton:on:pressed,
+  [applicationQssScope="eagle"] QPushButton:on:pressed {
+    background-color: rgba(102, 102, 102, 100%);
+    color: rgba(255, 255, 255, 100%); }
+  cManageLibrariesDialog QPushButton::menu-indicator,
+  cManufacturingFlyOut QPushButton::menu-indicator,
+  cCamExporterInterface QPushButton::menu-indicator,
+  OneClickMfgOverview QPushButton::menu-indicator,
+  [applicationQssScope="eagle"] QPushButton::menu-indicator {
+    subcontrol-position: right center;
+    subcontrol-origin: padding;
+    right: 2px;
+    image: url(:/qss/icons/combobox_down_arrow.svg); }
+  cManageLibrariesDialog QPushButton#BannerCloseButton,
+  cManufacturingFlyOut QPushButton#BannerCloseButton,
+  cCamExporterInterface QPushButton#BannerCloseButton,
+  OneClickMfgOverview QPushButton#BannerCloseButton,
+  [applicationQssScope="eagle"] QPushButton#BannerCloseButton {
+    background-color: #CDEAF8;
+    border-color: #CDEAF8;
+    border-radius: 0px;
+    margin-right: 4px; }
+
+cManageLibrariesDialog cAnyPropertiesInspector QPushButton,
+cManufacturingFlyOut cAnyPropertiesInspector QPushButton,
+cCamExporterInterface cAnyPropertiesInspector QPushButton,
+OneClickMfgOverview cAnyPropertiesInspector QPushButton,
+[applicationQssScope="eagle"] cAnyPropertiesInspector QPushButton {
+  margin-left: 8px; }
+
+cManageLibrariesDialog QDialogButtonBox QPushButton,
+cManufacturingFlyOut QDialogButtonBox QPushButton,
+cCamExporterInterface QDialogButtonBox QPushButton,
+OneClickMfgOverview QDialogButtonBox QPushButton,
+[applicationQssScope="eagle"] QDialogButtonBox QPushButton {
+  min-width: 60px; }
+
+cManageLibrariesDialog #FilterCmdButton::on,
+cManufacturingFlyOut #FilterCmdButton::on,
+cCamExporterInterface #FilterCmdButton::on,
+OneClickMfgOverview #FilterCmdButton::on,
+[applicationQssScope="eagle"] #FilterCmdButton::on {
+  background: transparent; }
+
+cManageLibrariesDialog QPushButton#clearButton,
+cManufacturingFlyOut QPushButton#clearButton,
+cCamExporterInterface QPushButton#clearButton,
+OneClickMfgOverview QPushButton#clearButton,
+[applicationQssScope="eagle"] QPushButton#clearButton {
+  background-color: transparent;
+  border-color: transparent;
+  padding: 1px;
+  margin: 1px;
+  height: 18px; }
+
+cManageLibrariesDialog QPushButton#clearButton:hover,
+cManufacturingFlyOut QPushButton#clearButton:hover,
+cCamExporterInterface QPushButton#clearButton:hover,
+OneClickMfgOverview QPushButton#clearButton:hover,
+[applicationQssScope="eagle"] QPushButton#clearButton:hover {
+  background-color: rgba(217, 217, 217, 100%);
+  border-color: rgba(204, 204, 204, 100%); }
+
+cManageLibrariesDialog QPushButton#clearButton:pressed,
+cManufacturingFlyOut QPushButton#clearButton:pressed,
+cCamExporterInterface QPushButton#clearButton:pressed,
+OneClickMfgOverview QPushButton#clearButton:pressed,
+[applicationQssScope="eagle"] QPushButton#clearButton:pressed {
+  background-color: #808080;
+  border-color: #808080; }
+
+cManageLibrariesDialog QPushButton#dmsvMoreButton,
+cManufacturingFlyOut QPushButton#dmsvMoreButton,
+cCamExporterInterface QPushButton#dmsvMoreButton,
+OneClickMfgOverview QPushButton#dmsvMoreButton,
+[applicationQssScope="eagle"] QPushButton#dmsvMoreButton {
+  background-color: transparent;
+  border: transparent;
+  padding: 4px;
+  border-radius: 2px;
+  margin-left: 2px;
+  margin-right: 2px; }
+
+cManageLibrariesDialog QPushButton#dmsvMoreButton:hover,
+cManageLibrariesDialog QPushButton#dmsvMoreButton:on,
+cManufacturingFlyOut QPushButton#dmsvMoreButton:hover,
+cManufacturingFlyOut QPushButton#dmsvMoreButton:on,
+cCamExporterInterface QPushButton#dmsvMoreButton:hover,
+cCamExporterInterface QPushButton#dmsvMoreButton:on,
+OneClickMfgOverview QPushButton#dmsvMoreButton:hover,
+OneClickMfgOverview QPushButton#dmsvMoreButton:on,
+[applicationQssScope="eagle"] QPushButton#dmsvMoreButton:hover,
+[applicationQssScope="eagle"] QPushButton#dmsvMoreButton:on {
+  background-color: rgba(217, 217, 217, 100%); }
+
+cManageLibrariesDialog QPushButton#dmsvMoreButton:pressed,
+cManufacturingFlyOut QPushButton#dmsvMoreButton:pressed,
+cCamExporterInterface QPushButton#dmsvMoreButton:pressed,
+OneClickMfgOverview QPushButton#dmsvMoreButton:pressed,
+[applicationQssScope="eagle"] QPushButton#dmsvMoreButton:pressed {
+  background-color: #808080; }
+
+cManageLibrariesDialog QPushButton#dmsvMoreButton::menu-indicator,
+cManufacturingFlyOut QPushButton#dmsvMoreButton::menu-indicator,
+cCamExporterInterface QPushButton#dmsvMoreButton::menu-indicator,
+OneClickMfgOverview QPushButton#dmsvMoreButton::menu-indicator,
+[applicationQssScope="eagle"] QPushButton#dmsvMoreButton::menu-indicator {
+  subcontrol-position: right bottom;
+  subcontrol-origin: padding;
+  image: url(:/qss/icons/combobox_down_arrow.svg); }
+
+cManageLibrariesDialog QPushButton#dmsvMoreButton::menu-arrow,
+cManufacturingFlyOut QPushButton#dmsvMoreButton::menu-arrow,
+cCamExporterInterface QPushButton#dmsvMoreButton::menu-arrow,
+OneClickMfgOverview QPushButton#dmsvMoreButton::menu-arrow,
+[applicationQssScope="eagle"] QPushButton#dmsvMoreButton::menu-arrow {
+  image: url(:/qss/icons/combobox_down_arrow.svg);
+  top: 11px;
+  left: 3px; }
+
+cManageLibrariesDialog QPushButton#dmsvMoreButton::menu-button,
+cManufacturingFlyOut QPushButton#dmsvMoreButton::menu-button,
+cCamExporterInterface QPushButton#dmsvMoreButton::menu-button,
+OneClickMfgOverview QPushButton#dmsvMoreButton::menu-button,
+[applicationQssScope="eagle"] QPushButton#dmsvMoreButton::menu-button {
+  background: transparent;
+  border: none;
+  width: 4px;
+  padding-right: 4px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px; }
+
+cManageLibrariesDialog QPushButton#dmsvMoreButton::menu-button:hover,
+cManufacturingFlyOut QPushButton#dmsvMoreButton::menu-button:hover,
+cCamExporterInterface QPushButton#dmsvMoreButton::menu-button:hover,
+OneClickMfgOverview QPushButton#dmsvMoreButton::menu-button:hover,
+[applicationQssScope="eagle"] QPushButton#dmsvMoreButton::menu-button:hover {
+  background: #bbbbbb; }
+
+cManageLibrariesDialog QPushButton#dmsvMoreButton::menu-button:pressed,
+cManufacturingFlyOut QPushButton#dmsvMoreButton::menu-button:pressed,
+cCamExporterInterface QPushButton#dmsvMoreButton::menu-button:pressed,
+OneClickMfgOverview QPushButton#dmsvMoreButton::menu-button:pressed,
+[applicationQssScope="eagle"] QPushButton#dmsvMoreButton::menu-button:pressed {
+  background: transparent; }
+
+cManageLibrariesDialog QToolButton#btnPlus,
+cManageLibrariesDialog QPushButton#btnMinus,
+cManageLibrariesDialog QPushButton#btnEditLayer,
+cManageLibrariesDialog QPushButton#btnJobDown,
+cManageLibrariesDialog QPushButton#btnJobUp,
+cManageLibrariesDialog QPushButton#btnSpacerTree,
+cManageLibrariesDialog QToolButton#btnEditLayer,
+cManageLibrariesDialog QPushButton#btnSpacerAddLayerPresets,
+cManageLibrariesDialog QToolButton#tlbtnAddLayerPresets,
+cManufacturingFlyOut QToolButton#btnPlus,
+cManufacturingFlyOut QPushButton#btnMinus,
+cManufacturingFlyOut QPushButton#btnEditLayer,
+cManufacturingFlyOut QPushButton#btnJobDown,
+cManufacturingFlyOut QPushButton#btnJobUp,
+cManufacturingFlyOut QPushButton#btnSpacerTree,
+cManufacturingFlyOut QToolButton#btnEditLayer,
+cManufacturingFlyOut QPushButton#btnSpacerAddLayerPresets,
+cManufacturingFlyOut QToolButton#tlbtnAddLayerPresets,
+cCamExporterInterface QToolButton#btnPlus,
+cCamExporterInterface QPushButton#btnMinus,
+cCamExporterInterface QPushButton#btnEditLayer,
+cCamExporterInterface QPushButton#btnJobDown,
+cCamExporterInterface QPushButton#btnJobUp,
+cCamExporterInterface QPushButton#btnSpacerTree,
+cCamExporterInterface QToolButton#btnEditLayer,
+cCamExporterInterface QPushButton#btnSpacerAddLayerPresets,
+cCamExporterInterface QToolButton#tlbtnAddLayerPresets,
+OneClickMfgOverview QToolButton#btnPlus,
+OneClickMfgOverview QPushButton#btnMinus,
+OneClickMfgOverview QPushButton#btnEditLayer,
+OneClickMfgOverview QPushButton#btnJobDown,
+OneClickMfgOverview QPushButton#btnJobUp,
+OneClickMfgOverview QPushButton#btnSpacerTree,
+OneClickMfgOverview QToolButton#btnEditLayer,
+OneClickMfgOverview QPushButton#btnSpacerAddLayerPresets,
+OneClickMfgOverview QToolButton#tlbtnAddLayerPresets,
+[applicationQssScope="eagle"] QToolButton#btnPlus,
+[applicationQssScope="eagle"] QPushButton#btnMinus,
+[applicationQssScope="eagle"] QPushButton#btnEditLayer,
+[applicationQssScope="eagle"] QPushButton#btnJobDown,
+[applicationQssScope="eagle"] QPushButton#btnJobUp,
+[applicationQssScope="eagle"] QPushButton#btnSpacerTree,
+[applicationQssScope="eagle"] QToolButton#btnEditLayer,
+[applicationQssScope="eagle"] QPushButton#btnSpacerAddLayerPresets,
+[applicationQssScope="eagle"] QToolButton#tlbtnAddLayerPresets {
+  min-width: 24px;
+  min-height: 24px;
+  border-radius: 0px;
+  border: 1px solid rgba(217, 217, 217, 100%);
+  border-left: none;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding: 0px;
+  background-color: rgba(255, 255, 255, 100%); }
+
+cManageLibrariesDialog QToolButton#btnPlus,
+cManageLibrariesDialog QToolButton#tlbtnAddLayerPresets,
+cManufacturingFlyOut QToolButton#btnPlus,
+cManufacturingFlyOut QToolButton#tlbtnAddLayerPresets,
+cCamExporterInterface QToolButton#btnPlus,
+cCamExporterInterface QToolButton#tlbtnAddLayerPresets,
+OneClickMfgOverview QToolButton#btnPlus,
+OneClickMfgOverview QToolButton#tlbtnAddLayerPresets,
+[applicationQssScope="eagle"] QToolButton#btnPlus,
+[applicationQssScope="eagle"] QToolButton#tlbtnAddLayerPresets {
+  border-left: 1px solid rgba(217, 217, 217, 100%); }
+
+cManageLibrariesDialog QToolButton#btnPlus:hover,
+cManageLibrariesDialog QPushButton#btnMinus:hover,
+cManageLibrariesDialog QPushButton#btnEditLayer:hover,
+cManageLibrariesDialog QPushButton#btnJobDown:hover,
+cManageLibrariesDialog QPushButton#btnJobUp:hover,
+cManageLibrariesDialog QToolButton#btnEditLayer:hover,
+cManageLibrariesDialog QToolButton#tlbtnAddLayerPresets:hover,
+cManufacturingFlyOut QToolButton#btnPlus:hover,
+cManufacturingFlyOut QPushButton#btnMinus:hover,
+cManufacturingFlyOut QPushButton#btnEditLayer:hover,
+cManufacturingFlyOut QPushButton#btnJobDown:hover,
+cManufacturingFlyOut QPushButton#btnJobUp:hover,
+cManufacturingFlyOut QToolButton#btnEditLayer:hover,
+cManufacturingFlyOut QToolButton#tlbtnAddLayerPresets:hover,
+cCamExporterInterface QToolButton#btnPlus:hover,
+cCamExporterInterface QPushButton#btnMinus:hover,
+cCamExporterInterface QPushButton#btnEditLayer:hover,
+cCamExporterInterface QPushButton#btnJobDown:hover,
+cCamExporterInterface QPushButton#btnJobUp:hover,
+cCamExporterInterface QToolButton#btnEditLayer:hover,
+cCamExporterInterface QToolButton#tlbtnAddLayerPresets:hover,
+OneClickMfgOverview QToolButton#btnPlus:hover,
+OneClickMfgOverview QPushButton#btnMinus:hover,
+OneClickMfgOverview QPushButton#btnEditLayer:hover,
+OneClickMfgOverview QPushButton#btnJobDown:hover,
+OneClickMfgOverview QPushButton#btnJobUp:hover,
+OneClickMfgOverview QToolButton#btnEditLayer:hover,
+OneClickMfgOverview QToolButton#tlbtnAddLayerPresets:hover,
+[applicationQssScope="eagle"] QToolButton#btnPlus:hover,
+[applicationQssScope="eagle"] QPushButton#btnMinus:hover,
+[applicationQssScope="eagle"] QPushButton#btnEditLayer:hover,
+[applicationQssScope="eagle"] QPushButton#btnJobDown:hover,
+[applicationQssScope="eagle"] QPushButton#btnJobUp:hover,
+[applicationQssScope="eagle"] QToolButton#btnEditLayer:hover,
+[applicationQssScope="eagle"] QToolButton#tlbtnAddLayerPresets:hover {
+  background-color: rgba(217, 217, 217, 100%); }
+
+cManageLibrariesDialog QToolButton#btnPlus:pressed,
+cManageLibrariesDialog QPushButton#btnMinus:pressed,
+cManageLibrariesDialog QPushButton#btnEditLayer:pressed,
+cManageLibrariesDialog QPushButton#btnJobDown:pressed,
+cManageLibrariesDialog QPushButton#btnJobUp:pressed,
+cManageLibrariesDialog QToolButton#btnEditLayer:pressed,
+cManageLibrariesDialog QToolButton#tlbtnAddLayerPresets:pressed,
+cManufacturingFlyOut QToolButton#btnPlus:pressed,
+cManufacturingFlyOut QPushButton#btnMinus:pressed,
+cManufacturingFlyOut QPushButton#btnEditLayer:pressed,
+cManufacturingFlyOut QPushButton#btnJobDown:pressed,
+cManufacturingFlyOut QPushButton#btnJobUp:pressed,
+cManufacturingFlyOut QToolButton#btnEditLayer:pressed,
+cManufacturingFlyOut QToolButton#tlbtnAddLayerPresets:pressed,
+cCamExporterInterface QToolButton#btnPlus:pressed,
+cCamExporterInterface QPushButton#btnMinus:pressed,
+cCamExporterInterface QPushButton#btnEditLayer:pressed,
+cCamExporterInterface QPushButton#btnJobDown:pressed,
+cCamExporterInterface QPushButton#btnJobUp:pressed,
+cCamExporterInterface QToolButton#btnEditLayer:pressed,
+cCamExporterInterface QToolButton#tlbtnAddLayerPresets:pressed,
+OneClickMfgOverview QToolButton#btnPlus:pressed,
+OneClickMfgOverview QPushButton#btnMinus:pressed,
+OneClickMfgOverview QPushButton#btnEditLayer:pressed,
+OneClickMfgOverview QPushButton#btnJobDown:pressed,
+OneClickMfgOverview QPushButton#btnJobUp:pressed,
+OneClickMfgOverview QToolButton#btnEditLayer:pressed,
+OneClickMfgOverview QToolButton#tlbtnAddLayerPresets:pressed,
+[applicationQssScope="eagle"] QToolButton#btnPlus:pressed,
+[applicationQssScope="eagle"] QPushButton#btnMinus:pressed,
+[applicationQssScope="eagle"] QPushButton#btnEditLayer:pressed,
+[applicationQssScope="eagle"] QPushButton#btnJobDown:pressed,
+[applicationQssScope="eagle"] QPushButton#btnJobUp:pressed,
+[applicationQssScope="eagle"] QToolButton#btnEditLayer:pressed,
+[applicationQssScope="eagle"] QToolButton#tlbtnAddLayerPresets:pressed {
+  background-color: #808080; }
+
+cManageLibrariesDialog QMenu,
+cManufacturingFlyOut QMenu,
+cCamExporterInterface QMenu,
+OneClickMfgOverview QMenu,
+[applicationQssScope="eagle"] QMenu {
+  background-color: rgba(255, 255, 255, 100%);
+  color: #3c3c3c; }
+
+cManageLibrariesDialog QMenu::icon,
+cManufacturingFlyOut QMenu::icon,
+cCamExporterInterface QMenu::icon,
+OneClickMfgOverview QMenu::icon,
+[applicationQssScope="eagle"] QMenu::icon {
+  margin: 5px; }
+
+cManageLibrariesDialog QMenu::item,
+cManufacturingFlyOut QMenu::item,
+cCamExporterInterface QMenu::item,
+OneClickMfgOverview QMenu::item,
+[applicationQssScope="eagle"] QMenu::item {
+  padding: 2px 30px 2px 30px;
+  border: 1px solid transparent; }
+
+cManageLibrariesDialog QMenu::item:selected,
+cManufacturingFlyOut QMenu::item:selected,
+cCamExporterInterface QMenu::item:selected,
+OneClickMfgOverview QMenu::item:selected,
+[applicationQssScope="eagle"] QMenu::item:selected {
+  background-color: rgba(217, 217, 217, 100%); }
+
+cManageLibrariesDialog QMenu::item:disabled,
+cManufacturingFlyOut QMenu::item:disabled,
+cCamExporterInterface QMenu::item:disabled,
+OneClickMfgOverview QMenu::item:disabled,
+[applicationQssScope="eagle"] QMenu::item:disabled {
+  color: #808080; }
+
+cManageLibrariesDialog QMenu::indicator,
+cManufacturingFlyOut QMenu::indicator,
+cCamExporterInterface QMenu::indicator,
+OneClickMfgOverview QMenu::indicator,
+[applicationQssScope="eagle"] QMenu::indicator {
+  height: 14px;
+  width: 14px;
+  padding: 0px 8px 0px 8px; }
+
+cManageLibrariesDialog QMenu::right-arrow,
+cManufacturingFlyOut QMenu::right-arrow,
+cCamExporterInterface QMenu::right-arrow,
+OneClickMfgOverview QMenu::right-arrow,
+[applicationQssScope="eagle"] QMenu::right-arrow {
+  right: 5px;
+  image: url(:/qss/icons/combobox_right_arrow.svg); }
+
+cManageLibrariesDialog QMenu::indicator:non-exclusive:unchecked:selected,
+cManageLibrariesDialog QMenu::indicator:exclusive:unchecked:selected,
+cManufacturingFlyOut QMenu::indicator:non-exclusive:unchecked:selected,
+cManufacturingFlyOut QMenu::indicator:exclusive:unchecked:selected,
+cCamExporterInterface QMenu::indicator:non-exclusive:unchecked:selected,
+cCamExporterInterface QMenu::indicator:exclusive:unchecked:selected,
+OneClickMfgOverview QMenu::indicator:non-exclusive:unchecked:selected,
+OneClickMfgOverview QMenu::indicator:exclusive:unchecked:selected,
+[applicationQssScope="eagle"] QMenu::indicator:non-exclusive:unchecked:selected,
+[applicationQssScope="eagle"] QMenu::indicator:exclusive:unchecked:selected {
+  image: url(:/qss/icons/checkbox_hover.svg); }
+
+cManageLibrariesDialog QMenu::indicator:non-exclusive:unchecked,
+cManageLibrariesDialog QMenu::indicator:exclusive:unchecked,
+cManufacturingFlyOut QMenu::indicator:non-exclusive:unchecked,
+cManufacturingFlyOut QMenu::indicator:exclusive:unchecked,
+cCamExporterInterface QMenu::indicator:non-exclusive:unchecked,
+cCamExporterInterface QMenu::indicator:exclusive:unchecked,
+OneClickMfgOverview QMenu::indicator:non-exclusive:unchecked,
+OneClickMfgOverview QMenu::indicator:exclusive:unchecked,
+[applicationQssScope="eagle"] QMenu::indicator:non-exclusive:unchecked,
+[applicationQssScope="eagle"] QMenu::indicator:exclusive:unchecked {
+  image: url(:/qss/icons/checkbox_default.svg); }
+
+cManageLibrariesDialog QMenu::indicator:non-exclusive:checked,
+cManageLibrariesDialog QMenu::indicator:exclusive:checked,
+cManufacturingFlyOut QMenu::indicator:non-exclusive:checked,
+cManufacturingFlyOut QMenu::indicator:exclusive:checked,
+cCamExporterInterface QMenu::indicator:non-exclusive:checked,
+cCamExporterInterface QMenu::indicator:exclusive:checked,
+OneClickMfgOverview QMenu::indicator:non-exclusive:checked,
+OneClickMfgOverview QMenu::indicator:exclusive:checked,
+[applicationQssScope="eagle"] QMenu::indicator:non-exclusive:checked,
+[applicationQssScope="eagle"] QMenu::indicator:exclusive:checked {
+  image: url(:/qss/icons/checkbox_active.svg); }
+
+cManageLibrariesDialog QMenu::indicator:non-exclusive:checked:selected,
+cManageLibrariesDialog QMenu::indicator:exclusive:checked:selected,
+cManufacturingFlyOut QMenu::indicator:non-exclusive:checked:selected,
+cManufacturingFlyOut QMenu::indicator:exclusive:checked:selected,
+cCamExporterInterface QMenu::indicator:non-exclusive:checked:selected,
+cCamExporterInterface QMenu::indicator:exclusive:checked:selected,
+OneClickMfgOverview QMenu::indicator:non-exclusive:checked:selected,
+OneClickMfgOverview QMenu::indicator:exclusive:checked:selected,
+[applicationQssScope="eagle"] QMenu::indicator:non-exclusive:checked:selected,
+[applicationQssScope="eagle"] QMenu::indicator:exclusive:checked:selected {
+  image: url(:/qss/icons/checkbox_active_hover.svg); }
+
+cManageLibrariesDialog QMenu::separator,
+cManufacturingFlyOut QMenu::separator,
+cCamExporterInterface QMenu::separator,
+OneClickMfgOverview QMenu::separator,
+[applicationQssScope="eagle"] QMenu::separator {
+  height: 1px;
+  background: rgba(217, 217, 217, 100%);
+  margin-left: 0px;
+  margin-right: 0px; }
+
+cManageLibrariesDialog QProgressBar,
+cManufacturingFlyOut QProgressBar,
+cCamExporterInterface QProgressBar,
+OneClickMfgOverview QProgressBar,
+[applicationQssScope="eagle"] QProgressBar {
+  border: 0;
+  max-height: 4px;
+  color: transparent; }
+
+cManageLibrariesDialog QProgressBar::chunk,
+cManufacturingFlyOut QProgressBar::chunk,
+cCamExporterInterface QProgressBar::chunk,
+OneClickMfgOverview QProgressBar::chunk,
+[applicationQssScope="eagle"] QProgressBar::chunk {
+  background-color: rgba(6, 150, 215, 100%);
+  width: 20px;
+  margin: 0; }
+
+cManageLibrariesDialog QSlider::groove:horizontal,
+cManufacturingFlyOut QSlider::groove:horizontal,
+cCamExporterInterface QSlider::groove:horizontal,
+OneClickMfgOverview QSlider::groove:horizontal,
+[applicationQssScope="eagle"] QSlider::groove:horizontal {
+  border: transparent;
+  height: 4px; }
+
+cManageLibrariesDialog QSlider::handle:horizontal,
+cManufacturingFlyOut QSlider::handle:horizontal,
+cCamExporterInterface QSlider::handle:horizontal,
+OneClickMfgOverview QSlider::handle:horizontal,
+[applicationQssScope="eagle"] QSlider::handle:horizontal {
+  border: 1px solid #808080;
+  background: rgba(255, 255, 255, 100%);
+  border-radius: 6px;
+  width: 12px;
+  margin: -5px 0; }
+
+cManageLibrariesDialog QSlider::handle:hover,
+cManufacturingFlyOut QSlider::handle:hover,
+cCamExporterInterface QSlider::handle:hover,
+OneClickMfgOverview QSlider::handle:hover,
+[applicationQssScope="eagle"] QSlider::handle:hover {
+  background: rgba(217, 217, 217, 100%); }
+
+cManageLibrariesDialog QSlider::handle:pressed,
+cManufacturingFlyOut QSlider::handle:pressed,
+cCamExporterInterface QSlider::handle:pressed,
+OneClickMfgOverview QSlider::handle:pressed,
+[applicationQssScope="eagle"] QSlider::handle:pressed {
+  background: #808080; }
+
+cManageLibrariesDialog QSlider::add-page:horizontal,
+cManufacturingFlyOut QSlider::add-page:horizontal,
+cCamExporterInterface QSlider::add-page:horizontal,
+OneClickMfgOverview QSlider::add-page:horizontal,
+[applicationQssScope="eagle"] QSlider::add-page:horizontal {
+  background: #bbbbbb;
+  border-radius: 2px; }
+
+cManageLibrariesDialog QSlider::sub-page:horizontal,
+cManufacturingFlyOut QSlider::sub-page:horizontal,
+cCamExporterInterface QSlider::sub-page:horizontal,
+OneClickMfgOverview QSlider::sub-page:horizontal,
+[applicationQssScope="eagle"] QSlider::sub-page:horizontal {
+  background: rgba(6, 150, 215, 100%);
+  border-radius: 2px; }
+
+cManageLibrariesDialog QSlider::handle:disabled,
+cManageLibrariesDialog QSlider::add-page:disabled,
+cManageLibrariesDialog QSlider::sub-page:disabled,
+cManufacturingFlyOut QSlider::handle:disabled,
+cManufacturingFlyOut QSlider::add-page:disabled,
+cManufacturingFlyOut QSlider::sub-page:disabled,
+cCamExporterInterface QSlider::handle:disabled,
+cCamExporterInterface QSlider::add-page:disabled,
+cCamExporterInterface QSlider::sub-page:disabled,
+OneClickMfgOverview QSlider::handle:disabled,
+OneClickMfgOverview QSlider::add-page:disabled,
+OneClickMfgOverview QSlider::sub-page:disabled,
+[applicationQssScope="eagle"] QSlider::handle:disabled,
+[applicationQssScope="eagle"] QSlider::add-page:disabled,
+[applicationQssScope="eagle"] QSlider::sub-page:disabled {
+  background: rgba(217, 217, 217, 100%);
+  border-color: rgba(204, 204, 204, 100%); }
+
+cManageLibrariesDialog QSpinBox,
+cManufacturingFlyOut QSpinBox,
+cCamExporterInterface QSpinBox,
+OneClickMfgOverview QSpinBox,
+[applicationQssScope="eagle"] QSpinBox {
+  color: #3c3c3c;
+  background-color: rgba(255, 255, 255, 100%);
+  border: 1px solid rgba(153, 153, 153, 100%);
+  selection-background-color: rgba(6, 150, 215, 100%);
+  selection-color: rgba(255, 255, 255, 100%);
+  height: 22px;
+  padding-right: 10px;
+  padding-left: 8px; }
+
+cManageLibrariesDialog QSpinBox:hover,
+cManageLibrariesDialog QSpinBox:focus,
+cManufacturingFlyOut QSpinBox:hover,
+cManufacturingFlyOut QSpinBox:focus,
+cCamExporterInterface QSpinBox:hover,
+cCamExporterInterface QSpinBox:focus,
+OneClickMfgOverview QSpinBox:hover,
+OneClickMfgOverview QSpinBox:focus,
+[applicationQssScope="eagle"] QSpinBox:hover,
+[applicationQssScope="eagle"] QSpinBox:focus {
+  border: 1px solid rgba(6, 150, 215, 100%); }
+
+cManageLibrariesDialog QSpinBox:disabled,
+cManufacturingFlyOut QSpinBox:disabled,
+cCamExporterInterface QSpinBox:disabled,
+OneClickMfgOverview QSpinBox:disabled,
+[applicationQssScope="eagle"] QSpinBox:disabled {
+  background-color: #ededed;
+  color: #808080;
+  border-color: #808080; }
+
+cManageLibrariesDialog QSpinBox::up-button,
+cManufacturingFlyOut QSpinBox::up-button,
+cCamExporterInterface QSpinBox::up-button,
+OneClickMfgOverview QSpinBox::up-button,
+[applicationQssScope="eagle"] QSpinBox::up-button {
+  border-left: 1px solid rgba(153, 153, 153, 100%);
+  width: 12px; }
+
+cManageLibrariesDialog QSpinBox::down-button,
+cManufacturingFlyOut QSpinBox::down-button,
+cCamExporterInterface QSpinBox::down-button,
+OneClickMfgOverview QSpinBox::down-button,
+[applicationQssScope="eagle"] QSpinBox::down-button {
+  border-left: 1px solid rgba(153, 153, 153, 100%);
+  border-top: 1px solid rgba(153, 153, 153, 100%);
+  padding-top: 1px;
+  width: 12px; }
+
+cManageLibrariesDialog QSpinBox::up-button:hover,
+cManageLibrariesDialog QSpinBox::down-button:hover,
+cManufacturingFlyOut QSpinBox::up-button:hover,
+cManufacturingFlyOut QSpinBox::down-button:hover,
+cCamExporterInterface QSpinBox::up-button:hover,
+cCamExporterInterface QSpinBox::down-button:hover,
+OneClickMfgOverview QSpinBox::up-button:hover,
+OneClickMfgOverview QSpinBox::down-button:hover,
+[applicationQssScope="eagle"] QSpinBox::up-button:hover,
+[applicationQssScope="eagle"] QSpinBox::down-button:hover {
+  background-color: rgba(217, 217, 217, 100%); }
+
+cManageLibrariesDialog QSpinBox::up-button:pressed,
+cManageLibrariesDialog QSpinBox::down-button:pressed,
+cManufacturingFlyOut QSpinBox::up-button:pressed,
+cManufacturingFlyOut QSpinBox::down-button:pressed,
+cCamExporterInterface QSpinBox::up-button:pressed,
+cCamExporterInterface QSpinBox::down-button:pressed,
+OneClickMfgOverview QSpinBox::up-button:pressed,
+OneClickMfgOverview QSpinBox::down-button:pressed,
+[applicationQssScope="eagle"] QSpinBox::up-button:pressed,
+[applicationQssScope="eagle"] QSpinBox::down-button:pressed {
+  background-color: rgba(102, 102, 102, 100%); }
+
+cManageLibrariesDialog QSpinBox::up-arrow,
+cManufacturingFlyOut QSpinBox::up-arrow,
+cCamExporterInterface QSpinBox::up-arrow,
+OneClickMfgOverview QSpinBox::up-arrow,
+[applicationQssScope="eagle"] QSpinBox::up-arrow {
+  image: url(:/qss/icons/combobox_up_arrow.svg);
+  border-image: none; }
+
+cManageLibrariesDialog QSpinBox::down-arrow,
+cManufacturingFlyOut QSpinBox::down-arrow,
+cCamExporterInterface QSpinBox::down-arrow,
+OneClickMfgOverview QSpinBox::down-arrow,
+[applicationQssScope="eagle"] QSpinBox::down-arrow {
+  image: url(:/qss/icons/combobox_down_arrow.svg);
+  border-image: none; }
+
+cManageLibrariesDialog QTabBar::tab,
+cManufacturingFlyOut QTabBar::tab,
+cCamExporterInterface QTabBar::tab,
+OneClickMfgOverview QTabBar::tab,
+[applicationQssScope="eagle"] QTabBar::tab {
+  border-width: 0px;
+  border-color: #808080;
+  color: #3c3c3c;
+  background-color: transparent;
+  border-style: solid;
+  height: 28px;
+  padding: 0px 8px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 2px 2px 0px 0px; }
+
+cManageLibrariesDialog QTabBar::tab:hover,
+cManufacturingFlyOut QTabBar::tab:hover,
+cCamExporterInterface QTabBar::tab:hover,
+OneClickMfgOverview QTabBar::tab:hover,
+[applicationQssScope="eagle"] QTabBar::tab:hover {
+  border-bottom-width: 3px; }
+
+cManageLibrariesDialog QTabBar::tab:selected,
+cManufacturingFlyOut QTabBar::tab:selected,
+cCamExporterInterface QTabBar::tab:selected,
+OneClickMfgOverview QTabBar::tab:selected,
+[applicationQssScope="eagle"] QTabBar::tab:selected {
+  color: rgba(6, 150, 215, 100%);
+  border-color: rgba(6, 150, 215, 100%);
+  border-bottom-width: 3px;
+  background-color: transparent;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px; }
+
+cManageLibrariesDialog QTabBar::tab:!selected,
+cManufacturingFlyOut QTabBar::tab:!selected,
+cCamExporterInterface QTabBar::tab:!selected,
+OneClickMfgOverview QTabBar::tab:!selected,
+[applicationQssScope="eagle"] QTabBar::tab:!selected {
+  color: #808080;
+  background-color: rgba(217, 217, 217, 100%);
+  border-bottom: 3px solid transparent; }
+
+cManageLibrariesDialog QTabBar::tab:!selected:hover,
+cManufacturingFlyOut QTabBar::tab:!selected:hover,
+cCamExporterInterface QTabBar::tab:!selected:hover,
+OneClickMfgOverview QTabBar::tab:!selected:hover,
+[applicationQssScope="eagle"] QTabBar::tab:!selected:hover {
+  border-bottom: 3px solid #808080; }
+
+cManageLibrariesDialog QTabBar::tab:pressed,
+cManufacturingFlyOut QTabBar::tab:pressed,
+cCamExporterInterface QTabBar::tab:pressed,
+OneClickMfgOverview QTabBar::tab:pressed,
+[applicationQssScope="eagle"] QTabBar::tab:pressed {
+  background: #808080;
+  color: rgba(255, 255, 255, 100%);
+  border-color: #808080;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px; }
+
+cManageLibrariesDialog QTabWidget::pane,
+cManufacturingFlyOut QTabWidget::pane,
+cCamExporterInterface QTabWidget::pane,
+OneClickMfgOverview QTabWidget::pane,
+[applicationQssScope="eagle"] QTabWidget::pane {
+  background-color: rgba(245, 245, 245, 100%);
+  border: 1px solid rgba(204, 204, 204, 100%);
+  border-radius: 2px; }
+
+cManageLibrariesDialog QTextEdit,
+cManageLibrariesDialog QTextEdit:editable,
+cManageLibrariesDialog QPlainTextEdit,
+cManageLibrariesDialog QPlainTextEdit:editable,
+cManufacturingFlyOut QTextEdit,
+cManufacturingFlyOut QTextEdit:editable,
+cManufacturingFlyOut QPlainTextEdit,
+cManufacturingFlyOut QPlainTextEdit:editable,
+cCamExporterInterface QTextEdit,
+cCamExporterInterface QTextEdit:editable,
+cCamExporterInterface QPlainTextEdit,
+cCamExporterInterface QPlainTextEdit:editable,
+OneClickMfgOverview QTextEdit,
+OneClickMfgOverview QTextEdit:editable,
+OneClickMfgOverview QPlainTextEdit,
+OneClickMfgOverview QPlainTextEdit:editable,
+[applicationQssScope="eagle"] QTextEdit,
+[applicationQssScope="eagle"] QTextEdit:editable,
+[applicationQssScope="eagle"] QPlainTextEdit,
+[applicationQssScope="eagle"] QPlainTextEdit:editable {
+  selection-background-color: rgba(6, 150, 215, 100%);
+  selection-color: rgba(255, 255, 255, 100%);
+  border: 1px solid rgba(153, 153, 153, 100%);
+  background-color: rgba(255, 255, 255, 100%);
+  color: #3c3c3c; }
+
+cManageLibrariesDialog QTextEdit:!editable,
+cManageLibrariesDialog QTextEdit:disabled,
+cManageLibrariesDialog QTextEdit:read-only,
+cManageLibrariesDialog QPlainTextEdit:!editable,
+cManageLibrariesDialog QPlainTextEdit:disabled,
+cManageLibrariesDialog QPlainTextEdit:read-only,
+cManufacturingFlyOut QTextEdit:!editable,
+cManufacturingFlyOut QTextEdit:disabled,
+cManufacturingFlyOut QTextEdit:read-only,
+cManufacturingFlyOut QPlainTextEdit:!editable,
+cManufacturingFlyOut QPlainTextEdit:disabled,
+cManufacturingFlyOut QPlainTextEdit:read-only,
+cCamExporterInterface QTextEdit:!editable,
+cCamExporterInterface QTextEdit:disabled,
+cCamExporterInterface QTextEdit:read-only,
+cCamExporterInterface QPlainTextEdit:!editable,
+cCamExporterInterface QPlainTextEdit:disabled,
+cCamExporterInterface QPlainTextEdit:read-only,
+OneClickMfgOverview QTextEdit:!editable,
+OneClickMfgOverview QTextEdit:disabled,
+OneClickMfgOverview QTextEdit:read-only,
+OneClickMfgOverview QPlainTextEdit:!editable,
+OneClickMfgOverview QPlainTextEdit:disabled,
+OneClickMfgOverview QPlainTextEdit:read-only,
+[applicationQssScope="eagle"] QTextEdit:!editable,
+[applicationQssScope="eagle"] QTextEdit:disabled,
+[applicationQssScope="eagle"] QTextEdit:read-only,
+[applicationQssScope="eagle"] QPlainTextEdit:!editable,
+[applicationQssScope="eagle"] QPlainTextEdit:disabled,
+[applicationQssScope="eagle"] QPlainTextEdit:read-only {
+  color: #808080;
+  background-color: rgba(255, 255, 255, 100%);
+  border: 1px solid rgba(153, 153, 153, 100%); }
+
+cManageLibrariesDialog QTextEdit:hover,
+cManageLibrariesDialog QTextEdit:focus,
+cManageLibrariesDialog QPlainTextEdit:hover,
+cManageLibrariesDialog QPlainTextEdit:focus,
+cManufacturingFlyOut QTextEdit:hover,
+cManufacturingFlyOut QTextEdit:focus,
+cManufacturingFlyOut QPlainTextEdit:hover,
+cManufacturingFlyOut QPlainTextEdit:focus,
+cCamExporterInterface QTextEdit:hover,
+cCamExporterInterface QTextEdit:focus,
+cCamExporterInterface QPlainTextEdit:hover,
+cCamExporterInterface QPlainTextEdit:focus,
+OneClickMfgOverview QTextEdit:hover,
+OneClickMfgOverview QTextEdit:focus,
+OneClickMfgOverview QPlainTextEdit:hover,
+OneClickMfgOverview QPlainTextEdit:focus,
+[applicationQssScope="eagle"] QTextEdit:hover,
+[applicationQssScope="eagle"] QTextEdit:focus,
+[applicationQssScope="eagle"] QPlainTextEdit:hover,
+[applicationQssScope="eagle"] QPlainTextEdit:focus {
+  border: 1px solid rgba(6, 150, 215, 100%); }
+
+cManageLibrariesDialog QToolTip,
+cManufacturingFlyOut QToolTip,
+cCamExporterInterface QToolTip,
+OneClickMfgOverview QToolTip,
+[applicationQssScope="eagle"] QToolTip {
+  background-color: #525152;
+  color: rgba(255, 255, 255, 100%);
+  text-align: center;
+  vertical-align: center; }
+
+cManageLibrariesDialog #FilterLineExpression > QToolTip,
+cManufacturingFlyOut #FilterLineExpression > QToolTip,
+cCamExporterInterface #FilterLineExpression > QToolTip,
+OneClickMfgOverview #FilterLineExpression > QToolTip,
+[applicationQssScope="eagle"] #FilterLineExpression > QToolTip {
+  font-size: 13pt;
+  background-color: rgba(255, 255, 255, 100%);
+  border-radius: 2px;
+  opacity: 255;
+  color: #3c3c3c;
+  min-height: 24px;
+  min-width: 600px;
+  padding: 4px;
+  white-space: nowrap;
+  border-top: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+  text-align: center; }
+
+cManageLibrariesDialog QLabel,
+cManufacturingFlyOut QLabel,
+cCamExporterInterface QLabel,
+OneClickMfgOverview QLabel,
+[applicationQssScope="eagle"] QLabel {
+  background-color: transparent; }
+
+cManageLibrariesDialog QListWidget,
+cManageLibrariesDialog QListView,
+cManufacturingFlyOut QListWidget,
+cManufacturingFlyOut QListView,
+cCamExporterInterface QListWidget,
+cCamExporterInterface QListView,
+OneClickMfgOverview QListWidget,
+OneClickMfgOverview QListView,
+[applicationQssScope="eagle"] QListWidget,
+[applicationQssScope="eagle"] QListView {
+  background: rgba(255, 255, 255, 100%); }
+
+cManageLibrariesDialog QTreeWidget,
+cManageLibrariesDialog QTreeView,
+cManageLibrariesDialog QListView,
+cManufacturingFlyOut QTreeWidget,
+cManufacturingFlyOut QTreeView,
+cManufacturingFlyOut QListView,
+cCamExporterInterface QTreeWidget,
+cCamExporterInterface QTreeView,
+cCamExporterInterface QListView,
+OneClickMfgOverview QTreeWidget,
+OneClickMfgOverview QTreeView,
+OneClickMfgOverview QListView,
+[applicationQssScope="eagle"] QTreeWidget,
+[applicationQssScope="eagle"] QTreeView,
+[applicationQssScope="eagle"] QListView {
+  alternate-background-color: rgba(242, 242, 242, 100%);
+  background-color: rgba(255, 255, 255, 100%);
+  border: 1px solid rgba(153, 153, 153, 100%);
+  show-decoration-selected: 1;
+  icon-size: 12px;
+  selection-background-color: rgba(6, 150, 215, 100%);
+  selection-color: rgba(255, 255, 255, 100%); }
+
+cManageLibrariesDialog QTreeWidget::item,
+cManageLibrariesDialog QListView::item,
+cManageLibrariesDialog QTreeView::item,
+cManufacturingFlyOut QTreeWidget::item,
+cManufacturingFlyOut QListView::item,
+cManufacturingFlyOut QTreeView::item,
+cCamExporterInterface QTreeWidget::item,
+cCamExporterInterface QListView::item,
+cCamExporterInterface QTreeView::item,
+OneClickMfgOverview QTreeWidget::item,
+OneClickMfgOverview QListView::item,
+OneClickMfgOverview QTreeView::item,
+[applicationQssScope="eagle"] QTreeWidget::item,
+[applicationQssScope="eagle"] QListView::item,
+[applicationQssScope="eagle"] QTreeView::item {
+  color: rgba(57, 57, 57, 100%); }
+
+cManageLibrariesDialog QTreeWidget::item:disabled,
+cManageLibrariesDialog QListView::item:disabled,
+cManageLibrariesDialog QTreeView::item:disabled,
+cManufacturingFlyOut QTreeWidget::item:disabled,
+cManufacturingFlyOut QListView::item:disabled,
+cManufacturingFlyOut QTreeView::item:disabled,
+cCamExporterInterface QTreeWidget::item:disabled,
+cCamExporterInterface QListView::item:disabled,
+cCamExporterInterface QTreeView::item:disabled,
+OneClickMfgOverview QTreeWidget::item:disabled,
+OneClickMfgOverview QListView::item:disabled,
+OneClickMfgOverview QTreeView::item:disabled,
+[applicationQssScope="eagle"] QTreeWidget::item:disabled,
+[applicationQssScope="eagle"] QListView::item:disabled,
+[applicationQssScope="eagle"] QTreeView::item:disabled {
+  color: rgba(190, 200, 210, 100%); }
+
+cManageLibrariesDialog QTreeWidget::item:hover,
+cManageLibrariesDialog QListView::item:hover,
+cManageLibrariesDialog QTreeView::item:hover,
+cManufacturingFlyOut QTreeWidget::item:hover,
+cManufacturingFlyOut QListView::item:hover,
+cManufacturingFlyOut QTreeView::item:hover,
+cCamExporterInterface QTreeWidget::item:hover,
+cCamExporterInterface QListView::item:hover,
+cCamExporterInterface QTreeView::item:hover,
+OneClickMfgOverview QTreeWidget::item:hover,
+OneClickMfgOverview QListView::item:hover,
+OneClickMfgOverview QTreeView::item:hover,
+[applicationQssScope="eagle"] QTreeWidget::item:hover,
+[applicationQssScope="eagle"] QListView::item:hover,
+[applicationQssScope="eagle"] QTreeView::item:hover {
+  background-color: rgba(204, 234, 249, 100%); }
+
+cManageLibrariesDialog QListView::item:selected,
+cManageLibrariesDialog QTreeWidget::item:selected,
+cManageLibrariesDialog QTreeView::item:selected,
+cManufacturingFlyOut QListView::item:selected,
+cManufacturingFlyOut QTreeWidget::item:selected,
+cManufacturingFlyOut QTreeView::item:selected,
+cCamExporterInterface QListView::item:selected,
+cCamExporterInterface QTreeWidget::item:selected,
+cCamExporterInterface QTreeView::item:selected,
+OneClickMfgOverview QListView::item:selected,
+OneClickMfgOverview QTreeWidget::item:selected,
+OneClickMfgOverview QTreeView::item:selected,
+[applicationQssScope="eagle"] QListView::item:selected,
+[applicationQssScope="eagle"] QTreeWidget::item:selected,
+[applicationQssScope="eagle"] QTreeView::item:selected {
+  background-color: rgba(6, 150, 215, 100%);
+  color: rgba(204, 204, 204, 100%); }
+
+cManageLibrariesDialog QTreeView:branch:selected:hover,
+cManageLibrariesDialog QTreeWidget:branch:selected:hover,
+cManufacturingFlyOut QTreeView:branch:selected:hover,
+cManufacturingFlyOut QTreeWidget:branch:selected:hover,
+cCamExporterInterface QTreeView:branch:selected:hover,
+cCamExporterInterface QTreeWidget:branch:selected:hover,
+OneClickMfgOverview QTreeView:branch:selected:hover,
+OneClickMfgOverview QTreeWidget:branch:selected:hover,
+[applicationQssScope="eagle"] QTreeView:branch:selected:hover,
+[applicationQssScope="eagle"] QTreeWidget:branch:selected:hover {
+  background-color: rgba(6, 150, 215, 100%); }
+
+cManageLibrariesDialog QTreeWidget,
+cManageLibrariesDialog QTreeView,
+cManageLibrariesDialog QListView,
+cManageLibrariesDialog cPanelTreeDir,
+cManufacturingFlyOut QTreeWidget,
+cManufacturingFlyOut QTreeView,
+cManufacturingFlyOut QListView,
+cManufacturingFlyOut cPanelTreeDir,
+cCamExporterInterface QTreeWidget,
+cCamExporterInterface QTreeView,
+cCamExporterInterface QListView,
+cCamExporterInterface cPanelTreeDir,
+OneClickMfgOverview QTreeWidget,
+OneClickMfgOverview QTreeView,
+OneClickMfgOverview QListView,
+OneClickMfgOverview cPanelTreeDir,
+[applicationQssScope="eagle"] QTreeWidget,
+[applicationQssScope="eagle"] QTreeView,
+[applicationQssScope="eagle"] QListView,
+[applicationQssScope="eagle"] cPanelTreeDir {
+  show-decoration-selected: 1;
+  alternate-background-color: rgba(245, 245, 245, 100%);
+  icon-size: 12px; }
+
+cManageLibrariesDialog QTreeWidget::item,
+cManageLibrariesDialog QListView::item,
+cManageLibrariesDialog QTreeView::item,
+cManufacturingFlyOut QTreeWidget::item,
+cManufacturingFlyOut QListView::item,
+cManufacturingFlyOut QTreeView::item,
+cCamExporterInterface QTreeWidget::item,
+cCamExporterInterface QListView::item,
+cCamExporterInterface QTreeView::item,
+OneClickMfgOverview QTreeWidget::item,
+OneClickMfgOverview QListView::item,
+OneClickMfgOverview QTreeView::item,
+[applicationQssScope="eagle"] QTreeWidget::item,
+[applicationQssScope="eagle"] QListView::item,
+[applicationQssScope="eagle"] QTreeView::item {
+  color: #3c3c3c; }
+
+cManageLibrariesDialog QTreeWidget::item:disabled,
+cManageLibrariesDialog QListView::item:disabled,
+cManageLibrariesDialog QTreeView::item:disabled,
+cManufacturingFlyOut QTreeWidget::item:disabled,
+cManufacturingFlyOut QListView::item:disabled,
+cManufacturingFlyOut QTreeView::item:disabled,
+cCamExporterInterface QTreeWidget::item:disabled,
+cCamExporterInterface QListView::item:disabled,
+cCamExporterInterface QTreeView::item:disabled,
+OneClickMfgOverview QTreeWidget::item:disabled,
+OneClickMfgOverview QListView::item:disabled,
+OneClickMfgOverview QTreeView::item:disabled,
+[applicationQssScope="eagle"] QTreeWidget::item:disabled,
+[applicationQssScope="eagle"] QListView::item:disabled,
+[applicationQssScope="eagle"] QTreeView::item:disabled {
+  color: #bbbbbb; }
+
+cManageLibrariesDialog QTreeWidget::item:hover,
+cManageLibrariesDialog QListView::item:hover,
+cManageLibrariesDialog QTreeView::item:hover,
+cManufacturingFlyOut QTreeWidget::item:hover,
+cManufacturingFlyOut QListView::item:hover,
+cManufacturingFlyOut QTreeView::item:hover,
+cCamExporterInterface QTreeWidget::item:hover,
+cCamExporterInterface QListView::item:hover,
+cCamExporterInterface QTreeView::item:hover,
+OneClickMfgOverview QTreeWidget::item:hover,
+OneClickMfgOverview QListView::item:hover,
+OneClickMfgOverview QTreeView::item:hover,
+[applicationQssScope="eagle"] QTreeWidget::item:hover,
+[applicationQssScope="eagle"] QListView::item:hover,
+[applicationQssScope="eagle"] QTreeView::item:hover {
+  background-color: #CDEAF8; }
+
+cManageLibrariesDialog QListView::item:selected,
+cManageLibrariesDialog QTreeWidget::item:selected,
+cManageLibrariesDialog QTreeView::item:selected,
+cManufacturingFlyOut QListView::item:selected,
+cManufacturingFlyOut QTreeWidget::item:selected,
+cManufacturingFlyOut QTreeView::item:selected,
+cCamExporterInterface QListView::item:selected,
+cCamExporterInterface QTreeWidget::item:selected,
+cCamExporterInterface QTreeView::item:selected,
+OneClickMfgOverview QListView::item:selected,
+OneClickMfgOverview QTreeWidget::item:selected,
+OneClickMfgOverview QTreeView::item:selected,
+[applicationQssScope="eagle"] QListView::item:selected,
+[applicationQssScope="eagle"] QTreeWidget::item:selected,
+[applicationQssScope="eagle"] QTreeView::item:selected {
+  background-color: rgba(6, 150, 215, 100%);
+  color: #FAFAFA; }
+
+cManageLibrariesDialog QTreeView:branch:selected:hover,
+cManageLibrariesDialog QTreeWidget:branch:selected:hover,
+cManufacturingFlyOut QTreeView:branch:selected:hover,
+cManufacturingFlyOut QTreeWidget:branch:selected:hover,
+cCamExporterInterface QTreeView:branch:selected:hover,
+cCamExporterInterface QTreeWidget:branch:selected:hover,
+OneClickMfgOverview QTreeView:branch:selected:hover,
+OneClickMfgOverview QTreeWidget:branch:selected:hover,
+[applicationQssScope="eagle"] QTreeView:branch:selected:hover,
+[applicationQssScope="eagle"] QTreeWidget:branch:selected:hover {
+  background-color: rgba(6, 150, 215, 100%); }
+
+cManageLibrariesDialog QTreeView::branch,
+cManufacturingFlyOut QTreeView::branch,
+cCamExporterInterface QTreeView::branch,
+OneClickMfgOverview QTreeView::branch,
+[applicationQssScope="eagle"] QTreeView::branch {
+  background-color: transparent; }
+
+cManageLibrariesDialog QTreeView::branch:hover,
+cManufacturingFlyOut QTreeView::branch:hover,
+cCamExporterInterface QTreeView::branch:hover,
+OneClickMfgOverview QTreeView::branch:hover,
+[applicationQssScope="eagle"] QTreeView::branch:hover {
+  background-color: #CDEAF8; }
+
+cManageLibrariesDialog QTreeView::branch:selected,
+cManufacturingFlyOut QTreeView::branch:selected,
+cCamExporterInterface QTreeView::branch:selected,
+OneClickMfgOverview QTreeView::branch:selected,
+[applicationQssScope="eagle"] QTreeView::branch:selected {
+  background-color: rgba(6, 150, 215, 100%); }
+
+cManageLibrariesDialog QTreeView::branch:open,
+cManageLibrariesDialog cPanelTree::branch:open,
+cManufacturingFlyOut QTreeView::branch:open,
+cManufacturingFlyOut cPanelTree::branch:open,
+cCamExporterInterface QTreeView::branch:open,
+cCamExporterInterface cPanelTree::branch:open,
+OneClickMfgOverview QTreeView::branch:open,
+OneClickMfgOverview cPanelTree::branch:open,
+[applicationQssScope="eagle"] QTreeView::branch:open,
+[applicationQssScope="eagle"] cPanelTree::branch:open {
+  image: url(:/qss/icons/combobox_down_arrow.svg);
+  padding: 5px; }
+
+cManageLibrariesDialog QTreeView::branch:closed:has-children,
+cManageLibrariesDialog cPanelTree::branch:closed:has-children,
+cManufacturingFlyOut QTreeView::branch:closed:has-children,
+cManufacturingFlyOut cPanelTree::branch:closed:has-children,
+cCamExporterInterface QTreeView::branch:closed:has-children,
+cCamExporterInterface cPanelTree::branch:closed:has-children,
+OneClickMfgOverview QTreeView::branch:closed:has-children,
+OneClickMfgOverview cPanelTree::branch:closed:has-children,
+[applicationQssScope="eagle"] QTreeView::branch:closed:has-children,
+[applicationQssScope="eagle"] cPanelTree::branch:closed:has-children {
+  image: url(:/qss/icons/combobox_right_arrow.svg);
+  padding-top: 4px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+cManageLibrariesDialog QTreeView::branch,
+cManufacturingFlyOut QTreeView::branch,
+cCamExporterInterface QTreeView::branch,
+OneClickMfgOverview QTreeView::branch,
+[applicationQssScope="eagle"] QTreeView::branch {
+  background-color: transparent; }
+
+cManageLibrariesDialog QTreeView::branch:hover,
+cManufacturingFlyOut QTreeView::branch:hover,
+cCamExporterInterface QTreeView::branch:hover,
+OneClickMfgOverview QTreeView::branch:hover,
+[applicationQssScope="eagle"] QTreeView::branch:hover {
+  background-color: rgba(204, 234, 249, 100%); }
+
+cManageLibrariesDialog QTreeView::branch:selected,
+cManufacturingFlyOut QTreeView::branch:selected,
+cCamExporterInterface QTreeView::branch:selected,
+OneClickMfgOverview QTreeView::branch:selected,
+[applicationQssScope="eagle"] QTreeView::branch:selected {
+  background-color: rgba(6, 150, 215, 100%); }
+
+cManageLibrariesDialog QTreeView::branch:open,
+cManufacturingFlyOut QTreeView::branch:open,
+cCamExporterInterface QTreeView::branch:open,
+OneClickMfgOverview QTreeView::branch:open,
+[applicationQssScope="eagle"] QTreeView::branch:open {
+  image: url(:/qss/icons/combobox_down_arrow.svg);
+  padding: 5px; }
+
+cManageLibrariesDialog QTreeView::branch:closed:has-children,
+cManufacturingFlyOut QTreeView::branch:closed:has-children,
+cCamExporterInterface QTreeView::branch:closed:has-children,
+OneClickMfgOverview QTreeView::branch:closed:has-children,
+[applicationQssScope="eagle"] QTreeView::branch:closed:has-children {
+  image: url(:/qss/icons/combobox_right_arrow.svg);
+  padding-top: 4px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+cManageLibrariesDialog QTableView,
+cManufacturingFlyOut QTableView,
+cCamExporterInterface QTableView,
+OneClickMfgOverview QTableView,
+[applicationQssScope="eagle"] QTableView {
+  selection-background-color: rgba(6, 150, 215, 100%);
+  alternate-background-color: rgba(245, 245, 245, 100%);
+  selection-color: rgba(255, 255, 255, 100%);
+  color: #3c3c3c;
+  background-color: rgba(255, 255, 255, 100%); }
+
+cManageLibrariesDialog #BifTable,
+cManufacturingFlyOut #BifTable,
+cCamExporterInterface #BifTable,
+OneClickMfgOverview #BifTable,
+[applicationQssScope="eagle"] #BifTable {
+  background-color: transparent;
+  font-family: "Artifakt Element Book";
+  font-size: 11px;
+  font-weight: normal; }
+
+cManageLibrariesDialog #BifTable QHeaderView::section,
+cManufacturingFlyOut #BifTable QHeaderView::section,
+cCamExporterInterface #BifTable QHeaderView::section,
+OneClickMfgOverview #BifTable QHeaderView::section,
+[applicationQssScope="eagle"] #BifTable QHeaderView::section {
+  background-color: transparent;
+  border: none;
+  font-family: "Artifakt Element Book";
+  font-size: 12px;
+  font-weight: bold; }
+
+cManageLibrariesDialog QTableView#tvFilesToGenerate,
+cManufacturingFlyOut QTableView#tvFilesToGenerate,
+cCamExporterInterface QTableView#tvFilesToGenerate,
+OneClickMfgOverview QTableView#tvFilesToGenerate,
+[applicationQssScope="eagle"] QTableView#tvFilesToGenerate {
+  show-decoration-selected: 1;
+  selection-background-color: rgba(6, 150, 215, 100%);
+  alternate-background-color: rgba(245, 245, 245, 100%);
+  selection-color: rgba(255, 255, 255, 100%);
+  color: #3c3c3c;
+  background-color: rgba(255, 255, 255, 100%); }
+
+cManageLibrariesDialog QTableView#drillsTableView,
+cManufacturingFlyOut QTableView#drillsTableView,
+cCamExporterInterface QTableView#drillsTableView,
+OneClickMfgOverview QTableView#drillsTableView,
+[applicationQssScope="eagle"] QTableView#drillsTableView {
+  background-color: rgba(255, 255, 255, 100%);
+  alternate-background-color: rgba(245, 245, 245, 100%);
+  selection-color: rgba(255, 255, 255, 100%);
+  selection-background-color: rgba(6, 150, 215, 100%);
+  gridline-color: rgba(153, 153, 153, 100%); }
+
+cManageLibrariesDialog QTableView#drillsTableView::item:hover,
+cManufacturingFlyOut QTableView#drillsTableView::item:hover,
+cCamExporterInterface QTableView#drillsTableView::item:hover,
+OneClickMfgOverview QTableView#drillsTableView::item:hover,
+[applicationQssScope="eagle"] QTableView#drillsTableView::item:hover {
+  background-color: #CDEAF8;
+  color: #3c3c3c; }
+
+cManageLibrariesDialog cCommandLineBar QLabel,
+cManufacturingFlyOut cCommandLineBar QLabel,
+cCamExporterInterface cCommandLineBar QLabel,
+OneClickMfgOverview cCommandLineBar QLabel,
+[applicationQssScope="eagle"] cCommandLineBar QLabel {
+  background-color: rgba(242, 242, 242, 100%);
+  padding-left: 6px; }
+
+cManageLibrariesDialog cCommandLineBar cCommandLine,
+cManufacturingFlyOut cCommandLineBar cCommandLine,
+cCamExporterInterface cCommandLineBar cCommandLine,
+OneClickMfgOverview cCommandLineBar cCommandLine,
+[applicationQssScope="eagle"] cCommandLineBar cCommandLine {
+  background-color: rgba(242, 242, 242, 100%);
+  selection-background-color: rgba(6, 150, 215, 100%);
+  selection-color: rgba(255, 255, 255, 100%);
+  margin: 4px;
+  height: 22px; }
+
+cManageLibrariesDialog cCommandLineBar cParameterComboBox,
+cManufacturingFlyOut cCommandLineBar cParameterComboBox,
+cCamExporterInterface cCommandLineBar cParameterComboBox,
+OneClickMfgOverview cCommandLineBar cParameterComboBox,
+[applicationQssScope="eagle"] cCommandLineBar cParameterComboBox {
+  margin-left: 8px;
+  min-width: 180px; }
+
+cManageLibrariesDialog cCoordinateDisplay QLabel,
+cManufacturingFlyOut cCoordinateDisplay QLabel,
+cCamExporterInterface cCoordinateDisplay QLabel,
+OneClickMfgOverview cCoordinateDisplay QLabel,
+[applicationQssScope="eagle"] cCoordinateDisplay QLabel {
+  background-color: rgba(242, 242, 242, 100%);
+  border: transparent;
+  margin-left: 4px;
+  color: rgba(57, 57, 57, 100%); }
+
+cManageLibrariesDialog QTextBrowser#description,
+cManufacturingFlyOut QTextBrowser#description,
+cCamExporterInterface QTextBrowser#description,
+OneClickMfgOverview QTextBrowser#description,
+[applicationQssScope="eagle"] QTextBrowser#description {
+  background: rgba(255, 255, 255, 100%); }
+
+cManageLibrariesDialog QTreeView#browserTree,
+cManufacturingFlyOut QTreeView#browserTree,
+cCamExporterInterface QTreeView#browserTree,
+OneClickMfgOverview QTreeView#browserTree,
+[applicationQssScope="eagle"] QTreeView#browserTree {
+  border: none; }
+
+cManageLibrariesDialog #eagle-lbr-editor-window cSplitter,
+cManufacturingFlyOut #eagle-lbr-editor-window cSplitter,
+cCamExporterInterface #eagle-lbr-editor-window cSplitter,
+OneClickMfgOverview #eagle-lbr-editor-window cSplitter,
+[applicationQssScope="eagle"] #eagle-lbr-editor-window cSplitter {
+  background-color: rgba(255, 255, 255, 100%);
+  spacing: 0px;
+  padding: 0px;
+  margin: 0px; }
+
+cManageLibrariesDialog cDeviceDisplay,
+cManufacturingFlyOut cDeviceDisplay,
+cCamExporterInterface cDeviceDisplay,
+OneClickMfgOverview cDeviceDisplay,
+[applicationQssScope="eagle"] cDeviceDisplay {
+  background-color: rgba(255, 255, 255, 100%);
+  padding: 8px 4px 24px 8px; }
+  cManageLibrariesDialog cDeviceDisplay QSplitter,
+  cManufacturingFlyOut cDeviceDisplay QSplitter,
+  cCamExporterInterface cDeviceDisplay QSplitter,
+  OneClickMfgOverview cDeviceDisplay QSplitter,
+  [applicationQssScope="eagle"] cDeviceDisplay QSplitter {
+    background-color: rgba(255, 255, 255, 100%);
+    spacing: 0px;
+    padding: 0px;
+    margin: 0px; }
+
+cManageLibrariesDialog cThumbnails::item,
+cManufacturingFlyOut cThumbnails::item,
+cCamExporterInterface cThumbnails::item,
+OneClickMfgOverview cThumbnails::item,
+[applicationQssScope="eagle"] cThumbnails::item {
+  border: 1px solid transparent; }
+
+cManageLibrariesDialog cThumbnails::item:selected,
+cManufacturingFlyOut cThumbnails::item:selected,
+cCamExporterInterface cThumbnails::item:selected,
+OneClickMfgOverview cThumbnails::item:selected,
+[applicationQssScope="eagle"] cThumbnails::item:selected {
+  background-color: transparent;
+  border: 1px solid rgba(6, 150, 215, 100%);
+  color: transparent; }
+
+cManageLibrariesDialog cHelpWindow QToolBar QToolButton,
+cManufacturingFlyOut cHelpWindow QToolBar QToolButton,
+cCamExporterInterface cHelpWindow QToolBar QToolButton,
+OneClickMfgOverview cHelpWindow QToolBar QToolButton,
+[applicationQssScope="eagle"] cHelpWindow QToolBar QToolButton {
+  max-height: 20px;
+  max-width: 20px; }
+
+cManageLibrariesDialog #ControlPanelToolBar,
+cManufacturingFlyOut #ControlPanelToolBar,
+cCamExporterInterface #ControlPanelToolBar,
+OneClickMfgOverview #ControlPanelToolBar,
+[applicationQssScope="eagle"] #ControlPanelToolBar {
+  border: 0;
+  background: #ededed; }
+
+cManageLibrariesDialog #ControlPanelStartPageBtn,
+cManageLibrariesDialog #ControlPanelPreviewBtn,
+cManufacturingFlyOut #ControlPanelStartPageBtn,
+cManufacturingFlyOut #ControlPanelPreviewBtn,
+cCamExporterInterface #ControlPanelStartPageBtn,
+cCamExporterInterface #ControlPanelPreviewBtn,
+OneClickMfgOverview #ControlPanelStartPageBtn,
+OneClickMfgOverview #ControlPanelPreviewBtn,
+[applicationQssScope="eagle"] #ControlPanelStartPageBtn,
+[applicationQssScope="eagle"] #ControlPanelPreviewBtn {
+  background: none;
+  border: none;
+  color: #3c3c3c;
+  border-radius: 0;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 6px;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Artifakt Element Bold";
+  margin-top: 2px;
+  margin-right: 3px; }
+
+cManageLibrariesDialog #ControlPanelStartPageBtn:checked,
+cManageLibrariesDialog #ControlPanelPreviewBtn:checked,
+cManufacturingFlyOut #ControlPanelStartPageBtn:checked,
+cManufacturingFlyOut #ControlPanelPreviewBtn:checked,
+cCamExporterInterface #ControlPanelStartPageBtn:checked,
+cCamExporterInterface #ControlPanelPreviewBtn:checked,
+OneClickMfgOverview #ControlPanelStartPageBtn:checked,
+OneClickMfgOverview #ControlPanelPreviewBtn:checked,
+[applicationQssScope="eagle"] #ControlPanelStartPageBtn:checked,
+[applicationQssScope="eagle"] #ControlPanelPreviewBtn:checked {
+  color: rgba(6, 150, 215, 100%);
+  border-bottom: 3px solid rgba(6, 150, 215, 100%);
+  padding-bottom: 3px; }
+
+cManageLibrariesDialog #ControlPanelStartPageBtn:checked:pressed,
+cManageLibrariesDialog #ControlPanelPreviewBtn:checked:pressed,
+cManageLibrariesDialog #ControlPanelStartPageBtn:pressed,
+cManageLibrariesDialog #ControlPanelPreviewBtn:pressed,
+cManufacturingFlyOut #ControlPanelStartPageBtn:checked:pressed,
+cManufacturingFlyOut #ControlPanelPreviewBtn:checked:pressed,
+cManufacturingFlyOut #ControlPanelStartPageBtn:pressed,
+cManufacturingFlyOut #ControlPanelPreviewBtn:pressed,
+cCamExporterInterface #ControlPanelStartPageBtn:checked:pressed,
+cCamExporterInterface #ControlPanelPreviewBtn:checked:pressed,
+cCamExporterInterface #ControlPanelStartPageBtn:pressed,
+cCamExporterInterface #ControlPanelPreviewBtn:pressed,
+OneClickMfgOverview #ControlPanelStartPageBtn:checked:pressed,
+OneClickMfgOverview #ControlPanelPreviewBtn:checked:pressed,
+OneClickMfgOverview #ControlPanelStartPageBtn:pressed,
+OneClickMfgOverview #ControlPanelPreviewBtn:pressed,
+[applicationQssScope="eagle"] #ControlPanelStartPageBtn:checked:pressed,
+[applicationQssScope="eagle"] #ControlPanelPreviewBtn:checked:pressed,
+[applicationQssScope="eagle"] #ControlPanelStartPageBtn:pressed,
+[applicationQssScope="eagle"] #ControlPanelPreviewBtn:pressed {
+  color: rgba(6, 150, 215, 100%);
+  border-bottom: 3px solid rgba(6, 150, 215, 100%); }
+
+cManageLibrariesDialog #ControlPanelStartPageBtn:pressed,
+cManageLibrariesDialog #ControlPanelPreviewBtn:pressed,
+cManufacturingFlyOut #ControlPanelStartPageBtn:pressed,
+cManufacturingFlyOut #ControlPanelPreviewBtn:pressed,
+cCamExporterInterface #ControlPanelStartPageBtn:pressed,
+cCamExporterInterface #ControlPanelPreviewBtn:pressed,
+OneClickMfgOverview #ControlPanelStartPageBtn:pressed,
+OneClickMfgOverview #ControlPanelPreviewBtn:pressed,
+[applicationQssScope="eagle"] #ControlPanelStartPageBtn:pressed,
+[applicationQssScope="eagle"] #ControlPanelPreviewBtn:pressed {
+  color: rgba(6, 150, 215, 100%);
+  border-bottom: none; }
+
+cManageLibrariesDialog #ControlPanelUpdateBtn,
+cManufacturingFlyOut #ControlPanelUpdateBtn,
+cCamExporterInterface #ControlPanelUpdateBtn,
+OneClickMfgOverview #ControlPanelUpdateBtn,
+[applicationQssScope="eagle"] #ControlPanelUpdateBtn {
+  background: #14B44E;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 100%);
+  border: none;
+  border-radius: 3px; }
+
+cManageLibrariesDialog #ToolBarLicenceButton,
+cManufacturingFlyOut #ToolBarLicenceButton,
+cCamExporterInterface #ToolBarLicenceButton,
+OneClickMfgOverview #ToolBarLicenceButton,
+[applicationQssScope="eagle"] #ToolBarLicenceButton {
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  padding-right: 24px;
+  background: rgba(255, 255, 255, 100%);
+  padding-left: 2px;
+  margin-right: 10px; }
+
+cManageLibrariesDialog #ToolBarLicenceButton::menu-indicator,
+cManufacturingFlyOut #ToolBarLicenceButton::menu-indicator,
+cCamExporterInterface #ToolBarLicenceButton::menu-indicator,
+OneClickMfgOverview #ToolBarLicenceButton::menu-indicator,
+[applicationQssScope="eagle"] #ToolBarLicenceButton::menu-indicator {
+  image: url(:/qss/icons/btn-arrow-down.svg);
+  top: 4px;
+  left: 1px;
+  padding: 10px 6px 2px 4px;
+  height: 28px;
+  width: 14px;
+  border-left: 1px solid #bbbbbb; }
+
+cManageLibrariesDialog #ToolBarLicenceButton::menu-indicator:hover,
+cManufacturingFlyOut #ToolBarLicenceButton::menu-indicator:hover,
+cCamExporterInterface #ToolBarLicenceButton::menu-indicator:hover,
+OneClickMfgOverview #ToolBarLicenceButton::menu-indicator:hover,
+[applicationQssScope="eagle"] #ToolBarLicenceButton::menu-indicator:hover {
+  left: 1px;
+  padding: 10px 6px 2px 4px; }
+
+cManageLibrariesDialog #ToolBarLicenceButton::menu-indicator:pressed,
+cManufacturingFlyOut #ToolBarLicenceButton::menu-indicator:pressed,
+cCamExporterInterface #ToolBarLicenceButton::menu-indicator:pressed,
+OneClickMfgOverview #ToolBarLicenceButton::menu-indicator:pressed,
+[applicationQssScope="eagle"] #ToolBarLicenceButton::menu-indicator:pressed {
+  border-left: 1px solid #bbbbbb; }
+
+cManageLibrariesDialog #ToolBarLicenceButton:hover,
+cManufacturingFlyOut #ToolBarLicenceButton:hover,
+cCamExporterInterface #ToolBarLicenceButton:hover,
+OneClickMfgOverview #ToolBarLicenceButton:hover,
+[applicationQssScope="eagle"] #ToolBarLicenceButton:hover {
+  padding-left: 2px; }
+
+cManageLibrariesDialog #ToolBarLicenceButton:pressed,
+cManufacturingFlyOut #ToolBarLicenceButton:pressed,
+cCamExporterInterface #ToolBarLicenceButton:pressed,
+OneClickMfgOverview #ToolBarLicenceButton:pressed,
+[applicationQssScope="eagle"] #ToolBarLicenceButton:pressed {
+  padding-left: 2px; }
+
+cManageLibrariesDialog cObjectSelectionPopup,
+cManufacturingFlyOut cObjectSelectionPopup,
+cCamExporterInterface cObjectSelectionPopup,
+OneClickMfgOverview cObjectSelectionPopup,
+[applicationQssScope="eagle"] cObjectSelectionPopup {
+  color: rgba(255, 255, 255, 100%);
+  background-color: transparent;
+  opacity: 200;
+  font-size: 12px; }
+
+cManageLibrariesDialog cObjectSelectionPopup *,
+cManufacturingFlyOut cObjectSelectionPopup *,
+cCamExporterInterface cObjectSelectionPopup *,
+OneClickMfgOverview cObjectSelectionPopup *,
+[applicationQssScope="eagle"] cObjectSelectionPopup * {
+  color: rgba(255, 255, 255, 100%);
+  background-color: transparent; }
+
+cManageLibrariesDialog cObjectSelectionPopup .cBackgroundWidget,
+cManufacturingFlyOut cObjectSelectionPopup .cBackgroundWidget,
+cCamExporterInterface cObjectSelectionPopup .cBackgroundWidget,
+OneClickMfgOverview cObjectSelectionPopup .cBackgroundWidget,
+[applicationQssScope="eagle"] cObjectSelectionPopup .cBackgroundWidget {
+  opacity: 255;
+  background-color: rgba(102, 102, 102, 100%);
+  border-radius: 4px; }
+
+cManageLibrariesDialog #LightBlueBackground,
+cManufacturingFlyOut #LightBlueBackground,
+cCamExporterInterface #LightBlueBackground,
+OneClickMfgOverview #LightBlueBackground,
+[applicationQssScope="eagle"] #LightBlueBackground {
+  margin-left: 4px;
+  margin-right: 0px;
+  background-color: #aeeaff; }
+
+cManageLibrariesDialog cColorButton,
+cManufacturingFlyOut cColorButton,
+cCamExporterInterface cColorButton,
+OneClickMfgOverview cColorButton,
+[applicationQssScope="eagle"] cColorButton {
+  padding: 0px;
+  margin: 0px;
+  max-width: 24px;
+  max-height: 24px; }
+
+cManageLibrariesDialog cColorArray cColorButton,
+cManufacturingFlyOut cColorArray cColorButton,
+cCamExporterInterface cColorArray cColorButton,
+OneClickMfgOverview cColorArray cColorButton,
+[applicationQssScope="eagle"] cColorArray cColorButton {
+  margin: 8px; }
+
+cManageLibrariesDialog cColorButton#HighlightSwatch,
+cManufacturingFlyOut cColorButton#HighlightSwatch,
+cCamExporterInterface cColorButton#HighlightSwatch,
+OneClickMfgOverview cColorButton#HighlightSwatch,
+[applicationQssScope="eagle"] cColorButton#HighlightSwatch {
+  background-color: #ededed;
+  border-color: rgba(204, 204, 204, 100%); }
+
+cManageLibrariesDialog cColorButton#HighlightSwatch:hover,
+cManufacturingFlyOut cColorButton#HighlightSwatch:hover,
+cCamExporterInterface cColorButton#HighlightSwatch:hover,
+OneClickMfgOverview cColorButton#HighlightSwatch:hover,
+[applicationQssScope="eagle"] cColorButton#HighlightSwatch:hover {
+  background-color: #ededed;
+  border-color: rgba(204, 204, 204, 100%); }
+
+cManageLibrariesDialog cColorSample,
+cManufacturingFlyOut cColorSample,
+cCamExporterInterface cColorSample,
+OneClickMfgOverview cColorSample,
+[applicationQssScope="eagle"] cColorSample {
+  padding: 0px;
+  margin: 0px;
+  border-radius: 2px; }
+
+cManageLibrariesDialog cColorSample:hover,
+cManufacturingFlyOut cColorSample:hover,
+cCamExporterInterface cColorSample:hover,
+OneClickMfgOverview cColorSample:hover,
+[applicationQssScope="eagle"] cColorSample:hover {
+  border-width: 2px; }
+
+cManageLibrariesDialog QToolBar#sideToolBar,
+cManufacturingFlyOut QToolBar#sideToolBar,
+cCamExporterInterface QToolBar#sideToolBar,
+OneClickMfgOverview QToolBar#sideToolBar,
+[applicationQssScope="eagle"] QToolBar#sideToolBar {
+  background: transparent;
+  border: transparent; }
+
+cManageLibrariesDialog QToolBar#sideToolBar QToolButton,
+cManufacturingFlyOut QToolBar#sideToolBar QToolButton,
+cCamExporterInterface QToolBar#sideToolBar QToolButton,
+OneClickMfgOverview QToolBar#sideToolBar QToolButton,
+[applicationQssScope="eagle"] QToolBar#sideToolBar QToolButton {
+  width: 30px;
+  height: 158px;
+  padding: 0px;
+  margin: 0px;
+  background: transparent;
+  border: transparent; }
+
+cManageLibrariesDialog QDockWidget::title,
+cManufacturingFlyOut QDockWidget::title,
+cCamExporterInterface QDockWidget::title,
+OneClickMfgOverview QDockWidget::title,
+[applicationQssScope="eagle"] QDockWidget::title {
+  color: #3c3c3c;
+  background: #DDDDDD;
+  text-align: left;
+  border: 1px solid rgba(204, 204, 204, 100%);
+  border-top: none;
+  min-height: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px; }
+
+cManageLibrariesDialog QDockWidget,
+cManufacturingFlyOut QDockWidget,
+cCamExporterInterface QDockWidget,
+OneClickMfgOverview QDockWidget,
+[applicationQssScope="eagle"] QDockWidget {
+  titlebar-close-icon: url(:/qss/icons/CloseDock.svg);
+  titlebar-normal-icon: url(:/qss/icons/PopOut.svg); }
+
+cManageLibrariesDialog QStatusBar,
+cManufacturingFlyOut QStatusBar,
+cCamExporterInterface QStatusBar,
+OneClickMfgOverview QStatusBar,
+[applicationQssScope="eagle"] QStatusBar {
+  background-color: #ededed;
+  color: #3c3c3c;
+  border-top: 1px solid #808080; }
+
+cManageLibrariesDialog QStatusBar QLabel,
+cManufacturingFlyOut QStatusBar QLabel,
+cCamExporterInterface QStatusBar QLabel,
+OneClickMfgOverview QStatusBar QLabel,
+[applicationQssScope="eagle"] QStatusBar QLabel {
+  color: #3c3c3c; }
+
+cManageLibrariesDialog QToolButton,
+cManufacturingFlyOut QToolButton,
+cCamExporterInterface QToolButton,
+OneClickMfgOverview QToolButton,
+[applicationQssScope="eagle"] QToolButton {
+  background-color: transparent;
+  border: transparent;
+  padding: 4px;
+  border-radius: 2px;
+  margin-left: 2px;
+  margin-right: 2px; }
+
+cManageLibrariesDialog QToolButton:hover,
+cManageLibrariesDialog QToolButton:on,
+cManufacturingFlyOut QToolButton:hover,
+cManufacturingFlyOut QToolButton:on,
+cCamExporterInterface QToolButton:hover,
+cCamExporterInterface QToolButton:on,
+OneClickMfgOverview QToolButton:hover,
+OneClickMfgOverview QToolButton:on,
+[applicationQssScope="eagle"] QToolButton:hover,
+[applicationQssScope="eagle"] QToolButton:on {
+  background-color: rgba(217, 217, 217, 100%); }
+
+cManageLibrariesDialog QToolButton:pressed,
+cManufacturingFlyOut QToolButton:pressed,
+cCamExporterInterface QToolButton:pressed,
+OneClickMfgOverview QToolButton:pressed,
+[applicationQssScope="eagle"] QToolButton:pressed {
+  background-color: #808080; }
+
+cManageLibrariesDialog QToolButton::menu-indicator,
+cManufacturingFlyOut QToolButton::menu-indicator,
+cCamExporterInterface QToolButton::menu-indicator,
+OneClickMfgOverview QToolButton::menu-indicator,
+[applicationQssScope="eagle"] QToolButton::menu-indicator {
+  image: url(:/qss/icons/combobox_down_arrow.svg); }
+
+cManageLibrariesDialog QToolButton::menu-arrow,
+cManufacturingFlyOut QToolButton::menu-arrow,
+cCamExporterInterface QToolButton::menu-arrow,
+OneClickMfgOverview QToolButton::menu-arrow,
+[applicationQssScope="eagle"] QToolButton::menu-arrow {
+  image: url(:/qss/icons/combobox_down_arrow.svg);
+  top: 11px;
+  left: 3px; }
+
+cManageLibrariesDialog QToolButton::menu-button,
+cManufacturingFlyOut QToolButton::menu-button,
+cCamExporterInterface QToolButton::menu-button,
+OneClickMfgOverview QToolButton::menu-button,
+[applicationQssScope="eagle"] QToolButton::menu-button {
+  background: transparent;
+  border: none;
+  width: 4px;
+  padding-right: 4px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px; }
+
+cManageLibrariesDialog QToolButton::menu-button:hover,
+cManufacturingFlyOut QToolButton::menu-button:hover,
+cCamExporterInterface QToolButton::menu-button:hover,
+OneClickMfgOverview QToolButton::menu-button:hover,
+[applicationQssScope="eagle"] QToolButton::menu-button:hover {
+  background: #bbbbbb; }
+
+cManageLibrariesDialog QToolButton::menu-button:pressed,
+cManufacturingFlyOut QToolButton::menu-button:pressed,
+cCamExporterInterface QToolButton::menu-button:pressed,
+OneClickMfgOverview QToolButton::menu-button:pressed,
+[applicationQssScope="eagle"] QToolButton::menu-button:pressed {
+  background: transparent; }
+
+cManageLibrariesDialog QToolButton#btnZoomFit,
+cManageLibrariesDialog QToolButton#btnZoomIn,
+cManageLibrariesDialog QToolButton#btnZoomOut,
+cManageLibrariesDialog QToolButton#btnPreviewOptions,
+cManufacturingFlyOut QToolButton#btnZoomFit,
+cManufacturingFlyOut QToolButton#btnZoomIn,
+cManufacturingFlyOut QToolButton#btnZoomOut,
+cManufacturingFlyOut QToolButton#btnPreviewOptions,
+cCamExporterInterface QToolButton#btnZoomFit,
+cCamExporterInterface QToolButton#btnZoomIn,
+cCamExporterInterface QToolButton#btnZoomOut,
+cCamExporterInterface QToolButton#btnPreviewOptions,
+OneClickMfgOverview QToolButton#btnZoomFit,
+OneClickMfgOverview QToolButton#btnZoomIn,
+OneClickMfgOverview QToolButton#btnZoomOut,
+OneClickMfgOverview QToolButton#btnPreviewOptions,
+[applicationQssScope="eagle"] QToolButton#btnZoomFit,
+[applicationQssScope="eagle"] QToolButton#btnZoomIn,
+[applicationQssScope="eagle"] QToolButton#btnZoomOut,
+[applicationQssScope="eagle"] QToolButton#btnPreviewOptions {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  background-color: #ededed; }
+
+cManageLibrariesDialog QToolButton#btnZoomFit:hover,
+cManageLibrariesDialog QToolButton#btnZoomIn:hover,
+cManageLibrariesDialog QToolButton#btnZoomOut:hover,
+cManageLibrariesDialog QToolButton#btnPreviewOptions:hover,
+cManufacturingFlyOut QToolButton#btnZoomFit:hover,
+cManufacturingFlyOut QToolButton#btnZoomIn:hover,
+cManufacturingFlyOut QToolButton#btnZoomOut:hover,
+cManufacturingFlyOut QToolButton#btnPreviewOptions:hover,
+cCamExporterInterface QToolButton#btnZoomFit:hover,
+cCamExporterInterface QToolButton#btnZoomIn:hover,
+cCamExporterInterface QToolButton#btnZoomOut:hover,
+cCamExporterInterface QToolButton#btnPreviewOptions:hover,
+OneClickMfgOverview QToolButton#btnZoomFit:hover,
+OneClickMfgOverview QToolButton#btnZoomIn:hover,
+OneClickMfgOverview QToolButton#btnZoomOut:hover,
+OneClickMfgOverview QToolButton#btnPreviewOptions:hover,
+[applicationQssScope="eagle"] QToolButton#btnZoomFit:hover,
+[applicationQssScope="eagle"] QToolButton#btnZoomIn:hover,
+[applicationQssScope="eagle"] QToolButton#btnZoomOut:hover,
+[applicationQssScope="eagle"] QToolButton#btnPreviewOptions:hover {
+  background-color: rgba(217, 217, 217, 100%); }
+
+cManageLibrariesDialog QToolButton#btnZoomFit:pressed,
+cManageLibrariesDialog QToolButton#btnZoomIn:pressed,
+cManageLibrariesDialog QToolButton#btnZoomOut:pressed,
+cManageLibrariesDialog QToolButton#btnPreviewOptions:pressed,
+cManufacturingFlyOut QToolButton#btnZoomFit:pressed,
+cManufacturingFlyOut QToolButton#btnZoomIn:pressed,
+cManufacturingFlyOut QToolButton#btnZoomOut:pressed,
+cManufacturingFlyOut QToolButton#btnPreviewOptions:pressed,
+cCamExporterInterface QToolButton#btnZoomFit:pressed,
+cCamExporterInterface QToolButton#btnZoomIn:pressed,
+cCamExporterInterface QToolButton#btnZoomOut:pressed,
+cCamExporterInterface QToolButton#btnPreviewOptions:pressed,
+OneClickMfgOverview QToolButton#btnZoomFit:pressed,
+OneClickMfgOverview QToolButton#btnZoomIn:pressed,
+OneClickMfgOverview QToolButton#btnZoomOut:pressed,
+OneClickMfgOverview QToolButton#btnPreviewOptions:pressed,
+[applicationQssScope="eagle"] QToolButton#btnZoomFit:pressed,
+[applicationQssScope="eagle"] QToolButton#btnZoomIn:pressed,
+[applicationQssScope="eagle"] QToolButton#btnZoomOut:pressed,
+[applicationQssScope="eagle"] QToolButton#btnPreviewOptions:pressed {
+  background-color: #808080; }
+
+cManageLibrariesDialog QToolBar,
+cManufacturingFlyOut QToolBar,
+cCamExporterInterface QToolBar,
+OneClickMfgOverview QToolBar,
+[applicationQssScope="eagle"] QToolBar {
+  background: #ededed;
+  color: #3c3c3c;
+  border: 1px solid rgba(217, 217, 217, 100%); }
+
+cManageLibrariesDialog QToolBar::handle:horizontal,
+cManufacturingFlyOut QToolBar::handle:horizontal,
+cCamExporterInterface QToolBar::handle:horizontal,
+OneClickMfgOverview QToolBar::handle:horizontal,
+[applicationQssScope="eagle"] QToolBar::handle:horizontal {
+  border-left: 1px solid rgba(204, 204, 204, 100%);
+  border-right: 1px solid rgba(204, 204, 204, 100%);
+  width: 3px;
+  margin: 3px 5px 3px 5px; }
+
+cManageLibrariesDialog QToolBar::handle:vertical,
+cManufacturingFlyOut QToolBar::handle:vertical,
+cCamExporterInterface QToolBar::handle:vertical,
+OneClickMfgOverview QToolBar::handle:vertical,
+[applicationQssScope="eagle"] QToolBar::handle:vertical {
+  border-top: 1px solid rgba(204, 204, 204, 100%);
+  border-bottom: 1px solid rgba(204, 204, 204, 100%);
+  height: 3px;
+  margin: 5px 7px 5px 7px; }
+
+cManageLibrariesDialog QToolBar::separator,
+cManufacturingFlyOut QToolBar::separator,
+cCamExporterInterface QToolBar::separator,
+OneClickMfgOverview QToolBar::separator,
+[applicationQssScope="eagle"] QToolBar::separator {
+  background-color: rgba(204, 204, 204, 100%);
+  height: 1px;
+  width: 1px; }
+
+cManageLibrariesDialog cActionBar,
+cManageLibrariesDialog cCommandTextMenu,
+cManufacturingFlyOut cActionBar,
+cManufacturingFlyOut cCommandTextMenu,
+cCamExporterInterface cActionBar,
+cCamExporterInterface cCommandTextMenu,
+OneClickMfgOverview cActionBar,
+OneClickMfgOverview cCommandTextMenu,
+[applicationQssScope="eagle"] cActionBar,
+[applicationQssScope="eagle"] cCommandTextMenu {
+  background-color: rgba(217, 217, 217, 100%);
+  border: none;
+  border-bottom: 1px solid rgba(153, 153, 153, 100%);
+  margin-bottom: 1px;
+  min-height: 32px; }
+
+cManageLibrariesDialog cActionBar::handle:horizontal,
+cManageLibrariesDialog cCommandTextMenu::handle:horizontal,
+cManufacturingFlyOut cActionBar::handle:horizontal,
+cManufacturingFlyOut cCommandTextMenu::handle:horizontal,
+cCamExporterInterface cActionBar::handle:horizontal,
+cCamExporterInterface cCommandTextMenu::handle:horizontal,
+OneClickMfgOverview cActionBar::handle:horizontal,
+OneClickMfgOverview cCommandTextMenu::handle:horizontal,
+[applicationQssScope="eagle"] cActionBar::handle:horizontal,
+[applicationQssScope="eagle"] cCommandTextMenu::handle:horizontal {
+  border-left: 1px solid #bbbbbb;
+  border-right: 1px solid #bbbbbb; }
+
+cManageLibrariesDialog cActionBar:separator,
+cManageLibrariesDialog cCommandTextMenu:separator,
+cManufacturingFlyOut cActionBar:separator,
+cManufacturingFlyOut cCommandTextMenu:separator,
+cCamExporterInterface cActionBar:separator,
+cCamExporterInterface cCommandTextMenu:separator,
+OneClickMfgOverview cActionBar:separator,
+OneClickMfgOverview cCommandTextMenu:separator,
+[applicationQssScope="eagle"] cActionBar:separator,
+[applicationQssScope="eagle"] cCommandTextMenu:separator {
+  background-color: #bbbbbb; }
+
+cManageLibrariesDialog cActionBar QToolButton,
+cManufacturingFlyOut cActionBar QToolButton,
+cCamExporterInterface cActionBar QToolButton,
+OneClickMfgOverview cActionBar QToolButton,
+[applicationQssScope="eagle"] cActionBar QToolButton {
+  margin-top: 2px;
+  margin-bottom: 3px; }
+
+cManageLibrariesDialog cActionBar QToolButton:hover,
+cManageLibrariesDialog cCommandTextMenu QToolButton:hover,
+cManufacturingFlyOut cActionBar QToolButton:hover,
+cManufacturingFlyOut cCommandTextMenu QToolButton:hover,
+cCamExporterInterface cActionBar QToolButton:hover,
+cCamExporterInterface cCommandTextMenu QToolButton:hover,
+OneClickMfgOverview cActionBar QToolButton:hover,
+OneClickMfgOverview cCommandTextMenu QToolButton:hover,
+[applicationQssScope="eagle"] cActionBar QToolButton:hover,
+[applicationQssScope="eagle"] cCommandTextMenu QToolButton:hover {
+  background-color: #bbbbbb; }
+
+cManageLibrariesDialog cActionBar QToolButton:pressed,
+cManageLibrariesDialog cCommandTextMenu QToolButton:pressed,
+cManufacturingFlyOut cActionBar QToolButton:pressed,
+cManufacturingFlyOut cCommandTextMenu QToolButton:pressed,
+cCamExporterInterface cActionBar QToolButton:pressed,
+cCamExporterInterface cCommandTextMenu QToolButton:pressed,
+OneClickMfgOverview cActionBar QToolButton:pressed,
+OneClickMfgOverview cCommandTextMenu QToolButton:pressed,
+[applicationQssScope="eagle"] cActionBar QToolButton:pressed,
+[applicationQssScope="eagle"] cCommandTextMenu QToolButton:pressed {
+  background-color: #808080; }
+
+cManageLibrariesDialog cActionBar QToolButton:on,
+cManageLibrariesDialog cCommandTextMenu QToolButton:on,
+cManufacturingFlyOut cActionBar QToolButton:on,
+cManufacturingFlyOut cCommandTextMenu QToolButton:on,
+cCamExporterInterface cActionBar QToolButton:on,
+cCamExporterInterface cCommandTextMenu QToolButton:on,
+OneClickMfgOverview cActionBar QToolButton:on,
+OneClickMfgOverview cCommandTextMenu QToolButton:on,
+[applicationQssScope="eagle"] cActionBar QToolButton:on,
+[applicationQssScope="eagle"] cCommandTextMenu QToolButton:on {
+  background-color: #808080; }
+
+cManageLibrariesDialog cParameterBar,
+cManageLibrariesDialog cSimulationMenu,
+cManufacturingFlyOut cParameterBar,
+cManufacturingFlyOut cSimulationMenu,
+cCamExporterInterface cParameterBar,
+cCamExporterInterface cSimulationMenu,
+OneClickMfgOverview cParameterBar,
+OneClickMfgOverview cSimulationMenu,
+[applicationQssScope="eagle"] cParameterBar,
+[applicationQssScope="eagle"] cSimulationMenu {
+  min-height: 32px;
+  border-top: transparent; }
+
+cManageLibrariesDialog cParameterBar QToolButton,
+cManageLibrariesDialog cSimulationMenu QToolButton,
+cManufacturingFlyOut cParameterBar QToolButton,
+cManufacturingFlyOut cSimulationMenu QToolButton,
+cCamExporterInterface cParameterBar QToolButton,
+cCamExporterInterface cSimulationMenu QToolButton,
+OneClickMfgOverview cParameterBar QToolButton,
+OneClickMfgOverview cSimulationMenu QToolButton,
+[applicationQssScope="eagle"] cParameterBar QToolButton,
+[applicationQssScope="eagle"] cSimulationMenu QToolButton {
+  margin: 2px 1px 3px 1px; }
+
+cManageLibrariesDialog cCommandButtonMenu QToolButton,
+cManufacturingFlyOut cCommandButtonMenu QToolButton,
+cCamExporterInterface cCommandButtonMenu QToolButton,
+OneClickMfgOverview cCommandButtonMenu QToolButton,
+[applicationQssScope="eagle"] cCommandButtonMenu QToolButton {
+  padding: 3px; }
+
+cManageLibrariesDialog #eagle-lbr-editor-window cSplitter,
+cManufacturingFlyOut #eagle-lbr-editor-window cSplitter,
+cCamExporterInterface #eagle-lbr-editor-window cSplitter,
+OneClickMfgOverview #eagle-lbr-editor-window cSplitter,
+[applicationQssScope="eagle"] #eagle-lbr-editor-window cSplitter {
+  background-color: rgba(255, 255, 255, 100%);
+  spacing: 0px;
+  padding: 0px;
+  margin: 0px; }
+
+cManageLibrariesDialog cDeviceDisplay,
+cManufacturingFlyOut cDeviceDisplay,
+cCamExporterInterface cDeviceDisplay,
+OneClickMfgOverview cDeviceDisplay,
+[applicationQssScope="eagle"] cDeviceDisplay {
+  background-color: rgba(255, 255, 255, 100%);
+  padding: 8px 4px 24px 8px; }
+  cManageLibrariesDialog cDeviceDisplay QSplitter,
+  cManufacturingFlyOut cDeviceDisplay QSplitter,
+  cCamExporterInterface cDeviceDisplay QSplitter,
+  OneClickMfgOverview cDeviceDisplay QSplitter,
+  [applicationQssScope="eagle"] cDeviceDisplay QSplitter {
+    background-color: rgba(255, 255, 255, 100%);
+    spacing: 0px;
+    padding: 0px;
+    margin: 0px; }
+
+cManufacturingFlyOut CAMExportWidget QComboBox QAbstractItemView,
+cCamExporterInterface CAMExportWidget QComboBox QAbstractItemView {
+  background-color: none; }
+
+cManufacturingFlyOut QLineEdit#leJobName,
+cCamExporterInterface QLineEdit#leJobName {
+  height: auto; }
+
+cManufacturingFlyOut QComboBox#cbInteger QAbstractItemView,
+cManufacturingFlyOut QComboBox#cbDecimal QAbstractItemView,
+cCamExporterInterface QComboBox#cbInteger QAbstractItemView,
+cCamExporterInterface QComboBox#cbDecimal QAbstractItemView {
+  background-color: none; }
+
+cManufacturingFlyOut QToolButton#btnJobs,
+cManufacturingFlyOut QToolButton#btnSaveJob,
+cCamExporterInterface QToolButton#btnJobs,
+cCamExporterInterface QToolButton#btnSaveJob {
+  background-color: rgba(255, 255, 255, 100%);
+  border: 1px solid #808080;
+  padding: 0px 6px 1px 6px;
+  margin: 0px;
+  border-radius: 0px;
+  border-left: 0px; }
+
+cManufacturingFlyOut QToolButton#btnJobs:hover,
+cManufacturingFlyOut QToolButton#btnSaveJob:hover,
+cManufacturingFlyOut QToolButton#btnFileFunctions:hover,
+cCamExporterInterface QToolButton#btnJobs:hover,
+cCamExporterInterface QToolButton#btnSaveJob:hover,
+cCamExporterInterface QToolButton#btnFileFunctions:hover {
+  background-color: rgba(217, 217, 217, 100%); }
+
+cManufacturingFlyOut QToolButton#btnJobs:pressed,
+cManufacturingFlyOut QToolButton#btnSaveJob:pressed,
+cManufacturingFlyOut QToolButton#btnFileFunctions:pressed,
+cCamExporterInterface QToolButton#btnJobs:pressed,
+cCamExporterInterface QToolButton#btnSaveJob:pressed,
+cCamExporterInterface QToolButton#btnFileFunctions:pressed {
+  background-color: #808080; }
+
+cManufacturingFlyOut QCheckBox#cbExportAsZIP,
+cManufacturingFlyOut QCheckBox#cbVias,
+cManufacturingFlyOut QCheckBox#cbPTH,
+cCamExporterInterface QCheckBox#cbExportAsZIP,
+cCamExporterInterface QCheckBox#cbVias,
+cCamExporterInterface QCheckBox#cbPTH {
+  margin-right: 12px; }
+
+cManufacturingFlyOut QGroupBox#gbOutput,
+cCamExporterInterface QGroupBox#gbOutput {
+  min-height: 30px;
+  padding-top: 4px; }
+
+cManufacturingFlyOut QGroupBox#gbSection,
+cCamExporterInterface QGroupBox#gbSection {
+  min-height: 60px;
+  padding: 4px; }
+
+cManufacturingFlyOut QToolButton#btnFileFunctions,
+cCamExporterInterface QToolButton#btnFileFunctions {
+  background-color: rgba(255, 255, 255, 100%);
+  border: 1px solid #808080;
+  border-radius: 0px;
+  max-height: 16px;
+  height: 16px;
+  min-height: 16px;
+  margin-left: 0px;
+  min-width: 22px;
+  border-left: 0px; }
+
+cManufacturingFlyOut QToolButton#cbMirrorHorizontal,
+cManufacturingFlyOut QToolButton#cbMirrorVertical,
+cManufacturingFlyOut QToolButton#cbRotate,
+cCamExporterInterface QToolButton#cbMirrorHorizontal,
+cCamExporterInterface QToolButton#cbMirrorVertical,
+cCamExporterInterface QToolButton#cbRotate {
+  background-color: rgba(255, 255, 255, 100%);
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: #808080; }
+
+cManufacturingFlyOut QToolButton#cbMirrorHorizontal:hover,
+cManufacturingFlyOut QToolButton#cbMirrorVertical:hover,
+cManufacturingFlyOut QToolButton#cbRotate:hover,
+cCamExporterInterface QToolButton#cbMirrorHorizontal:hover,
+cCamExporterInterface QToolButton#cbMirrorVertical:hover,
+cCamExporterInterface QToolButton#cbRotate:hover {
+  background-color: rgba(217, 217, 217, 100%);
+  border: 1px solid #808080; }
+
+cManufacturingFlyOut QToolButton#cbMirrorHorizontal:pressed,
+cManufacturingFlyOut QToolButton#cbMirrorVertical:pressed,
+cManufacturingFlyOut QToolButton#cbRotate:pressed,
+cCamExporterInterface QToolButton#cbMirrorHorizontal:pressed,
+cCamExporterInterface QToolButton#cbMirrorVertical:pressed,
+cCamExporterInterface QToolButton#cbRotate:pressed {
+  background-color: #808080;
+  border: 1px solid #808080; }
+
+cManufacturingFlyOut QToolButton#cbMirrorHorizontal:checked,
+cManufacturingFlyOut QToolButton#cbMirrorVertical:checked,
+cManufacturingFlyOut QToolButton#cbRotate:checked,
+cCamExporterInterface QToolButton#cbMirrorHorizontal:checked,
+cCamExporterInterface QToolButton#cbMirrorVertical:checked,
+cCamExporterInterface QToolButton#cbRotate:checked {
+  background-color: rgba(217, 217, 217, 100%); }
+
+cManufacturingFlyOut QTreeWidget#twLayers QHeaderView,
+cManufacturingFlyOut QTableView#tvFilesToGenerate QHeaderView,
+cCamExporterInterface QTreeWidget#twLayers QHeaderView,
+cCamExporterInterface QTableView#tvFilesToGenerate QHeaderView {
+  background-color: none; }
+
+cManufacturingFlyOut QTreeWidget#twLayers::item:disabled,
+cCamExporterInterface QTreeWidget#twLayers::item:disabled {
+  color: #808080; }
+
+cManufacturingFlyOut QTreeWidget#twLayers::branch:hover,
+cCamExporterInterface QTreeWidget#twLayers::branch:hover {
+  background-color: transparent; }
+
+cManufacturingFlyOut QTreeWidget#twJobs::branch:closed_qnot_has-children,
+cCamExporterInterface QTreeWidget#twJobs::branch:closed_qnot_has-children {
+  image: none; }
+
+cManufacturingFlyOut QTreeWidget#twJobs::branch:open:!has-children,
+cCamExporterInterface QTreeWidget#twJobs::branch:open:!has-children {
+  image: none; }
+
+cManufacturingFlyOut QTreeWidget#twJobs::item QLabel,
+cCamExporterInterface QTreeWidget#twJobs::item QLabel {
+  background-color: transparent;
+  margin-right: 15px; }
+
+cManufacturingFlyOut BOMULPDetailWidget QCheckBox#cbListAttributes,
+cCamExporterInterface BOMULPDetailWidget QCheckBox#cbListAttributes {
+  margin-top: 10px; }
+
+[applicationQssScope="eagle"][applicationQssSecondaryScope="command_panel"] {
+  /***** QToolButton *****/
+  /***** Fixes text-cutoff in parameter comboboxes *****/ }
+  [applicationQssScope="eagle"][applicationQssSecondaryScope="command_panel"] cOptionCommandParameter QToolButton {
+    color: red;
+    background-color: transparent;
+    margin: 2px;
+    border: 1px solid;
+    border-color: rgba(102, 102, 102, 100%); }
+  [applicationQssScope="eagle"][applicationQssSecondaryScope="command_panel"] QToolButton:hover {
+    background-color: #dcdcdc; }
+  [applicationQssScope="eagle"][applicationQssSecondaryScope="command_panel"] QToolButton:on {
+    background-color: rgba(6, 150, 215, 100%); }
+  [applicationQssScope="eagle"][applicationQssSecondaryScope="command_panel"] QToolButton:pressed {
+    background-color: rgba(102, 102, 102, 100%); }
+  [applicationQssScope="eagle"][applicationQssSecondaryScope="command_panel"] cComboBoxParameter QAbstractItemView::item {
+    height: 22px;
+    background-color: rgba(255, 255, 255, 100%);
+    padding-left: 8px;
+    color: #3c3c3c; }
+  [applicationQssScope="eagle"][applicationQssSecondaryScope="command_panel"] cLayerCommandParameter::item,
+  [applicationQssScope="eagle"][applicationQssSecondaryScope="command_panel"] cLayerCommandParameter QAbstractItemView::item {
+    padding-left: 0px;
+    min-width: 80px; }
+  [applicationQssScope="eagle"][applicationQssSecondaryScope="command_panel"] cComboBoxParameter QAbstractItemView::item:selected {
+    background-color: #CDEAF8;
+    color: #3c3c3c; }
+  [applicationQssScope="eagle"][applicationQssSecondaryScope="command_panel"] cComboBoxParameter QAbstractItemView::item:checked {
+    background-color: #98D5EF; }
+  [applicationQssScope="eagle"][applicationQssSecondaryScope="command_panel"] cComboBoxParameter QAbstractItemView::item:disabled {
+    color: #808080; }
+  [applicationQssScope="eagle"][applicationQssSecondaryScope="command_panel"] cComboBoxParameter QAbstractItemView::separator {
+    background: rgba(217, 217, 217, 100%);
+    height: 1px;
+    margin-left: 0px;
+    margin-right: 0px; }
+  [applicationQssScope="eagle"][applicationQssSecondaryScope="command_panel"] cSizeCommandParameter {
+    min-width: 80px;
+    color: #3c3c3c;
+    selection-color: rgba(255, 255, 255, 100%);
+    selection-background-color: rgba(6, 150, 215, 100%); }
+
+[applicationQssScope="eagle"] #ObjectViewer {
+  background-color: none;
+  border-color: transparent; }
+
+#eagle-sch-design-manager QWidget,
+#eagle-pcb-design-manager QWidget,
+#eagle-lbr-design-manager QWidget,
+#eagle-sch-object-inspector QWidget,
+#eagle-pcb-object-inspector QWidget,
+#eagle-lbr-object-inspector QWidget,
+#eagle-sch-selection-filter QWidget,
+#eagle-pcb-selection-filter QWidget,
+#eagle-lbr-selection-filter QWidget {
+  font-family: 'ArtifaktElement';
+  color: rgba(0, 0, 0, 100%);
+  font-weight: 400;
+  font-size: 13px; }
+
+#eagle-sch-design-manager DesignManagerFilterTab QLabel#dirtyLabel,
+#eagle-pcb-design-manager DesignManagerFilterTab QLabel#dirtyLabel,
+#eagle-lbr-design-manager DesignManagerFilterTab QLabel#dirtyLabel,
+#eagle-sch-object-inspector DesignManagerFilterTab QLabel#dirtyLabel,
+#eagle-pcb-object-inspector DesignManagerFilterTab QLabel#dirtyLabel,
+#eagle-lbr-object-inspector DesignManagerFilterTab QLabel#dirtyLabel,
+#eagle-sch-selection-filter DesignManagerFilterTab QLabel#dirtyLabel,
+#eagle-pcb-selection-filter DesignManagerFilterTab QLabel#dirtyLabel,
+#eagle-lbr-selection-filter DesignManagerFilterTab QLabel#dirtyLabel {
+  color: rgba(236, 74, 65, 100%);
+  font-style: italic; }
+
+#eagle-sch-design-manager BrdDesignManager cVerticalScrollArea,
+#eagle-sch-design-manager SchDesignManager cVerticalScrollArea,
+#eagle-pcb-design-manager BrdDesignManager cVerticalScrollArea,
+#eagle-pcb-design-manager SchDesignManager cVerticalScrollArea,
+#eagle-lbr-design-manager BrdDesignManager cVerticalScrollArea,
+#eagle-lbr-design-manager SchDesignManager cVerticalScrollArea,
+#eagle-sch-object-inspector BrdDesignManager cVerticalScrollArea,
+#eagle-sch-object-inspector SchDesignManager cVerticalScrollArea,
+#eagle-pcb-object-inspector BrdDesignManager cVerticalScrollArea,
+#eagle-pcb-object-inspector SchDesignManager cVerticalScrollArea,
+#eagle-lbr-object-inspector BrdDesignManager cVerticalScrollArea,
+#eagle-lbr-object-inspector SchDesignManager cVerticalScrollArea,
+#eagle-sch-selection-filter BrdDesignManager cVerticalScrollArea,
+#eagle-sch-selection-filter SchDesignManager cVerticalScrollArea,
+#eagle-pcb-selection-filter BrdDesignManager cVerticalScrollArea,
+#eagle-pcb-selection-filter SchDesignManager cVerticalScrollArea,
+#eagle-lbr-selection-filter BrdDesignManager cVerticalScrollArea,
+#eagle-lbr-selection-filter SchDesignManager cVerticalScrollArea {
+  padding: 0;
+  margin: 0;
+  border: none; }
+
+#eagle-sch-design-manager BrdDesignManager QStackedWidget,
+#eagle-sch-design-manager SchDesignManager QStackedWidget,
+#eagle-pcb-design-manager BrdDesignManager QStackedWidget,
+#eagle-pcb-design-manager SchDesignManager QStackedWidget,
+#eagle-lbr-design-manager BrdDesignManager QStackedWidget,
+#eagle-lbr-design-manager SchDesignManager QStackedWidget,
+#eagle-sch-object-inspector BrdDesignManager QStackedWidget,
+#eagle-sch-object-inspector SchDesignManager QStackedWidget,
+#eagle-pcb-object-inspector BrdDesignManager QStackedWidget,
+#eagle-pcb-object-inspector SchDesignManager QStackedWidget,
+#eagle-lbr-object-inspector BrdDesignManager QStackedWidget,
+#eagle-lbr-object-inspector SchDesignManager QStackedWidget,
+#eagle-sch-selection-filter BrdDesignManager QStackedWidget,
+#eagle-sch-selection-filter SchDesignManager QStackedWidget,
+#eagle-pcb-selection-filter BrdDesignManager QStackedWidget,
+#eagle-pcb-selection-filter SchDesignManager QStackedWidget,
+#eagle-lbr-selection-filter BrdDesignManager QStackedWidget,
+#eagle-lbr-selection-filter SchDesignManager QStackedWidget {
+  background: transparent;
+  margin: 0px;
+  padding: 0px; }
+
+#eagle-sch-design-manager BrdDesignManager QStackedWidget QHeaderView,
+#eagle-sch-design-manager SchDesignManager QStackedWidget QHeaderView,
+#eagle-pcb-design-manager BrdDesignManager QStackedWidget QHeaderView,
+#eagle-pcb-design-manager SchDesignManager QStackedWidget QHeaderView,
+#eagle-lbr-design-manager BrdDesignManager QStackedWidget QHeaderView,
+#eagle-lbr-design-manager SchDesignManager QStackedWidget QHeaderView,
+#eagle-sch-object-inspector BrdDesignManager QStackedWidget QHeaderView,
+#eagle-sch-object-inspector SchDesignManager QStackedWidget QHeaderView,
+#eagle-pcb-object-inspector BrdDesignManager QStackedWidget QHeaderView,
+#eagle-pcb-object-inspector SchDesignManager QStackedWidget QHeaderView,
+#eagle-lbr-object-inspector BrdDesignManager QStackedWidget QHeaderView,
+#eagle-lbr-object-inspector SchDesignManager QStackedWidget QHeaderView,
+#eagle-sch-selection-filter BrdDesignManager QStackedWidget QHeaderView,
+#eagle-sch-selection-filter SchDesignManager QStackedWidget QHeaderView,
+#eagle-pcb-selection-filter BrdDesignManager QStackedWidget QHeaderView,
+#eagle-pcb-selection-filter SchDesignManager QStackedWidget QHeaderView,
+#eagle-lbr-selection-filter BrdDesignManager QStackedWidget QHeaderView,
+#eagle-lbr-selection-filter SchDesignManager QStackedWidget QHeaderView {
+  min-height: 18px; }
+
+#eagle-sch-design-manager ContextMenuTreeView,
+#eagle-sch-design-manager SchDesignManagerTreeView,
+#eagle-pcb-design-manager ContextMenuTreeView,
+#eagle-pcb-design-manager SchDesignManagerTreeView,
+#eagle-lbr-design-manager ContextMenuTreeView,
+#eagle-lbr-design-manager SchDesignManagerTreeView,
+#eagle-sch-object-inspector ContextMenuTreeView,
+#eagle-sch-object-inspector SchDesignManagerTreeView,
+#eagle-pcb-object-inspector ContextMenuTreeView,
+#eagle-pcb-object-inspector SchDesignManagerTreeView,
+#eagle-lbr-object-inspector ContextMenuTreeView,
+#eagle-lbr-object-inspector SchDesignManagerTreeView,
+#eagle-sch-selection-filter ContextMenuTreeView,
+#eagle-sch-selection-filter SchDesignManagerTreeView,
+#eagle-pcb-selection-filter ContextMenuTreeView,
+#eagle-pcb-selection-filter SchDesignManagerTreeView,
+#eagle-lbr-selection-filter ContextMenuTreeView,
+#eagle-lbr-selection-filter SchDesignManagerTreeView {
+  background-color: rgba(255, 255, 255, 100%);
+  alternate-background-color: rgba(245, 245, 245, 100%);
+  border: 1px solid rgba(153, 153, 153, 100%);
+  selection-background-color: rgba(6, 150, 215, 100%);
+  selection-color: rgba(255, 255, 255, 100%); }
+
+#eagle-sch-design-manager DesignManagerSectionView QTreeView:focus,
+#eagle-sch-design-manager SchDesignManagerSectionView QTreeView:focus,
+#eagle-pcb-design-manager DesignManagerSectionView QTreeView:focus,
+#eagle-pcb-design-manager SchDesignManagerSectionView QTreeView:focus,
+#eagle-lbr-design-manager DesignManagerSectionView QTreeView:focus,
+#eagle-lbr-design-manager SchDesignManagerSectionView QTreeView:focus,
+#eagle-sch-object-inspector DesignManagerSectionView QTreeView:focus,
+#eagle-sch-object-inspector SchDesignManagerSectionView QTreeView:focus,
+#eagle-pcb-object-inspector DesignManagerSectionView QTreeView:focus,
+#eagle-pcb-object-inspector SchDesignManagerSectionView QTreeView:focus,
+#eagle-lbr-object-inspector DesignManagerSectionView QTreeView:focus,
+#eagle-lbr-object-inspector SchDesignManagerSectionView QTreeView:focus,
+#eagle-sch-selection-filter DesignManagerSectionView QTreeView:focus,
+#eagle-sch-selection-filter SchDesignManagerSectionView QTreeView:focus,
+#eagle-pcb-selection-filter DesignManagerSectionView QTreeView:focus,
+#eagle-pcb-selection-filter SchDesignManagerSectionView QTreeView:focus,
+#eagle-lbr-selection-filter DesignManagerSectionView QTreeView:focus,
+#eagle-lbr-selection-filter SchDesignManagerSectionView QTreeView:focus {
+  border: 1px solid rgba(6, 150, 215, 100%); }
+
+#eagle-sch-design-manager ContextMenuTreeView QMenu::icon,
+#eagle-sch-design-manager SchDesignManagerTreeView QMenu::icon,
+#eagle-pcb-design-manager ContextMenuTreeView QMenu::icon,
+#eagle-pcb-design-manager SchDesignManagerTreeView QMenu::icon,
+#eagle-lbr-design-manager ContextMenuTreeView QMenu::icon,
+#eagle-lbr-design-manager SchDesignManagerTreeView QMenu::icon,
+#eagle-sch-object-inspector ContextMenuTreeView QMenu::icon,
+#eagle-sch-object-inspector SchDesignManagerTreeView QMenu::icon,
+#eagle-pcb-object-inspector ContextMenuTreeView QMenu::icon,
+#eagle-pcb-object-inspector SchDesignManagerTreeView QMenu::icon,
+#eagle-lbr-object-inspector ContextMenuTreeView QMenu::icon,
+#eagle-lbr-object-inspector SchDesignManagerTreeView QMenu::icon,
+#eagle-sch-selection-filter ContextMenuTreeView QMenu::icon,
+#eagle-sch-selection-filter SchDesignManagerTreeView QMenu::icon,
+#eagle-pcb-selection-filter ContextMenuTreeView QMenu::icon,
+#eagle-pcb-selection-filter SchDesignManagerTreeView QMenu::icon,
+#eagle-lbr-selection-filter ContextMenuTreeView QMenu::icon,
+#eagle-lbr-selection-filter SchDesignManagerTreeView QMenu::icon {
+  padding: 4px 6px;
+  margin-left: 0px;
+  margin-right: 4px; }
+
+#eagle-sch-design-manager ContextMenuTreeView QMenu::item,
+#eagle-sch-design-manager SchDesignManagerTreeView QMenu::item,
+#eagle-pcb-design-manager ContextMenuTreeView QMenu::item,
+#eagle-pcb-design-manager SchDesignManagerTreeView QMenu::item,
+#eagle-lbr-design-manager ContextMenuTreeView QMenu::item,
+#eagle-lbr-design-manager SchDesignManagerTreeView QMenu::item,
+#eagle-sch-object-inspector ContextMenuTreeView QMenu::item,
+#eagle-sch-object-inspector SchDesignManagerTreeView QMenu::item,
+#eagle-pcb-object-inspector ContextMenuTreeView QMenu::item,
+#eagle-pcb-object-inspector SchDesignManagerTreeView QMenu::item,
+#eagle-lbr-object-inspector ContextMenuTreeView QMenu::item,
+#eagle-lbr-object-inspector SchDesignManagerTreeView QMenu::item,
+#eagle-sch-selection-filter ContextMenuTreeView QMenu::item,
+#eagle-sch-selection-filter SchDesignManagerTreeView QMenu::item,
+#eagle-pcb-selection-filter ContextMenuTreeView QMenu::item,
+#eagle-pcb-selection-filter SchDesignManagerTreeView QMenu::item,
+#eagle-lbr-selection-filter ContextMenuTreeView QMenu::item,
+#eagle-lbr-selection-filter SchDesignManagerTreeView QMenu::item {
+  padding-left: 36px; }
+
+#eagle-sch-design-manager ContextMenuTreeView QMenu::icon:checked,
+#eagle-sch-design-manager SchDesignManagerTreeView QMenu::icon:checked,
+#eagle-pcb-design-manager ContextMenuTreeView QMenu::icon:checked,
+#eagle-pcb-design-manager SchDesignManagerTreeView QMenu::icon:checked,
+#eagle-lbr-design-manager ContextMenuTreeView QMenu::icon:checked,
+#eagle-lbr-design-manager SchDesignManagerTreeView QMenu::icon:checked,
+#eagle-sch-object-inspector ContextMenuTreeView QMenu::icon:checked,
+#eagle-sch-object-inspector SchDesignManagerTreeView QMenu::icon:checked,
+#eagle-pcb-object-inspector ContextMenuTreeView QMenu::icon:checked,
+#eagle-pcb-object-inspector SchDesignManagerTreeView QMenu::icon:checked,
+#eagle-lbr-object-inspector ContextMenuTreeView QMenu::icon:checked,
+#eagle-lbr-object-inspector SchDesignManagerTreeView QMenu::icon:checked,
+#eagle-sch-selection-filter ContextMenuTreeView QMenu::icon:checked,
+#eagle-sch-selection-filter SchDesignManagerTreeView QMenu::icon:checked,
+#eagle-pcb-selection-filter ContextMenuTreeView QMenu::icon:checked,
+#eagle-pcb-selection-filter SchDesignManagerTreeView QMenu::icon:checked,
+#eagle-lbr-selection-filter ContextMenuTreeView QMenu::icon:checked,
+#eagle-lbr-selection-filter SchDesignManagerTreeView QMenu::icon:checked {
+  background-color: #CDEAF8; }
+
+#eagle-sch-design-manager DesignManagerSectionView QTreeView:focus,
+#eagle-sch-design-manager SchDesignManagerSectionView QTreeView:focus,
+#eagle-pcb-design-manager DesignManagerSectionView QTreeView:focus,
+#eagle-pcb-design-manager SchDesignManagerSectionView QTreeView:focus,
+#eagle-lbr-design-manager DesignManagerSectionView QTreeView:focus,
+#eagle-lbr-design-manager SchDesignManagerSectionView QTreeView:focus,
+#eagle-sch-object-inspector DesignManagerSectionView QTreeView:focus,
+#eagle-sch-object-inspector SchDesignManagerSectionView QTreeView:focus,
+#eagle-pcb-object-inspector DesignManagerSectionView QTreeView:focus,
+#eagle-pcb-object-inspector SchDesignManagerSectionView QTreeView:focus,
+#eagle-lbr-object-inspector DesignManagerSectionView QTreeView:focus,
+#eagle-lbr-object-inspector SchDesignManagerSectionView QTreeView:focus,
+#eagle-sch-selection-filter DesignManagerSectionView QTreeView:focus,
+#eagle-sch-selection-filter SchDesignManagerSectionView QTreeView:focus,
+#eagle-pcb-selection-filter DesignManagerSectionView QTreeView:focus,
+#eagle-pcb-selection-filter SchDesignManagerSectionView QTreeView:focus,
+#eagle-lbr-selection-filter DesignManagerSectionView QTreeView:focus,
+#eagle-lbr-selection-filter SchDesignManagerSectionView QTreeView:focus {
+  border: 1px solid rgba(6, 150, 215, 100%); }
+
+#eagle-sch-design-manager DesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-sch-design-manager SchDesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-pcb-design-manager DesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-pcb-design-manager SchDesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-lbr-design-manager DesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-lbr-design-manager SchDesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-sch-object-inspector DesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-sch-object-inspector SchDesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-pcb-object-inspector DesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-pcb-object-inspector SchDesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-lbr-object-inspector DesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-lbr-object-inspector SchDesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-sch-selection-filter DesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-sch-selection-filter SchDesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-pcb-selection-filter DesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-pcb-selection-filter SchDesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-lbr-selection-filter DesignManagerSectionView QTreeView::branch:!has-children,
+#eagle-lbr-selection-filter SchDesignManagerSectionView QTreeView::branch:!has-children {
+  border-image: none;
+  image: none; }
+
+#eagle-sch-design-manager #FilterLineExpression,
+#eagle-pcb-design-manager #FilterLineExpression,
+#eagle-lbr-design-manager #FilterLineExpression,
+#eagle-sch-object-inspector #FilterLineExpression,
+#eagle-pcb-object-inspector #FilterLineExpression,
+#eagle-lbr-object-inspector #FilterLineExpression,
+#eagle-sch-selection-filter #FilterLineExpression,
+#eagle-pcb-selection-filter #FilterLineExpression,
+#eagle-lbr-selection-filter #FilterLineExpression {
+  background-color: rgba(255, 255, 255, 100%); }
+
+#eagle-sch-design-manager HToolBar#ModeBar,
+#eagle-sch-design-manager HToolBar#ModeBar QToolButton,
+#eagle-pcb-design-manager HToolBar#ModeBar,
+#eagle-pcb-design-manager HToolBar#ModeBar QToolButton,
+#eagle-lbr-design-manager HToolBar#ModeBar,
+#eagle-lbr-design-manager HToolBar#ModeBar QToolButton,
+#eagle-sch-object-inspector HToolBar#ModeBar,
+#eagle-sch-object-inspector HToolBar#ModeBar QToolButton,
+#eagle-pcb-object-inspector HToolBar#ModeBar,
+#eagle-pcb-object-inspector HToolBar#ModeBar QToolButton,
+#eagle-lbr-object-inspector HToolBar#ModeBar,
+#eagle-lbr-object-inspector HToolBar#ModeBar QToolButton,
+#eagle-sch-selection-filter HToolBar#ModeBar,
+#eagle-sch-selection-filter HToolBar#ModeBar QToolButton,
+#eagle-pcb-selection-filter HToolBar#ModeBar,
+#eagle-pcb-selection-filter HToolBar#ModeBar QToolButton,
+#eagle-lbr-selection-filter HToolBar#ModeBar,
+#eagle-lbr-selection-filter HToolBar#ModeBar QToolButton {
+  padding: 0px;
+  margin: 0px;
+  border: transparent;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: transparent; }
+
+#eagle-sch-design-manager HToolBar#ModeBar QToolButton,
+#eagle-pcb-design-manager HToolBar#ModeBar QToolButton,
+#eagle-lbr-design-manager HToolBar#ModeBar QToolButton,
+#eagle-sch-object-inspector HToolBar#ModeBar QToolButton,
+#eagle-pcb-object-inspector HToolBar#ModeBar QToolButton,
+#eagle-lbr-object-inspector HToolBar#ModeBar QToolButton,
+#eagle-sch-selection-filter HToolBar#ModeBar QToolButton,
+#eagle-pcb-selection-filter HToolBar#ModeBar QToolButton,
+#eagle-lbr-selection-filter HToolBar#ModeBar QToolButton {
+  border-radius: 0px;
+  border-width: 0px;
+  border-color: transparent;
+  color: rgba(57, 57, 57, 100%);
+  background-color: transparent;
+  border-style: solid;
+  height: 24px;
+  padding: 0px 8px 0px 8px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-bottom-width: 3px; }
+
+#eagle-sch-design-manager HToolBar#ModeBar QToolButton:hover,
+#eagle-pcb-design-manager HToolBar#ModeBar QToolButton:hover,
+#eagle-lbr-design-manager HToolBar#ModeBar QToolButton:hover,
+#eagle-sch-object-inspector HToolBar#ModeBar QToolButton:hover,
+#eagle-pcb-object-inspector HToolBar#ModeBar QToolButton:hover,
+#eagle-lbr-object-inspector HToolBar#ModeBar QToolButton:hover,
+#eagle-sch-selection-filter HToolBar#ModeBar QToolButton:hover,
+#eagle-pcb-selection-filter HToolBar#ModeBar QToolButton:hover,
+#eagle-lbr-selection-filter HToolBar#ModeBar QToolButton:hover {
+  border-color: #808080;
+  border-bottom-width: 3px;
+  padding: 0px 8px 0px 8px; }
+
+#eagle-sch-design-manager HToolBar#ModeBar QToolButton:checked,
+#eagle-pcb-design-manager HToolBar#ModeBar QToolButton:checked,
+#eagle-lbr-design-manager HToolBar#ModeBar QToolButton:checked,
+#eagle-sch-object-inspector HToolBar#ModeBar QToolButton:checked,
+#eagle-pcb-object-inspector HToolBar#ModeBar QToolButton:checked,
+#eagle-lbr-object-inspector HToolBar#ModeBar QToolButton:checked,
+#eagle-sch-selection-filter HToolBar#ModeBar QToolButton:checked,
+#eagle-pcb-selection-filter HToolBar#ModeBar QToolButton:checked,
+#eagle-lbr-selection-filter HToolBar#ModeBar QToolButton:checked {
+  color: rgba(6, 150, 215, 100%);
+  border-color: rgba(6, 150, 215, 100%);
+  border-bottom-width: 3px;
+  background-color: transparent; }
+
+#eagle-sch-design-manager HToolBar#ModeBar QToolButton:unchecked,
+#eagle-pcb-design-manager HToolBar#ModeBar QToolButton:unchecked,
+#eagle-lbr-design-manager HToolBar#ModeBar QToolButton:unchecked,
+#eagle-sch-object-inspector HToolBar#ModeBar QToolButton:unchecked,
+#eagle-pcb-object-inspector HToolBar#ModeBar QToolButton:unchecked,
+#eagle-lbr-object-inspector HToolBar#ModeBar QToolButton:unchecked,
+#eagle-sch-selection-filter HToolBar#ModeBar QToolButton:unchecked,
+#eagle-pcb-selection-filter HToolBar#ModeBar QToolButton:unchecked,
+#eagle-lbr-selection-filter HToolBar#ModeBar QToolButton:unchecked {
+  background-color: rgba(217, 217, 217, 100%);
+  color: #808080; }
+
+#eagle-sch-design-manager HToolBar#ModeBar QToolButton:pressed,
+#eagle-pcb-design-manager HToolBar#ModeBar QToolButton:pressed,
+#eagle-lbr-design-manager HToolBar#ModeBar QToolButton:pressed,
+#eagle-sch-object-inspector HToolBar#ModeBar QToolButton:pressed,
+#eagle-pcb-object-inspector HToolBar#ModeBar QToolButton:pressed,
+#eagle-lbr-object-inspector HToolBar#ModeBar QToolButton:pressed,
+#eagle-sch-selection-filter HToolBar#ModeBar QToolButton:pressed,
+#eagle-pcb-selection-filter HToolBar#ModeBar QToolButton:pressed,
+#eagle-lbr-selection-filter HToolBar#ModeBar QToolButton:pressed {
+  background: #808080;
+  color: rgba(255, 255, 255, 100%);
+  border-color: #808080;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px; }
+
+#eagle-sch-design-manager HToolBar#OptionsBar,
+#eagle-pcb-design-manager HToolBar#OptionsBar,
+#eagle-lbr-design-manager HToolBar#OptionsBar,
+#eagle-sch-object-inspector HToolBar#OptionsBar,
+#eagle-pcb-object-inspector HToolBar#OptionsBar,
+#eagle-lbr-object-inspector HToolBar#OptionsBar,
+#eagle-sch-selection-filter HToolBar#OptionsBar,
+#eagle-pcb-selection-filter HToolBar#OptionsBar,
+#eagle-lbr-selection-filter HToolBar#OptionsBar {
+  border: transparent; }
+
+#eagle-sch-design-manager HToolBar#OptionsBar QToolButton,
+#eagle-pcb-design-manager HToolBar#OptionsBar QToolButton,
+#eagle-lbr-design-manager HToolBar#OptionsBar QToolButton,
+#eagle-sch-object-inspector HToolBar#OptionsBar QToolButton,
+#eagle-pcb-object-inspector HToolBar#OptionsBar QToolButton,
+#eagle-lbr-object-inspector HToolBar#OptionsBar QToolButton,
+#eagle-sch-selection-filter HToolBar#OptionsBar QToolButton,
+#eagle-pcb-selection-filter HToolBar#OptionsBar QToolButton,
+#eagle-lbr-selection-filter HToolBar#OptionsBar QToolButton {
+  background-color: rgba(245, 245, 245, 100%);
+  border: 1px solid rgba(217, 217, 217, 100%); }
+
+#eagle-sch-design-manager HToolBar#OptionsBar QToolButton:hover,
+#eagle-pcb-design-manager HToolBar#OptionsBar QToolButton:hover,
+#eagle-lbr-design-manager HToolBar#OptionsBar QToolButton:hover,
+#eagle-sch-object-inspector HToolBar#OptionsBar QToolButton:hover,
+#eagle-pcb-object-inspector HToolBar#OptionsBar QToolButton:hover,
+#eagle-lbr-object-inspector HToolBar#OptionsBar QToolButton:hover,
+#eagle-sch-selection-filter HToolBar#OptionsBar QToolButton:hover,
+#eagle-pcb-selection-filter HToolBar#OptionsBar QToolButton:hover,
+#eagle-lbr-selection-filter HToolBar#OptionsBar QToolButton:hover {
+  background-color: rgba(217, 217, 217, 100%); }
+
+#eagle-sch-design-manager HToolBar#OptionsBar QToolButton:checked,
+#eagle-pcb-design-manager HToolBar#OptionsBar QToolButton:checked,
+#eagle-lbr-design-manager HToolBar#OptionsBar QToolButton:checked,
+#eagle-sch-object-inspector HToolBar#OptionsBar QToolButton:checked,
+#eagle-pcb-object-inspector HToolBar#OptionsBar QToolButton:checked,
+#eagle-lbr-object-inspector HToolBar#OptionsBar QToolButton:checked,
+#eagle-sch-selection-filter HToolBar#OptionsBar QToolButton:checked,
+#eagle-pcb-selection-filter HToolBar#OptionsBar QToolButton:checked,
+#eagle-lbr-selection-filter HToolBar#OptionsBar QToolButton:checked {
+  background-color: rgba(204, 204, 204, 100%); }
+
+#eagle-sch-design-manager HToolBar#OptionsBar QToolButton:pressed,
+#eagle-pcb-design-manager HToolBar#OptionsBar QToolButton:pressed,
+#eagle-lbr-design-manager HToolBar#OptionsBar QToolButton:pressed,
+#eagle-sch-object-inspector HToolBar#OptionsBar QToolButton:pressed,
+#eagle-pcb-object-inspector HToolBar#OptionsBar QToolButton:pressed,
+#eagle-lbr-object-inspector HToolBar#OptionsBar QToolButton:pressed,
+#eagle-sch-selection-filter HToolBar#OptionsBar QToolButton:pressed,
+#eagle-pcb-selection-filter HToolBar#OptionsBar QToolButton:pressed,
+#eagle-lbr-selection-filter HToolBar#OptionsBar QToolButton:pressed {
+  background-color: #808080;
+  border-color: #808080; }
+
+#eagle-sch-design-manager #ShowTitleDockWidget,
+#eagle-pcb-design-manager #ShowTitleDockWidget,
+#eagle-lbr-design-manager #ShowTitleDockWidget,
+#eagle-sch-object-inspector #ShowTitleDockWidget,
+#eagle-pcb-object-inspector #ShowTitleDockWidget,
+#eagle-lbr-object-inspector #ShowTitleDockWidget,
+#eagle-sch-selection-filter #ShowTitleDockWidget,
+#eagle-pcb-selection-filter #ShowTitleDockWidget,
+#eagle-lbr-selection-filter #ShowTitleDockWidget {
+  background-color: rgba(217, 217, 217, 100%);
+  color: rgba(255, 255, 255, 100%);
+  border-bottom: 1px solid rgba(204, 204, 204, 100%);
+  padding: 0px;
+  margin: 0px;
+  max-height: 32px; }
+
+#eagle-sch-design-manager #ShowTitleDockWidget QWidget,
+#eagle-pcb-design-manager #ShowTitleDockWidget QWidget,
+#eagle-lbr-design-manager #ShowTitleDockWidget QWidget,
+#eagle-sch-object-inspector #ShowTitleDockWidget QWidget,
+#eagle-pcb-object-inspector #ShowTitleDockWidget QWidget,
+#eagle-lbr-object-inspector #ShowTitleDockWidget QWidget,
+#eagle-sch-selection-filter #ShowTitleDockWidget QWidget,
+#eagle-pcb-selection-filter #ShowTitleDockWidget QWidget,
+#eagle-lbr-selection-filter #ShowTitleDockWidget QWidget {
+  border: none;
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 5px;
+  margin-top: 5px; }
+
+#eagle-sch-design-manager #ShowTitleDockWidget QLabel,
+#eagle-pcb-design-manager #ShowTitleDockWidget QLabel,
+#eagle-lbr-design-manager #ShowTitleDockWidget QLabel,
+#eagle-sch-object-inspector #ShowTitleDockWidget QLabel,
+#eagle-pcb-object-inspector #ShowTitleDockWidget QLabel,
+#eagle-lbr-object-inspector #ShowTitleDockWidget QLabel,
+#eagle-sch-selection-filter #ShowTitleDockWidget QLabel,
+#eagle-pcb-selection-filter #ShowTitleDockWidget QLabel,
+#eagle-lbr-selection-filter #ShowTitleDockWidget QLabel {
+  color: #3c3c3c; }
+
+#eagle-sch-design-manager QPushButton#DockWidgetTitleBtn:hover,
+#eagle-pcb-design-manager QPushButton#DockWidgetTitleBtn:hover,
+#eagle-lbr-design-manager QPushButton#DockWidgetTitleBtn:hover,
+#eagle-sch-object-inspector QPushButton#DockWidgetTitleBtn:hover,
+#eagle-pcb-object-inspector QPushButton#DockWidgetTitleBtn:hover,
+#eagle-lbr-object-inspector QPushButton#DockWidgetTitleBtn:hover,
+#eagle-sch-selection-filter QPushButton#DockWidgetTitleBtn:hover,
+#eagle-pcb-selection-filter QPushButton#DockWidgetTitleBtn:hover,
+#eagle-lbr-selection-filter QPushButton#DockWidgetTitleBtn:hover {
+  border-radius: 3px;
+  background-color: #bbbbbb; }
+
+#eagle-sch-design-manager DesignManagerFilterTab QPushButton,
+#eagle-sch-design-manager DesignManagerFilterTab QPushButton:pressed,
+#eagle-sch-design-manager DesignManagerFilterTab QPushButton:pressed:focus,
+#eagle-sch-design-manager DesignManagerFilterTab QPushButton:pressed:hover,
+#eagle-pcb-design-manager DesignManagerFilterTab QPushButton,
+#eagle-pcb-design-manager DesignManagerFilterTab QPushButton:pressed,
+#eagle-pcb-design-manager DesignManagerFilterTab QPushButton:pressed:focus,
+#eagle-pcb-design-manager DesignManagerFilterTab QPushButton:pressed:hover,
+#eagle-lbr-design-manager DesignManagerFilterTab QPushButton,
+#eagle-lbr-design-manager DesignManagerFilterTab QPushButton:pressed,
+#eagle-lbr-design-manager DesignManagerFilterTab QPushButton:pressed:focus,
+#eagle-lbr-design-manager DesignManagerFilterTab QPushButton:pressed:hover {
+  background-color: white;
+  border: 1px solid rgba(255, 255, 255, 100%);
+  border-radius: 0px;
+  color: #111111;
+  padding: 3px 2px;
+  border: 1px solid #C0C0C0; }
+
+#eagle-sch-design-manager DesignManagerFilterTab QPushButton:focus,
+#eagle-pcb-design-manager DesignManagerFilterTab QPushButton:focus,
+#eagle-lbr-design-manager DesignManagerFilterTab QPushButton:focus {
+  border: 1px solid rgba(255, 255, 255, 100%);
+  background-color: rgba(204, 204, 204, 100%); }
+
+#eagle-sch-design-manager DesignManagerFilterTab QPushButton:hover,
+#eagle-pcb-design-manager DesignManagerFilterTab QPushButton:hover,
+#eagle-lbr-design-manager DesignManagerFilterTab QPushButton:hover {
+  background-color: #f0f0f0;
+  border-color: rgba(255, 255, 255, 100%); }
+
+#eagle-sch-design-manager DesignManagerFilterTab QPushButton:hover:focus,
+#eagle-pcb-design-manager DesignManagerFilterTab QPushButton:hover:focus,
+#eagle-lbr-design-manager DesignManagerFilterTab QPushButton:hover:focus {
+  background-color: #dcedf5;
+  border-color: #7ea8cc; }
+
+#eagle-sch-editor-window QScrollBar, #eagle-lbr-editor-window QScrollBar {
+  background-color: transparent; }
+
+cManageLibrariesDialog QWidget,
+cCamExporterInterface QWidget,
+OneClickMfgOverview QWidget,
+cManufacturingFlyOut QWidget,
+[applicationQssScope="eagle"] QWidget {
+  font-size: 12px; }
+
+cManageLibrariesDialog cObjectContextMenu,
+cCamExporterInterface cObjectContextMenu,
+OneClickMfgOverview cObjectContextMenu,
+cManufacturingFlyOut cObjectContextMenu,
+[applicationQssScope="eagle"] cObjectContextMenu {
+  border: 1px solid rgba(204, 204, 204, 100%); }
+
+cManageLibrariesDialog cParameterBar QLabel,
+cCamExporterInterface cParameterBar QLabel,
+OneClickMfgOverview cParameterBar QLabel,
+cManufacturingFlyOut cParameterBar QLabel,
+[applicationQssScope="eagle"] cParameterBar QLabel {
+  margin-right: 8px; }
+
+cManageLibrariesDialog cCommandButtonMenu QToolButton,
+cCamExporterInterface cCommandButtonMenu QToolButton,
+OneClickMfgOverview cCommandButtonMenu QToolButton,
+cManufacturingFlyOut cCommandButtonMenu QToolButton,
+[applicationQssScope="eagle"] cCommandButtonMenu QToolButton {
+  margin-top: 2px;
+  margin-bottom: 2px; }
+
+cManageLibrariesDialog QToolTip,
+cCamExporterInterface QToolTip,
+OneClickMfgOverview QToolTip,
+cManufacturingFlyOut QToolTip,
+[applicationQssScope="eagle"] QToolTip {
+  color: rgba(0, 0, 0, 100%);
+  text-align: center;
+  vertical-align: center; }
+
+cManageLibrariesDialog QMenu,
+cCamExporterInterface QMenu,
+OneClickMfgOverview QMenu,
+cManufacturingFlyOut QMenu,
+[applicationQssScope="eagle"] QMenu {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+cManageLibrariesDialog QTabBar::tab,
+cCamExporterInterface QTabBar::tab,
+OneClickMfgOverview QTabBar::tab,
+cManufacturingFlyOut QTabBar::tab,
+[applicationQssScope="eagle"] QTabBar::tab {
+  font-weight: normal;
+  padding: 0px 12px; }
+
+cManageLibrariesDialog QTableView QHeaderView::section,
+cCamExporterInterface QTableView QHeaderView::section,
+OneClickMfgOverview QTableView QHeaderView::section,
+cManufacturingFlyOut QTableView QHeaderView::section,
+[applicationQssScope="eagle"] QTableView QHeaderView::section {
+  min-height: 32px;
+  background-color: rgba(245, 245, 245, 100%);
+  color: #3c3c3c;
+  border: 1px solid rgba(217, 217, 217, 100%);
+  font-size: 14px; }
+
+cManageLibrariesDialog QToolBar QComboBox,
+cCamExporterInterface QToolBar QComboBox,
+OneClickMfgOverview QToolBar QComboBox,
+cManufacturingFlyOut QToolBar QComboBox,
+[applicationQssScope="eagle"] QToolBar QComboBox {
+  margin-right: 4px; }
+
+cManageLibrariesDialog QToolBar::separator::horizontal,
+cCamExporterInterface QToolBar::separator::horizontal,
+OneClickMfgOverview QToolBar::separator::horizontal,
+cManufacturingFlyOut QToolBar::separator::horizontal,
+[applicationQssScope="eagle"] QToolBar::separator::horizontal {
+  margin-left: 4px;
+  margin-right: 4px; }
+
+cManageLibrariesDialog QSlider,
+cCamExporterInterface QSlider,
+OneClickMfgOverview QSlider,
+cManufacturingFlyOut QSlider,
+[applicationQssScope="eagle"] QSlider {
+  margin-top: 4px; }
+
+cManageLibrariesDialog QGroupBox::indicator,
+cCamExporterInterface QGroupBox::indicator,
+OneClickMfgOverview QGroupBox::indicator,
+cManufacturingFlyOut QGroupBox::indicator,
+[applicationQssScope="eagle"] QGroupBox::indicator {
+  margin-top: 2px; }
+
+cManageLibrariesDialog cPanelTree::item,
+cCamExporterInterface cPanelTree::item,
+OneClickMfgOverview cPanelTree::item,
+cManufacturingFlyOut cPanelTree::item,
+[applicationQssScope="eagle"] cPanelTree::item {
+  max-height: 18px; }
+
+cManageLibrariesDialog QToolBar QToolButton#UserQTB::menu-button,
+cCamExporterInterface QToolBar QToolButton#UserQTB::menu-button,
+OneClickMfgOverview QToolBar QToolButton#UserQTB::menu-button,
+cManufacturingFlyOut QToolBar QToolButton#UserQTB::menu-button,
+[applicationQssScope="eagle"] QToolBar QToolButton#UserQTB::menu-button {
+  background: transparent;
+  border: transparent;
+  margin-left: 12px;
+  padding-right: 12px;
+  padding-left: 0px; }
+
+cManageLibrariesDialog QToolBar QToolButton#UserQTB::menu-arrow,
+cCamExporterInterface QToolBar QToolButton#UserQTB::menu-arrow,
+OneClickMfgOverview QToolBar QToolButton#UserQTB::menu-arrow,
+cManufacturingFlyOut QToolBar QToolButton#UserQTB::menu-arrow,
+[applicationQssScope="eagle"] QToolBar QToolButton#UserQTB::menu-arrow {
+  top: 5px;
+  left: 2px;
+  margin-left: 3px;
+  image: url(:/qss/icons/combobox_down_arrow.svg); }
+
+cManageLibrariesDialog HToolBar#ModeBar QToolButton,
+cCamExporterInterface HToolBar#ModeBar QToolButton,
+OneClickMfgOverview HToolBar#ModeBar QToolButton,
+cManufacturingFlyOut HToolBar#ModeBar QToolButton,
+[applicationQssScope="eagle"] HToolBar#ModeBar QToolButton {
+  margin-left: 2px;
+  margin-right: 2px; }
+
+cManageLibrariesDialog #FilterLineExpression > QToolTip,
+cCamExporterInterface #FilterLineExpression > QToolTip,
+OneClickMfgOverview #FilterLineExpression > QToolTip,
+cManufacturingFlyOut #FilterLineExpression > QToolTip,
+[applicationQssScope="eagle"] #FilterLineExpression > QToolTip {
+  font-size: 10px;
+  background-color: rgba(255, 255, 255, 100%);
+  border-radius: 2px;
+  color: black;
+  opacity: 235;
+  min-height: 24px;
+  min-width: 600px;
+  padding: 4px;
+  white-space: nowrap;
+  border-top: 6px solid transparent;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+  text-align: center; }

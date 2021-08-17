@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="ElectronComponentRootDefaultUserName" devLabel="ElectronComponent" translation="ElectronComponent"/>
+	<label commandName="ElectronDesignDocumentsNotInSync" devLabel="Board and schematic are not consistent!&#xA;&#xA;No forward-/backannotation will be performed!&#xA;&#xA;Use the ERC command to get a detailed error report." translation="Le circuit imprimé et le schéma sont incohérents.&#xA;&#xA;Aucune annotation avant/arrière ne sera effectuée.&#xA;&#xA;Utilisez la commande ERC pour obtenir un rapport d'erreurs détaillé."/>
+	<label commandName="ElectronExtFileBlobSerializer" devLabel="Electron failed to generate a small thumbnail." translation="Electron n'a pas pu générer de petite miniature."/>
+	<label commandName="ElectronLbrDocAssetType" devLabel="Library Document Asset" translation="Ressource de document de bibliothèque"/>
+	<label commandName="ElectronOptionGroupUserName" devLabel="ECAD" translation="ECAD"/>
+	<label commandName="ElectronPcbDocAssetType" devLabel="PCB Document Asset" translation="Ressource de document de carte de circuit imprimé"/>
+	<label commandName="ElectronProjectDocAssetType" devLabel="Electronics Design Document Asset" translation="Ressource de document de conception électronique"/>
+	<label commandName="ElectronSchDocAssetType" devLabel="Schematic Document Asset" translation="Ressource de document de schéma"/>
+	<label commandName="PCB2dUpdateToLatestConfirm" devLabel="The linked PCB2d file has new version(s).&#xA;Do you want to load the latest version?" translation="Le fichier de carte de circuit imprimé 2D lié présente une ou plusieurs nouvelles versions.&#xA;Voulez-vous charger la dernière version?"/>
+	<label commandName="PCB3dUpdateToLatestConfirm" devLabel="The linked PCB3d file has new version(s).&#xA;Do you want to load the latest version?" translation="Le fichier de carte de circuit imprimé 3D lié présente une ou plusieurs nouvelles versions.&#xA;Voulez-vous charger la dernière version?"/>
+	<label commandName="PCBUpdateToLatestConfirm" devLabel="The linked PCB file has new version(s).&#xA;Do you want to load the latest version?" translation="Le fichier de carte de circuit imprimé lié présente une ou plusieurs nouvelles versions.&#xA;Voulez-vous charger la dernière version?"/>
+	<label commandName="SCHUpdateToLatestConfirm" devLabel="The linked Schematic file has new version(s).&#xA;Do you want to load the latest version?" translation="Le fichier de schéma lié présente une ou plusieurs nouvelles versions.&#xA;Voulez-vous charger la dernière version?"/>
+	<label commandName="UnsavedDocumentLabel" devLabel="(Unsaved)" translation="(Non enregistré)"/>
+	<label commandName="UpdateToLatestConfirm" devLabel="The linked file has new version(s).&#xA;Do you want to load the latest version?" translation="Le fichier lié présente une ou plusieurs nouvelles versions.&#xA;Voulez-vous charger la dernière version?"/>
+</Resource>

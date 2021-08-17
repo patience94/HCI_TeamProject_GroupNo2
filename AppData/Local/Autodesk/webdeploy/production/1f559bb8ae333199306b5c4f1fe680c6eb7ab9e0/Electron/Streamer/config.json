@@ -1,0 +1,38 @@
+{
+    "apps" : {
+        "73e72ada57b7480280f7a6f4a289729f" : {
+            "friendly_name" : "Fusion 360",
+            "entitlement_id" : "Fusion360",
+            "ensighten_id" : "fusion-360",
+            "list_order" : 0,
+            "major-update-version" : "2.0.1986",
+            "major-update-version-list" : [],
+            "build-admin" : true,
+            "admin-install-docs" : "content/Fusion 360 Lab Installation.pdf",
+            "allow-chat" : true
+        }
+    },
+    "landing_sites" : {
+        "dev" : "http://adsk-streamingdeploy-dev.elasticbeanstalk.com/install/app/",
+        "QualityUpdate" : "http://qualityupdate.appstreaming.autodesk.com/install/app/",
+        "stabilize" : "http://stabilize.appstreaming.autodesk.com/install/app/",
+        "staging" : "http://staging.appstreaming.autodesk.com/install/app/",
+        "production" : "http://www.appstreaming.autodesk.com/install/app/"
+    },
+
+    "qontext_streamer_map" : {
+        "Dev" : "dev",
+        "Stg" : "staging",
+        "Prod" : "production"
+    },
+
+    "streamer_ensighten_map" : {
+        "dev" : "qa",
+        "staging" : "stg",
+        "production" : "prod",
+        "default" : "qa"
+    },
+
+    "streamer_name_template" : "{0} Client Downloader",
+    "admin_streamer_template" : "{0} Admin Install"
+}

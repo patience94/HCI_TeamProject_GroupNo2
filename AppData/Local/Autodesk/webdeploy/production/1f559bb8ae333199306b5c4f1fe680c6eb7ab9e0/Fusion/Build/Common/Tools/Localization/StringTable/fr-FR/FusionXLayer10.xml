@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="lclzInsertingDistributedDesignNotSupported" devLabel="Inserting a distributed design from another project is not currently supported." translation="L'insertion d'une conception distribuée provenant d'un autre projet n'est pas prise en charge."/>
+</Resource>

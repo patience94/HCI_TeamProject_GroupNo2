@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<materialDumpRoot>
+  <Component ComponentName="(Unsaved)">
+    <BrepBody BodyName="Body1">
+      <PhysicalMaterial Density="0.00602" LinearExpansion="0.0000001" PhysicalMaterialName="Discrete Component" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-402" SpecificHeat="5270000" ThermalConductivity="600" UltimateTensileStrength="0.1" YieldStrength="682100" YoungsModulus="29000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body2">
+      <PhysicalMaterial Density="0.00602" LinearExpansion="0.0000001" PhysicalMaterialName="Discrete Component" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-402" SpecificHeat="5270000" ThermalConductivity="600" UltimateTensileStrength="0.1" YieldStrength="682100" YoungsModulus="29000000"/>
+      <VisualMaterial Luminescence="0" ProteinMaterialID="PrismMaterial-402_physmat_aspects:Prism-113" ProteinMaterialScale="1" Reflectance="0.0529" Roughness="0.707107" TranslucencyDepth="0.5" VisualMaterialName="BGA Middle Body" proteinMaterialRotation="0"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body3">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body4">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body5">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body6">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body7">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body8">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body9">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body10">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body11">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body12">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body13">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body14">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body15">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body16">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body17">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body18">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body19">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body20">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body21">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body22">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body23">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body24">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body25">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body26">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body27">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body28">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body29">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body30">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body31">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body32">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body33">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body34">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body35">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body36">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body37">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body38">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body39">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body40">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body41">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body42">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body43">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body44">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body45">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body46">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body47">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body48">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body49">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body50">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body51">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body52">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body53">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body54">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body55">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body56">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body57">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body58">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body59">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body60">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body61">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body62">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body63">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body64">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body65">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body66">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body67">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body68">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body69">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body70">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body71">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body72">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body73">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body74">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body75">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body76">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body77">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body78">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body79">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body80">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body81">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body82">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body83">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body84">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body85">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body86">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body87">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body88">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body89">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body90">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body91">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body92">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body93">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body94">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body95">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body96">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body97">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body98">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body99">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body100">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body101">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body102">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body103">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body104">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body105">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body106">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body107">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body108">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body109">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body110">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body111">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body112">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body113">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body114">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body115">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body116">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body117">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body118">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body119">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body120">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body121">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body122">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+    <BrepBody BodyName="Body123">
+      <PhysicalMaterial Density="0.0084" LinearExpansion="0.0000001" PhysicalMaterialName="63Sn37Pb" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-404" SpecificHeat="10000000" ThermalConductivity="5000" UltimateTensileStrength="0.1" YieldStrength="430000" YoungsModulus="300000000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+  </Component>
+</materialDumpRoot>

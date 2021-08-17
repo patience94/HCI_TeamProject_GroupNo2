@@ -1,0 +1,78 @@
+[
+  {
+    "id": "generalGroup", "displayName": "General", "order": 1, "format": 0, "readonly": true,
+    "children": [
+      { "id": "partNumber" , "propPath": { "typeIds": "/", "compName": "product", "propName": "partNumber"  }, "displayName": "Part Number" , "order": 1, "readonly": false, "format": 0 },
+      { "id": "partName"   , "propPath": { "typeIds": "/", "compName": "product", "propName": "partName"    }, "displayName": "Part Name"   , "order": 2, "readonly": false , "format": 0 },
+      { "id": "title"      , "propPath": { "typeIds": "/", "compName": "product", "propName": "title"       }, "displayName": "Title"       , "order": 3, "readonly": false, "format": 0 },
+      { "id": "description", "propPath": { "typeIds": "/", "compName": "product", "propName": "description" }, "displayName": "Description" , "order": 4, "readonly": false, "format": 0 },
+      { "id": "project"    , "propPath": { "typeIds": "/", "compName": "product", "propName": "project"     }, "displayName": "Project"     , "order": 5, "readonly": false, "format": 0 },
+      { "id": "stockNumber", "propPath": { "typeIds": "/", "compName": "product", "propName": "stockNumber" }, "displayName": "Stock Number", "order": 6, "readonly": false, "format": 0 }
+    ]
+  },
+  {
+    "id": "statusGroup", "displayName": "Status", "order": 2, "format": 0, "readonly": true,
+    "children": [
+      { "id": "status"               , "propPath": { "typeIds": "/", "compName": "product", "propName": "status"                }, "displayName": "Status"                , "order": 1, "readonly": false, "format": 0 },
+      { "id": "approvedBy"           , "propPath": { "typeIds": "/", "compName": "product", "propName": "approvedBy"            }, "displayName": "Approved By"           , "order": 2, "readonly": false, "format": 0 },
+      { "id": "designer"             , "propPath": { "typeIds": "/", "compName": "product", "propName": "designer"              }, "displayName": "Designer"              , "order": 3, "readonly": false, "format": 0 },
+      { "id": "manufacturingEngineer", "propPath": { "typeIds": "/", "compName": "product", "propName": "manufacturingEngineer" }, "displayName": "Manufacturing Engineer", "order": 4, "readonly": false, "format": 0 },
+      { "id": "mechanicalEngineer"   , "propPath": { "typeIds": "/", "compName": "product", "propName": "mechanicalEngineer"    }, "displayName": "Mechanical Engineer"   , "order": 5, "readonly": false, "format": 0 },
+      { "id": "manufacturer"         , "propPath": { "typeIds": "/", "compName": "product", "propName": "manufacturer"          }, "displayName": "Manufacturer"          , "order": 6, "readonly": false, "format": 0 }
+    ]
+  },
+  {
+    "id": "physicalGroup", "displayName": "Physical", "order": 3, "format": 0, "readonly": true,
+    "children": [
+      { "id": "mass"          , "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "mass"           }, "displayName": "Mass"          , "order": 1, "readonly": true, "format": 1 },
+      { "id": "material"      , "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "material"       }, "displayName": "Material"      , "order": 2, "readonly": true, "format": 0 },
+      { "id": "volume"        , "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "volume"         }, "displayName": "Volume"        , "order": 3, "readonly": true, "format": 1 },
+      { "id": "density"       , "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "density"        }, "displayName": "Density"       , "order": 4, "readonly": true, "format": 1 },
+      { "id": "area"          , "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "area"           }, "displayName": "Area"          , "order": 5, "readonly": true, "format": 1 },
+      { "id": "World X,Y,Z"   , "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "World X,Y,Z"    }, "displayName": "World X,Y,Z"   , "order": 6, "readonly": true, "format": 1 },
+      { "id": "Center of Mass", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "Center of Mass" }, "displayName": "Center of Mass", "order": 7, "readonly": true, "format": 1 },
+      { "id": "boundingBox", "displayName": "Bounding Box", "order": 8, "format": 0, "readonly": true,
+        "children": [
+          { "id": "length", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "length"}, "displayName": "Length", "order": 1, "readonly": true, "format": 1 },
+          { "id": "width" , "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "width" }, "displayName": "Width" , "order": 2, "readonly": true, "format": 1 },
+          { "id": "height", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "height"}, "displayName": "Height", "order": 3, "readonly": true, "format": 1 }
+        ]
+      },
+      { "id": "momentMassGroup", "displayName": "Moment of Inertia at Center of Mass", "order": 9, "format": 0, "readonly": true,
+        "children": [
+          { "id": "mIxx", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "mIxx"}, "displayName": "Ixx", "order": 1, "readonly": true, "format": 0 },
+          { "id": "mIxy", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "mIxy"}, "displayName": "Ixy", "order": 2, "readonly": true, "format": 0 },
+          { "id": "mIxz", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "mIxz"}, "displayName": "Ixz", "order": 3, "readonly": true, "format": 0 },
+          { "id": "mIyx", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "mIyx"}, "displayName": "Iyx", "order": 4, "readonly": true, "format": 0 },
+          { "id": "mIyy", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "mIyy"}, "displayName": "Iyy", "order": 5, "readonly": true, "format": 0 },
+          { "id": "mIyz", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "mIyz"}, "displayName": "Iyz", "order": 6, "readonly": true, "format": 0 },
+          { "id": "mIzx", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "mIzx"}, "displayName": "Izx", "order": 7, "readonly": true, "format": 0 },
+          { "id": "mIzy", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "mIzy"}, "displayName": "Izy", "order": 8, "readonly": true, "format": 0 },
+          { "id": "mIzz", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "mIzz"}, "displayName": "Izz", "order": 9, "readonly": true, "format": 0 }
+        ]
+      },
+      { "id": "momentOriginGroup", "displayName": "Moment of Inertia at Origin", "order": 10, "format": 0, "readonly": true,
+        "children": [
+          { "id": "oIxx", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "oIxx"}, "displayName": "Ixx", "order": 1, "readonly": true, "format": 0 },
+          { "id": "oIxy", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "oIxy"}, "displayName": "Ixy", "order": 2, "readonly": true, "format": 0 },
+          { "id": "oIxz", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "oIxz"}, "displayName": "Ixz", "order": 3, "readonly": true, "format": 0 },
+          { "id": "oIyx", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "oIyx"}, "displayName": "Iyx", "order": 4, "readonly": true, "format": 0 },
+          { "id": "oIyy", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "oIyy"}, "displayName": "Iyy", "order": 5, "readonly": true, "format": 0 },
+          { "id": "oIyz", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "oIyz"}, "displayName": "Iyz", "order": 6, "readonly": true, "format": 0 },
+          { "id": "oIzx", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "oIzx"}, "displayName": "Izx", "order": 7, "readonly": true, "format": 0 },
+          { "id": "oIzy", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "oIzy"}, "displayName": "Izy", "order": 8, "readonly": true, "format": 0 },
+          { "id": "oIzz", "propPath": { "typeIds": "/autodesk.product:assets.design", "compName": "physicalProperties", "propName": "oIzz"}, "displayName": "Izz", "order": 9, "readonly": true, "format": 0 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "manageGroup", "displayName": "Manage", "order": 4, "format": 0, "readonly": true,
+    "children": [
+      { "id": "urn", "propPath": { "typeIds": "/autodesk.product:assets.lifecycle", "compName": "lifecycle", "propName": "URN" }, "displayName": "Urn", "order": 1, "readonly": true, "format": 0 },
+      { "id": "descriptor", "propPath": { "typeIds": "/autodesk.product:assets.lifecycle", "compName": "lifecycle", "propName": "descriptor" }, "displayName": "Descriptor", "order": 1, "readonly": true, "format": 0 },
+      { "id": "lifecycle", "propPath": { "typeIds": "/autodesk.product:assets.lifecycle", "compName": "lifecycle", "propName": "lifecycle" }, "displayName": "Lifecycle", "order": 2, "readonly": true, "format": 0 },
+      { "id": "revision", "propPath": { "typeIds": "/autodesk.product:assets.lifecycle", "compName": "lifecycle", "propName": "revision" }, "displayName": "Revision", "order": 4, "readonly": true, "format": 0 }
+    ]
+  }
+]

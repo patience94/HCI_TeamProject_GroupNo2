@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root DllName="NaEagleTranslator10" Identifier="EagleTranslator" IsCoreAddIn="0" IsUIAddIn="0" 
+      IsTranslatorAddIn="1" Name="EagleTranslator" FileFilterExt="*.sch;*.brd;*.lbr" FileFilterDescription="LOCID=EagleFileFilterDescription" 
+      SupportImport="1" SupportExport="1">
+  <LOC Module="NaEagleTranslator" _LCLZId="EagleFileFilterDescription" _LCLZText="EAGLE Schematic Files (*.sch);;EAGLE Board Files (*.brd);;EAGLE Libraries Files (*.lbr)"/>
+  <NeededAddIns>
+    <NeededAddIn>Scene</NeededAddIn>
+    <NeededAddIn>CommonData</NeededAddIn>
+    <NeededAddIn>Component</NeededAddIn>
+    <NeededAddIn>Body</NeededAddIn>
+  </NeededAddIns>
+  <SupportedAssetTypes>
+    <SupportedAssetType>ElectronAssetType</SupportedAssetType>
+    <SupportedAssetType>ElectronSchDocAssetType</SupportedAssetType>
+    <SupportedAssetType>ElectronPcbDocAssetType</SupportedAssetType>
+    <SupportedAssetType>ElectronLbrDocAssetType</SupportedAssetType>
+  </SupportedAssetTypes>
+</root>

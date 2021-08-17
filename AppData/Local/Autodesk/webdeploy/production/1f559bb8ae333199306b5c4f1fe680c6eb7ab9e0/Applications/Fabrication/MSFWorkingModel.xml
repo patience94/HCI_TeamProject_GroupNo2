@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root DllName="MSFWorkingModel" Identifier="MSFWorkingModel" IsCoreAddIn="0" IsUIAddIn="0" IsApplicationAddIn="1" AppName="Fabrication" Name="MSFWorkingModel">
+  <NeededAddIns>
+    <NeededAddIn>Scene</NeededAddIn>
+    <NeededAddIn>CommonData</NeededAddIn>
+    <NeededAddIn>Body</NeededAddIn>
+    <NeededAddIn>Component</NeededAddIn>
+    <NeededAddIn>EntityTracking</NeededAddIn>
+    <NeededAddIn>Fusion</NeededAddIn>
+  </NeededAddIns>
+  <AssetType Name="MfgWorkingModelAsset" Identifier="MfgWorkingModelAssetType" BaseServerIdentifier="Neutron3DAssetType" AddInId="MSFWorkingModel" DefaultDocTypeId="NeutronDocumentType"/>
+</root>

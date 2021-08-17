@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FusionBrowserDumpRoot>
+  <FusionComponentInstanceBrowserEntry Enable="Yes" ShowBulb="Yes" Text="(Unsaved)" Visible="Yes">
+    <DocumentSettingsBrowserEntry Enable="Yes" ShowBulb="No" Text="Document Settings" Visible="No">
+      <UnitsBrowserEntry Enable="Yes" ShowBulb="No" Text="Units: mm" Visible="Yes"/>
+    </DocumentSettingsBrowserEntry>
+    <NamedViewsBrowserEntry Enable="Yes" ShowBulb="No" Text="Named Views" Visible="Yes">
+      <NamedViewBrowserEntry Enable="Yes" ShowBulb="No" Text="TOP" Visible="No"/>
+      <NamedViewBrowserEntry Enable="Yes" ShowBulb="No" Text="FRONT" Visible="No"/>
+      <NamedViewBrowserEntry Enable="Yes" ShowBulb="No" Text="RIGHT" Visible="No"/>
+      <NamedViewBrowserEntry Enable="Yes" ShowBulb="No" Text="HOME" Visible="No"/>
+    </NamedViewsBrowserEntry>
+    <OriginWorkGeometryBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Origin" Visible="No">
+      <WorkPointBrowserEntry Enable="Yes" ShowBulb="Yes" Text="O" Visible="Yes"/>
+      <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="X" Visible="Yes"/>
+      <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Y" Visible="Yes"/>
+      <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Z" Visible="Yes"/>
+      <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="XY" Visible="Yes"/>
+      <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="XZ" Visible="Yes"/>
+      <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="YZ" Visible="Yes"/>
+    </OriginWorkGeometryBrowserEntry>
+    <FusionJointsBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Joints" Visible="Yes">
+      <FusionJointBrowserEntry Enable="Yes" ShowBulb="No" Text="RigidGroup1" Visible="Yes"/>
+    </FusionJointsBrowserEntry>
+    <FusionBodiesBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Bodies" Visible="Yes">
+      <BodyBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Board" Visible="Yes"/>
+    </FusionBodiesBrowserEntry>
+    <CanvasesBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Canvases" Visible="Yes">
+      <CanvasBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Silkscreen Top" Visible="Yes"/>
+      <CanvasBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Silkscreen Bottom" Visible="Yes"/>
+    </CanvasesBrowserEntry>
+    <FusionSketchesBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Sketches" Visible="Yes">
+      <FusionMSketchBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Outline" Visible="No"/>
+    </FusionSketchesBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Enable="Yes" ShowBulb="Yes" Text="1-copper:1" Visible="Yes">
+      <DefaultTransform>(1,0,0,0)(0,1,0,0)(0,0,1,0.15)(0,0,0,1)</DefaultTransform>
+      <OriginWorkGeometryBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Origin" Visible="No">
+        <WorkPointBrowserEntry Enable="Yes" ShowBulb="Yes" Text="O" Visible="Yes"/>
+        <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="X" Visible="Yes"/>
+        <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Y" Visible="Yes"/>
+        <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Z" Visible="Yes"/>
+        <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="XY" Visible="Yes"/>
+        <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="XZ" Visible="Yes"/>
+        <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="YZ" Visible="Yes"/>
+      </OriginWorkGeometryBrowserEntry>
+    </FusionComponentInstanceBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Enable="Yes" ShowBulb="Yes" Text="16-copper:1" Visible="Yes">
+      <DefaultTransform>(1,0,0,0)(0,1,0,0)(0,0,1,-0.0035)(0,0,0,1)</DefaultTransform>
+      <OriginWorkGeometryBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Origin" Visible="No">
+        <WorkPointBrowserEntry Enable="Yes" ShowBulb="Yes" Text="O" Visible="Yes"/>
+        <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="X" Visible="Yes"/>
+        <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Y" Visible="Yes"/>
+        <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Z" Visible="Yes"/>
+        <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="XY" Visible="Yes"/>
+        <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="XZ" Visible="Yes"/>
+        <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="YZ" Visible="Yes"/>
+      </OriginWorkGeometryBrowserEntry>
+    </FusionComponentInstanceBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Enable="Yes" ShowBulb="Yes" Text="1-soldermask:1" Visible="Yes">
+      <DefaultTransform>(1,0,0,0)(0,1,0,0)(0,0,1,0.15)(0,0,0,1)</DefaultTransform>
+      <OriginWorkGeometryBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Origin" Visible="No">
+        <WorkPointBrowserEntry Enable="Yes" ShowBulb="Yes" Text="O" Visible="Yes"/>
+        <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="X" Visible="Yes"/>
+        <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Y" Visible="Yes"/>
+        <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Z" Visible="Yes"/>
+        <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="XY" Visible="Yes"/>
+        <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="XZ" Visible="Yes"/>
+        <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="YZ" Visible="Yes"/>
+      </OriginWorkGeometryBrowserEntry>
+      <FusionBodiesBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Bodies" Visible="Yes">
+        <BodyBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Body1" Visible="Yes"/>
+      </FusionBodiesBrowserEntry>
+    </FusionComponentInstanceBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Enable="Yes" ShowBulb="Yes" Text="16-soldermask:1" Visible="Yes">
+      <OriginWorkGeometryBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Origin" Visible="No">
+        <WorkPointBrowserEntry Enable="Yes" ShowBulb="Yes" Text="O" Visible="Yes"/>
+        <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="X" Visible="Yes"/>
+        <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Y" Visible="Yes"/>
+        <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Z" Visible="Yes"/>
+        <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="XY" Visible="Yes"/>
+        <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="XZ" Visible="Yes"/>
+        <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="YZ" Visible="Yes"/>
+      </OriginWorkGeometryBrowserEntry>
+      <FusionBodiesBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Bodies" Visible="Yes">
+        <BodyBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Body1" Visible="Yes"/>
+      </FusionBodiesBrowserEntry>
+    </FusionComponentInstanceBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Packages:1" Visible="Yes">
+      <OriginWorkGeometryBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Origin" Visible="No">
+        <WorkPointBrowserEntry Enable="Yes" ShowBulb="Yes" Text="O" Visible="Yes"/>
+        <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="X" Visible="Yes"/>
+        <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Y" Visible="Yes"/>
+        <WorkAxisBrowserEntry Enable="Yes" ShowBulb="Yes" Text="Z" Visible="Yes"/>
+        <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="XY" Visible="Yes"/>
+        <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="XZ" Visible="Yes"/>
+        <WorkPlaneBrowserEntry Enable="Yes" ShowBulb="Yes" Text="YZ" Visible="Yes"/>
+      </OriginWorkGeometryBrowserEntry>
+    </FusionComponentInstanceBrowserEntry>
+  </FusionComponentInstanceBrowserEntry>
+</FusionBrowserDumpRoot>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root DllName="NaElectronUI10" Identifier="ElectronUI" IsCoreAddIn="0" IsUIAddIn="1" IsApplicationAddIn="1" AppName ="Electron" Name="ElectronUI">
+  <NeededAddIns>
+    <NeededAddIn>Component</NeededAddIn>
+    <NeededAddIn>Scene</NeededAddIn>
+    <NeededAddIn>Electron</NeededAddIn>
+    <NeededAddIn>EntityTracking</NeededAddIn>
+    <NeededAddIn>NuComponents</NeededAddIn>
+    <NeededAddIn>EagleTranslator</NeededAddIn>
+  </NeededAddIns>
+  <DependentApps></DependentApps>
+  <Extensions></Extensions>
+</root>

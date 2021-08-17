@@ -1,0 +1,11 @@
+{
+    "files": [
+        {
+            "pattern": "*",
+            "target": "{0}/",
+            "recursive": "true",
+            "props": "RetentionPolicy={0}",
+            "flat" : "false"
+        }
+    ]
+}

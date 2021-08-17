@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DRCErrors>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,2598f046f07925a7" state="active" code="18" xmin="6.417734" ymin="7.874000" xmax="6.667500" ymax="8.991600" x="6.542616" y="8.432800"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,265194a09ea32c52" state="active" code="18" xmin="5.105400" ymin="10.541000" xmax="5.597919" ymax="11.711431" x="5.351659" y="11.126216"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,2d88f6268a1951b7" state="active" code="18" xmin="6.417734" ymin="6.568788" xmax="6.667500" ymax="7.366000" x="6.542616" y="6.967394"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,32a9b14c254ca6a9" state="active" code="18" xmin="6.417734" ymin="10.541000" xmax="6.527800" ymax="11.768663" x="6.472766" y="11.154831"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,384cf317f30a3851" state="active" code="18" xmin="9.728200" ymin="10.541000" xmax="10.296809" ymax="12.979400" x="10.012503" y="11.760200"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,390f708bc6948f10" state="active" code="18" xmin="9.499600" ymin="10.270069" xmax="10.071319" ymax="10.655300" x="9.785459" y="10.462684"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,443e4439c7fbc7fc" state="active" code="18" xmin="7.215200" ymin="9.425000" xmax="8.024800" ymax="10.234600" x="7.620000" y="9.829800"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,46c1418340c14783" state="active" code="18" xmin="6.580200" ymin="10.644200" xmax="7.389800" ymax="11.453800" x="6.985000" y="11.049000"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,46c1418340c14783" state="active" code="18" xmin="6.580200" ymin="10.644200" xmax="7.389800" ymax="11.453800" x="6.985000" y="11.049000"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,46c1418340c14783" state="active" code="18" xmin="6.580200" ymin="10.644200" xmax="7.389800" ymax="11.453800" x="6.985000" y="11.049000"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,4b20695929460b3f" state="active" code="18" xmin="9.499600" ymin="9.004300" xmax="10.111228" ymax="10.655300" x="9.805413" y="9.829800"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,50e18e5c445d9ae0" state="active" code="18" xmin="7.416800" ymin="10.541000" xmax="7.759919" ymax="11.702031" x="7.588359" y="11.121516"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,532a7060bb7c9836" state="active" code="18" xmin="9.499600" ymin="10.405534" xmax="10.296809" ymax="10.655300" x="9.898203" y="10.530416"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,5644445c4453564b" state="active" code="18" xmin="7.416800" ymin="10.541000" xmax="8.839200" ymax="12.979400" x="8.128000" y="11.760200"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,5e26f917f3095438" state="active" code="18" xmin="9.728200" ymin="10.541000" xmax="10.071319" ymax="11.711431" x="9.899759" y="11.126216"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,6984331bef04b59b" state="active" code="18" xmin="9.762069" ymin="17.128069" xmax="10.029600" ymax="18.569431" x="9.895834" y="17.848750"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,a0b89ea09ea7a0bf" state="active" code="18" xmin="5.105400" ymin="10.541000" xmax="6.527800" ymax="12.979400" x="5.816600" y="11.760200"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,b2506717f309264e" state="active" code="18" xmin="9.728200" ymin="10.541000" xmax="10.111228" ymax="11.768663" x="9.919713" y="11.154831"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,c452d05c4453505d" state="active" code="18" xmin="7.416800" ymin="10.541000" xmax="8.839200" ymax="11.768663" x="8.128000" y="11.154831"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,cbc3ce0781458481" state="active" code="18" xmin="8.713800" ymin="12.219000" xmax="9.523400" ymax="13.028600" x="9.118600" y="12.623800"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,f3a16068ab6538ac" state="active" code="18" xmin="7.874000" ymin="10.405534" xmax="8.991600" ymax="10.655300" x="8.432800" y="10.530416"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,f3a17951395cb3ac" state="active" code="18" xmin="7.874000" ymin="9.004300" xmax="8.991600" ymax="10.655300" x="8.432800" y="9.829800"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,f3ac4b58fd5845ac" state="active" code="18" xmin="8.877869" ymin="10.270069" xmax="8.991600" ymax="10.655300" x="8.934734" y="10.462684"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,ff9c762ea3eec726" state="active" code="18" xmin="8.924916" ymin="12.979400" xmax="9.312284" ymax="13.028600" x="9.118600" y="13.004000"/>
+</DRCErrors>

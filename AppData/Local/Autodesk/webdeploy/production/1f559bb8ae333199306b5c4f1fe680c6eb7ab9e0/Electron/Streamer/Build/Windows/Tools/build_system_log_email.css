@@ -1,0 +1,214 @@
+body
+{
+    background-color: white
+}
+
+.submodules
+{
+}
+
+.submodules-header
+{
+    font-size: x-large;
+}
+
+.repo
+{
+}
+
+.repo-name
+{
+    font-size: x-large;
+}
+
+.repo-nav, .github-nav
+{
+    font-size: small;
+    font-style: oblique;
+}
+
+.log
+{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.sha
+{
+}
+
+.person-name
+{
+}
+
+.date
+{
+}
+
+.commit-table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.commit-table-body
+{
+}
+
+.commit-table-spacing-row
+{
+    height: 1em;
+}
+
+.commit-table-data
+{
+    border: 1px dotted black;
+    padding: 0.25em;
+    text-align: left;
+    vertical-align: top;
+}
+
+th.commit-table-data
+{
+    border-left: 3px solid black;
+}
+
+td.commit-table-data
+{
+    border-right: 3px solid black;
+}
+.commit-table-sha-row, .commit-table-body > :first-child
+{
+    border-top: 3px solid black;
+    background-color: lightblue;
+}
+
+.commit-table-files-row, .commit-table-body > :last-child
+{
+    border-bottom: 3px solid black;
+}
+
+.label
+{
+    font-weight: bold;
+}
+
+.commit-subject
+{
+    font-family: monospace;
+}
+
+.commit-body
+{
+    font-family: monospace;
+}
+
+.file
+{
+    font-family: monospace;
+}
+
+.count
+{
+}
+
+.no-bullets
+{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.graph
+{
+    font-family: monospace;
+    font-size: 10pt;
+}
+
+.g-line
+{
+}
+
+.g-tree
+{
+}
+
+.g-black
+{
+    color: #000
+}
+
+.g-red
+{
+    color: #800
+}
+
+.g-green
+{
+    color: #080
+}
+
+.g-yellow
+{
+    color: #880
+}
+
+.g-blue
+{
+    color: #008
+}
+
+.g-magenta
+{
+    color: #808
+}
+
+.g-cyan
+{
+    color: #088
+}
+
+.g-white
+{
+    color: #888
+}
+
+.g-b-black
+{
+    color: #000
+}
+
+.g-b-red
+{
+    color: #F00
+}
+
+.g-b-green
+{
+    color: #0F0
+}
+
+.g-b-yellow
+{
+    color: #FF0
+}
+
+.g-b-blue
+{
+    color: #00F
+}
+
+.g-b-magenta
+{
+    color: #F0F
+}
+
+.g-b-cyan
+{
+    color: #0FF
+}
+
+.g-b-white
+{
+    color: #000 /* not #FFF -- most bodies are white by default! */
+}

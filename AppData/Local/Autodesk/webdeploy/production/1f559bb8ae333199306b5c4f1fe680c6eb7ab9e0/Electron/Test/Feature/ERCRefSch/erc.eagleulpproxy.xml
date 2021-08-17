@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ERCErrors>
+<error type="warning" description="Unconnected pin C1 2" sheetnr="1" signature="" state="active" code="101" xmin="34.290000" ymin="36.830000" xmax="36.830000" ymax="39.370000" x="35.560000" y="38.100000"/>
+<error type="warning" description="SUPPLY pin +5V overwritten with GND" sheetnr="1" signature="" state="active" code="102" xmin="11.430000" ymin="49.530000" xmax="13.970000" ymax="52.070000" x="12.700000" y="50.800000"/>
+<error type="warning" description="No pins on net GND1" sheetnr="1" signature="" state="active" code="105" xmin="34.290000" ymin="30.480000" xmax="36.830000" ymax="33.020000" x="35.560000" y="31.750000"/>
+<error type="warning" description="No pins on net N$4" sheetnr="1" signature="" state="active" code="105" xmin="54.610000" ymin="44.450000" xmax="57.150000" ymax="46.990000" x="55.880000" y="45.720000"/>
+<error type="warning" description="Junction appears to connect nets N$1 and N$4" sheetnr="1" signature="" state="active" code="107" xmin="54.610000" ymin="44.450000" xmax="57.150000" ymax="46.990000" x="55.880000" y="45.720000"/>
+<error type="warning" description="Junction appears to connect nets N$1 and N$4" sheetnr="1" signature="" state="active" code="107" xmin="54.610000" ymin="44.450000" xmax="57.150000" ymax="46.990000" x="55.880000" y="45.720000"/>
+<error type="warning" description="Junction appears to connect nets N$1 and N$4" sheetnr="1" signature="" state="active" code="107" xmin="54.610000" ymin="44.450000" xmax="57.150000" ymax="46.990000" x="55.880000" y="45.720000"/>
+<error type="warning" description="Missing junction in net GND" sheetnr="1" signature="" state="active" code="108" xmin="21.590000" ymin="49.530000" xmax="24.130000" ymax="52.070000" x="22.860000" y="50.800000"/>
+<error type="warning" description="Net GND1 overlaps pin" sheetnr="1" signature="" state="active" code="111" xmin="34.290000" ymin="25.400000" xmax="36.830000" ymax="27.940000" x="35.560000" y="26.670000"/>
+<error type="warning" description="Net GND1 overlaps pin" sheetnr="1" signature="" state="active" code="111" xmin="34.290000" ymin="36.830000" xmax="36.830000" ymax="39.370000" x="35.560000" y="38.100000"/>
+<error type="warning" description="Part X1 has no value" sheetnr="1" signature="" state="active" code="113" xmin="131.953000" ymin="30.713681" xmax="144.018000" ymax="45.059600" x="137.985500" y="37.886641"/>
+<error type="warning" description="Part R1 has no value" sheetnr="1" signature="" state="active" code="113" xmin="41.661081" ymin="33.782000" xmax="47.599600" ymax="52.578000" x="44.630341" y="43.180000"/>
+<error type="error" description="Unconnected INPUT pin IC1 IN" sheetnr="1" signature="" state="active" code="202" xmin="57.150000" ymin="49.530000" xmax="59.690000" ymax="52.070000" x="58.420000" y="50.800000"/>
+<error type="error" description="More than one OUTPUT pin on net GND" sheetnr="1" signature="" state="active" code="206" xmin="80.010000" ymin="44.450000" xmax="82.550000" ymax="46.990000" x="81.280000" y="45.720000"/>
+<error type="error" description="More than one OUTPUT pin on net GND" sheetnr="1" signature="" state="active" code="206" xmin="80.010000" ymin="46.990000" xmax="82.550000" ymax="49.530000" x="81.280000" y="48.260000"/>
+<error type="error" description="OUTPUT and SUPPLY pins mixed on net GND (sup)" sheetnr="1" signature="" state="active" code="208" xmin="105.410000" ymin="26.670000" xmax="107.950000" ymax="29.210000" x="106.680000" y="27.940000"/>
+<error type="error" description="OUTPUT and SUPPLY pins mixed on net GND (sup)" sheetnr="1" signature="" state="active" code="208" xmin="11.430000" ymin="49.530000" xmax="13.970000" ymax="52.070000" x="12.700000" y="50.800000"/>
+<error type="error" description="OUTPUT and SUPPLY pins mixed on net GND (sup)" sheetnr="1" signature="" state="active" code="208" xmin="21.590000" ymin="31.750000" xmax="24.130000" ymax="34.290000" x="22.860000" y="33.020000"/>
+<error type="error" description="OUTPUT and SUPPLY pins mixed on net GND (out)" sheetnr="1" signature="" state="active" code="208" xmin="80.010000" ymin="44.450000" xmax="82.550000" ymax="46.990000" x="81.280000" y="45.720000"/>
+<error type="error" description="OUTPUT and SUPPLY pins mixed on net GND (out)" sheetnr="1" signature="" state="active" code="208" xmin="80.010000" ymin="46.990000" xmax="82.550000" ymax="49.530000" x="81.280000" y="48.260000"/>
+<error type="error" description="OUTPUT and SUPPLY pins mixed on net GND (sup)" sheetnr="1" signature="" state="active" code="208" xmin="90.170000" ymin="26.670000" xmax="92.710000" ymax="29.210000" x="91.440000" y="27.940000"/>
+</ERCErrors>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  This is an XML fragment that's included by Toolbars.xml and TabToolbars.xml.
+  It defines the panels to be used on the Nesting tab/toolbar.
+-->
+<Panel Id="Geometry" Environment="MSFNesting">
+  <Controls>
+    <Button Id="MSFNestSourcesCmd" />
+    <Button Id="SDK.MAGNestShapeCmd.Create" />
+  </Controls>
+  <PanelDropdown>
+    <Button Id="MSFNestSourcesCmd" />
+    <Button Id="SDK.MAGNestShapeCmd.Create" />
+  </PanelDropdown>
+</Panel>
+
+<Panel Id="Study" Environment="MSFNesting">
+  <Controls>
+  <!--
+    Remove Kitting command from toolbar
+    <Button Id="SDK.MAGNestKitsCmd.Create" />
+  -->
+    <Button Id="SDK.MAGNestStudyCmd.Create" />
+  </Controls>
+  <PanelDropdown>
+    <Button Id="SDK.MAGNestStudyCmd.Create" />
+    <Button Id="SDK.MAGNestCalculateCmd.Calculate" />
+  </PanelDropdown>
+</Panel>
+
+<Panel Id="Update" Environment="MSFNesting">
+  <Controls>
+    <Button Id="SDK.MAGFeatUpdateCmd.UpdateAllTruNest" />
+  </Controls>
+</Panel>
+
+<Panel Id="Manage" Environment="MSFNesting">
+  <Controls>
+    <Button Id="SDK.MAGMatLibraryCmd.FusionNesting" />
+  </Controls>
+  <PanelDropdown>
+    <Button Id="SDK.MAGMatLibraryCmd.FusionNesting" />
+    <Button Id="SDK.MAGTestMainCommand.Test" />
+    <Button Id="SDK.MSFNestSaveContainerDataCmd.Create" />
+  </PanelDropdown>
+</Panel>
+
+<Panel Id="Export" Environment="MSFNesting">
+  <Controls>
+    <Button Id="SDK.MAGNestExportCmd.FusionExport" />
+  </Controls>
+</Panel>

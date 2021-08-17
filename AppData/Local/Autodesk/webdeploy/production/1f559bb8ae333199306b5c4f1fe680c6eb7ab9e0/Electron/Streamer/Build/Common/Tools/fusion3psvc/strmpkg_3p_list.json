@@ -1,0 +1,19 @@
+{
+    "mac":[ 
+            "AIRMAX",
+            "ASM",
+            "A360",
+            "QT",
+            "FUSIONDOCSTREAMER",
+            "PYTHON"
+          ],
+    "win": [
+            "AIRMAX",
+            "ASM",
+            "A360",
+            "BrowserComponent",
+            "QT",
+            "FUSIONDOCSTREAMER",   
+            "PYTHON"
+            ]
+}

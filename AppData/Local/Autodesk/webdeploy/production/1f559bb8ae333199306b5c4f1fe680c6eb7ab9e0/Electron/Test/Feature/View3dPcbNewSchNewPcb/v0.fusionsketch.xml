@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FusionBrowserDumpRoot>
+  <FusionComponentInstanceBrowserEntry Name="(Unsaved)">
+    <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes">
+      <FusionMSketchBrowserEntry Name="Outline" Visible="No">
+        <MSketch>
+          <Curves Size="4">
+            <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+              <StartPoint IsFixed="Yes" Position="0, 0, 0"/>
+              <EndPoint IsFixed="No" Position="16, 0, 0"/>
+            </Curve>
+            <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+              <StartPoint IsFixed="No" Position="16, 0, 0"/>
+              <EndPoint IsFixed="No" Position="16, 10, 0"/>
+            </Curve>
+            <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+              <StartPoint IsFixed="No" Position="16, 10, 0"/>
+              <EndPoint IsFixed="No" Position="0, 10, 0"/>
+            </Curve>
+            <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+              <StartPoint IsFixed="No" Position="0, 10, 0"/>
+              <EndPoint IsFixed="Yes" Position="0, 0, 0"/>
+            </Curve>
+          </Curves>
+        </MSketch>
+      </FusionMSketchBrowserEntry>
+    </FusionSketchesBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Name="1-copper:1">
+      <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes"/>
+    </FusionComponentInstanceBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Name="16-copper:1">
+      <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes"/>
+    </FusionComponentInstanceBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Name="1-soldermask:1">
+      <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes"/>
+    </FusionComponentInstanceBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Name="16-soldermask:1">
+      <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes"/>
+    </FusionComponentInstanceBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Name="Packages:1">
+      <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes"/>
+      <FusionComponentInstanceBrowserEntry Name="QFP44:IC1">
+        <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes"/>
+      </FusionComponentInstanceBrowserEntry>
+    </FusionComponentInstanceBrowserEntry>
+  </FusionComponentInstanceBrowserEntry>
+</FusionBrowserDumpRoot>

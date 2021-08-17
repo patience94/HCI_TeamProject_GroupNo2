@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="EagleFileFilterDescription" devLabel="EAGLE Schematic Files (*.sch);;EAGLE Board Files (*.brd);;EAGLE Libraries Files (*.lbr)" translation="Fichiers de schéma EAGLE (*.sch);;Fichiers de circuit imprimé EAGLE (*.brd);;Fichiers de bibliothèque EAGLE (*.lbr)"/>
+</Resource>

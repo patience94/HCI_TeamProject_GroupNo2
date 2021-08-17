@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TimelineCheck RootComponent="(Unsaved)" TimelineSliderPosition="11">
+  <DcFeature CompName="(Unsaved)" FeatureName="TopBodyOffset" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+  <DcFeature CompName="(Unsaved)" FeatureName="TopBodySketch" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+  <DcFeature CompName="(Unsaved)" FeatureName="TopBody" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+  <DcFeature CompName="(Unsaved)" FeatureName="Extrude2" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+  <DcFeature CompName="(Unsaved)" FeatureName="MidBodyOffset" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+  <DcFeature CompName="(Unsaved)" FeatureName="Sketch2" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+  <DcFeature CompName="(Unsaved)" FeatureName="MidBody" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+  <DcFeature CompName="(Unsaved)" FeatureName="TerminalOffset" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+  <DcFeature CompName="(Unsaved)" FeatureName="TerminalSketch" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+  <DcFeature CompName="(Unsaved)" FeatureName="Revolve1" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+  <DcFeature CompName="(Unsaved)" FeatureName="PinPattern" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+</TimelineCheck>

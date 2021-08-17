@@ -1,0 +1,15 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"addin",
+	"author":	"",
+	"description":	{
+		"":	""
+	},
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true,
+	"id":	"0892cd63-96ba-473f-8600-aee5547d8205",
+	"version":	"",
+	"runOnStartup":	false,
+	"sourcewindows":	"SpurGear.vcxproj",
+	"sourcemac":	"SpurGear.xcodeproj"
+}

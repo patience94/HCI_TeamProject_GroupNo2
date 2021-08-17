@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<materialDumpRoot>
+  <Component ComponentName="(Unsaved)">
+    <VisualMaterialOverride Color="(Red: 1, Green: 0.74902, Blue: 0, Alpha: 1)" Luminescence="0" OccurrencePath="1-copper:1" ProteinMaterialID="PrismOpaque" ProteinMaterialScale="1" Reflectance="0.02" Roughness="0.2" SourceComponent="(Unsaved)" TranslucencyDepth="0.5" VisualMaterialName="Opaque(255,191,0)" proteinMaterialRotation="0"/>
+    <VisualMaterialOverride Color="(Red: 1, Green: 0.74902, Blue: 0, Alpha: 1)" Luminescence="0" OccurrencePath="16-copper:1" ProteinMaterialID="PrismOpaque" ProteinMaterialScale="1" Reflectance="0.02" Roughness="0.2" SourceComponent="(Unsaved)" TranslucencyDepth="0.5" VisualMaterialName="Opaque(255,191,0)" proteinMaterialRotation="0"/>
+    <VisualMaterialOverride AbsorptionDistance="0.105" Color="(Red: 0.215686, Green: 0.806228, Blue: 0.215686, Alpha: 1)" OccurrencePath="1-soldermask:1" ProteinMaterialID="Prism-1170" ProteinMaterialScale="1" RefractiveIndex="1.5" Roughness="0.8" SourceComponent="(Unsaved)" VisualMaterialName="Transparent(54,205,54)" proteinMaterialRotation="0"/>
+    <VisualMaterialOverride AbsorptionDistance="0.105" Color="(Red: 0.215686, Green: 0.806228, Blue: 0.215686, Alpha: 1)" OccurrencePath="16-soldermask:1" ProteinMaterialID="Prism-1170" ProteinMaterialScale="1" RefractiveIndex="1.5" Roughness="0.8" SourceComponent="(Unsaved)" VisualMaterialName="Transparent(54,205,54)" proteinMaterialRotation="0"/>
+    <BrepBody BodyName="Board">
+      <VisualMaterial Color="(Red: 0.470588, Green: 0.431373, Blue: 0.27451, Alpha: 1)" Luminescence="0" ProteinMaterialID="PrismOpaque" ProteinMaterialScale="1" Reflectance="0.02" Roughness="0.2" TranslucencyDepth="0.5" VisualMaterialName="Opaque(120,110,70)" proteinMaterialRotation="0"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+  </Component>
+  <Component ComponentName="1-copper"/>
+  <Component ComponentName="16-copper"/>
+  <Component ComponentName="1-soldermask">
+    <BrepBody BodyName="Body1">
+      <PhysicalMaterial Density="0.00185" LinearExpansion="0.0000001" PhysicalMaterialName="FR4" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-401" SpecificHeat="9500000" ThermalConductivity="35" UltimateTensileStrength="0.1" YieldStrength="517100" YoungsModulus="68900000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+  </Component>
+  <Component ComponentName="16-soldermask">
+    <BrepBody BodyName="Body1">
+      <PhysicalMaterial Density="0.00185" LinearExpansion="0.0000001" PhysicalMaterialName="FR4" PoissonsRatio="0.03" ProteinMaterialID="PrismMaterial-401" SpecificHeat="9500000" ThermalConductivity="35" UltimateTensileStrength="0.1" YieldStrength="517100" YoungsModulus="68900000"/>
+      <TextureMap ProjectionType="Automatic_ASM"/>
+    </BrepBody>
+  </Component>
+  <Component ComponentName="Packages"/>
+</materialDumpRoot>

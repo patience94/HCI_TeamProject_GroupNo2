@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Toolbars [
+  <!ENTITY NestingPanels SYSTEM "NestingPanels.xml">
+  <!ENTITY NavToolbar SYSTEM "NavToolbar.xml">
+]>
+<Toolbars>
+
+<!--  <Toolbar Id="PropertiesTB" Style="ToolbarLargeStyle">
+    <DropDownButton Id="VisualMaterialCommand" Text="" ShowText="true" SynchronizedWithCurrentItem="true" WidthString="MetallicLavender"/>
+    <DropDownButton Id="PhysicalMaterialCommand" Text="" ShowText="true" SynchronizedWithCurrentItem="true" WidthString="MetallicLavender"/>
+    <DropDownButton Id="ViewSelectionEffectCommand" Text="" ShowText="true" SynchronizedWithCurrentItem="true"/>
+  </Toolbar>-->
+	
+	<!-- NOTE (JP): We use custom ToolbarPersister to load this file,
+	                so that we can use LOCALIZE() to set the panel text, instead of requiring the _LCLZ attributes in this file. 
+	                If you add a new panel, make sure to add a new section into the CAMToolbarPersister::onLoadPanelText method. -->
+
+  <CommandToolbar Id="NestingAssetType">
+    <DropDownButton Id="ActivateEnvironmentCommand" ShowText="true" Text="Environments" SynchronizedWithCurrentItem="true" />
+	
+    <!--All Tab info-->
+    <!-- Note: Don't want to use _LCLZId here. But working around ToolbarPersister bug -->
+    <Tab Id="MSFNestingTab"
+         _LCLZId="lclzNestingTab"
+         _LCLZText="Nesting"
+         Panels="Geometry;Study;Update;Manage;Export"
+         Environment="MSFNesting"/>
+
+    &NestingPanels;
+
+  </CommandToolbar>
+
+  &NavToolbar;
+
+</Toolbars>

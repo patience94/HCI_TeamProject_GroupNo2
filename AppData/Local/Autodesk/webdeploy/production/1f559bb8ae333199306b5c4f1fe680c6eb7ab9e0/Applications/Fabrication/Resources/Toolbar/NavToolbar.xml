@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JP Note: Anything added here will be appended to the end of the standard Neutron NavToolbar. -->
+<Toolbar Id="NavToolbar" Style="ToolbarSmallStyle">
+  <Separator/>
+  <DropDownButton Id="SDK.MAGNestAutoZoomCmd.toggle" HasSplitter="False">
+    <DropDownItem Id="MSFNestAutoZoomCommand" Checkable="true"/>
+  </DropDownButton>
+  <DropDownButton Id="MSFNestOptionRootCmd"  HasSplitter="False">
+    <DropDownItem Id="MSFNestOptionSheetBorderCommand" Checkable="true"/>
+    <DropDownItem Id="MSFNestOptionHeaderCommand" Checkable="true"/>
+    <DropDownButton Id="MSFNestOptionAnnotationCommand" CheckBoxList="true"/>
+    <DropDownButton Id="MSFNestOptionNavSpacingCommand" SynchronizedWithCurrentItem="true" GroupSubItemsOnly="true"/>
+    <DropDownButton Id="MSFNestOptionVisualStyleCommand" SynchronizedWithCurrentItem="true" GroupSubItemsOnly="true"/>
+    <DropDownButton Id="MSFNestOptionDimensionsCommand"  CheckBoxList="true"/>
+    <DropDownButton Id="MSFNestOptionFabInforCommand"  CheckBoxList="true"/>
+    <DropDownButton Id="MSFNestOptionNavFontCommand" SynchronizedWithCurrentItem="true" GroupSubItemsOnly="true"/>
+    <DropDownButton Id="MSFNestOptionNavFontSizeCommand" SynchronizedWithCurrentItem="true" GroupSubItemsOnly="true"/>
+  </DropDownButton>
+  
+  <DropDownButton Id="NestOptionColorByPropCmd" HasSplitter="False" SynchronizedWithCurrentItem="true">
+    <DropDownItem Id="SDK.MAGNestDisplayColorCmd.Default" />
+    <DropDownItem Id="SDK.MAGNestDisplayColorCmd.Source" />
+    <DropDownItem Id="SDK.MAGNestDisplayColorCmd.Shape" />
+    <DropDownItem Id="SDK.MAGNestDisplayColorCmd.Segment" />
+    <DropDownItem Id="SDK.MAGNestDisplayColorCmd.SourceOrientation" />
+    <DropDownItem Id="SDK.MAGNestDisplayColorCmd.NestedOrientation" />
+    <DropDownItem Id="SDK.MAGNestDisplayColorCmd.Mirror" />
+    <DropDownItem Id="SDK.MAGNestDisplayColorCmd.Material" />
+  </DropDownButton>
+  
+</Toolbar>

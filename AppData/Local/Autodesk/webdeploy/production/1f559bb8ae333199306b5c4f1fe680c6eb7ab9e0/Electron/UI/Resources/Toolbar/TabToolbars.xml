@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbars>
+    <CommandToolbar Id="ElectronLbrDocAssetType">
+        <DropDownButton Id="ActivateEnvironmentCommand" ShowText="true"
+            SynchronizedWithCurrentItem="true"/>
+        <Panel Id="LbrCreatePanel" _LCLZId="lclzLbrCreatePanel" _LCLZText="CREATE">
+            <Controls>
+                <Button Id="Electron::NewSymbol"/>
+                <Button Id="Electron::NewPackage"/>
+                <Button Id="Electron::NewDevice"/>
+                <Button Id="Package3DCreateCmd"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::NewSymbol"/>
+                <Button Id="Electron::NewPackage"/>
+                <Button Id="Electron::NewDevice"/>
+                <Button Id="Package3DCreateCmd"/>
+            </PanelDropdown>
+        </Panel>
+        <Tab Id="LbrEmptyTab" _LCLZId="lclzLbrEmptyTab" _LCLZText="CREATE"
+            Panels="LbrCreatePanel" Environment="ElectronEmptyLbrEnvironment"/>
+        /> <Tab Id="LbrPackageTab" _LCLZId="lclzLbrPackageTab" _LCLZText="PACKAGE 3D"
+            Panels="LbrCreatePanel;LbrPackagePanel" Environment="ElectronPackageEnvironment"/> />
+            <Panel Id="LbrPackagePanel" _LCLZId="lclzLbrPackagePanel" _LCLZText="EDIT">
+            <Controls>
+                <Button Id="Electron::Edit"/>
+                <Button Id="Electron::ZoomIn"/>
+                <Button Id="Electron::ZoomOut"/>
+                <Button Id="Electron::ZoomToFit"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Edit"/>
+                <Button Id="Electron::ZoomIn"/>
+                <Button Id="Electron::ZoomOut"/>
+                <Button Id="Electron::ZoomToFit"/>
+                <Button Id="Electron::ZoomRedraw"/>
+                <Button Id="Electron::ZoomRect"/>
+                <Button Id="Electron::ZoomSelect"/>
+            </PanelDropdown>
+        </Panel>
+        <Tab Id="LbrSymbolTab" _LCLZId="lclzLbrSymbolTab" _LCLZText="SYMBOL"
+            Panels="LbrCreatePanel;LbrSymbolViewPanel;LbrSymbolEditPanel;LbrSymbolLayersPanel;LbrSymbolPlacePanel;LbrSymbolModifyPanel;LbrSymbolDrawPanel;LbrSymbolSelectPanel;"
+            Environment="ElectronSymbolEnvironment"/>
+        <Panel Id="LbrSymbolViewPanel" _LCLZId="lclzLbrSymbolViewPanel" _LCLZText="VIEW">
+            <Controls>
+                <Button Id="Electron::Info"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Info"/>
+            </PanelDropdown>
+        </Panel>
+        <Panel Id="LbrSymbolLayersPanel" _LCLZId="lclzLbrSymbolLayersPanel" _LCLZText="LAYERS">
+            <Controls>
+                <Button Id="Electron::Display"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Display"/>
+            </PanelDropdown>
+        </Panel>
+        <Panel Id="LbrSymbolPlacePanel" _LCLZId="lclzLbrSymbolPlacePanel" _LCLZText="PLACE">
+            <Controls>
+                <Button Id="Electron::Pin"/>
+                <Button Id="Electron::Line"/>
+                <Button Id="Electron::Name"/>
+                <Button Id="Electron::AddText"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Pin"/>
+                <Button Id="Electron::Line"/>
+                <Button Id="Electron::Name"/>
+                <Button Id="Electron::AddText"/>
+                <Button Id="Electron::Pattern"/>
+                <Button Id="Electron::PinArray"/>
+            </PanelDropdown>
+        </Panel>
+        <Panel Id="LbrSymbolEditPanel" _LCLZId="lclzLbrSymbolEditPanel" _LCLZText="EDIT">
+            <Controls>
+                <Button Id="Electron::Copy"/>
+                <Button Id="Electron::Paste"/>
+                <Button Id="Electron::Delete"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Copy"/>
+                <Button Id="Electron::Paste"/>
+                <Button Id="Electron::Delete"/>
+            </PanelDropdown>
+        </Panel>
+        <Panel Id="LbrSymbolModifyPanel" _LCLZId="lclzLbrSymbolModifyPanel" _LCLZText="MODIFY">
+            <Controls>
+                <Button Id="Electron::Move"/>
+                <Button Id="Electron::Mirror"/>
+                <Button Id="Electron::Rotate"/>
+                <Button Id="Electron::Change"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Move"/>
+                <Button Id="Electron::Mirror"/>
+                <Button Id="Electron::Rotate"/>
+                <Button Id="Electron::Change"/>
+                <Button Id="Electron::Miter"/>
+                <Button Id="Electron::Split"/>
+                <Button Id="Electron::Pinswap"/>
+                <Button Id="Electron::Gateswap"/>
+            </PanelDropdown>
+        </Panel>
+        <Panel Id="LbrSymbolDrawPanel" _LCLZId="lclzLbrDrawCommonPanel" _LCLZText="DRAW">
+            <Controls>
+                <Button Id="Electron::Arc"/>
+                <Button Id="Electron::Circle"/>
+                <Button Id="Electron::Rectangle"/>
+                <Button Id="Electron::Polygon"/>
+            </Controls>
+        </Panel>
+        <Panel Id="LbrSymbolSelectPanel" _LCLZId="lclzLbrSymbolSelectPanel" _LCLZText="SELECT">
+            <Controls>
+                <Button Id="Electron::Group"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Group"/>
+                <Button Id="Electron::GroupPolygon"/>
+            </PanelDropdown>
+        </Panel>
+        <Tab Id="LbrFootprintTab" _LCLZId="lclzLbrFootprintTab" _LCLZText="FOOTPRINT"
+            Panels="LbrCreatePanel;LbrFootprintViewPanel;LbrFootprintEditPanel;LbrFootprintLayersPanel;LbrFootprintCreatePanel;LbrFootprintModifyPanel;LbrFootprintDrawPanel;LbrFootprintSelectPanel;"
+            Environment="ElectronFootprintEnvironment"/>
+        <Panel Id="LbrFootprintViewPanel" _LCLZId="lclzLbrFootprintViewPanel" _LCLZText="VIEW">
+            <Controls>
+                <Button Id="Electron::Info"/>
+                <Button Id="Electron::Grid"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Info"/>
+                <Button Id="Electron::Grid"/>
+                <Button Id="Electron::Show"/>
+            </PanelDropdown>
+        </Panel>
+        <Panel Id="LbrFootprintLayersPanel" _LCLZId="lclzLbrFootprintLayersPanel" _LCLZText="LAYERS">
+            <Controls>
+                <Button Id="Electron::Display"/>
+                <Button Id="Electron::FlipBoard"/>
+                <Button Id="Electron::ToggleSingleLayer"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Display"/>
+                <Button Id="Electron::FlipBoard"/>
+                <Button Id="Electron::ToggleSingleLayer"/>
+            </PanelDropdown>
+        </Panel>
+        <Panel Id="LbrFootprintCreatePanel" _LCLZId="lclzLbrFootprintCreatePanel" _LCLZText="CREATE">
+            <Controls>
+                <Button Id="Electron::Move"/>
+                <Button Id="Electron::Smd"/>
+                <Button Id="Electron::Pad"/>
+                <Button Id="Electron::Name"/>
+                <Button Id="Electron::Line"/>
+                <Button Id="Electron::AddText"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Move"/>
+                <Button Id="Electron::Smd"/>
+                <Button Id="Electron::Pad"/>
+                <Button Id="Electron::SmdArray"/>
+                <Button Id="Electron::PadArray"/>
+                <Button Id="Electron::Name"/>
+                <Button Id="Electron::Line"/>
+                <Button Id="Electron::AddText"/>
+                <Button Id="Electron::AddHole"/>
+                <Button Id="Electron::Pattern"/>
+            </PanelDropdown>
+        </Panel>
+        <Panel Id="LbrFootprintEditPanel" _LCLZId="lclzLbrFootprintEditPanel" _LCLZText="EDIT">
+            <Controls>
+                <Button Id="Electron::Copy"/>
+                <Button Id="Electron::Paste"/>
+                <Button Id="Electron::Delete"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Copy"/>
+                <Button Id="Electron::Paste"/>
+                <Button Id="Electron::Delete"/>
+            </PanelDropdown>
+        </Panel>
+        <Panel Id="LbrFootprintModifyPanel" _LCLZId="lclzLbrFootprintModifyPanel" _LCLZText="MODIFY">
+            <Controls>
+                <Button Id="Electron::Miter"/>
+                <Button Id="Electron::Split"/>
+                <Button Id="Electron::Align"/>
+                <Button Id="Electron::Change"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Miter"/>
+                <Button Id="Electron::Split"/>
+                <Button Id="Electron::Align"/>
+                <Button Id="Electron::PaintRoller"/>
+                <Button Id="Electron::Optimize"/>
+                <Button Id="Electron::Change"/>
+            </PanelDropdown>
+        </Panel>
+        <Panel Id="LbrFootprintDrawPanel" _LCLZId="lclzLbrFootprintDrawPanel" _LCLZText="DRAW">
+            <Controls>
+                <Button Id="Electron::Polygon"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Arc"/>
+                <Button Id="Electron::Circle"/>
+                <Button Id="Electron::Rectangle"/>
+                <Button Id="Electron::Polygon"/>
+                <Button Id="Electron::Dimension"/>
+            </PanelDropdown>
+        </Panel>
+        <Panel Id="LbrFootprintSelectPanel" _LCLZId="lclzLbrFootprintSelectPanel" _LCLZText="SELECT">
+            <Controls>
+                <Button Id="Electron::Group"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Group"/>
+                <Button Id="Electron::GroupPolygon"/>
+            </PanelDropdown>
+        </Panel>
+        <Tab Id="LbrDeviceTab" _LCLZId="lclzLbrDeviceTab" _LCLZText="DEVICE"
+            Panels="LbrCreatePanel;LbrDeviceModifyPanel;LbrDevicePanel;LbrDeviceSelectPanel;"
+            Environment="ElectronDeviceEnvironment"/> /> <Panel Id="LbrDevicePanel"
+            _LCLZId="lclzLbrDevicePanel" _LCLZText="DEVICE">
+            <Controls>
+                <Button Id="Electron::AddPart"/>
+                <Separator/>
+                <Button Id="Electron::Attribute"/>
+                <Button Id="Electron::Name"/>
+                <Button Id="Electron::PaintRoller"/>
+                <Button Id="Electron::Pattern"/>
+            </Controls>
+        </Panel>
+        <Panel Id="LbrDeviceModifyPanel" _LCLZId="lclzLbrDeviceModifyPanel" _LCLZText="MODIFY">
+            <Controls>
+                <Button Id="Electron::Change"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Change"/>
+            </PanelDropdown>
+        </Panel>
+        <Panel Id="LbrSymModelPanel" _LCLZId="lclzLbrSimuModelPanel" _LCLZText="SIMULATION">
+            <Controls>
+                <Button Id="Electron::AddSimModel"/>
+                <Button Id="Electron::RemoveSimModel"/>
+            </Controls>
+        </Panel>
+        <Panel Id="LbrDeviceSelectPanel" _LCLZId="lclzLbrDeviceSelectPanel" _LCLZText="SELECT">
+            <Controls>
+                <Button Id="Electron::Group"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Group"/>
+                <Button Id="Electron::GroupPolygon"/>
+            </PanelDropdown>
+        </Panel>
+        <Panel Id="LbrDrawCommonPanel" _LCLZId="lclzLbrDrawCommonPanel" _LCLZText="DRAW">
+            <Controls>
+                <Button Id="Electron::Line"/>
+                <Button Id="Electron::AddText"/>
+                <Button Id="Electron::Arc"/>
+                <Button Id="Electron::Circle"/>
+                <Button Id="Electron::Rectangle"/>
+                <Button Id="Electron::Polygon"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Line"/>
+                <Button Id="Electron::AddText"/>
+                <Button Id="Electron::Arc"/>
+                <Button Id="Electron::Circle"/>
+                <Button Id="Electron::Rectangle"/>
+                <Button Id="Electron::Polygon"/>
+            </PanelDropdown>
+        </Panel>
+        <Panel Id="LbrLibraryioPanel" _LCLZId="lclzLbrLibraryioPanel" _LCLZText="LIBRARY.IO">
+            <Controls>
+                <Button Id="Electron::CreateLibrary"/>
+                <Button Id="Electron::UpdateLibrary"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::CreateLibrary"/>
+                <Button Id="Electron::UpdateLibrary"/>
+            </PanelDropdown>
+        </Panel>
+            
+        <Panel Id="LbrAutomatePanel" _LCLZId="lclzLbrAutomate" _LCLZText="AUTOMATION">
+            <Controls>
+                <Button Id="Electron::RunULP"/>
+                <Button Id="Electron::RunScript"/>
+            </Controls>
+
+            <PanelDropdown>
+                <Button Id="Electron::RunULP"/>
+                <Button Id="Electron::RunScript"/>
+            </PanelDropdown>
+        </Panel>
+        <Tab Id="LbrAutomateTab"
+            _LCLZId="lclzLbrManagementTab"
+            _LCLZText="AUTOMATE"
+            Panels="LbrAutomatePanel"
+            Environment="ElectronEmptyLbrEnvironment;ElectronDeviceEnvironment;ElectronSymbolEnvironment;ElectronPackageEnvironment;ElectronFootprintEnvironment"
+            />
+
+        <Panel Id="LbrManagementPanel" _LCLZId="lclzLbrManagementPanel" _LCLZText="MANAGEMENT">
+            <Controls>
+                <Button Id="Electron::LibraryManager" />
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::LibraryManager" />
+            </PanelDropdown>
+        </Panel>
+        <Tab Id="LbrManagementTab"
+            _LCLZId="lclzLbrManagementTab"
+            _LCLZText="MANAGE"
+            Panels="LbrManagementPanel;LbrLibraryioPanel"
+            Environment="ElectronEmptyLbrEnvironment;ElectronDeviceEnvironment;ElectronSymbolEnvironment;ElectronPackageEnvironment;ElectronFootprintEnvironment"
+            />
+    </CommandToolbar>
+
+    <CommandToolbar Id="ElectronPcbDocAssetType">
+        <!-- Dummy panel for workspace to avoid the hang on right click -->
+        <Panel Id="DummyElectronWorskpaceSwitcher" _LCLZId="lclzWorkspace" _LCLZText="Workspace"/>
+
+        <Tab Id="PcbDesign" _LCLZId="lclzPcbDesignTab" _LCLZText="DESIGN"
+            Panels="SwitchPanel;PcbViewPanel;PcbEditPanel;PcbLayersPanel;PcbBoardShapePanel;PcbPlacePanel;PcbRoutePanel;PcbFanoutPanel;PcbQuickRoutePanel;PcbPourPanel;PcbRipupPanel;PcbReworkPanel;PcbModifyPanel;PcbSelectPanel;"/>
+
+        <Tab Id="PcbDocument" _LCLZId="lclzPcbDocument" _LCLZText="DOCUMENT"
+            Panels="SwitchPanel;PcbViewPanel;PcbLayersPanel;PcbAnnotatePanel;PcbDrawPanel;"/>
+
+        <Tab Id="PcbRulesDrcErc" _LCLZId="PcbRulesDrcErc" _LCLZText="Rules DRC/ERC"
+            Panels="SwitchPanel;PcbViewPanel;PcbRulesPanel"/>
+
+        <Tab Id="PcbManufacturing" _LCLZId="PcbManufacturing" _LCLZText="Manufacturing"
+        Panels="SwitchPanel;PcbViewPanel;PcbManufacturingPanel;PcbOutputPanel;"/>
+
+        <Tab Id="PcbAutomate" _LCLZId="lclzPcbAutomate" _LCLZText="AUTOMATE"
+            Panels="SwitchPanel;PcbViewPanel;PcbAutomatePanel"/>
+
+        <Tab Id="PcbLibrary"
+                 _LCLZId="lclzPcbLibraryTab"
+                 _LCLZText="LIBRARY"
+                 Panels="SwitchPanel;PcbLibraryPanel"
+        />
+
+        <Panel Id="SwitchPanel" _LCLZId="lclzSwitchPanel" _LCLZText="SWITCH">
+            <Controls>
+                <Button Id="SwitchSchDocCmd"/>
+                <Button Id="Electron::Pcb3DView"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="SwitchSchDocCmd"/>
+                <Button Id="Electron::Pcb3DView"/>
+                <Button Id="Electron::PcbCanvas"/>
+                <Button Id="RemovePCB3DLinkCmd"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbViewPanel" _LCLZId="lclzPcbViewPanel" _LCLZText="VIEW">
+            <Controls>
+                <Button Id="Electron::Grid"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Grid"/>
+                <Button Id="Electron::Info"/>
+                <Button Id="Electron::Show"/>
+                <Button Id="Electron::ZoomToFit"/>
+                <Button Id="Electron::ZoomRedraw"/>
+                <Button Id="Electron::ZoomRect"/>
+                <Button Id="Electron::ZoomSelect"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbEditPanel" _LCLZId="lclzPcbEditPanel" _LCLZText="EDIT">
+            <Controls>
+                <Button Id="Electron::Copy"/>
+                <Button Id="Electron::Paste"/>
+                <Button Id="Electron::Delete"/>
+            </Controls>
+
+            <PanelDropdown>
+                <Button Id="Electron::Copy"/>
+                <Button Id="Electron::Paste"/>
+                <Button Id="Electron::Delete"/>
+            </PanelDropdown>
+        </Panel>
+
+
+        <Panel Id="PcbLayersPanel" _LCLZId="lclzPcbLayersPanel" _LCLZText="LAYERS">
+            <Controls>
+                <Button Id="Electron::Display"/>
+                <Button Id="Electron::FlipBoard"/>
+                <Button Id="Electron::ToggleSingleLayer"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Display"/>
+                <Button Id="Electron::FlipBoard"/>
+                <Button Id="Electron::ToggleSingleLayer"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbBoardShapePanel" _LCLZId="lclzPcbBoardShapePanel" _LCLZText="BOARD SHAPE">
+            <Controls>
+                <Button Id="Electron::BoardShapePolyline"/>
+                <Button Id="Electron::BoardShapeSpline"/>
+                <Button Id="Electron::Hole"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::BoardShapePolyline"/>
+                <Button Id="Electron::BoardShapeSpline"/>
+                <Button Id="Electron::Hole"/>
+                <Button Id="Electron::BoardShapeArc"/>
+                <Button Id="Electron::BoardShapeCircle"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbPlacePanel" _LCLZId="lclzPcbPlacePanel" _LCLZText="PLACE">
+            <Controls>
+                <Button Id="Electron::Move"/>
+                <Button Id="Electron::Rotate"/>
+                <Button Id="Electron::Mirror"/>
+                <Button Id="Electron::Align"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::AddPart"/>
+                <Button Id="Electron::Signal"/>
+                <Button Id="Electron::Move"/>
+                <Button Id="Electron::Rotate"/>
+                <Button Id="Electron::Mirror"/>
+                <Button Id="Electron::Align"/>
+                <Button Id="Electron::AddHole"/>
+                <Button Id="Electron::Pattern"/>
+                <Button Id="Electron::Frame"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbRoutePanel" _LCLZId="lclzPcbRoutePanel" _LCLZText="ROUTE">
+            <Controls>
+                <Button Id="Electron::ManualRoute"/>
+                <Button Id="Electron::RouteDiffPair"/>
+                <Button Id="Electron::RouteMulti"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::ManualRoute"/>
+                <Button Id="Electron::RouteDiffPair"/>
+                <Button Id="Electron::RouteMulti"/>
+                <Button Id="Electron::Meander"/>
+                <Button Id="Electron::Pinwwap"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbFanoutPanel" _LCLZId="lclzPcbFanoutPanel" _LCLZText="FANOUT">
+            <Controls>
+                <Button Id="Electron::Fanout"/>
+                <Button Id="Electron::Via"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Fanout"/>
+                <Button Id="Electron::Via"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbQuickRoutePanel" _LCLZId="lclzPcbQuickRoutePanel" _LCLZText="QUICK ROUTE">
+            <Controls>
+                <Button Id="Electron::QuickRouteAirWire"/>
+                <Button Id="Electron::QuickRouteSignal"/>
+                <Button Id="Electron::QuickRouteMultiWire"/>
+                <Button Id="Electron::QuickRouteGuided"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::QuickRouteAirWire"/>
+                <Button Id="Electron::QuickRouteSignal"/>
+                <Button Id="Electron::QuickRouteMultiWire"/>
+                <Button Id="Electron::QuickRouteSmooth"/>
+                <Button Id="Electron::QuickRouteGuided"/>
+                <Button Id="Electron::Auto"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbPourPanel" _LCLZId="lclzPcbPourPanel" _LCLZText="POUR">
+            <Controls>
+                <Button Id="Electron::Polygon"/>
+                <Button Id="Electron::RipupAllPolygons"/>
+                <Button Id="Electron::Ratsnest"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Polygon"/>
+                <Button Id="Electron::PolygonizeCopy"/>
+                <Button Id="Electron::RipupAllPolygons"/>
+                <Button Id="Electron::Ratsnest"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbRipupPanel" _LCLZId="lclzPcbRipupPanel" _LCLZText="RIPUP">
+            <Controls>
+                <Button Id="Electron::Ripup"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::RipupAll"/>
+                <Button Id="Electron::RipupConnected"/>
+                <Button Id="Electron::RipupConnectedCopperOnLayer"/>
+                <Button Id="Electron::RipupElementToElement"/>
+                <Button Id="Electron::RipupSignal"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbReworkPanel" _LCLZId="lclzPcbReworkPanel" _LCLZText="REWORK">
+            <Controls>
+                <Button Id="Electron::Miter"/>
+                <Button Id="Electron::Split"/>
+                <Button Id="Electron::Slice"/>
+                <Button Id="Electron::Reroute"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Miter"/>
+                <Button Id="Electron::Split"/>
+                <Button Id="Electron::Slice"/>
+                <Button Id="Electron::Reroute"/>
+                <Button Id="Electron::Meander"/>
+                <Button Id="Electron::Optimize"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbModifyPanel" _LCLZId="lclzPcbModifyPanel" _LCLZText="MODIFY">
+            <Controls>
+                <Button Id="Electron::Change"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Change"/>
+                <Button Id="Electron::Name"/>
+                <Button Id="Electron::Value"/>
+                <Button Id="Electron::Replace"/>
+                <Button Id="Electron::PaintRoller"/>
+                <DropDownButton _LCLZId="lclzLock" _LCLZText="Lock">
+                    <Button Id="Electron::Lock"/>
+                    <Button Id="Electron::LockAll"/>
+                    <Button Id="Electron::LockCurrentLayer"/>
+                    <Button Id="Electron::UnlockAll"/>
+                </DropDownButton>
+            </PanelDropdown>
+        </Panel>
+        <Panel Id="PcbAnnotatePanel" _LCLZId="lclzAnnotatePanel" _LCLZText="ANNOTATE">
+            <Controls>
+                <Button Id="Electron::Name"/>
+                <Button Id="Electron::Value"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Name"/>
+                <Button Id="Electron::Value"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbOutputPanel" _LCLZId="lclzPcbOutputPanel" _LCLZText="Output">
+            <Controls>
+                <Button Id="Electron::IpcNetlist"/>
+                <Button Id="Electron::PickAndPlace"/>
+                <Button Id="Electron::Print"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::IpcNetlist"/>
+                <Button Id="Electron::PickAndPlace"/>
+                <Button Id="Electron::Print"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbDrawPanel" _LCLZId="lclzPcbDrawPanel" _LCLZText="DRAW">
+            <Controls>
+                <Button Id="Electron::Line"/>
+                <Button Id="Electron::Arc"/>
+                <Button Id="Electron::Circle"/>
+                <Button Id="Electron::Dimension"/>
+                <Button Id="Electron::Attribute"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Line"/>
+                <Button Id="Electron::Arc"/>
+                <Button Id="Electron::Circle"/>
+                <Button Id="Electron::AddText"/>
+                <Button Id="Electron::Rectangle"/>
+                <Button Id="Electron::Polygon"/>
+                <Button Id="Electron::Mark"/>
+                <Button Id="Electron::Dimension"/>
+                <Button Id="Electron::Attribute"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbSelectPanel" _LCLZId="lclzPcbSelectPanel" _LCLZText="SELECT">
+            <Controls>
+                <Button Id="Electron::Group"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Group"/>
+                <Button Id="Electron::GroupPolygon"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbRulesPanel" _LCLZId="lclzPcbRulesPanel" _LCLZText="DRC">
+            <Controls>
+                <Button Id="Electron::Class"/>
+                <Button Id="Electron::DRC"/>
+                <Button Id="Electron::Errors"/>
+            </Controls>
+
+            <PanelDropdown>
+                <Button Id="Electron::Class"/>
+                <Button Id="Electron::DRC"/>
+                <Button Id="Electron::Errors"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbAutomatePanel" _LCLZId="lclzPcbAutomate" _LCLZText="AUTOMATION">
+            <Controls>
+                <Button Id="Electron::RunULP"/>
+                <Button Id="Electron::RunScript"/>
+            </Controls>
+
+            <PanelDropdown>
+                <Button Id="Electron::RunULP"/>
+                <Button Id="Electron::RunScript"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbManufacturingPanel" _LCLZId="lclzPcbManufacturingPanel"
+            _LCLZText="Manufacturing">
+            <Controls>
+                <Button Id="Electron::CAMPreview"/>
+                <Button Id="Electron::CAMProcessor"/>
+                <Button Id="Electron::CAMExport"/>
+            </Controls>
+
+            <PanelDropdown>
+                <Button Id="Electron::CAMPreview"/>
+                <Button Id="Electron::CAMProcessor"/>
+                <Button Id="Electron::CAMExport"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbOutputPanel" _LCLZId="lclzPcbOutputPanel"
+            _LCLZText="OUTPUTS">
+            <Controls>
+                <Button Id="Electron::Bom"/>
+                <Button Id="Electron::Print"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Bom"/>
+                <Button Id="Electron::Print"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="PcbLibraryPanel" _LCLZId="lclzPcbLibraryPanel" _LCLZText="LIBRARIES" >
+          <Controls>
+            <Button Id="Electron::LibraryManager" />
+            <Button Id="Electron::UpdateDesignFromLibrary" />
+            <Button Id="Electron::UpdateDesignFromAllLibraries" />
+          </Controls>
+        </Panel>
+
+    </CommandToolbar>
+
+    <CommandToolbar Id="ElectronSchDocAssetType">
+        <!-- Dummy panel for workspace to avoid the hang on right click -->
+        <Panel Id="DummyElectronWorskpaceSwitcher" _LCLZId="lclzWorkspace" _LCLZText="Workspace"/>
+
+        <Tab Id="SchDesign" _LCLZId="SchDesignTab" _LCLZText="DESIGN"
+            Panels="SchSwitchPanel;SchViewPanel;SchEditPanel;SchLayersPanel;SchPlacePanel;SchConnectPanel;SchQuickConnectPanel;SchSimulatePanel;SchModifyPanel;SchSelectPanel;"/>
+
+        <Tab Id="SchDocument" _LCLZId="lclzSchDocumentTab" _LCLZText="DOCUMENT"
+            Panels="SchSwitchPanel;SchViewPanel;SchVariantPanel;SchOutputPanel;SchDrawPanel;SchSelectPanel;"/>
+
+        <Tab Id="SchValidate" _LCLZId="SchValidateTab" _LCLZText="VALIDATE"
+            Panels="SchSwitchPanel;SchViewPanel;SchValidatePanel;SchSelectPanel;"/>
+
+        <Tab Id="SchAutomation" _LCLZId="lclzSchAutomationTab" _LCLZText="AUTOMATE"
+            Panels="SchSwitchPanel;SchViewPanel;SchAutomationPanel;SchSelectPanel;"/>
+
+        <Tab Id="SchLibrary"
+                     _LCLZId="lclzSchLibraryTab"
+                     _LCLZText="LIBRARY"
+                     Panels="SchSwitchPanel;SchLibraryPanel"
+        />
+
+        <Panel Id="SchSwitchPanel" _LCLZId="lclzSchSwitchPanel" _LCLZText="SWITCH">
+            <Controls>
+                <Button Id="SwitchPcbDocCmd"/>
+            </Controls>
+
+            <PanelDropdown>
+                <Button Id="SwitchPcbDocCmd"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="SchViewPanel" _LCLZId="lclzSchViewPanel" _LCLZText="VIEW">
+            <Controls>
+                <Button Id="Electron::Info"/>
+                <Button Id="Electron::Show"/>
+                <Button Id="Electron::Grid"/>
+                <Button Id="Electron::Display"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Info"/>
+                <Button Id="Electron::Show"/>
+                <Button Id="Electron::Grid"/>
+                <Button Id="Electron::Display"/>
+                <Button Id="Electron::ZoomToFit"/>
+                <Button Id="Electron::ZoomRedraw"/>
+                <Button Id="Electron::ZoomRect"/>
+                <Button Id="Electron::ZoomSelect"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="SchEditPanel" _LCLZId="lclzSchEditPanel" _LCLZText="EDIT">
+            <Controls>
+                <Button Id="Electron::Copy"/>
+                <Button Id="Electron::Paste"/>
+                <Button Id="Electron::Delete"/>
+
+            </Controls>= <PanelDropdown>
+                <Button Id="Electron::Copy"/>
+                <Button Id="Electron::Paste"/>
+                <Button Id="Electron::Delete"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="SchPlacePanel" _LCLZId="lclzSchPlacePanel" _LCLZText="PLACE">
+            <Controls>
+                <Button Id="Electron::AddPart"/>
+                <Button Id="Electron::Move"/>
+                <Button Id="Electron::Rotate"/>
+                <Button Id="Electron::Mirror"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::AddPart"/>
+                <Button Id="Electron::Move"/>
+                <Button Id="Electron::Rotate"/>
+                <Button Id="Electron::Mirror"/>
+                <Button Id="Electron::Frame"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="SchConnectPanel" _LCLZId="lclzSchConnectPanel" _LCLZText="CONNECT">
+            <Controls>
+                <Button Id="Electron::Net"/>
+                <Button Id="Electron::Name"/>
+                <Button Id="Electron::Label"/>
+                <Button Id="Electron::Port"/>
+            </Controls>
+
+            <PanelDropdown>
+                <Button Id="Electron::Net"/>
+                <Button Id="Electron::Name"/>
+                <Button Id="Electron::Label"/>
+                <Button Id="Electron::Junction"/>
+                <Button Id="Electron::Port"/>
+                <Button Id="Electron::Bus"/>
+                <Button Id="Electron::Module"/>
+                <Button Id="Electron::Pinswap"/>
+                <Button Id="Electron::Gateswap"/>
+            </PanelDropdown>
+        </Panel>
+
+        <!-- <Panel Id="SchQuickConnectPanel" _LCLZId="lclzSchQuickConnectPanel" _LCLZText="QUICK CONNECT" >
+      <Controls>
+        <Button Id="Electron::NetPinBreakout" />
+        <Button Id="Electron::BusBreakout" />
+        <Button Id="Electron::BusFromSelected"/>
+      </Controls>
+      <PanelDropdown>
+        <Button Id="Electron::NetPinBreakout" />
+        <Button Id="Electron::BusBreakout" />
+        <Button Id="Electron::BusFromSelected" />
+      </PanelDropdown>
+    </Panel>-->
+
+
+        <Panel Id="SchSimulatePanel" _LCLZId="lclzSchSimulatePanel" _LCLZText="SIMULATE">
+            <Controls>
+                <Button Id="Electron::Simulate"/>
+                <Button Id="Electron::SimOpToggle"/>
+                <Button Id="Electron::VProbe"/>
+                <Button Id="Electron::VpProbe"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Simulate"/>
+                <Button Id="Electron::SimOpToggle"/>
+                <Button Id="Electron::SourceSetup"/>
+                <Button Id="Electron::DSourceSetup"/>
+                <Button Id="Electron::VProbe"/>
+                <Button Id="Electron::VpProbe"/>
+                <Button Id="Electron::AddSimModel"/>
+                <Button Id="Electron::RemoveSimModel"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="SchModifyPanel" _LCLZId="lclzSchModifyPanel" _LCLZText="MODIFY">
+            <Controls>
+                <Button Id="Electron::Change"/>
+                <Button Id="Electron::Value"/>
+                <Button Id="Electron::Invoke"/>
+                <Button Id="Electron::Replace"/>
+            </Controls>
+
+            <PanelDropdown>
+                <Button Id="Electron::Change"/>
+                <Button Id="Electron::Value"/>
+                <Button Id="Electron::Split"/>
+                <Button Id="Electron::Miter"/>
+                <Button Id="Electron::Slice"/>
+                <Button Id="Electron::Invoke"/>
+                <Button Id="Electron::Replace"/>
+                <Button Id="Electron::PaintRoller"/>
+                <Button Id="Electron::Pattern"/>
+                <Button Id="Electron::Optimize"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="SchDrawPanel" _LCLZId="lclzSchDrawPanel" _LCLZText="DRAW">
+            <Controls>
+                <Button Id="Electron::Line"/>
+                <Button Id="Electron::AddText"/>
+                <Button Id="Electron::Arc"/>
+                <Button Id="Electron::Circle"/>
+                <Button Id="Electron::Rectangle"/>
+                <Button Id="Electron::Polygon"/>
+                <Button Id="Electron::Attribute"/>
+            </Controls>
+
+            <PanelDropdown>
+                <Button Id="Electron::Line"/>
+                <Button Id="Electron::AddText"/>
+                <Button Id="Electron::Arc"/>
+                <Button Id="Electron::Circle"/>
+                <Button Id="Electron::Rectangle"/>
+                <Button Id="Electron::Polygon"/>
+                <Button Id="Electron::Attribute"/>
+            </PanelDropdown>
+        </Panel>
+
+
+        <Panel Id="SchVariantPanel" _LCLZId="lclzSchVariantPanel" _LCLZText="Variant">
+            <Controls>
+                <Button Id="Electron::Variant"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Variant"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="SchOutputPanel" _LCLZId="lclzSchOutputPanel" _LCLZText="Output">
+            <Controls>
+                <Button Id="Electron::Bom"/>
+                <Button Id="Electron::Print"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Bom"/>
+                <Button Id="Electron::Print"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="SchValidatePanel" _LCLZId="lclzSchValidatePanel" _LCLZText="VALIDATE">
+            <Controls>
+                <Button Id="Electron::ERC"/>
+                <Button Id="Electron::Errors"/>
+                <Button Id="Electron::Class"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::ERC"/>
+                <Button Id="Electron::Errors"/>
+                <Button Id="Electron::Class"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="SchAutomationPanel" _LCLZId="lclzSchAutomation" _LCLZText="AUTOMATION">
+            <Controls>
+                <Button Id="Electron::RunULP"/>
+                <Button Id="Electron::RunScript"/>
+            </Controls>
+
+            <PanelDropdown>
+                <Button Id="Electron::RunULP"/>
+                <Button Id="Electron::RunScript"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="SchSelectPanel" _LCLZId="lclzSchSelectPanel" _LCLZText="SELECT">
+            <Controls>
+                <Button Id="Electron::Group"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="Electron::Group"/>
+                <Button Id="Electron::GroupPolygon"/>
+            </PanelDropdown>
+        </Panel>
+
+        <Panel Id="SchLibraryPanel" _LCLZId="lclzSchLibraryPanel" _LCLZText="LIBRARIES" >
+          <Controls>
+            <Button Id="Electron::LibraryManager" />
+            <Button Id="Electron::UpdateDesignFromLibrary" />
+            <Button Id="Electron::UpdateDesignFromAllLibraries" />
+          </Controls>
+        </Panel>
+        </CommandToolbar>
+
+    <CommandToolbar Id="ElectronProjectDocAssetType">
+        <!-- Dummy panel for workspace to avoid the hang on right click -->
+        <Panel Id="DummyElectronWorskpaceSwitcher" _LCLZId="lclzWorkspace" _LCLZText="Workspace"/>
+
+        <Tab Id="Common" _LCLZId="CommonTab" _LCLZText="COMMON" Panels="CreatePanel"/>
+
+        <Panel Id="CreatePanel" _LCLZId="lclzCreatePanel" _LCLZText="CREATE">
+            <Controls>
+                <Button Id="NewElectronSchDocumentCommand"/>
+                <Button Id="ReferenceToSCHCmd"/>
+                <Button Id="NewElectronPcbDocumentCommand"/>
+                <Button Id="ReferenceToPCBCmd"/>
+            </Controls>
+            <PanelDropdown>
+                <Button Id="NewElectronSchDocumentCommand"/>
+                <Button Id="ReferenceToSCHCmd"/>
+                <Button Id="NewElectronPcbDocumentCommand"/>
+                <Button Id="ReferenceToPCBCmd"/>
+            </PanelDropdown>
+        </Panel>
+
+    </CommandToolbar>
+
+    <!-- Navigation Toolbar -->
+    <Toolbar Id="Electron::NavToolbar" Style="ToolbarSmallStyle">
+        <Button Id="Electron::Info"/>
+        <Button Id="Electron::Show"/>
+        <Button Id="Electron::Edit"/>
+        <Button Id="Electron::Undo"/>
+        <Button Id="Electron::Redo"/>
+        <Button Id="Electron::ZoomIn"/>
+        <Button Id="Electron::ZoomOut"/>
+        <Button Id="Electron::ZoomToFit"/>
+        <Button Id="Electron::ZoomSelect"/>
+        <Button Id="Electron::Grid"/>
+        <Button Id="Electron::Mark"/>
+        <Button Id="Electron::StopCommand"/>
+        <Button Id="Electron::Group"/>
+    </Toolbar>
+
+    <Toolbar Id="ElectronicDesign::NavToolbar" Style="ToolbarSmallStyle">
+        <Button Id="PanCommand"/>
+        <Button Id="ZoomCommand"/>
+        <DropDownButton Id="ZoomFitCommandGroup" HasSplitter="true"
+            SynchronizedWithCurrentItem="true" SynchronizedWithUpdates="true"> </DropDownButton>
+    </Toolbar>
+
+    <Toolbar Id="QAT" Append="true">
+        <Button Id="NewElectronDesignDocumentCommand" AddAfter="NewDocumentCommand"/>
+        <Button Id="NewElectronLbrDocumentCommand" AddAfter="NewElectronDesignDocumentCommand"/>
+        <Button Id="Electron::Undo" HasSplitter="True" AddAfter="UndoDropDown"/>
+        <Button Id="Electron::Redo" HasSplitter="True" AddAfter="RedoDropDown"/>
+        <DropDownItem Id="HideElectronDescriptionCommand" AddAfter="ShowCommandPaletteCommand"/>
+        <DropDownItem Id="ShowElectronDescriptionCommand" AddAfter="HideElectronDescriptionCommand"/>
+        <DropDownItem Id="HideElectronDesignManagerCommand"
+            AddAfter="ShowElectronDescriptionCommand"/>
+        <DropDownItem Id="ShowElectronDesignManagerCommand"
+            AddAfter="HideElectronDesignManagerCommand"/>
+        <DropDownItem Id="HideElectronInspectorCommand" AddAfter="ShowElectronDesignManagerCommand"/>
+        <DropDownItem Id="ShowElectronInspectorCommand" AddAfter="HideElectronInspectorCommand"/>
+        <DropDownItem Id="HideElectronSelectionFilterCommand"
+            AddAfter="ShowElectronInspectorCommand"/>
+        <DropDownItem Id="ShowElectronSelectionFilterCommand"
+            AddAfter="HideElectronSelectionFilterCommand"/>
+        <DropDownItem Id="HideElectronSheetsCommand" AddAfter="ShowElectronSelectionFilterCommand"/>
+        <DropDownItem Id="ShowElectronSheetsCommand" AddAfter="HideElectronSheetsCommand"/>
+        <DropDownItem Id="HideCommandToolbarCommand" AddAfter="ShowElectronSheetsCommand"/>
+        <DropDownItem Id="ShowCommandToolbarCommand" AddAfter="HideCommandToolbarCommand"/>
+    </Toolbar>
+</Toolbars>
+
+

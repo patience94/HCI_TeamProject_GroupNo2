@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DRCErrors>
+<error type="error" description="Overlap" layernr="1" signature="19,1,cd36860cb09d8891" state="active" code="19" xmin="19.131616" ymin="18.733834" xmax="20.830938" ymax="19.042687" x="19.981275" y="18.888259"/>
+</DRCErrors>

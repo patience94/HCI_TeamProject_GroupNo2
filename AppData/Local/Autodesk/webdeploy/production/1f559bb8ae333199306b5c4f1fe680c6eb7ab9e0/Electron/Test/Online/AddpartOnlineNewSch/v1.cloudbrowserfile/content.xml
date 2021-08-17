@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CloudBrowser>
+  <File description="Item created" displayName="AddpartOnlineNewSch_Electronics_Design" hidden="No" mimeType="application/vnd.autodesk.fusionprj" name="AddpartOnlineNewSch_Electronics_Design" state="" status="Complete" transient="No" version="1">
+    <Versions>
+      <Version description="Item created" state="" title="AddpartOnlineNewSch_Electronics_Design" version="1"/>
+    </Versions>
+    <Relationships>
+      <Relationship direction="Child" outOfDate="No" referencedLineage="AddpartOnlineNewSch_Schematic" referencedMimeType="application/vnd.autodesk.fusionsch" referencedVersion="1" type="XREF">
+        <Version description="Item created" state="" title="AddpartOnlineNewSch_Schematic" version="1"/>
+      </Relationship>
+    </Relationships>
+  </File>
+</CloudBrowser>

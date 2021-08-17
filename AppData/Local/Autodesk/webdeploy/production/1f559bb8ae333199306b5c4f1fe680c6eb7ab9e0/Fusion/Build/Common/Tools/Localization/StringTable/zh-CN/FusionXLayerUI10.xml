@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="UserSavedDescription" devLabel="User Saved" translation="用户已保存"/>
+	<label commandName="UserSavedDescriptionOffline" devLabel="Updated From Offline Mode" translation="已从脱机模式更新"/>
+</Resource>

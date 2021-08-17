@@ -1,0 +1,23 @@
+{
+  "clients": [
+    {
+      "name": "Inventor",
+      "executable": "C:\\Program Files\\Autodesk\\Inventor 2021\\Bin\\Inventor.exe",
+      "arguments": [ "/language=ENU" ],
+      "environment": {
+        "MAGInventorDebug": "1",
+        "MAGEnableTxtLog" : "1"
+      }
+    },
+    {
+      "name": "Fusion",
+      "executable": "D:\\git\\FusionPlugins\\Lib64\\Debug_Build\\Debug\\Fusion360.exe",
+      "workingDir": "D:\\git\\FusionPlugins\\Lib64\\Debug_Build\\Debug",
+      "arguments": [],
+      "environment": {
+        "MAGAtmEnum": "1",
+        "MAGEnableTxtLog": "1"
+      }
+    }
+  ]
+}

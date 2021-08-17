@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="ElectronComponentRootDefaultUserName" devLabel="ElectronComponent" translation="ElectronComponent"/>
+	<label commandName="ElectronDesignDocumentsNotInSync" devLabel="Board and schematic are not consistent!&#xA;&#xA;No forward-/backannotation will be performed!&#xA;&#xA;Use the ERC command to get a detailed error report." translation="Leiterplatte und Stromlaufplan sind nicht konsistent!&#xA;&#xA;Es wird keine Forward-/Backannotation ausgeführt!&#xA;&#xA;Verwenden Sie den Befehl ERC, um einen detaillierten Fehlerbericht zu erhalten."/>
+	<label commandName="ElectronExtFileBlobSerializer" devLabel="Electron failed to generate a small thumbnail." translation="Electron konnte keine kleine Miniaturansicht erstellen."/>
+	<label commandName="ElectronLbrDocAssetType" devLabel="Library Document Asset" translation="Bibliotheksdokumentobjekt"/>
+	<label commandName="ElectronOptionGroupUserName" devLabel="ECAD" translation="ECAD"/>
+	<label commandName="ElectronPcbDocAssetType" devLabel="PCB Document Asset" translation="Leiterplattendokumentobjekt"/>
+	<label commandName="ElectronProjectDocAssetType" devLabel="Electronics Design Document Asset" translation="Elektronikentwurf-Dokumentobjekt"/>
+	<label commandName="ElectronSchDocAssetType" devLabel="Schematic Document Asset" translation="Stromlaufplan-Dokumentobjekt"/>
+	<label commandName="PCB2dUpdateToLatestConfirm" devLabel="The linked PCB2d file has new version(s).&#xA;Do you want to load the latest version?" translation="Die verknüpfte 2D-Leiterplattendatei enthält neue Versionen.&#xA;Möchten Sie die neueste Version laden?"/>
+	<label commandName="PCB3dUpdateToLatestConfirm" devLabel="The linked PCB3d file has new version(s).&#xA;Do you want to load the latest version?" translation="Die verknüpfte 3D-Leiterplattendatei enthält neue Versionen.&#xA;Möchten Sie die neueste Version laden?"/>
+	<label commandName="PCBUpdateToLatestConfirm" devLabel="The linked PCB file has new version(s).&#xA;Do you want to load the latest version?" translation="Die verknüpfte Leiterplattendatei enthält neue Versionen.&#xA;Möchten Sie die neueste Version laden?"/>
+	<label commandName="SCHUpdateToLatestConfirm" devLabel="The linked Schematic file has new version(s).&#xA;Do you want to load the latest version?" translation="Die verknüpfte Stromlaufplandatei enthält neue Versionen.&#xA;Möchten Sie die neueste Version laden?"/>
+	<label commandName="UnsavedDocumentLabel" devLabel="(Unsaved)" translation="(Nicht gespeichert)"/>
+	<label commandName="UpdateToLatestConfirm" devLabel="The linked file has new version(s).&#xA;Do you want to load the latest version?" translation="Die verknüpfte Datei enthält neue Versionen.&#xA;Möchten Sie die neueste Version laden?"/>
+</Resource>

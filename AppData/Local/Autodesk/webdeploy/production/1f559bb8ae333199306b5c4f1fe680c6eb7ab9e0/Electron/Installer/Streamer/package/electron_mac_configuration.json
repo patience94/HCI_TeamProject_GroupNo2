@@ -1,0 +1,13 @@
+{
+	"build"	   : "Release",
+
+	"platform" : "darwin",
+
+	"packageId": "4386dc0be81e49d787777bfa54bae741",
+
+	"included-files" : [
+	{
+             "include-filter": [ "Autodesk Fusion 360.app/Contents/Libraries/Applications/Electron/" ]
+	}
+    ]
+}

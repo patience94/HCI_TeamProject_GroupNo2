@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TimelineCheck RootComponent="(Unsaved)" TimelineSliderPosition="3">
+  <DcFeature CompName="(Unsaved)" FeatureName="Outline" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+  <DcFeature CompName="(Unsaved)" FeatureName="Extrude1" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+  <DcFeature CompName="(Unsaved)" FeatureName=" Packages:1" HealthStatus="Healthy" RolledBack="No" Suppressed="No"/>
+</TimelineCheck>

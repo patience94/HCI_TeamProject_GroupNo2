@@ -1,0 +1,118 @@
+<?xml version="1.0" ?><ThirdParties>
+  <!-- 7zip -->
+  <ThirdParty Id="7zip">
+    <Platform Target="WIN64" Version="16.04" Package="win64_1">
+    </Platform>
+    <Platform Target="MAC64" Version="9.20.0.1" Package="MAC64b">
+    </Platform>
+  </ThirdParty>
+  <!-- Python -->
+  <ThirdParty Id="PYTHON" SDK="True">
+    <!-- WIN32 Not updated since not supported so much any more.... -->
+    <Platform Package="win64" Target="WIN64" Version="3.7.3">
+      <Configuration Target="Debug">
+        <SystemPath>\DLLs</SystemPath>
+        <SystemPath>\</SystemPath>
+      </Configuration>
+      <Configuration Target="Release">
+        <SystemPath>\DLLs</SystemPath>
+        <SystemPath>\</SystemPath>
+      </Configuration>
+    </Platform>
+    <Platform Package="MAC64" Target="MAC64" Version="3.7.3">
+    </Platform>
+  </ThirdParty>
+
+  <ThirdParty Id="CERTIFI">
+      <Platform Package="MAC64" Target="MAC64" Version="20200119" />
+      <Platform Package="WIN64" Target="WIN64" Version="20200119" />
+  </ThirdParty>
+
+  <!-- comtypes -->
+  <ThirdParty Id="PYLIB_COMTYPES">
+    <Platform Package="WIN64" Target="WIN64" Version="1.1.0-e"/>
+  </ThirdParty>
+
+  <!--
+  Deprecated, but leaving here until we can be sure that the streamer can stay in sync with
+  the difflib provided by LIBOSS
+  <ThirdParty Id="DIFFLIB">
+    <Platform Package="WIN64" Target="WIN64" Version="85e0d52d473fcd38c6baa0e09e7c09c5d88e25af" />
+    <Platform Package="MAC64" Target="MAC64" Version="85e0d52d473fcd38c6baa0e09e7c09c5d88e25af" />
+  </ThirdParty>
+  -->
+
+  <ThirdParty Id="CX_FREEZE" SDK="False">
+    <Platform Package="WIN64" Target="WIN64" Version="5.1.1"/>
+    <Platform Package="MAC64" Target="MAC64" Version="5.1.1"/>
+  </ThirdParty>
+
+  <!-- apsw -->
+  <ThirdParty Id="PYLIB_APSW">
+    <Platform Package="WIN64" Target="WIN64" Version="3.27.2-r1">
+    </Platform>
+    <Platform Package="MAC64" Target="MAC64" Version="3.13.0-r1">
+    </Platform>
+  </ThirdParty>
+
+  <!-- SQLITE -->
+  <ThirdParty Id="SQLITE" SDK="False">
+    <Platform Package="Win32" Target="WIN64" Version="3.7.16.2"/>
+  </ThirdParty>
+
+  <!--liboss-->
+  <ThirdParty Id="LIBOSS" SDK="True">
+      <Platform Target="WIN64" Version="2.7.3" Package="win64_sp_1">
+        <Configuration Target="Debug">
+          <SystemPath>\Debug</SystemPath>
+        </Configuration>
+        <Configuration Target="Release">
+          <SystemPath>\Release</SystemPath>
+        </Configuration>
+      </Platform>
+      <Platform Package="mac64_sp" Target="MAC64" Version="2.7.3">
+      </Platform>
+    </ThirdParty>
+
+  <!-- pinnable launcher -->
+  <ThirdParty Id="PINNABLELAUNCHER">
+    <Platform Target="WIN64" Version="1.1.1" Package="WIN64_2" />
+  </ThirdParty>
+
+  <!-- GNU Gettext Utils -->
+  <ThirdParty Id="GNU_GETTEXT">
+    <Platform Target="WIN64" Version="0.19.5.1" Package="WIN32">
+          <Configuration Target="Debug">
+              <Path>bin</Path>
+              <SystemPath>bin</SystemPath>
+          </Configuration>
+          <Configuration Target="Release">
+              <Path>bin</Path>
+              <SystemPath>bin</SystemPath>
+          </Configuration>
+      </Platform>
+      <Platform Target="MAC64" Version="0.19.4" Package="MAC64">
+          <Configuration Target="Debug">
+              <Path>/</Path>
+          </Configuration>
+          <Configuration Target="Release">
+              <Path>/</Path>
+          </Configuration>
+      </Platform>
+  </ThirdParty>
+  
+  <!-- MS Install Modules -->
+<ThirdParty Id="INSTALL_MS">
+  <Platform Package="WIN64" Target="WIN64" Version="20191112"/>
+</ThirdParty>
+
+<!-- Libwebsockets library -->
+<!-- Last update by: Shyam Sunder Goyal -->
+<ThirdParty Id="LIBWEBSOCKETS" SDK="False">
+  <Platform Package="WIN64" Target="WIN64" Version="1.5_vc2015">
+  </Platform>
+  <Platform Package="mac64_mas_sp" Target="MAC64" Version="1.3g">
+  </Platform>
+</ThirdParty>
+
+</ThirdParties>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menus>
+
+  <!--/////////////////////////////////////////////
+    This document determines the order in which the contents of the menu will appear.
+    To determine whether the command joins the menu or not, edit the CmdDef onAddToContextMenu method.
+  //////////////////////////////////////////////-->
+
+  <!-- ///////////////////////////////////////////-->
+  <!-- ** This document defines the contents of the Radial Menu & Context Menu for each workspace.  
+      The *Context* menus have very little difference.  When adding items to the context menu, 
+      consider adding them to ALL workspaces to maintain consistency ** -->
+  <!-- ///////////////////////////////////////////-->
+
+  <!-- ********************* -->
+  <!-- ** Electron Workspace ** -->
+  <!-- ********************* -->
+  <MarkingMenu EnvId="PCBDesignEnvironement">
+
+    <Menu TypeId="BaseMenu">
+      <MenuItem Id="RedoCommand" Position="East" />
+      <MenuItem Id="UndoCommand" Position="West" />
+    </Menu>
+
+    <Menu TypeId="Overflow">
+
+      <!-- Nav controls -->
+      <MenuItem Id="PanCommand"/>
+      <MenuItem Id="ZoomCommand"/>
+
+      <Separator />
+
+      <!-- Data Management -->
+      <MenuItem Id="GetLatestElectronCmd" />
+      <MenuItem Id="GetLatestPcbCmd" />
+      <MenuItem Id="GetLatestSchCmd" />
+      <MenuItem Id="RemovePCBLinkCmd" />
+      <MenuItem Id="RemoveSCHLinkCmd" />
+    </Menu>
+  </MarkingMenu>
+
+
+</Menus>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DRCErrors>
+<error type="error" description="Wire Style" layernr="1" signature="10,1,2d4b8c8b8da92c69" state="active" code="10" xmin="24.282400" ymin="13.233400" xmax="32.029400" ymax="13.436600" x="28.155900" y="13.335000"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,0121629a29a64a1d" state="active" code="18" xmin="32.004000" ymin="14.545734" xmax="32.801209" ymax="14.795500" x="32.402603" y="14.670616"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,4170ea43a0bd0b8e" state="active" code="18" xmin="25.958800" ymin="19.812000" xmax="26.301919" ymax="20.973031" x="26.130359" y="20.392516"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,49d6cbee80e802d0" state="active" code="18" xmin="21.488400" ymin="14.545734" xmax="22.606000" ymax="14.795500" x="22.047200" y="14.670616"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,8ffa3e7a627bd3fb" state="active" code="18" xmin="28.304069" ymin="26.399069" xmax="28.571600" ymax="27.840431" x="28.437834" y="27.119750"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,b2e11d8e1788b8e7" state="active" code="18" xmin="23.647400" ymin="19.812000" xmax="24.139919" ymax="20.982431" x="23.893659" y="20.397216"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,da5863f769f6d059" state="active" code="18" xmin="28.270200" ymin="19.812000" xmax="28.613319" ymax="20.982431" x="28.441759" y="20.397216"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,e2aa7292399fa9a7" state="active" code="18" xmin="30.378400" ymin="14.545734" xmax="31.496000" ymax="14.795500" x="30.937200" y="14.670616"/>
+<error type="error" description="Stop Mask" layernr="29" signature="18,29,e94dfbf6b0f2a249" state="active" code="18" xmin="23.114000" ymin="14.545734" xmax="23.911209" ymax="14.795500" x="23.512603" y="14.670616"/>
+<error type="error" description="Overlap" layernr="1" signature="19,1,20e3ca01b2779fec" state="active" code="19" xmin="30.403813" ymin="13.169913" xmax="31.470588" ymax="13.512787" x="30.937200" y="13.341350"/>
+<error type="error" description="Overlap" layernr="1" signature="19,1,58f4148ac6002e6e" state="active" code="19" xmin="24.980559" ymin="18.645544" xmax="25.835494" ymax="19.473578" x="25.408025" y="19.059559"/>
+<error type="error" description="Overlap" layernr="1" signature="19,1,983e9ffff319f4d8" state="active" code="19" xmin="28.755600" ymin="19.865600" xmax="29.664400" ymax="20.774400" x="29.210000" y="20.320000"/>
+<error type="error" description="Overlap" layernr="1" signature="19,1,a15118ca47b263ee" state="active" code="19" xmin="26.492213" ymin="17.501709" xmax="26.847788" ymax="18.313662" x="26.670000" y="17.907684"/>
+<error type="error" description="Overlap" layernr="1" signature="19,1,e0047c46f3c72fe0" state="active" code="19" xmin="25.158822" ymin="18.818919" xmax="25.577787" ymax="19.227788" x="25.368303" y="19.023353"/>
+<error type="error" description="Angle" layernr="1" signature="8,1,65be66dce892edb1" state="active" code="8" xmin="24.256544" ymin="13.867944" xmax="31.039256" ymax="20.142656" x="27.647900" y="17.005300"/>
+</DRCErrors>

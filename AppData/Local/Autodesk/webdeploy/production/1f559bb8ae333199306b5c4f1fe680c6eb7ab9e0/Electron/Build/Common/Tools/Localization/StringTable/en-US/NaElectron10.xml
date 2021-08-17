@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource>
+	<label commandName="ElectronComponentRootDefaultUserName" devLabel="ElectronComponent" translation="" />
+	<label commandName="ElectronDesignDocumentsNotInSync" devLabel="Board and schematic are not consistent!&#10;&#10;No forward-/backannotation will be performed!&#10;&#10;Use the ERC command to get a detailed error report." translation="" />
+	<label commandName="ElectronExtFileBlobSerializer" devLabel="Electron failed to generate a small thumbnail." translation="" />
+	<label commandName="ElectronLbrDocAssetType" devLabel="Library Document Asset" translation="" />
+	<label commandName="ElectronOptionGroupUserName" devLabel="ECAD" translation="" />
+	<label commandName="ElectronPcbDocAssetType" devLabel="PCB Document Asset" translation="" />
+	<label commandName="ElectronProjectDocAssetType" devLabel="Electronics Design Document Asset" translation="" />
+	<label commandName="ElectronSchDocAssetType" devLabel="Schematic Document Asset" translation="" />
+	<label commandName="PCB2dUpdateToLatestConfirm" devLabel="The linked PCB2d file has new version(s).&#10;Do you want to load the latest version?" translation="" />
+	<label commandName="PCB3dUpdateToLatestConfirm" devLabel="The linked PCB3d file has new version(s).&#10;Do you want to load the latest version?" translation="" />
+	<label commandName="PCBUpdateToLatestConfirm" devLabel="The linked PCB file has new version(s).&#10;Do you want to load the latest version?" translation="" />
+	<label commandName="SCHUpdateToLatestConfirm" devLabel="The linked Schematic file has new version(s).&#10;Do you want to load the latest version?" translation="" />
+	<label commandName="UnsavedDocumentLabel" devLabel="(Unsaved)" translation="" />
+	<label commandName="UpdateToLatestConfirm" devLabel="The linked file has new version(s).&#10;Do you want to load the latest version?" translation="" />
+</Resource>

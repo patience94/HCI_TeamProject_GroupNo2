@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root DllName="MSFNesting" Identifier="MSFNesting" IsCoreAddIn="0" IsUIAddIn="0" IsApplicationAddIn="1" AppName="Fabrication" Name="MSFNesting">
+	<NeededAddIns>
+		<NeededAddIn>Scene</NeededAddIn>
+		<NeededAddIn>CommonData</NeededAddIn>
+	    <NeededAddIn>Body</NeededAddIn>
+		<NeededAddIn>Component</NeededAddIn>
+		<NeededAddIn>EntityTracking</NeededAddIn>
+	    <NeededAddIn>Fusion</NeededAddIn>
+    	<NeededAddIn>MSFCommon</NeededAddIn>
+	</NeededAddIns>
+	<AssetType Name="NestingAsset" Identifier="NestingAssetType" BaseServerIdentifier="Neutron3DAssetType" AddInId="MSFNesting" DefaultDocTypeId="NeutronDocumentType"/>
+</root>

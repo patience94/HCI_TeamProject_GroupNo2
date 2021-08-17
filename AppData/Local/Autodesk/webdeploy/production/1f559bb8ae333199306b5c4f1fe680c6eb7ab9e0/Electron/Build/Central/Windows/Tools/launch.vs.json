@@ -1,0 +1,13 @@
+{
+    "version": "0.2.1",
+    "defaults": {},
+    "configurations": [
+      {
+        "type": "default",
+        "exe": "${CMAKE_BINARY_DIR}\\${CMAKE_BUILD_TYPE}\\Fusion360.exe",
+        "project": "CMakeLists.txt",
+        "projectTarget": "",
+        "name": "Fusion360.exe"
+      }
+    ]
+  }

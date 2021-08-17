@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="3D PCB Environment" devLabel="Package" translation="封装"/>
+	<label commandName="3D Package Editor" devLabel="3D Package Editor" translation="三维封装编辑器"/>
+	<label commandName="AllPackagesUpdatedFromModifiedFootprint" devLabel="Packages are updated and synced successfully with the footprints. Save the library to include the changes." translation="已成功更新资料包并将其与示意图同步。请保存库以包含更改。"/>
+	<label commandName="BoardLayoutEditorEnvironment" devLabel="PCB Editor" translation="PCB 编辑器"/>
+	<label commandName="ChangeLinkedSketchForBoard" devLabel="The board in 3D PCB links with derived sketch, do you want to update the components only? Click &quot;No&quot; to reassociate the outline." translation="The board in 3D PCB links with derived sketch, do you want to update the components only? Click &quot;No&quot; to reassociate the outline."/>
+	<label commandName="ChatSupport" devLabel="Chat with an Expert" translation="与专家交谈"/>
+	<label commandName="CommonTab" devLabel="COMMON" translation="常用"/>
+	<label commandName="ConfirmToOpenElectronicDesign1" devLabel="The linked file is used by this electronics design:&#xA;" translation="该链接文件已被此电子器件设计使用:&#xA;"/>
+	<label commandName="ConfirmToOpenElectronicDesign3" devLabel="&#xA;Do you want to close it and open the new one?" translation="&#xA;是否要关闭它并打开新文件？"/>
+	<label commandName="ContentManagerPanel" devLabel="Content Manager" translation="内容管理器"/>
+	<label commandName="ContentManagerPanelCloseCmd" devLabel="Hide Content Manager Command" translation="隐藏内容管理器命令"/>
+	<label commandName="ContentManagerPanelCloseCommand" devLabel="Hide Content Manager Panel" translation="隐藏内容管理器面板"/>
+	<label commandName="ContentManagerPanelOpenCmd" devLabel="Show Content Manager Command" translation="显示内容管理器命令"/>
+	<label commandName="ContentManagerPanelOpenCommand" devLabel="Show Content Manager Panel" translation="显示内容管理器面板"/>
+	<label commandName="Create Footprint" devLabel="Create Footprint" translation="创建示意图"/>
+	<label commandName="Create New Package" devLabel="Create New Package" translation="创建新封装"/>
+	<label commandName="CreatePCBHeightInput" devLabel="Thickness" translation="厚度"/>
+	<label commandName="CreatePCBProfileInput" devLabel="Profile" translation="轮廓"/>
+	<label commandName="DesignManager" devLabel="Design Manager" translation="设计管理器"/>
+	<label commandName="EditElectronDescription" devLabel="Edit Electron Description" translation="编辑 Electron 说明"/>
+	<label commandName="EditorSidePanelCloseCommand" devLabel="Hide Editor Side Panel" translation="隐藏编辑器端面板"/>
+	<label commandName="EditorSidePanelOpenCommand" devLabel="Show Editor Side Panel" translation="显示编辑器端面板"/>
+	<label commandName="Electron::AddHoleTips" devLabel="A hole generates a symbol in the Holes layer as well as a circle with the diameter of the hole in the Dimension layer." translation="孔会在“孔”层中生成一个符号，并在“尺寸标注”层中生成一个与孔具有相同直径的圆。"/>
+	<label commandName="Electron::AddHoleTitle" devLabel="Hole" translation="孔"/>
+	<label commandName="Electron::AddPartDesc" devLabel="The AddPart command can be used with wildcards ('*' or '?') to find a specific device." translation="AddPart 命令可与通配符(“*”或“?”)配合使用，以查找特定器件。"/>
+	<label commandName="Electron::AddPartTips" devLabel="Usually you click the AddPart command and select the footprint or symbol from the menu that opens. If necessary, parameters can be entered from the keyboard." translation="通常，单击 AddPart 命令并从打开的菜单中选择示意图或符号。如有必要，可以从键盘输入参数。"/>
+	<label commandName="Electron::AddPartTitle" devLabel="Add Part" translation="添加零件"/>
+	<label commandName="Electron::AddTextTips" devLabel="The orientation of the text can be defined by the Text command (orientation) using the definitions listed in the Add command, such as R0 and R90. The right mouse button changes the rotation of the text and the center mouse button changes the current layer." translation="可以通过“文字”命令(方向)使用“添加”命令中列出的定义(例如 R0 和 R90)定义文字的方向。可以使用鼠标右键更改文字的旋转角度，使用鼠标中键更改当前层。"/>
+	<label commandName="Electron::AddTextTitle" devLabel="AddText" translation="AddText"/>
+	<label commandName="Electron::AlignTips" devLabel="The Align command uses axis aligned bounding boxes of objects to be aligned for all modes except for Align Origin to Grid mode (which as the name implies uses the origin of the object to be aligned)." translation="对于除“对齐原点到栅格”模式(顾名思义，这种模式使用对象的原点进行对齐)外的所有模式，“对齐”命令使用对象的轴对齐边界框来进行对齐。"/>
+	<label commandName="Electron::AlignTitle" devLabel="Align Objects" translation="对齐对象"/>
+	<label commandName="Electron::ArcTips" devLabel="Use the parameters CW (clockwise) and CCW (counterclockwise) to define the direction of the arc. ROUND and FLAT define whether the arc endings are round or flat, respectively." translation="使用参数 CW (顺时针)和 CCW (逆时针)定义圆弧的方向。“圆形”和“扁圆形”分别定义圆弧端点是圆形还是扁圆形。"/>
+	<label commandName="Electron::ArcTitle" devLabel="Arc" translation="圆弧"/>
+	<label commandName="Electron::AttributeTips" devLabel="Attributes can be defined in the library (for individual devices), in the schematic (for an actual part) or in the board (for an actual element). Attributes defined on the device level will be used for every part of that device type in the schematic. In a schematic, additional attributes can be defined for each part, and existing attributes from the devices can be overwritten with new values (if the attributes have been defined as variable). An element in the board has all the attributes of its corresponding part, and can have further attributes of its own." translation="可以在库(对于各个器件)、原理图(对于实际零件)或电路板(对于实际元件)中定义属性。在器件级别定义的属性将用于原理图中该器件类型的每个零件。在原理图中，可以为每个零件定义其他属性，并且可以使用新值覆盖器件的现有属性(如果这些属性已定义为变量)。电路板中的元件具有其相应零件的所有属性，并且可能还具有自己的其他属性。"/>
+	<label commandName="Electron::AttributeTitle" devLabel="Attribute" translation="属性"/>
+	<label commandName="Electron::AutoRouterTips" devLabel="The Load and Save options can be used to load the AutoRouter parameters from or save them to the given file. If filename doesn't have the extension '.ctl' it will be appended automatically." translation="“加载”和“保存”选项可用于从给定文件加载自动布线器参数或者将自动布线器参数保存到给定文件。如果文件名不具有扩展名“.ctl”，将自动附加该扩展名。"/>
+	<label commandName="Electron::AutoRouterTitle" devLabel="Autorouter" translation="自动布线器"/>
+	<label commandName="Electron::BusTips" devLabel="Reusable bus specifications can be saved as Predefined Buses (PDBs). The PDBs are saved in a file and can be used across projects, even shared with others. " translation="可以将可重用总线规格另存为预定义总线(PDB)。PDB 保存在文件中，并可在项目之间使用，甚至可以与其他人共享。 "/>
+	<label commandName="Electron::BusTitle" devLabel="Bus" translation="总线"/>
+	<label commandName="Electron::ChangeTips" devLabel="Parameters adjusted with the Change command remain as preset properties for objects added later." translation="使用“更改”命令调整的参数依然是以后添加的对象的预设特性。"/>
+	<label commandName="Electron::ChangeTitle" devLabel="Change" translation="更改"/>
+	<label commandName="Electron::CircleTips" devLabel="Circles in the layers tRestrict, bRestrict, and vRestrict define restricted areas. They should be defined with a width of 0." translation="tRestrict、bRestrict 和 vRestrict 层中的圆定义了限制区域。应使用宽度 0 定义它们。"/>
+	<label commandName="Electron::CircleTitle" devLabel="Circle" translation="圆"/>
+	<label commandName="Electron::CopyTips" devLabel="Copy places the selected group of objects on the clipboard, to support multiple Paste operations." translation="“复制”可将选定对象组放置在剪贴板上，以支持多个“粘贴”操作。"/>
+	<label commandName="Electron::CopyTitle" devLabel="Copy" translation="复制"/>
+	<label commandName="Electron::DRCTips" devLabel="Any errors found are displayed as error polygons in the respective layers, and can be browsed through using the Errors command." translation="发现的任何错误在各自的层中显示为错误多边形，并且可以使用“错误”命令进行浏览。"/>
+	<label commandName="Electron::DRCTitle" devLabel="Design Rule Check" translation="设计规则检查"/>
+	<label commandName="Electron::DeleteTips" devLabel="After deleting a group, airwires may be left over from the removal of a component, because the airwires were not part of the group. In such a case you can recalculate the airwires with the RatsNest command." translation="删除某个组后，可能会从元件删除中留下天线，因为天线不属于该组。在这种情况下，您可以使用 RatsNest 命令重新计算天线。"/>
+	<label commandName="Electron::DeleteTitle" devLabel="Delete" translation="删除"/>
+	<label commandName="Electron::DimensionTips" devLabel="Control how dimensions are drawn by using the Change command with options such as DLine and DUnit." translation="通过将“更改”命令与 DLine 和 DUnit 等选项结合使用，控制绘制尺寸标注的方式。"/>
+	<label commandName="Electron::DimensionTitle" devLabel="Dimension" translation="尺寸标注"/>
+	<label commandName="Electron::DisplayTips" devLabel="Layer Settings." translation="层设置。"/>
+	<label commandName="Electron::DisplayTitle" devLabel="Layer Settings" translation="层设置"/>
+	<label commandName="Electron::ERCTips" devLabel="ERC detects inconsistencies between the implicit power and supply pins in the schematic and the actual signal connections in the board. Such inconsistencies can occur if the supply pin configuration is modified after the board has been created with the Board command." translation="ERC 检测到原理图中隐式电源和电源引脚与电路板中的实际信号连接之间存在不一致。如果在使用“电路板”命令创建电路板后修改了电源引脚配置，则会发生此类不一致。"/>
+	<label commandName="Electron::ERCTitle" devLabel="Electrical Rule Check" translation="电气规则检查"/>
+	<label commandName="Electron::ErrorsTips" devLabel="The list view in the Errors dialog has up to four sections that contain Consistency errors, Errors, Warnings and Approved messages." translation="“错误”对话框中的列表视图最多包含四个部分，即“一致性错误”、“错误”、“警告”和“已批准的消息”。"/>
+	<label commandName="Electron::ErrorsTitle" devLabel="Errors" translation="错误"/>
+	<label commandName="Electron::FanoutTips" devLabel="The Width parameter defines the width of the routed wire for the fanout and is the same parameter as used in the Route command. The width can be changed with the command 'Change Width width;'." translation="“宽度”参数定义扇出的已布线导线的宽度，并且与“布线”命令中使用的参数相同。可以使用“更改宽度 width;”命令更改宽度。"/>
+	<label commandName="Electron::FanoutTitle" devLabel="Fanout" translation="扇出"/>
+	<label commandName="Electron::FlipBoardTips" devLabel="" translation=""/>
+	<label commandName="Electron::FlipBoardTitle" devLabel="" translation=""/>
+	<label commandName="Electron::GateSwapTips" devLabel="The name used in the GateSwap command is the displayed name on the schematic (e.g. U1A for gate A in device U1)" translation="GateSwap 命令中使用的名称是示意图上的显示名称(例如，U1A 表示器件 U1 中的栅 A)"/>
+	<label commandName="Electron::GateSwapTitle" devLabel="GateSwap" translation="GateSwap"/>
+	<label commandName="Electron::GridTips" devLabel="" translation=""/>
+	<label commandName="Electron::GridTitle" devLabel="Grid" translation="栅格"/>
+	<label commandName="Electron::GroupTips" devLabel="The group includes all objects whose origin is inside the polygon, all wires with at least one endpoint inside the polygon, all circles whose center is inside the polygon, and all rectangles with any corner inside the polygon." translation="该组包含且原点位于多边形内的所有对象、在多边形内至少具有一个端点的所有导线、其圆心位于多边形内的所有圆以及任意角点位于多边形内的所有矩形。"/>
+	<label commandName="Electron::GroupTitle" devLabel="Group" translation="组"/>
+	<label commandName="Electron::InfoTips" devLabel="Parts, pads, smds, pins and gates can be selected by their name, which is useful if the object is outside the currently shown window area." translation="可以按名称选择零件、焊盘、SMD、引脚和栅，如果对象位于当前显示的窗口区域之外，这将非常有用。"/>
+	<label commandName="Electron::InfoTitle" devLabel="Info" translation="信息"/>
+	<label commandName="Electron::InvokeTips" devLabel="To activate gates, first enter the part name (e.g. IC5) and select the gate from the popup dialog. Then define device and gate name from the keyboard (e.g. Invoke IC5 Power). Select an existing gate from the device with the mouse and then select the desired gate from the popup menu that appears. Finally, click to position the new gate." translation="若要激活栅，请先输入零件名称(例如 IC5)，并从弹出对话框中选择栅。然后，从键盘定义器件和栅名称(例如，调用 IC5 电源)。使用鼠标从器件中选择现有栅，然后从显示的弹出菜单中选择所需栅。最后，单击以放置新栅。"/>
+	<label commandName="Electron::InvokeTitle" devLabel="Invoke" translation="调用"/>
+	<label commandName="Electron::JunctionTips" devLabel="If a net wire is placed at a point where there are at least two other net wires and/or pins, a junction will automatically be placed. " translation="如果在至少存在其他两个网络导线和/或引脚的点处放置网络导线，则会自动放置连接点。 "/>
+	<label commandName="Electron::JunctionTitle" devLabel="Junction" translation="连接点"/>
+	<label commandName="Electron::LabelTips" devLabel="Labels are handled as text, but their value corresponds to the name of the particular bus or net. If a bus or net is renamed with the Name command, all associated labels are renamed automatically." translation="标签被处理为文字，但其值与特定总线或网络的名称相对应。如果使用“名称”命令重命名总线或网络，则所有关联标签将自动重命名。"/>
+	<label commandName="Electron::LabelTitle" devLabel="Label" translation="标签"/>
+	<label commandName="Electron::LayerTips" devLabel="On the command line, specify a different layer by name or number: 'Layer layer_name' or 'Layer layer_number'." translation="在命令行上，按名称或编号指定其他层:“Layer layer_name”或“Layer layer_number”。"/>
+	<label commandName="Electron::LayerTitle" devLabel="Layer" translation="层"/>
+	<label commandName="Electron::LineTips" devLabel="Press the center mouse button to bring up a popup menu and select the layer on which to draw the line." translation="按鼠标中键以显示弹出菜单，并选择要在其上绘制线的层。"/>
+	<label commandName="Electron::LineTitle" devLabel="Line" translation="直线"/>
+	<label commandName="Electron::ManualRouteTips" devLabel="When you select an airwire (a connection on the Unrouted layer), routing begins at the signal object connected to the airwire that is closest to your selection point. Otherwise, the ManualRoute command automatically creates a new airwire from your selected route start point to a nearby target object that is a member of the same signal." translation="选择天线(未布线层上的连接)时，将在连接到距离您的选择点最近的天线的信号对象处开始布线。否则，ManualRoute 命令会自动从选定的布线起点到作为同一信号成员的附近目标对象之间创建新天线。"/>
+	<label commandName="Electron::ManualRouteTitle" devLabel="ManualRoute" translation="ManualRoute"/>
+	<label commandName="Electron::MarkTips" devLabel="Choose a grid fine enough before using the Mark command." translation="在使用“标记”命令之前，请选择足够精细的栅格。"/>
+	<label commandName="Electron::MarkTitle" devLabel="Mark" translation="标记"/>
+	<label commandName="Electron::MeanderTips" devLabel="The meander starts at the first click point and extends to the second point the mouse is moved to. The maximum (perpendicular) size of the meander is defined by the distance of the mouse to the meandered wire." translation="折导线起始于第一个单击点，并延伸到光标所至的第二个点。折导线的最大(垂直)尺寸由光标到折导线的距离定义。"/>
+	<label commandName="Electron::MeanderTitle" devLabel="Meander" translation="折导线"/>
+	<label commandName="Electron::MirrorTips" devLabel="Parts, pads, smds and pins can also be selected by their name, which is useful if the object is outside the currently shown window area." translation="也可以按名称选择零件、焊盘、SMD 和引脚，如果对象位于当前显示的窗口区域之外，这将非常有用。"/>
+	<label commandName="Electron::MirrorTitle" devLabel="Mirror" translation="镜像"/>
+	<label commandName="Electron::MiterTips" devLabel="If you select a point where exactly two straight wires join, an additional wire will be inserted between these two wires, according to the given radius. If you click-drag on such a point with the left mouse button, you can define the mitering wire dynamically." translation="如果选择两条直导线恰好连接的点，则将根据给定半径在这两条导线之间插入其他导线。如果使用鼠标左键单击并拖动该点，则可以动态定义斜接导线。"/>
+	<label commandName="Electron::MiterTitle" devLabel="Miter" translation="斜接"/>
+	<label commandName="Electron::ModuleTips" devLabel="The orientation of the module instance can be defined textually using the usual definitions as listed in the Add command, such as R0 or R90." translation="可以使用“添加”命令中列出的通常定义(例如 R0 和 R90)，通过文字的方式定义模块实例的方向。"/>
+	<label commandName="Electron::ModuleTitle" devLabel="Module" translation="模块"/>
+	<label commandName="Electron::MoveTips" devLabel="When moving elements, connected wires (tracks) that belong to a signal are moved too (beware of short circuits!)." translation="当移动元件时，属于信号的连接导线(迹线)也会移动(小心短路！)。"/>
+	<label commandName="Electron::MoveTitle" devLabel="Move" translation="移动"/>
+	<label commandName="Electron::NetTips" devLabel="Net wires snap to the tips of pins. When the mouse is within Snap_Length of any portion of a pin (either before or after grid snapping), a small circle appears at the tip of the pin. This indicates that if the mouse is clicked, the resulting net wire point will be placed at the pin tip, creating a connection to the pin." translation="网络导线将捕捉到引脚尖。当光标位于引脚任何部分的 Snap_Length 内时(在栅格捕捉之前或之后)，在引脚尖会显示一个小圆。这表示如果单击鼠标，将会在引脚尖处放置生成的网络导线点，从而创建到该引脚的连接。"/>
+	<label commandName="Electron::NetTitle" devLabel="Net" translation="网络"/>
+	<label commandName="Electron::OptimizeTips" devLabel="When selecting a wire without name, all unnamed wires of the drawing are optimized." translation="当选择没有名称的导线时，将优化图形的所有未命名导线。"/>
+	<label commandName="Electron::OptimizeTitle" devLabel="Optimize" translation="优化"/>
+	<label commandName="Electron::PaintRollerTips" devLabel="Start the command in the command line or with the PaintRoller icon in the commands toolbar." translation="在命令行中启动命令，或者使用命令工具栏中的 PaintRoller 图标启动命令。"/>
+	<label commandName="Electron::PaintRollerTitle" devLabel="PaintRoller" translation="PaintRoller"/>
+	<label commandName="Electron::PasteTips" devLabel="When pasting from a file, nets that have a label or are connected to a supply pin retain their names, while all others get newly generated names." translation="从文件粘贴时，具有标签或连接到电源引脚的网络将保留其名称，而所有其他网络则获取新生成的名称。"/>
+	<label commandName="Electron::PasteTitle" devLabel="Paste" translation="粘贴"/>
+	<label commandName="Electron::PatternTips" devLabel="This command can be used in the Schematic, Layout, and Library Editor." translation="可在原理图、布局和库编辑器中使用该命令。"/>
+	<label commandName="Electron::PatternTitle" devLabel="Pattern" translation="阵列"/>
+	<label commandName="Electron::PinSwapTips" devLabel="Wires attached to the swapped pins are moved with the pins, so short circuits can appear. Run the design rules check (DRC) and correct possible errors." translation="附着到交换引脚的导线将随引脚一起移动，因此可能会出现短路。请运行设计规则检查(DRC)并纠正可能的错误。"/>
+	<label commandName="Electron::PinSwapTitle" devLabel="PinSwap" translation="PinSwap"/>
+	<label commandName="Electron::PolygonTips" devLabel="The polygon width should always be larger than the hardware resolution of the output device." translation="多边形宽度应始终大于输出器件的硬件分辨率。"/>
+	<label commandName="Electron::PolygonTitle" devLabel="Polygon" translation="多边形"/>
+	<label commandName="Electron::PortTips" devLabel="The position and orientation are calculated automatically on the closest side of the module symbol." translation="位置和方向是基于模块符号的最近端自动计算的。"/>
+	<label commandName="Electron::PortTitle" devLabel="Port" translation="端口"/>
+	<label commandName="Electron::QuickRouteAirWireTips" devLabel="You can select an existing wire, pad, or via in the design, and if the command can determine an unambiguous nearby airwire then it will route that." translation="您可以在设计中选择现有导线、焊盘或过孔，如果命令可以确定明确在附近的天线，则该命令会布线。"/>
+	<label commandName="Electron::QuickRouteAirWireTitle" devLabel="QuickRouteAirWire" translation="QuickRouteAirWire"/>
+	<label commandName="Electron::QuickRouteMultiWireTips" devLabel="Press the Esc key if you need to clear the selection list and begin again." translation="如果需要清除选择列表并重新开始，请按 Esc 键。"/>
+	<label commandName="Electron::QuickRouteMultiWireTitle" devLabel="QuickRouteMultiWire" translation="QuickRouteMultiWire"/>
+	<label commandName="Electron::QuickRouteSignalTips" devLabel="When the signal that you have selected is one side of a differential pair, the command automatically routes both differential pair signals together." translation="如果您选择的信号是差分对的一端，则该命令会自动同时进行差分对信号布线。"/>
+	<label commandName="Electron::QuickRouteSignalTitle" devLabel="QuickRouteSignal" translation="QuickRouteSignal"/>
+	<label commandName="Electron::RatsnestTips" devLabel="Ratsnest also calculates all polygons belonging to a signal. This avoids the calculation of airwires for pads already connected through polygons." translation="Ratsnest 还会计算属于信号的所有多边形。这可避免计算已通过多边形连接的焊盘的天线。"/>
+	<label commandName="Electron::RatsnestTitle" devLabel="Ratsnest" translation="Ratsnest"/>
+	<label commandName="Electron::RectangleTips" devLabel="The orientation (see description in Add command) can be any angle in the range R0–R359.9." translation="方向(请参见“添加”命令中的说明)可以是 R0–R359.9 范围内的任意角度。"/>
+	<label commandName="Electron::RectangleTitle" devLabel="Rectangle" translation="矩形"/>
+	<label commandName="Electron::ReplaceTips" devLabel="Without parameters, the Replace command opens a dialog from which to select a device from all libraries currently in use. After such a device has been selected, subsequent mouse clicks on parts replace those parts' devices with the selected one if possible." translation="如果没有参数，“替换”命令将打开一个对话框，可以在其中从当前正在使用的所有库中选择器件。选择器件后，后续在零件上单击时，会使用选定的器件替换这些零件的器件(如有可能)。"/>
+	<label commandName="Electron::ReplaceTitle" devLabel="Replace" translation="替换"/>
+	<label commandName="Electron::RepositionAttributesTips" devLabel="Parts and elements can also be selected by their name, which is useful if the object is outside the currently shown window area. " translation="也可以按名称选择零件和元件，如果对象位于当前显示的窗口区域之外，这将非常有用。 "/>
+	<label commandName="Electron::RepositionAttributesTitle" devLabel="RepositionAttributes" translation="RepositionAttributes"/>
+	<label commandName="Electron::RipupAllPolygonsTips" devLabel="To invoke the same command using the command line, enter RIPUP @; and press 'ENTER'." translation="若要使用命令行调用相同的命令，请输入 RIPUP @;，然后按 ENTER 键。"/>
+	<label commandName="Electron::RipupAllPolygonsTitle" devLabel="RipupAllPolygons" translation="RipupAllPolygons"/>
+	<label commandName="Electron::RipupAllTips" devLabel="If the Ripup command with a name is applied to a signal that contains a polygon, the polygon is displayed with its outlines for faster screen redraw. Use the Ratsnest command to have polygons displayed in the 'real mode' again." translation="如果将带有名称的“拆线”命令应用于包含多边形的信号，则该多边形会显示有轮廓，以便更快速地进行屏幕重画。使用 Ratsnest 命令可以再次获得在“实时模式”下显示的多边形。"/>
+	<label commandName="Electron::RipupAllTitle" devLabel="Ripup" translation="拆线"/>
+	<label commandName="Electron::RipupConnectedSameLayerTips" devLabel="Use Ripup Connected Copper on the same layer to ripup fanouts, BGA breakouts, etc." translation="在同一层上使用“连接的铜箔拆线”以对扇出、BGA 出线等拆线。"/>
+	<label commandName="Electron::RipupConnectedSameLayerTitle" devLabel="RipupConnectedSameLayer" translation="RipupConnectedSameLayer"/>
+	<label commandName="Electron::RipupConnectedTips" devLabel="Use Ripup Connected Copper to limit the scope of a ripup and make reworking sections easier." translation="使用“连接的铜箔拆线”可以限制拆线的范围，从而更轻松地返修切片。"/>
+	<label commandName="Electron::RipupConnectedTitle" devLabel="RipupConnected" translation="RipupConnected"/>
+	<label commandName="Electron::RipupElementToElementTips" devLabel="Useful when rerouting connections between components including memory signals, buses, etc" translation="在元件(包括内存信号、总线等)之间进行连接重新布线时，这非常有用"/>
+	<label commandName="Electron::RipupElementToElementTitle" devLabel="RipupElementToElement" translation="RipupElementToElement"/>
+	<label commandName="Electron::RipupSignalTips" devLabel="Use to ripup all tracks, vias and polygons in a selected signal" translation="用于对选定信号中的所有迹线、过孔和多边形拆线"/>
+	<label commandName="Electron::RipupSignalTitle" devLabel="RipupSignal" translation="RipupSignal"/>
+	<label commandName="Electron::RipupTips" devLabel="If the Ripup command with a name is applied to a signal that contains a polygon, the polygon is displayed with its outlines for faster screen redraw. Use the Ratsnest command to have polygons displayed in the 'real mode' again." translation="如果将带有名称的“拆线”命令应用于包含多边形的信号，则该多边形会显示有轮廓，以便更快速地进行屏幕重画。使用 Ratsnest 命令可以再次获得在“实时模式”下显示的多边形。"/>
+	<label commandName="Electron::RipupTitle" devLabel="Ripup" translation="拆线"/>
+	<label commandName="Electron::RotateTips" devLabel="If orientation angle is specified, that value will be added to the current orientation of the selected object. Prefixing orientation with the character '=' causes the angle value not to be added, but set absolutely." translation="如果指定了方向角度，则该值将加到选定对象的当前方向。在方向前面添加字符“=”作为前缀时，会导致不会加上角度值，但绝对会设置角度值。"/>
+	<label commandName="Electron::RotateTitle" devLabel="Rotate" translation="旋转"/>
+	<label commandName="Electron::RouteDiffPairTips" devLabel="When selecting an airwire of a Differential Pair, both signals are routed in parallel. The distance between the two signals as well as the wire and via sizes are determined by the signals' net class. This is done independent of the setting of Options/Set/Misc/Auto set route width and drill." translation="当选择差分对的天线时，会对两个信号进行平行布线。两个信号之间的距离以及导线和过孔尺寸由信号的网络类别决定。它与“选项/设置/其他/自动设置布线宽度和钻孔”设置无关。"/>
+	<label commandName="Electron::RouteDiffPairTitle" devLabel="RouteDiff" translation="RouteDiff"/>
+	<label commandName="Electron::RouteMultiTips" devLabel="To select the signals to route, draw a selection line that intersects through the signal objects that you wish to route concurrently (existing wires, pads, and vias). Continue to draw additional selection lines to add more signal objects." translation="若要选择要布线的信号，请绘制一条穿过您要同时布线的信号对象(现有导线、焊盘和过孔)的选择线。继续绘制其他选择线以添加更多信号对象。"/>
+	<label commandName="Electron::RouteMultiTitle" devLabel="RouteMulti" translation="RouteMulti"/>
+	<label commandName="Electron::RunScriptTips" devLabel="If RunScript is typed in at the keyboard and 'file_name' has no extension, the program automatically uses '.scr'." translation="如果在键盘上键入 RunScript 并且“file_name”没有扩展名，程序会自动使用“.scr”。"/>
+	<label commandName="Electron::RunScriptTitle" devLabel="RunScript" translation="RunScript"/>
+	<label commandName="Electron::ShowTips" devLabel="Select more than one object for highlighting by pressing the Ctrl key when clicking on the objects." translation="在单击对象时按 Ctrl 键，选择多个对象进行亮显。"/>
+	<label commandName="Electron::ShowTitle" devLabel="Show" translation="显示"/>
+	<label commandName="Electron::SignalTips" devLabel="If you use the Signal command to connect pads (or smds) that already belong to different signals, a popup will ask you if you want to connect the signals together, and which name to use for the signal." translation="如果使用“信号”命令连接属于其他信号的焊盘(或 SMD)，则一个弹出窗口将会显示，它会询问您是否要将信号连接在一起，以及要用于该信号的名称。"/>
+	<label commandName="Electron::SignalTitle" devLabel="Signal" translation="信号"/>
+	<label commandName="Electron::SliceTips" devLabel="Only lines from from displayed layers can be sliced. Air lines and polygons are not sliced." translation="只能切割所显示层中的线。不会切割天线和多边形。"/>
+	<label commandName="Electron::SliceTitle" devLabel="Slice" translation="断面图"/>
+	<label commandName="Electron::SplitTips" devLabel="A mouseclick defines the point at which the wire is split. The shorter of the two new segments follows the current wire bend rules and can therefore become two more segments; the longer segment is a straight segment running to the next end point." translation="单击鼠标可定义分割导线的点。两条新导线段中较短的导线段将遵循当前的导线弯曲规则，因此可能变为又多了两条导线段；较长的导线段是将行进到下一个端点的直导线段。"/>
+	<label commandName="Electron::SplitTitle" devLabel="Split" translation="分割"/>
+	<label commandName="Electron::Tips" devLabel="Started from a context menu, the object is assigned to a group. It can be identified with the built-in function ingroup() for further processing." translation="从关联菜单开始，将对象指定给组。可以使用内置的函数 ingroup() 标识该组以进行进一步处理。"/>
+	<label commandName="Electron::Title" devLabel="RunULP" translation="RunULP"/>
+	<label commandName="Electron::ToggleSingleLayerTips" devLabel="ToggleSingleLayer." translation="ToggleSingleLayer。"/>
+	<label commandName="Electron::ToggleSingleLayerTitle" devLabel="ToggleSingleLayer" translation="ToggleSingleLayer"/>
+	<label commandName="Electron::ValueTips" devLabel="If you type in a value before you select an element, then all of the subsequently selected elements receive this value." translation="如果在选择元件之前键入值，则后来选择的所有元件将接收该值。"/>
+	<label commandName="Electron::ValueTitle" devLabel="Value" translation="值"/>
+	<label commandName="Electron::ViaTips" devLabel="The via is added to a signal if it is placed on an existing signal wire." translation="如果在现有导线上放置信号，将会为该信号添加过孔。"/>
+	<label commandName="Electron::ViaTitle" devLabel="Via" translation="过孔"/>
+	<label commandName="Electron::ZoomInTips" devLabel="TBD" translation="待定"/>
+	<label commandName="Electron::ZoomInTitle" devLabel="ZoomIn" translation="ZoomIn"/>
+	<label commandName="Electron::ZoomOutTips" devLabel="TBD" translation="待定"/>
+	<label commandName="Electron::ZoomOutTitle" devLabel="ZoomOut" translation="ZoomOut"/>
+	<label commandName="Electron::ZoomRectTips" devLabel="TBD" translation="待定"/>
+	<label commandName="Electron::ZoomRectTitle" devLabel="ZoomRect" translation="ZoomRect"/>
+	<label commandName="Electron::ZoomToFitTips" devLabel="TBD" translation="待定"/>
+	<label commandName="Electron::ZoomToFitTitle" devLabel="ZoomToFit" translation="ZoomToFit"/>
+	<label commandName="ElectronColorOptionsDescription" devLabel="Color Preferences for Electronics" translation="电子器件的颜色首选项"/>
+	<label commandName="ElectronColorOptionsName" devLabel="Color" translation="颜色"/>
+	<label commandName="ElectronDesignDocumentsNotInSync" devLabel="Board and schematic are not consistent!&#xA;&#xA;No forward-/backannotation will be performed!&#xA;&#xA;Use the ERC command to get a detailed error report." translation="电路板和原理图不一致！&#xA;&#xA;不会执行正向/反向标注！&#xA;&#xA;请使用 ERC 命令获取详细的错误报告。"/>
+	<label commandName="ElectronDrillOptionsDescription" devLabel="Drill Preferences for Electronics" translation="电子器件的钻孔首选项"/>
+	<label commandName="ElectronDrillOptionsName" devLabel="Drill" translation="钻孔"/>
+	<label commandName="ElectronMiscOptionsDescription" devLabel="Misc Preferences for Electronics" translation="电子器件的其他首选项"/>
+	<label commandName="ElectronMiscOptionsName" devLabel="Misc" translation="其他"/>
+	<label commandName="ElectronNewDesignDocument" devLabel="New Electronics Design" translation="新建电子器件设计"/>
+	<label commandName="ElectronNewDocument" devLabel="New Electron Document" translation="新建 Electron 文档"/>
+	<label commandName="ElectronNewLbrDocument" devLabel="New Electronics Library" translation="新建电子器件库"/>
+	<label commandName="ElectronNewPcbDocument" devLabel="New PCB" translation="新建 PCB"/>
+	<label commandName="ElectronNewSchDocument" devLabel="New Schematic" translation="新建原理图"/>
+	<label commandName="ElectronOptionsDescription" devLabel="Preferences for Electronics" translation="电子器件首选项"/>
+	<label commandName="ElectronOptionsName" devLabel="Electronics" translation="电子器件"/>
+	<label commandName="ElectronSaveAllCmd" devLabel="Save all command" translation="“全部保存”命令"/>
+	<label commandName="Electronic3DPCB" devLabel="3D PCB" translation="三维 PCB"/>
+	<label commandName="ElectronicBoard" devLabel="Board" translation="电路板"/>
+	<label commandName="ElectronicPCB" devLabel="PCB" translation="PCB"/>
+	<label commandName="ElectronicPCB3DBottom" devLabel="PCB3D Bottom" translation="PCB3D 底部"/>
+	<label commandName="ElectronicPCB3DTop" devLabel="PCB3D Top" translation="PCB3D 顶部"/>
+	<label commandName="ElectronicProjectDesign" devLabel="Project Design" translation="项目设计"/>
+	<label commandName="ElectronicSchematic" devLabel="Schematic" translation="原理图"/>
+	<label commandName="ElectronicSheet" devLabel="Sheet%1" translation="图纸 %1"/>
+	<label commandName="Electronics Library Device Design Environment" devLabel="Device" translation="器件"/>
+	<label commandName="Electronics Library EmptyLbr Design Environment" devLabel="EmptyLbr" translation="EmptyLbr"/>
+	<label commandName="Electronics Library Footprint Design Environment" devLabel="Footprint" translation="示意图"/>
+	<label commandName="Electronics Library Package 3D Browse Environment" devLabel="Package 3d" translation="封装 3D"/>
+	<label commandName="Electronics Library Symbol Design Environment" devLabel="Symbol" translation="符号"/>
+	<label commandName="FailToAccessPackage3DDoc" devLabel="Fail to access new 3d package document." translation="无法访问新的三维封装文档。"/>
+	<label commandName="FailToCreatePCB3dDoc" devLabel="Fail to create PCB 3d document!" translation="无法创建 PCB 三维文档！"/>
+	<label commandName="FailToCreatePCBDoc" devLabel="Fail to create PCB document!" translation="无法创建 PCB 文档！"/>
+	<label commandName="FailToCreatePackage3DDoc" devLabel="Fail to create new 3d package document." translation="无法创建新的三维封装文档。"/>
+	<label commandName="FailToCreatePackageFromFootprint" devLabel="Package can not be created from empty footprint." translation="无法从空白示意图创建封装。"/>
+	<label commandName="FailToExecuteEagleULP" devLabel="Fail to execute eagle ulp." translation="Fail to execute eagle ulp."/>
+	<label commandName="FailToGenerateResult" devLabel="Fail to generate result." translation="Fail to generate result."/>
+	<label commandName="FailToOpenPCB3DDoc" devLabel="Fail to open PCB3D document!" translation="无法打开 PCB3D 文档！"/>
+	<label commandName="FailToOpenPCBDoc" devLabel="Fail to open PCB document!" translation="无法打开 PCB 文档！"/>
+	<label commandName="FailedToDownload3DModel" devLabel="Failed to store downloaded 3d model." translation="无法存储下载的三维模型。"/>
+	<label commandName="FailedToGetReferenceFile" devLabel="Failed to get the referenced file." translation="无法获取参考文件。"/>
+	<label commandName="FailedToOpenPackage3D" devLabel="Failed to open 3D package document." translation="无法打开三维封装文档。"/>
+	<label commandName="FailedToOpenReferenceFile" devLabel="Failed to open the referenced file." translation="无法打开参考文件。"/>
+	<label commandName="FailedToReferenceTheFile" devLabel="Failed to get the referenced file." translation="无法获取参考文件。"/>
+	<label commandName="FailedToStore3DModel" devLabel="Failed to load 3d model." translation="无法加载三维模型。"/>
+	<label commandName="FileOpenFilterDesignPCB" devLabel="All supported files (*.fbrd *.brd)" translation="所有支持的文件(*.fbrd *.brd)"/>
+	<label commandName="FileOpenFilterDesignSch" devLabel="All supported files (*.fsch *.sch)" translation="所有支持的文件(*.fsch *.sch)"/>
+	<label commandName="FinishPackage3D" devLabel="Do you want to finish the package and add to the library?" translation="是否要完成封装并添加到库？"/>
+	<label commandName="FinishPackage3DWarning" devLabel="Package can not be finished without a footprint." translation="如果没有示意图，则无法完成封装。"/>
+	<label commandName="FinishPackage3DWarningWhenSavingDocument" devLabel="The document is currently being saved. You can finish the package after saving the document." translation="当前正在保存该文档。您可以先完成封装，然后再保存该文档。"/>
+	<label commandName="FocusEagleCommandLine" devLabel="Set focus on EAGLE command line bar" translation="在 EAGLE 命令行栏上设置焦点"/>
+	<label commandName="FusionPackage3DStop" devLabel="Finish" translation="完成"/>
+	<label commandName="GetLatestElectronCommand" devLabel="Get All Latest" translation="获取所有最新版本"/>
+	<label commandName="GetLatestPcbCommand" devLabel="Get Latest PCB" translation="获取最新 PCB"/>
+	<label commandName="GetLatestSchCommand" devLabel="Get Latest Schematic" translation="获取最新原理图"/>
+	<label commandName="HideElectronDescriptionCmd" devLabel="Hide Electron Description Command" translation="隐藏 Electron 说明命令"/>
+	<label commandName="HideElectronDescriptionCommand" devLabel="Hide Electron Design Description" translation="隐藏 Electron 设计说明"/>
+	<label commandName="HideElectronDesignManagerCmd" devLabel="Hide Electron Design Manager Command" translation="隐藏 Electron 设计管理器命令"/>
+	<label commandName="HideElectronDesignManagerCommand" devLabel="Hide Design Manager" translation="隐藏设计管理器"/>
+	<label commandName="HideElectronInspectorCmd" devLabel="Hide Electron Inspector Command" translation="隐藏 Electron 检查器命令"/>
+	<label commandName="HideElectronInspectorCommand" devLabel="Hide Inspector" translation="隐藏检查器"/>
+	<label commandName="HideElectronSelectionFilterCmd" devLabel="Hide Electron Selection Filter Command" translation="隐藏 Electron 选择过滤器命令"/>
+	<label commandName="HideElectronSelectionFilterCommand" devLabel="Hide Selection Filter" translation="隐藏选择过滤器"/>
+	<label commandName="HideElectronSheetsCmd" devLabel="Hide Electron Sheets Command" translation="隐藏 Electron 图纸命令"/>
+	<label commandName="HideElectronSheetsCommand" devLabel="Hide Sheets" translation="隐藏图纸"/>
+	<label commandName="Inspector" devLabel="Inspector" translation="检查器"/>
+	<label commandName="LaunchRedoCmdDef" devLabel="Launch the redo command" translation="启动重做命令"/>
+	<label commandName="LaunchUndoCmdDef" devLabel="Launch the undo command" translation="启动撤消命令"/>
+	<label commandName="LearningPanel" devLabel="In Product Marketing" translation="在产品营销中"/>
+	<label commandName="Link 3D PCB to existing brd" devLabel="Link to 2D PCB" translation="链接到二维 PCB"/>
+	<label commandName="LinkedDocumentNotReady" devLabel="The linked document wasn't ready yet, please try it again." translation="链接的文档尚未准备就绪，请重试。"/>
+	<label commandName="LinktoSelectTarget" devLabel="Link to" translation="链接至"/>
+	<label commandName="MainDashboard" devLabel="Data Panel" translation="数据面板"/>
+	<label commandName="MissPCBDesign" devLabel="Please open or create an electronics design to continue." translation="请打开或创建电子器件设计以继续。"/>
+	<label commandName="NewElectronDesignMenuCommand" devLabel="New Electronics Design" translation="新建电子器件设计"/>
+	<label commandName="OpenLinkedDocument" devLabel="Open" translation="打开"/>
+	<label commandName="PCB2DAndPCB3DOutOfSync1" devLabel="The 2D and 3D PCB documents are out of sync.&#xA;To synchronize, ensure any changes to the 2D document have been pushed to 3D from the Switch section located in the main PCB toolbar. From the 3D PCB, push changes by clicking the PCB icon in the Modify section of the main toolbar.&#xA;Do you want to continue?" translation="二维和三维 PCB 文档不同步。&#xA;若要同步，请确保对二维文档所做的任何更改均已通过主 PCB 工具栏的“切换”部分推送到三维。从三维 PCB 中，通过单击主工具栏“修改”部分中的 PCB 图标来推送更改。&#xA;是否要继续？"/>
+	<label commandName="PCB2DAndPCB3DOutOfSync2" devLabel="The 2D and 3D PCB documents are out of sync.&#xA;To synchronize, ensure any changes to the 2D document have been pushed to 3D from the Switch section located in the main PCB toolbar. From the 3D PCB, push changes by clicking the PCB icon in the Modify section of the main toolbar." translation="二维和三维 PCB 文档不同步。&#xA;若要同步，请确保对二维文档所做的任何更改均已从主 PCB 工具栏的“切换”部分推送到三维。从三维 PCB 中，通过单击主工具栏“修改”部分中的 PCB 图标来推送更改。"/>
+	<label commandName="PCBDesignEnvironment" devLabel="Electronics Design" translation="电子器件设计"/>
+	<label commandName="PLM360NotAuthenticated" devLabel="No valid login session, try logging in again." translation="登录会话无效，请重新尝试登录。"/>
+	<label commandName="Package3DCmd" devLabel="Package 3D editor" translation="封装三维编辑器"/>
+	<label commandName="Package3DLibrarySwitchWarning" devLabel="Could not find the library document for this 3D package." translation="找不到此三维封装的库文档。"/>
+	<label commandName="Package3DStop" devLabel="Finish and update library" translation="完成并更新库"/>
+	<label commandName="PanelInDesign" devLabel="" translation=""/>
+	<label commandName="PcbManufacturing" devLabel="Manufacturing" translation="制造"/>
+	<label commandName="PcbRulesDrcErc" devLabel="Rules DRC/ERC" translation="规则 DRC/ERC"/>
+	<label commandName="Push 3D PCB to brd" devLabel="Push to 2D PCB" translation="推送到二维 PCB"/>
+	<label commandName="ReferenceSelectSource" devLabel="Reference to" translation="参考"/>
+	<label commandName="ReferenceToPCBCommand" devLabel="Reference to a PCB document" translation="参考 PCB 文档"/>
+	<label commandName="ReferenceToSCHCommand" devLabel="Reference to a Schematic document" translation="参考原理图文档"/>
+	<label commandName="Referral" devLabel="Refer a Friend" translation="推荐好友"/>
+	<label commandName="RemovePCB3DLinkCommand" devLabel="Remove 3D PCB Link" translation="删除三维 PCB 链接"/>
+	<label commandName="RemovePCBLinkCommand" devLabel="Remove PCB Link" translation="删除 PCB 链接"/>
+	<label commandName="RemoveSCHLinkCommand" devLabel="Remove Schematic Link" translation="删除原理图链接"/>
+	<label commandName="SaveNewPackage3D" devLabel="Package with the same name already exists in the library. You need to rename the new package before adding it to the library. Do you want to continue?" translation="库中已存在同名的封装。在将新封装添加到库之前，您需要对其重命名。是否要继续？"/>
+	<label commandName="SavedWithPCBDesign" devLabel="Saved with electronics design" translation="与电子器件设计一起保存"/>
+	<label commandName="SchDesignTab" devLabel="DESIGN" translation="设计"/>
+	<label commandName="SchValidateTab" devLabel="VALIDATE" translation="验证"/>
+	<label commandName="SchematicEditorEnvironment" devLabel="Schematic Editor" translation="原理图编辑器"/>
+	<label commandName="SchematicSheets" devLabel="Sheets" translation="图纸"/>
+	<label commandName="SelectionFilter" devLabel="Selection Filter" translation="选择过滤器"/>
+	<label commandName="ShowElectronDescriptionCmd" devLabel="Show Electron Description Command" translation="显示 Electron 说明命令"/>
+	<label commandName="ShowElectronDescriptionCommand" devLabel="Show Electron Design Description" translation="显示 Electron 设计说明"/>
+	<label commandName="ShowElectronDesignManagerCmd" devLabel="Show Electron Design Manager Command" translation="显示 Electron 设计管理器命令"/>
+	<label commandName="ShowElectronDesignManagerCommand" devLabel="Show Design Manager" translation="显示设计管理器"/>
+	<label commandName="ShowElectronInspectorCmd" devLabel="Show Electron Inspector Command" translation="显示 Electron 检查器命令"/>
+	<label commandName="ShowElectronInspectorCommand" devLabel="Show Inspector" translation="显示检查器"/>
+	<label commandName="ShowElectronSelectionFilterCmd" devLabel="Show Electron Selection Filter Command" translation="显示 Electron 选择过滤器命令"/>
+	<label commandName="ShowElectronSelectionFilterCommand" devLabel="Show Selection Filter" translation="显示选择过滤器"/>
+	<label commandName="ShowElectronSheetsCmd" devLabel="Show Electron Sheets Command" translation="显示 Electron 图纸命令"/>
+	<label commandName="ShowElectronSheetsCommand" devLabel="Show Sheets" translation="显示图纸"/>
+	<label commandName="Survey" devLabel="Send Your Feedback" translation="发送反馈"/>
+	<label commandName="SwitchPcbDocumentCommand" devLabel="Switch to PCB document" translation="切换到 PCB 文档"/>
+	<label commandName="SwitchSchematicDocumentCommand" devLabel="Switch to Schematic document" translation="切换到原理图文档"/>
+	<label commandName="TextCommands" devLabel="Text Commands" translation="文本命令"/>
+	<label commandName="UpdatePCB3DPreview" devLabel="Update the PCB3d preview." translation="更新 PCB3d 预览。"/>
+	<label commandName="UpdatePackageFromModifiedFootprintRequestMessage" devLabel="Packages from Fusion Team are out of sync with the footprints in the library. Do you want to update the packages now?" translation="来自 Fusion Team 的资料包与库中的示意图不同步。是否要立即更新这些资料包？"/>
+	<label commandName="UpdateSCHOrPCBNode" devLabel="Update the Schematic or PCB node." translation="更新原理图或 PCB 节点。"/>
+	<label commandName="View 3D PCB" devLabel="View 3D PCB" translation="查看三维 PCB"/>
+	<label commandName="View 3D PCB With Canvas" devLabel="View 3D PCB With Canvas" translation="使用画布查看三维 PCB"/>
+	<label commandName="WillNotUpdatePCB" devLabel="PCB or 3d PCB is read only, so will not update PCB." translation="PCB 或三维 PCB 为只读，因此不会更新 PCB。"/>
+	<label commandName="WillNotUpdatePCB3D" devLabel="PCB or 3d PCB is read only, so will not update 3d PCB." translation="PCB 或三维 PCB 为只读，因此不会更新三维 PCB。"/>
+	<label commandName="lclzAnnotatePanel" devLabel="ANNOTATE" translation="标注"/>
+	<label commandName="lclzCreatePanel" devLabel="CREATE" translation="创建"/>
+	<label commandName="lclzDefaultDocumentName" devLabel="Untitled" translation="无标题"/>
+	<label commandName="lclzElectron::1" devLabel="Executes a User Language Program." translation="执行用户语言程序。"/>
+	<label commandName="lclzElectron::2" devLabel="The Run command starts the User Language Program from the file 'file_name'." translation="“运行”命令从“file_name”文件启动用户语言程序。"/>
+	<label commandName="lclzElectron::AddDesignBlock1" devLabel="Add a design block to a drawing." translation="将设计块添加到图形。"/>
+	<label commandName="lclzElectron::AddDesignBlock2" devLabel="If the design block consists of board and schematic the Layout part can be placed with the mouse cursor." translation="如果设计块包含电路板和原理图，则可以使用鼠标光标放置布局零件。"/>
+	<label commandName="lclzElectron::AddDesignBlockTips" devLabel="The Schematic part will be added automatically to the Schematic on new sheets accordingly." translation="原理图零件将相应地自动添加到新图纸上的原理图中。"/>
+	<label commandName="lclzElectron::AddDesignBlockTitle" devLabel="Add Design Block" translation="添加设计块"/>
+	<label commandName="lclzElectron::AddHole1" devLabel="Adds a drill hole to a board or footprint." translation="将钻孔添加到电路板或示意图。"/>
+	<label commandName="lclzElectron::AddHole2" devLabel="The parameter drill defines the diameter of the hole in the actual unit." translation="参数钻孔定义孔的直径(以实际单位表示)。"/>
+	<label commandName="lclzElectron::AddPart1" devLabel="Add elements to a drawing, or symbols to a device." translation="将元件添加到图形，或者将符号添加到器件。"/>
+	<label commandName="lclzElectron::AddPart2" devLabel="The AddPart command fetches a circuit symbol (gate) or a footprint from the active library and places it into the drawing. During device definition the AddPart command fetches a symbol into the device." translation="AddPart 命令从活动库取回电路符号(栅)或示意图，并将其放置在图形中。在定义器件的过程中，AddPart 会将符号取回到器件中。"/>
+	<label commandName="lclzElectron::AddText1" devLabel="Adds text to a drawing." translation="将文字添加到图形。"/>
+	<label commandName="lclzElectron::AddText2" devLabel="When entering several texts it is not necessary to invoke the command each time, as the text command remains active after placing text with the mouse." translation="输入多个文字时，不必每次都调用该命令，因为在使用鼠标放置文字后，文字命令将保持活动状态。"/>
+	<label commandName="lclzElectron::Align1" devLabel="Aligns selected objects in the Layout editor" translation="在布局编辑器中对齐选定对象"/>
+	<label commandName="lclzElectron::Align2" devLabel="Use the Align command to align objects in relation to each other or to move their origin to the nearest grid point. Use the commnd toolbar, the command line, or the Edit menu to start the Align command." translation="使用“对齐”命令相对于彼此对齐对象，或者将其原点移到最近的栅格点。使用命令工具栏、命令行或“编辑”菜单启动“对齐”命令。"/>
+	<label commandName="lclzElectron::Arc1" devLabel="Draw an arc of variable diameter, width, and length." translation="绘制具有可变直径、宽度和长度的圆弧。"/>
+	<label commandName="lclzElectron::Arc2" devLabel="The ARC command, followed by three mouse clicks on a drawing, draws an arc of defined width. The first point defines a point on a circle, the second its diameter. Entering the second coordinate reduces the circle to a semi-circle, while the right button alters the direction from first to second point. Entry of a third coordinate truncates the semi-circle to an arc extending to a point defined by the intersection of the circumference and a line between the third point and the arc center." translation="先执行 ARC 命令，然后在图形上单击三次鼠标，将绘制所定义宽度的圆弧。第一个点定义圆上的一点，第二个点定义其直径。输入第二个坐标可将该圆减小为半圆，而单击鼠标右键可调整从第一点到第二点的方向。输入第三个坐标可将该半圆截断为圆弧，该圆弧延伸到圆周与第三个点和圆弧圆心之间的线相交定义的点。"/>
+	<label commandName="lclzElectron::Attribute1" devLabel="Definition of attributes for parts." translation="零件属性的定义。"/>
+	<label commandName="lclzElectron::Attribute2" devLabel="An attribute is an arbitrary combination of a name and a value, that can be used to specify any kind of information for a given part." translation="属性是名称和值的任意组合，可用于为给定零件指定任何类型的信息。"/>
+	<label commandName="lclzElectron::AutoRouter1" devLabel="Starts the AutoRouter" translation="启动自动布线器"/>
+	<label commandName="lclzElectron::AutoRouter2" devLabel="If signal names are specified or signals are selected with the mouse, only these signals are routed. Without parameters the command will try to route all signals. If a '!' character is specified all signals are routed except the signals following the '!' character. The '!' character must be the first parameter and must show up only once." translation="如果指定了信号名称或使用鼠标选择了信号，则只会对这些信号进行布线。如果没有参数，则该命令会尝试对所有信号布线。如果指定了字符“!”，则将对除前面带有“!”字符的信号外的所有信号进行布线。“!”字符必须是第一个参数，并且必须仅出现一次。"/>
+	<label commandName="lclzElectron::Bus1" devLabel="Draws buses on the bus layer of a schematic." translation="在原理图的总线层上绘制总线。"/>
+	<label commandName="lclzElectron::Bus2" devLabel="A Bus is a collection of nets. A Bus has a specification and is drawn as one or more bus line segments. The bus specification may include a unique alias, which is a short name used to identify the bus." translation="总线是网络的集合。总线具有规格，并且被绘制为一条或多条总线段。总线规格可以包含唯一别名，这是用于标识总线的简短名称。"/>
+	<label commandName="lclzElectron::Change1" devLabel="Changes parameters." translation="更改参数。"/>
+	<label commandName="lclzElectron::Change2" devLabel="The Change command is used to change or preset properties of objects. The objects are clicked on with the mouse after the desired parameters have been selected from the Change command menu or have been typed in from the keyboard." translation="“更改”命令用于更改或预设对象的特性。从“更改”命令菜单中选择所需参数或者从键盘键入所需参数后，相应对象将处于单击状态。"/>
+	<label commandName="lclzElectron::Circle1" devLabel="Adds circles to a drawing." translation="将圆添加到图形。"/>
+	<label commandName="lclzElectron::Circle2" devLabel="The width parameter defines the width of the circle's circumference and is the same parameter as used in the Line command. The width can be changed with the command 'Change Width width;''" translation="宽度参数定义圆周的宽度，与“直线”命令中使用的参数相同。可以使用“更改宽度 width;”命令更改宽度"/>
+	<label commandName="lclzElectron::Copy1" devLabel="Copies objects." translation="复制对象。"/>
+	<label commandName="lclzElectron::Copy2" devLabel="The Copy command copies objects within the same drawing, or between libraries. The system generates a new name for the copy but retains the old value. When copying signals (wires), buses, and nets the names are retained, but in all other cases a new name is assigned." translation="“复制”命令可复制同一图形内或库之间的对象。系统会为副本生成新名称但保留原有值。当复制信号(导线)、总线和网络时，将保留名称，但是在所有其他情况下，将指定新名称。"/>
+	<label commandName="lclzElectron::DRC1" devLabel="Checks design rules." translation="检查设计规则。"/>
+	<label commandName="lclzElectron::DRC2" devLabel="The board is checked against the current design rules. Electrically irrelevant objects (wires in footprints, rectangles, circles and texts) are not checked against each other for clearance errors. " translation="针对当前的设计规则检查电路板。不会彼此检查电气上不相关的对象(示意图中的导线、矩形、圆和文字)是否存在间隙错误。 "/>
+	<label commandName="lclzElectron::Delete1" devLabel="Deletes selected objects." translation="删除选定对象。"/>
+	<label commandName="lclzElectron::Delete2" devLabel="Parts, pads, smds, pins and gates can also be selected by their name, which is especially useful if the object is outside the currently shown window area. Note that when selecting a multi-gate part in a schematic by name, you will need to enter the full instance name, consisting of part and gate name." translation="还可以按名称选中零件、焊盘、SMD、引脚和栅，如果对象位于当前显示的窗口区域之外，这将特别有用。请注意，在原理图中按名称选中多栅零件时，您需要输入完整实例名称，包括零件和栅名称。"/>
+	<label commandName="lclzElectron::Dimension1" devLabel="Adds dimensioning to a drawing." translation="将尺寸标注添加到图形。"/>
+	<label commandName="lclzElectron::Dimension2" devLabel="If an object is first selected, a dimension is applied, such as the length of a straight wire, or diameter of a hole. If no object is selected, the current dimension type is added; right-click to cycle through the various types." translation="如果先选中对象，则将应用尺寸标注(例如，直导线的长度或孔的直径)。如果未选择对象，则将添加当前尺寸标注类型；单击鼠标右键可循环浏览不同类型。"/>
+	<label commandName="lclzElectron::Display1" devLabel="Layer Settings." translation="层设置。"/>
+	<label commandName="lclzElectron::Display2" devLabel="Layer Settings." translation="层设置。"/>
+	<label commandName="lclzElectron::ERC1" devLabel="Checks electrical rules." translation="检查电气规则。"/>
+	<label commandName="lclzElectron::ERC2" devLabel="Use this command to test schematics for electrical errors. If a board file is loaded, the ERC command also runs a consistency check between schematic and board. " translation="使用此命令可以测试原理图是否存在电气错误。如果加载电路板文件，则 ERC 命令还会在原理图和电路板之间运行一致性检查。 "/>
+	<label commandName="lclzElectron::Errors1" devLabel="Shows the errors found by the ERC or DRC command." translation="显示 ERC 或 DRC 命令发现的错误。"/>
+	<label commandName="lclzElectron::Errors2" devLabel="If no ERC or DRC has yet been run for the loaded drawing, the check will be started first." translation="如果没有为加载的图形运行 ERC 或 DRC，则将首先启动检查。"/>
+	<label commandName="lclzElectron::Fanout1" devLabel="Creates fanouts from devices and signals." translation="从器件和信号创建扇出。"/>
+	<label commandName="lclzElectron::Fanout2" devLabel="The command creates a routed wire and attached via from pads of the selected device or signal. Only surface mount devices (SMD) or ball-grid array (BGA) devices are fanned out; devices with through-hole pads are ignored." translation="该命令可以从选定器件或信号的焊盘创建已布线导线和附着过孔。仅表面贴装器件(SMD)或球栅阵列(BGA)器件会扇出；将会忽略具有通孔焊盘的器件。"/>
+	<label commandName="lclzElectron::FlipBoard1" devLabel="" translation=""/>
+	<label commandName="lclzElectron::FlipBoard2" devLabel="" translation=""/>
+	<label commandName="lclzElectron::GateSwap1" devLabel="Swaps equivalent gates on a schematic." translation="交换原理图上的等效栅。"/>
+	<label commandName="lclzElectron::GateSwap2" devLabel="Both gates must be identical with the same number of pins and must be allocated the same Swaplevel in the device definition. But they do not need to be in the same device." translation="两个栅必须完全相同，具有相同的引脚数，并且在器件定义中必须分配相同的 Swaplevel。但是，它们不需要位于同一器件中。"/>
+	<label commandName="lclzElectron::Grid1" devLabel="Grid Settings." translation="栅格设置。"/>
+	<label commandName="lclzElectron::Grid2" devLabel="Grid Settings." translation="栅格设置。"/>
+	<label commandName="lclzElectron::Group1" devLabel="Defines a group of objects for a subsequent command." translation="为后续命令定义一组对象。"/>
+	<label commandName="lclzElectron::Group2" devLabel="After activating the Group command, objects are selected by click-dragging a rectangle or drawing a polygon with the mouse." translation="激活“组”命令后，通过单击并拖动矩形或使用鼠标绘制多边形来选择对象。"/>
+	<label commandName="lclzElectron::Info1" devLabel="Displays and modifies object properties." translation="显示和修改对象特性。"/>
+	<label commandName="lclzElectron::Info2" devLabel="An object's properties are displayed in a dialog, where they can be modified." translation="在对话框中显示对象的特性，可以在该对话框中修改这些特性。"/>
+	<label commandName="lclzElectron::Invoke1" devLabel="Calls a specific symbol from a device." translation="从器件调用特定符号。"/>
+	<label commandName="lclzElectron::Invoke2" devLabel="Select a particular gate from a device which is already in use and place it in the schematic (e.g. a power symbol with Addlevel = Request)." translation="从已在使用的器件中选择特定栅并将其放置在原理图中(例如，Addlevel = Request 的电源符号)。"/>
+	<label commandName="lclzElectron::Junction1" devLabel="Places a dot at intersecting nets." translation="在相交网络处放置点。"/>
+	<label commandName="lclzElectron::Junction2" devLabel="A connection dot is placed at the intersection of nets that are to be connected. Junction points can be placed only on a net. If placed on the intersection of different nets, the user is given the option to connect the nets." translation="将在要连接的网络交点处放置连接点。只能在网络上放置连接点。如果将连接点放置在不同网络的交点上，则系统会为用户提供连接网络的选项。"/>
+	<label commandName="lclzElectron::Label1" devLabel="Attaches text labels to buses and nets." translation="将文字标签附着到总线和网络。"/>
+	<label commandName="lclzElectron::Label2" devLabel="Bus or net names can be placed on a schematic in any location. Click the bus or net with the mouse, and the relevant label attaches to the mouse cursor. It can be rotated, and moved to a different location or layer. The second mouse click defines the location of the label." translation="可以将总线或网络名称放置在原理图上的任意位置。使用鼠标单击总线或网络，相关标签将附着到鼠标光标。可以旋转该总线或网络，也可以将其移到其他位置或层。再次单击鼠标可定义标签的位置。"/>
+	<label commandName="lclzElectron::Layer1" devLabel="Changes and defines layers." translation="更改和定义层。"/>
+	<label commandName="lclzElectron::Layer2" devLabel="Use the Layer command with one parameter to change the current layer." translation="将“层”命令与一个参数结合使用以更改当前层。"/>
+	<label commandName="lclzElectron::Line1" devLabel="Adds lines (tracks) to a drawing." translation="将线(迹线)添加到图形。"/>
+	<label commandName="lclzElectron::Line2" devLabel="The line begins at the first point specified and runs to the second. Additional points draw additional line segments. Two mouse clicks at the same position finish the line, and a new one can be started at the position of the next mouse click." translation="该线起始于指定的第一个点并行进到第二个点。其他点绘制其他线段。在同一位置单击两次鼠标会完成该线的绘制，并且可以在下次单击鼠标的位置开始一条新线。"/>
+	<label commandName="lclzElectron::ManualRoute1" devLabel="Converts unrouted connections into routed wires (tracks)." translation="将未布线的连接转换为已布线的导线(迹线)。"/>
+	<label commandName="lclzElectron::ManualRoute2" devLabel="This command activates the manual router, which converts airwires (unrouted connections) into real wires." translation="此命令可激活手动布线器，该布线器可将天线(未布线连接)转换为真实导线。"/>
+	<label commandName="lclzElectron::Mark1" devLabel="Defines a mark on the drawing area." translation="在绘图区域上定义标记。"/>
+	<label commandName="lclzElectron::Mark2" devLabel="The coordinates of the mouse cursor relative to that point are displayed in the upper left corner of the screen, with an 'R' prefix. This command is useful when board dimensions or cutouts are to be defined. Entering MARK; turns the mark on or off." translation="鼠标光标相对于该点的坐标显示在屏幕左上角，带有“R”前缀。此命令在定义电路板尺寸标注或切割区时非常有用。输入 MARK; 可打开或关闭标记。"/>
+	<label commandName="lclzElectron::Meander1" devLabel="Balances the lengths of signals in a differential pair." translation="平衡差分对中的信号长度。"/>
+	<label commandName="lclzElectron::Meander2" devLabel="Click on a wire of a differential pair and move the mouse cursor away from the selection point. If there is a difference in the length of the two signals, and the current mouse position is far enough away from the selection point, a meander-shaped sequence of wires is drawn that increases the length of the shorter signal segment. An indicator attached to the mouse cursor shows the target length, as well as the deviation (in percent) of the two signals from the target length." translation="单击差分对的导线，并将鼠标光标从选择点移开。如果两个信号的长度有差异，并且当前鼠标位置离选择点足够远，则将绘制一系列曲折型导线，这会增加较短信号段的长度。附着到鼠标光标的指示器会显示目标长度以及两个信号的长度与目标长度的差异(以百分比表示)。"/>
+	<label commandName="lclzElectron::Mirror1" devLabel="Mirrors objects and groups." translation="镜像对象和组。"/>
+	<label commandName="lclzElectron::Mirror2" devLabel="With this command, objects can be mirrored about the y axis. One application for this command is to mirror components for placement on the reverse side of the board." translation="使用此命令，可以绕 Y 轴镜像对象。此命令的一个应用是镜像元件以放置在电路板的另一侧。"/>
+	<label commandName="lclzElectron::Miter1" devLabel="Miters wire joints." translation="斜接导线接头。"/>
+	<label commandName="lclzElectron::Miter2" devLabel="Use this command to take the edge off a point where two wires join. The two wires must be on the the same layer, and must have the same width and wire style." translation="使用此命令可以从两条导线连接的点处拆掉边。这两条导线必须位于同一层上，并且必须具有相同的宽度和导线样式。"/>
+	<label commandName="lclzElectron::Module1" devLabel="Module" translation="模块"/>
+	<label commandName="lclzElectron::Module2" devLabel="Creates a module, and adds module instances into a sheet." translation="创建模块，并将模块实例添加到图纸中。"/>
+	<label commandName="lclzElectron::Move1" devLabel="Moves selected objects." translation="移动选定对象。"/>
+	<label commandName="lclzElectron::Move2" devLabel="Parts, pads, smds, pins and gates can also be selected by their name, which is especially useful if the object is outside the currently shown window area. Note that when selecting a multi-gate part in a schematic by name, you will need to enter the full instance name, consisting of part and gate name." translation="还可以按名称选中零件、焊盘、SMD、引脚和栅，如果对象位于当前显示的窗口区域之外，这将特别有用。请注意，在原理图中按名称选中多栅零件时，您需要输入完整实例名称，包括零件和栅名称。"/>
+	<label commandName="lclzElectron::Name1" devLabel="Displays and optionally edits names." translation="显示和(可选)编辑名称。"/>
+	<label commandName="lclzElectron::Name2" devLabel="Parts, elements, pads, smds, pins and gates can also be selected by their name, which is especially useful if the object is outside the currently shown window area. Other object types (e.g. nets, buses, signals) have to be clicked first." translation="也可以按名称选择零件、元件、焊盘、SMD、引脚和栅，如果对象位于当前显示的窗口区域之外，这将特别有用。必须先单击其他对象类型(例如网络、总线、信号)。"/>
+	<label commandName="lclzElectron::Net1" devLabel="Draws nets on a schematic." translation="在原理图上绘制网络。"/>
+	<label commandName="lclzElectron::Net2" devLabel="Draw individual connections (nets) onto the Net layer of a schematic drawing. The first mouse click marks the starting point for the net, the second marks the end point of a segment. Two mouse clicks on the same point end the net." translation="在原理图的网络层上绘制各个连接(网络)。第一次单击鼠标可标记网络的起点，第二次单击可标记段的终点。在同一点上单击两次鼠标可结束网络。"/>
+	<label commandName="lclzElectron::Optimize1" devLabel="Joins wire segments." translation="连接导线段。"/>
+	<label commandName="lclzElectron::Optimize2" devLabel="This command joins wire segments that lie in a straight line. The individual segments must be on the same layer and have the same width. This command is useful to reduce the number of objects in a drawing and to facilitate moving a complete track instead of individual segments." translation="此命令可连接位于直线上的导线段。各个导线段必须位于同一层上且具有相同宽度。此命令有助于减少图形中的对象数并有助于移动完整迹线而不是各个导线段。"/>
+	<label commandName="lclzElectron::PaintRoller1" devLabel="Transfers selected properties of an object to other objects of the same type." translation="将对象的选定特性传输给相同类型的其他对象。"/>
+	<label commandName="lclzElectron::PaintRoller2" devLabel="Select the properties you want to transfer to other objects of the same type in the Copy Properties dialog of the selected object, then close the dialog with OK, and click the target objects." translation="在选定对象的“复制特性”对话框中选择要传输给相同类型的其他对象的特性，单击“确定”关闭对话框，然后单击目标对象。"/>
+	<label commandName="lclzElectron::Paste1" devLabel="Copies the contents of the clipboard or a drawing or a design block file to a drawing." translation="将剪贴板或图形或设计块文件的内容复制到图形。"/>
+	<label commandName="lclzElectron::Paste2" devLabel="Using the commands Group, Cut, and Paste, parts of a drawing/library can be copied to the same or different drawings/libraries." translation="使用“组”、“剪切”和“粘贴”命令，可以将图形/库的零件复制到相同或不同的图形/库。"/>
+	<label commandName="lclzElectron::Pattern1" devLabel="Makes multiple copies of an object and arranges them in a linear or circular pattern." translation="创建对象的多个副本，并按线性或环形阵列排列它们。"/>
+	<label commandName="lclzElectron::Pattern2" devLabel="A dialog opens where you specify the number of copies and the X and Y spacing in the linear mode. Click OK to close the dialog, then click the object to be duplicated. The next click into the drawing area fixes the position of the first object to be placed." translation="一个对话框将会打开，可在其中指定副本数以及线性模式中的 X 和 Y 间距。单击“确定”关闭对话框，然后单击要复制的对象。在绘图区域中再次单击会固定要放置的第一个对象的位置。"/>
+	<label commandName="lclzElectron::PinSwap1" devLabel="Swaps pins or pads." translation="交换引脚或焊盘。"/>
+	<label commandName="lclzElectron::PinSwap2" devLabel="Use this command to swap pins within the same symbol that have been allocated the same swaplevel (&gt; 0). If a board is tied to a schematic via Back Annotation, two pads can only be swapped if the related pins are swappable." translation="使用此命令可以交换同一符号内已分配有相同交换级别(&gt; 0)的引脚。如果通过“向后标注”将电路板与原理图关联，则当相关引脚可交换时只能交换两个焊盘。"/>
+	<label commandName="lclzElectron::Polygon1" devLabel="Draws polygon areas." translation="绘制多边形区域。"/>
+	<label commandName="lclzElectron::Polygon2" devLabel="Polygons in the layers Top, Bottom, and Route2–15 are treated as signals. Polygons in the layers t/b/vRestrict are protected areas for the AutoRouter." translation="“顶部”、“底部”和“布线 2–15”层中的多边形被视为信号。“t/b/vRestrict”层中的多边形是自动布线器的受保护区域。"/>
+	<label commandName="lclzElectron::Port1" devLabel="Adds ports to modules." translation="将端口添加到模块。"/>
+	<label commandName="lclzElectron::Port2" devLabel="Use this command to add ports to modules used in hierarchical schematics." translation="使用此命令可以将端口添加到在层次原理图中使用的模块。"/>
+	<label commandName="lclzElectron::QuickRouteAirWire1" devLabel="Automatically routes an individual airwire." translation="自动敷设单个天线。"/>
+	<label commandName="lclzElectron::QuickRouteAirWire2" devLabel="In QuickRouteAirwire mode, you select individual airwires to be automatically routed, and the Route command instantly routes them." translation="在 QuickRouteAirwire 模式下，选择要自动布线的各条天线，“布线”命令可即时对它们进行布线。"/>
+	<label commandName="lclzElectron::QuickRouteMultiWire1" devLabel="Automatically routes multiple airwires simultaneously." translation="同时自动敷设多条天线。"/>
+	<label commandName="lclzElectron::QuickRouteMultiWire2" devLabel="Begin by drawing a selection line that intersects through the signal objects that you wish to route concurrently (existing wires, pads, and vias). Continue to draw additional selection lines to add more signal objects. Right-click to route all the airwires connected to the selected objects. The signals are routed on the active layer." translation="首先绘制一条穿过要同时布线的信号对象(现有导线、焊盘和过孔)的选择线。继续绘制更多选择线以添加更多信号对象。单击鼠标右键以敷设连接到选定对象的所有天线。信号会在活动层上进行布线。"/>
+	<label commandName="lclzElectron::QuickRouteSignal1" devLabel="Automatically routes a signal." translation="自动进行信号布线。"/>
+	<label commandName="lclzElectron::QuickRouteSignal2" devLabel="With QuickRouteSignal, you select any signal object (airwire, wire, pad, or via) and the command instantly routes all airwires that are members of that signal." translation="使用 QuickRouteSignal，可以选择任何信号对象(天线、导线、焊盘或过孔)，该命令可即时敷设作为该信号成员的所有天线。"/>
+	<label commandName="lclzElectron::QuickRouteSmooth1" devLabel="Automatically smooths the wire sequence on a selected signal." translation="自动平滑选定信号上的接线路径。"/>
+	<label commandName="lclzElectron::QuickRouteSmooth2" devLabel="Select an existing routed signal wire, and the QuickRouteSmooth command smooths the wire sequence on the selected wire's layer by reducing the number of wire bends in the sequence." translation="选择现有已布线信号导线，QuickRouteSmooth 命令通过减少接线路径中的导线弯曲数来平滑选定导线层上的接线路径。"/>
+	<label commandName="lclzElectron::Ratsnest1" devLabel="Calculates the shortest possible airwires and polygons." translation="计算尽可能短的天线和多边形。"/>
+	<label commandName="lclzElectron::Ratsnest2" devLabel="This command assesses the airwire connections to achieve the shortest possible paths, such as after components have been moved." translation="此命令会评估天线连接以实现尽可能短的路径，例如在移动元件后。"/>
+	<label commandName="lclzElectron::Rectangle1" devLabel="Adds rectangles to a drawing." translation="将矩形添加到图形。"/>
+	<label commandName="lclzElectron::Rectangle2" devLabel="Two points define two opposite corners of the rectangle. Press the center mouse button to change the layer on which to add the rectangle." translation="两个点定义了矩形的两个对角点。按鼠标中键可更改要在其上添加矩形的层。"/>
+	<label commandName="lclzElectron::Replace1" devLabel="Replaces a part." translation="替换零件。"/>
+	<label commandName="lclzElectron::Replace2" devLabel="Use this command to replace a part with a different device (even from a different library). The old and new device must be compatible, in that their used gates and connected pins/pads must match, either by their names or their coordinates." translation="使用此命令可以使用其他器件(甚至来自其他库)替换零件。旧器件和新器件必须兼容，因为它们使用的栅和连接的引脚/焊盘必须匹配(按其名称或坐标)。"/>
+	<label commandName="lclzElectron::RepositionAttributes1" devLabel="Separates text variables and attributes from parts or elements." translation="将文字变量和属性与零件或元件分隔开。"/>
+	<label commandName="lclzElectron::RepositionAttributes2" devLabel="After separating the text parameters, they can be placed in fixed positions such as Top-Left or Bottom-Right, or in a new and more convenient location by using the Move command." translation="分隔文字参数后，可以将它们放置在固定位置(例如“左上”或“右下”)，或者使用“移动”命令将其放置在更方便的新位置。"/>
+	<label commandName="lclzElectron::Ripup1" devLabel="Changes routed wires and vias into airwires, and changes the display of polygons to 'outlines'." translation="将已布线导线和过孔更改为天线，并将多边形显示更改为“轮廓”。"/>
+	<label commandName="lclzElectron::Ripup2" devLabel="Selecting an airwire with Ripup converts all adjacent routed wires and vias into airwires, up to the next pad, smd or airwire." translation="使用“拆线”选择天线可将直到下一个焊盘、SMD 或天线之前的所有相邻的已布线导线和过孔转换为天线。"/>
+	<label commandName="lclzElectron::RipupAll1" devLabel="Changes routed wires and vias into airwires, and changes the display of polygons to 'outlines'." translation="将已布线导线和过孔更改为天线，并将多边形显示更改为“轮廓”。"/>
+	<label commandName="lclzElectron::RipupAll2" devLabel="Selecting an airwire with Ripup converts all adjacent routed wires and vias into airwires, up to the next pad, smd or airwire." translation="使用“拆线”选择天线可将直到下一个焊盘、SMD 或天线之前的所有相邻的已布线导线和过孔转换为天线。"/>
+	<label commandName="lclzElectron::RipupAllPolygons1" devLabel="Returns all polygons to an 'unpoured' state, drawn only as outlines." translation="将所有多边形返恢复为“取消灌铜”状态，仅绘制为轮廓。"/>
+	<label commandName="lclzElectron::RipupAllPolygons2" devLabel="Select the command Ripup Polygons command to unpour all polygons and edit polygon boundaries as lines." translation="选择“多边形拆线”命令对所有多边形取消灌铜，并将多边形边界编辑为线。"/>
+	<label commandName="lclzElectron::RipupConnected1" devLabel="Ripup connected copper will ripup 'direct' connections along a signal path." translation="对连接的铜箔拆线将对信号路径中的“直接”连接拆线。"/>
+	<label commandName="lclzElectron::RipupConnected2" devLabel="Select the command and select a route segment to ripup connected copper." translation="选择该命令，然后选择一条布线段以对连接的铜箔拆线。"/>
+	<label commandName="lclzElectron::RipupConnectedSameLayer1" devLabel="Ripup connected copper on current layer." translation="对当前层上的连接铜箔拆线。"/>
+	<label commandName="lclzElectron::RipupConnectedSameLayer2" devLabel="Select to ripup connected copper on current signal layer." translation="选择对当前信号层上的连接铜箔拆线。"/>
+	<label commandName="lclzElectron::RipupElementToElement1" devLabel="Ripup connections between selected components." translation="对选定元件之间的连接拆线。"/>
+	<label commandName="lclzElectron::RipupElementToElement2" devLabel="Select to ripup connections between two selected components." translation="选择对两个选定元件之间的连接拆线。"/>
+	<label commandName="lclzElectron::RipupSignal1" devLabel="Ripup selected signal path." translation="在选定的信号路径拆线。"/>
+	<label commandName="lclzElectron::RipupSignal2" devLabel="Use to ripup all tracks, vias and polygons in a selected signal" translation="用于对选定信号中的所有迹线、过孔和多边形拆线"/>
+	<label commandName="lclzElectron::Rotate1" devLabel="Rotates objects." translation="旋转对象。"/>
+	<label commandName="lclzElectron::Rotate2" devLabel="Use this command to change the orientation of objects." translation="使用此命令可以更改对象的方向。"/>
+	<label commandName="lclzElectron::RouteDiffPair1" devLabel="Converts unrouted connections of a differential pair into routed wires (tracks)." translation="将差分对的未布线连接转换为已布线导线(迹线)。"/>
+	<label commandName="lclzElectron::RouteDiffPair2" devLabel="This command activates the differential-pair manual router, and the differential pairs in the design are highlighted. To begin routing a differential pair, left button click over one of the highlighted differential pair airwire or copper objects. " translation="此命令会激活差分对手动布线器，设计中的差分对将会亮显。若要开始差分对布线，请在其中一条亮显的差分对天线上或其中一个铜箔对象上单击鼠标左键。 "/>
+	<label commandName="lclzElectron::RouteMulti1" devLabel="Converts multiple unrouted connections into routed wires (tracks)." translation="将多个未布线的连接转换为已布线的导线(迹线)。"/>
+	<label commandName="lclzElectron::RouteMulti2" devLabel="This command activates the manual router, which converts multiple airwires (unrouted connections) into real wires." translation="此命令可以激活手动布线器，该布线器可将多条天线(未布线连接)转换为真实导线。"/>
+	<label commandName="lclzElectron::RunScript1" devLabel="Executes a command file." translation="执行命令文件。"/>
+	<label commandName="lclzElectron::RunScript2" devLabel="Use this command to execute sequences of commands that are stored in a script file." translation="使用此命令可以执行存储在脚本文件中的命令序列。"/>
+	<label commandName="lclzElectron::Show1" devLabel="Highlights objects." translation="亮显对象。"/>
+	<label commandName="lclzElectron::Show2" devLabel="Complete signals and nets can be highlighted with the SHOW command, and details are listed in the status bar. If a bus is selected, all nets belonging to that bus will also be highlighted." translation="可以使用 SHOW 命令亮显完整的信号和网络，详细信息将在状态栏中列出。如果选择了总线，则属于该总线的所有网络也将亮显。"/>
+	<label commandName="lclzElectron::Signal1" devLabel="Defines signals (connections between the various footprints)." translation="定义信号(不同示意图之间的连接)。"/>
+	<label commandName="lclzElectron::Signal2" devLabel="Define a minimum of two element_name/pad_name pairs; otherwise, no airwire can be generated." translation="至少定义两个 element_name/pad_name 对；否则，将无法生成天线。"/>
+	<label commandName="lclzElectron::Slice1" devLabel="Splits lines." translation="分割线。"/>
+	<label commandName="lclzElectron::Slice2" devLabel="Use this command to separate board traces or schematic nets for rerouting. The width defines how much of the line is removed by the slice. The amount of a line that is removed is the larger of either the width setting or twice the line width." translation="使用此命令可以分隔电路板迹线或原理图网络以重新布线。宽度定义切割去除的线量。去除的线量大于宽度设置或者为线宽的两倍。"/>
+	<label commandName="lclzElectron::Split1" devLabel="Splits wires and polygon edges into segments." translation="将导线和多边形边分割为段。"/>
+	<label commandName="lclzElectron::Split2" devLabel="Use this command to split a wire, segment, or polygon edge into two segments in order, for example, to introduce a bend. This means you can split wires into parts that can be moved with the mouse during the Split command." translation="使用此命令可以将导线、段或多边形边分割为两段，以便引入弯曲等。这表示您可以在使用“分割”命令时将导线分割为可随鼠标一起移动的部分。"/>
+	<label commandName="lclzElectron::ToggleSingleLayer1" devLabel="Single Layer Mode." translation="单层模式。"/>
+	<label commandName="lclzElectron::ToggleSingleLayer2" devLabel="Single Layer Mode." translation="单层模式。"/>
+	<label commandName="lclzElectron::Value1" devLabel="Displays and changes values." translation="显示和更改值。"/>
+	<label commandName="lclzElectron::Value2" devLabel="Assign values to circuit elements, such as '1k' for a resistor." translation="为电路元件指定值，例如为电阻器指定“1k”。"/>
+	<label commandName="lclzElectron::Via1" devLabel="Adds vias to a board." translation="将过孔添加到电路板。"/>
+	<label commandName="lclzElectron::Via2" devLabel="When the Via command is active, a via symbol is attached to the cursor. Click the left mouse button to place a via at the current position." translation="当“过孔”命令处于活动状态时，过孔符号将附着到光标。单击鼠标左键可将过孔放置在当前位置。"/>
+	<label commandName="lclzElectron::ZoomIn1" devLabel="TBD" translation="待定"/>
+	<label commandName="lclzElectron::ZoomIn2" devLabel="TBD" translation="待定"/>
+	<label commandName="lclzElectron::ZoomOut1" devLabel="TBD" translation="待定"/>
+	<label commandName="lclzElectron::ZoomOut2" devLabel="TBD" translation="待定"/>
+	<label commandName="lclzElectron::ZoomRect1" devLabel="TBD" translation="待定"/>
+	<label commandName="lclzElectron::ZoomRect2" devLabel="TBD" translation="待定"/>
+	<label commandName="lclzElectron::ZoomToFit1" devLabel="TBD" translation="待定"/>
+	<label commandName="lclzElectron::ZoomToFit2" devLabel="TBD" translation="待定"/>
+	<label commandName="lclzGetLatestElectronCmd1" devLabel="Generate or switch to a PCB document." translation="生成或切换到 PCB 文档。"/>
+	<label commandName="lclzGetLatestElectronCmd2" devLabel="If there is a linked PCB document, will switch to the PCB document, otherwise, will create a new PCB document to link with it." translation="如果存在链接的 PCB 文档，则会切换到该 PCB 文档；反之，则会创建新的 PCB 文档以与其建立链接。"/>
+	<label commandName="lclzGetLatestElectronCmdTipsAndTricksDesc" devLabel="If there is a linked PCB document, will switch to the PCB document, otherwise, will create a new PCB document to link with it." translation="如果存在链接的 PCB 文档，则会切换到该 PCB 文档；反之，则会创建新的 PCB 文档以与其建立链接。"/>
+	<label commandName="lclzGetLatestElectronCmdTipsAndTricksTips" devLabel="Generate or switch to a PCB document." translation="生成或切换到 PCB 文档。"/>
+	<label commandName="lclzGetLatestElectronCmdTipsAndTricksTitle" devLabel="Generate Or Switch PCB Document" translation="生成或切换 PCB 文档"/>
+	<label commandName="lclzLbrCreatePanel" devLabel="CREATE" translation="创建"/>
+	<label commandName="lclzLbrDeviceModifyPanel" devLabel="MODIFY" translation="修改"/>
+	<label commandName="lclzLbrDevicePanel" devLabel="DEVICE" translation="器件"/>
+	<label commandName="lclzLbrDeviceSelectPanel" devLabel="SELECT" translation="选择"/>
+	<label commandName="lclzLbrDeviceTab" devLabel="DEVICE" translation="器件"/>
+	<label commandName="lclzLbrDrawCommonPanel" devLabel="DRAW" translation="绘制"/>
+	<label commandName="lclzLbrEmptyTab" devLabel="CREATE" translation="创建"/>
+	<label commandName="lclzLbrFootprintCreatePanel" devLabel="CREATE" translation="创建"/>
+	<label commandName="lclzLbrFootprintDrawPanel" devLabel="DRAW" translation="绘制"/>
+	<label commandName="lclzLbrFootprintEditPanel" devLabel="EDIT" translation="编辑"/>
+	<label commandName="lclzLbrFootprintLayersPanel" devLabel="LAYERS" translation="层"/>
+	<label commandName="lclzLbrFootprintModifyPanel" devLabel="MODIFY" translation="修改"/>
+	<label commandName="lclzLbrFootprintSelectPanel" devLabel="SELECT" translation="选择"/>
+	<label commandName="lclzLbrFootprintTab" devLabel="FOOTPRINT" translation="示意图"/>
+	<label commandName="lclzLbrFootprintViewPanel" devLabel="VIEW" translation="查看"/>
+	<label commandName="lclzLbrManagementPanel" devLabel="MANAGEMENT" translation="MANAGEMENT"/>
+	<label commandName="lclzLbrManagementTab" devLabel="MANAGE" translation="MANAGE"/>
+	<label commandName="lclzLbrPackagePanel" devLabel="EDIT" translation="编辑"/>
+	<label commandName="lclzLbrPackageTab" devLabel="PACKAGE 3D" translation="封装 3D"/>
+	<label commandName="lclzLbrSymbolEditPanel" devLabel="EDIT" translation="编辑"/>
+	<label commandName="lclzLbrSymbolLayersPanel" devLabel="LAYERS" translation="层"/>
+	<label commandName="lclzLbrSymbolModifyPanel" devLabel="MODIFY" translation="修改"/>
+	<label commandName="lclzLbrSymbolPlacePanel" devLabel="PLACE" translation="放置"/>
+	<label commandName="lclzLbrSymbolSelectPanel" devLabel="SELECT" translation="选择"/>
+	<label commandName="lclzLbrSymbolTab" devLabel="SYMBOL" translation="符号"/>
+	<label commandName="lclzLbrSymbolViewPanel" devLabel="VIEW" translation="查看"/>
+	<label commandName="lclzLock" devLabel="Lock" translation="锁定"/>
+	<label commandName="lclzPCB3DWorkspaceTitle" devLabel="3D Packaged editor" translation="三维封装编辑器"/>
+	<label commandName="lclzPcbAutomate" devLabel="AUTOMATION" translation="自动化"/>
+	<label commandName="lclzPcbBoardShapePanel" devLabel="BOARD SHAPE" translation="电路板形状"/>
+	<label commandName="lclzPcbDesignTab" devLabel="DESIGN" translation="设计"/>
+	<label commandName="lclzPcbDocument" devLabel="DOCUMENT" translation="文档"/>
+	<label commandName="lclzPcbDrawPanel" devLabel="DRAW" translation="绘制"/>
+	<label commandName="lclzPcbEditPanel" devLabel="EDIT" translation="编辑"/>
+	<label commandName="lclzPcbFanoutPanel" devLabel="FANOUT" translation="扇出"/>
+	<label commandName="lclzPcbLayersPanel" devLabel="LAYERS" translation="层"/>
+	<label commandName="lclzPcbLibraryPanel" devLabel="LIBRARIES" translation="库"/>
+	<label commandName="lclzPcbLibraryTab" devLabel="LIBRARY" translation="库"/>
+	<label commandName="lclzPcbManufacturingPanel" devLabel="Manufacturing" translation="制造"/>
+	<label commandName="lclzPcbModifyPanel" devLabel="MODIFY" translation="修改"/>
+	<label commandName="lclzPcbOutputPanel" devLabel="OUTPUTS" translation="输出"/>
+	<label commandName="lclzPcbPlacePanel" devLabel="PLACE" translation="放置"/>
+	<label commandName="lclzPcbPourPanel" devLabel="POUR" translation="灌铜"/>
+	<label commandName="lclzPcbQuickRoutePanel" devLabel="QUICK ROUTE" translation="快速布线"/>
+	<label commandName="lclzPcbReworkPanel" devLabel="REWORK" translation="返修"/>
+	<label commandName="lclzPcbRipupPanel" devLabel="RIPUP" translation="拆线"/>
+	<label commandName="lclzPcbRoutePanel" devLabel="ROUTE" translation="布线"/>
+	<label commandName="lclzPcbRulesPanel" devLabel="DRC" translation="DRC"/>
+	<label commandName="lclzPcbSelectPanel" devLabel="SELECT" translation="选择"/>
+	<label commandName="lclzPcbViewPanel" devLabel="VIEW" translation="查看"/>
+	<label commandName="lclzReferenceToPCBCmd1" devLabel="Reference to a PCB document." translation="参考 PCB 文档。"/>
+	<label commandName="lclzReferenceToPCBCmd2" devLabel="Reference to a PCB document." translation="参考 PCB 文档。"/>
+	<label commandName="lclzReferenceToPCBCmdTipsAndTricksDesc" devLabel="Reference to a PCB document." translation="参考 PCB 文档。"/>
+	<label commandName="lclzReferenceToPCBCmdTipsAndTricksTips" devLabel="Reference to a PCB document." translation="参考 PCB 文档。"/>
+	<label commandName="lclzReferenceToPCBCmdTipsAndTricksTitle" devLabel="Reference to a PCB document" translation="参考 PCB 文档"/>
+	<label commandName="lclzReferenceToSCHCmd1" devLabel="Reference to a Schematic document." translation="参考原理图文档。"/>
+	<label commandName="lclzReferenceToSCHCmd2" devLabel="Reference to a Schematic document." translation="参考原理图文档。"/>
+	<label commandName="lclzReferenceToSCHCmdTipsAndTricksDesc" devLabel="Reference to a Schematic document." translation="参考原理图文档。"/>
+	<label commandName="lclzReferenceToSCHCmdTipsAndTricksTips" devLabel="Reference to a Schematic document." translation="参考原理图文档。"/>
+	<label commandName="lclzReferenceToSCHCmdTipsAndTricksTitle" devLabel="Reference to a Schematic document" translation="参考原理图文档"/>
+	<label commandName="lclzRemovePCB3DLinkCmd1" devLabel="Remove PCB3D Link." translation="删除 PCB3D 链接。"/>
+	<label commandName="lclzRemovePCB3DLinkCmd2" devLabel="Remove PCB3D Link." translation="删除 PCB3D 链接。"/>
+	<label commandName="lclzRemovePCB3DLinkCmdTipsAndTricksDesc" devLabel="Remove PCB3D Link." translation="删除 PCB3D 链接。"/>
+	<label commandName="lclzRemovePCB3DLinkCmdTipsAndTricksTips" devLabel="Remove PCB3D Link." translation="删除 PCB3D 链接。"/>
+	<label commandName="lclzRemovePCB3DLinkCmdTipsAndTricksTitle" devLabel="Remove PCB3D Link." translation="删除 PCB3D 链接。"/>
+	<label commandName="lclzRemovePCBLinkCmd1" devLabel="Remove PCB Link." translation="删除 PCB 链接。"/>
+	<label commandName="lclzRemovePCBLinkCmd2" devLabel="Remove PCB Link." translation="删除 PCB 链接。"/>
+	<label commandName="lclzRemovePCBLinkCmdTipsAndTricksDesc" devLabel="Remove PCB Link." translation="删除 PCB 链接。"/>
+	<label commandName="lclzRemovePCBLinkCmdTipsAndTricksTips" devLabel="Remove PCB Link." translation="删除 PCB 链接。"/>
+	<label commandName="lclzRemovePCBLinkCmdTipsAndTricksTitle" devLabel="Remove PCB Link." translation="删除 PCB 链接。"/>
+	<label commandName="lclzRemoveSCHLinkCmd1" devLabel="Remove SCH Link." translation="删除 SCH 链接。"/>
+	<label commandName="lclzRemoveSCHLinkCmd2" devLabel="Remove SCH Link." translation="删除 SCH 链接。"/>
+	<label commandName="lclzRemoveSCHLinkCmdTipsAndTricksDesc" devLabel="Remove SCH Link." translation="删除 SCH 链接。"/>
+	<label commandName="lclzRemoveSCHLinkCmdTipsAndTricksTips" devLabel="Remove SCH Link." translation="删除 SCH 链接。"/>
+	<label commandName="lclzRemoveSCHLinkCmdTipsAndTricksTitle" devLabel="Remove SCH Link." translation="删除 SCH 链接。"/>
+	<label commandName="lclzSchAutomation" devLabel="AUTOMATION" translation="自动化"/>
+	<label commandName="lclzSchAutomationTab" devLabel="AUTOMATE" translation="自动化"/>
+	<label commandName="lclzSchConnectPanel" devLabel="CONNECT" translation="连接"/>
+	<label commandName="lclzSchDocumentTab" devLabel="DOCUMENT" translation="文档"/>
+	<label commandName="lclzSchDrawPanel" devLabel="DRAW" translation="绘制"/>
+	<label commandName="lclzSchEditPanel" devLabel="EDIT" translation="编辑"/>
+	<label commandName="lclzSchLibraryPanel" devLabel="LIBRARIES" translation="库"/>
+	<label commandName="lclzSchLibraryTab" devLabel="LIBRARY" translation="库"/>
+	<label commandName="lclzSchModifyPanel" devLabel="MODIFY" translation="修改"/>
+	<label commandName="lclzSchOutputPanel" devLabel="Output" translation="输出"/>
+	<label commandName="lclzSchPlacePanel" devLabel="PLACE" translation="放置"/>
+	<label commandName="lclzSchSelectPanel" devLabel="SELECT" translation="选择"/>
+	<label commandName="lclzSchSimulatePanel" devLabel="SIMULATE" translation="模拟"/>
+	<label commandName="lclzSchSwitchPanel" devLabel="SWITCH" translation="切换"/>
+	<label commandName="lclzSchValidatePanel" devLabel="VALIDATE" translation="验证"/>
+	<label commandName="lclzSchVariantPanel" devLabel="Variant" translation="变量"/>
+	<label commandName="lclzSchViewPanel" devLabel="VIEW" translation="查看"/>
+	<label commandName="lclzSwitchPanel" devLabel="SWITCH" translation="切换"/>
+	<label commandName="lclzSwitchPcbDocCmd1" devLabel="Switch to a PCB document." translation="切换到 PCB 文档。"/>
+	<label commandName="lclzSwitchPcbDocCmd2" devLabel="If there is a linked PCB document, will switch to the PCB document, otherwise, will switch to electronics design to remind user to create a PCB document." translation="如果存在链接的 PCB 文档，将切换到 PCB 文档，否则，将切换到电子器件设计，提醒用户创建 PCB 文档。"/>
+	<label commandName="lclzSwitchPcbDocCmdTipsAndTricksDesc" devLabel="If there is a linked PCB document, will switch to the PCB document, otherwise, will switch to electronics design to remind user to create a PCB document." translation="如果存在链接的 PCB 文档，将切换到 PCB 文档，否则，将切换到电子器件设计，提醒用户创建 PCB 文档。"/>
+	<label commandName="lclzSwitchPcbDocCmdTipsAndTricksTips" devLabel="Switch to a PCB document." translation="切换到 PCB 文档。"/>
+	<label commandName="lclzSwitchPcbDocCmdTipsAndTricksTitle" devLabel="Switch PCB Document" translation="切换 PCB 文档"/>
+	<label commandName="lclzSwitchSchDocCmd1" devLabel="Switch to a Schematic document." translation="切换到原理图文档。"/>
+	<label commandName="lclzSwitchSchDocCmd2" devLabel="If there is a linked Schematic document, will switch to the Schematic document, otherwise, will switch to electronics design to remind user to create a Schematic document." translation="如果存在链接的原理图文档，将切换到原理图文档，否则，将切换到电子器件设计，提醒用户创建原理图文档。"/>
+	<label commandName="lclzSwitchSchDocCmdTipsAndTricksDesc" devLabel="If there is a linked Schematic document, will switch to the Schematic document, otherwise, will switch to electronics design to remind user to create a Schematic document." translation="如果存在链接的原理图文档，将切换到原理图文档，否则，将切换到电子器件设计，提醒用户创建原理图文档。"/>
+	<label commandName="lclzSwitchSchDocCmdTipsAndTricksTips" devLabel="Switch to a Schematic document." translation="切换到原理图文档。"/>
+	<label commandName="lclzSwitchSchDocCmdTipsAndTricksTitle" devLabel="Switch Schematic Document" translation="切换原理图文档"/>
+	<label commandName="lclzWorkspace" devLabel="Workspace" translation="工作空间"/>
+</Resource>

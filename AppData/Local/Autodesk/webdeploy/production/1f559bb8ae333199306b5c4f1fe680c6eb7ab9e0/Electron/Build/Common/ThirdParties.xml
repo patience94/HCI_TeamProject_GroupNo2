@@ -1,0 +1,27 @@
+<ThirdParties>
+  <ThirdParty Id="LibEagle" SDK="False">
+    <Platform Package="WIN64" Target="WIN64" Version="libeagle-hotfix-20-04-2">
+            <Configuration PackageName="{Version}/WIN64-debug.zip" Target="Debug"/>
+            <Configuration PackageName="{Version}/WIN64-release.zip" Target="Release"/>
+    </Platform>  
+    <Platform Package="MAC64" Target="MAC64" Version="libeagle-hotfix-20-04-2">
+            <Configuration PackageName="{Version}/MAC64-debug.zip" Target="Debug"/>
+            <Configuration PackageName="{Version}/MAC64-release.zip" Target="Release"/>
+    </Platform>
+  </ThirdParty>
+
+  <ThirdParty Id="ElectronPackageGenerator">
+    <Platform Package="WIN64" Target="WIN64" Version="release-20-04-23"/>
+    <Platform Package="MAC64" Target="MAC64" Version="release-20-04-23"/>
+  </ThirdParty>
+
+  <ThirdParty Id="REPOFORMAT">
+    <Platform Package="WIN64" Target="WIN64" Version="1.2.0"/>
+    <Platform Package="MAC64" Target="MAC64" Version="1.2.0"/>
+  </ThirdParty>
+
+  <ThirdParty Id="CLANGFORMAT">
+    <Platform Package="WIN64" Target="WIN64" Version="9.0.0"/>
+    <Platform Package="MAC64" Target="MAC64" Version="8.0.0"/>
+  </ThirdParty>
+</ThirdParties>

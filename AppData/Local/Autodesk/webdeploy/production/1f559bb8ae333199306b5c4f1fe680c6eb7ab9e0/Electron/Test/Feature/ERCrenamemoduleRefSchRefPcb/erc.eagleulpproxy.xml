@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ERCErrors>
+<error type="warning" description="No module net existing for port A2" sheetnr="1" signature="" state="active" code="119" xmin="29.210000" ymin="13.970000" xmax="31.750000" ymax="16.510000" x="30.480000" y="15.240000"/>
+</ERCErrors>

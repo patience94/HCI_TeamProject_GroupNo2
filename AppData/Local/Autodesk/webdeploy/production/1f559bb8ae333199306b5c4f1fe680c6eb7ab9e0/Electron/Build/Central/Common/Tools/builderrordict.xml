@@ -1,0 +1,36 @@
+<!--keyword is treated as regular expression. All RE special charater must be lead by backslash.-->
+<BuildErrorDictionary>
+    <error stage='Perforce'>
+        <keyword item = 'com\.tek42\.perforce\.perforceexception:'/>
+    </error>
+    <error stage='Build'>
+        <keyword item='cmake error:'/>
+        <keyword item='cmake error at'/>
+        <keyword item='error c[0-9]+: '/>
+        <keyword item='fatal error lnk[0-9]+:'/>
+    </error>
+    <error stage='SmokeTest'>
+        <keyword item='@build failed:@'/>
+        <keyword item='running error:'/>
+        <keyword item='call stack:'/>
+        <keyword item='\*\* build error \*\*'/>
+    </error>
+    <error stage='PkgAndPost'>
+        <keyword item='rsync error:'/>
+        <keyword item='rsync: .*: Permission denied'/>
+        <keyword item='cp: .* No such file or directory$'/>
+        <!--python exception-->
+        <keyword item='[a-z]+error: '/>
+        <keyword item='Traceback (most recent call last):'/>        
+    </error>
+    <error stage='Streamer'>
+        <keyword item='@streamer error:@'/>
+    </error>
+    <error stage='Deploy'>
+        <keyword item='Broken pipe'/>
+        <keyword item='Input/output error'/>
+    </error>
+    <error stage='Misc'>
+        <keyword item='\*\* build failed \*\*'/>
+    </error>
+</BuildErrorDictionary>

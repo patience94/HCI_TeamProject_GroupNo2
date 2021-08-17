@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<CommandDefinitions>
+  <CommandDefinition Id="MAGMatLibraryCmd.Create">
+    <Tooltip>
+      <TextBlock _LCLZId="lclzHello3DTestToolTipText" _LCLZText="Test ToolTip"/>
+      <!-- ** DM - the video FilletManipulator.mp4 doesn't appear to work... ** -->
+      <ExpandedContent ToolClip="ToolClip/TestToolTip.png">
+        <TextBlock _LCLZId="lclzHello3DTestToolTipDesc1" _LCLZText="This command intends to demonstrates the progressive tooltip and tips and tricks!"/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzHello3DTestToolTipDesc2" _LCLZText="If you execute the command, you can find tips and tricks by clicking the green button lower right."/>
+      </ExpandedContent>
+    </Tooltip>
+    <!-- ** DM - the video doesn't appear to exist or work... ** -->
+    <TipsAndTricks Video="TipsAndTricks/FilletManipulator.mp4">
+      <Title _LCLZId="lclzTipsAndTricksTestTitle" _LCLZText="Command Context Tips and Tricks"/>
+      <TextBlock Image="TipsAndTricks/TESTIMAGE.png" _LCLZId="lclzTipsAndTricksTestItem1" _LCLZText="Command &lt;b&gt;Hello World&lt;/b&gt; Context Tips and Tricks"/>
+      <TextBlock Warning="True" _LCLZId="lclzTipsAndTricksTestItem2" _LCLZText="Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks."/>
+      <TextBlock _LCLZId="lclzTipsAndTricksTestItem3" _LCLZText="Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks. Command Context Tips and Tricks."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="Hello3DOffsetFacesCommand">
+    <Tooltip>
+      <!-- ** DM - expanded content comes when you hover over the toolbar button ** -->
+      <ExpandedContent ToolClip="ToolClip/Hello3DOffsetFaces.png">
+          <TextBlock _LCLZId="lclzHello3DOffsetFaceCommandDesc1" _LCLZText="Offsets the selected faces."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzHello3DOffsetFaceCommandDesc2" _LCLZText="Select the faces to offset and then specify the distance."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzHello3DOffsetFaceCommandDesc3" _LCLZText="Sample command showing the Command Framework doing simple modeling commands."/>
+      </ExpandedContent>
+    </Tooltip>
+    <!-- ** DM - tips and tricks appear down at the bottom right, with a green button once the command is running. ** -->
+    <TipsAndTricks>
+      <Title _LCLZId="lclzHello3DOffsetFaceTipsAndTricksTitle" _LCLZText="Offset Face Tips and Tricks."/>
+      <TextBlock _LCLZId="lclzHello3DOffsetFaceTipsAndTricksItem1" _LCLZText="Select the face that you want to offset."/>
+      <TextBlock _LCLZId="lclzHello3DOffsetFaceTipsAndTricksItem2" _LCLZText="You can use the command on filleted faces too."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="Hello3DMoveComponentsCommand"  HotKey="m">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzHello3DComponents1" _LCLZText="Transforms the selected components."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzHello3DComponents2" _LCLZText="Select the components to move then specify the distance and angle. You can undo individual steps."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzHello3DOffsetFaceCommandDesc3" _LCLZText="Sample command showing the Command Framework, preview on mouse move and undoable steps."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="Hello3DImportCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzHello3DImportToolTipDesc1" _LCLZText="Allows simple import into Hello3D to build content."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="Hello3DTestDistanceManipulatorCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzHello3DTestDistanceManipulatorToolTipDesc1" _LCLZText="Shows how to use a distance manipulator outside the Command Framework."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzHello3DTestDistanceManipulatorToolTipDesc2" _LCLZText="Doesn't use the Command Framework and hence not recommended."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="Hello3DTestMultipleSelectionsCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzHello3DTestMultipleSelectionsToolTipDesc1" _LCLZText="Shows how to get different selections outside the Command Framework."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzHello3DTestMultipleSelectionsToolTipDesc2" _LCLZText="Doesn't use the Command Framework and hence not recommended."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="Hello3DTestToggleCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzHello3DTestToggleToolTipDesc1" _LCLZText="Shows how a command can be used as a toggle and change the behavior of other commands."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+
+</CommandDefinitions>

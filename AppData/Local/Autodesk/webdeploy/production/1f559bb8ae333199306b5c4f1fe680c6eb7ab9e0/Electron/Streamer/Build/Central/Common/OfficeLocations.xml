@@ -1,0 +1,16 @@
+<OfficeLocations Default="ArtifactoryBobcat">
+    <OfficeLocation Id="ArtifactoryBobcat" DefaultThirdPartyServer="Bobcat"><!-- Santa Clara -->
+    </OfficeLocation>
+    <OfficeLocation Id="ArtifactoryCougar" DefaultThirdPartyServer="Cougar"><!-- Novi -->
+    </OfficeLocation>
+    <OfficeLocation Id="ArtifactoryHare" DefaultThirdPartyServer="Hare"><!-- Dublin -->
+    </OfficeLocation>
+    <OfficeLocation Id="ArtifactoryLion" DefaultThirdPartyServer="Lion"><!-- Singapore -->
+    </OfficeLocation>
+    <OfficeLocation Id="ArtifactoryPanda" DefaultThirdPartyServer="Panda"><!-- Shanghai -->
+    </OfficeLocation>
+    <OfficeLocation Id="ArtifactoryBear" DefaultThirdPartyServer="Bear"><!-- East Coast -->
+    </OfficeLocation>
+    <OfficeLocation Id="ArtifactoryToucan" DefaultThirdPartyServer="Toucan"><!-- AWS Hosted instance -->
+    </OfficeLocation>
+</OfficeLocations>

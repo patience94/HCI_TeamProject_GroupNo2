@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FusionBrowserDumpRoot>
+  <FusionComponentInstanceBrowserEntry Name="FUS-58778-CrashCloseEcadDocumentTab v1">
+    <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes">
+      <FusionMSketchBrowserEntry Name="Outline" Visible="No">
+        <MSketch>
+          <Points Size="1">
+            <Point IsFixed="Yes" Position="0, 0, 0"/>
+          </Points>
+          <Curves Size="7">
+            <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+              <StartPoint IsFixed="No" Position="-2.413, -0.254, 0"/>
+              <EndPoint IsFixed="No" Position="0.508, -0.254, 0"/>
+            </Curve>
+            <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+              <StartPoint IsFixed="No" Position="0.508, -0.254, 0"/>
+              <EndPoint IsFixed="No" Position="0.889, 0.127, 0"/>
+            </Curve>
+            <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+              <StartPoint IsFixed="No" Position="0.889, 0.127, 0"/>
+              <EndPoint IsFixed="No" Position="0.889, 3.302, 0"/>
+            </Curve>
+            <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+              <StartPoint IsFixed="No" Position="0.889, 3.302, 0"/>
+              <EndPoint IsFixed="No" Position="0.381, 3.81, 0"/>
+            </Curve>
+            <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+              <StartPoint IsFixed="No" Position="0.381, 3.81, 0"/>
+              <EndPoint IsFixed="No" Position="-1.905, 3.81, 0"/>
+            </Curve>
+            <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+              <StartPoint IsFixed="No" Position="-1.905, 3.81, 0"/>
+              <EndPoint IsFixed="No" Position="-2.413, 3.302, 0"/>
+            </Curve>
+            <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+              <StartPoint IsFixed="No" Position="-2.413, 3.302, 0"/>
+              <EndPoint IsFixed="No" Position="-2.413, -0.254, 0"/>
+            </Curve>
+          </Curves>
+        </MSketch>
+      </FusionMSketchBrowserEntry>
+    </FusionSketchesBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Name="1-copper:1">
+      <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes"/>
+    </FusionComponentInstanceBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Name="16-copper:1">
+      <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes"/>
+    </FusionComponentInstanceBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Name="1-soldermask:1">
+      <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes"/>
+    </FusionComponentInstanceBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Name="16-soldermask:1">
+      <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes"/>
+    </FusionComponentInstanceBrowserEntry>
+    <FusionComponentInstanceBrowserEntry Name="Packages:1">
+      <FusionSketchesBrowserEntry Name="Sketches" Visible="Yes"/>
+      <FusionComponentInstanceBrowserEntry Name="RESC3216X70N:U$1">
+        <FusionSketchesBrowserEntry Name="Sketches" Visible="No">
+          <FusionMSketchBrowserEntry Name="Silkscreen" Visible="Yes">
+            <MSketch>
+              <Curves Size="0"/>
+            </MSketch>
+          </FusionMSketchBrowserEntry>
+          <FusionMSketchBrowserEntry Name="Pad" Visible="Yes">
+            <MSketch>
+              <Points Size="1">
+                <Point IsFixed="No" Position="0, 0, 0"/>
+              </Points>
+              <Curves Size="8">
+                <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                  <StartPoint IsFixed="No" Position="-0.20577, -0.090765, 0"/>
+                  <EndPoint IsFixed="No" Position="-0.08931, -0.090765, 0"/>
+                </Curve>
+                <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                  <StartPoint IsFixed="No" Position="-0.08931, -0.090765, 0"/>
+                  <EndPoint IsFixed="No" Position="-0.08931, 0.090765, 0"/>
+                </Curve>
+                <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                  <StartPoint IsFixed="No" Position="-0.08931, 0.090765, 0"/>
+                  <EndPoint IsFixed="No" Position="-0.20577, 0.090765, 0"/>
+                </Curve>
+                <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                  <StartPoint IsFixed="No" Position="-0.20577, 0.090765, 0"/>
+                  <EndPoint IsFixed="No" Position="-0.20577, -0.090765, 0"/>
+                </Curve>
+                <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                  <StartPoint IsFixed="No" Position="0.08931, -0.090765, 0"/>
+                  <EndPoint IsFixed="No" Position="0.20577, -0.090765, 0"/>
+                </Curve>
+                <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                  <StartPoint IsFixed="No" Position="0.20577, -0.090765, 0"/>
+                  <EndPoint IsFixed="No" Position="0.20577, 0.090765, 0"/>
+                </Curve>
+                <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                  <StartPoint IsFixed="No" Position="0.20577, 0.090765, 0"/>
+                  <EndPoint IsFixed="No" Position="0.08931, 0.090765, 0"/>
+                </Curve>
+                <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                  <StartPoint IsFixed="No" Position="0.08931, 0.090765, 0"/>
+                  <EndPoint IsFixed="No" Position="0.08931, -0.090765, 0"/>
+                </Curve>
+              </Curves>
+            </MSketch>
+          </FusionMSketchBrowserEntry>
+        </FusionSketchesBrowserEntry>
+        <FusionComponentInstanceBrowserEntry Name="Model:1">
+          <FusionSketchesBrowserEntry Name="Sketches" Visible="No">
+            <FusionMSketchBrowserEntry Name="Sketch1" Visible="Yes">
+              <MSketch>
+                <Points Size="2">
+                  <Point IsFixed="No" Position="0, 0, 0"/>
+                  <Point IsFixed="No" Position="0, 0, 0"/>
+                </Points>
+                <Curves Size="8">
+                  <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+                    <StartPoint IsFixed="No" Position="0.17, 0.09, 0"/>
+                    <EndPoint IsFixed="No" Position="-0.17, 0.09, 0"/>
+                  </Curve>
+                  <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+                    <StartPoint IsFixed="No" Position="-0.17, 0.09, 0"/>
+                    <EndPoint IsFixed="No" Position="-0.17, -0.09, 0"/>
+                  </Curve>
+                  <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+                    <StartPoint IsFixed="No" Position="-0.17, -0.09, 0"/>
+                    <EndPoint IsFixed="No" Position="0.17, -0.09, 0"/>
+                  </Curve>
+                  <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+                    <StartPoint IsFixed="No" Position="0.17, -0.09, 0"/>
+                    <EndPoint IsFixed="No" Position="0.17, 0.09, 0"/>
+                  </Curve>
+                  <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                    <StartPoint IsFixed="No" Position="0.17, 0.09, 0"/>
+                    <EndPoint IsFixed="No" Position="-0.17, -0.09, 0"/>
+                  </Curve>
+                  <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                    <StartPoint IsFixed="No" Position="-0.17, 0.09, 0"/>
+                    <EndPoint IsFixed="No" Position="0.17, -0.09, 0"/>
+                  </Curve>
+                  <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+                    <StartPoint IsFixed="No" Position="0.095, 0.09, 0"/>
+                    <EndPoint IsFixed="No" Position="0.095, -0.09, 0"/>
+                  </Curve>
+                  <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+                    <StartPoint IsFixed="No" Position="-0.095, 0.09, 0"/>
+                    <EndPoint IsFixed="No" Position="-0.095, -0.09, 0"/>
+                  </Curve>
+                </Curves>
+              </MSketch>
+            </FusionMSketchBrowserEntry>
+          </FusionSketchesBrowserEntry>
+        </FusionComponentInstanceBrowserEntry>
+      </FusionComponentInstanceBrowserEntry>
+      <FusionComponentInstanceBrowserEntry Name="RESC3216X70N:U$2">
+        <FusionSketchesBrowserEntry Name="Sketches" Visible="No">
+          <FusionMSketchBrowserEntry Name="Silkscreen" Visible="Yes">
+            <MSketch>
+              <Curves Size="0"/>
+            </MSketch>
+          </FusionMSketchBrowserEntry>
+          <FusionMSketchBrowserEntry Name="Pad" Visible="Yes">
+            <MSketch>
+              <Points Size="1">
+                <Point IsFixed="No" Position="0, 0, 0"/>
+              </Points>
+              <Curves Size="8">
+                <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                  <StartPoint IsFixed="No" Position="-0.20577, -0.090765, 0"/>
+                  <EndPoint IsFixed="No" Position="-0.08931, -0.090765, 0"/>
+                </Curve>
+                <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                  <StartPoint IsFixed="No" Position="-0.08931, -0.090765, 0"/>
+                  <EndPoint IsFixed="No" Position="-0.08931, 0.090765, 0"/>
+                </Curve>
+                <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                  <StartPoint IsFixed="No" Position="-0.08931, 0.090765, 0"/>
+                  <EndPoint IsFixed="No" Position="-0.20577, 0.090765, 0"/>
+                </Curve>
+                <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                  <StartPoint IsFixed="No" Position="-0.20577, 0.090765, 0"/>
+                  <EndPoint IsFixed="No" Position="-0.20577, -0.090765, 0"/>
+                </Curve>
+                <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                  <StartPoint IsFixed="No" Position="0.08931, -0.090765, 0"/>
+                  <EndPoint IsFixed="No" Position="0.20577, -0.090765, 0"/>
+                </Curve>
+                <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                  <StartPoint IsFixed="No" Position="0.20577, -0.090765, 0"/>
+                  <EndPoint IsFixed="No" Position="0.20577, 0.090765, 0"/>
+                </Curve>
+                <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                  <StartPoint IsFixed="No" Position="0.20577, 0.090765, 0"/>
+                  <EndPoint IsFixed="No" Position="0.08931, 0.090765, 0"/>
+                </Curve>
+                <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                  <StartPoint IsFixed="No" Position="0.08931, 0.090765, 0"/>
+                  <EndPoint IsFixed="No" Position="0.08931, -0.090765, 0"/>
+                </Curve>
+              </Curves>
+            </MSketch>
+          </FusionMSketchBrowserEntry>
+        </FusionSketchesBrowserEntry>
+        <FusionComponentInstanceBrowserEntry Name="Model:1">
+          <FusionSketchesBrowserEntry Name="Sketches" Visible="No">
+            <FusionMSketchBrowserEntry Name="Sketch1" Visible="Yes">
+              <MSketch>
+                <Points Size="2">
+                  <Point IsFixed="No" Position="0, 0, 0"/>
+                  <Point IsFixed="No" Position="0, 0, 0"/>
+                </Points>
+                <Curves Size="8">
+                  <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+                    <StartPoint IsFixed="No" Position="0.17, 0.09, 0"/>
+                    <EndPoint IsFixed="No" Position="-0.17, 0.09, 0"/>
+                  </Curve>
+                  <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+                    <StartPoint IsFixed="No" Position="-0.17, 0.09, 0"/>
+                    <EndPoint IsFixed="No" Position="-0.17, -0.09, 0"/>
+                  </Curve>
+                  <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+                    <StartPoint IsFixed="No" Position="-0.17, -0.09, 0"/>
+                    <EndPoint IsFixed="No" Position="0.17, -0.09, 0"/>
+                  </Curve>
+                  <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+                    <StartPoint IsFixed="No" Position="0.17, -0.09, 0"/>
+                    <EndPoint IsFixed="No" Position="0.17, 0.09, 0"/>
+                  </Curve>
+                  <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                    <StartPoint IsFixed="No" Position="0.17, 0.09, 0"/>
+                    <EndPoint IsFixed="No" Position="-0.17, -0.09, 0"/>
+                  </Curve>
+                  <Curve IsConstruction="Yes" IsFixed="No" Type="Line3D">
+                    <StartPoint IsFixed="No" Position="-0.17, 0.09, 0"/>
+                    <EndPoint IsFixed="No" Position="0.17, -0.09, 0"/>
+                  </Curve>
+                  <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+                    <StartPoint IsFixed="No" Position="0.095, 0.09, 0"/>
+                    <EndPoint IsFixed="No" Position="0.095, -0.09, 0"/>
+                  </Curve>
+                  <Curve IsConstruction="No" IsFixed="No" Type="Line3D">
+                    <StartPoint IsFixed="No" Position="-0.095, 0.09, 0"/>
+                    <EndPoint IsFixed="No" Position="-0.095, -0.09, 0"/>
+                  </Curve>
+                </Curves>
+              </MSketch>
+            </FusionMSketchBrowserEntry>
+          </FusionSketchesBrowserEntry>
+        </FusionComponentInstanceBrowserEntry>
+      </FusionComponentInstanceBrowserEntry>
+    </FusionComponentInstanceBrowserEntry>
+  </FusionComponentInstanceBrowserEntry>
+</FusionBrowserDumpRoot>

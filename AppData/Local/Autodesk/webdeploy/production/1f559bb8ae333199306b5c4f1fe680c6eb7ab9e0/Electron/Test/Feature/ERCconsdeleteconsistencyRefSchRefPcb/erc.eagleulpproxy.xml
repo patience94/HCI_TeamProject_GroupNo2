@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ERCErrors>
+<error type="warning" description="Only one pin on net N$3" sheetnr="1" signature="" state="active" code="106" xmin="29.210000" ymin="24.130000" xmax="31.750000" ymax="26.670000" x="30.480000" y="25.400000"/>
+<error type="warning" description="Only one pin on net N$1" sheetnr="1" signature="" state="active" code="106" xmin="63.500000" ymin="24.130000" xmax="66.040000" ymax="26.670000" x="64.770000" y="25.400000"/>
+<error type="warning" description="No module net existing for port A2" sheetnr="1" signature="" state="active" code="119" xmin="29.210000" ymin="13.970000" xmax="31.750000" ymax="16.510000" x="30.480000" y="15.240000"/>
+</ERCErrors>
