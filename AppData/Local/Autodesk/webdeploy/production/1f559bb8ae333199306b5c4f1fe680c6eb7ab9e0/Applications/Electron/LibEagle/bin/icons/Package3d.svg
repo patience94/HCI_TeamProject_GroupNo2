@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>03-low-density/general/Package3d-32</title>
+    <desc>Created with Sketch.</desc>
+    <g id="03-low-density/general/Package3d-32" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, 2.000000)">
+            <polygon id="Path-11-Copy" fill="#4D4D4D" points="4 18 3 14.5 18 14.5 17 18"></polygon>
+            <polygon id="Path-14-Copy" fill="#808080" points="17 10.5 27.5 0 28.5 4 18 14.5"></polygon>
+            <polygon id="Path-14-Copy" fill="#666666" points="18 14.5 28.5 4 27.5 7.5 17 18"></polygon>
+            <path d="" id="Path-15-Copy"></path>
+            <path d="" id="Path-16-Copy"></path>
+            <polygon id="Path-17-Copy" fill="#999999" points="4 10.5 16 2.30596792e-14 27.5 0 17 10.5"></polygon>
+            <g id="right-middle-copy-4" transform="translate(26.000000, 4.500000)">
+                <polygon id="Path-18" fill="#CCCCCC" points="4.5 14.5 2.5 1.5 4 0 6 13"></polygon>
+                <polygon id="Path-19" fill="#FFFFFF" points="2.5 1.5 0.5 1.5 2 0 4 0"></polygon>
+                <polygon id="Path-21" fill="#D9D9D9" points="0.5 1.5 0.25 2.5 1.5 2.5 3.5 14.5 4.5 14.5 2.5 1.5"></polygon>
+            </g>
+            <g id="right-middle-copy-5" transform="translate(22.000000, 8.500000)">
+                <polygon id="Path-18" fill="#CCCCCC" points="4.5 14.5 2.5 1.5 4 0 6 13"></polygon>
+                <polygon id="Path-19" fill="#FFFFFF" points="2.5 1.5 0.5 1.5 2 0 4 0"></polygon>
+                <polygon id="Path-21" fill="#D9D9D9" points="0.5 1.5 0.25 2.5 1.5 2.5 3.5 14.5 4.5 14.5 2.5 1.5"></polygon>
+            </g>
+            <g id="right-middle-copy-6" transform="translate(18.000000, 12.500000)">
+                <polygon id="Path-18" fill="#CCCCCC" points="4.5 14.5 2.5 1.5 4 0 6 13"></polygon>
+                <polygon id="Path-19" fill="#FFFFFF" points="2.5 1.5 0.5 1.5 2 0 4 0"></polygon>
+                <polygon id="Path-21" fill="#D9D9D9" points="0.5 1.5 0.25 2.5 1.5 2.5 3.5 14.5 4.5 14.5 2.5 1.5"></polygon>
+            </g>
+            <g id="right-middle-copy-2" transform="translate(4.000000, 18.500000) scale(-1, 1) translate(-4.000000, -18.500000) translate(2.000000, 12.000000)"></g>
+            <path d="" id="Path-20-Copy" stroke="#979797"></path>
+            <polygon id="Path-23" fill="#FFFFFF" points="1.5 14.5 3.5 12.75 3 14.5"></polygon>
+            <polygon id="Path-24" fill="#999999" points="2.5 15.5 1 27.5 3 25.5 4 18 3.25 15.5"></polygon>
+            <polygon id="Path-21" fill="#D9D9D9" transform="translate(1.625000, 21.000000) scale(-1, 1) translate(-1.625000, -21.000000) " points="0.25 14.5 0 15.5 0.75 15.5 2.25 27.5 3.25 27.5 1.75 14.5"></polygon>
+            <polygon id="Path-24" fill="#999999" points="6.5 18 5.75 23 7.75 21 8.25 18"></polygon>
+            <polygon id="Path-24-Copy" fill="#999999" points="10.5 18 10.25 19 11.5 18"></polygon>
+            <polygon id="Path-24" fill="#D9D9D9" points="5.5 18 4.75 23 5.75 23 6.5 18"></polygon>
+            <polygon id="Path-24-Copy-2" fill="#D9D9D9" points="9.5 18 9.25 19 10.25 19 10.5 18"></polygon>
+            <polygon id="Path-11-Copy" fill="#808080" transform="translate(10.500000, 12.500000) scale(1, -1) translate(-10.500000, -12.500000) " points="4 14.5 3 10.5 18 10.5 17 14.5"></polygon>
+        </g>
+    </g>
+</svg>

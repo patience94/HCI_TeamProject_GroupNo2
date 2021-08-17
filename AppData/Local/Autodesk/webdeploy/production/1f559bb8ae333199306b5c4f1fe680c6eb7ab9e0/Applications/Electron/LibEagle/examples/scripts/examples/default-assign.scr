@@ -1,0 +1,72 @@
+# Default ASSIGN Configuration Script
+#
+# This file can be used to configure the editor windows.
+
+# GENERAL:
+ASSIGN C+M MOVE;
+ASSIGN C+Z UNDO;
+ASSIGN C+Y REDO;
+ASSIGN CS+C COPY;
+ASSIGN CS+A ADD;
+ASSIGN C+D DELETE;
+ASSIGN C+W WIRE;
+ASSIGN C+I INFO;
+ASSIGN C+T TEXT;
+ASSIGN CS+N NAME;
+ASSIGN CS+P POLYGON;
+ASSIGN C+F 'RUN find.ulp';
+#ASSIGN C+X CHANGE;
+#ASSIGN A+A ATTRIBUTE;
+ASSIGN C+G NEWGROUP;
+ASSIGN CS+G UNGROUP;
+
+BRD:
+ASSIGN C+E ERRORS;
+ASSIGN CS+D 'DRC;';  # Executes DRC without opening DRC dialog. For dialog sk
+#ASSIGN CS+D DRC;    # Opens DRC dialog.
+ASSIGN CS+V VALUE;
+ASSIGN CS+R RIPUP;
+#ASSIGN A+R RATSNEST;
+ASSIGN C+H HOLE;
+# Route related key assingments
+ASSIGN A+G Set Obstacle_Mode Ignore;
+ASSIGN A+P Set Obstacle_Mode Push;
+ASSIGN A+W Set Obstacle_Mode Walkaround;
+ASSIGN A+1 Set Via_Pattern Perpendicular;
+ASSIGN A+2 Set Via_Pattern Angle_Right;
+ASSIGN A+3 Set Via_Pattern Angle_Left;
+ASSIGN A+4 Set Via_Pattern Stagger;
+ASSIGN A+A DECSpacing;      # While multi-routing, DECrease the spacing between routed wires
+ASSIGN A+S INCSpacing;       # While multi-routing, INCrease the spacing between routed wires
+ASSIGN A+D MINSpacing;       # While multi-routing, set the spacing to the MINimum design rule.
+ASSIGN A+Q SwaPEnd;       # swap's routing to the opposite airwire endpoint
+ASSIGN C+1 Route;
+ASSIGN C+2 RouteMulti;
+ASSIGN C+3 RoutEDiff;
+ASSIGN C+4 QRouteAirwire;
+ASSIGN C+5 QRouteSignal;
+ASSIGN C+6 QRouteMulti;
+ASSIGN C+7 QRouteSmooth;
+
+
+SCH:
+ASSIGN C+E ERRORS;
+ASSIGN CS+E ERC;
+ASSIGN CS+I INVOKE;
+ASSIGN CS+V VALUE;
+ASSIGN CS+S SMASH;
+ASSIGN A+N NET; 
+LBR:
+ASSIGN C+E EDIT;
+
+DEV:
+ASSIGN A+C CONNECT;
+ASSIGN A+P PACKAGE; 
+
+SYM:
+ASSIGN A+P PIN; 
+PAC:
+ASSIGN C+H HOLE;
+ASSIGN A+P PAD; 
+ASSIGN A+S SMD; 
+

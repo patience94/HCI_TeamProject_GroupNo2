@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fusion Package Generator [LOCAL]</title>
+        <link rel="stylesheet" href="../../dist/fusion-package-generator/fusion-package-generator-app.css">
+        <script type="text/javascript" src="../../dist/fusion-package-generator/jsts.js"></script>
+        <script type="text/javascript" src="../../dist/fusion-package-generator/fusion-package-generator-vendor.min.js"></script>
+        <script type="text/javascript" src="../../dist/fusion-package-generator/fusion-package-generator-app.min.js"></script>
+    </head>
+    <body>
+        <div class='editor'></div>
+        <script>
+            var endpoints = {
+                contentServer: {
+                    server: "https://contapi-beta.circuits.io",
+                    tenant: "123D-Circuits"
+                },
+                accounts: "https://accounts-staging.autodesk.com",
+                routerWebWorker: "../../dist/fusion-package-generator/router_worker.js",
+                copperPourWebWorker: "../../dist/fusion-package-generator/copper_pour_worker.js",
+                eventsAPI: {
+                    server: "",
+                    AFC: "CR1ONB"
+                },
+                mainSite: "https://dev.library.io",
+                footprintEditor: "../footprint-editor/index_offline.html",
+                symbolEditor: "../symbol-editor/index_offline.html",
+                packageEditor: "../package-editor/index_offline.html",
+                componentEditor: "../component-editor/index_offline.html"
+            };
+
+            var queryParameters = {};
+            location.search.substr(1).split("&").forEach(function(part) {
+                var item = part.split("=");
+                queryParameters[item[0]] = decodeURIComponent(item[1]);
+            });
+            var editor_options = {
+                assetid: "",
+                mode: queryParameters.mode || 3,
+                hub: queryParameters.hub || null,
+                environment: "offline",
+                recording: queryParameters.recording || false,
+                disableIpcForking: queryParameters.disableIpcForking || false,
+                only3dModelGenerator: queryParameters.only3dModelGenerator,
+                unit: queryParameters.unit || "mm",
+                locale: queryParameters.locale || "en"          
+            };
+
+            $(document).ready(function() {
+                window.app = new FusionPackageGeneratorApp(editor_options, endpoints);
+            });
+        </script>
+    </body>
+</html>

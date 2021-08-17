@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Square Pad</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Square-Pad" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(45.000000, 64.000000) scale(-1, 1) translate(-45.000000, -64.000000) translate(5.000000, 24.000000)" fill="#FAA21B" stroke="#979797" stroke-width="3">
+            <path d="M78.5,1.5 L1.5,1.5 L1.5,78.5 L78.5,78.5 L78.5,1.5 Z M40,30.5 C45.2467051,30.5 49.5,34.7532949 49.5,40 C49.5,45.2467051 45.2467051,49.5 40,49.5 C34.7532949,49.5 30.5,45.2467051 30.5,40 C30.5,34.7532949 34.7532949,30.5 40,30.5 Z" id="Combined-Shape"></path>
+        </g>
+        <g id="Group-3" transform="translate(95.000000, 64.000000) rotate(-90.000000) translate(-95.000000, -64.000000) translate(56.000000, 61.000000)" fill="#0696D7" stroke="#0696D7">
+            <polygon id="Path-2" points="0.5 3 5.5 0 5.5 6"></polygon>
+            <polygon id="Path-2" transform="translate(75.500000, 3.000000) scale(-1, 1) translate(-75.500000, -3.000000) " points="73 3 78 0 78 6"></polygon>
+            <path d="M5,3 L73,3" id="Path-3" stroke-width="2"></path>
+        </g>
+        <path d="M103.5,22.5 L87.5,22.5" id="Path-9" stroke="#EC4A41"></path>
+        <path d="M103.5,105.5 L87.5,105.5" id="Path-9-Copy" stroke="#EC4A41"></path>
+        <path d="M100.5,64.5 L123.5,64.5" id="Path-12" stroke="#979797"></path>
+        <path d="M52.5,126 L52.5,75" id="Path-9" stroke="#EC4A41"></path>
+        <path d="M37.5,126 L37.5,75" id="Path-8" stroke="#EC4A41"></path>
+        <g id="Group-2" transform="translate(55.000000, 115.000000)" fill="#0696D7" stroke="#0696D7">
+            <polygon id="Path-2" points="0 3 5 0 5 6"></polygon>
+            <path d="M4,3 L16,3" id="Path-3" stroke-width="2"></path>
+        </g>
+        <g id="Group-2" transform="translate(19.000000, 115.000000)" fill="#0696D7" stroke="#0696D7">
+            <polygon id="Path-2" transform="translate(13.500000, 3.000000) scale(-1, 1) translate(-13.500000, -3.000000) " points="11 3 16 0 16 6"></polygon>
+            <path d="M0,3 L12,3" id="Path-3" stroke-width="2"></path>
+        </g>
+        <path d="M75,118.5 L123,118.5 L75,118.5 Z" id="Path-11" stroke="#979797"></path>
+    </g>
+</svg>

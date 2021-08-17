@@ -1,0 +1,247 @@
+2020-03-27T05:11:04.922 [Install Manager: 6040, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2020-03-27T05:11:04.922 [Install Manager: 6040, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]    
+2020-03-27T05:11:04.922 [Install Manager: 6040, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   Setup starting... 
+2020-03-27T05:11:04.922 [Install Manager: 6040, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   version:  1.6.2.4 
+2020-03-27T05:11:04.922 [Install Manager: 6040, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]    
+2020-03-27T05:11:04.922 [Install Manager: 6040, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2020-03-27T05:11:04.930 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSStrings::loadStrings ]   ==> OS Language found is [ ko-KR ]. 
+2020-03-27T05:11:04.941 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSStrings::loadStrings ]   Loading ko-KR strings. 
+2020-03-27T05:11:04.941 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSData::initdata ]   Initialize data 
+2020-03-27T05:11:04.941 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSData::initJson ]   ==> Load and parse bootstrap.json 
+2020-03-27T05:11:04.954 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSData::initOVer ]   ==> Load and parse odisver.xml 
+2020-03-27T05:11:04.954 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Users\HEESUK~1\AppData\Local\Temp\7zE13C074C\ODIS\odisver.xml ]. 
+2020-03-27T05:11:04.954 [Install Manager: 6040, single] [BootstrapUI WARN] [ BS_Setup::DetectFile ]   File, [ C:\Users\HEESUK~1\AppData\Local\Temp\7zE13C074C\ODIS\odisver.xml ] does not exist. 
+2020-03-27T05:11:04.954 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSData::initCmdL ]   ==> Load and parse command line 
+2020-03-27T05:11:04.954 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSData::initEnvV ]   ==> Load and parse environment 
+2020-03-27T05:11:04.954 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSData::initDat_ ]   ==> Load and parse product.dat 
+2020-03-27T05:11:06.505 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Users\HEESUK~1\AppData\Local\Temp\7zE13C074C\ODIS\DownloadManager.exe ] 
+2020-03-27T05:11:06.505 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Users\HEESUK~1\AppData\Local\Temp\7zE13C074C\ODIS\DownloadManager.exe" -u "http://edutrial.autodesk.com/NetSWDLD/ODIS/prd/2020/MAYA/5320B971-D86B-442A-80A9-779EBF3516B8/WI/Autodesk_Maya_2020_ML_Windows_64bit_di_en-US_setup.dat" -p "C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\13676681024081996786\Autodesk_Maya_2020_ML_Windows_64bit_di_en-US_setup.dat" 
+2020-03-27T05:11:12.646 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 0 
+2020-03-27T05:11:12.646 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2020-03-27T05:11:12.647 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSData::validate ]   ==> Validate data 
+2020-03-27T05:11:12.647 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSData::validate ]     ==> Data 
+2020-03-27T05:11:12.647 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSData::validate ]         - UPI2 id:              {5320B971-D86B-442A-80A9-779EBF3516B8} 
+2020-03-27T05:11:12.647 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSData::validate ]         - Environment:          prd 
+2020-03-27T05:11:12.647 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSData::validate ]         - Serial Number:        901-56864285 
+2020-03-27T05:11:12.647 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSData::validate ]         - Product Key:          657L1 
+2020-03-27T05:11:12.647 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSData::validate ]         - Static ODIS version:  1.0.8.30 
+2020-03-27T05:11:12.647 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSData::validate ]         - Path to odisver.xml:  C:\ProgramData\Autodesk\ODIS\ 
+2020-03-27T05:11:12.647 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSData::validate ]         - Hide EULA:            true 
+2020-03-27T05:11:12.647 [Install Manager: 6040, single] [BootstrapUI INFO] [ BSData::validate ]         - Trial:                true 
+2020-03-27T05:11:12.647 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Users\HEESUK~1\AppData\Local\Temp\7zE13C074C\setup.xml ]. 
+2020-03-27T05:11:12.647 [Install Manager: 6040, single] [BootstrapUI WARN] [ BS_Setup::DetectFile ]   File, [ C:\Users\HEESUK~1\AppData\Local\Temp\7zE13C074C\setup.xml ] does not exist. 
+2020-03-27T05:11:12.648 [Install Manager: 6040, single] [BootstrapUI INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- 
+2020-03-27T05:11:12.648 [Install Manager: 6040, single] [BootstrapUI INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- Executing web installation 
+2020-03-27T05:11:12.648 [Install Manager: 6040, single] [BootstrapUI INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- 
+2020-03-27T05:11:12.648 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ Autodesk::Setup::tryInstalledODIS ]   Check for installed version of ODIS. 
+2020-03-27T05:11:12.648 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ Autodesk::Setup::tryInstalledODIS ]   ==> installedOdisVerFile=[ C:\ProgramData\Autodesk\ODIS\odisver.xml ] 
+2020-03-27T05:11:12.648 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\ProgramData\Autodesk\ODIS\odisver.xml ]. 
+2020-03-27T05:11:12.648 [Install Manager: 6040, single] [BootstrapUI WARN] [ BS_Setup::DetectFile ]   File, [ C:\ProgramData\Autodesk\ODIS\odisver.xml ] does not exist. 
+2020-03-27T05:11:12.648 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ Autodesk::Setup::tryMediaODIS ]   Check if ODIS can be launched by local media. 
+2020-03-27T05:11:12.648 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Users\HEESUK~1\AppData\Local\Temp\7zE13C074C\ODIS\AdODIS-installer.exe ]. 
+2020-03-27T05:11:12.648 [Install Manager: 6040, single] [BootstrapUI WARN] [ BS_Setup::DetectFile ]   File, [ C:\Users\HEESUK~1\AppData\Local\Temp\7zE13C074C\ODIS\AdODIS-installer.exe ] does not exist. 
+2020-03-27T05:11:12.648 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ Autodesk::Setup::tryOnlineODIS ]   Check online for latest version of ODIS 
+2020-03-27T05:11:12.684 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Users\HEESUK~1\AppData\Local\Temp\7zE13C074C\ODIS\DownloadManager.exe ] 
+2020-03-27T05:11:12.684 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Users\HEESUK~1\AppData\Local\Temp\7zE13C074C\ODIS\DownloadManager.exe" -u "https://emsfs.autodesk.com/utility/odis/1/update/prd/update.xml" -p "C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\17266921459954639134\update.xml" 
+2020-03-27T05:11:15.666 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 0 
+2020-03-27T05:11:15.667 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2020-03-27T05:11:15.667 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ReadUpdateXmlFile ]   DDA installer filename found in update.xml is = [ AdODIS-installer.exe ]. 
+2020-03-27T05:11:15.668 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ReadUpdateXmlFile ]   URL found is = [ https://emsfs.autodesk.com/utility/odis/1/installer/1_6_2_25/ ]. 
+2020-03-27T05:11:15.668 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ReadUpdateXmlFile ]   Version found is = [ 1.6.2.25 ]. 
+2020-03-27T05:11:15.668 [Install Manager: 6040, single] [BootstrapUI INFO] [ Autodesk::Setup::tryOnlineODIS ]   ==> Online version of DDA is  1.6.2.25 
+2020-03-27T05:11:15.731 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Users\HEESUK~1\AppData\Local\Temp\7zE13C074C\ODIS\DownloadManager.exe ] 
+2020-03-27T05:11:15.731 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Users\HEESUK~1\AppData\Local\Temp\7zE13C074C\ODIS\DownloadManager.exe" -u "https://manifest.delivery.autodesk.com/manifest/manifestService/manifestDownload/v1/{5320B971-D86B-442A-80A9-779EBF3516B8}?access_id=C1396DD9DD2B5B972BD3B7F378AFD&version=1.0&nonce=1234&timestamp=123456&signature=hUPIR4ysmld2IxSrX40cbSMg8YVOhdQ8RkiUBSg/abU=" -p "C:\Autodesk\WI\{5320B971-D86B-442A-80A9-779EBF3516B8}\{5320B971-D86B-442A-80A9-779EBF3516B8}.zip" 
+2020-03-27T05:11:19.307 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 0 
+2020-03-27T05:11:19.307 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2020-03-27T05:11:19.307 [Install Manager: 6040, single] [BootstrapUI INFO] [ Autodesk::Setup::resolveManifest ]   Manifest downloaded. [ C:\Autodesk\WI\{5320B971-D86B-442A-80A9-779EBF3516B8}\{5320B971-D86B-442A-80A9-779EBF3516B8}.zip ]. 
+2020-03-27T05:11:19.307 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.308 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.309 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.309 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.310 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.311 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.311 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.312 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.313 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.315 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.316 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.317 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.318 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.319 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.321 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.322 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.323 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.324 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.325 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.325 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.326 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.327 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.329 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.329 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.330 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-27T05:11:19.331 [Install Manager: 6040, single] [BootstrapUI INFO] [ Autodesk::Setup::resolveManifest ]   Files are extracted to [ C:\Autodesk\WI\{5320B971-D86B-442A-80A9-779EBF3516B8} ]. 
+2020-03-27T05:11:19.331 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ Autodesk::Setup::resolveManifest ]   Detecting file, [ C:\Autodesk\WI\{5320B971-D86B-442A-80A9-779EBF3516B8}\setup.xml ]. 
+2020-03-27T05:11:19.331 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ Autodesk::Setup::resolveManifest ]   File, [ C:\Autodesk\WI\{5320B971-D86B-442A-80A9-779EBF3516B8}\setup.xml ] exists. 
+2020-03-27T05:11:19.412 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Users\HEESUK~1\AppData\Local\Temp\7zE13C074C\ODIS\DownloadManager.exe ] 
+2020-03-27T05:11:19.412 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Users\HEESUK~1\AppData\Local\Temp\7zE13C074C\ODIS\DownloadManager.exe" -u "https://emsfs.autodesk.com/utility/odis/1/installer/1_6_2_25/AdODIS-installer.exe" -p "C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\9296330759602005218\AdODIS-installer.exe" 
+2020-03-27T05:12:04.422 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 0 
+2020-03-27T05:12:04.422 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2020-03-27T05:12:04.424 [Install Manager: 6040, single] [BootstrapUI INFO] [ Autodesk::Setup::extractDDA ]   Copying  C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\9296330759602005218\AdODIS-installer.exe  to  C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\9296330759602005218\ODIS\AdODIS-installer.exe 
+2020-03-27T05:12:04.483 [Install Manager: 6040, single] [BootstrapUI INFO] [ Autodesk::Setup::extractDDA ]   Extracting DDA 
+2020-03-27T05:12:04.852 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\9296330759602005218\AdODIS-installer.exe ] 
+2020-03-27T05:12:04.852 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\9296330759602005218\AdODIS-installer.exe" --mode unattended --prefix "C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\9296330759602005218" --xmlFilePath "C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\9296330759602005218" 
+2020-03-27T05:12:25.179 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 0 
+2020-03-27T05:12:25.179 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2020-03-27T05:12:25.184 [Install Manager: 6040, single] [BootstrapUI INFO] [ Autodesk::Setup::runDDA ]   DDA will be launched by online (ie., from the temp directory). 
+2020-03-27T05:12:25.184 [Install Manager: 6040, single] [BootstrapUI INFO] [ Autodesk::Setup::runDDA ]   Launching DDA 
+2020-03-27T05:12:25.249 [Install Manager: 6040, single] [BootstrapUI DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\9296330759602005218\Installer.exe ] 
+2020-03-27T05:12:25.249 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\9296330759602005218\Installer.exe" --install_mode install --manifest "C:\Autodesk\WI\{5320B971-D86B-442A-80A9-779EBF3516B8}\setup.xml" --manifest_xsd "C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\9296330759602005218\SetupRes\manifest.xsd" --url_root http://edutrial.autodesk.com --substype SUS --serialnumber 901-56864285 --productkey 657L1 --trial_mode   --hide_eula   --install_source C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\9296330759602005218 --trigger_point web  
+2020-03-27T05:29:01.577 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 1073807364 
+2020-03-27T05:29:01.578 [Install Manager: 6040, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2020-03-27T05:29:01.579 [Install Manager: 6040, single] [BootstrapUI INFO] [ BootstrapApp::OnExit ]   Deleted Instance checker Successfully 
+2020-03-29T23:31:46.165 [Install Manager: 14000, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2020-03-29T23:31:46.165 [Install Manager: 14000, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]    
+2020-03-29T23:31:46.166 [Install Manager: 14000, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   Setup starting... 
+2020-03-29T23:31:46.166 [Install Manager: 14000, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   version:  1.6.2.4 
+2020-03-29T23:31:46.166 [Install Manager: 14000, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]    
+2020-03-29T23:31:46.166 [Install Manager: 14000, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2020-03-29T23:31:46.171 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSStrings::loadStrings ]   ==> OS Language found is [ ko-KR ]. 
+2020-03-29T23:31:46.172 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSStrings::loadStrings ]   Loading ko-KR strings. 
+2020-03-29T23:31:46.172 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSData::initdata ]   Initialize data 
+2020-03-29T23:31:46.172 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSData::initJson ]   ==> Load and parse bootstrap.json 
+2020-03-29T23:31:46.173 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSData::initOVer ]   ==> Load and parse odisver.xml 
+2020-03-29T23:31:46.173 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Users\HEESUK~1\AppData\Local\Temp\7zBE19823C\ODIS\odisver.xml ]. 
+2020-03-29T23:31:46.173 [Install Manager: 14000, single] [BootstrapUI WARN] [ BS_Setup::DetectFile ]   File, [ C:\Users\HEESUK~1\AppData\Local\Temp\7zBE19823C\ODIS\odisver.xml ] does not exist. 
+2020-03-29T23:31:46.173 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSData::initCmdL ]   ==> Load and parse command line 
+2020-03-29T23:31:46.173 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSData::initEnvV ]   ==> Load and parse environment 
+2020-03-29T23:31:46.173 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSData::initDat_ ]   ==> Load and parse product.dat 
+2020-03-29T23:31:46.174 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ BS_Setup::downloadFile ]   specific download directory fullpath, [ C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\13676681024081996786  removed. Number of files removed = [ 3 ]. 
+2020-03-29T23:31:46.244 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Users\HEESUK~1\AppData\Local\Temp\7zBE19823C\ODIS\DownloadManager.exe ] 
+2020-03-29T23:31:46.244 [Install Manager: 14000, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Users\HEESUK~1\AppData\Local\Temp\7zBE19823C\ODIS\DownloadManager.exe" -u "http://edutrial.autodesk.com/NetSWDLD/ODIS/prd/2020/MAYA/5320B971-D86B-442A-80A9-779EBF3516B8/WI/Autodesk_Maya_2020_ML_Windows_64bit_di_en-US_setup.dat" -p "C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\13676681024081996786\Autodesk_Maya_2020_ML_Windows_64bit_di_en-US_setup.dat" 
+2020-03-29T23:31:48.720 [Install Manager: 14000, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 0 
+2020-03-29T23:31:48.720 [Install Manager: 14000, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2020-03-29T23:31:48.720 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSData::validate ]   ==> Validate data 
+2020-03-29T23:31:48.720 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSData::validate ]     ==> Data 
+2020-03-29T23:31:48.720 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSData::validate ]         - UPI2 id:              {5320B971-D86B-442A-80A9-779EBF3516B8} 
+2020-03-29T23:31:48.720 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSData::validate ]         - Environment:          prd 
+2020-03-29T23:31:48.720 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSData::validate ]         - Serial Number:        901-56864285 
+2020-03-29T23:31:48.721 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSData::validate ]         - Product Key:          657L1 
+2020-03-29T23:31:48.721 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSData::validate ]         - Static ODIS version:  1.0.8.30 
+2020-03-29T23:31:48.721 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSData::validate ]         - Path to odisver.xml:  C:\ProgramData\Autodesk\ODIS\ 
+2020-03-29T23:31:48.721 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSData::validate ]         - Hide EULA:            true 
+2020-03-29T23:31:48.721 [Install Manager: 14000, single] [BootstrapUI INFO] [ BSData::validate ]         - Trial:                true 
+2020-03-29T23:31:48.721 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Users\HEESUK~1\AppData\Local\Temp\7zBE19823C\setup.xml ]. 
+2020-03-29T23:31:48.721 [Install Manager: 14000, single] [BootstrapUI WARN] [ BS_Setup::DetectFile ]   File, [ C:\Users\HEESUK~1\AppData\Local\Temp\7zBE19823C\setup.xml ] does not exist. 
+2020-03-29T23:31:48.721 [Install Manager: 14000, single] [BootstrapUI INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- 
+2020-03-29T23:31:48.721 [Install Manager: 14000, single] [BootstrapUI INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- Executing web installation 
+2020-03-29T23:31:48.721 [Install Manager: 14000, single] [BootstrapUI INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- 
+2020-03-29T23:31:48.721 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ Autodesk::Setup::tryInstalledODIS ]   Check for installed version of ODIS. 
+2020-03-29T23:31:48.721 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ Autodesk::Setup::tryInstalledODIS ]   ==> installedOdisVerFile=[ C:\ProgramData\Autodesk\ODIS\odisver.xml ] 
+2020-03-29T23:31:48.721 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\ProgramData\Autodesk\ODIS\odisver.xml ]. 
+2020-03-29T23:31:48.721 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\ProgramData\Autodesk\ODIS\odisver.xml ] exists. 
+2020-03-29T23:31:48.726 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ]. 
+2020-03-29T23:31:48.726 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ] exists. 
+2020-03-29T23:31:48.726 [Install Manager: 14000, single] [BootstrapUI INFO] [ Autodesk::Setup::tryInstalledODIS ]   ==> Installed version of ODIS is  1.6.2.25 
+2020-03-29T23:31:48.726 [Install Manager: 14000, single] [BootstrapUI INFO] [ Autodesk::Setup::tryInstalledODIS ]   ODIS is installed. 
+2020-03-29T23:31:48.726 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ Autodesk::Setup::tryMediaODIS ]   Check if ODIS can be launched by local media. 
+2020-03-29T23:31:48.726 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Users\HEESUK~1\AppData\Local\Temp\7zBE19823C\ODIS\AdODIS-installer.exe ]. 
+2020-03-29T23:31:48.726 [Install Manager: 14000, single] [BootstrapUI WARN] [ BS_Setup::DetectFile ]   File, [ C:\Users\HEESUK~1\AppData\Local\Temp\7zBE19823C\ODIS\AdODIS-installer.exe ] does not exist. 
+2020-03-29T23:31:48.726 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ Autodesk::Setup::tryOnlineODIS ]   Check online for latest version of ODIS 
+2020-03-29T23:31:48.727 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ BS_Setup::downloadFile ]   specific download directory fullpath, [ C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\17266921459954639134  removed. Number of files removed = [ 3 ]. 
+2020-03-29T23:31:48.757 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Users\HEESUK~1\AppData\Local\Temp\7zBE19823C\ODIS\DownloadManager.exe ] 
+2020-03-29T23:31:48.757 [Install Manager: 14000, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Users\HEESUK~1\AppData\Local\Temp\7zBE19823C\ODIS\DownloadManager.exe" -u "https://emsfs.autodesk.com/utility/odis/1/update/prd/update.xml" -p "C:\Users\HEESUK~1\AppData\Local\Temp\download_dest\17266921459954639134\update.xml" 
+2020-03-29T23:31:49.940 [Install Manager: 14000, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 0 
+2020-03-29T23:31:49.940 [Install Manager: 14000, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2020-03-29T23:31:49.940 [Install Manager: 14000, single] [BootstrapUI INFO] [ BS_Setup::ReadUpdateXmlFile ]   DDA installer filename found in update.xml is = [ AdODIS-installer.exe ]. 
+2020-03-29T23:31:49.940 [Install Manager: 14000, single] [BootstrapUI INFO] [ BS_Setup::ReadUpdateXmlFile ]   URL found is = [ https://emsfs.autodesk.com/utility/odis/1/installer/1_6_2_25/ ]. 
+2020-03-29T23:31:49.940 [Install Manager: 14000, single] [BootstrapUI INFO] [ BS_Setup::ReadUpdateXmlFile ]   Version found is = [ 1.6.2.25 ]. 
+2020-03-29T23:31:49.940 [Install Manager: 14000, single] [BootstrapUI INFO] [ Autodesk::Setup::tryOnlineODIS ]   ==> Online version of DDA is  1.6.2.25 
+2020-03-29T23:31:49.963 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ BS_Setup::downloadFile ]   specific download directory fullpath, [ C:\Autodesk\WI\{5320B971-D86B-442A-80A9-779EBF3516B8}  removed. Number of files removed = [ 71 ]. 
+2020-03-29T23:31:49.992 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Users\HEESUK~1\AppData\Local\Temp\7zBE19823C\ODIS\DownloadManager.exe ] 
+2020-03-29T23:31:49.992 [Install Manager: 14000, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Users\HEESUK~1\AppData\Local\Temp\7zBE19823C\ODIS\DownloadManager.exe" -u "https://manifest.delivery.autodesk.com/manifest/manifestService/manifestDownload/v1/{5320B971-D86B-442A-80A9-779EBF3516B8}?access_id=C1396DD9DD2B5B972BD3B7F378AFD&version=1.0&nonce=1234&timestamp=123456&signature=hUPIR4ysmld2IxSrX40cbSMg8YVOhdQ8RkiUBSg/abU=" -p "C:\Autodesk\WI\{5320B971-D86B-442A-80A9-779EBF3516B8}\{5320B971-D86B-442A-80A9-779EBF3516B8}.zip" 
+2020-03-29T23:31:55.122 [Install Manager: 14000, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 0 
+2020-03-29T23:31:55.122 [Install Manager: 14000, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2020-03-29T23:31:55.122 [Install Manager: 14000, single] [BootstrapUI INFO] [ Autodesk::Setup::resolveManifest ]   Manifest downloaded. [ C:\Autodesk\WI\{5320B971-D86B-442A-80A9-779EBF3516B8}\{5320B971-D86B-442A-80A9-779EBF3516B8}.zip ]. 
+2020-03-29T23:31:55.123 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.123 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.125 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.127 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.128 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.129 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.130 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.130 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.131 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.132 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.132 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.133 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.134 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.135 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.136 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.136 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.137 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.138 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.138 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.139 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.140 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.141 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.142 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.143 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.144 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ UnzipHandler::createFolder ]   Directory already exists 
+2020-03-29T23:31:55.145 [Install Manager: 14000, single] [BootstrapUI INFO] [ Autodesk::Setup::resolveManifest ]   Files are extracted to [ C:\Autodesk\WI\{5320B971-D86B-442A-80A9-779EBF3516B8} ]. 
+2020-03-29T23:31:55.145 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ Autodesk::Setup::resolveManifest ]   Detecting file, [ C:\Autodesk\WI\{5320B971-D86B-442A-80A9-779EBF3516B8}\setup.xml ]. 
+2020-03-29T23:31:55.145 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ Autodesk::Setup::resolveManifest ]   File, [ C:\Autodesk\WI\{5320B971-D86B-442A-80A9-779EBF3516B8}\setup.xml ] exists. 
+2020-03-29T23:31:55.146 [Install Manager: 14000, single] [BootstrapUI INFO] [ Autodesk::Setup::runDDA ]   DDA will be launched by the installed DDA. 
+2020-03-29T23:31:55.146 [Install Manager: 14000, single] [BootstrapUI INFO] [ Autodesk::Setup::runDDA ]   Launching DDA 
+2020-03-29T23:31:55.250 [Install Manager: 14000, single] [BootstrapUI DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ] 
+2020-03-29T23:31:55.250 [Install Manager: 14000, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Program Files\Autodesk\AdODIS\V1\Installer.exe" --install_mode install --manifest "C:\Autodesk\WI\{5320B971-D86B-442A-80A9-779EBF3516B8}\setup.xml" --manifest_xsd "C:\Program Files\Autodesk\AdODIS\V1\SetupRes\manifest.xsd" --url_root http://edutrial.autodesk.com --substype SUS --serialnumber 901-56864285 --productkey 657L1 --trial_mode   --hide_eula   --trigger_point web  
+2020-03-29T23:32:15.043 [Install Manager: 14000, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 1073807364 
+2020-03-29T23:32:15.043 [Install Manager: 14000, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2020-03-29T23:32:15.043 [Install Manager: 14000, single] [BootstrapUI INFO] [ BootstrapApp::OnExit ]   Deleted Instance checker Successfully 
+2020-05-12T10:53:40.493 [Install Manager: 13256, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2020-05-12T10:53:40.494 [Install Manager: 13256, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]    
+2020-05-12T10:53:40.494 [Install Manager: 13256, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   Setup starting... 
+2020-05-12T10:53:40.494 [Install Manager: 13256, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   version:  1.3.3.13 
+2020-05-12T10:53:40.494 [Install Manager: 13256, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]    
+2020-05-12T10:53:40.494 [Install Manager: 13256, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2020-05-12T10:53:40.541 [Install Manager: 13256, single] [BootstrapUI INFO] [ BSStrings::loadStrings ]   ==> OS Language found is [ ko-KR ]. 
+2020-05-12T10:53:40.547 [Install Manager: 13256, single] [BootstrapUI INFO] [ BSStrings::loadStrings ]   Loading ko-KR strings. 
+2020-05-12T10:53:40.547 [Install Manager: 13256, single] [BootstrapUI INFO] [ BSData::initdata ]   Initialize data 
+2020-05-12T10:53:40.547 [Install Manager: 13256, single] [BootstrapUI INFO] [ BSData::initJson ]   ==> Load and parse bootstrap.json 
+2020-05-12T10:53:40.551 [Install Manager: 13256, single] [BootstrapUI INFO] [ BSData::initCmdL ]   ==> Load and parse command line 
+2020-05-12T10:53:40.551 [Install Manager: 13256, single] [BootstrapUI INFO] [ BSData::initEnvV ]   ==> Load and parse environment 
+2020-05-12T10:53:40.551 [Install Manager: 13256, single] [BootstrapUI INFO] [ BSData::validate ]   ==> Validate data 
+2020-05-12T10:53:40.551 [Install Manager: 13256, single] [BootstrapUI INFO] [ BSData::validate ]     ==> Data 
+2020-05-12T10:53:40.551 [Install Manager: 13256, single] [BootstrapUI INFO] [ BSData::validate ]         - UPI2 id:              {E63648E7-BD88-4137-AED6-156E77E79DD3} 
+2020-05-12T10:53:40.551 [Install Manager: 13256, single] [BootstrapUI INFO] [ BSData::validate ]         - Environment:          prd 
+2020-05-12T10:53:40.551 [Install Manager: 13256, single] [BootstrapUI INFO] [ BSData::validate ]         - Serial Number:         
+2020-05-12T10:53:40.551 [Install Manager: 13256, single] [BootstrapUI INFO] [ BSData::validate ]         - Product Key:           
+2020-05-12T10:53:40.551 [Install Manager: 13256, single] [BootstrapUI INFO] [ BSData::validate ]         - Static ODIS version:  1.0.8.51 
+2020-05-12T10:53:40.551 [Install Manager: 13256, single] [BootstrapUI INFO] [ BSData::validate ]         - Path to odisver.xml:  C:\ProgramData\Autodesk\ODIS\ 
+2020-05-12T10:53:40.551 [Install Manager: 13256, single] [BootstrapUI INFO] [ BSData::validate ]         - Hide EULA:            false 
+2020-05-12T10:53:40.551 [Install Manager: 13256, single] [BootstrapUI INFO] [ BSData::validate ]         - Trial:                false 
+2020-05-12T10:53:40.552 [Install Manager: 13256, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Maya_2020_1_ML_Windows_64bit_dlm\setup.xml ]. 
+2020-05-12T10:53:40.552 [Install Manager: 13256, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Maya_2020_1_ML_Windows_64bit_dlm\setup.xml ] exists. 
+2020-05-12T10:53:40.552 [Install Manager: 13256, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Maya_2020_1_ML_Windows_64bit_dlm\ODIS\AdODIS-installer.exe ]. 
+2020-05-12T10:53:40.552 [Install Manager: 13256, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Maya_2020_1_ML_Windows_64bit_dlm\ODIS\AdODIS-installer.exe ] exists. 
+2020-05-12T10:53:40.552 [Install Manager: 13256, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Maya_2020_1_ML_Windows_64bit_dlm\ODIS\odisver.xml ]. 
+2020-05-12T10:53:40.552 [Install Manager: 13256, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Maya_2020_1_ML_Windows_64bit_dlm\ODIS\odisver.xml ] exists. 
+2020-05-12T10:53:40.552 [Install Manager: 13256, single] [BootstrapUI INFO] [ Autodesk::Setup::setOnlineInstallMode ]    -- 
+2020-05-12T10:53:40.552 [Install Manager: 13256, single] [BootstrapUI INFO] [ Autodesk::Setup::setOnlineInstallMode ]    -- Executing installer in offline mode 
+2020-05-12T10:53:40.552 [Install Manager: 13256, single] [BootstrapUI INFO] [ Autodesk::Setup::setOnlineInstallMode ]    -- 
+2020-05-12T10:53:40.552 [Install Manager: 13256, single] [BootstrapUI DEBUG] [ Autodesk::Setup::checkInstalledDdaLaunchMode ]   Check for installed version of ODIS. 
+2020-05-12T10:53:40.552 [Install Manager: 13256, single] [BootstrapUI DEBUG] [ Autodesk::Setup::checkInstalledDdaLaunchMode ]   ==> installedOdisVerFile=[ C:\ProgramData\Autodesk\ODIS\odisver.xml ] 
+2020-05-12T10:53:40.552 [Install Manager: 13256, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\ProgramData\Autodesk\ODIS\odisver.xml ]. 
+2020-05-12T10:53:40.552 [Install Manager: 13256, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\ProgramData\Autodesk\ODIS\odisver.xml ] exists. 
+2020-05-12T10:53:40.556 [Install Manager: 13256, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ]. 
+2020-05-12T10:53:40.557 [Install Manager: 13256, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ] exists. 
+2020-05-12T10:53:40.557 [Install Manager: 13256, single] [BootstrapUI INFO] [ Autodesk::Setup::checkInstalledDdaLaunchMode ]   ==> Installed version of ODIS is  1.6.2.25 
+2020-05-12T10:53:40.557 [Install Manager: 13256, single] [BootstrapUI INFO] [ Autodesk::Setup::checkInstalledDdaLaunchMode ]   ODIS is installed. 
+2020-05-12T10:53:40.557 [Install Manager: 13256, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Maya_2020_1_ML_Windows_64bit_dlm\setup.xml ]. 
+2020-05-12T10:53:40.557 [Install Manager: 13256, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Maya_2020_1_ML_Windows_64bit_dlm\setup.xml ] exists. 
+2020-05-12T10:53:40.560 [Install Manager: 13256, single] [BootstrapUI INFO] [ Autodesk::Setup::runDDA ]   DDA will be launched by the installed DDA. 
+2020-05-12T10:53:40.560 [Install Manager: 13256, single] [BootstrapUI INFO] [ Autodesk::Setup::runDDA ]   Launching DDA 
+2020-05-12T10:53:40.837 [Install Manager: 13256, single] [BootstrapUI DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ] 
+2020-05-12T10:53:40.837 [Install Manager: 13256, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Program Files\Autodesk\AdODIS\V1\Installer.exe" --install_mode install --manifest "C:\Autodesk\Autodesk_Maya_2020_1_ML_Windows_64bit_dlm\setup.xml" --manifest_xsd "C:\Program Files\Autodesk\AdODIS\V1\SetupRes\manifest.xsd" --url_root https://dds.autodesk.com  
+2020-05-12T12:29:30.432 [Install Manager: 13256, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 0 
+2020-05-12T12:29:30.432 [Install Manager: 13256, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2020-05-12T12:29:30.432 [Install Manager: 13256, single] [BootstrapUI INFO] [ BootstrapApp::OnExit ]   Deleted Instance checker Successfully 

@@ -1,0 +1,12 @@
+{
+    "autodeskProduct":  "Fusion360",
+    "type":  "addin",
+    "id":  "ab2e6929-cb7c-4dbd-95c7-d8bf6caef8e9",
+    "author":  "Proto Labs, Inc.",
+    "description":  {
+                        "":  "Get an interactive quote within hours from Protolabs."
+                    },
+    "version":  "2.5.0.7",
+    "runOnStartup":  true,
+    "supportedOS":  "windows|mac"
+}

@@ -1,0 +1,281 @@
+20200605T002505 I Request(https://login.autodesk360.com/login/api/system/info) - workflow:HTTPClient attempt:0 status:200
+20200605T002505 I BrowserCache file size: 608 KB, "C:\Users\Heesu Kim\AppData\Local\Autodesk\Autodesk Fusion 360\KD53JQVUGPG6/NsCloudBrowserCache_handong41.dat"
+20200605T002505 I BrowserCache: number of thumbnails: 17
+20200605T002505 I Workflow start: /v1/licenses 1-5ed91251-dc007fd2a6b547969e50b3da
+20200605T002508 I Request(https://api.v3license.access.clic.autodesk.com/v1/licenses) - workflow:/v1/licenses attempt:0 status:200
+20200605T002508 I Request(https://metering.autodesk.com/api/accounts/v1/KD53JQVUGPG6) - workflow:HTTPClient attempt:0 status:200
+20200605T002510 I Request(https://frv.ui-dls360.autodesk.com/api/v1/checkAccess) - workflow:HTTPClient attempt:0 status:200
+20200605T002510 I authenticate:end
+20200605T002510 I succesfully authenticated
+20200605T002510 I TOSS accepted
+20200605T002510 I Hub type: personal
+20200605T002510 I CheckingEntitlements
+20200605T002510 I  UserType: Student EntitlementType: Subscription
+20200605T002510 I Entitlement changed
+20200605T002510 I Hub  hasAPersonalSite=0, hasTeamHub=1, eHubStatus=0, isEntitled=1
+20200605T002510 I Workflow start: get_teamhub_preferences 1-5ed91256-67e1708834f341f5818fe267
+20200605T002511 I Migrate Options
+20200605T002511 I Load Cloud Options
+20200605T002512 I Request(https://login.autodesk360.com/login/api/preferences/guid?oauth_consumer_key=b8670f04-9acc-4ad0-8bcc-a21ba95bec91&oauth_nonce=4185633895d7428aa02e68c0d76c92c9&oauth_signature=p2VFO%2FUrgxbFX42vnvvomrki0Is%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1591284311&oauth_token=AXdoacSDN0Rq0MTygPNyANUiiNA%3D&oauth_version=1.0) - workflow:HTTPClient attempt:0 status:200
+20200605T002513 I Request(https://symphonydm.ft.autodesk.com/symphonydm/v2/hubs/handong41/preferences) - workflow:get_teamhub_preferences attempt:0 status:200
+20200605T002513 I LaunchDarkly client initialization process is not finished successfully!		ThreadID: 16888, Function: Ns::LDCSDKWrapper::initLDCallback, Line: 325
+20200605T002513 I LaunchDarkly client initialization process is finished successfully!		ThreadID: 24640, Function: Ns::LDCSDKWrapper::initLDCallback, Line: 321
+20200605T002516 I Reloaded option files: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/KD53JQVUGPG6/NGlobalOptions.xml
+20200605T002516 I ***startSession: END
+20200605T002517 I GAThread::queueReport the sending thread started
+20200605T002517 I Graphics Card: Intel(R) UHD Graphics, Rating: Yellow, Workarounds: 4 
+20200605T002517 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002517 I OGS Device: VirtualDeviceDx11
+20200605T002517 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002518 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002518 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002518 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002524 I Local cache scan: 0.0310234 seconds, 1 items
+20200605T002524 I DownloadManager::started
+20200605T002524 I savingVersionLaunched		ThreadID: 17364, Function: Nu::WhatsNewBannerCmdDef::applicationReady, Line: 108
+20200605T002524 I last version: 2.0.8407		ThreadID: 17364, Function: Nu::UIApplication::saveVersionLaunched, Line: 86
+20200605T002524 I current version: 2.0.8407		ThreadID: 17364, Function: Nu::UIApplication::saveVersionLaunched, Line: 87
+20200605T002524 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002530 I JSManager - extracted archive to C:\Users\HEESUK~1\AppData\Local\Temp\Neutron\8b17463e-9e11-4dc7-ad9e-67734cc12bea
+20200605T002530 I Dashboard Size: initial size: width 100 height 30
+20200605T002530 I Dashboard Size: use parent size: width 0 height 600
+20200605T002530 I Dashboard Size createWebControl parent area - width 0 height: 600
+20200605T002531 I ServicesHealthStatus: Health Status changed from unknown to operational
+20200605T002535 I JSManager - extracted archive to C:\Users\HEESUK~1\AppData\Local\Temp\Neutron\da3e6ea3-651d-4640-a99a-05318b240ab3
+20200605T002536 I Live update: start update check.
+20200605T002536 I Request(https://dl.appstreaming.autodesk.com/production/67316f5e79bc48318aa5f7b6bb58243d/73e72ada57b7480280f7a6f4a289729f/full.json) - workflow:HTTPClient attempt:0 status:200
+20200605T002536 I Live update: Update is detected from Fusion side.
+20200605T002536 I Live update: Start update process in Streamer side.
+20200605T002536 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002536 I Workflow start: /v1/licenses 1-5ed91270-76eb4f15d28d4570932aa44a
+20200605T002539 I Request(https://api.v3license.access.clic.autodesk.com/v1/licenses) - workflow:/v1/licenses attempt:0 status:200
+20200605T002540 I Request(https://metering.autodesk.com/api/accounts/v1/KD53JQVUGPG6) - workflow:HTTPClient attempt:0 status:200
+20200605T002541 I Request(https://frv.ui-dls360.autodesk.com/api/v1/checkAccess) - workflow:HTTPClient attempt:0 status:200
+20200605T002541 I Tool library url: file:///C:/Users/Heesu Kim/AppData/Local/Autodesk/webdeploy/production/2d2369abebef7185a0bd58a7adec00788a3017dc/Applications/CAM360/tool-library/index.html?language=en-US&serverType=FUSION_DESKTOP
+
+20200605T002541 I Live update: Start pending updates check.
+20200605T002541 I Live update: Update is in progress.
+20200605T002541 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002541 I Request(https://metering.autodesk.com/api/price/v1/KD53JQVUGPG6/fusion360manufacturingext?format=json) - workflow:HTTPClient attempt:0 status:200
+20200605T002541 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002541 I Request(https://metering.autodesk.com/api/price/v1/KD53JQVUGPG6/fusion360manufacturingext?format=json) - workflow:HTTPClient attempt:0 status:200
+20200605T002542 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml
+20200605T002542 I OfflineFileCache: update g^[DdSC@BFWA`H		ThreadID: 17364, Function: _updateTimeBomb, Line: 242
+20200605T002542 D Entered into Online mode result: 1
+20200605T002542 I Workflow start: CollaborationMetadataService_getMetadata 1-5ed91275-ab7b891575ae404fb8d4f36d
+20200605T002542 I EvergageWrapper:networkOk changed to:1
+20200605T002542 I Local render: Sync to cloud started. Checking for jobs to sync.
+20200605T002542 I Local render: Quit syncing to cloud. No more jobs in queue.
+20200605T002542 I Circuit Breaker A360 : Reset to Closed
+20200605T002542 I Circuit Breaker OSS : Reset to Closed
+20200605T002542 I Circuit Breaker WIP : Reset to Closed
+20200605T002542 I OnlineStatus OnlineUI online
+20200605T002542 I WIPService::getLineages lineages array is empty. This may be normal.
+20200605T002542 I Request(https://metering.autodesk.com/api/accounts/v1/KD53JQVUGPG6) - workflow:HTTPClient attempt:0 status:200
+20200605T002542 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/KD53JQVUGPG6/NGlobalOptions.xml
+20200605T002542 I (total 74.635s diff 74.635s) 	PERF: DashboardReady 74.6348s (time from start), version: 2.0.8407
+20200605T002542 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002543 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002543 I Request(https://fusiondm.ft.autodesk.com/fusiondm/v3/collaborations) - workflow:CollaborationMetadataService_getMetadata attempt:0 status:200
+20200605T002543 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200605T002543 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002543 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200605T002543 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002543 I PushNotification using new pub nub
+20200605T002543 I Workflow start: WIPRequest7 1-5ed91277-e22f3be78f76413692c1e2fd
+20200605T002543 I Cloud Libraries: Registered project D20200514297993701 for folder NestMaterials
+20200605T002543 I Cloud Libraries: Registered project D20200514297993701 for folder NestTranslationImportConfigurations
+20200605T002543 I Cloud Libraries: Registered project D20200514297993701 for folder NestTranslationExportConfigurations
+20200605T002543 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002544 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002544 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002544 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/system) - workflow:WIPRequest7 attempt:0 status:200
+20200605T002544 I : urlChanged: file:///C:/Users/Heesu Kim/AppData/Local/Autodesk/webdeploy/production/2d2369abebef7185a0bd58a7adec00788a3017dc/FusionCDEHostApps/team-switcher/index.html?locale=en-US
+20200605T002544 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002544 I Workflow start: WIPRequest4 1-5ed91278-22c9bd0e1c9c478686646e56
+20200605T002545 I Request(https://notifications.prd.fusionapi.autodesk.com/v1/channel/a360prod:project:1220200514297993701) - workflow:PushNotificationManager attempt:0 status:200
+20200605T002545 I PushNotification got channel:NahxFfNXcUIK+MA1Z5AalWS+Akk=
+20200605T002545 I PushNotification starting channelName:a360prod:project:1220200514297993701 subscriberType:groupSubscription ChannelId:NahxFfNXcUIK+MA1Z5AalWS+Akk=
+20200605T002545 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/folders/urn:adsk.wipprod:fs.folder:co.fJ-CTtBVTv-3v7oWwXeg_Q) - workflow:WIPRequest4 attempt:0 status:200
+20200605T002545 I (total 77.604s diff 2.970s) 	PERF: ModelingReady
+20200605T002545 I fetchTeams
+20200605T002545 I : loadFinished: 
+20200605T002545 I fetchTeams
+20200605T002546 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002549 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002549 I Workflow start: WIPRequest7 1-5ed9127d-daa3f636649e475382a31edb
+20200605T002550 I urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 26958 16 156 16427
+20200605T002550 I Â¾í»ƒí» Â¿Ï·á‡ŸÂ½4Ï´Ù€
+20200605T002550 I 1591284348156 1591284349804 5242880 8 16 60000 urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 26958 200 {"bucket_key":"fusion.prefs.login","key":"KD53JQVUGPG6_NGlobalOptions.xml","id":"urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml","size":"26958","sha1":"c124f56b605f762edfdba1dd48ba5b8f39bb3d91","content_type":"application/stream","location":"https://developer.api.autodesk.com/oss/v2/buckets/fusion.prefs.login/objects/KD53JQVUGPG6_NGlobalOptions.xml"}
+20200605T002550 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/versionedfiles/urn%3Aadsk.wipprod%3Afs.file%3Avf._5rNWKAoQyScJT_hujE6XQ%3Fversion%3D3) - workflow:WIPRequest7 attempt:0 status:200
+20200605T002550 I Begin:	Open the Document with Lineage URI : urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ
+20200605T002550 I Workflow start: open 1-5ed9127e-0d6b235aa494421594ff41f0
+20200605T002550 I Opening latest version of the lineage urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ		ThreadID: 17364, Function: Nu::Commands::PLM360OpenAttachmentCmd::openAttachment, Line: 687
+20200605T002550 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002551 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002551 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/lineages/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ) - workflow:open attempt:0 status:200
+20200605T002552 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/queryaccess) - workflow:open attempt:0 status:200
+20200605T002553 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/versionedfiles/urn%3Aadsk.wipprod%3Afs.file%3Avf._5rNWKAoQyScJT_hujE6XQ%3Fversion%3D3) - workflow:open attempt:0 status:200
+20200605T002553 I Begin:	Opening the document: smart_remote v3 at path: C:/Users/Heesu Kim/AppData/Local/Autodesk/Autodesk Fusion 360/KD53JQVUGPG6/W.login/F/_smart_remote.696efb88-7b57-4ee4-ac6a-85473b243626.f3d
+20200605T002553 I Workflow start: WIPRequest7 1-5ed91281-093c381bbcdb46b8a8a2eaea
+20200605T002553 I Workflow start: collaborator 1-5ed91281-137cc5e25d1f48c79f70bd53
+20200605T002554 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/lineages/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ) - workflow:WIPRequest7 attempt:0 status:200
+20200605T002554 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200605T002554 I Workflow start: WIPRequest7 1-5ed91282-4b2bd2c027b24d83b7b2f206
+20200605T002554 I Request(https://handong41.autodesk360.com/login/rest/facade/corporateInviteSettings?oauth_consumer_key=b8670f04-9acc-4ad0-8bcc-a21ba95bec91&oauth_nonce=2d079de44a8647b3abf5249b85c86be7&oauth_signature=72oojx2gQxMywWkCDZCNnPSu5Zo%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1591284354&oauth_token=AXdoacSDN0Rq0MTygPNyANUiiNA%3D&oauth_version=1.0) - workflow:HTTPClient attempt:0 status:200
+20200605T002555 I PushNotification using new pub nub
+20200605T002555 I PushNotification using new pub nub
+20200605T002555 I Time Taken:	1.846341
+20200605T002555 I End:	Opening the document: smart_remote v3 at path: C:/Users/Heesu Kim/AppData/Local/Autodesk/Autodesk Fusion 360/KD53JQVUGPG6/W.login/F/_smart_remote.696efb88-7b57-4ee4-ac6a-85473b243626.f3d
+20200605T002555 I Opened Document : _smart_remote.696efb88-7b57-4ee4-ac6a-85473b243626.f3d
+20200605T002555 I Time Taken:	4.2253889999999998
+20200605T002555 I End:	Open the Document with Lineage URI : urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ
+20200605T002555 I Request(https://developer.api.autodesk.com/comments/v2/resources/dXJuOmFkc2sud2lwcHJvZDpkbS5saW5lYWdlOl81ck5XS0FvUXlTY0pUX2h1akU2WFE=) - workflow:HTTPClient attempt:0 status:200
+20200605T002555 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/lineages/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ/versions?limit=10&sort=DESC) - workflow:WIPRequest7 attempt:0 status:200
+20200605T002555 I Workflow start: WIPRequest4 1-5ed91282-99b1ac7d0ca34a958bf3fc7b
+20200605T002555 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/statics) - workflow:collaborator attempt:0 status:200
+20200605T002555 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002555 I Workflow start: collaborator 1-5ed91283-a05bc680af3d441aa4b75633
+20200605T002555 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002556 I Request(https://notifications.prd.fusionapi.autodesk.com/v1/channel/urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ) - workflow:PushNotificationManager attempt:0 status:200
+20200605T002556 I PushNotification got channel:951+e9xgtDNsuRfOolcv5LAbqC4=
+20200605T002556 I PushNotification starting channelName:urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ subscriberType:lineageSubscription ChannelId:951+e9xgtDNsuRfOolcv5LAbqC4=
+20200605T002556 I Request(https://notifications.prd.fusionapi.autodesk.com/v1/channel/a360prod%3Agroup%3A71306143) - workflow:PushNotificationManager attempt:0 status:200
+20200605T002556 I PushNotification got channel:cFXtIJWqzt+hEzltyYHCzMnjrb0=
+20200605T002556 I PushNotification starting channelName:a360prod:group:71306143 subscriberType:groupSubscription ChannelId:cFXtIJWqzt+hEzltyYHCzMnjrb0=
+20200605T002556 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/lineages/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ) - workflow:WIPRequest4 attempt:0 status:200
+20200605T002556 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200605T002556 I Graphics Rendering time in opening the document : 1.2094223677829232
+20200605T002556 I Total time in opening the document for user interaction : 5.4348866677829228
+20200605T002556 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002557 D {"payload":"","retCode":0}
+20200605T002557 D {"payload":"","retCode":0}
+20200605T002557 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002557 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200605T002558 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002622 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002626 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002631 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/22204886) - workflow:SLM_heartbeat attempt:0 status:200
+20200605T002634 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002657 I GPU pressure: before entering RenderWorkspace 0.0977849
+20200605T002657 I GPU pressure: after entering RenderWorkspace 0.0977849
+20200605T002659 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002722 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002732 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/22204886) - workflow:SLM_heartbeat attempt:0 status:200
+20200605T002804 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002824 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002832 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/22204886) - workflow:SLM_heartbeat attempt:0 status:200
+20200605T002844 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002844 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002844 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002845 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002848 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002848 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002915 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002918 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002921 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002921 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002921 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002922 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002922 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002922 I GPU Pressure: before RRT enabled 0.088158
+20200605T002922 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T002924 I GPU Pressure: after RRT enabled 0.0882497
+20200605T002928 I *I* *** Validate check fixed 2 command state[s].  LastCmds=InCanvasRenderCommand,SelectCommand, Changes=ViewObjectShadowCommand(E1), ViewAmbientOcclusionCommand(E1)
+20200605T002934 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/22204886) - workflow:SLM_heartbeat attempt:0 status:200
+20200605T002954 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T003001 I Workflow start: save 1-5ed91378-1c74d44925db450282e42f83
+20200605T003003 I Top level document smart_remote v3 needs to be autosaved, but its been disabled for autosave, probably because it is being edited by the user. Note that all its children have already been autosaved
+20200605T003004 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/KD53JQVUGPG6/NGlobalOptions.xml
+20200605T003004 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml
+20200605T003004 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T003008 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T003011 I urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 27230 0 1234 7610
+20200605T003011 I Â¾í»ƒí» Â¿Ï·á‡ŸÂ½4Ï´Ù€
+20200605T003011 I 1591284606841 1591284610427 5242880 8 16 60000 urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 27230 200 {"bucket_key":"fusion.prefs.login","key":"KD53JQVUGPG6_NGlobalOptions.xml","id":"urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml","size":"27230","sha1":"9cb1909dad3cce16645f293705fddea402ed6ca6","content_type":"application/stream","location":"https://developer.api.autodesk.com/oss/v2/buckets/fusion.prefs.login/objects/KD53JQVUGPG6_NGlobalOptions.xml"}
+20200605T003035 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/22204886) - workflow:SLM_heartbeat attempt:0 status:200
+20200605T003053 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200605T003053 I fireApplicationDeactivate: 0
+20200605T003053 I fireApplicationDeactivate: done
+20200605T003103 I Started Autosave for: smart_remote v3. Document Type is: Fusion Document
+20200605T003104 I Finished autosaving document: smart_remote v3
+20200605T003135 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/22204886) - workflow:SLM_heartbeat attempt:0 status:200
+20200605T003236 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/22204886) - workflow:SLM_heartbeat attempt:0 status:200
+20200605T003337 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/22204886) - workflow:SLM_heartbeat attempt:0 status:200
+20200605T003438 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/22204886) - workflow:SLM_heartbeat attempt:0 status:200
+20200605T003535 I fireApplicationActivate: 0
+20200605T003535 I fireApplicationActivate: done
+20200605T003539 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/22204886) - workflow:SLM_heartbeat attempt:0 status:200
+20200605T003551 I Workflow start: save 1-5ed914d6-5174ddf448374b30bbfbdf38
+20200605T003555 I Workflow start: save 1-5ed914da-1b5a5ab54fd94220a4e9f1cc
+20200605T003555 I Workflow start: collaborator 1-5ed914da-623c331f1e6c4eb2a0e65e04
+20200605T003556 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200605T003557 I Queued file: afceb288-1e8c-45b3-a133-0e6c717740d5.f3d in queue id: 1. Original Filename: _smart_remote.696efb88-7b57-4ee4-ac6a-85473b243626.f3d
+20200605T003557 I Number of items in queue 1 are 1.
+20200605T003557 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200605T003600 I Uploader thread 0 picked up a file from the SmallIndependentFiles queue 1. Original File: _smart_remote.696efb88-7b57-4ee4-ac6a-85473b243626.f3d, Queued File: afceb288-1e8c-45b3-a133-0e6c717740d5.f3d
+20200605T003600 I Workflow start: WIPRequest7 1-5ed914df-e88ed8b1490442b49c394f7f
+20200605T003601 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/lineages/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ/versions?limit=10&sort=DESC) - workflow:WIPRequest7 attempt:0 status:200
+20200605T003601 I Workflow start: WIPRequest4 1-5ed914e0-cf052dc9f43340ed80bd7571
+20200605T003602 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/lineages/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ) - workflow:WIPRequest4 attempt:0 status:200
+20200605T003602 I Starting upload. Original File: _smart_remote, Queued File: afceb288-1e8c-45b3-a133-0e6c717740d5.f3d
+20200605T003602 I Workflow start: uploadDocument 1-5ed914e1-33d1c7c0768a4955b06b50da
+20200605T003602 I INFO: adding new version	file: smart_remote.f3d	lineage Uri: urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ
+20200605T003602 I INFO: adding new version	file: smart_remote.f3d	lineage Uri: urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ
+20200605T003603 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/versionedfiles) - workflow:uploadDocument attempt:0 status:200
+20200605T003603 I New file versionUri: urn:adsk.wipprod:fs.file:vf._5rNWKAoQyScJT_hujE6XQ?version=4
+20200605T003604 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/KD53JQVUGPG6/NGlobalOptions.xml
+20200605T003604 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml
+20200605T003604 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/lineages/urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ) - workflow:uploadDocument attempt:0 status:200
+20200605T003604 I INFO: version created for file: smart_remote.f3d
+20200605T003612 I urn:adsk.objects:os.object:wip.dm.prod/1a9528c5-de87-4da4-8c96-da3b5632e241.f3d 1580124 0 156 188311
+20200605T003612 I Â¾í»ƒí» Â¿Ï·á‡ŸÂ½4Ï´Ù€
+20200605T003612 I 1591284963567 1591284971972 5242880 8 16 1800000 urn:adsk.objects:os.object:wip.dm.prod/1a9528c5-de87-4da4-8c96-da3b5632e241.f3d 1580124 200 {"bucket_key":"wip.dm.prod","key":"1a9528c5-de87-4da4-8c96-da3b5632e241.f3d","id":"urn:adsk.objects:os.object:wip.dm.prod/1a9528c5-de87-4da4-8c96-da3b5632e241.f3d","size":"1580124","sha1":"bff403ddebed5426c550b43ad812d8cafae29258","content_type":"application/stream","location":"https://developer.api.autodesk.com/oss/v2/buckets/wip.dm.prod/objects/1a9528c5-de87-4da4-8c96-da3b5632e241.f3d"}
+20200605T003613 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/entities/aggregate) - workflow:uploadDocument attempt:0 status:200
+20200605T003613 I Uploaded document smart_remote v4, Original File: _smart_remote, Queued File: afceb288-1e8c-45b3-a133-0e6c717740d5.f3d, Guid: a94cd28d-d28b-4241-9682-6f2d0c1f75b5, url: urn:adsk.wipprod:fs.file:vf._5rNWKAoQyScJT_hujE6XQ?version=4
+20200605T003613 I Workflow start: WIPRequest7 1-5ed914ed-a8d79e30f3f04c7d94cde1b8
+20200605T003614 I urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 27302 0 0 32348
+20200605T003614 I Â¾í»ƒí» Â¿Ï·á‡ŸÂ½4Ï´Ù€
+20200605T003614 I 1591284972495 1591284973349 5242880 8 16 60000 urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 27302 200 {"bucket_key":"fusion.prefs.login","key":"KD53JQVUGPG6_NGlobalOptions.xml","id":"urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml","size":"27302","sha1":"2f8b2d803733020b612932ffcbc5cd4205079790","content_type":"application/stream","location":"https://developer.api.autodesk.com/oss/v2/buckets/fusion.prefs.login/objects/KD53JQVUGPG6_NGlobalOptions.xml"}
+20200605T003614 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/lineages/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ) - workflow:WIPRequest7 attempt:0 status:200
+20200605T003614 I urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6__handong41_RecentsWithoutSearch_1.json 970 15 156 1194
+20200605T003614 I 1591284973296 1591284974141 5242880 8 16 60000 urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6__handong41_RecentsWithoutSearch_1.json 970 200 
+20200605T003614 I Request(https://raas2.autodesk.com/gallery/create) - workflow:HTTPClient attempt:0 status:200
+20200605T003615 I PushNotification destroySubscriber channelName:urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ
+20200605T003615 I Checking job manager state
+20200605T003615 I Executing exit command
+20200605T003615 I Running deferred session release tasks
+20200605T003616 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200605T003617 I PushNotification found expired message
+20200605T003617 I PushNotification changing channel. current channel:a360prod:group:71306143 cFXtIJWqzt+hEzltyYHCzMnjrb0=
+20200605T003618 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/statics/delete) - workflow:collaborator attempt:0 status:200
+20200605T003618 I Request(https://notifications.prd.fusionapi.autodesk.com/v1/channel/a360prod%3Agroup%3A71306143) - workflow:PushNotificationManager attempt:0 status:200
+20200605T003618 I PushNotification got channel:5uneRtQjyaE7tkd3NKzgJEuO+T4=
+20200605T003618 I PushNotification starting channelName:a360prod:group:71306143 subscriberType:groupSubscription ChannelId:5uneRtQjyaE7tkd3NKzgJEuO+T4=
+20200605T003618 I Signal shutdown to script manager
+20200605T003618 I PushNotification message was found in history. channel:a360prod:group:71306143 id:5uneRtQjyaE7tkd3NKzgJEuO+T4=
+20200605T003618 I PushNotification changed channel to new channel:a360prod:group:71306143 5uneRtQjyaE7tkd3NKzgJEuO+T4=
+20200605T003618 I Script manager shut down done
+20200605T003618 I Exit now
+20200605T003618 I Workflow start: SLM_closeSession 1-5ed914f2-c6cca91c162b49fcb0517d75
+20200605T003619 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/22204886) - workflow:SLM_closeSession attempt:0 status:200
+20200605T003619 I SLM: session cleared
+20200605T003619 I Start QTApplication::exit
+20200605T003619 I Done QTApplication::exit
+20200605T003619 I Exit command end
+20200605T003619 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/KD53JQVUGPG6/NGlobalOptions.xml
+20200605T003620 I fireApplicationClosing: 1
+20200605T003620 I fireApplicationClosing: done
+20200605T003621 I DownloadManager::stopped
+20200605T003622 I Deleting files that are older then 15 days from: "C:\Users\Heesu Kim\AppData\Local\Autodesk\Autodesk Fusion 360\KD53JQVUGPG6\W.login\F"
+20200605T003622 I OfflineFileCache: update g^[DdSC@BFVBfH		ThreadID: 17364, Function: _updateTimeBomb, Line: 242
+20200605T003622 I SLM: Shutdown
+20200605T003622 I fireApplicationClosing: 2
+20200605T003622 I fireApplicationClosing: done
+20200605T003623 I GAThread::stop wait for the sending thread to exit
+20200605T003623 I GAThread::stop sending thread exits now, stats:GAThread=>Pending:0, Running:0, Sent:51, Fail:0, 			
+ Throttle:1, SessionIdle:330.613, SessionSent:51 			
+ Limits: SessionLimits:500, ThrottleLimits:50, GATimeout:14400 seconds
+20200605T003623 I GAWrapper terminating:GAWrapper Status=> Network:1, NetworkChangedTimes:0, IgnoredReportsDuringNetworkdown:1, totalReports:62
+20200605T003623 I AnalyticItemCounts Terminating with:0 items
+20200605T003623 I WorkflowTrackManager Terminating with:0 items

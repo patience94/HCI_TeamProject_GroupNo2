@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>03-low-density/general/PersistantGroupRemoveFrom-32</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="2" y="2" width="28" height="28"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="28" height="28" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="03-low-density/general/PersistantGroupRemoveFrom-32" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <use id="Rectangle" stroke="#666666" mask="url(#mask-2)" stroke-width="2" stroke-dasharray="5,2" xlink:href="#path-1"></use>
+        <rect id="Rectangle" stroke="#0696D7" fill="#CDEAF8" x="11.5" y="5.5" width="9" height="9"></rect>
+        <path d="M16,27 C18.7614237,27 21,24.7614237 21,22 C21,19.2385763 18.7614237,17 16,17 C13.2385763,17 11,19.2385763 11,22 C11,24.7614237 13.2385763,27 16,27 Z" id="Oval-Copy" stroke="#0696D7" fill="#CDEAF8" stroke-dasharray="3,2"></path>
+        <g id="Group" transform="translate(23.072390, 23.274064) scale(-1, 1) rotate(9.000000) translate(-23.072390, -23.274064) translate(15.572390, 18.274064)" stroke="#333333">
+            <path d="M3.42760995,5.66711272 C6.04665757,2.33377939 9.71332424,1.83377939 14.42761,4.16711272" id="Path-12" stroke-width="3" transform="translate(8.927610, 4.196524) scale(1, -1) rotate(26.000000) translate(-8.927610, -4.196524) "></path>
+            <polygon id="Triangle" stroke-width="2" fill="#333333" transform="translate(3.500000, 6.500000) rotate(-98.000000) translate(-3.500000, -6.500000) " points="3.5 4 6 9 1 9"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,68 @@
+2020-03-27T14:12:29.135 [Process Launcher: 3408, single] [ProcessLauncher INFO] ======================== Start ProcessLauncher ========================
+2020-03-27T14:12:29.135 [Process Launcher: 3408, single] [ProcessLauncher INFO] Version : 1.6.2.11
+2020-03-27T14:12:29.135 [Process Launcher: 3408, single] [ProcessLauncher INFO] OS-Name : Windows
+2020-03-27T14:12:29.135 [Process Launcher: 3408, single] [ProcessLauncher INFO] OS-Version : 10.0
+2020-03-27T14:12:29.135 [Process Launcher: 3408, single] [ProcessLauncher INFO] OS-Locale : ko-KR
+2020-03-27T14:12:29.135 [Process Launcher: 3408, single] [ProcessLauncher INFO] Running-Mode : root
+2020-03-27T14:12:29.135 [Process Launcher: 3408, single] [ProcessLauncher INFO] ==================================================================
+2020-03-27T14:12:29.135 [Process Launcher: 3408, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::ProcessLauncherReactor ]   ProcessLauncherReactor() 
+2020-03-27T14:12:29.135 [Process Launcher: 3408, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::Init ]   ProcessLauncherReactor::Init 
+2020-03-27T14:12:29.137 [Process Launcher: 3408, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::Connected ]   ProcessLauncherReactor::Connected 
+2020-03-27T14:12:29.239 [Process Launcher: 3408, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   ProcessLauncherReactor::NewMessageAvailable 
+2020-03-27T14:12:29.239 [Process Launcher: 3408, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   Incoming message: {"command":"LAUNCH_PROCESS","request":{"arguments":[" --trial_mode"],"executable":"C:\\Users\\HEESUK~1\\AppData\\Local\\Temp\\download_dest\\9296330759602005218\\Setup\\install_manager.exe"},"source":"DDA_CORE","target":"DDA_PL","version":"DDA_V1"} 
+2020-03-27T14:29:01.160 [Process Launcher: 3408, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   ProcessLauncherReactor::NewMessageAvailable 
+2020-03-27T14:29:01.161 [Process Launcher: 3408, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   Incoming message: {"command":"EXIT_REQUEST","request":{"eventSource":5,"eventTarget":3},"source":"DDA_CORE","target":"DDA_PL","version":"DDA_V1"} 
+2020-03-27T14:29:01.161 [Process Launcher: 3408, single] [ProcessLauncher INFO] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   stopping process launcher... 
+2020-03-27T14:29:01.242 [Process Launcher: 3408, single] [ProcessLauncher INFO] [ Autodesk::ProcessLauncher::Exec ]   process launcher is about to stop... 
+2020-03-27T14:29:01.273 [Process Launcher: 3408, single] [ProcessLauncher INFO] [ Autodesk::ProcessLauncher::Exec ]   IPC channel destroyed. Process launcher stopped. 
+2020-03-30T08:32:00.523 [Process Launcher: 9784, single] [ProcessLauncher INFO] ======================== Start ProcessLauncher ========================
+2020-03-30T08:32:00.531 [Process Launcher: 9784, single] [ProcessLauncher INFO] Version : 1.6.2.11
+2020-03-30T08:32:00.531 [Process Launcher: 9784, single] [ProcessLauncher INFO] OS-Name : Windows
+2020-03-30T08:32:00.531 [Process Launcher: 9784, single] [ProcessLauncher INFO] OS-Version : 10.0
+2020-03-30T08:32:00.531 [Process Launcher: 9784, single] [ProcessLauncher INFO] OS-Locale : ko-KR
+2020-03-30T08:32:00.531 [Process Launcher: 9784, single] [ProcessLauncher INFO] Running-Mode : root
+2020-03-30T08:32:00.531 [Process Launcher: 9784, single] [ProcessLauncher INFO] ==================================================================
+2020-03-30T08:32:00.531 [Process Launcher: 9784, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::ProcessLauncherReactor ]   ProcessLauncherReactor() 
+2020-03-30T08:32:00.531 [Process Launcher: 9784, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::Init ]   ProcessLauncherReactor::Init 
+2020-03-30T08:32:00.533 [Process Launcher: 9784, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::Connected ]   ProcessLauncherReactor::Connected 
+2020-03-30T08:32:01.239 [Process Launcher: 9784, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   ProcessLauncherReactor::NewMessageAvailable 
+2020-03-30T08:32:01.239 [Process Launcher: 9784, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   Incoming message: {"command":"LAUNCH_PROCESS","request":{"arguments":[" --trial_mode"],"executable":"C:\\Program Files\\Autodesk\\AdODIS\\V1\\Setup\\install_manager.exe"},"source":"DDA_CORE","target":"DDA_PL","version":"DDA_V1"} 
+2020-03-30T08:32:14.620 [Process Launcher: 9784, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   ProcessLauncherReactor::NewMessageAvailable 
+2020-03-30T08:32:14.620 [Process Launcher: 9784, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   Incoming message: {"command":"EXIT_REQUEST","request":{"eventSource":5,"eventTarget":3},"source":"DDA_CORE","target":"DDA_PL","version":"DDA_V1"} 
+2020-03-30T08:32:14.620 [Process Launcher: 9784, single] [ProcessLauncher INFO] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   stopping process launcher... 
+2020-03-30T08:32:14.719 [Process Launcher: 9784, single] [ProcessLauncher INFO] [ Autodesk::ProcessLauncher::Exec ]   process launcher is about to stop... 
+2020-03-30T08:32:14.721 [Process Launcher: 9784, single] [ProcessLauncher INFO] [ Autodesk::ProcessLauncher::Exec ]   IPC channel destroyed. Process launcher stopped. 
+2020-03-30T08:34:15.509 [Process Launcher: 4188, single] [ProcessLauncher INFO] ======================== Start ProcessLauncher ========================
+2020-03-30T08:34:15.510 [Process Launcher: 4188, single] [ProcessLauncher INFO] Version : 1.6.2.11
+2020-03-30T08:34:15.511 [Process Launcher: 4188, single] [ProcessLauncher INFO] OS-Name : Windows
+2020-03-30T08:34:15.511 [Process Launcher: 4188, single] [ProcessLauncher INFO] OS-Version : 10.0
+2020-03-30T08:34:15.511 [Process Launcher: 4188, single] [ProcessLauncher INFO] OS-Locale : ko-KR
+2020-03-30T08:34:15.511 [Process Launcher: 4188, single] [ProcessLauncher INFO] Running-Mode : root
+2020-03-30T08:34:15.511 [Process Launcher: 4188, single] [ProcessLauncher INFO] ==================================================================
+2020-03-30T08:34:15.511 [Process Launcher: 4188, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::ProcessLauncherReactor ]   ProcessLauncherReactor() 
+2020-03-30T08:34:15.511 [Process Launcher: 4188, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::Init ]   ProcessLauncherReactor::Init 
+2020-03-30T08:34:15.585 [Process Launcher: 4188, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::Connected ]   ProcessLauncherReactor::Connected 
+2020-03-30T08:34:16.934 [Process Launcher: 4188, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   ProcessLauncherReactor::NewMessageAvailable 
+2020-03-30T08:34:16.934 [Process Launcher: 4188, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   Incoming message: {"command":"LAUNCH_PROCESS","request":{"arguments":[],"executable":"C:\\Program Files\\Autodesk\\AdODIS\\V1\\Setup\\install_manager.exe"},"source":"DDA_CORE","target":"DDA_PL","version":"DDA_V1"} 
+2020-03-30T08:36:24.530 [Process Launcher: 4188, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   ProcessLauncherReactor::NewMessageAvailable 
+2020-03-30T08:36:24.530 [Process Launcher: 4188, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   Incoming message: {"command":"EXIT_REQUEST","request":{"eventSource":5,"eventTarget":3},"source":"DDA_CORE","target":"DDA_PL","version":"DDA_V1"} 
+2020-03-30T08:36:24.530 [Process Launcher: 4188, single] [ProcessLauncher INFO] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   stopping process launcher... 
+2020-03-30T08:36:24.544 [Process Launcher: 4188, single] [ProcessLauncher INFO] [ Autodesk::ProcessLauncher::Exec ]   process launcher is about to stop... 
+2020-03-30T08:36:24.645 [Process Launcher: 4188, single] [ProcessLauncher INFO] [ Autodesk::ProcessLauncher::Exec ]   IPC channel destroyed. Process launcher stopped. 
+2020-05-12T19:53:52.433 [Process Launcher: 21616, single] [ProcessLauncher INFO] ======================== Start ProcessLauncher ========================
+2020-05-12T19:53:52.434 [Process Launcher: 21616, single] [ProcessLauncher INFO] Version : 1.6.2.11
+2020-05-12T19:53:52.434 [Process Launcher: 21616, single] [ProcessLauncher INFO] OS-Name : Windows
+2020-05-12T19:53:52.434 [Process Launcher: 21616, single] [ProcessLauncher INFO] OS-Version : 10.0
+2020-05-12T19:53:52.434 [Process Launcher: 21616, single] [ProcessLauncher INFO] OS-Locale : ko-KR
+2020-05-12T19:53:52.434 [Process Launcher: 21616, single] [ProcessLauncher INFO] Running-Mode : root
+2020-05-12T19:53:52.434 [Process Launcher: 21616, single] [ProcessLauncher INFO] ==================================================================
+2020-05-12T19:53:52.434 [Process Launcher: 21616, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::ProcessLauncherReactor ]   ProcessLauncherReactor() 
+2020-05-12T19:53:52.434 [Process Launcher: 21616, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::Init ]   ProcessLauncherReactor::Init 
+2020-05-12T19:53:52.435 [Process Launcher: 21616, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::Connected ]   ProcessLauncherReactor::Connected 
+2020-05-12T19:53:53.142 [Process Launcher: 21616, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   ProcessLauncherReactor::NewMessageAvailable 
+2020-05-12T19:53:53.143 [Process Launcher: 21616, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   Incoming message: {"command":"LAUNCH_PROCESS","request":{"arguments":[],"executable":"C:\\Program Files\\Autodesk\\AdODIS\\V1\\Setup\\install_manager.exe"},"source":"DDA_CORE","target":"DDA_PL","version":"DDA_V1"} 
+2020-05-12T21:29:24.119 [Process Launcher: 21616, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   ProcessLauncherReactor::NewMessageAvailable 
+2020-05-12T21:29:24.119 [Process Launcher: 21616, single] [ProcessLauncher DEBUG] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   Incoming message: {"command":"EXIT_REQUEST","request":{"eventSource":5,"eventTarget":3},"source":"DDA_CORE","target":"DDA_PL","version":"DDA_V1"} 
+2020-05-12T21:29:24.119 [Process Launcher: 21616, single] [ProcessLauncher INFO] [ Autodesk::ProcessLauncherReactor::NewMessageAvailable ]   stopping process launcher... 
+2020-05-12T21:29:24.164 [Process Launcher: 21616, single] [ProcessLauncher INFO] [ Autodesk::ProcessLauncher::Exec ]   process launcher is about to stop... 
+2020-05-12T21:29:24.227 [Process Launcher: 21616, single] [ProcessLauncher INFO] [ Autodesk::ProcessLauncher::Exec ]   IPC channel destroyed. Process launcher stopped. 

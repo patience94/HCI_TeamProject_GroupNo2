@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>03-low-density/general/PersistantGroupAdd-32</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="2" y="2" width="28" height="28"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="28" height="28" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="03-low-density/general/PersistantGroupAdd-32" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <use id="Rectangle" stroke="#666666" mask="url(#mask-2)" stroke-width="2" stroke-dasharray="5,2" xlink:href="#path-1"></use>
+        <rect id="Rectangle" stroke="#0696D7" fill="#CDEAF8" x="11.5" y="5.5" width="9" height="9"></rect>
+        <circle id="Oval" stroke="#0696D7" fill="#CDEAF8" cx="16" cy="22" r="5"></circle>
+        <polygon id="Shape" stroke="#209F49" stroke-width="0.5" fill="#24B252" fill-rule="nonzero" points="32 22 26 22 26 16 22 16 22 22 16 22 16 26 22 26 22 32 26 32 26 26 32 26"></polygon>
+    </g>
+</svg>

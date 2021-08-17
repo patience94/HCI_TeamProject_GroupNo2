@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>03-low-density/general/PersistantGroupLock-32</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="2" y="2" width="28" height="28"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="28" height="28" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M12.8333333,5.7282838 L11.6666667,5.7282838 L11.6666667,4.7810033 C11.7154063,2.37371144 9.89740557,0.319351109 7.455,0.0217747927 C6.14057934,-0.104209934 4.83314111,0.320550823 3.85689828,1.1907267 C2.88065546,2.06090257 2.32703935,3.29499609 2.33333333,4.58698199 L2.33333333,5.7282838 L1.16666667,5.7282838 C0.522334459,5.7282838 0,6.23926202 0,6.8695856 L0,14.8586982 C0,15.4890218 0.522334459,16 1.16666667,16 L12.8333333,16 C13.4776655,16 14,15.4890218 14,14.8586982 L14,6.8695856 C14,6.23926202 13.4776655,5.7282838 12.8333333,5.7282838 Z M4.66666667,4.58698199 C4.66666667,3.32633484 5.71133558,2.30437839 7,2.30437839 C8.28866442,2.30437839 9.33333333,3.32633484 9.33333333,4.58698199 L9.33333333,5.7282838 L4.66666667,5.7282838 L4.66666667,4.58698199 Z M11.6666667,13.7173964 L2.33333333,13.7173964 L2.33333333,12.5760946 L11.6666667,12.5760946 L11.6666667,13.7173964 Z M11.6666667,11.4347928 L2.33333333,11.4347928 L2.33333333,10.293491 L11.6666667,10.293491 L11.6666667,11.4347928 Z M11.6666667,9.1521892 L2.33333333,9.1521892 L2.33333333,8.0108874 L11.6666667,8.0108874 L11.6666667,9.1521892 Z" id="path-3"></path>
+    </defs>
+    <g id="03-low-density/general/PersistantGroupLock-32" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <use id="Rectangle" stroke="#666666" mask="url(#mask-2)" stroke-width="2" stroke-dasharray="5,2" xlink:href="#path-1"></use>
+        <rect id="Rectangle" stroke="#0696D7" fill="#CDEAF8" x="11.5" y="5.5" width="9" height="9"></rect>
+        <circle id="Oval" stroke="#0696D7" fill="#CDEAF8" cx="16" cy="22" r="5"></circle>
+        <g id="Group" transform="translate(18.000000, 16.000000)">
+            <polygon id="Path" fill="#DDDDDD" fill-rule="nonzero" points="12 14 2 14 2 6 12 6"></polygon>
+            <g id="icon">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Mask" fill="#333333" fill-rule="nonzero" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>03-low-density/filter-query/indent-32</title>
+    <desc>Created with Sketch.</desc>
+    <g id="03-low-density/filter-query/indent-32" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(4.000000, 3.000000)" fill="#666666">
+            <rect id="Rectangle" x="0" y="0" width="24" height="3"></rect>
+            <rect id="Rectangle-Copy" x="14" y="7" width="10" height="3"></rect>
+            <rect id="Rectangle-Copy-2" x="14" y="15" width="10" height="3"></rect>
+            <rect id="Rectangle-Copy-3" x="0" y="22" width="24" height="3"></rect>
+            <polygon id="Triangle" transform="translate(5.000000, 12.000000) rotate(90.000000) translate(-5.000000, -12.000000) " points="5 7 10 17 0 17"></polygon>
+        </g>
+    </g>
+</svg>

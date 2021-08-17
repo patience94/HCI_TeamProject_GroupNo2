@@ -1,0 +1,1 @@
+{"supportedOS": "windows|mac", "description": {"function": "upload STEP files directly to MakeTime"}, "author": "MakeTime", "editEnabled": false, "runOnStartup": true, "autodeskProduct": "Fusion360", "version": "0.2", "type": "addin", "id": "ff8dae6f-2d69-4b54-b6f1-4007c3722873"}

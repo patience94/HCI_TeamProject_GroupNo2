@@ -1,0 +1,45 @@
+20200514T215919 I Version : 2.0.8335
+20200514T215919 I UTC offset : 9
+20200514T215919 I Loading configuration from:C:/Users/Heesu Kim/AppData/Local/Autodesk/webdeploy/production/3a82a9180d711e5a886f9020f37b66e342270f89/Fusion 360.server.config
+20200514T215920 I SLM: device id = 28f965f7-abc0-712d-d9d2-0200fbfd03a4
+20200514T215920 I SLM: Initialized
+20200514T215920 I fireApplicationActivate: 0
+20200514T215920 I fireApplicationActivate: done
+20200514T215920 I Disk capacity: 238,431MB Disk free: 147,294MB Percentage free: 61 UIThread: no Time: 0.00094s
+20200514T215920 I PROXY: WindowsProxyOptionId set to Automatic		ThreadID: 18980, Function: `anonymous-namespace'::logProxyOpIfChanged, Line: 912
+20200514T215920 W PROXY: failed to query IE proxy configuration - ǁ·Ͻàµ¿ ±¸¼º URL; ã; ¼������½4ϴٮ
+
+20200514T215920 I PROXY: proxy server set to DIRECT		ThreadID: 18980, Function: `anonymous-namespace'::logProxyUsedIfChanged, Line: 939
+20200514T215922 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200514T215922 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200514T215922 I LaunchDarkly client initialization process is finished successfully!		ThreadID: 20316, Function: Ns::LDCSDKWrapper::initLDCallback, Line: 321
+20200514T215922 I LD CSDK for type Global was initialized with a total time of 0.000003 seconds		ThreadID: 19912, Function: Ns::CSDKLDFeatureFlagsManager::getFlagValue, Line: 135
+20200514T215922 I 	searchAndLoad exec path: C:/Users/Heesu Kim/AppData/Local/Autodesk/webdeploy/production/3a82a9180d711e5a886f9020f37b66e342270f89/Fusion360.exe
+20200514T215922 I Request(https://ui-dls360.autodesk.com/fusion/version.txt) - workflow: attempt:0 status:200
+20200514T215925 I Load Feature Toggle Xml:C:/Users/Heesu Kim/AppData/Local/Autodesk/webdeploy/production/3a82a9180d711e5a886f9020f37b66e342270f89/Fusion/Server/Fusion/Resources/FeatureToggle/FeatureToggle.xml
+20200514T215928 I Load Feature Toggle Xml:C:/Users/Heesu Kim/AppData/Local/Autodesk/webdeploy/production/3a82a9180d711e5a886f9020f37b66e342270f89/FusionDoc/Server/FusionDoc/Resources/FeatureToggle/FeatureToggle.xml
+20200514T215930 I C:\Users\Heesu Kim\AppData\Local\Autodesk\webdeploy\production\3a82a9180d711e5a886f9020f37b66e342270f89\Applications\Simulation\SimCommon10.dll		ThreadID: 6164, Function: DllMain, Line: 22
+20200514T215930 I Process attach		ThreadID: 6164, Function: DllMain, Line: 23
+20200514T215932 I C:\Users\Heesu Kim\AppData\Local\Autodesk\webdeploy\production\3a82a9180d711e5a886f9020f37b66e342270f89\Applications\CAM360\SimIdealizations10.dll		ThreadID: 6164, Function: DllMain, Line: 22
+20200514T215932 I Process attach		ThreadID: 6164, Function: DllMain, Line: 23
+20200514T215936 D ADSK Sample Rules read from XML.
+20200514T215937 I Toolbar loader: Stopping...
+20200514T215937 I Toolbar loader: Stopped
+20200514T215937 I ***startSession: BEGIN
+20200514T215937 I the maintenance window is OFF
+20200514T215937 I getEntitlement
+20200514T215937 I authenticate:begin
+20200514T215937 I login start
+20200514T215937 I AnalyticItemCounts Terminating with:0 items
+20200514T215937 I AnalyticItemCounts Initialized with:0 items
+20200514T215937 I WorkflowTrackManager Terminating with:0 items
+20200514T215937 I WorkflowTrackManager Initialized with:0 items
+20200514T215937 I login end 0
+20200514T215937 I Autosave background thread started with saveTime: 5
+20200514T215937 I Request(https://js.prd.fusionapi.autodesk.com/fusion360-runtime-config/config.json) - workflow:HTTPClient attempt:0 status:200
+20200514T215937 I SLM: Enabled (Production)
+20200514T215937 I SLM: Start session deviceId=28f965f7-abc0-712d-d9d2-0200fbfd03a4 deviceName=DESKTOP-RU55AT8
+20200514T215937 I Workflow start: SLM_startSession 1-5ebd40b8-e3860a2449454b599b8a4c74
+20200514T215938 I Workflow start: GetUserAnaticsId 1-5ebd40b9-94fb4648084644a7b151cf06
+20200514T215938 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions) - workflow:SLM_startSession attempt:0 status:200
+20200514T215938 I SLM: session = 18914114

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<locale xmlns="http://www.hsmworks.com/xml/2008/locale">
+
+  <description>Chinese - Simplified</description>
+  <country>cn</country>
+
+  <!--
+	The entries in this file are used for localized text for feature flags,
+	as exposed in the Fusion preferences dialog.
+	
+	The formats used for the entries should be in the form shown here,
+	where in this case the feature flag name would be 'feature-flag'.
+	  <message name="feature-flag-name">English Feature Flag Name</message>
+	  <message name="feature-flag-desc">English Feature Flag Description</message>
+   	  <message name="feature-flag-infolink">English Feature Flag Info Link</message>
+  -->
+  <message name="Additive-General-name">增材制造</message>
+  <message name="Additive-General-desc">选择打印参数，自动定向零件以成功进行构建，并生成支持结构和刀具路径。直接导出以选择粉末床或导出 3MF 文件。</message>
+  <message name="Additive-General-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-ADDITIVE-START</message>
+  
+  <message name="Additive-Tech-SLM-name">增材制造</message>
+  <message name="Additive-Tech-SLM-desc">添加用于粉末床金属增材制造的工作空间。允许您选择机床、排列平台上的零件以及调整零件方向、创建支持结构并创建模型切片。输出原生构建文件，包括激光参数或 .3mf 文件。</message>
+  <message name="Additive-Tech-SLM-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-ADDITIVE-START</message>
+
+  <message name="adaptive-turn-roughing-name">自适应车削</message>
+  <message name="adaptive-turn-roughing-desc">生成按钮样式刀具的固定啮合车削刀具路径。</message>
+  <message name="adaptive-turn-roughing-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-TURN-ADAPTIVE-CMD</message>
+	
+  <message name="automatic-collision-avoidance-name">5 轴和碰撞避让</message>
+  <message name="automatic-collision-avoidance-desc">使用刀具轴设置生成多轴刀具路径，该刀具路径可以在单个设置中加工零件的更多区域。为了更安全地进行加工，多轴刀具路径能够检测并避免轴或夹头与零件之间发生碰撞。当前仅适用于陡峭面和浅平面加工策略。</message>
+  <message name="automatic-collision-avoidance-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-3D-STEEP-SHALLOW-5X</message>
+
+  <message name="cutting-force-analysis-name">切削力分析</message>
+  <message name="cutting-force-analysis-desc">在仿真期间收集切削力数据。</message>
+
+  <message name="drill-wizard-name">孔识别</message>
+  <message name="drill-wizard-desc">通过自动识别孔，选择刀具，以及高效排序操作来加快循环，从而简化并加快钻孔。</message>
+  <message name="drill-wizard-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-HOLE-RECOG</message>
+
+  <message name="hig-styled-qt-name">更新的样式</message>
+  <message name="hig-styled-qt-desc">先睹为快 - 正在进行中的 Fusion 制造对话框样式更新</message>
+
+  <message name="inspection-results-projection-name">检查曲面 CAD 投影</message>
+  <message name="inspection-results-projection-desc">在零件形状或位置不同于 CAD 文件的情况下，评估探测点时会提供更准确的结果。计算测量点相对于 CAD 表面(而非“检查表面”加工策略的预定点)的偏差。</message>
+  <message name="inspection-results-projection-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-PROBE-PROJECT-POINTS</message>
+	
+  <message name="live-machine-connection-name">实时机床数据连接</message>
+  <message name="live-machine-connection-desc">通过从“检查表面”加工策略的 Haas 控件中实时获取探测点的数据，从而实时计算结果。</message>
+  <message name="live-machine-connection-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-PROBE-LIVE-CONNECTION</message>
+	
+  <message name="machine-configuration-name">机床配置</message>
+  <message name="machine-configuration-desc">利用机床配置将机床与设置关联起来，从而通过在进行后处理时自动选择和配置后处理器来加快后处理速度。</message>
+  <message name="machine-configuration-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-MACHINE-CONFIGURATION</message>
+	
+  <message name="milling-continue-rest-machining-name">继续铣削残料加工</message>
+  <message name="milling-continue-rest-machining-desc">使用“继续残料加工”在上一设置中的操作结束时残留的毛坯材料上生成刀具路径，从而缩短总加工时间。当前仅适用于“铣削”加工策略。</message>
+
+  <message name="old-turning-profile-strategy-name">旧轮廓车削</message>
+  <message name="old-turning-profile-strategy-desc">启用旧轮廓车削策略。这仅在有限时间内可用。</message>
+
+  <message name="probe-angle-measure-name">探测: 离轴角测量</message>
+  <message name="probe-angle-measure-desc">允许使用探测形状来测量垂直面的旋转角度。</message>
+
+  <message name="probe-geometry-strategy-name">探测形状</message>
+  <message name="probe-geometry-strategy-desc">通过机床上的探测循环测量正在加工的特征。验证关键特征的尺寸和位置，更新刀具磨损参数，然后暂停或停止程序以便及早采取纠正措施。</message>
+  <message name="probe-geometry-strategy-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-PROBE-FEATURE</message>
+
+  <message name="setup-sheet-images-name">每次操作的设置清单图像</message>
+  <message name="setup-sheet-images-desc">允许命名视图与每个操作相关联。在生成设置清单时，系统将生成图像并将其传递给设置清单。</message>
+
+  <message name="spun-profile-v2-name">旋转轮廓</message>
+  <message name="spun-profile-v2-desc">从旋转曲面创建轮廓曲线以改进使用 PowerMill 中的此功能创建的车削特征。</message>
+
+  <message name="strategy-blend-name">混合加工策略</message>
+  <message name="strategy-blend-desc">使用该新的混合加工策略提高表面光洁度，该策略由 2 个引导轨道和曲面选择驱动。</message>
+
+  <message name="strategy-inspect-surface-name">曲面检查策略</message>
+  <message name="strategy-inspect-surface-desc">创建探测路径并计算结果。请通过机床上的验证确保零件符合设计规范。</message>
+  <message name="strategy-inspect-surface-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-PROBE-INSPECT</message>
+
+  <message name="strategy-rotary-name">旋转加工策略</message>
+  <message name="strategy-rotary-desc">使用旋转策略进行 4 轴铣削，加工复杂的非几何形状。</message>
+  <message name="strategy-rotary-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-MULTI-AXIS-ROTARY</message>
+	
+  <message name="strategy-steep-shallow-name">陡峭面和浅平面加工策略</message>
+  <message name="strategy-steep-shallow-desc">提高曲面光洁度，并通过单个刀具路径安全地加工陡峭面区域和浅平面区域。避免出现停止痕，去除剩余材料，并延长刀具使用寿命。</message>
+  <message name="strategy-steep-shallow-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-3D-STEEP-SHALLOW-CMD</message>
+
+  <message name="toolpath-trimming-name">刀具路径修剪</message>
+  <message name="toolpath-trimming-desc">使用刀具路径修剪提高刀具路径的效率并缩短加工时间。放置点以创建多边形，然后选择是保留位于多边形内部还是外部的刀具路径部分。</message>
+  <message name="toolpath-trimming-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=FF-TOOLPATH-EDITING</message>
+  
+  <message name="tool-library-v4-name">刀具库</message>
+  <message name="tool-library-v4-desc">提供了新的刀具库，具有了新的外观和功能，从而改进了刀具的选择和组织，使得参数形式的表达式以及每个刀具都有多个切削参数预设值。</message>
+  <message name="tool-library-v4-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-TOOL-LIBRARY-NEW</message>
+	
+</locale>

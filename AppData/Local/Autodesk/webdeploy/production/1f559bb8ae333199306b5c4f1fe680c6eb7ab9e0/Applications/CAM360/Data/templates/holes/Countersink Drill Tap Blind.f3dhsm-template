@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<template-document xmlns="http://www.hsmworks.com/namespace/hsmworks/document/template" version="1.0">
+
+  <localizationNameID id="7"/>
+  <localizationDescriptionID id="7"/>
+
+  <holeSignature version="3">
+    <segment isExpanding="Contracting" type="Cone"/>
+    <segment type="Cylinder"/>
+  </holeSignature>
+
+  <!-- Countersink -->
+  <template localizationID="21" strategy="drill" unit="inches">
+    <holeData operationType="spot" toolDiameterRatio="1.000000">
+      <holeMapping>
+        <segment index="0"/>
+      </holeMapping>
+    </holeData>
+    <parameter expression="'selection-faces'" name="holeMode"/>
+    <parameter expression="true" name="holeFaces"/>
+    <parameter expression="true" name="mergeHoleSegments"/>
+    <parameter expression="false" name="autoMergeHoleSegments"/>
+    <parameter expression="false" name="drillTipThroughBottom"/>
+    <parameter expression="'drilling'" name="cycleType"/>
+  </template>
+
+  <!-- Drill -->
+  <template localizationID="22" strategy="drill" unit="inches">
+    <holeData operationType="drill" toolDiameterRatio="1.000000">
+      <holeMapping>
+        <segment index="0"/>
+        <segment index="1"/>
+      </holeMapping>
+    </holeData>
+    <parameter expression="'selection-faces'" name="holeMode"/>
+    <parameter expression="true" name="holeFaces"/>
+    <parameter expression="false" name="selectSameDiameter"/>
+    <parameter expression="true" name="mergeHoleSegments"/>
+    <parameter expression="true" name="autoMergeHoleSegments"/>
+    <parameter expression="true" name="drillTipThroughBottom"/>
+    <parameter expression="0" name="breakThroughDepth"/>
+    <parameter expression="'chip-breaking'" name="cycleType"/>
+  </template>
+  
+  <!-- Tap -->
+  <template localizationID="23" strategy="drill" unit="inches">
+    <holeData operationType="rightTap" toolDiameterRatio="1.240695">
+      <holeMapping>
+        <segment index="1"/>
+      </holeMapping>
+    </holeData>
+    <parameter expression="'selection-faces'" name="holeMode"/>
+    <parameter expression="true" name="holeFaces"/>
+    <parameter expression="true" name="mergeHoleSegments"/>
+    <parameter expression="false" name="autoMergeHoleSegments"/>
+    <parameter expression="false" name="drillTipThroughBottom"/>
+    <parameter expression="tool_threadPitch*3" name="bottomHeight_offset"/>
+    <parameter expression="'tapping'" name="cycleType"/>
+  </template>
+
+</template-document>

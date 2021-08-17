@@ -1,0 +1,5 @@
+{
+    "baseUrl":  "https://fusioninterface.protolabs.com",
+    "customLogging":  false,
+    "loggingLevel":  "INFO"
+}

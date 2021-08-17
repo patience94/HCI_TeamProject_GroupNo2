@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FAAF3C;stroke-miterlimit:10;}
+	.st1{fill:#BFBFBF;}
+</style>
+<title>Module</title>
+<desc>Created with Sketch.</desc>
+<g transform="translate(8.000000, 3.000000)">
+	<rect x="-0.5" y="-0.5" class="st0" width="16" height="26"/>
+	<path class="st0" d="M15.5,0.5v24h-15v-24H15.5z M16.5-0.5h-17v26h17V-0.5z"/>
+</g>
+<g transform="translate(2.000000, 19.000000)">
+	<rect x="-1" y="2" class="st1" width="6" height="2"/>
+	<polygon class="st1" points="5,2 5,2 0,2 0,3 5,3 5,4 -1,4 -1,2 	"/>
+</g>
+<g transform="translate(2.000000, 19.000000)">
+	<rect x="-1" y="-12" class="st1" width="6" height="2"/>
+	<polygon class="st1" points="5,-12 5,-11 0,-11 0,-10 5,-10 5,-10 -1,-10 -1,-12 	"/>
+</g>
+<g transform="translate(2.000000, 19.000000)">
+	<rect x="23" y="-12" class="st1" width="6" height="2"/>
+	<polygon class="st1" points="29,-12 29,-12 24,-12 24,-11 29,-11 29,-10 23,-10 23,-12 	"/>
+</g>
+<g transform="translate(2.000000, 19.000000)">
+	<rect x="-1" y="-5" class="st1" width="6" height="2"/>
+	<polygon class="st1" points="5,-5 5,-4 0,-4 0,-3 5,-3 5,-3 -1,-3 -1,-5 	"/>
+</g>
+<g transform="translate(2.000000, 19.000000)">
+	<rect x="23" y="2" class="st1" width="6" height="2"/>
+	<polygon class="st1" points="29,2 29,2 24,2 24,3 29,3 29,4 23,4 23,2 	"/>
+</g>
+</svg>

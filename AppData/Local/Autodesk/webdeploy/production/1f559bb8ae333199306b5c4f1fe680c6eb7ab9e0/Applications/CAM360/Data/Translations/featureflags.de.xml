@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<locale xmlns="http://www.hsmworks.com/xml/2008/locale">
+
+  <description>German</description>
+  <country>de</country>
+
+  <!--
+	The entries in this file are used for localized text for feature flags,
+	as exposed in the Fusion preferences dialog.
+	
+	The formats used for the entries should be in the form shown here,
+	where in this case the feature flag name would be 'feature-flag'.
+	  <message name="feature-flag-name">English Feature Flag Name</message>
+	  <message name="feature-flag-desc">English Feature Flag Description</message>
+   	  <message name="feature-flag-infolink">English Feature Flag Info Link</message>
+  -->
+  <message name="Additive-General-name">Additive Fertigung</message>
+  <message name="Additive-General-desc">Wählen Sie Druckparameter aus, richten Sie Bauteile zum erfolgreichen Konstruieren automatisch aus, und erstellen Sie die erforderlichen Stützstrukturen und Werkzeugwege. Exportieren Sie direkt in bestimmte Pulverbett-Maschinen oder als 3MF-Datei.</message>
+  <message name="Additive-General-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-ADDITIVE-START</message>
+  
+  <message name="Additive-Tech-SLM-name">Additive Fertigung</message>
+  <message name="Additive-Tech-SLM-desc">Fügt Arbeitsbereiche für die additive Fertigung von Pulverbettmetall hinzu. Ermöglicht die Auswahl einer Maschine, die Anordnung und Ausrichtung von Bauteilen auf der Plattform, die Erstellung von Auflagerstrukturen und das Schneiden der Modelle. Gibt eine native Build-Datei mit Laserparametern oder eine 3MF-Datei aus.</message>
+  <message name="Additive-Tech-SLM-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-ADDITIVE-START</message>
+
+  <message name="adaptive-turn-roughing-name">Adaptives Drehen</message>
+  <message name="adaptive-turn-roughing-desc">Erstellen Sie Drehwerkzeugwege mit konstantem Werkzeugeingriff für Werkzeuge im Tastenstil.</message>
+  <message name="adaptive-turn-roughing-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-TURN-ADAPTIVE-CMD</message>
+	
+  <message name="automatic-collision-avoidance-name">5-Achsen und Kollisionsvermeidung</message>
+  <message name="automatic-collision-avoidance-desc">Verwenden Sie die Werkzeugachseneinstellungen, um einen Multi-Achsen-Werkzeugweg zu generieren, der mehr Bereiche eines Bauteils in einem einzigen Setup bearbeiten kann. Für die sicherere Bearbeitung kann der Multi-Achsen-Werkzeugweg Kollisionen zwischen dem Schaft oder Halter und dem Bauteil erkennen und vermeiden. Derzeit nur für die Steil- und Flachbereich-Strategie verfügbar.</message>
+  <message name="automatic-collision-avoidance-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-3D-STEEP-SHALLOW-5X</message>
+
+  <message name="cutting-force-analysis-name">Schnittkraftanalyse</message>
+  <message name="cutting-force-analysis-desc">Schnittkraftdaten während der Simulation erfassen.</message>
+
+  <message name="drill-wizard-name">Bohrungserkennung</message>
+  <message name="drill-wizard-desc">Vereinfachen und beschleunigen Sie Bohroperationen mithilfe der automatischen Erkennung von Bohrungen, durch Auswahl von Werkzeugen und die effiziente Anordnung der Operationen, um schnellere Zyklen zu erhalten.</message>
+  <message name="drill-wizard-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-HOLE-RECOG</message>
+
+  <message name="hig-styled-qt-name">Aktualisierte Stilbearbeitung</message>
+  <message name="hig-styled-qt-desc">Werfen Sie einen kurzen Blick auf die sich gerade in Bearbeitung befindliche Stilaktualisierung für die Fusion Manufacture-Dialogfelder.</message>
+
+  <message name="inspection-results-projection-name">CAD-Projektion für Fläche prüfen</message>
+  <message name="inspection-results-projection-desc">Bietet genauere Ergebnisse beim Auswerten von angetasteten Punkten, bei denen die Form oder Position des Bauteils von der CAD-Datei abweicht. Berechnet die Abweichung des gemessenen Punkts relativ zur CAD-Fläche statt zum erwarteten Punkt für die Strategie Fläche prüfen.</message>
+  <message name="inspection-results-projection-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-PROBE-PROJECT-POINTS</message>
+	
+  <message name="live-machine-connection-name">Live-Maschinendatenverbindung</message>
+  <message name="live-machine-connection-desc">Bewerten Sie Ergebnisse in Echtzeit durch die Erfassung von Live-Daten von angetasteten Punkten über die Haas-Steuerung für die Strategie Fläche prüfen.</message>
+  <message name="live-machine-connection-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-PROBE-LIVE-CONNECTION</message>
+	
+  <message name="machine-configuration-name">Maschinenkonfigurationen</message>
+  <message name="machine-configuration-desc">Verknüpfen Sie Ihre Maschinen mithilfe von Maschinenkonfigurationen mit Setups, um die Nachbearbeitung durch die automatische Auswahl und Konfiguration des Postprozessors zum Zeitpunkt der Nachbearbeitung zu beschleunigen.</message>
+  <message name="machine-configuration-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-MACHINE-CONFIGURATION</message>
+	
+  <message name="milling-continue-rest-machining-name">Restmaterialbearbeitung für Fräsen fortsetzen</message>
+  <message name="milling-continue-rest-machining-desc">Verbessern Sie die Gesamtbearbeitungszeit, indem Sie die Option Restmaterialbearbeitung fortsetzen verwenden, um einen Werkzeugweg über Rohteilmaterial zu generieren, das am Ende der Operationen aus dem vorherigen Setup verblieben ist. Derzeit ist dies nur beim Fräsen möglich.</message>
+
+  <message name="old-turning-profile-strategy-name">Altes Profildrehen</message>
+  <message name="old-turning-profile-strategy-desc">Aktiviert alte Profildrehstrategien. Diese Funktion ist nur für eine begrenzte Zeit verfügbar.</message>
+
+  <message name="probe-angle-measure-name">Antasten: von der Achse abgewandte Winkelmessung</message>
+  <message name="probe-angle-measure-desc">Ermöglicht das Messen des Drehwinkels vertikaler Flächen durch die Antastgeometrie.</message>
+
+  <message name="probe-geometry-strategy-name">Antastgeometrie</message>
+  <message name="probe-geometry-strategy-desc">Messen Sie Elemente bei der Verarbeitung mit den Antastzyklen auf Ihrer Maschine. Prüfen Sie die Abmessungen und Positionen von kritischen Elementen, aktualisieren Sie die Werkzeugverschleißparameter, und halten Sie Ihre Programme an, um frühzeitig Korrekturmaßnahmen zu ergreifen.</message>
+  <message name="probe-geometry-strategy-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-PROBE-FEATURE</message>
+
+  <message name="setup-sheet-images-name">Einstellblattbild pro Operation</message>
+  <message name="setup-sheet-images-desc">Ermöglicht die Verknüpfung einer benannten Ansicht mit jeder Operation. Das Bild wird generiert und beim Erstellen des Einstellblatts an dieses weitergeleitet.</message>
+
+  <message name="spun-profile-v2-name">Rotationsgeometrie</message>
+  <message name="spun-profile-v2-desc">Erstellen Sie eine Profilkurve aus einer gedrehten Fläche, um die Drehfeature-Erstellung mit dieser Funktion aus PowerMill zu verbessern.</message>
+
+  <message name="strategy-blend-name">Verschmelzungsstrategie</message>
+  <message name="strategy-blend-desc">Verbessern Sie die Oberflächengüte mit der neuen Verschmelzungsstrategie, die auf zwei Führungsschienen und Oberflächenauswahlen beruht.</message>
+
+  <message name="strategy-inspect-surface-name">Flächeninspektionsstrategie</message>
+  <message name="strategy-inspect-surface-desc">Erstellen Sie Tasterpfade, und bewerten Sie Ergebnisse. Stellen Sie sicher, dass Ihre Bauteile bei der Prüfung an der Maschine die Konstruktionsspezifikationen einhalten.</message>
+  <message name="strategy-inspect-surface-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-PROBE-INSPECT</message>
+
+  <message name="strategy-rotary-name">Rotationsstrategie</message>
+  <message name="strategy-rotary-desc">Bearbeiten Sie komplexe, nicht geometrische Formen mit der Drehstrategie für 4-Achsen-Fräsen.</message>
+  <message name="strategy-rotary-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-MULTI-AXIS-ROTARY</message>
+	
+  <message name="strategy-steep-shallow-name">Steil- und Flachbereichsstrategie</message>
+  <message name="strategy-steep-shallow-desc">Verbessern Sie die Oberflächengüte, und führen Sie eine sichere Bearbeitung mit einem einzelnen Werkzeugweg für steile und Flachbereiche durch. Vermeiden Sie Verweilzeitmarkierungen, entfernen Sie Spitzen und verlängern Sie die Lebensdauer des Werkzeugs.</message>
+  <message name="strategy-steep-shallow-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-3D-STEEP-SHALLOW-CMD</message>
+
+  <message name="toolpath-trimming-name">Werkzeugweg trimmen</message>
+  <message name="toolpath-trimming-desc">Verwenden Sie das Trimmen von Werkzeugwegen, um die Effizienz Ihres Werkzeugwegs zu verbessern und die Bearbeitungszeit zu verkürzen. Platzieren Sie Punkte, um ein Polygon zu erstellen, und wählen Sie dann aus, ob der Teil des Werkzeugwegs, der sich innerhalb oder außerhalb des Polygons befindet, beibehalten werden soll.</message>
+  <message name="toolpath-trimming-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=FF-TOOLPATH-EDITING</message>
+  
+  <message name="tool-library-v4-name">Werkzeugbibliothek</message>
+  <message name="tool-library-v4-desc">Verbessern Sie die Werkzeugauswahl und -organisation mit der neuen Werkzeugbibliothek, die mit einer neuen Optik und neuen Funktionen aktualisiert wurde, sodass Ausdrücke in Parametern und mehrere Schnittparameter-Voreinstellungen pro Werkzeug möglich sind.</message>
+  <message name="tool-library-v4-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-TOOL-LIBRARY-NEW</message>
+	
+</locale>

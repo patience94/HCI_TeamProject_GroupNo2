@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="150px" viewBox="0 0 200 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Chip-LED</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Chip-LED" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(5.000000, 43.000000)">
+            <g id="Group" fill="#D8D8D8" stroke="#FFFFFF">
+                <rect id="Rectangle-445" x="1.16015625" y="1.19140625" width="115.679688" height="61.6171875" rx="2"></rect>
+            </g>
+            <path d="M24,1.5 L96,1.5 L96,62.5 L24,62.5 C24,62.5 24,82.1666667 24,62 L24,1.5 Z" id="Rectangle-445" fill="#585858"></path>
+            <rect id="Rectangle-445" fill-opacity="0.493662587" fill="#CE2621" x="24" y="1.5" width="72" height="61"></rect>
+            <g id="Group-3" transform="translate(24.000000, 1.500000)" fill="#CE2621">
+                <polygon id="Path-23" fill-opacity="0.49885271" points="4.5 3.5 67.5 3.5 67.5 56.5 4.5 56.5"></polygon>
+                <polygon id="Path-24" fill-opacity="0.748688811" points="72 0 67.5 3.5 67.5 56.5 72 61"></polygon>
+                <polygon id="Path-25" fill-opacity="0.751502404" points="0 61 4.5 56.5 67.5 56.5 72 61"></polygon>
+                <rect id="Rectangle-Copy" x="23" y="25.5" width="25" height="10"></rect>
+            </g>
+        </g>
+        <polygon id="Rectangle" fill-opacity="0.500437063" fill="#CE2621" points="134 47.6388889 164 46 164 105 134.652174 103.361111"></polygon>
+        <rect id="Rectangle" fill="#CE2621" x="159" y="70" width="4" height="10"></rect>
+        <rect id="Rectangle-445" stroke="#FFFFFF" fill="#D8D8D8" x="163.5" y="44.5" width="29" height="61.6171875" rx="2"></rect>
+    </g>
+</svg>

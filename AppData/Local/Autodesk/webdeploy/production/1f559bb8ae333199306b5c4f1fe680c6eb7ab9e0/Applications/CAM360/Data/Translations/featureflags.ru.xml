@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<locale xmlns="http://www.hsmworks.com/xml/2008/locale">
+
+  <description>Russian</description>
+  <country>ru</country>
+
+  <!--
+	The entries in this file are used for localized text for feature flags,
+	as exposed in the Fusion preferences dialog.
+	
+	The formats used for the entries should be in the form shown here,
+	where in this case the feature flag name would be 'feature-flag'.
+	  <message name="feature-flag-name">English Feature Flag Name</message>
+	  <message name="feature-flag-desc">English Feature Flag Description</message>
+   	  <message name="feature-flag-infolink">English Feature Flag Info Link</message>
+  -->
+  <message name="Additive-General-name">Аддитивное производство</message>
+  <message name="Additive-General-desc">Выбор параметров печати, автоматическая ориентация деталей для успешной сборки, создание опорных конструкций и траекторий перемещения инструмента. Экспорт непосредственно в выбранные станки для плавления порошков или в файл 3MF.</message>
+  <message name="Additive-General-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-ADDITIVE-START</message>
+  
+  <message name="Additive-Tech-SLM-name">Аддитивное производство</message>
+  <message name="Additive-Tech-SLM-desc">Добавление рабочих пространств для аддитивного производства с использованием металлических порошков. Позволяет выбрать станок, упорядочить и сориентировать детали на платформе, создать опорные конструкции и разрезать модели. Вывод файла сборки в собственном формате, включая параметры лазера, или файла 3MF.</message>
+  <message name="Additive-Tech-SLM-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-ADDITIVE-START</message>
+
+  <message name="adaptive-turn-roughing-name">Адаптивная обточка</message>
+  <message name="adaptive-turn-roughing-desc">Создание траекторий токарной обработки с постоянным врезанием для механической обработки круглых элементов.</message>
+  <message name="adaptive-turn-roughing-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-TURN-ADAPTIVE-CMD</message>
+	
+  <message name="automatic-collision-avoidance-name">Предотвращение столкновений при 5-осевой обработке</message>
+  <message name="automatic-collision-avoidance-desc">Используйте параметры оси инструмента для создания многоосевых траекторий перемещения, позволяющих обрабатывать больше участков детали при однократной настройке. Для повышения безопасности обработки многоосевые траектории могут выявлять и предотвращать столкновения между хвостовиком или держателем и деталью. В настоящий момент используется только в стратегии «Отвесные и пологие».</message>
+  <message name="automatic-collision-avoidance-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-3D-STEEP-SHALLOW-5X</message>
+
+  <message name="cutting-force-analysis-name">Расчет силы резания</message>
+  <message name="cutting-force-analysis-desc">Сбор данных о силе резания во время моделирования.</message>
+
+  <message name="drill-wizard-name">Распознавание отверстий</message>
+  <message name="drill-wizard-desc">Простое и быстрое сверление с помощью автоматического распознавания отверстий, выбора инструментов и эффективного упорядочивания операций для ускорения циклов.</message>
+  <message name="drill-wizard-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-HOLE-RECOG</message>
+
+  <message name="hig-styled-qt-name">Обновленный стиль</message>
+  <message name="hig-styled-qt-desc">Краткое ознакомление с текущим обновлением стиля для диалоговых окон Fusion Manufacture.</message>
+
+  <message name="inspection-results-projection-name">Проверка проекции поверхности САПР</message>
+  <message name="inspection-results-projection-desc">Получение более точных результатов при вычислении измеряемых точек в случаях, когда форма детали или ее положение отличаются от файла матмодели. Расчет отклонения измеренной точки относительно поверхности матмодели, а не от предполагаемой точки для стратегии проверки поверхности.</message>
+  <message name="inspection-results-projection-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-PROBE-PROJECT-POINTS</message>
+	
+  <message name="live-machine-connection-name">Интерактивное подключение к станку для передачи данных</message>
+  <message name="live-machine-connection-desc">Оценка результатов в реальном времени благодаря интерактивному сбору данных об измеряемых точках с блоков управления Haas для стратегии проверки поверхности.</message>
+  <message name="live-machine-connection-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-PROBE-LIVE-CONNECTION</message>
+	
+  <message name="machine-configuration-name">Конфигурации станка</message>
+  <message name="machine-configuration-desc">Привяжите станки к настройкам при помощи конфигураций станков, ускорив тем самым постобработку за счет автоматического выбора и конфигурации постпроцессора во время постпроцессирования.</message>
+  <message name="machine-configuration-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-MACHINE-CONFIGURATION</message>
+	
+  <message name="milling-continue-rest-machining-name">Продолжить дообработку для фрезерования</message>
+  <message name="milling-continue-rest-machining-desc">Оптимизируйте общее время обработки за счет применения стратегии «Продолжить доработку» для материала заготовки, оставшегося после выполнения операций из предыдущей настройки. В настоящее время используется только для фрезерования.</message>
+
+  <message name="old-turning-profile-strategy-name">Старая стратегия обточки профиля</message>
+  <message name="old-turning-profile-strategy-desc">Активация старых стратегий обточки профиля. Доступно в течение ограниченного времени.</message>
+
+  <message name="probe-angle-measure-name">Измерение: измерение угла вне оси</message>
+  <message name="probe-angle-measure-desc">Возможность измерения угла поворота вертикальных граней.</message>
+
+  <message name="probe-geometry-strategy-name">Геометрия для измерения</message>
+  <message name="probe-geometry-strategy-desc">Измерение элементов в процессе с помощью циклов измерения на станке. Проверка измерений и положений критически важных элементов, обновление параметров износа инструмента и приостановка или полная остановка выполнения программы для корректировки на раннем этапе.</message>
+  <message name="probe-geometry-strategy-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-PROBE-FEATURE</message>
+
+  <message name="setup-sheet-images-name">Изображение карты наладки для каждой операции</message>
+  <message name="setup-sheet-images-desc">Возможность связать именованный вид с каждой операцией. Изображение формируется и передается в карту наладки в ходе ее создания.</message>
+
+  <message name="spun-profile-v2-name">Выдавленный профиль</message>
+  <message name="spun-profile-v2-desc">Создайте кривую профиля из поверхности вращения, чтобы оптимизировать создание токарного элемента с помощью этой функции PowerMill.</message>
+
+  <message name="strategy-blend-name">Стратегия «Сглаживание»</message>
+  <message name="strategy-blend-desc">Оптимизируйте чистовую обработку поверхности с помощью новой стратегии «Сглаживание», в которой используются две направляющие и выбранные поверхности</message>
+
+  <message name="strategy-inspect-surface-name">Стратегия проверки поверхности</message>
+  <message name="strategy-inspect-surface-desc">Создайте траектории измерения и изучите результаты. С помощью режима проверки на станке убедитесь, что детали отвечают требованиям проектных спецификаций.</message>
+  <message name="strategy-inspect-surface-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-PROBE-INSPECT</message>
+
+  <message name="strategy-rotary-name">Стратегия «Поворотные»</message>
+  <message name="strategy-rotary-desc">Обработка сложных негеометрических форм с помощью стратегии «Поворотные» для 4-осевого фрезерования.</message>
+  <message name="strategy-rotary-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-MULTI-AXIS-ROTARY</message>
+	
+  <message name="strategy-steep-shallow-name">Стратегия для отвесных и пологих участков</message>
+  <message name="strategy-steep-shallow-desc">Оптимизация чистовой обработки поверхности и безопасная обработка посредством единой траектории перемещения инструмента для отвесных и пологих участков. Предотвращение появления следов на поверхности, удаление заострений и продление срока службы инструмента.</message>
+  <message name="strategy-steep-shallow-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-3D-STEEP-SHALLOW-CMD</message>
+
+  <message name="toolpath-trimming-name">Обрезка траектории перемещения инструмента</message>
+  <message name="toolpath-trimming-desc">Используйте обрезку траектории перемещения инструмента для повышения эффективности и сокращения времени обработки. Разместите точки для создания полигона, а затем укажите, какую часть траектории следует оставить: внутри или снаружи полигона.</message>
+  <message name="toolpath-trimming-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=FF-TOOLPATH-EDITING</message>
+  
+  <message name="tool-library-v4-name">Библиотека инструментов</message>
+  <message name="tool-library-v4-desc">Оптимизируйте выбор и упорядочение инструментов благодаря новой библиотеке инструментов с обновленным дизайном и новыми функциями. В библиотеке представлена возможность использования выражений в параметрах и применения нескольких наборов параметров резки к одному инструменту.</message>
+  <message name="tool-library-v4-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-TOOL-LIBRARY-NEW</message>
+	
+</locale>

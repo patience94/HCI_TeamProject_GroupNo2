@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<locale xmlns="http://www.hsmworks.com/xml/2008/locale">
+
+  <description>French</description>
+  <country>fr</country>
+
+  <!--
+	The entries in this file are used for localized text for feature flags,
+	as exposed in the Fusion preferences dialog.
+	
+	The formats used for the entries should be in the form shown here,
+	where in this case the feature flag name would be 'feature-flag'.
+	  <message name="feature-flag-name">English Feature Flag Name</message>
+	  <message name="feature-flag-desc">English Feature Flag Description</message>
+   	  <message name="feature-flag-infolink">English Feature Flag Info Link</message>
+  -->
+  <message name="Additive-General-name">Fabrication additive</message>
+  <message name="Additive-General-desc">Sélectionnez les paramètres d'impression, orientez automatiquement les pièces pour obtenir un meilleur résultat et générez des structures de support et des trajectoires d'outil. Exportez directement pour sélectionner des machines à lit de poudre ou exporter un fichier 3MF.</message>
+  <message name="Additive-General-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-ADDITIVE-START</message>
+  
+  <message name="Additive-Tech-SLM-name">Fabrication additive</message>
+  <message name="Additive-Tech-SLM-desc">Ajoute des espaces de travail pour la fabrication d'additif métallique sur lit de poudre. Permet de sélectionner une machine, d'organiser et d'orienter les pièces sur la plate-forme, de créer des structures de support et de découper les modèles. Génère un fichier de version natif incluant les paramètres laser ou un fichier .3mf.</message>
+  <message name="Additive-Tech-SLM-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-ADDITIVE-START</message>
+
+  <message name="adaptive-turn-roughing-name">Tournage adaptatif</message>
+  <message name="adaptive-turn-roughing-desc">Produisez des trajectoires d'outil de tournage à engagement constant pour l'outillage de type bouton.</message>
+  <message name="adaptive-turn-roughing-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-TURN-ADAPTIVE-CMD</message>
+	
+  <message name="automatic-collision-avoidance-name">5 axes et évitement de collision</message>
+  <message name="automatic-collision-avoidance-desc">Utilisez les paramètres d'axe d'outil pour générer une trajectoire d'outil multi-axes capable d'usiner plus de zones d'une pièce en une seule configuration. Pour un usinage plus sûr, la trajectoire d'outil multi-axes est capable de détecter et d'éviter les collisions entre la queue ou le porte-outil et la pièce. Uniquement disponible pour la stratégie Pentu et peu profond, actuellement.</message>
+  <message name="automatic-collision-avoidance-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-3D-STEEP-SHALLOW-5X</message>
+
+  <message name="cutting-force-analysis-name">Analyse de la force de découpe</message>
+  <message name="cutting-force-analysis-desc">Collecter les données de force de découpe pendant la simulation.</message>
+
+  <message name="drill-wizard-name">Identification des perçages</message>
+  <message name="drill-wizard-desc">Simplifiez et accélérez le perçage grâce à l'identification automatique des perçages, aux outils de sélection et aux opérations de tri, qui permettent de raccourcir les cycles.</message>
+  <message name="drill-wizard-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-HOLE-RECOG</message>
+
+  <message name="hig-styled-qt-name">Stylisation mise à jour</message>
+  <message name="hig-styled-qt-desc">Obtenez un aperçu de la mise à jour du style en cours pour les boîtes de dialogue Fusion Manufacture.</message>
+
+  <message name="inspection-results-projection-name">Inspecter la surface - Projection de CAO</message>
+  <message name="inspection-results-projection-desc">Fournit des résultats plus précis lors de l'évaluation de points de contrôle pour lesquels la forme ou l'emplacement de la pièce diffère par rapport au fichier de CAO. Calcule l'écart du point mesuré par rapport à la surface de CAO plutôt que par rapport au point attendu pour la stratégie d'inspection de surface.</message>
+  <message name="inspection-results-projection-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-PROBE-PROJECT-POINTS</message>
+	
+  <message name="live-machine-connection-name">Connexion des données de la machine active</message>
+  <message name="live-machine-connection-desc">Évaluez les résultats en temps réel grâce à l'acquisition de données en temps réel des points de contrôle à partir des contrôles Haas pour la stratégie d'inspection de surface.</message>
+  <message name="live-machine-connection-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-PROBE-LIVE-CONNECTION</message>
+	
+  <message name="machine-configuration-name">Configurations de la machine</message>
+  <message name="machine-configuration-desc">Reliez vos machines à des configurations à l'aide des configurations de la machine. Cela permet d'accélérer le post-traitement grâce à la sélection automatique et à la configuration du post-processeur au moment du post-traitement.</message>
+  <message name="machine-configuration-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-MACHINE-CONFIGURATION</message>
+	
+  <message name="milling-continue-rest-machining-name">Continuer l'usinage de matière restante pour le fraisage</message>
+  <message name="milling-continue-rest-machining-desc">Améliorez le temps d'usinage global en utilisant l'option Continuer l'usinage de matière restante pour générer une trajectoire d'outil sur le matériau de brut qui reste à la fin des opérations liées à la configuration précédente. Uniquement disponible pour le fraisage, actuellement.</message>
+
+  <message name="old-turning-profile-strategy-name">Ancien profil de tournage</message>
+  <message name="old-turning-profile-strategy-desc">Active les anciennes stratégies de tournage de profil. Sera disponible pendant une durée limitée.</message>
+
+  <message name="probe-angle-measure-name">Contrôle: mesure de l'angle hors axe</message>
+  <message name="probe-angle-measure-desc">Permet de mesurer l'angle de rotation des faces verticales à l'aide de la géométrie de contrôle.</message>
+
+  <message name="probe-geometry-strategy-name">Géométrie de contrôle</message>
+  <message name="probe-geometry-strategy-desc">Mesurez les fonctions durant le post-traitement à l'aide des cycles de contrôle de votre machine. Vérifiez les cotes et les positions des fonctions critiques, mettez à jour les paramètres d'usure des outils, et mettez en pause ou arrêtez vos programmes pour effectuer des actions correctives précoces.</message>
+  <message name="probe-geometry-strategy-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-PROBE-FEATURE</message>
+
+  <message name="setup-sheet-images-name">Image de la fiche technique par opération</message>
+  <message name="setup-sheet-images-desc">Permet d'associer une vue nommée à chaque opération. L'image est générée et transmise à la fiche technique lors de la génération de cette dernière.</message>
+
+  <message name="spun-profile-v2-name">Profil tourné</message>
+  <message name="spun-profile-v2-desc">Créez une courbe de profil à partir d'une surface de révolution pour améliorer la création de fonctions de tournage avec cette fonctionnalité de PowerMill.</message>
+
+  <message name="strategy-blend-name">Stratégie de raccordement</message>
+  <message name="strategy-blend-desc">Améliorez la finition de surface grâce à la nouvelle stratégie de raccordement qui est contrôlée par deux rails de guidage et des sélections de surface.</message>
+
+  <message name="strategy-inspect-surface-name">Stratégie d'inspection des surfaces</message>
+  <message name="strategy-inspect-surface-desc">Créez des trajectoires de contrôle et évaluez les résultats. Assurez-vous que vos pièces respectent les spécifications de conception à l'aide de la vérification sur la machine.</message>
+  <message name="strategy-inspect-surface-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-PROBE-INSPECT</message>
+
+  <message name="strategy-rotary-name">Stratégie de rotation</message>
+  <message name="strategy-rotary-desc">Usinez des formes complexes non géométriques grâce à la stratégie de rotation pour le fraisage 4 axes.</message>
+  <message name="strategy-rotary-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-MULTI-AXIS-ROTARY</message>
+	
+  <message name="strategy-steep-shallow-name">Stratégie Pentu et peu profond</message>
+  <message name="strategy-steep-shallow-desc">Améliorez la finition de la surface et usinez en toute sécurité à l'aide d'une seule trajectoire d'outil pour les zones pentues ou peu profondes. Evitez les marques de temporisation, supprimez les crêtes et étendez la durée de vie de votre outil.</message>
+  <message name="strategy-steep-shallow-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-3D-STEEP-SHALLOW-CMD</message>
+
+  <message name="toolpath-trimming-name">Ajustement de la trajectoire d'outil</message>
+  <message name="toolpath-trimming-desc">Utilisez l'ajustement de la trajectoire d'outil pour améliorer son efficacité et réduire le temps d'usinage. Placez des points pour créer un polygone, puis choisissez de conserver ou non la partie de la trajectoire d'outil qui se situe à l'intérieur ou à l'extérieur du polygone.</message>
+  <message name="toolpath-trimming-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=FF-TOOLPATH-EDITING</message>
+  
+  <message name="tool-library-v4-name">Bibliothèque d'outils</message>
+  <message name="tool-library-v4-desc">Améliorez la sélection et l'organisation des outils grâce à la nouvelle bibliothèque d'outils qui a été actualisée. Outre sa nouvelle apparence, elle possède de nouvelles fonctionnalités, telles que des expressions dans les paramètres et plusieurs valeurs prédéfinies de paramètres de découpe par outil.</message>
+  <message name="tool-library-v4-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-TOOL-LIBRARY-NEW</message>
+	
+</locale>

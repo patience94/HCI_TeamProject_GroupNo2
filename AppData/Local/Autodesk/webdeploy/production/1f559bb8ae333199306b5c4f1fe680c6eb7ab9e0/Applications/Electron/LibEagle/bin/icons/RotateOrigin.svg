@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>03-low-density/commands/Rotate-around-origin-32 </title>
+    <desc>Created with Sketch.</desc>
+    <g id="03-low-density/commands/Rotate-around-origin-32-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Shape" fill="#333333" fill-rule="nonzero" points="1 14 6 22 11 14"></polygon>
+        <path d="M17.5,28 L17.5,26 C23.2989899,26 28,21.2989899 28,15.5 C28,9.70101013 23.2989899,5 17.5,5 C11.7010101,5 7,9.70101013 7,15.5 L5,15.5 C5,8.59644063 10.5964406,3 17.5,3 C24.4035594,3 30,8.59644063 30,15.5 C30,22.4035594 24.4035594,28 17.5,28 Z" id="Oval-2" fill="#333333" fill-rule="nonzero"></path>
+        <circle id="Oval" stroke="#666666" cx="17" cy="16" r="4"></circle>
+        <path d="M17,17.5 L17,21.5" id="Line-6" stroke="#666666" stroke-linecap="square"></path>
+        <path d="M17,10.5 L17,14.5" id="Line-6-Copy" stroke="#666666" stroke-linecap="square"></path>
+        <path d="M15.5,16 L11.5,16" id="Line-7" stroke="#666666" stroke-linecap="square"></path>
+        <path d="M22.5,16 L18.5,16" id="Line-7-Copy" stroke="#666666" stroke-linecap="square"></path>
+    </g>
+</svg>

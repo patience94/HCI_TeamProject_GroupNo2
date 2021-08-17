@@ -1,0 +1,2094 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.5.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="56" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="56" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="57" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="58" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="59" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="60" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="61" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="62" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="62" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="63" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="63" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;B&gt;PC Board supports, Standoffs, Spacers</description>
+<packages>
+<package name="STANDOFF_HEX_FEMALE_550X2500_M3X0.5_MTGNP850H320" urn="urn:adsk.eagle:footprint:19556152/1">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 25.00 mm body height, 5.50 mm body width with partial thread size M3x0.5, non plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 25.00 mm body height, 5.50 mm body width with partial thread size M3x0.5, 10.00 mm thread depth, non plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="0" diameter="8.5" thermals="no"/>
+<circle x="0" y="0" radius="2.75" width="0.12" layer="51"/>
+<text x="0" y="4.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_400X600_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:footprint:19556148/1">
+<description>Male-Female Hex Standoff/Spacer with 2.20 mm hole diameter, 6.00 mm body height, 4.00 mm body width with post thread size M2x0.4 and inner thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 6.00 mm body height, 4.00 mm body width with post thread size M2x0.4, 8.05 mm length and inner thread size M2x0.4, 4.00 mm depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.2"/>
+<pad name="1" x="0" y="0" drill="2.2" diameter="6" thermals="no"/>
+<circle x="0" y="0" radius="2" width="0.12" layer="51"/>
+<text x="0" y="3.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_400X1000_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:footprint:19556173/1">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 10.00 mm body height, 4.00 mm body width with thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 10.00 mm body height, 4.00 mm body width with thread size M2x0.4, 4.00 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.2"/>
+<pad name="1" x="0" y="0" drill="2.2" diameter="6" thermals="no"/>
+<circle x="0" y="0" radius="2" width="0.12" layer="51"/>
+<text x="0" y="3.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_400X800_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:footprint:19556174/1">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 8.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 8.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, 4.00 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.2"/>
+<pad name="1" x="0" y="0" drill="2.2" diameter="6" thermals="no"/>
+<circle x="0" y="0" radius="2" width="0.12" layer="51"/>
+<text x="0" y="3.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_400X500_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:footprint:19556175/1">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 5.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 5.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, 2.50 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.2"/>
+<pad name="1" x="0" y="0" drill="2.2" diameter="6" thermals="no"/>
+<circle x="0" y="0" radius="2" width="0.12" layer="51"/>
+<text x="0" y="3.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_400X2000_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:footprint:19556169/1">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 20.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 20.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, 6.00 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.2"/>
+<pad name="1" x="0" y="0" drill="2.2" diameter="6" thermals="no"/>
+<circle x="0" y="0" radius="2" width="0.12" layer="51"/>
+<text x="0" y="3.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_400X2500_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:footprint:19556168/1">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 25.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 25.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, 6.00 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.2"/>
+<pad name="1" x="0" y="0" drill="2.2" diameter="6" thermals="no"/>
+<circle x="0" y="0" radius="2" width="0.12" layer="51"/>
+<text x="0" y="3.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_400X3000_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:footprint:19556167/1">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 30.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 30.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, 6.00 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.2"/>
+<pad name="1" x="0" y="0" drill="2.2" diameter="6" thermals="no"/>
+<circle x="0" y="0" radius="2" width="0.12" layer="51"/>
+<text x="0" y="3.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_500X500_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:footprint:19556166/1">
+<description>Female Hex Standoff/Spacer with 2.70 mm hole diameter, 5.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 5.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, 8.00 mm thread depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.7"/>
+<pad name="1" x="0" y="0" drill="2.7" diameter="7.55" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.41" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_500X800_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:footprint:19556165/1">
+<description>Female Hex Standoff/Spacer with 2.70 mm hole diameter, 8.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 8.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, 8.00 mm thread depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.7"/>
+<pad name="1" x="0" y="0" drill="2.7" diameter="7.55" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.41" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_500X1200_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:footprint:19556163/1">
+<description>Female Hex Standoff/Spacer with 2.70 mm hole diameter, 12.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 12.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, 8.00 mm thread depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.7"/>
+<pad name="1" x="0" y="0" drill="2.7" diameter="7.55" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.41" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_500X1500_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:footprint:19556162/1">
+<description>Female Hex Standoff/Spacer with 2.70 mm hole diameter, 15.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 15.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, 8.00 mm thread depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.7"/>
+<pad name="1" x="0" y="0" drill="2.7" diameter="7.55" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.41" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_500X2000_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:footprint:19556160/1">
+<description>Female Hex Standoff/Spacer with 2.70 mm hole diameter, 20.00 mm body height, 5.00 mm body width with partial thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 20.00 mm body height, 5.00 mm body width with partial thread size M2.5x0.45, 8.00 mm thread depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.7"/>
+<pad name="1" x="0" y="0" drill="2.7" diameter="7.55" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.41" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_500X1000_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:footprint:19556164/1">
+<description>Female Hex Standoff/Spacer with 2.70 mm hole diameter, 10.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 10.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, 8.00 mm thread depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.7"/>
+<pad name="1" x="0" y="0" drill="2.7" diameter="7.55" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.41" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_550X800_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:footprint:19556158/1">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 8.00 mm body height, 5.50 mm body width with thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 8.00 mm body height, 5.50 mm body width with thread size M3x0.5, 8.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8.5" thermals="no"/>
+<circle x="0" y="0" radius="2.75" width="0.12" layer="51"/>
+<text x="0" y="4.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_400X1500_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:footprint:19556171/1">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 15.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 15.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, 6.00 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.2"/>
+<pad name="1" x="0" y="0" drill="2.2" diameter="6" thermals="no"/>
+<circle x="0" y="0" radius="2" width="0.12" layer="51"/>
+<text x="0" y="3.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_550X500_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:footprint:19556159/1">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 5.00 mm body height, 5.50 mm body width with thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 5.00 mm body height, 5.50 mm body width with thread size M3x0.5, 8.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8.5" thermals="no"/>
+<circle x="0" y="0" radius="2.75" width="0.12" layer="51"/>
+<text x="0" y="4.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_550X1000_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:footprint:19556157/1">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 10.00 mm body height, 5.50 mm body width with thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 10.00 mm body height, 5.50 mm body width with thread size M3x0.5, 8.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8.5" thermals="no"/>
+<circle x="0" y="0" radius="2.75" width="0.12" layer="51"/>
+<text x="0" y="4.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_550X1500_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:footprint:19556155/1">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 15.00 mm body height, 5.50 mm body width with thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 15.00 mm body height, 5.50 mm body width with thread size M3x0.5, 8.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8.5" thermals="no"/>
+<circle x="0" y="0" radius="2.75" width="0.12" layer="51"/>
+<text x="0" y="4.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_550X3000_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:footprint:19556151/1">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 30.00 mm body height, 5.50 mm body width with partial thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 30.00 mm body height, 5.50 mm body width with partial thread size M3x0.5, 10.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8.5" thermals="no"/>
+<circle x="0" y="0" radius="2.75" width="0.12" layer="51"/>
+<text x="0" y="4.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_550X1800_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:footprint:19556154/1">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 18.00 mm body height, 5.50 mm body width with thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 18.00 mm body height, 5.50 mm body width with thread size M3x0.5, 8.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8.5" thermals="no"/>
+<circle x="0" y="0" radius="2.75" width="0.12" layer="51"/>
+<text x="0" y="4.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_550X1200_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:footprint:19556156/1">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 12.00 mm body height, 5.50 mm body width with thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 12.00 mm body height, 5.50 mm body width with thread size M3x0.5, 8.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8.5" thermals="no"/>
+<circle x="0" y="0" radius="2.75" width="0.12" layer="51"/>
+<text x="0" y="4.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_550X4000_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:footprint:19556150/1">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 40.00 mm body height, 5.50 mm body width with partial thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 40.00 mm body height, 5.50 mm body width with partial thread size M3x0.5, 10.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8.5" thermals="no"/>
+<circle x="0" y="0" radius="2.75" width="0.12" layer="51"/>
+<text x="0" y="4.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_550X2000_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:footprint:19556153/1">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 20.00 mm body height, 5.50 mm body width with thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 20.00 mm body height, 5.50 mm body width with thread size M3x0.5, 8.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8.5" thermals="no"/>
+<circle x="0" y="0" radius="2.75" width="0.12" layer="51"/>
+<text x="0" y="4.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_500X1800_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:footprint:19556161/1">
+<description>Female Hex Standoff/Spacer with 2.70 mm hole diameter, 18.00 mm body height, 5.00 mm body width with partial thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 18.00 mm body height, 5.00 mm body width with partial thread size M2.5x0.45, 8.00 mm thread depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.7"/>
+<pad name="1" x="0" y="0" drill="2.7" diameter="7.55" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.41" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_400X500_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:footprint:19556149/1">
+<description>Male-Female Hex Standoff/Spacer with 2.20 mm hole diameter, 5.00 mm body height, 4.00 mm body width with post thread size M2x0.4 and inner thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 5.00 mm body height, 4.00 mm body width with post thread size M2x0.4, 6.00 mm length and inner thread size M2x0.4, 3.00 mm depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.2"/>
+<pad name="1" x="0" y="0" drill="2.2" diameter="6" thermals="no"/>
+<circle x="0" y="0" radius="2" width="0.12" layer="51"/>
+<text x="0" y="3.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_500X600_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:footprint:19556179/1">
+<description>Male-Female Hex Standoff/Spacer with 2.70 mm hole diameter, 6.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45 and inner thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 6.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45, 6.00 mm length and inner thread size M2.5x0.45, 3.00 mm depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.7"/>
+<pad name="1" x="0" y="0" drill="2.7" diameter="7.55" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.41" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_500X500_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:footprint:19556178/1">
+<description>Male-Female Hex Standoff/Spacer with 2.70 mm hole diameter, 5.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45 and inner thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 5.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45, 6.00 mm length and inner thread size M2.5x0.45, 3.00 mm depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.7"/>
+<pad name="1" x="0" y="0" drill="2.7" diameter="7.55" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.41" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_400X1000_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:footprint:19556147/1">
+<description>Male-Female Hex Standoff/Spacer with 2.20 mm hole diameter, 10.00 mm body height, 4.00 mm body width with post thread size M2x0.4 and inner thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 10.00 mm body height, 4.00 mm body width with post thread size M2x0.4, 6.00 mm length and inner thread size M2x0.4, 6.00 mm depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.2"/>
+<pad name="1" x="0" y="0" drill="2.2" diameter="6" thermals="no"/>
+<circle x="0" y="0" radius="2" width="0.12" layer="51"/>
+<text x="0" y="3.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_500X700_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:footprint:19556180/1">
+<description>Male-Female Hex Standoff/Spacer with 2.70 mm hole diameter, 7.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45 and inner thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 7.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45, 6.00 mm length and inner thread size M2.5x0.45, 4.00 mm depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.7"/>
+<pad name="1" x="0" y="0" drill="2.7" diameter="7.55" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.41" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_400X800_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:footprint:19556177/1">
+<description>Male-Female Hex Standoff/Spacer with 2.20 mm hole diameter, 8.00 mm body height, 4.00 mm body width with post thread size M2x0.4 and inner thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 8.00 mm body height, 4.00 mm body width with post thread size M2x0.4, 6.00 mm length and inner thread size M2x0.4, 4.00 mm depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.2"/>
+<pad name="1" x="0" y="0" drill="2.2" diameter="6" thermals="no"/>
+<circle x="0" y="0" radius="2" width="0.12" layer="51"/>
+<text x="0" y="3.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_400X1800_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:footprint:19556170/1">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 18.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 18.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, 6.00 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.2"/>
+<pad name="1" x="0" y="0" drill="2.2" diameter="6" thermals="no"/>
+<circle x="0" y="0" radius="2" width="0.12" layer="51"/>
+<text x="0" y="3.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_500X800_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:footprint:19556181/1">
+<description>Male-Female Hex Standoff/Spacer with 2.70 mm hole diameter, 8.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45 and inner thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 8.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45, 6.00 mm length and inner thread size M2.5x0.45, 4.00 mm depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.7"/>
+<pad name="1" x="0" y="0" drill="2.7" diameter="7.55" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.41" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_500X2000_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:footprint:19556183/1">
+<description>Male-Female Hex Standoff/Spacer with 2.70 mm hole diameter, 20.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45 and inner thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 20.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45, 6.00 mm length and inner thread size M2.5x0.45, 6.00 mm depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.7"/>
+<pad name="1" x="0" y="0" drill="2.7" diameter="7.55" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.41" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_500X3000_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:footprint:19556184/1">
+<description>Male-Female Hex Standoff/Spacer with 2.70 mm hole diameter, 30.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45 and inner thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 30.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45, 6.00 mm length and inner thread size M2.5x0.45, 6.00 mm depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.7"/>
+<pad name="1" x="0" y="0" drill="2.7" diameter="7.55" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.41" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_500X600_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:footprint:19556187/1">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 6.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 6.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 3.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_550X500_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:footprint:19556186/1">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 5.00 mm body height, 5.50 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 5.00 mm body height, 5.50 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 3.00 mm depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8.5" thermals="no"/>
+<circle x="0" y="0" radius="2.75" width="0.12" layer="51"/>
+<text x="0" y="4.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_500X700_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:footprint:19556189/1">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 7.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 7.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 4.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_550X600_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:footprint:19556188/1">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 6.00 mm body height, 5.50 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 6.00 mm body height, 5.50 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 3.00 mm depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8.5" thermals="no"/>
+<circle x="0" y="0" radius="2.75" width="0.12" layer="51"/>
+<text x="0" y="4.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_500X900_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:footprint:19556192/1">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 9.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 9.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 4.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_500X1000_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:footprint:19556182/1">
+<description>Male-Female Hex Standoff/Spacer with 2.70 mm hole diameter, 10.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45 and inner thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 10.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45, 6.00 mm length and inner thread size M2.5x0.45, 6.00 mm depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.7"/>
+<pad name="1" x="0" y="0" drill="2.7" diameter="7.55" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.41" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.41" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_500X800_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:footprint:19556190/1">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 8.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 8.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 4.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_500X500_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:footprint:19556185/1">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 5.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 5.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 3.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_550X1200_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:footprint:19556195/1">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 12.00 mm body height, 5.50 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 12.00 mm body height, 5.50 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 8.00 mm depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8.5" thermals="no"/>
+<circle x="0" y="0" radius="2.75" width="0.12" layer="51"/>
+<text x="0" y="4.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_500X3500_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:footprint:19556198/1">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 35.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 35.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 10.00 mm length and inner thread size M3x0.5, 10.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_550X800_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:footprint:19556191/1">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 8.00 mm body height, 5.50 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 8.00 mm body height, 5.50 mm body width with post thread size M3x0.5, 6.00 mm length and inner thread size M3x0.5, 4.00 mm depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8.5" thermals="no"/>
+<circle x="0" y="0" radius="2.75" width="0.12" layer="51"/>
+<text x="0" y="4.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_550X1000_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:footprint:19556194/1">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 10.00 mm body height, 5.50 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 10.00 mm body height, 5.50 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 6.00 mm depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8.5" thermals="no"/>
+<circle x="0" y="0" radius="2.75" width="0.12" layer="51"/>
+<text x="0" y="4.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_500X3000_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:footprint:19556197/1">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 30.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 30.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 10.00 mm length and inner thread size M3x0.5, 10.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_500X2500_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:footprint:19556196/1">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 25.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 25.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 10.00 mm length and inner thread size M3x0.5, 10.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_FEMALE_400X1200_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:footprint:19556172/1">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 12.00 mm body height, 4.00 mm body width with thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 12.00 mm body height, 4.00 mm body width with thread size M2x0.4, 8.00 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="2.2"/>
+<pad name="1" x="0" y="0" drill="2.2" diameter="6" thermals="no"/>
+<circle x="0" y="0" radius="2" width="0.12" layer="51"/>
+<text x="0" y="3.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STANDOFF_HEX_MALE-FEMALE_500X1000_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:footprint:19556193/1">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 10.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 10.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 6.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<hole x="0" y="0" drill="3.2"/>
+<pad name="1" x="0" y="0" drill="3.2" diameter="8" thermals="no"/>
+<circle x="0" y="0" radius="2.5" width="0.12" layer="51"/>
+<text x="0" y="4.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="STANDOFF_HEX_FEMALE_550X2500_M3X0.5_MTGNP850H320" urn="urn:adsk.eagle:package:19556205/1" type="box">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 25.00 mm body height, 5.50 mm body width with partial thread size M3x0.5, non plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 25.00 mm body height, 5.50 mm body width with partial thread size M3x0.5, 10.00 mm thread depth, non plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_550X2500_M3X0.5_MTGNP850H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_400X600_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:package:19556201/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 2.20 mm hole diameter, 6.00 mm body height, 4.00 mm body width with post thread size M2x0.4 and inner thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 6.00 mm body height, 4.00 mm body width with post thread size M2x0.4, 8.05 mm length and inner thread size M2x0.4, 4.00 mm depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_400X600_M2X0.4_MTGP600H220"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_400X1000_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:package:19556226/2" type="model">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 10.00 mm body height, 4.00 mm body width with thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 10.00 mm body height, 4.00 mm body width with thread size M2x0.4, 4.00 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_400X1000_M2X0.4_MTGP600H220"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_400X800_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:package:19556227/2" type="model">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 8.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 8.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, 4.00 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_400X800_M2X0.4_MTGP600H220"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_400X1200_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:package:19556225/2" type="model">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 12.00 mm body height, 4.00 mm body width with thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 12.00 mm body height, 4.00 mm body width with thread size M2x0.4, 8.00 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_400X1200_M2X0.4_MTGP600H220"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_400X500_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:package:19556228/2" type="model">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 5.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 5.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, 2.50 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_400X500_M2X0.4_MTGP600H220"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_400X1800_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:package:19556223/2" type="model">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 18.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 18.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, 6.00 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_400X1800_M2X0.4_MTGP600H220"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_400X1500_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:package:19556224/2" type="model">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 15.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 15.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, 6.00 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_400X1500_M2X0.4_MTGP600H220"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_400X2000_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:package:19556222/2" type="model">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 20.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 20.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, 6.00 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_400X2000_M2X0.4_MTGP600H220"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_400X2500_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:package:19556221/2" type="model">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 25.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 25.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, 6.00 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_400X2500_M2X0.4_MTGP600H220"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_500X500_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:package:19556219/2" type="model">
+<description>Female Hex Standoff/Spacer with 2.70 mm hole diameter, 5.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 5.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, 8.00 mm thread depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_500X500_M2.5X0.45_MTGP755H270"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_500X800_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:package:19556218/2" type="model">
+<description>Female Hex Standoff/Spacer with 2.70 mm hole diameter, 8.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 8.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, 8.00 mm thread depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_500X800_M2.5X0.45_MTGP755H270"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_400X3000_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:package:19556220/2" type="model">
+<description>Female Hex Standoff/Spacer with 2.20 mm hole diameter, 30.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 30.00 mm body height, 4.00 mm body width with partial thread size M2x0.4, 6.00 mm thread depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_400X3000_M2X0.4_MTGP600H220"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_500X1000_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:package:19556217/2" type="model">
+<description>Female Hex Standoff/Spacer with 2.70 mm hole diameter, 10.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 10.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, 8.00 mm thread depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_500X1000_M2.5X0.45_MTGP755H270"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_500X1200_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:package:19556216/2" type="model">
+<description>Female Hex Standoff/Spacer with 2.70 mm hole diameter, 12.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 12.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, 8.00 mm thread depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_500X1200_M2.5X0.45_MTGP755H270"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_500X1500_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:package:19556215/2" type="model">
+<description>Female Hex Standoff/Spacer with 2.70 mm hole diameter, 15.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 15.00 mm body height, 5.00 mm body width with thread size M2.5x0.45, 8.00 mm thread depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_500X1500_M2.5X0.45_MTGP755H270"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_500X2000_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:package:19556213/2" type="model">
+<description>Female Hex Standoff/Spacer with 2.70 mm hole diameter, 20.00 mm body height, 5.00 mm body width with partial thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 20.00 mm body height, 5.00 mm body width with partial thread size M2.5x0.45, 8.00 mm thread depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_500X2000_M2.5X0.45_MTGP755H270"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_550X800_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:package:19556211/2" type="model">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 8.00 mm body height, 5.50 mm body width with thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 8.00 mm body height, 5.50 mm body width with thread size M3x0.5, 8.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_550X800_M3X0.5_MTGP850H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_550X500_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:package:19556212/2" type="model">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 5.00 mm body height, 5.50 mm body width with thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 5.00 mm body height, 5.50 mm body width with thread size M3x0.5, 8.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_550X500_M3X0.5_MTGP850H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_550X1000_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:package:19556210/2" type="model">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 10.00 mm body height, 5.50 mm body width with thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 10.00 mm body height, 5.50 mm body width with thread size M3x0.5, 8.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_550X1000_M3X0.5_MTGP850H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_550X1200_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:package:19556209/2" type="model">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 12.00 mm body height, 5.50 mm body width with thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 12.00 mm body height, 5.50 mm body width with thread size M3x0.5, 8.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_550X1200_M3X0.5_MTGP850H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_550X1800_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:package:19556207/2" type="model">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 18.00 mm body height, 5.50 mm body width with thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 18.00 mm body height, 5.50 mm body width with thread size M3x0.5, 8.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_550X1800_M3X0.5_MTGP850H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_550X1500_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:package:19556208/2" type="model">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 15.00 mm body height, 5.50 mm body width with thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 15.00 mm body height, 5.50 mm body width with thread size M3x0.5, 8.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_550X1500_M3X0.5_MTGP850H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_550X2000_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:package:19556206/2" type="model">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 20.00 mm body height, 5.50 mm body width with thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 20.00 mm body height, 5.50 mm body width with thread size M3x0.5, 8.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_550X2000_M3X0.5_MTGP850H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_550X3000_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:package:19556204/2" type="model">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 30.00 mm body height, 5.50 mm body width with partial thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 30.00 mm body height, 5.50 mm body width with partial thread size M3x0.5, 10.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_550X3000_M3X0.5_MTGP850H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_400X500_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:package:19556202/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 2.20 mm hole diameter, 5.00 mm body height, 4.00 mm body width with post thread size M2x0.4 and inner thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 5.00 mm body height, 4.00 mm body width with post thread size M2x0.4, 6.00 mm length and inner thread size M2x0.4, 3.00 mm depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_400X500_M2X0.4_MTGP600H220"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_550X4000_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:package:19556203/2" type="model">
+<description>Female Hex Standoff/Spacer with 3.20 mm hole diameter, 40.00 mm body height, 5.50 mm body width with partial thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 40.00 mm body height, 5.50 mm body width with partial thread size M3x0.5, 10.00 mm thread depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_550X4000_M3X0.5_MTGP850H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_FEMALE_500X1800_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:package:19556214/2" type="model">
+<description>Female Hex Standoff/Spacer with 2.70 mm hole diameter, 18.00 mm body height, 5.00 mm body width with partial thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 18.00 mm body height, 5.00 mm body width with partial thread size M2.5x0.45, 8.00 mm thread depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_FEMALE_500X1800_M2.5X0.45_MTGP755H270"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_400X1000_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:package:19556200/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 2.20 mm hole diameter, 10.00 mm body height, 4.00 mm body width with post thread size M2x0.4 and inner thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 10.00 mm body height, 4.00 mm body width with post thread size M2x0.4, 6.00 mm length and inner thread size M2x0.4, 6.00 mm depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_400X1000_M2X0.4_MTGP600H220"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_500X500_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:package:19556229/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 2.70 mm hole diameter, 5.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45 and inner thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 5.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45, 6.00 mm length and inner thread size M2.5x0.45, 3.00 mm depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_500X500_M2.5X0.45_MTGP755H270"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_500X600_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:package:19556230/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 2.70 mm hole diameter, 6.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45 and inner thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 6.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45, 6.00 mm length and inner thread size M2.5x0.45, 3.00 mm depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_500X600_M2.5X0.45_MTGP755H270"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_400X800_M2X0.4_MTGP600H220" urn="urn:adsk.eagle:package:19556199/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 2.20 mm hole diameter, 8.00 mm body height, 4.00 mm body width with post thread size M2x0.4 and inner thread size M2x0.4, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.20 mm hole diameter, 8.00 mm body height, 4.00 mm body width with post thread size M2x0.4, 6.00 mm length and inner thread size M2x0.4, 4.00 mm depth, plated with 6.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_400X800_M2X0.4_MTGP600H220"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_500X700_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:package:19556231/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 2.70 mm hole diameter, 7.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45 and inner thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 7.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45, 6.00 mm length and inner thread size M2.5x0.45, 4.00 mm depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_500X700_M2.5X0.45_MTGP755H270"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_500X1000_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:package:19556233/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 2.70 mm hole diameter, 10.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45 and inner thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 10.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45, 6.00 mm length and inner thread size M2.5x0.45, 6.00 mm depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_500X1000_M2.5X0.45_MTGP755H270"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_500X2000_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:package:19556234/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 2.70 mm hole diameter, 20.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45 and inner thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 20.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45, 6.00 mm length and inner thread size M2.5x0.45, 6.00 mm depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_500X2000_M2.5X0.45_MTGP755H270"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_500X800_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:package:19556232/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 2.70 mm hole diameter, 8.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45 and inner thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 8.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45, 6.00 mm length and inner thread size M2.5x0.45, 4.00 mm depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_500X800_M2.5X0.45_MTGP755H270"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_500X3000_M2.5X0.45_MTGP755H270" urn="urn:adsk.eagle:package:19556235/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 2.70 mm hole diameter, 30.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45 and inner thread size M2.5x0.45, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 2.70 mm hole diameter, 30.00 mm body height, 5.00 mm body width with post thread size M2.5x0.45, 6.00 mm length and inner thread size M2.5x0.45, 6.00 mm depth, plated with 7.55 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_500X3000_M2.5X0.45_MTGP755H270"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_500X500_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:package:19556236/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 5.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 5.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 3.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_500X500_M3X0.5_MTGP800H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_550X500_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:package:19556237/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 5.00 mm body height, 5.50 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 5.00 mm body height, 5.50 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 3.00 mm depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_550X500_M3X0.5_MTGP850H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_500X600_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:package:19556238/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 6.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 6.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 3.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_500X600_M3X0.5_MTGP800H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_500X700_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:package:19556240/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 7.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 7.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 4.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_500X700_M3X0.5_MTGP800H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_550X600_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:package:19556239/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 6.00 mm body height, 5.50 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 6.00 mm body height, 5.50 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 3.00 mm depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_550X600_M3X0.5_MTGP850H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_550X800_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:package:19556242/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 8.00 mm body height, 5.50 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 8.00 mm body height, 5.50 mm body width with post thread size M3x0.5, 6.00 mm length and inner thread size M3x0.5, 4.00 mm depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_550X800_M3X0.5_MTGP850H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_500X900_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:package:19556243/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 9.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 9.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 4.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_500X900_M3X0.5_MTGP800H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_500X1000_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:package:19556244/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 10.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 10.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 6.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_500X1000_M3X0.5_MTGP800H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_500X800_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:package:19556241/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 8.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 8.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 4.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_500X800_M3X0.5_MTGP800H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_550X1200_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:package:19556246/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 12.00 mm body height, 5.50 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 12.00 mm body height, 5.50 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 8.00 mm depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_550X1200_M3X0.5_MTGP850H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_550X1000_M3X0.5_MTGP850H320" urn="urn:adsk.eagle:package:19556245/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 10.00 mm body height, 5.50 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 10.00 mm body height, 5.50 mm body width with post thread size M3x0.5, 7.95 mm length and inner thread size M3x0.5, 6.00 mm depth, plated with 8.50 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_550X1000_M3X0.5_MTGP850H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_500X3000_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:package:19556248/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 30.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 30.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 10.00 mm length and inner thread size M3x0.5, 10.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_500X3000_M3X0.5_MTGP800H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_500X3500_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:package:19556249/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 35.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 35.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 10.00 mm length and inner thread size M3x0.5, 10.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_500X3500_M3X0.5_MTGP800H320"/>
+</packageinstances>
+</package3d>
+<package3d name="STANDOFF_HEX_MALE-FEMALE_500X2500_M3X0.5_MTGP800H320" urn="urn:adsk.eagle:package:19556247/2" type="model">
+<description>Male-Female Hex Standoff/Spacer with 3.20 mm hole diameter, 25.00 mm body height, 5.00 mm body width with post thread size M3x0.5 and inner thread size M3x0.5, plated mounting pad.
+&lt;p&gt;Male-Female Hex Standoff/Spacer package with 3.20 mm hole diameter, 25.00 mm body height, 5.00 mm body width with post thread size M3x0.5, 10.00 mm length and inner thread size M3x0.5, 10.00 mm depth, plated with 8.00 mm mounting pad.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="STANDOFF_HEX_MALE-FEMALE_500X2500_M3X0.5_MTGP800H320"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MOUNTING-PAD" urn="urn:adsk.eagle:symbol:19556176/1">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<pin name="P$1" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="STANDOFF_F/F" prefix="MP" urn="urn:adsk.eagle:component:19556251/3">
+<description>Female-Female Standoff/Spacer with Mounting pad and hole.
+
+&lt;br&gt;&lt;a href="https://www.essentracomponents.co.in/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=14493"&gt;Essentra : Female Standoff&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+
+&lt;br&gt;The hole and pad sizes may vary based on the application and type of hardware; always verify the Manufacturer specification or Global Standards.&lt;/a&gt;&lt;br&gt;&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOUNTING-PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="M2_5MM" package="STANDOFF_HEX_FEMALE_400X500_M2X0.4_MTGP600H220">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556228/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2_8MM" package="STANDOFF_HEX_FEMALE_400X800_M2X0.4_MTGP600H220">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556227/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2_10MM" package="STANDOFF_HEX_FEMALE_400X1000_M2X0.4_MTGP600H220">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556226/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2_12MM" package="STANDOFF_HEX_FEMALE_400X1200_M2X0.4_MTGP600H220">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556225/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2_15MM" package="STANDOFF_HEX_FEMALE_400X1500_M2X0.4_MTGP600H220">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556224/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2_18MM" package="STANDOFF_HEX_FEMALE_400X1800_M2X0.4_MTGP600H220">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556223/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2_20MM" package="STANDOFF_HEX_FEMALE_400X2000_M2X0.4_MTGP600H220">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556222/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2_25MM" package="STANDOFF_HEX_FEMALE_400X2500_M2X0.4_MTGP600H220">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556221/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2_30MM" package="STANDOFF_HEX_FEMALE_400X3000_M2X0.4_MTGP600H220">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556220/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2.5_5MM" package="STANDOFF_HEX_FEMALE_500X500_M2.5X0.45_MTGP755H270">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556219/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2.5_8MM" package="STANDOFF_HEX_FEMALE_500X800_M2.5X0.45_MTGP755H270">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556218/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2.5_10MM" package="STANDOFF_HEX_FEMALE_500X1000_M2.5X0.45_MTGP755H270">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556217/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2.5_12MM" package="STANDOFF_HEX_FEMALE_500X1200_M2.5X0.45_MTGP755H270">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556216/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2.5_15MM" package="STANDOFF_HEX_FEMALE_500X1500_M2.5X0.45_MTGP755H270">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556215/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2.5_18MM" package="STANDOFF_HEX_FEMALE_500X1800_M2.5X0.45_MTGP755H270">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556214/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2.5_20MM" package="STANDOFF_HEX_FEMALE_500X2000_M2.5X0.45_MTGP755H270">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556213/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_5MM" package="STANDOFF_HEX_FEMALE_550X500_M3X0.5_MTGP850H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556212/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_8MM" package="STANDOFF_HEX_FEMALE_550X800_M3X0.5_MTGP850H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556211/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_10MM" package="STANDOFF_HEX_FEMALE_550X1000_M3X0.5_MTGP850H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556210/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_12MM" package="STANDOFF_HEX_FEMALE_550X1200_M3X0.5_MTGP850H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556209/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_15MM" package="STANDOFF_HEX_FEMALE_550X1500_M3X0.5_MTGP850H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556208/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_18MM" package="STANDOFF_HEX_FEMALE_550X1800_M3X0.5_MTGP850H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556207/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_20MM" package="STANDOFF_HEX_FEMALE_550X2000_M3X0.5_MTGP850H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556206/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_30MM" package="STANDOFF_HEX_FEMALE_550X3000_M3X0.5_MTGP850H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556204/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_40MM" package="STANDOFF_HEX_FEMALE_550X4000_M3X0.5_MTGP850H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556203/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Female-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STANDOFF_M/F" prefix="MP" urn="urn:adsk.eagle:component:19556250/3">
+<description>Male-Male Standoff/Spacer with Mounting pad and hole.
+
+&lt;br&gt;&lt;a href="https://www.essentracomponents.co.in/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=14556"&gt;Essentra : Male-Female Standoff&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+
+&lt;br&gt;The hole and pad sizes may vary based on the application and type of hardware; always verify the Manufacturer specification or Global Standards.&lt;/a&gt;&lt;br&gt;&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOUNTING-PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="M2_5MM" package="STANDOFF_HEX_MALE-FEMALE_400X500_M2X0.4_MTGP600H220">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556202/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2_10MM" package="STANDOFF_HEX_MALE-FEMALE_400X1000_M2X0.4_MTGP600H220">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556200/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2_8MM" package="STANDOFF_HEX_MALE-FEMALE_400X800_M2X0.4_MTGP600H220">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556199/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="M2_8MM" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2.5_5MM" package="STANDOFF_HEX_MALE-FEMALE_500X500_M2.5X0.45_MTGP755H270">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556229/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2.5_6MM" package="STANDOFF_HEX_MALE-FEMALE_500X600_M2.5X0.45_MTGP755H270">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556230/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2.5_7MM" package="STANDOFF_HEX_MALE-FEMALE_500X700_M2.5X0.45_MTGP755H270">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556231/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2.5_8MM" package="STANDOFF_HEX_MALE-FEMALE_500X800_M2.5X0.45_MTGP755H270">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556232/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2.5_10MM" package="STANDOFF_HEX_MALE-FEMALE_500X1000_M2.5X0.45_MTGP755H270">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556233/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2.5_20MM" package="STANDOFF_HEX_MALE-FEMALE_500X2000_M2.5X0.45_MTGP755H270">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556234/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M2.5_30MM" package="STANDOFF_HEX_MALE-FEMALE_500X3000_M2.5X0.45_MTGP755H270">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556235/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_5MM" package="STANDOFF_HEX_MALE-FEMALE_500X500_M3X0.5_MTGP800H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556236/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_5MM_5.5DIA" package="STANDOFF_HEX_MALE-FEMALE_550X500_M3X0.5_MTGP850H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556237/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_6MM" package="STANDOFF_HEX_MALE-FEMALE_500X600_M3X0.5_MTGP800H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556238/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_6MM_5.5DIA" package="STANDOFF_HEX_MALE-FEMALE_550X600_M3X0.5_MTGP850H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556239/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_7MM" package="STANDOFF_HEX_MALE-FEMALE_500X700_M3X0.5_MTGP800H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556240/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_8MM" package="STANDOFF_HEX_MALE-FEMALE_500X800_M3X0.5_MTGP800H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556241/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_8MM_5.5DIA" package="STANDOFF_HEX_MALE-FEMALE_550X800_M3X0.5_MTGP850H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556242/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_9MM" package="STANDOFF_HEX_MALE-FEMALE_500X900_M3X0.5_MTGP800H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556243/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_10MM" package="STANDOFF_HEX_MALE-FEMALE_500X1000_M3X0.5_MTGP800H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556244/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_10MM_5.5DIA" package="STANDOFF_HEX_MALE-FEMALE_550X1000_M3X0.5_MTGP850H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556245/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_12MM" package="STANDOFF_HEX_MALE-FEMALE_550X1200_M3X0.5_MTGP850H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556246/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_25MM" package="STANDOFF_HEX_MALE-FEMALE_500X2500_M3X0.5_MTGP800H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556247/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_30MM" package="STANDOFF_HEX_MALE-FEMALE_500X3000_M3X0.5_MTGP800H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556248/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="M3_35MM" package="STANDOFF_HEX_MALE-FEMALE_500X3500_M3X0.5_MTGP800H320">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19556249/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Standoff/Spacer" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MATERIAL" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Male-Female" constant="no"/>
+<attribute name="THREADED" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.5.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;B&gt;Fuse, TVS, Thermistor, Thyristor, Varistor, ESD Suppression</description>
+<packages>
+<package name="VARC3216X102N" urn="urn:adsk.eagle:footprint:16378139/1">
+<description>Chip, 3.20 X 1.60 X 1.02 mm body
+&lt;p&gt;Chip package with body size 3.20 X 1.60 X 1.02 mm&lt;/p&gt;</description>
+<wire x1="1.7" y1="1.2217" x2="-1.7" y2="1.2217" width="0.12" layer="21"/>
+<wire x1="1.7" y1="-1.2217" x2="-1.7" y2="-1.2217" width="0.12" layer="21"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.12" layer="51"/>
+<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.12" layer="51"/>
+<smd name="1" x="-1.305" y="0" dx="1.5053" dy="1.8153" layer="1"/>
+<smd name="2" x="1.305" y="0" dx="1.5053" dy="1.8153" layer="1"/>
+<text x="0" y="1.8567" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.8567" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="FUSC3215X82N" urn="urn:adsk.eagle:footprint:16378141/1">
+<description>Chip, 3.20 X 1.58 X 0.82 mm body
+&lt;p&gt;Chip package with body size 3.20 X 1.58 X 0.82 mm&lt;/p&gt;</description>
+<wire x1="1.7" y1="1.2211" x2="-1.7" y2="1.2211" width="0.12" layer="21"/>
+<wire x1="1.7" y1="-1.2211" x2="-1.7" y2="-1.2211" width="0.12" layer="21"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.12" layer="51"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.12" layer="51"/>
+<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.12" layer="51"/>
+<smd name="1" x="-1.4754" y="0" dx="1.1646" dy="1.8143" layer="1"/>
+<smd name="2" x="1.4754" y="0" dx="1.1646" dy="1.8143" layer="1"/>
+<text x="0" y="1.8561" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.8561" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="FUSAD2590W70L2150D550B" urn="urn:adsk.eagle:footprint:16378145/1">
+<description>Axial Fuse, 25.90 mm pitch, 21.50 mm body length, 5.50 mm body diameter
+&lt;p&gt;Axial Fuse package with 25.90 mm pitch (lead spacing), 0.70 mm lead diameter, 21.50 mm body length and 5.50 mm body diameter&lt;/p&gt;</description>
+<wire x1="-11.25" y1="2.9" x2="-11.25" y2="-2.9" width="0.12" layer="21"/>
+<wire x1="-11.25" y1="-2.9" x2="11.25" y2="-2.9" width="0.12" layer="21"/>
+<wire x1="11.25" y1="-2.9" x2="11.25" y2="2.9" width="0.12" layer="21"/>
+<wire x1="11.25" y1="2.9" x2="-11.25" y2="2.9" width="0.12" layer="21"/>
+<wire x1="-11.25" y1="0" x2="-11.946" y2="0" width="0.12" layer="21"/>
+<wire x1="11.25" y1="0" x2="11.946" y2="0" width="0.12" layer="21"/>
+<wire x1="11.25" y1="-2.9" x2="-11.25" y2="-2.9" width="0.12" layer="51"/>
+<wire x1="-11.25" y1="-2.9" x2="-11.25" y2="2.9" width="0.12" layer="51"/>
+<wire x1="-11.25" y1="2.9" x2="11.25" y2="2.9" width="0.12" layer="51"/>
+<wire x1="11.25" y1="2.9" x2="11.25" y2="-2.9" width="0.12" layer="51"/>
+<pad name="1" x="-12.95" y="0" drill="0.9" diameter="1.5"/>
+<pad name="2" x="12.95" y="0" drill="0.9" diameter="1.5"/>
+<text x="0" y="3.535" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.535" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="FUSC6126X294N" urn="urn:adsk.eagle:footprint:16378144/1">
+<description>Chip, 6.10 X 2.69 X 2.94 mm body
+&lt;p&gt;Chip package with body size 6.10 X 2.69 X 2.94 mm&lt;/p&gt;</description>
+<wire x1="3.15" y1="1.7902" x2="-3.15" y2="1.7902" width="0.12" layer="21"/>
+<wire x1="3.15" y1="-1.7902" x2="-3.15" y2="-1.7902" width="0.12" layer="21"/>
+<wire x1="3.15" y1="-1.47" x2="-3.15" y2="-1.47" width="0.12" layer="51"/>
+<wire x1="-3.15" y1="-1.47" x2="-3.15" y2="1.47" width="0.12" layer="51"/>
+<wire x1="-3.15" y1="1.47" x2="3.15" y2="1.47" width="0.12" layer="51"/>
+<wire x1="3.15" y1="1.47" x2="3.15" y2="-1.47" width="0.12" layer="51"/>
+<smd name="1" x="-2.5" y="0" dx="2.0153" dy="2.9523" layer="1"/>
+<smd name="2" x="2.5" y="0" dx="2.0153" dy="2.9523" layer="1"/>
+<text x="0" y="2.4252" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.4252" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="DIOM7959X625N" urn="urn:adsk.eagle:footprint:16378140/1">
+<description>Molded Body, 7.95 X 5.90 X 6.25 mm body
+&lt;p&gt;Molded Body package with body size 7.95 X 5.90 X 6.25 mm&lt;/p&gt;</description>
+<wire x1="4.075" y1="3.125" x2="-4.8967" y2="3.125" width="0.12" layer="21"/>
+<wire x1="-4.8967" y1="3.125" x2="-4.8967" y2="-3.125" width="0.12" layer="21"/>
+<wire x1="-4.8967" y1="-3.125" x2="4.075" y2="-3.125" width="0.12" layer="21"/>
+<wire x1="4.075" y1="-3.125" x2="-4.075" y2="-3.125" width="0.12" layer="51"/>
+<wire x1="-4.075" y1="-3.125" x2="-4.075" y2="3.125" width="0.12" layer="51"/>
+<wire x1="-4.075" y1="3.125" x2="4.075" y2="3.125" width="0.12" layer="51"/>
+<wire x1="4.075" y1="3.125" x2="4.075" y2="-3.125" width="0.12" layer="51"/>
+<smd name="1" x="-3.4567" y="0" dx="2.2518" dy="3.1202" layer="1"/>
+<smd name="2" x="3.4567" y="0" dx="2.2518" dy="3.1202" layer="1"/>
+<text x="0" y="3.76" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.76" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="FUSC1608X60N" urn="urn:adsk.eagle:footprint:16378142/1">
+<description>Chip, 1.60 X 0.82 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.82 X 0.60 mm&lt;/p&gt;</description>
+<wire x1="0.85" y1="0.8009" x2="-0.85" y2="0.8009" width="0.12" layer="21"/>
+<wire x1="0.85" y1="-0.8009" x2="-0.85" y2="-0.8009" width="0.12" layer="21"/>
+<wire x1="0.85" y1="-0.475" x2="-0.85" y2="-0.475" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="-0.475" x2="-0.85" y2="0.475" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="0.475" x2="0.85" y2="0.475" width="0.12" layer="51"/>
+<wire x1="0.85" y1="0.475" x2="0.85" y2="-0.475" width="0.12" layer="51"/>
+<smd name="1" x="-0.8152" y="0" dx="0.7987" dy="0.9739" layer="1"/>
+<smd name="2" x="0.8152" y="0" dx="0.7987" dy="0.9739" layer="1"/>
+<text x="0" y="1.4359" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4359" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="DIOM5226X290N" urn="urn:adsk.eagle:footprint:16378143/1">
+<description>Molded Body, 5.20 X 2.60 X 2.90 mm body
+&lt;p&gt;Molded Body package with body size 5.20 X 2.60 X 2.90 mm&lt;/p&gt;</description>
+<wire x1="2.8" y1="1.475" x2="-3.6179" y2="1.475" width="0.12" layer="21"/>
+<wire x1="-3.6179" y1="1.475" x2="-3.6179" y2="-1.475" width="0.12" layer="21"/>
+<wire x1="-3.6179" y1="-1.475" x2="2.8" y2="-1.475" width="0.12" layer="21"/>
+<wire x1="2.8" y1="-1.475" x2="-2.8" y2="-1.475" width="0.12" layer="51"/>
+<wire x1="-2.8" y1="-1.475" x2="-2.8" y2="1.475" width="0.12" layer="51"/>
+<wire x1="-2.8" y1="1.475" x2="2.8" y2="1.475" width="0.12" layer="51"/>
+<wire x1="2.8" y1="1.475" x2="2.8" y2="-1.475" width="0.12" layer="51"/>
+<smd name="1" x="-2.1079" y="0" dx="2.392" dy="1.5653" layer="1"/>
+<smd name="2" x="2.1079" y="0" dx="2.392" dy="1.5653" layer="1"/>
+<text x="0" y="2.11" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.11" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="VARC3216X102N" urn="urn:adsk.eagle:package:16378153/1" type="model">
+<description>Chip, 3.20 X 1.60 X 1.02 mm body
+&lt;p&gt;Chip package with body size 3.20 X 1.60 X 1.02 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="VARC3216X102N"/>
+</packageinstances>
+</package3d>
+<package3d name="FUSC6126X294N" urn="urn:adsk.eagle:package:16378154/1" type="model">
+<description>Chip, 6.10 X 2.69 X 2.94 mm body
+&lt;p&gt;Chip package with body size 6.10 X 2.69 X 2.94 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="FUSC6126X294N"/>
+</packageinstances>
+</package3d>
+<package3d name="FUSAD2590W70L2150D550B" urn="urn:adsk.eagle:package:16378155/1" type="model">
+<description>Axial Fuse, 25.90 mm pitch, 21.50 mm body length, 5.50 mm body diameter
+&lt;p&gt;Axial Fuse package with 25.90 mm pitch (lead spacing), 0.70 mm lead diameter, 21.50 mm body length and 5.50 mm body diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="FUSAD2590W70L2150D550B"/>
+</packageinstances>
+</package3d>
+<package3d name="FUSC3215X82N" urn="urn:adsk.eagle:package:16378157/1" type="model">
+<description>Chip, 3.20 X 1.58 X 0.82 mm body
+&lt;p&gt;Chip package with body size 3.20 X 1.58 X 0.82 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="FUSC3215X82N"/>
+</packageinstances>
+</package3d>
+<package3d name="FUSC1608X60N" urn="urn:adsk.eagle:package:16378156/1" type="model">
+<description>Chip, 1.60 X 0.82 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.82 X 0.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="FUSC1608X60N"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOM7959X625N" urn="urn:adsk.eagle:package:16378159/1" type="model">
+<description>Molded Body, 7.95 X 5.90 X 6.25 mm body
+&lt;p&gt;Molded Body package with body size 7.95 X 5.90 X 6.25 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIOM7959X625N"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOM5226X290N" urn="urn:adsk.eagle:package:16378158/1" type="model">
+<description>Molded Body, 5.20 X 2.60 X 2.90 mm body
+&lt;p&gt;Molded Body package with body size 5.20 X 2.60 X 2.90 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIOM5226X290N"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="TVS" urn="urn:adsk.eagle:symbol:16378136/1">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<text x="-1.524" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.524" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="VARISTOR" urn="urn:adsk.eagle:symbol:16378137/1">
+<wire x1="-2.54" y1="1.016" x2="-2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.016" x2="2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.016" x2="2.54" y2="1.016" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.016" x2="-2.54" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.032" x2="-2.032" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="2.032" y1="2.032" x2="2.54" y2="2.032" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="-2.032" x2="2.032" y2="2.032" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="FUSE" urn="urn:adsk.eagle:symbol:16378138/1">
+<wire x1="-3.81" y1="-0.762" x2="3.81" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0.762" x2="-3.81" y2="0.762" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-0.762" x2="3.81" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0.762" x2="-3.81" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-3.81" y="1.397" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-2.921" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="VARISTOR" prefix="RV" urn="urn:adsk.eagle:component:16378164/4">
+<description>&lt;b&gt;Varistor - Generic</description>
+<gates>
+<gate name="G$1" symbol="VARISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CHIP-1206(3216-METRIC)" package="VARC3216X102N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378153/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_VC1206*">
+<attribute name="CATEGORY" value="Circuit-Protection" constant="no"/>
+<attribute name="CURRENT_SURGE" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Varistor" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VARISTOR_VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VARISTOR_" prefix="RV" urn="urn:adsk.eagle:component:16378162/4">
+<description>&lt;b&gt;Varistor - Popular parts</description>
+<gates>
+<gate name="G$1" symbol="VARISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_CHIP-1206" package="VARC3216X102N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378153/1"/>
+</package3dinstances>
+<technologies>
+<technology name="VC1206">
+<attribute name="CATEGORY" value="Circuit-Protection" constant="no"/>
+<attribute name="CURRENT_SURGE" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Varistor" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VARISTOR_VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FUSE_" prefix="F" urn="urn:adsk.eagle:component:16378163/4">
+<description>&lt;b&gt; Fuse - Popular parts</description>
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_AXIAL-26MM-PITCH" package="FUSAD2590W70L2150D550B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378155/1"/>
+</package3dinstances>
+<technologies>
+<technology name="02133.15MXP">
+<attribute name="CATEGORY" value="Circuit-Protection" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="DESCRIPTION" value=" FUSE GLASS 3.15A 250VAC 5X20MM" constant="no"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
+<attribute name="MPN" value="02133.15MXP" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fuse" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_CHIP(6126-METRIC)" package="FUSC6126X294N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378154/1"/>
+</package3dinstances>
+<technologies>
+<technology name="0448.500MR">
+<attribute name="CATEGORY" value="Circuit-Protection" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="DESCRIPTION" value=" FUSE BOARD MNT 500MA 125VAC/VDC" constant="no"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
+<attribute name="MPN" value="0448.500MR" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fuse" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="" constant="no"/>
+</technology>
+<technology name="0452.500MRL">
+<attribute name="CATEGORY" value="Circuit-Protection" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="FUSE BOARD MNT 500MA 125VAC/VDC" constant="no"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
+<attribute name="MPN" value="0452.500MRL" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fuse" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_CHIP-1206" package="FUSC3215X82N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378157/1"/>
+</package3dinstances>
+<technologies>
+<technology name="NANOSMDC020F-2">
+<attribute name="CATEGORY" value="Circuit-Protection" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="PTC RESET FUSE 24V 200MA 1206 " constant="no"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
+<attribute name="MPN" value="NANOSMDC020F-2" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fuse" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FUSE" prefix="F" urn="urn:adsk.eagle:component:16378165/4">
+<description>&lt;b&gt; Fuse - Generic</description>
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="AXIAL-26MM-PITCH" package="FUSAD2590W70L2150D550B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378155/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Circuit-Protection" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fuse" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CHIP-0603(1608-METRIC)" package="FUSC1608X60N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378156/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Circuit-Protection" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fuse" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CHIP(6126-METRIC)" package="FUSC6126X294N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378154/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Circuit-Protection" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fuse" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CHIP-1206(3216-METRIC)" package="FUSC3215X82N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378157/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="CATEGORY" value="Circuit-Protection" constant="no"/>
+<attribute name="CURRENT_RATING" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Fuse" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TVS_" prefix="D" urn="urn:adsk.eagle:component:16378160/4">
+<description>&lt;b&gt;TVS Diode - Popular parts</description>
+<gates>
+<gate name="G$1" symbol="VARISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_DO-214AC(SMA)" package="DIOM5226X290N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378158/1"/>
+</package3dinstances>
+<technologies>
+<technology name="SMAJ*">
+<attribute name="BREAKDOWN_VOLTAGE" value="" constant="no"/>
+<attribute name="CATEGORY" value="Circuit-Protection" constant="no"/>
+<attribute name="CLAMPING_VOLTAGE" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="SMAJ" constant="no"/>
+<attribute name="SUB-CATEGORY" value="TVS-Diode" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+<technology name="SMAJ33A-13-F">
+<attribute name="BREAKDOWN_VOLTAGE" value="" constant="no"/>
+<attribute name="CATEGORY" value="Circuit-Protection" constant="no"/>
+<attribute name="CLAMPING_VOLTAGE" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="TVS DIODE 33V 53.3V SMA " constant="no"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="SMAJ33A-13-F " constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="TVS-Diode" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_7929-METRIC" package="DIOM7959X625N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378159/1"/>
+</package3dinstances>
+<technologies>
+<technology name="SMCJ20A-E3/57T">
+<attribute name="BREAKDOWN_VOLTAGE" value="" constant="no"/>
+<attribute name="CATEGORY" value="Circuit-Protection" constant="no"/>
+<attribute name="CLAMPING_VOLTAGE" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="TVS DIODE 20V 32.4V DO214AB " constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Semiconductor Diodes Division " constant="no"/>
+<attribute name="MPN" value="SMCJ20A-E3/57T" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="TVS-Diode" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+<technology name="SMCJ20CA-E3/57T">
+<attribute name="BREAKDOWN_VOLTAGE" value="" constant="no"/>
+<attribute name="CATEGORY" value="Circuit-Protection" constant="no"/>
+<attribute name="CLAMPING_VOLTAGE" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="TVS DIODE 20V 32.4V DO214AB " constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Semiconductor Diodes Division " constant="no"/>
+<attribute name="MPN" value="SMCJ20CA-E3/57T" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="TVS-Diode" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TVS" prefix="D" urn="urn:adsk.eagle:component:16378161/4">
+<description>&lt;b&gt;TVS Diode - Generic</description>
+<gates>
+<gate name="G$1" symbol="VARISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DO-214AC(SMA)" package="DIOM5226X290N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378158/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="BREAKDOWN_VOLTAGE" value="" constant="no"/>
+<attribute name="CATEGORY" value="Circuit-Protection" constant="no"/>
+<attribute name="CLAMPING_VOLTAGE" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="TVS-Diode" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MOLDED(7929-METRIC)" package="DIOM7959X625N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378159/1"/>
+</package3dinstances>
+<technologies>
+<technology name="_">
+<attribute name="BREAKDOWN_VOLTAGE" value="" constant="no"/>
+<attribute name="CATEGORY" value="Circuit-Protection" constant="no"/>
+<attribute name="CLAMPING_VOLTAGE" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
+<attribute name="PART_STATUS" value="" constant="no"/>
+<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
+<attribute name="SERIES" value="" constant="no"/>
+<attribute name="SUB-CATEGORY" value="TVS-Diode" constant="no"/>
+<attribute name="THERMALLOSS" value="" constant="no"/>
+<attribute name="TYPE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

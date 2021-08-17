@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>03-low-density/general/PersistantGroupEdit-32</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="2" y="2" width="28" height="28"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="28" height="28" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="03-low-density/general/PersistantGroupEdit-32" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <use id="Rectangle" stroke="#666666" mask="url(#mask-2)" stroke-width="2" stroke-dasharray="5,2" xlink:href="#path-1"></use>
+        <rect id="Rectangle" stroke="#0696D7" fill="#CDEAF8" x="11.5" y="5.5" width="9" height="9"></rect>
+        <circle id="Oval" stroke="#0696D7" fill="#CDEAF8" cx="16" cy="22" r="5"></circle>
+        <g id="Group" transform="translate(16.000000, 16.000000)" stroke-width="0.5">
+            <path d="M10.7554641,2.35355339 L2.1542718,10.9547457 L0.251216755,15.7226994 C0.248536534,15.7301292 0.250391158,15.7384387 0.255976222,15.7440238 C0.261561286,15.7496088 0.26987076,15.7514635 0.269465981,15.7517588 L5.0452568,13.8457257 L13.6464466,5.2445359 L10.7554641,2.35355339 Z" id="Shape-Copy" stroke="#D18700" fill="#FAA21B"></path>
+            <path d="M11.3539784,1.82989644 L14.1673648,4.64625969 L15.5115554,3.30064944 C15.6641515,3.14913934 15.75,2.9428606 15.75,2.72765355 C15.75,2.5124465 15.6641515,2.30616776 15.5115554,2.15465765 L15.5108295,2.15393396 L13.8432105,0.484548957 C13.5289448,0.171817014 13.0215024,0.171817014 12.7071506,0.484634494 L11.3539784,1.82989644 Z" id="Path-Copy" stroke="#C63C31" fill="#EC4A41"></path>
+        </g>
+    </g>
+</svg>

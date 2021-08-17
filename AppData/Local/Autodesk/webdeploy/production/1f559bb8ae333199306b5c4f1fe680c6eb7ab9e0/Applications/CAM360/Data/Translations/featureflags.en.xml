@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<locale xmlns="http://www.hsmworks.com/xml/2008/locale" >
+
+  <description>English</description>
+  <country>en</country>
+
+  <!--
+	The entries in this file are used for localized text for feature flags,
+	as exposed in the Fusion preferences dialog.
+	
+	The formats used for the entries should be in the form shown here,
+	where in this case the feature flag name would be 'feature-flag'.
+	  <message name="feature-flag-name">English Feature Flag Name</message>
+	  <message name="feature-flag-desc">English Feature Flag Description</message>
+   	  <message name="feature-flag-infolink">English Feature Flag Info Link</message>
+  -->
+  <message name="Additive-General-name">Additive Manufacturing</message>
+  <message name="Additive-General-desc">Select print parameters, automatically orient parts for build success, and generate support structures and toolpaths. Export directly to select powder bed machines or export a 3MF file.</message>
+  <message name="Additive-General-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-ADDITIVE-START</message>
+  
+  <message name="Additive-Tech-SLM-name">Additive Manufacturing</message>
+  <message name="Additive-Tech-SLM-desc">Adds workspaces for Powder Bed Metal Additive Manufacturing. Allows you to select a machine, arrange and orient parts on the platform, create support structures and slice the models. Outputs a native build file including laser parameters or a .3mf file.</message>
+  <message name="Additive-Tech-SLM-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-ADDITIVE-START</message>
+
+  <message name="adaptive-turn-roughing-name">Adaptive Turning</message>
+  <message name="adaptive-turn-roughing-desc">Produce constant engagement turning toolpaths for button style tooling.</message>
+  <message name="adaptive-turn-roughing-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-TURN-ADAPTIVE-CMD</message>
+	
+  <message name="automatic-collision-avoidance-name">5-Axis and Collision Avoidance</message>
+  <message name="automatic-collision-avoidance-desc">Use tool axis settings to generate a multi-axis toolpath that can machine more areas of a part in a single setup. For safer machining, the multi-axis toolpath is able to detect and avoid collisions between the shaft or holder and the part. Currently for the Steep and Shallow strategy only.</message>
+  <message name="automatic-collision-avoidance-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-3D-STEEP-SHALLOW-5X</message>
+
+  <message name="cutting-force-analysis-name">Cutting Force Analysis</message>
+  <message name="cutting-force-analysis-desc">Collect cutting force data during simulation.</message>
+
+  <message name="drill-wizard-name">Hole Recognition</message>
+  <message name="drill-wizard-desc">Simplify and speed up drilling by automatically recognizing holes, selecting tools, and ordering operations efficiently for faster cycles.</message>
+  <message name="drill-wizard-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-HOLE-RECOG</message>
+
+  <message name="hig-styled-qt-name">Updated Styling</message>
+  <message name="hig-styled-qt-desc">Get a sneak peek of the style update in progress for the Fusion Manufacture Dialogs.</message>
+
+  <message name="inspection-results-projection-name">Inspect Surface CAD Projection</message>
+  <message name="inspection-results-projection-desc">Provides more accurate results when evaluating probed points where the part form or location differs from the CAD file. Calculates the deviation of the measured point relative to the CAD surface rather than to the expected point for the Inspect Surface strategy.</message>
+  <message name="inspection-results-projection-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-PROBE-PROJECT-POINTS</message>
+	
+  <message name="live-machine-connection-name">Live Machine Data Connection</message>
+  <message name="live-machine-connection-desc">Evaluate results in real time through live data acquisition of probed points off of Haas Controls for the Inspect Surface Strategy.</message>
+  <message name="live-machine-connection-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-PROBE-LIVE-CONNECTION</message>
+	
+  <message name="machine-configuration-name">Machine Configurations</message>
+  <message name="machine-configuration-desc">Link your machines to setups using Machine Configurations, speeding up post-processing through the auto-selection and configuration of the post processor at the time of posting.</message>
+  <message name="machine-configuration-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-MACHINE-CONFIGURATION</message>
+	
+  <message name="milling-continue-rest-machining-name">Continue Rest Machining for Milling</message>
+  <message name="milling-continue-rest-machining-desc">Improve overall machining time by using Continue Rest Machining to generate an toolpath over stock material that is left at the end of the operations from the previous Setup. Currently for Milling only.</message>
+
+  <message name="old-turning-profile-strategy-name">Old Profile Turning</message>
+  <message name="old-turning-profile-strategy-desc">Enables old profile turning strategies. This will be available for a limited time.</message>
+
+  <message name="probe-angle-measure-name">Probing: Off Axis Angle Measurement</message>
+  <message name="probe-angle-measure-desc">Allows Probe Geometry to measure the rotation angle of vertical faces.</message>
+
+  <message name="probe-geometry-strategy-name">Probe Geometry</message>
+  <message name="probe-geometry-strategy-desc">Measure features in-process with the probing cycles on your machine. Verify dimensions and positions of critical features, update tool wear parameters, and pause or stop your programs for early corrective action.</message>
+  <message name="probe-geometry-strategy-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-PROBE-FEATURE</message>
+
+  <message name="setup-sheet-images-name">Setup Sheet Image per Operation</message>
+  <message name="setup-sheet-images-desc">Allows association of a named view with each operation. The image is generated and passed to the setup sheet upon setup sheet generation.</message>
+
+  <message name="spun-profile-v2-name">Spun Profile</message>
+  <message name="spun-profile-v2-desc">Create a profile curve from a revolved surface for improved turning feature creation with this functionality from PowerMill.</message>
+
+  <message name="strategy-blend-name">Blend Strategy</message>
+  <message name="strategy-blend-desc">Improve surface finish with the new Blend Strategy, which is driven by 2 guide rails and surface selections.</message>
+
+  <message name="strategy-inspect-surface-name">Surface Inspection Strategy</message>
+  <message name="strategy-inspect-surface-desc">Create probe paths and evaluate results. Ensure your parts meet design specifications with on-machine verification.</message>
+  <message name="strategy-inspect-surface-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-PROBE-INSPECT</message>
+
+  <message name="strategy-rotary-name">Rotary Strategy</message>
+  <message name="strategy-rotary-desc">Machine complex, non-geometric shapes with the Rotary strategy for 4-axis milling.</message>
+  <message name="strategy-rotary-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-MULTI-AXIS-ROTARY</message>
+	
+  <message name="strategy-steep-shallow-name">Steep &amp; Shallow Strategy</message>
+  <message name="strategy-steep-shallow-desc">Improve surface finish and machine safely with a single toolpath for steep and shallow regions. Avoid dwell marks, remove cusps, and extend tool life.</message>
+  <message name="strategy-steep-shallow-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-3D-STEEP-SHALLOW-CMD</message>
+
+  <message name="template-library-name">Template Library</message>
+  <message name="template-library-desc">Brand-new interface for Templates. Store, browse, or reuse Templates in a new library.</message>
+
+  <message name="toolpath-trimming-name">Toolpath trimming</message>
+  <message name="toolpath-trimming-desc">Use toolpath trimming to improve the efficiency of your toolpath and reduce machining time. Place points to create a polygon and then choose whether to keep the part of the toolpath that is inside or outside of the polygon.</message>
+  <message name="toolpath-trimming-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=FF-TOOLPATH-EDITING</message>
+  
+  <message name="tool-library-v4-name">Tool Library</message>
+  <message name="tool-library-v4-desc">Improve tool selection and organization with the new Tool Library, refreshed with a new look and new features, enabling expressions in parameters and multiple cutting parameter presets per tool.</message>
+  <message name="tool-library-v4-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-TOOL-LIBRARY-NEW</message>
+	
+</locale>

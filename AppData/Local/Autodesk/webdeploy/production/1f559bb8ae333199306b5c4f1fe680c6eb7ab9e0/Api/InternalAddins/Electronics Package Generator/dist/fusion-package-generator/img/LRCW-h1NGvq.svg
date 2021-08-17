@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>LRCCW</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(3.000000, 5.000000)">
+            <path d="M16.75,18.5 C21.4444204,18.5 25.25,14.6944204 25.25,10 C25.25,5.30557963 21.4444204,1.5 16.75,1.5" stroke="#DFE3E8"></path>
+            <path d="M16.7999992,18.5 L4.5,18.5" stroke="#DFE3E8"></path>
+            <path d="M16.7999992,1.5 L5,1.5" stroke="#DFE3E8"></path>
+            <polygon fill="#DFE3E8" transform="translate(3.728455, 18.500000) rotate(270.000000) translate(-3.728455, -18.500000) " points="3.72845536 15.1625977 6.69503522 21.8374023 0.761875503 21.8374023"></polygon>
+        </g>
+    </g>
+</svg>

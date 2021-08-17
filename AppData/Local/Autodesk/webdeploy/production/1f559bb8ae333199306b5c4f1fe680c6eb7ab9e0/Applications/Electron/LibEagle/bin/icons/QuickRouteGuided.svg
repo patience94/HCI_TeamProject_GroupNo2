@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>03-low-density/autoroute/SketchRoute-32</title>
+    <desc>Created with Sketch.</desc>
+    <g id="03-low-density/autoroute/SketchRoute-32" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Shape" fill="#666666" fill-rule="nonzero" points="0 23.5 12.75 15 9 22 17 23.5 4.25 32 8 25"></polygon>
+        <polyline id="Path-31" stroke="#D0021B" stroke-width="2" points="24 7 24 16 29 22"></polyline>
+        <polygon id="Shape" fill="#008DE9" fill-rule="nonzero" points="20 13 20 10 0 10 0 13 17.2727273 13"></polygon>
+        <polygon id="Shape" fill="#008DE9" fill-rule="nonzero" points="25 8 25 5 0 5 0 8"></polygon>
+        <polygon id="Shape" fill="#008DE9" fill-rule="nonzero" points="30 3 30 0 0 0 0 3"></polygon>
+        <g id="Group-9" transform="translate(24.000000, 26.000000) rotate(-130.000000) translate(-24.000000, -26.000000) translate(22.000000, 19.000000)" fill="#666666" stroke="#666666">
+            <rect id="Rectangle" x="0.5" y="4.5" width="3" height="7"></rect>
+            <rect id="Rectangle" x="0.5" y="0.5" width="3" height="2"></rect>
+            <path d="M2,12.7071068 L1.20710678,13.5 L2.79289322,13.5 L2,12.7071068 Z" id="Triangle" transform="translate(2.000000, 13.000000) rotate(-180.000000) translate(-2.000000, -13.000000) "></path>
+        </g>
+    </g>
+</svg>

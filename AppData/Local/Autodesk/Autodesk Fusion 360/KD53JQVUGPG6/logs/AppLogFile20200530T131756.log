@@ -1,0 +1,1257 @@
+20200530T131757 I Request(https://login.autodesk360.com/login/api/system/info) - workflow:HTTPClient attempt:0 status:200
+20200530T131758 I BrowserCache file size: 599 KB, "C:\Users\Heesu Kim\AppData\Local\Autodesk\Autodesk Fusion 360\KD53JQVUGPG6/NsCloudBrowserCache_handong41.dat"
+20200530T131758 I BrowserCache: number of thumbnails: 17
+20200530T131758 I Workflow start: /v1/licenses 1-5ed1de75-4b44412ebfbe4aeca801cdd1
+20200530T131800 I Request(https://api.v3license.access.clic.autodesk.com/v1/licenses) - workflow:/v1/licenses attempt:0 status:200
+20200530T131800 I Request(https://metering.autodesk.com/api/accounts/v1/KD53JQVUGPG6) - workflow:HTTPClient attempt:0 status:200
+20200530T131802 I Request(https://frv.ui-dls360.autodesk.com/api/v1/checkAccess) - workflow:HTTPClient attempt:0 status:200
+20200530T131802 I authenticate:end
+20200530T131802 I succesfully authenticated
+20200530T131802 I TOSS accepted
+20200530T131802 I Hub type: personal
+20200530T131802 I CheckingEntitlements
+20200530T131802 I  UserType: Student EntitlementType: Subscription
+20200530T131802 I Entitlement changed
+20200530T131802 I Hub  hasAPersonalSite=0, hasTeamHub=1, eHubStatus=0, isEntitled=1
+20200530T131802 I Workflow start: get_teamhub_preferences 1-5ed1de79-9302b68e72d64f0cbf9cdff7
+20200530T131804 I Migrate Options
+20200530T131804 I Load Cloud Options
+20200530T131804 I Request(https://login.autodesk360.com/login/api/preferences/guid?oauth_consumer_key=b8670f04-9acc-4ad0-8bcc-a21ba95bec91&oauth_nonce=d60038088a3f47e7a65dffac5a151ab5&oauth_signature=DAFPjrU1U1zP%2BRwM7JUxSNDphGE%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1590812283&oauth_token=TeY52%2BEBHZ1KTfGZFceboKWBawg%3D&oauth_version=1.0) - workflow:HTTPClient attempt:0 status:200
+20200530T131806 I Request(https://symphonydm.ft.autodesk.com/symphonydm/v2/hubs/handong41/preferences) - workflow:get_teamhub_preferences attempt:0 status:200
+20200530T131806 I LaunchDarkly client initialization process is not finished successfully!		ThreadID: 22648, Function: Ns::LDCSDKWrapper::initLDCallback, Line: 325
+20200530T131806 I LaunchDarkly client initialization process is finished successfully!		ThreadID: 13872, Function: Ns::LDCSDKWrapper::initLDCallback, Line: 321
+20200530T131808 I Reloaded option files: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/KD53JQVUGPG6/NGlobalOptions.xml
+20200530T131808 I ***startSession: END
+20200530T131808 I GAThread::queueReport the sending thread started
+20200530T131809 I fireApplicationActivate: 0
+20200530T131809 I fireApplicationActivate: done
+20200530T131809 I fireApplicationDeactivate: 0
+20200530T131809 I fireApplicationDeactivate: done
+20200530T131809 I fireApplicationActivate: 0
+20200530T131809 I fireApplicationActivate: done
+20200530T131809 I Graphics Card: Intel(R) UHD Graphics, Rating: Yellow, Workarounds: 4 
+20200530T131809 I OGS Device: VirtualDeviceDx11
+20200530T131809 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131809 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131809 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131809 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131810 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131812 I Local cache scan: 0.0477674 seconds, 3 items
+20200530T131812 I DownloadManager::started
+20200530T131812 I savingVersionLaunched		ThreadID: 12156, Function: Nu::WhatsNewBannerCmdDef::applicationReady, Line: 108
+20200530T131812 I last version: 2.0.8407		ThreadID: 12156, Function: Nu::UIApplication::saveVersionLaunched, Line: 86
+20200530T131812 I current version: 2.0.8407		ThreadID: 12156, Function: Nu::UIApplication::saveVersionLaunched, Line: 87
+20200530T131813 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131816 I JSManager - extracted archive to C:\Users\HEESUK~1\AppData\Local\Temp\Neutron\92f99f8f-9f7f-4543-8996-87eda1bdfd46
+20200530T131816 I Dashboard Size: initial size: width 100 height 30
+20200530T131816 I Dashboard Size: use parent size: width 0 height 600
+20200530T131816 I Dashboard Size createWebControl parent area - width 0 height: 600
+20200530T131820 I JSManager - extracted archive to C:\Users\HEESUK~1\AppData\Local\Temp\Neutron\b9d5d60d-bd3e-4794-a37f-5da1968d27bc
+20200530T131820 I Live update: start update check.
+20200530T131821 I Request(https://dl.appstreaming.autodesk.com/production/67316f5e79bc48318aa5f7b6bb58243d/73e72ada57b7480280f7a6f4a289729f/full.json) - workflow:HTTPClient attempt:0 status:200
+20200530T131821 I Live update: No update is detected from Fusion side.
+20200530T131821 I Live update: There is no need to do live update.
+20200530T131821 I Workflow start: /v1/licenses 1-5ed1de8c-99a02a36f4e544488b43be61
+20200530T131821 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131823 I Request(https://api.v3license.access.clic.autodesk.com/v1/licenses) - workflow:/v1/licenses attempt:0 status:200
+20200530T131823 I Request(https://metering.autodesk.com/api/accounts/v1/KD53JQVUGPG6) - workflow:HTTPClient attempt:0 status:200
+20200530T131824 I Request(https://frv.ui-dls360.autodesk.com/api/v1/checkAccess) - workflow:HTTPClient attempt:0 status:200
+20200530T131824 I Tool library url: file:///C:/Users/Heesu Kim/AppData/Local/Autodesk/webdeploy/production/2d2369abebef7185a0bd58a7adec00788a3017dc/Applications/CAM360/tool-library/index.html?language=en-US&serverType=FUSION_DESKTOP
+
+20200530T131824 I ServicesHealthStatus: Health Status changed from unknown to operational
+20200530T131824 I Live update: Start pending updates check.
+20200530T131824 I Live update: Update is in progress.
+20200530T131824 I Request(https://metering.autodesk.com/api/price/v1/KD53JQVUGPG6/fusion360manufacturingext?format=json) - workflow:HTTPClient attempt:0 status:200
+20200530T131824 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131825 I Request(https://metering.autodesk.com/api/price/v1/KD53JQVUGPG6/fusion360manufacturingext?format=json) - workflow:HTTPClient attempt:0 status:200
+20200530T131825 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131825 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml
+20200530T131825 I OfflineFileCache: update g^[DdP@DCGTLfM		ThreadID: 12156, Function: _updateTimeBomb, Line: 242
+20200530T131825 D Entered into Online mode result: 1
+20200530T131825 I EvergageWrapper:networkOk changed to:1
+20200530T131825 I Workflow start: CollaborationMetadataService_getMetadata 1-5ed1de90-0752e51d507b4f9e99e959d7
+20200530T131825 I Local render: Sync to cloud started. Checking for jobs to sync.
+20200530T131825 I Local render: Quit syncing to cloud. No more jobs in queue.
+20200530T131825 I Circuit Breaker A360 : Reset to Closed
+20200530T131825 I Circuit Breaker OSS : Reset to Closed
+20200530T131825 I Circuit Breaker WIP : Reset to Closed
+20200530T131825 I OnlineStatus OnlineUI online
+20200530T131825 I WIPService::getLineages lineages array is empty. This may be normal.
+20200530T131825 I (total 57.541s diff 57.541s) 	PERF: DashboardReady 57.5409s (time from start), version: 2.0.8407
+20200530T131825 I Request(https://metering.autodesk.com/api/accounts/v1/KD53JQVUGPG6) - workflow:HTTPClient attempt:0 status:200
+20200530T131826 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/KD53JQVUGPG6/NGlobalOptions.xml
+20200530T131826 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131826 I checkVersion		ThreadID: 12156, Function: Nu::WhatsNewBannerCmdDef::updateNoAction, Line: 114
+20200530T131826 I current version: 2.0.8407		ThreadID: 12156, Function: Nu::UIApplication::firstTimeVersionLaunched, Line: 111
+20200530T131826 I last version: 2.0.8407		ThreadID: 12156, Function: Nu::UIApplication::firstTimeVersionLaunched, Line: 115
+20200530T131826 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131826 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T131826 I Request(https://fusiondm.ft.autodesk.com/fusiondm/v3/collaborations) - workflow:CollaborationMetadataService_getMetadata attempt:0 status:200
+20200530T131826 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T131826 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131826 I PushNotification using new pub nub
+20200530T131826 I Workflow start: WIPRequest7 1-5ed1de92-039c48bbbbc449958001e1e7
+20200530T131826 I : urlChanged: file:///C:/Users/Heesu Kim/AppData/Local/Autodesk/webdeploy/production/2d2369abebef7185a0bd58a7adec00788a3017dc/FusionCDEHostApps/team-switcher/index.html?locale=en-US
+20200530T131826 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131826 I Cloud Libraries: Registered project D20200514297993701 for folder NestTranslationImportConfigurations
+20200530T131826 I Cloud Libraries: Registered project D20200514297993701 for folder NestTranslationExportConfigurations
+20200530T131826 I Cloud Libraries: Registered project D20200514297993701 for folder NestMaterials
+20200530T131827 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131827 I Workflow start: WIPRequest4 1-5ed1de92-9829dd6af60846f1b203881b
+20200530T131827 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131827 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/system) - workflow:WIPRequest7 attempt:0 status:200
+20200530T131827 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131827 I fetchTeams
+20200530T131827 I : loadFinished: 
+20200530T131827 I fetchTeams
+20200530T131827 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131828 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/folders/urn:adsk.wipprod:fs.folder:co.fJ-CTtBVTv-3v7oWwXeg_Q) - workflow:WIPRequest4 attempt:0 status:200
+20200530T131828 I (total 59.760s diff 2.219s) 	PERF: ModelingReady
+20200530T131828 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131828 I Request(https://notifications.prd.fusionapi.autodesk.com/v1/channel/a360prod:project:1220200514297993701) - workflow:PushNotificationManager attempt:0 status:200
+20200530T131828 I PushNotification got channel:NahxFfNXcUIK+MA1Z5AalWS+Akk=
+20200530T131828 I PushNotification starting channelName:a360prod:project:1220200514297993701 subscriberType:groupSubscription ChannelId:NahxFfNXcUIK+MA1Z5AalWS+Akk=
+20200530T131830 I Workflow start: save 1-5ed1de95-c75698eaab354df5a8df1f7d
+20200530T131830 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T131832 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131832 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131832 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131839 I Workflow start: WIPRequest7 1-5ed1de9e-6b1f3a2832ce4b898dd9ebd9
+20200530T131839 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/versionedfiles/urn%3Aadsk.wipprod%3Afs.file%3Avf._5rNWKAoQyScJT_hujE6XQ%3Fversion%3D2) - workflow:WIPRequest7 attempt:0 status:200
+20200530T131839 I Begin:	Open the Document with Lineage URI : urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ
+20200530T131839 I Workflow start: open 1-5ed1de9f-479784d01bb44ef299802e4c
+20200530T131839 I Opening latest version of the lineage urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ		ThreadID: 12156, Function: Nu::Commands::PLM360OpenAttachmentCmd::openAttachment, Line: 687
+20200530T131840 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131840 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131840 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/lineages/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ) - workflow:open attempt:0 status:200
+20200530T131841 I urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 26776 0 156 18829
+20200530T131841 I Â¾í»ƒí» Â¿Ï·á‡ŸÂ½4Ï´Ù€
+20200530T131841 I 1590812319140 1590812320565 5242880 8 16 60000 urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 26776 200 {"bucket_key":"fusion.prefs.login","key":"KD53JQVUGPG6_NGlobalOptions.xml","id":"urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml","size":"26776","sha1":"04dd950e94fdc798f7c9dac833caf94c5023e619","content_type":"application/stream","location":"https://developer.api.autodesk.com/oss/v2/buckets/fusion.prefs.login/objects/KD53JQVUGPG6_NGlobalOptions.xml"}
+20200530T131841 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/queryaccess) - workflow:open attempt:0 status:200
+20200530T131842 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/versionedfiles/urn%3Aadsk.wipprod%3Afs.file%3Avf._5rNWKAoQyScJT_hujE6XQ%3Fversion%3D2) - workflow:open attempt:0 status:200
+20200530T131842 I Begin:	Opening the document: smart_remote v2 at path: C:/Users/Heesu Kim/AppData/Local/Autodesk/Autodesk Fusion 360/KD53JQVUGPG6/W.login/F/_smart_remote.696efb88-7b57-4ee4-ac6a-85473b243626.f3d
+20200530T131842 I Workflow start: WIPRequest7 1-5ed1dea1-5f7172e87648463892984b9f
+20200530T131842 I Workflow start: collaborator 1-5ed1dea1-881084e935ce4929895e7754
+20200530T131842 I Request(https://handong41.autodesk360.com/login/rest/facade/corporateInviteSettings?oauth_consumer_key=b8670f04-9acc-4ad0-8bcc-a21ba95bec91&oauth_nonce=c4c1d1c820ce4ec3aad900e1d658fd98&oauth_signature=rcT6LKFNfKFV94MNCmda1bbTfGU%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1590812321&oauth_token=TeY52%2BEBHZ1KTfGZFceboKWBawg%3D&oauth_version=1.0) - workflow:HTTPClient attempt:0 status:200
+20200530T131842 I PushNotification using new pub nub
+20200530T131842 I PushNotification using new pub nub
+20200530T131842 I Time Taken:	0.69396250000000004
+20200530T131842 I End:	Opening the document: smart_remote v2 at path: C:/Users/Heesu Kim/AppData/Local/Autodesk/Autodesk Fusion 360/KD53JQVUGPG6/W.login/F/_smart_remote.696efb88-7b57-4ee4-ac6a-85473b243626.f3d
+20200530T131842 I Opened Document : _smart_remote.696efb88-7b57-4ee4-ac6a-85473b243626.f3d
+20200530T131842 I Time Taken:	3.0065773
+20200530T131842 I End:	Open the Document with Lineage URI : urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ
+20200530T131842 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/lineages/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ) - workflow:WIPRequest7 attempt:0 status:200
+20200530T131842 I Workflow start: WIPRequest7 1-5ed1dea2-fe26775efd5248a5bffff178
+20200530T131843 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T131843 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131843 I Graphics Rendering time in opening the document : 0.38748876282587807
+20200530T131843 I Total time in opening the document for user interaction : 3.3940292628258781
+20200530T131843 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131843 I Request(https://developer.api.autodesk.com/comments/v2/resources/dXJuOmFkc2sud2lwcHJvZDpkbS5saW5lYWdlOl81ck5XS0FvUXlTY0pUX2h1akU2WFE=) - workflow:HTTPClient attempt:0 status:200
+20200530T131843 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/lineages/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ/versions?limit=10&sort=DESC) - workflow:WIPRequest7 attempt:0 status:200
+20200530T131843 I Workflow start: WIPRequest4 1-5ed1dea2-be518e6b030f4b51a9305f48
+20200530T131843 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131843 I Request(https://notifications.prd.fusionapi.autodesk.com/v1/channel/urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ) - workflow:PushNotificationManager attempt:0 status:200
+20200530T131843 I PushNotification got channel:Xr3nhzykG7moaWDsnRxLSGWqqH4=
+20200530T131843 I PushNotification starting channelName:urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ subscriberType:lineageSubscription ChannelId:Xr3nhzykG7moaWDsnRxLSGWqqH4=
+20200530T131843 I Request(https://notifications.prd.fusionapi.autodesk.com/v1/channel/a360prod%3Agroup%3A71306143) - workflow:PushNotificationManager attempt:0 status:200
+20200530T131843 I PushNotification got channel:NgsLPHAVVThti4cEI9EoP1KZ+w=
+20200530T131843 I PushNotification starting channelName:a360prod:group:71306143 subscriberType:groupSubscription ChannelId:NgsLPHAVVThti4cEI9EoP1KZ+w=
+20200530T131843 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/statics) - workflow:collaborator attempt:0 status:200
+20200530T131843 I Workflow start: collaborator 1-5ed1dea3-7703a7c997244646be277391
+20200530T131843 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131844 D {"payload":"","retCode":0}
+20200530T131844 D {"payload":"","retCode":0}
+20200530T131844 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131844 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/lineages/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ) - workflow:WIPRequest4 attempt:0 status:200
+20200530T131844 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131844 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T131844 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131845 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200530T131857 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131859 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131905 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131915 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131931 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T131940 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131940 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131952 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131953 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131958 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T131958 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T132007 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T132008 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T132015 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T132016 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T132025 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T132025 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T132026 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T132026 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T132032 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T132046 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T132046 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T132053 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T132132 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T132141 E New Alert message. Tooltip: Split1, Short Message: Split1, Long Message: Split1
+20200530T132155 E New Alert message. Tooltip: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets., Short Message: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets., Long Message: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets.
+20200530T132155 E New Alert message. Tooltip: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets., Short Message: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets., Long Message: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets.
+20200530T132155 E New Alert message. Tooltip: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets., Short Message: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets., Long Message: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets.
+20200530T132155 E New Alert message. Tooltip: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets., Short Message: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets., Long Message: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets.
+20200530T132156 E New Alert message. Tooltip: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets., Short Message: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets., Long Message: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets.
+20200530T132156 E New Alert message. Tooltip: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets., Short Message: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets., Long Message: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets.
+20200530T132156 E New Alert message. Tooltip: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets., Short Message: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets., Long Message: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets.
+20200530T132156 E New Alert message. Tooltip: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets., Short Message: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets., Long Message: There was a problem accepting the sequences of edges to fillet. Try turning the Tangent Chain option off and splitting the edge sequences into shorter Selection Edge Sets.
+20200530T132233 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T132237 I fireApplicationDeactivate: 0
+20200530T132237 I fireApplicationDeactivate: done
+20200530T132238 I fireApplicationActivate: 0
+20200530T132238 I fireApplicationActivate: done
+20200530T132239 I fireApplicationDeactivate: 0
+20200530T132239 I fireApplicationDeactivate: done
+20200530T132240 I fireApplicationActivate: 0
+20200530T132240 I fireApplicationActivate: done
+20200530T132254 I Top level document smart_remote v2 needs to be autosaved, but its been disabled for autosave, probably because it is being edited by the user. Note that all its children have already been autosaved
+20200530T132254 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml
+20200530T132308 E New Alert message. Tooltip: DeleteFace1, Short Message: DeleteFace1, Long Message: DeleteFace1
+20200530T132334 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T132348 E New Alert message. Tooltip: DeleteFace1, Short Message: DeleteFace1, Long Message: DeleteFace1
+20200530T132354 I Top level document smart_remote v2 needs to be autosaved, but its been disabled for autosave, probably because it is being edited by the user. Note that all its children have already been autosaved
+20200530T132404 E New Alert message. Tooltip: There are no visible Surfaces to trim, Short Message: There are no visible Surfaces to trim, Long Message: There are no visible Surfaces to trim
+20200530T132407 E New Alert message. Tooltip: There are no visible Surfaces to trim, Short Message: There are no visible Surfaces to trim, Long Message: There are no visible Surfaces to trim
+20200530T132410 E New Alert message. Tooltip: There are no visible Surfaces to trim, Short Message: There are no visible Surfaces to trim, Long Message: There are no visible Surfaces to trim
+20200530T132412 E NEUTRON_BUG_ALERT(false)
+Function: Ns::ASMInterface::_check_outcome
+File: R:\Core\Neutron\Server\ASMInterface\ASMInterface.cpp
+Line: 6979
+Thread Info: [Name: Main], [Id: 12156]
+20200530T132412 E NEUTRON_BUG_ALERT(false)
+Function: Ns::ASMInterface::createSheetBodyFromFace
+File: R:\Core\Neutron\Server\ASMInterface\ASMInterface.cpp
+Line: 3992
+Thread Info: [Name: Main], [Id: 12156]
+20200530T132412 E NEUTRON_BUG_ALERT(false)
+Function: Ns::ASMInterface::getFacesFromBody
+File: R:\Core\Neutron\Server\ASMInterface\ASMQueryInterface.cpp
+Line: 277
+Thread Info: [Name: Main], [Id: 12156]
+20200530T132412 E New Alert message. Tooltip: There are no visible Surfaces to trim, Short Message: There are no visible Surfaces to trim, Long Message: There are no visible Surfaces to trim
+20200530T132413 E New Alert message. Tooltip: There are no visible Surfaces to trim, Short Message: There are no visible Surfaces to trim, Long Message: There are no visible Surfaces to trim
+20200530T132419 E New Alert message. Tooltip: There are no visible Surfaces to trim, Short Message: There are no visible Surfaces to trim, Long Message: There are no visible Surfaces to trim
+20200530T132421 E New Alert message. Tooltip: There are no visible Surfaces to trim, Short Message: There are no visible Surfaces to trim, Long Message: There are no visible Surfaces to trim
+20200530T132422 E New Alert message. Tooltip: There are no visible Surfaces to trim, Short Message: There are no visible Surfaces to trim, Long Message: There are no visible Surfaces to trim
+20200530T132422 E New Alert message. Tooltip: There are no visible Surfaces to trim, Short Message: There are no visible Surfaces to trim, Long Message: There are no visible Surfaces to trim
+20200530T132424 E New Alert message. Tooltip: There are no visible Surfaces to trim, Short Message: There are no visible Surfaces to trim, Long Message: There are no visible Surfaces to trim
+20200530T132425 E New Alert message. Tooltip: There are no visible Surfaces to trim, Short Message: There are no visible Surfaces to trim, Long Message: There are no visible Surfaces to trim
+20200530T132435 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T132454 I Started Autosave for: smart_remote v2. Document Type is: Fusion Document
+20200530T132455 I Finished autosaving document: smart_remote v2
+20200530T132504 E NEUTRON_BUG_ALERT(false)
+Function: Ns::ASMInterface::_check_outcome
+File: R:\Core\Neutron\Server\ASMInterface\ASMInterface.cpp
+Line: 6979
+Thread Info: [Name: Main], [Id: 12156]
+20200530T132504 E New Alert message. Tooltip:   The fillet/chamfer could not be created at the requested size.
+    Try adjusting the size, deselecting some of the edges (try disabling Tangent Chain), or using multiple separate operations., Short Message:   The fillet/chamfer could not be created at the requested size.
+    Try adjusting the size, deselecting some of the edges (try disabling Tangent Chain), or using multiple separate operations., Long Message:   The fillet/chamfer could not be created at the requested size.
+    Try adjusting the size, deselecting some of the edges (try disabling Tangent Chain), or using multiple separate operations.
+20200530T132507 E New Alert message. Tooltip:   The fillet/chamfer could not be created at the requested size. This might be occurring at the ends of the selected edges.
+    Try adjusting the size or using multiple separate operations. Check that the selected edge chain ends at a sensible position, and if not try selecting more edges., Short Message:   The fillet/chamfer could not be created at the requested size. This might be occurring at the ends of the selected edges.
+    Try adjusting the size or using multiple separate operations. Check that the selected edge chain ends at a sensible position, and if not try selecting more edges., Long Message:   The fillet/chamfer could not be created at the requested size. This might be occurring at the ends of the selected edges.
+    Try adjusting the size or using multiple separate operations. Check that the selected edge chain ends at a sensible position, and if not try selecting more edges.
+20200530T132510 E New Alert message. Tooltip:   The fillet/chamfer could not be created at the requested size. This might be occurring at the ends of the selected edges.
+    Try adjusting the size or using multiple separate operations. Check that the selected edge chain ends at a sensible position, and if not try selecting more edges., Short Message:   The fillet/chamfer could not be created at the requested size. This might be occurring at the ends of the selected edges.
+    Try adjusting the size or using multiple separate operations. Check that the selected edge chain ends at a sensible position, and if not try selecting more edges., Long Message:   The fillet/chamfer could not be created at the requested size. This might be occurring at the ends of the selected edges.
+    Try adjusting the size or using multiple separate operations. Check that the selected edge chain ends at a sensible position, and if not try selecting more edges.
+20200530T132535 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T132636 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T132736 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T132837 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T132842 I Workflow start: collaborator 1-5ed1e0fa-eb463b0260414c248c5e3e27
+20200530T132843 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T132844 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200530T132938 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T132950 E New Alert message. Tooltip:   The operation does not cause a meaningful shape change.
+    Try adjusting the values or changing the input geometry., Short Message:   The operation does not cause a meaningful shape change.
+    Try adjusting the values or changing the input geometry., Long Message:   The operation does not cause a meaningful shape change.
+    Try adjusting the values or changing the input geometry.
+20200530T132952 E New Alert message. Tooltip:   The operation does not cause a meaningful shape change.
+    Try adjusting the values or changing the input geometry., Short Message:   The operation does not cause a meaningful shape change.
+    Try adjusting the values or changing the input geometry., Long Message:   The operation does not cause a meaningful shape change.
+    Try adjusting the values or changing the input geometry.
+20200530T132954 I Top level document smart_remote v2 needs to be autosaved, but its been disabled for autosave, probably because it is being edited by the user. Note that all its children have already been autosaved
+20200530T132955 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml
+20200530T133000 E New Alert message. Tooltip:   The operation does not cause a meaningful shape change.
+    Try adjusting the values or changing the input geometry., Short Message:   The operation does not cause a meaningful shape change.
+    Try adjusting the values or changing the input geometry., Long Message:   The operation does not cause a meaningful shape change.
+    Try adjusting the values or changing the input geometry.
+20200530T133001 I Nominating force auto save as next command. Current Document: smart_remote v2
+20200530T133001 I Initiating force auto save for: smart_remote v2
+20200530T133001 I Next document selected for autosave is smart_remote v2, Selection happened based on top level document selected earlier
+20200530T133001 I Started forced Autosave for: smart_remote v2. Document Type is: Fusion Document
+20200530T133001 I Finished autosaving document: smart_remote v2
+20200530T133003 I Force auto save was successful for: smart_remote v2
+20200530T133038 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T133118 I *I* *** Validate check fixed 1 command state[s].  LastCmds=FusionHoleCommand,SelectCommand, Changes=QTPaletteFooter::onEnabledChanged()  Commit(E1), SelectEdgePriorityCommand(E1)
+20200530T133139 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T133238 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T133239 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T133240 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T133340 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T133441 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T133501 I Top level document smart_remote v2 needs to be autosaved, but its been disabled for autosave, probably because it is being edited by the user. Note that all its children have already been autosaved
+20200530T133501 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/KD53JQVUGPG6/NGlobalOptions.xml
+20200530T133501 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml
+20200530T133514 I urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 26946 16 188 16116
+20200530T133514 I Â¾í»ƒí» Â¿Ï·á‡ŸÂ½4Ï´Ù€
+20200530T133514 I 1590813312185 1590813313858 5242880 8 16 60000 urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 26946 200 {"bucket_key":"fusion.prefs.login","key":"KD53JQVUGPG6_NGlobalOptions.xml","id":"urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml","size":"26946","sha1":"c2d4fa3c0ef3f4266740319866eec3db53cb6afe","content_type":"application/stream","location":"https://developer.api.autodesk.com/oss/v2/buckets/fusion.prefs.login/objects/KD53JQVUGPG6_NGlobalOptions.xml"}
+20200530T133515 I Nominating force auto save as next command. Current Document: smart_remote v2
+20200530T133515 I Initiating force auto save for: smart_remote v2
+20200530T133515 I Next document selected for autosave is smart_remote v2, Selection happened based on top level document selected earlier
+20200530T133515 I Started forced Autosave for: smart_remote v2. Document Type is: Fusion Document
+20200530T133515 I Finished autosaving document: smart_remote v2
+20200530T133517 I Force auto save was successful for: smart_remote v2
+20200530T133542 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T133643 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T133743 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T133842 I Workflow start: collaborator 1-5ed1e352-7625dc2554c846e8af0d0622
+20200530T133843 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T133843 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200530T133844 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T133942 I fireApplicationDeactivate: 0
+20200530T133942 I fireApplicationDeactivate: done
+20200530T133945 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T134015 I Started Autosave for: smart_remote v2. Document Type is: Fusion Document
+20200530T134016 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/KD53JQVUGPG6/NGlobalOptions.xml
+20200530T134016 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml
+20200530T134016 I Finished autosaving document: smart_remote v2
+20200530T134033 I urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 26776 0 157 19030
+20200530T134033 I Â¾í»ƒí» Â¿Ï·á‡ŸÂ½4Ï´Ù€
+20200530T134033 I 1590813630628 1590813632041 5242880 8 16 60000 urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 26776 200 {"bucket_key":"fusion.prefs.login","key":"KD53JQVUGPG6_NGlobalOptions.xml","id":"urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml","size":"26776","sha1":"04dd950e94fdc798f7c9dac833caf94c5023e619","content_type":"application/stream","location":"https://developer.api.autodesk.com/oss/v2/buckets/fusion.prefs.login/objects/KD53JQVUGPG6_NGlobalOptions.xml"}
+20200530T134038 I fireApplicationActivate: 0
+20200530T134038 I fireApplicationActivate: done
+20200530T134038 I fireApplicationDeactivate: 0
+20200530T134038 I fireApplicationDeactivate: done
+20200530T134039 I fireApplicationActivate: 0
+20200530T134039 I fireApplicationActivate: done
+20200530T134040 I fireApplicationDeactivate: 0
+20200530T134040 I fireApplicationDeactivate: done
+20200530T134046 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T134147 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T134247 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T134348 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T134449 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T134549 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T134650 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T134747 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T134747 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T134750 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T134843 I Workflow start: collaborator 1-5ed1e5aa-f6766605214b4ef293c9869c
+20200530T134843 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T134844 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200530T134851 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T134952 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T135052 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T135055 I fireApplicationActivate: 0
+20200530T135055 I fireApplicationActivate: done
+20200530T135056 I fireApplicationDeactivate: 0
+20200530T135056 I fireApplicationDeactivate: done
+20200530T135134 I fireApplicationActivate: 0
+20200530T135134 I fireApplicationActivate: done
+20200530T135152 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T135213 I *I* *** Validate check fixed 2 command state[s].  LastCmds=SketchImportSVG,SelectCommand, Changes=SelectFacePriorityCommand(E0), SelectEdgePriorityCommand(E1)
+20200530T135230 I fireApplicationDeactivate: 0
+20200530T135230 I fireApplicationDeactivate: done
+20200530T135253 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T135319 I fireApplicationActivate: 0
+20200530T135319 I fireApplicationActivate: done
+20200530T135343 I fireApplicationDeactivate: 0
+20200530T135343 I fireApplicationDeactivate: done
+20200530T135345 I *I* *** Validate check fixed 1 command state[s].  LastCmds=Extrude,SelectCommand, Changes=QTPaletteFooter::onEnabledChanged()  Commit(E0)
+20200530T135350 I fireApplicationActivate: 0
+20200530T135350 I fireApplicationActivate: done
+20200530T135354 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T135401 I fireApplicationDeactivate: 0
+20200530T135401 I fireApplicationDeactivate: done
+20200530T135454 I fireApplicationActivate: 0
+20200530T135454 I fireApplicationActivate: done
+20200530T135454 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T135515 I Top level document smart_remote v2 needs to be autosaved, but its been disabled for autosave, probably because it is being edited by the user. Note that all its children have already been autosaved
+20200530T135515 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml
+20200530T135528 I *I* *** Validate check fixed 3 command state[s].  LastCmds=ConstrainedOrbitCommand,PanCommand, Changes=SelectBodyPriorityCommand(E1), HideCommandPaletteCommand(E1), HideCommandPaletteCommand(V1)
+20200530T135543 I Nominating force auto save as next command. Current Document: smart_remote v2
+20200530T135543 I Initiating force auto save for: smart_remote v2
+20200530T135543 I Next document selected for autosave is smart_remote v2, Selection happened based on top level document selected earlier
+20200530T135543 I Started forced Autosave for: smart_remote v2. Document Type is: Fusion Document
+20200530T135543 I Finished autosaving document: smart_remote v2
+20200530T135545 I Force auto save was successful for: smart_remote v2
+20200530T135555 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T135632 I fireApplicationDeactivate: 0
+20200530T135632 I fireApplicationDeactivate: done
+20200530T135655 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T135756 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T135842 I Workflow start: collaborator 1-5ed1e802-ac4b83f08319441d8acb65d6
+20200530T135843 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T135844 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200530T135857 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T135957 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T140058 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T140159 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T140254 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T140254 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T140300 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T140400 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T140501 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T140540 I fireApplicationActivate: 0
+20200530T140540 I fireApplicationActivate: done
+20200530T140600 I fireApplicationDeactivate: 0
+20200530T140600 I fireApplicationDeactivate: done
+20200530T140602 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T140630 I fireApplicationActivate: 0
+20200530T140630 I fireApplicationActivate: done
+20200530T140659 I *I* *** Validate check fixed 2 command state[s].  LastCmds=SketchImportSVG,PanCommand, Changes=SelectFacePriorityCommand(E0), SelectEdgePriorityCommand(E1)
+20200530T140702 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T140802 I *I* *** Validate check fixed 3 command state[s].  LastCmds=SketchImportSVG,SelectCommand, Changes=SelectBodyPriorityCommand(E0), SelectEdgePriorityCommand(E0), SelectComponentPriorityCommand(E0)
+20200530T140803 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T140809 I *I* *** Validate check fixed 2 command state[s].  LastCmds=SketchImportSVG,SelectCommand, Changes=SelectFacePriorityCommand(E0), SelectEdgePriorityCommand(E1)
+20200530T140842 I Workflow start: collaborator 1-5ed1ea5a-fbe188312cc2490698e74576
+20200530T140843 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T140844 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200530T140904 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T141005 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T141043 I Top level document smart_remote v2 needs to be autosaved, but its been disabled for autosave, probably because it is being edited by the user. Note that all its children have already been autosaved
+20200530T141043 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/KD53JQVUGPG6/NGlobalOptions.xml
+20200530T141043 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml
+20200530T141050 I urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 26946 0 156 18355
+20200530T141050 I Â¾í»ƒí» Â¿Ï·á‡ŸÂ½4Ï´Ù€
+20200530T141050 I 1590815448660 1590815450128 5242880 8 16 60000 urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 26946 200 {"bucket_key":"fusion.prefs.login","key":"KD53JQVUGPG6_NGlobalOptions.xml","id":"urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml","size":"26946","sha1":"c2d4fa3c0ef3f4266740319866eec3db53cb6afe","content_type":"application/stream","location":"https://developer.api.autodesk.com/oss/v2/buckets/fusion.prefs.login/objects/KD53JQVUGPG6_NGlobalOptions.xml"}
+20200530T141052 I Nominating force auto save as next command. Current Document: smart_remote v2
+20200530T141052 I Initiating force auto save for: smart_remote v2
+20200530T141052 I Next document selected for autosave is smart_remote v2, Selection happened based on top level document selected earlier
+20200530T141052 I Started forced Autosave for: smart_remote v2. Document Type is: Fusion Document
+20200530T141053 I Finished autosaving document: smart_remote v2
+20200530T141054 I Force auto save was successful for: smart_remote v2
+20200530T141105 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T141206 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T141300 I *I* *** Validate check fixed 4 command state[s].  LastCmds=PanCommand,PanCommand, Changes=SelectFacePriorityCommand(E0), SelectEdgePriorityCommand(E1), HideCommandPaletteCommand(E1), HideCommandPaletteCommand(V1)
+20200530T141305 I *I* *** Validate check fixed 2 command state[s].  LastCmds=PanCommand,PanCommand, Changes=SelectFacePriorityCommand(E1), SelectEdgePriorityCommand(E0)
+20200530T141307 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T141408 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T141508 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T141554 I Started Autosave for: smart_remote v2. Document Type is: Fusion Document
+20200530T141554 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/KD53JQVUGPG6/NGlobalOptions.xml
+20200530T141554 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml
+20200530T141554 I Finished autosaving document: smart_remote v2
+20200530T141609 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T141609 I urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 26776 0 172 12066
+20200530T141609 I Â¾í»ƒí» Â¿Ï·á‡ŸÂ½4Ï´Ù€
+20200530T141609 I 1590815766648 1590815768885 5242880 8 16 60000 urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 26776 200 {"bucket_key":"fusion.prefs.login","key":"KD53JQVUGPG6_NGlobalOptions.xml","id":"urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml","size":"26776","sha1":"04dd950e94fdc798f7c9dac833caf94c5023e619","content_type":"application/stream","location":"https://developer.api.autodesk.com/oss/v2/buckets/fusion.prefs.login/objects/KD53JQVUGPG6_NGlobalOptions.xml"}
+20200530T141709 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T141710 I Workflow start: WIPRequest4 1-5ed1ec55-ae415d44acee42c6838c34da
+20200530T141711 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/folders/urn:adsk.wipprod:fs.folder:co.fJ-CTtBVTv-3v7oWwXeg_Q) - workflow:WIPRequest4 attempt:0 status:200
+20200530T141715 I *I* *** Validate check fixed 2 command state[s].  LastCmds=PanCommand,SketchImportSVG, Changes=HideCommandPaletteCommand(E1), HideCommandPaletteCommand(V1)
+20200530T141722 I *I* *** Validate check fixed 2 command state[s].  LastCmds=PanCommand,SketchImportSVG, Changes=SelectFacePriorityCommand(E0), SelectEdgePriorityCommand(E1)
+20200530T141742 I *I* *** Validate check fixed 2 command state[s].  LastCmds=PanCommand,SketchImportSVG, Changes=SelectFacePriorityCommand(E1), SelectEdgePriorityCommand(E0)
+20200530T141744 I *I* *** Validate check fixed 2 command state[s].  LastCmds=PanCommand,SketchImportSVG, Changes=SelectFacePriorityCommand(E0), SelectEdgePriorityCommand(E1)
+20200530T141747 I *I* *** Validate check fixed 2 command state[s].  LastCmds=PanCommand,SketchImportSVG, Changes=SelectFacePriorityCommand(E1), SelectEdgePriorityCommand(E0)
+20200530T141758 I *I* *** Validate check fixed 2 command state[s].  LastCmds=PanCommand,SketchImportSVG, Changes=SelectFacePriorityCommand(E0), SelectEdgePriorityCommand(E1)
+20200530T141802 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T141802 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T141810 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T141843 I Workflow start: collaborator 1-5ed1ecb2-85f3fe979641490ca39e16a3
+20200530T141844 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T141844 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200530T141859 I *I* *** Validate check fixed 2 command state[s].  LastCmds=PanCommand,Extrude, Changes=QTPaletteFooter::onEnabledChanged()  Commit(E1), QTPaletteFooter::onEnabledChanged()  Commit(E0), HideCommandPaletteCommand(E1), HideCommandPaletteCommand(V1)
+20200530T141911 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T141954 I *I* *** Validate check fixed 2 command state[s].  LastCmds=SketchImportSVG,PanCommand, Changes=SelectFacePriorityCommand(E0), SelectEdgePriorityCommand(E1)
+20200530T142012 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T142054 I Started Autosave for: smart_remote v2. Document Type is: Fusion Document
+20200530T142054 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml
+20200530T142054 I Finished autosaving document: smart_remote v2
+20200530T142112 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T142213 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T142314 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T142414 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T142515 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T142554 I Top level document smart_remote v2 needs to be autosaved, but its been disabled for autosave, probably because it is being edited by the user. Note that all its children have already been autosaved
+20200530T142554 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml
+20200530T142616 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T142646 E Warning -  - This appearance cannot be deleted because it is linked with an applied Physical Material: Acetal Resin, White. To delete the appearance, first unassign and delete this material from the Physical Material command.
+20200530T142649 I Nominating force auto save as next command. Current Document: smart_remote v2
+20200530T142649 I Initiating force auto save for: smart_remote v2
+20200530T142649 I Next document selected for autosave is smart_remote v2, Selection happened based on top level document selected earlier
+20200530T142649 I Started forced Autosave for: smart_remote v2. Document Type is: Fusion Document
+20200530T142649 I Finished autosaving document: smart_remote v2
+20200530T142651 I Force auto save was successful for: smart_remote v2
+20200530T142717 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T142817 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T142843 I Workflow start: collaborator 1-5ed1ef0a-779d40b95434471a949eb643
+20200530T142843 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T142844 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200530T142917 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T143018 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T143101 I *I* *** Validate check fixed 2 command state[s].  LastCmds=PanCommand,AppearanceCommand, Changes=HideCommandPaletteCommand(E1), HideCommandPaletteCommand(V1)
+20200530T143119 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T143122 I *I* *** Validate check fixed 2 command state[s].  LastCmds=PanCommand,PanCommand, Changes=HideCommandPaletteCommand(E1), HideCommandPaletteCommand(V1)
+20200530T143149 I Top level document smart_remote v2 needs to be autosaved, but its been disabled for autosave, probably because it is being edited by the user. Note that all its children have already been autosaved
+20200530T143153 I Nominating force auto save as next command. Current Document: smart_remote v2
+20200530T143153 I Initiating force auto save for: smart_remote v2
+20200530T143153 I Next document selected for autosave is smart_remote v2, Selection happened based on top level document selected earlier
+20200530T143153 I Started forced Autosave for: smart_remote v2. Document Type is: Fusion Document
+20200530T143153 I Finished autosaving document: smart_remote v2
+20200530T143155 I Force auto save was successful for: smart_remote v2
+20200530T143219 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T143222 I fireApplicationDeactivate: 0
+20200530T143222 I fireApplicationDeactivate: done
+20200530T143225 I fireApplicationActivate: 0
+20200530T143225 I fireApplicationActivate: done
+20200530T143305 E Warning -  - This appearance cannot be deleted because it is linked with an applied Physical Material: Acetal Resin, White. To delete the appearance, first unassign and delete this material from the Physical Material command.
+20200530T143314 I *I* *** Validate check fixed 2 command state[s].  LastCmds=PanCommand,PanCommand, Changes=HideCommandPaletteCommand(E1), HideCommandPaletteCommand(V1)
+20200530T143320 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T143331 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T143331 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T143341 I *I* *** Validate check fixed 2 command state[s].  LastCmds=PanCommand,PanCommand, Changes=HideCommandPaletteCommand(E1), HideCommandPaletteCommand(V1)
+20200530T143420 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T143521 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T143622 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T143653 I Started Autosave for: smart_remote v2. Document Type is: Fusion Document
+20200530T143654 I Finished autosaving document: smart_remote v2
+20200530T143723 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T143823 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T143842 I Workflow start: collaborator 1-5ed1f162-c96571b43e8f479bbbf32c40
+20200530T143843 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T143844 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200530T143924 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T144024 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T144125 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T144154 I Top level document smart_remote v2 needs to be autosaved, but its been disabled for autosave, probably because it is being edited by the user. Note that all its children have already been autosaved
+20200530T144205 I Nominating force auto save as next command. Current Document: smart_remote v2
+20200530T144205 I Initiating force auto save for: smart_remote v2
+20200530T144205 I Next document selected for autosave is smart_remote v2, Selection happened based on top level document selected earlier
+20200530T144205 I Started forced Autosave for: smart_remote v2. Document Type is: Fusion Document
+20200530T144205 I Finished autosaving document: smart_remote v2
+20200530T144207 I Force auto save was successful for: smart_remote v2
+20200530T144226 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T144327 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T144427 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T144528 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T144629 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T144705 I Top level document smart_remote v2 needs to be autosaved, but its been disabled for autosave, probably because it is being edited by the user. Note that all its children have already been autosaved
+20200530T144729 I Nominating force auto save as next command. Current Document: smart_remote v2
+20200530T144729 I Initiating force auto save for: smart_remote v2
+20200530T144729 I Next document selected for autosave is smart_remote v2, Selection happened based on top level document selected earlier
+20200530T144729 I Started forced Autosave for: smart_remote v2. Document Type is: Fusion Document
+20200530T144729 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T144730 I Finished autosaving document: smart_remote v2
+20200530T144731 I Force auto save was successful for: smart_remote v2
+20200530T144831 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T144839 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T144839 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T144843 I Workflow start: collaborator 1-5ed1f3ba-bef83c2fedf445dc89bef970
+20200530T144844 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T144845 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200530T144931 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T145031 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T145132 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T145231 I Top level document smart_remote v2 needs to be autosaved, but its been disabled for autosave, probably because it is being edited by the user. Note that all its children have already been autosaved
+20200530T145231 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml
+20200530T145232 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T145308 I *I* *** Validate check fixed 2 command state[s].  LastCmds=PanCommand,PanCommand, Changes=HideCommandPaletteCommand(E1), HideCommandPaletteCommand(V1)
+20200530T145331 I Top level document smart_remote v2 needs to be autosaved, but its been disabled for autosave, probably because it is being edited by the user. Note that all its children have already been autosaved
+20200530T145333 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T145336 I Nominating force auto save as next command. Current Document: smart_remote v2
+20200530T145336 I Initiating force auto save for: smart_remote v2
+20200530T145336 I Next document selected for autosave is smart_remote v2, Selection happened based on top level document selected earlier
+20200530T145336 I Started forced Autosave for: smart_remote v2. Document Type is: Fusion Document
+20200530T145336 I Finished autosaving document: smart_remote v2
+20200530T145338 I Force auto save was successful for: smart_remote v2
+20200530T145434 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T145437 I *I* *** Validate check fixed 2 command state[s].  LastCmds=TextCmd,MirrorSketchCommand, Changes=SelectFacePriorityCommand(E1), SelectEdgePriorityCommand(E1)
+20200530T145504 I *I* *** Validate check fixed 1 command state[s].  LastCmds=TextCmd,MirrorSketchCommand, Changes=SelectEdgePriorityCommand(E0)
+20200530T145534 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T145635 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T145639 I Workflow start: save 1-5ed1f596-e92e90be36c242dcb538a754
+20200530T145641 E NEUTRON_BUG_ALERT(Attempting to set an invalid entity)
+Function: Ns::BREP::PassiveIdGenerator::entities
+File: R:\Core\Neutron\Server\Body\Serializer\PassiveIdGenerator.cpp
+Line: 432
+Thread Info: [Name: ], [Id: 13980]
+20200530T145641 E NEUTRON_BUG_ALERT(leaked ASM Entity. Please remember your reproduce steps and report it to Modeling Team.)
+Function: Ns::BREP::PassiveIdGenerator::prepareForSave
+File: R:\Core\Neutron\Server\Body\Serializer\PassiveIdGenerator.cpp
+Line: 277
+Thread Info: [Name: Main], [Id: 12156]
+20200530T145642 I Queued file: bd86be22-5796-45ee-ab26-a7e08a9014de.f3d in queue id: 1. Original Filename: _smart_remote.696efb88-7b57-4ee4-ac6a-85473b243626.f3d
+20200530T145642 I Number of items in queue 1 are 1.
+20200530T145642 I Uploader thread 0 picked up a file from the SmallIndependentFiles queue 1. Original File: _smart_remote.696efb88-7b57-4ee4-ac6a-85473b243626.f3d, Queued File: bd86be22-5796-45ee-ab26-a7e08a9014de.f3d
+20200530T145642 I Workflow start: WIPRequest7 1-5ed1f599-549dbe18475f43a0a7288b8f
+20200530T145643 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/lineages/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ/versions?limit=10&sort=DESC) - workflow:WIPRequest7 attempt:0 status:200
+20200530T145643 I Workflow start: WIPRequest4 1-5ed1f59a-031245ea311f4feeb1f9de9b
+20200530T145643 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/lineages/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ) - workflow:WIPRequest4 attempt:0 status:200
+20200530T145643 I Starting upload. Original File: _smart_remote, Queued File: bd86be22-5796-45ee-ab26-a7e08a9014de.f3d
+20200530T145643 I Workflow start: uploadDocument 1-5ed1f59b-19201fe9816c4fd0a9a58346
+20200530T145643 I INFO: adding new version	file: smart_remote.f3d	lineage Uri: urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ
+20200530T145643 I INFO: adding new version	file: smart_remote.f3d	lineage Uri: urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ
+20200530T145644 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/versionedfiles) - workflow:uploadDocument attempt:0 status:200
+20200530T145644 I New file versionUri: urn:adsk.wipprod:fs.file:vf._5rNWKAoQyScJT_hujE6XQ?version=3
+20200530T145645 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/lineages/urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ) - workflow:uploadDocument attempt:0 status:200
+20200530T145645 I INFO: version created for file: smart_remote.f3d
+20200530T145651 I urn:adsk.objects:os.object:wip.dm.prod/cde5e846-de4f-4a53-a06c-6b3bc2a100ba.f3d 1625645 16 172 270940
+20200530T145651 I Â¾í»ƒí» Â¿Ï·á‡ŸÂ½4Ï´Ù€
+20200530T145651 I 1590818205063 1590818211070 5242880 8 16 1800000 urn:adsk.objects:os.object:wip.dm.prod/cde5e846-de4f-4a53-a06c-6b3bc2a100ba.f3d 1625645 200 {"bucket_key":"wip.dm.prod","key":"cde5e846-de4f-4a53-a06c-6b3bc2a100ba.f3d","id":"urn:adsk.objects:os.object:wip.dm.prod/cde5e846-de4f-4a53-a06c-6b3bc2a100ba.f3d","size":"1625645","sha1":"d44cb30e103a4a07c19f2dba232deb8e437e6fca","content_type":"application/stream","location":"https://developer.api.autodesk.com/oss/v2/buckets/wip.dm.prod/objects/cde5e846-de4f-4a53-a06c-6b3bc2a100ba.f3d"}
+20200530T145652 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/entities/aggregate) - workflow:uploadDocument attempt:0 status:200
+20200530T145652 I Uploaded document smart_remote v3, Original File: _smart_remote, Queued File: bd86be22-5796-45ee-ab26-a7e08a9014de.f3d, Guid: a94cd28d-d28b-4241-9682-6f2d0c1f75b5, url: urn:adsk.wipprod:fs.file:vf._5rNWKAoQyScJT_hujE6XQ?version=3
+20200530T145652 I PushNotification found expired message
+20200530T145652 I PushNotification changing channel. current channel:a360prod:group:71306143 NgsLPHAVVThti4cEI9EoP1KZ+w=
+20200530T145652 I Workflow start: WIPRequest7 1-5ed1f5a4-b3db622a22d94be686ccf3e7
+20200530T145653 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/lineages/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ) - workflow:WIPRequest7 attempt:0 status:200
+20200530T145653 I Request(https://notifications.prd.fusionapi.autodesk.com/v1/channel/a360prod%3Agroup%3A71306143) - workflow:PushNotificationManager attempt:0 status:200
+20200530T145653 I PushNotification got channel:cFXtIJWqzt+hEzltyYHCzMnjrb0=
+20200530T145653 I PushNotification starting channelName:a360prod:group:71306143 subscriberType:groupSubscription ChannelId:cFXtIJWqzt+hEzltyYHCzMnjrb0=
+20200530T145653 I PushNotification message was found in history. channel:a360prod:group:71306143 id:cFXtIJWqzt+hEzltyYHCzMnjrb0=
+20200530T145653 I PushNotification changed channel to new channel:a360prod:group:71306143 cFXtIJWqzt+hEzltyYHCzMnjrb0=
+20200530T145653 I Workflow start: WIPRequest7 1-5ed1f5a5-58cb3fc026694889859190c8
+20200530T145654 I PushNotification found expired message
+20200530T145654 I PushNotification changing channel. current channel:urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ Xr3nhzykG7moaWDsnRxLSGWqqH4=
+20200530T145654 I urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6__handong41_RecentsWithoutSearch_1.json 970 0 0 1773
+20200530T145654 I 1590818212937 1590818213506 5242880 8 16 60000 urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6__handong41_RecentsWithoutSearch_1.json 970 200 
+20200530T145654 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/versionedfiles/urn%3Aadsk.wipprod%3Afs.file%3Avf._5rNWKAoQyScJT_hujE6XQ%3Fversion%3D3) - workflow:WIPRequest7 attempt:0 status:200
+20200530T145655 I Request(https://notifications.prd.fusionapi.autodesk.com/v1/channel/urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ) - workflow:PushNotificationManager attempt:0 status:200
+20200530T145655 I PushNotification got channel:Xr3nhzykG7moaWDsnRxLSGWqqH4=
+20200530T145656 I Request(https://notifications.prd.fusionapi.autodesk.com/v1/channel/urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ) - workflow:PushNotificationManager attempt:0 status:200
+20200530T145656 I PushNotification got channel:951+e9xgtDNsuRfOolcv5LAbqC4=
+20200530T145656 I PushNotification starting channelName:urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ subscriberType:lineageSubscription ChannelId:951+e9xgtDNsuRfOolcv5LAbqC4=
+20200530T145656 I PushNotification message was found in history. channel:urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ id:951+e9xgtDNsuRfOolcv5LAbqC4=
+20200530T145656 I PushNotification changed channel to new channel:urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ 951+e9xgtDNsuRfOolcv5LAbqC4=
+20200530T145657 I Request(https://developer.api.autodesk.com/comments/v2/resources/dXJuOmFkc2sud2lwcHJvZDpkbS5saW5lYWdlOl81ck5XS0FvUXlTY0pUX2h1akU2WFE=) - workflow:HTTPClient attempt:0 status:200
+20200530T145711 I fireApplicationDeactivate: 0
+20200530T145711 I fireApplicationDeactivate: done
+20200530T145735 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T145738 I fireApplicationActivate: 0
+20200530T145738 I fireApplicationActivate: done
+20200530T145742 I Dashboard Size timer - width 327 height: 1057
+20200530T145742 I Dashboard Size timer - width 402 height: 1057
+20200530T145745 I Dashboard Size timer - width 367 height: 1057
+20200530T145745 I Dashboard Size timer - width 1 height: 1057
+20200530T145745 I Dashboard Size timer - width 0 height: 1057
+20200530T145751 I Workflow start: saveas 1-5ed1f5de-9d4c2e46be6a477db545a3a0
+20200530T145752 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T145753 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/statics/delete) - workflow:collaborator attempt:0 status:200
+20200530T145757 I urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6__handong41_RecentsWithoutSearch_1.json 970 16 172 1016
+20200530T145757 I Â¾í»ƒí» Â¿Ï·á‡ŸÂ½4Ï´Ù€
+20200530T145757 I 1590818275887 1590818276836 5242880 8 16 60000 urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6__handong41_RecentsWithoutSearch_1.json 970 200 {"bucket_key":"fusion.prefs.login","key":"KD53JQVUGPG6__handong41_RecentsWithoutSearch_1.json","id":"urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6__handong41_RecentsWithoutSearch_1.json","size":"970","sha1":"aa831479347290f6663152448f347d347faa690c","content_type":"application/stream","location":"https://developer.api.autodesk.com/oss/v2/buckets/fusion.prefs.login/objects/KD53JQVUGPG6__handong41_RecentsWithoutSearch_1.json"}
+20200530T145759 I Workflow start: collaborator 1-5ed1f5e6-81af6f383eef469fbed628bc
+20200530T145800 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T145801 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/statics) - workflow:collaborator attempt:0 status:200
+20200530T145807 I fireApplicationDeactivate: 0
+20200530T145807 I fireApplicationDeactivate: done
+20200530T145819 I fireApplicationActivate: 0
+20200530T145819 I fireApplicationActivate: done
+20200530T145836 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T145843 I Workflow start: collaborator 1-5ed1f612-a44cbe1daa82430da342b66e
+20200530T145844 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T145845 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200530T145937 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T145951 I Request(https://handong41.autodesk360.com/data/api/export) - workflow:HTTPClient attempt:0 status:200
+20200530T145951 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/KD53JQVUGPG6/NGlobalOptions.xml
+20200530T145951 I Saved option file: C:/Users/Heesu Kim/AppData/Roaming/Autodesk/Neutron Platform/Options/NMachineSpecificOptions.xml
+20200530T145951 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T145957 I urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 26890 16 172 22634
+20200530T145957 I Â¾í»ƒí» Â¿Ï·á‡ŸÂ½4Ï´Ù€
+20200530T145957 I 1590818395854 1590818397032 5242880 8 16 60000 urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml 26890 200 {"bucket_key":"fusion.prefs.login","key":"KD53JQVUGPG6_NGlobalOptions.xml","id":"urn:adsk.objects:os.object:fusion.prefs.login/KD53JQVUGPG6_NGlobalOptions.xml","size":"26890","sha1":"f967441756f826afe48d126d9a11d25abacf6e2e","content_type":"application/stream","location":"https://developer.api.autodesk.com/oss/v2/buckets/fusion.prefs.login/objects/KD53JQVUGPG6_NGlobalOptions.xml"}
+20200530T150007 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150037 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T150043 E 1590818421471 1590818442730 GET https://handong41.autodesk360.com/data/api/export/3377699725111303 7 Failed to connect to handong41.autodesk360.com port 443: Timed out
+20200530T150043 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:0
+20200530T150112 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150127 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150138 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T150142 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150158 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150213 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150228 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150238 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T150244 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150259 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150308 I fireApplicationDeactivate: 0
+20200530T150308 I fireApplicationDeactivate: done
+20200530T150314 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150330 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150339 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T150345 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150346 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T150346 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T150400 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150416 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150431 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150440 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T150446 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150502 I Request(https://handong41.autodesk360.com/data/api/export/3377699725111303) - workflow:HTTPClient attempt:0 status:200
+20200530T150503 I Request(https://developer.api.autodesk.com/oss/v2/signedresources/0f07d423-f887-45c0-8627-02cd1925b95b?region=US&response-content-disposition=attachment%3Bfilename%3D%22304dd66e-7f19-44b0-9e10-0bc7e2c83519.f3d%22) - workflow:HTTPClient attempt:0 status:200
+20200530T150540 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T150641 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T150741 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T150842 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T150843 I Workflow start: collaborator 1-5ed1f86a-4baf2adfe0954f2ea0a94a12
+20200530T150844 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T150844 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200530T150942 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T151043 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T151144 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T151244 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T151345 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T151445 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T151546 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T151646 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T151747 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T151749 I Workflow start: WIPRequest4 1-5ed1fa8c-fe412d98dd7c49afba63a9fd
+20200530T151749 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/folders/urn:adsk.wipprod:fs.folder:co.fJ-CTtBVTv-3v7oWwXeg_Q) - workflow:WIPRequest4 attempt:0 status:200
+20200530T151803 I fireApplicationActivate: 0
+20200530T151803 I fireApplicationActivate: done
+20200530T151803 I fireApplicationDeactivate: 0
+20200530T151803 I fireApplicationDeactivate: done
+20200530T151843 I Workflow start: collaborator 1-5ed1fac2-b4ba15f29c834312a1d6134b
+20200530T151843 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T151844 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200530T151848 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T151853 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T151854 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T151948 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T152049 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T152150 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T152250 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T152352 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T152453 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T152553 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T152654 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T152754 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T152843 I Workflow start: collaborator 1-5ed1fd1a-0081846a1917433e91987d99
+20200530T152844 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T152845 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200530T152855 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T152955 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T153056 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T153156 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T153257 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T153358 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T153402 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T153402 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T153458 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T153559 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T153700 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T153801 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T153901 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T154002 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T154103 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T154203 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T154304 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T154404 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T154505 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T154605 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T154706 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T154806 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T154907 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T154909 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T154909 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T155008 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T155109 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T155209 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T155310 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T155411 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T155512 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T155612 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T155713 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T155814 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T155914 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T160015 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T160116 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T160217 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T160318 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T160417 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T160417 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T160418 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T160519 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T160620 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T160720 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T160820 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T160921 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T161021 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T161122 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T161222 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T161323 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T161423 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T161524 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T161624 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T161717 I Workflow start: WIPRequest4 1-5ed2087d-c9dd4f44976044e5a1daaf32
+20200530T161718 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/folders/urn:adsk.wipprod:fs.folder:co.fJ-CTtBVTv-3v7oWwXeg_Q) - workflow:WIPRequest4 attempt:0 status:200
+20200530T161725 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T161826 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T161924 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T161924 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T161926 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T162027 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T162128 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T162229 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T162329 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T162430 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T162531 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T162631 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T162732 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T162833 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T162934 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T163034 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T163135 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T163236 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T163338 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T163432 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T163432 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T163438 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T163539 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T163640 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T163740 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T163841 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T163941 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T164042 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T164143 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T164244 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T164345 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T164445 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T164546 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T164646 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T164747 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T164848 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T164939 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T164939 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T164948 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T165049 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T165150 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T165250 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T165351 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T165452 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T165552 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T165653 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T165753 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T165853 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T165954 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T170054 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T170155 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T170255 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T170356 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T170450 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T170451 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T170458 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T170558 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T170659 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T170800 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T170901 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T171001 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T171102 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T171203 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T171304 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T171404 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T171505 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T171605 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T171641 I Workflow start: WIPRequest4 1-5ed21668-6734533244484ba08913cb4c
+20200530T171642 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/folders/urn:adsk.wipprod:fs.folder:co.fJ-CTtBVTv-3v7oWwXeg_Q) - workflow:WIPRequest4 attempt:0 status:200
+20200530T171706 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T171806 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T171906 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T171958 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T171958 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T172007 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T172107 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T172208 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T172308 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T172409 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T172509 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T172610 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T172710 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T172811 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T172912 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T173013 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T173113 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T173213 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T173314 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T173415 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T173505 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T173506 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T173517 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T173617 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T173718 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T173818 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T173919 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T174020 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T174120 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T174220 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T174321 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T174422 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T174522 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T174623 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T174724 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T174824 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T174924 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T175012 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T175012 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T175025 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T175126 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T175226 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T175327 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T175428 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T175528 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T175629 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T175729 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T175830 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T175931 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T180032 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T180132 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T180233 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T180333 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T180434 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T180520 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T180520 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T180535 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T180635 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T180736 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T180836 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T180937 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T181038 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T181138 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T181238 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T181339 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T181440 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T181540 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T181604 I Workflow start: WIPRequest4 1-5ed22454-8b346a2713ff47958b747d95
+20200530T181605 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/folders/urn:adsk.wipprod:fs.folder:co.fJ-CTtBVTv-3v7oWwXeg_Q) - workflow:WIPRequest4 attempt:0 status:200
+20200530T181640 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T181741 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T181841 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T181845 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T181942 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T182027 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T182027 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T182043 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T182144 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T182244 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T182345 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T182445 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T182545 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T182646 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T182746 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T182847 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T182948 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T183048 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T183149 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T183250 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T183350 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T183451 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T183535 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T183535 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T183552 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T183653 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T183753 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T183854 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T183954 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T184055 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T184156 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T184256 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T184357 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T184458 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T184558 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T184659 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T184759 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T184900 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T185000 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T185041 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T185041 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T185100 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T185201 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T185301 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T185402 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T185502 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T185603 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T185703 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T185804 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T185904 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T190004 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T190105 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T190206 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T190307 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T190407 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T190508 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T190548 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T190548 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T190608 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T190710 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T190810 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T190911 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T191011 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T191112 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T191213 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T191313 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T191414 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T191514 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T191528 I Workflow start: WIPRequest4 1-5ed2323f-af085e8550a04fc78abcb63c
+20200530T191529 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/folders/urn:adsk.wipprod:fs.folder:co.fJ-CTtBVTv-3v7oWwXeg_Q) - workflow:WIPRequest4 attempt:0 status:200
+20200530T191615 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T191715 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T191816 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T191917 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T192017 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T192056 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T192056 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T192118 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T192218 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T192319 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T192419 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T192520 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T192620 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T192720 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T192821 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T192921 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T193022 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T193123 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T193223 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T193324 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T193425 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T193525 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T193603 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T193603 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T193626 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T193727 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T193828 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T193928 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T194028 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T194129 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T194230 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T194331 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T194431 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T194531 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T194632 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T194732 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T194833 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T194845 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T194933 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T195034 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T195111 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T195111 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T195134 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T195235 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T195335 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T195436 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T195536 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T195637 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T195737 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T195838 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T195938 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T200039 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T200139 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T200240 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T200340 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T200440 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T200541 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T200617 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T200617 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T200642 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T200743 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T200844 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T200945 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T201045 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T201146 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T201246 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T201347 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T201447 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T201452 I Workflow start: WIPRequest4 1-5ed2402b-45544423dc964f0589de014f
+20200530T201452 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/folders/urn:adsk.wipprod:fs.folder:co.fJ-CTtBVTv-3v7oWwXeg_Q) - workflow:WIPRequest4 attempt:0 status:200
+20200530T201548 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T201648 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T201749 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T201849 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T201949 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T202050 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T202125 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T202126 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T202150 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T202250 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T202351 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T202451 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T202552 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T202652 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T202752 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T202853 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T202953 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T203054 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T203155 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T203255 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T203356 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T203456 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T203557 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T203633 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T203633 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T203658 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T203759 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T203859 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T203959 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T204100 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T204200 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T204301 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T204401 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T204502 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T204602 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T204703 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T204804 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T204904 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T205005 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T205106 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T205140 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T205141 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T205207 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T205307 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T205408 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T205508 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T205609 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T205709 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T205810 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T205910 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T210011 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T210111 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T210211 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T210312 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T210413 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T210514 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T210614 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T210647 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T210647 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T210715 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T210817 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T210917 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T211018 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T211119 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T211219 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T211319 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T211415 I Workflow start: WIPRequest4 1-5ed24e17-2b730995d125405cb5b779f5
+20200530T211416 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/folders/urn:adsk.wipprod:fs.folder:co.fJ-CTtBVTv-3v7oWwXeg_Q) - workflow:WIPRequest4 attempt:0 status:200
+20200530T211416 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T211420 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T211520 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T211621 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T211721 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T211822 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T211922 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T212023 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T212124 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T212155 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T212155 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T212225 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T212325 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T212425 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T212526 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T212626 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T212727 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T212827 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T212928 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T213029 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T213130 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T213231 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T213331 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T213431 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T213532 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T213633 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T213702 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T213702 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T213733 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T213835 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T213935 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T214036 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T214137 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T214237 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T214337 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T214438 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T214538 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T214639 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T214739 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T214840 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T214940 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T215040 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T215141 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T215210 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T215210 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T215241 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T215342 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T215442 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T215543 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T215643 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T215744 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T215844 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T215945 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T220046 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T220146 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T220247 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T220347 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T220448 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T220548 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T220649 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T220716 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T220716 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T220750 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T220851 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T220951 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T221052 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T221153 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T221253 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T221339 I Workflow start: WIPRequest4 1-5ed25c02-1a2f13e2a39545d1a12ec9a1
+20200530T221340 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/folders/urn:adsk.wipprod:fs.folder:co.fJ-CTtBVTv-3v7oWwXeg_Q) - workflow:WIPRequest4 attempt:0 status:200
+20200530T221354 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T221455 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T221555 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T221656 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T221756 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T221857 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T221958 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T222058 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T222159 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T222224 I Request(https://a360-statusdashboard.s3.amazonaws.com/autodesk_maintenance.json) - workflow:HTTPClient attempt:0 status:200
+20200530T222224 I Request(https://ui-dls360.autodesk.com/fusion/maintenace_services.txt) - workflow:HTTPClient attempt:0 status:200
+20200530T222300 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T222400 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T222501 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T222601 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T222701 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_heartbeat attempt:0 status:200
+20200530T222735 I Workflow start: collaborator 1-5ed25f46-d9f4663b52b34c248ac1c740
+20200530T222736 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T222736 I fireApplicationActivate: 0
+20200530T222736 I fireApplicationActivate: done
+20200530T222736 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships) - workflow:collaborator attempt:0 status:204
+20200530T222737 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T222744 I PushNotification destroySubscriber channelName:urn:adsk.wipprod:dm.lineage:_5rNWKAoQyScJT_hujE6XQ
+20200530T222744 I Checking job manager state
+20200530T222744 I Executing exit command
+20200530T222744 I Running deferred session release tasks
+20200530T222744 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:200
+20200530T222745 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/relationships/urn%3Aadsk.wipprod%3Adm.lineage%3A_5rNWKAoQyScJT_hujE6XQ?includes=PARENTS) - workflow:collaborator attempt:0 status:200
+20200530T222747 I Request(https://developer.api.autodesk.com/wipdata-serv/storage/v3/statics/delete) - workflow:collaborator attempt:0 status:200
+20200530T222748 I Signal shutdown to script manager
+20200530T222748 I Script manager shut down done
+20200530T222748 I Exit now
+20200530T222748 I Workflow start: SLM_closeSession 1-5ed25f54-41150c6d582047cfa8bfe930
+20200530T222749 I Request(https://f360sc-p-ue1.api.cosv2-p-ue1-dn.autodesk.com/api/v1/sessions/21376266) - workflow:SLM_closeSession attempt:0 status:200
+20200530T222749 I SLM: session cleared
+20200530T222749 I Start QTApplication::exit
+20200530T222749 I Done QTApplication::exit
+20200530T222749 I Exit command end
+20200530T222749 E 1590845269278 1590845269283 POST https://ssl.google-analytics.com/collect 42 Callback aborted
+20200530T222749 I Request(https://ssl.google-analytics.com/collect) - workflow:HTTPClient attempt:0 status:0
+20200530T222749 E GAThread::sendReport failed to send this record
+20200530T222749 I fireApplicationClosing: 1
+20200530T222749 I fireApplicationClosing: done
+20200530T222751 I DownloadManager::stopped
+20200530T222752 I Deleting files that are older then 15 days from: "C:\Users\Heesu Kim\AppData\Local\Autodesk\Autodesk Fusion 360\KD53JQVUGPG6\W.login\F"
+20200530T222752 I OfflineFileCache: update g^[DdP@DB@WCaH		ThreadID: 12156, Function: _updateTimeBomb, Line: 242
+20200530T222752 I SLM: Shutdown
+20200530T222752 I fireApplicationClosing: 2
+20200530T222752 I fireApplicationClosing: done
+20200530T222753 I GAThread::stop wait for the sending thread to exit
+20200530T222753 I GAThread::stop sending thread exits now, stats:GAThread=>Pending:0, Running:0, Sent:56, Fail:1, 			
+ Throttle:1, SessionIdle:3.5222, SessionSent:6 			
+ Limits: SessionLimits:500, ThrottleLimits:50, GATimeout:14400 seconds
+20200530T222753 I GAWrapper terminating:GAWrapper Status=> Network:1, NetworkChangedTimes:0, IgnoredReportsDuringNetworkdown:186, totalReports:845
+20200530T222753 I AnalyticItemCounts Terminating with:0 items
+20200530T222753 I WorkflowTrackManager Terminating with:0 items

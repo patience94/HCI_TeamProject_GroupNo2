@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<locale xmlns="http://www.hsmworks.com/xml/2008/locale">
+
+  <description>Japanese</description>
+  <country>jp</country>
+
+  <!--
+	The entries in this file are used for localized text for feature flags,
+	as exposed in the Fusion preferences dialog.
+	
+	The formats used for the entries should be in the form shown here,
+	where in this case the feature flag name would be 'feature-flag'.
+	  <message name="feature-flag-name">English Feature Flag Name</message>
+	  <message name="feature-flag-desc">English Feature Flag Description</message>
+   	  <message name="feature-flag-infolink">English Feature Flag Info Link</message>
+  -->
+  <message name="Additive-General-name">積層造形</message>
+  <message name="Additive-General-desc">プリント パラメータを選択し、ビルドが成功するように自動的にパーツの方向を設定し、サポート構造とツールパスを生成します。直接エクスポートしてパウダー ベッド マシンを選択するか、または 3MF ファイルをエクスポートします。</message>
+  <message name="Additive-General-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-ADDITIVE-START</message>
+  
+  <message name="Additive-Tech-SLM-name">積層造形</message>
+  <message name="Additive-Tech-SLM-desc">粉末床金属積層造形用の作業スペースを追加します。マシンを選択し、プラットフォームにパーツを配置して方向を設定し、サポート構造を作成してモデルをスライスすることができます。レーザー パラメータが含まれているネイティブ ビルド ファイルまたは .3mf ファイルを出力します。</message>
+  <message name="Additive-Tech-SLM-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-ADDITIVE-START</message>
+
+  <message name="adaptive-turn-roughing-name">負荷制御旋盤</message>
+  <message name="adaptive-turn-roughing-desc">ボタン スタイルの工具に対して差込みが一定である旋盤ツールパスを生成します。</message>
+  <message name="adaptive-turn-roughing-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-TURN-ADAPTIVE-CMD</message>
+	
+  <message name="automatic-collision-avoidance-name">5 軸および衝突回避</message>
+  <message name="automatic-collision-avoidance-desc">工具軸設定を使用して、単一セットアップでパーツの多くの領域を加工できる多軸ツールパスを生成します。安全な加工を行うため、この多軸ツールパスでは軸またはホルダーとパーツ間の干渉を検出して回避できます。現在は、急斜面と緩斜面の加工法のみで有効です。</message>
+  <message name="automatic-collision-avoidance-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-3D-STEEP-SHALLOW-5X</message>
+
+  <message name="cutting-force-analysis-name">切削力の解析</message>
+  <message name="cutting-force-analysis-desc">シミュレーション中に切削力のデータを収集します。</message>
+
+  <message name="drill-wizard-name">穴認識</message>
+  <message name="drill-wizard-desc">穴の認識、工具の選択、および効率的な操作順序指定を自動的に行うことによりドリル加工を単純かつ高速にし、サイクルを速くします。</message>
+  <message name="drill-wizard-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-HOLE-RECOG</message>
+
+  <message name="hig-styled-qt-name">スタイルの更新</message>
+  <message name="hig-styled-qt-desc">Fusion の製造ダイアログ向けに、進行中のスタイル更新のプレビューを取得します。</message>
+
+  <message name="inspection-results-projection-name">サーフェス CAD 投影を検査</message>
+  <message name="inspection-results-projection-desc">パーツの形式または位置が CAD ファイルと異なるプローブ点を評価する際に、より正確な結果を提供します。サーフェス検査加工法の予期される点ではなく、CAD サーフェスを基準にして計測点の偏差を計算します。</message>
+  <message name="inspection-results-projection-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-PROBE-PROJECT-POINTS</message>
+	
+  <message name="live-machine-connection-name">ライブ マシン データ接続</message>
+  <message name="live-machine-connection-desc">サーフェス検査加工法で HAAS 社の制御機からプローブ点のライブ データを取得することで、リアルタイムで結果を評価します。</message>
+  <message name="live-machine-connection-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-PROBE-LIVE-CONNECTION</message>
+	
+  <message name="machine-configuration-name">マシン コンフィグ</message>
+  <message name="machine-configuration-desc">マシン コンフィグを使用してセットアップにマシンをリンクし、ポスト処理時にポスト プロセッサの自動選択と設定を行うことでポスト処理を高速化します。</message>
+  <message name="machine-configuration-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-MACHINE-CONFIGURATION</message>
+	
+  <message name="milling-continue-rest-machining-name">ミルの取残し加工を続行</message>
+  <message name="milling-continue-rest-machining-desc">[取残し加工を続行]を使用して、前の設定の操作の最後に残されたストック材料上にツールパスを生成することで、全体的な加工時間を改善します。現在はミーリングのみが対象です。</message>
+
+  <message name="old-turning-profile-strategy-name">古い輪郭旋盤</message>
+  <message name="old-turning-profile-strategy-desc">古い旋盤輪郭加工法を有効にします。これは期間限定で使用できます。</message>
+
+  <message name="probe-angle-measure-name">プローブ: 軸外角度計測</message>
+  <message name="probe-angle-measure-desc">[形状をプローブ]で垂直面の回転角度を計測できるようにします。</message>
+
+  <message name="probe-geometry-strategy-name">形状をプローブ</message>
+  <message name="probe-geometry-strategy-desc">マシン上でプローブ サイクルを使用して処理中のフィーチャを計測します。重要なフィーチャの寸法と位置を確認し、工具摩耗パラメータを更新し、プログラムを一時停止または停止して、修正作業を早めに行います。</message>
+  <message name="probe-geometry-strategy-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-PROBE-FEATURE</message>
+
+  <message name="setup-sheet-images-name">操作ごとの加工指示書イメージ</message>
+  <message name="setup-sheet-images-desc">名前の付いたビューと各操作の関連付けを許可します。加工指示書生成時にイメージが生成され、加工指示書に渡されます。</message>
+
+  <message name="spun-profile-v2-name">回転輪郭</message>
+  <message name="spun-profile-v2-desc">回転サーフェスから輪郭曲線を作成し、PowerMill のこの機能による旋削加工フィーチャの作成を改善します。</message>
+
+  <message name="strategy-blend-name">ブレンド加工法</message>
+  <message name="strategy-blend-desc">2 つのガイド レールとサーフェスの選択によって駆動される新しいブレンド加工法を使用して、サーフェスの仕上げを改善します。</message>
+
+  <message name="strategy-inspect-surface-name">サーフェス検査法</message>
+  <message name="strategy-inspect-surface-desc">プローブ パスを作成し、結果を評価します。パーツがマシン上検証の設計仕様を満たしていることを確認してください。</message>
+  <message name="strategy-inspect-surface-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-PROBE-INSPECT</message>
+
+  <message name="strategy-rotary-name">回転加工法</message>
+  <message name="strategy-rotary-desc">4 軸ミーリング向けの回転加工法を使用して、複雑な非ジオメトリ形状を加工します。</message>
+  <message name="strategy-rotary-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-MULTI-AXIS-ROTARY</message>
+	
+  <message name="strategy-steep-shallow-name">急斜面と緩斜面の加工法</message>
+  <message name="strategy-steep-shallow-desc">急斜面領域と緩斜面領域に単一ツールパスを使用して表面仕上げを改善し、安全に加工します。停留の跡を回避し、尖端を除去し、工具寿命を延ばします。</message>
+  <message name="strategy-steep-shallow-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-3D-STEEP-SHALLOW-CMD</message>
+
+  <message name="toolpath-trimming-name">ツールパス トリム</message>
+  <message name="toolpath-trimming-desc">ツールパス トリムを使用してツールパスの効率を向上させ、加工時間を短縮します。ポイントを配置してポリゴンを作成し、ツールパスの一部をポリゴンの内側と外側のどちらに維持するかを選択します。</message>
+  <message name="toolpath-trimming-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=FF-TOOLPATH-EDITING</message>
+  
+  <message name="tool-library-v4-name">工具ライブラリ</message>
+  <message name="tool-library-v4-desc">新しい工具ライブラリにより、工具の選択と編成を改善します。新しい工具ライブラリでは新しい外観と新機能が導入されており、パラメータの式や工具ごとの複数の切削パラメータ プリセットを使用できます。</message>
+  <message name="tool-library-v4-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-TOOL-LIBRARY-NEW</message>
+	
+</locale>

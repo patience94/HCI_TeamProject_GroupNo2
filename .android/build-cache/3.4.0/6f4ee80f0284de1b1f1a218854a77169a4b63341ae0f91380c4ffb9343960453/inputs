@@ -1,0 +1,12 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE.path=C:\Users\Heesu Kim\.gradle\caches\transforms-2\files-2.1\0870d8ee7a08eaeabc29a12ee8f4b687\jars\classes.jar
+FILE.hash=4850ffc399e6e09c7cf328e2535929ea3a43a17cd8ba23c5714db07b16467282
+DX_VERSION=1.16
+JUMBO_MODE=true
+OPTIMIZE=true
+DEXER_TOOL=D8
+CACHE_KEY_VERSION=4
+MIN_SDK_VERSION=23
+IS_DEBUGGABLE=false
+EXTRA_DEPENDENCIES[0].path=C:\Program Files\Unity\Hub\Editor\2019.2.21f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-28\android.jar
+EXTRA_DEPENDENCIES[0].hash=d20853d289a5161d9cf1c1268d7923076487d4fa68c970b0733e2d5a0ccfc3c5

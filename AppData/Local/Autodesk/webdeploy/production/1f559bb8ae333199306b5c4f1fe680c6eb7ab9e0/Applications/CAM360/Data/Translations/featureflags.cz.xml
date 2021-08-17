@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<locale xmlns="http://www.hsmworks.com/xml/2008/locale">
+
+  <description>Czech</description>
+  <country>cz</country>
+
+  <!--
+	The entries in this file are used for localized text for feature flags,
+	as exposed in the Fusion preferences dialog.
+	
+	The formats used for the entries should be in the form shown here,
+	where in this case the feature flag name would be 'feature-flag'.
+	  <message name="feature-flag-name">English Feature Flag Name</message>
+	  <message name="feature-flag-desc">English Feature Flag Description</message>
+   	  <message name="feature-flag-infolink">English Feature Flag Info Link</message>
+  -->
+  <message name="Additive-General-name">Additive Manufacturing</message>
+  <message name="Additive-General-desc">Vybírejte parametry tisku, automaticky orientujte součásti pro úspěšné sestavení a generujte podpůrné struktury a dráhy nástrojů. Exportujte přímo do vybraných strojů na tavení práškové vrstvy nebo exportujte soubor 3MF.</message>
+  <message name="Additive-General-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-ADDITIVE-START</message>
+  
+  <message name="Additive-Tech-SLM-name">Additive Manufacturing</message>
+  <message name="Additive-Tech-SLM-desc">Přidá pracovní prostory pro aditivní výrobu pomocí práškového kovu. Umožňuje vybrat stroj, uspořádat a orientovat součásti na platformě, vytvořit podpůrné struktury a řezat modely. Vytvoří výstup v podobě nativního souboru sestavení včetně parametrů laseru nebo souboru 3MF.</message>
+  <message name="Additive-Tech-SLM-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-ADDITIVE-START</message>
+
+  <message name="adaptive-turn-roughing-name">Adaptivní soustružení</message>
+  <message name="adaptive-turn-roughing-desc">Vytváří dráhy nástroje s konstantním zapojením soustružení pro nástroje stylu knoflíku.</message>
+  <message name="adaptive-turn-roughing-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-TURN-ADAPTIVE-CMD</message>
+	
+  <message name="automatic-collision-avoidance-name">5osé a vyhnutí se kolizi</message>
+  <message name="automatic-collision-avoidance-desc">Pomocí nastavení osy nástroje vygenerujte víceosou dráhu nástroje, která může obrobit více oblastí součásti v rámci jednoho nastavení. V zájmu bezpečnějšího obrábění je víceosá dráha nástroje schopna detekovat kolize dříku nebo držáku se součástí a vyhnout se jim. Aktuálně je určeno pouze pro strategii Strmé a mělké.</message>
+  <message name="automatic-collision-avoidance-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-3D-STEEP-SHALLOW-5X</message>
+
+  <message name="cutting-force-analysis-name">Analýza řezací síly</message>
+  <message name="cutting-force-analysis-desc">Shromažďuje data o řezací síle během simulace.</message>
+
+  <message name="drill-wizard-name">Rozpoznávání děr</message>
+  <message name="drill-wizard-desc">Zjednodušte a urychlete vrtání pomocí automatického rozpoznání díry, výběru nástrojů a efektivního pořadí operací a dosáhněte rychlejších cyklů.</message>
+  <message name="drill-wizard-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=EXT-MFG-HOLE-RECOG</message>
+
+  <message name="hig-styled-qt-name">Aktualizované styly</message>
+  <message name="hig-styled-qt-desc">Podívejte se, jak probíhá aktualizace stylů v dialozích aplikace Fusion Manufacturing.</message>
+
+  <message name="inspection-results-projection-name">Zkontrolovat projekci CAD povrchu</message>
+  <message name="inspection-results-projection-desc">Poskytuje přesnější výsledky při vyhodnocení sondovaných bodů, kde se umístění nebo tvar součásti liší od souboru CAD. Vypočítá odchylku měřeného bodu vzhledem k povrchu CAD, nikoli k očekávanému bodu strategie kontroly povrchu.</message>
+  <message name="inspection-results-projection-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-PROBE-PROJECT-POINTS</message>
+	
+  <message name="live-machine-connection-name">Živé připojení dat stroje</message>
+  <message name="live-machine-connection-desc">Výsledky můžete vyhodnotit v reálném čase získáním živých dat sondovaných bodů mimo řídicí systémy Haas pro strategii kontroly povrchu.</message>
+  <message name="live-machine-connection-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-PROBE-LIVE-CONNECTION</message>
+	
+  <message name="machine-configuration-name">Konfigurace strojů</message>
+  <message name="machine-configuration-desc">Propojte své stroje s nastaveními pomocí konfigurací strojů, čímž urychlíte následné zpracování díky automatickému výběru a konfiguraci postprocesoru v době následného zpracování.</message>
+  <message name="machine-configuration-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-MACHINE-CONFIGURATION</message>
+	
+  <message name="milling-continue-rest-machining-name">Pokračovat ve zbytkovém obrábění u frézování</message>
+  <message name="milling-continue-rest-machining-desc">Zlepšete celkový čas obrábění pomocí možnosti Pokračovat ve zbytkovém obrábění, díky níž se vytvoří dráha nástroje nad materiálem polotovaru, který zbyde na konci operací z předchozího nastavení. Aktuálně pouze u frézování.</message>
+
+  <message name="old-turning-profile-strategy-name">Staré soustružení profilu</message>
+  <message name="old-turning-profile-strategy-desc">Povolí staré strategie soustružení profilu. Tato možnost bude dostupná po omezenou dobu.</message>
+
+  <message name="probe-angle-measure-name">Sondování: Měření úhlu mimo osu</message>
+  <message name="probe-angle-measure-desc">Umožňuje geometrii sondy měřit úhel rotace vertikálních ploch.</message>
+
+  <message name="probe-geometry-strategy-name">Geometrie sondy</message>
+  <message name="probe-geometry-strategy-desc">Měřte prvky během procesu pomocí cyklů sondování vašeho stroje. Ověřujte kóty a pozice kritických prvků, aktualizujte parametry opotřebení nástroje a pozastavujte nebo zastavujte programy, abyste provedli včasnou nápravnou akci.</message>
+  <message name="probe-geometry-strategy-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-PROBE-FEATURE</message>
+
+  <message name="setup-sheet-images-name">Obrázek seřizovacího listu na operaci</message>
+  <message name="setup-sheet-images-desc">Umožňuje asociovat s každou operací pojmenovaný pohled. Při vytváření seřizovacího listu se vytvoří obrázek, který se následně seřizovacímu listu předá.</message>
+
+  <message name="spun-profile-v2-name">Stáčený profil</message>
+  <message name="spun-profile-v2-desc">Pomocí této funkce z aplikace PowerMill vytvoříte profilovou křivku z rotovaného povrchu a zlepšíte vytváření prvků soustružení.</message>
+
+  <message name="strategy-blend-name">Strategie přechodu</message>
+  <message name="strategy-blend-desc">Vylepšete dokončení povrchu pomocí nové strategie přechodu, která je řízena dvěma vodicími trajektoriemi a výběry povrchů.</message>
+
+  <message name="strategy-inspect-surface-name">Strategie kontroly povrchu</message>
+  <message name="strategy-inspect-surface-desc">Vytvořte cesty sond a vyhodnoťte výsledky. Pomocí ověření na stroji zkontrolujte, že součásti odpovídají specifikacím návrhu.</message>
+  <message name="strategy-inspect-surface-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-WFLOW-PROBE-INSPECT</message>
+
+  <message name="strategy-rotary-name">Rotační strategie</message>
+  <message name="strategy-rotary-desc">Obrábějte složité negeometrické tvary pomocí rotační strategie čtyřosého frézování.</message>
+  <message name="strategy-rotary-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-MULTI-AXIS-ROTARY</message>
+	
+  <message name="strategy-steep-shallow-name">Strategie pro strmé a mělké</message>
+  <message name="strategy-steep-shallow-desc">Zlepšete dokončování povrchu a obrábějte bezpečně s jedinou dráhou nástroje pro strmé i mělké oblasti. Zabráníte tím vzniku značek prodlevy, odstraníte nerovnosti a prodloužíte životnost nástroje.</message>
+  <message name="strategy-steep-shallow-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-3D-STEEP-SHALLOW-CMD</message>
+
+  <message name="toolpath-trimming-name">Oříznutí dráhy nástroje</message>
+  <message name="toolpath-trimming-desc">Pomocí oříznutí dráhy nástroje zvýšíte efektivitu dráhy nástroje a zkrátíte čas obrábění. Umístěním bodů vytvořte polygon a poté vyberte, zda chcete zachovat část dráhy nástroje, která je uvnitř polygonu, nebo část, která je vně polygonu.</message>
+  <message name="toolpath-trimming-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=FF-TOOLPATH-EDITING</message>
+  
+  <message name="tool-library-v4-name">Knihovna nástrojů</message>
+  <message name="tool-library-v4-desc">Vylepšete výběr a organizaci nástrojů pomocí nové knihovny nástrojů, která má svěží nový vzhled a nové funkce, které umožňují výrazy v parametrech a více předvoleb řezných parametrů na každý nástroj.</message>
+  <message name="tool-library-v4-infolink">https://help.autodesk.com/view/fusion360/ENU/?contextId=MFG-REF-TOOL-LIBRARY-NEW</message>
+	
+</locale>

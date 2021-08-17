@@ -1,0 +1,291 @@
+******************** Install Summary ******************** 
+
+Autodesk Maya 2020 (Bundle)
+Install State: INSTALLED
+	download summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:24:12 2020
+		Total time : 11min17sec
+	install summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:28:43 2020
+		Total time : 15min48sec
+
+Arnold for Maya 2020 (Optional - Application)
+Install State: INSTALLED
+	download summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:24:12 2020
+		Total time : 11min17sec
+	install summary
+		Start time : Fri Mar 27 14:15:31 2020
+		End time   : Fri Mar 27 14:28:43 2020
+		Total time : 13min12sec
+
+Autodesk Maya 2020 (Core - Application)
+Install State: INSTALLED
+	download summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:22:49 2020
+		Total time : 9min54sec
+	install summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:28:26 2020
+		Total time : 15min31sec
+
+Autodesk® Genuine Service (Essential - Package)
+Install State: INSTALLED
+	download summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:22:49 2020
+		Total time : 9min54sec
+	install summary
+		Start time : Fri Mar 27 14:27:20 2020
+		End time   : Fri Mar 27 14:27:31 2020
+		Total time : 11sec
+
+ODIS Installer (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:13:32 2020
+		Total time : 37sec
+
+Autodesk Maya 2020 (Core - Package)
+Install State: INSTALLED
+	download summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:22:09 2020
+		Total time : 9min14sec
+	install summary
+		Start time : Fri Mar 27 14:15:26 2020
+		End time   : Fri Mar 27 14:27:20 2020
+		Total time : 11min54sec
+
+Arnold for Maya 2020 (Core - Package)
+Install State: INSTALLED
+	download summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:24:12 2020
+		Total time : 11min17sec
+	install summary
+		Start time : Fri Mar 27 14:15:31 2020
+		End time   : Fri Mar 27 14:28:43 2020
+		Total time : 13min12sec
+
+Autodesk Desktop app (Essential - Package)
+Install State: INSTALLED
+	download summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:22:09 2020
+		Total time : 9min14sec
+	install summary
+		Start time : Fri Mar 27 14:27:20 2020
+		End time   : Fri Mar 27 14:28:26 2020
+		Total time : 1min6sec
+
+Microsoft Visual C++ 2017 Redistributable (x64) (Core - Package)
+Install State: INSTALLED
+	download summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:15:58 2020
+		Total time : 3min3sec
+	install summary
+		Start time : Fri Mar 27 14:15:58 2020
+		End time   : Fri Mar 27 14:16:01 2020
+		Total time : 3sec
+
+Microsoft Visual C++ 2010 SP1 Redistributable (x86) (Core - Package)
+Install State: INSTALLED
+	download summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:15:40 2020
+		Total time : 2min45sec
+	install summary
+		Start time : Fri Mar 27 14:15:40 2020
+		End time   : Fri Mar 27 14:15:48 2020
+		Total time : 8sec
+
+Autodesk Licensing (Core - Package)
+Install State: INSTALLED
+	download summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:16:54 2020
+		Total time : 3min59sec
+	install summary
+		Start time : Fri Mar 27 14:16:07 2020
+		End time   : Fri Mar 27 14:17:30 2020
+		Total time : 1min23sec
+
+Microsoft Visual C++ 2017 Redistributable (x86) (Core - Package)
+Install State: INSTALLED
+	download summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:16:07 2020
+		Total time : 3min12sec
+	install summary
+		Start time : Fri Mar 27 14:16:07 2020
+		End time   : Fri Mar 27 14:16:08 2020
+		Total time : 1sec
+
+Microsoft Visual C++ 2010 SP1 Redistributable (x64) (Core - Package)
+Install State: INSTALLED
+	download summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:15:36 2020
+		Total time : 2min41sec
+	install summary
+		Start time : Fri Mar 27 14:15:36 2020
+		End time   : Fri Mar 27 14:15:43 2020
+		Total time : 7sec
+
+Autodesk Single Sign On Component PRD (Core - Package)
+Install State: INSTALLED
+	download summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:15:26 2020
+		Total time : 2min31sec
+	install summary
+		Start time : Fri Mar 27 14:15:26 2020
+		End time   : Fri Mar 27 14:15:35 2020
+		Total time : 9sec
+
+Microsoft Visual C++ 2008 SP1 Redistributable (x64) (Core - Package)
+Install State: INSTALLED
+	download summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:15:31 2020
+		Total time : 2min36sec
+	install summary
+		Start time : Fri Mar 27 14:15:31 2020
+		End time   : Fri Mar 27 14:15:39 2020
+		Total time : 8sec
+
+Microsoft Visual C++ 2017 Redistributable (x86) (Core - Package)
+Install State: INSTALLED
+	download summary
+		Start time : Fri Mar 27 14:12:55 2020
+		End time   : Fri Mar 27 14:16:07 2020
+		Total time : 3min12sec
+	install summary
+		Start time : Fri Mar 27 14:16:07 2020
+		End time   : Fri Mar 27 14:16:08 2020
+		Total time : 1sec
+
+**************************** End *************************** 
+
+
+******************** Install Summary ******************** 
+
+Autodesk Maya 2020 (Bundle)
+Install State: INSTALLED
+	download summary
+		Start time : Mon Mar 30 08:35:16 2020
+		End time   : Mon Mar 30 08:35:51 2020
+		Total time : 35sec
+	install summary
+		Start time : Mon Mar 30 08:35:25 2020
+		End time   : Mon Mar 30 08:36:03 2020
+		Total time : 38sec
+
+Substance in Maya 2020 (Optional - Application)
+Install State: INSTALLED
+	download summary
+		Start time : Mon Mar 30 08:35:16 2020
+		End time   : Mon Mar 30 08:35:25 2020
+		Total time : 9sec
+	install summary
+		Start time : Mon Mar 30 08:35:25 2020
+		End time   : Mon Mar 30 08:35:27 2020
+		Total time : 2sec
+
+Bifrost Extension for Maya 2020 (Optional - Application)
+Install State: INSTALLED
+	download summary
+		Start time : Mon Mar 30 08:35:16 2020
+		End time   : Mon Mar 30 08:35:51 2020
+		Total time : 35sec
+	install summary
+		Start time : Mon Mar 30 08:35:51 2020
+		End time   : Mon Mar 30 08:36:03 2020
+		Total time : 12sec
+
+Bifrst 2.0.3.0 for Maya 2020 (Core - Package)
+Install State: INSTALLED
+	download summary
+		Start time : Mon Mar 30 08:35:16 2020
+		End time   : Mon Mar 30 08:35:51 2020
+		Total time : 35sec
+	install summary
+		Start time : Mon Mar 30 08:35:51 2020
+		End time   : Mon Mar 30 08:36:03 2020
+		Total time : 12sec
+
+Substance in Maya 2020 (Core - Package)
+Install State: INSTALLED
+	download summary
+		Start time : Mon Mar 30 08:35:16 2020
+		End time   : Mon Mar 30 08:35:25 2020
+		Total time : 9sec
+	install summary
+		Start time : Mon Mar 30 08:35:25 2020
+		End time   : Mon Mar 30 08:35:27 2020
+		Total time : 2sec
+
+**************************** End *************************** 
+
+
+******************** Install Summary ******************** 
+
+Autodesk Maya 2020 (Bundle)
+Install State: INSTALLED
+	install summary
+		Start time : Tue May 12 19:54:11 2020
+		End time   : Tue May 12 20:07:55 2020
+		Total time : 13min44sec
+
+Arnold for Maya 2020 (Optional - Application)
+Install State: INSTALLED
+	install summary
+		Start time : Tue May 12 20:07:42 2020
+		End time   : Tue May 12 20:07:55 2020
+		Total time : 13sec
+
+Autodesk Maya 2020 (Core - Application)
+Install State: INSTALLED
+	install summary
+		Start time : Tue May 12 19:54:11 2020
+		End time   : Tue May 12 20:07:42 2020
+		Total time : 13min31sec
+
+Autodesk Genuine Service (Essential - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Tue May 12 20:07:27 2020
+		End time   : Tue May 12 20:07:42 2020
+		Total time : 15sec
+
+Autodesk Maya 2020 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Tue May 12 19:54:11 2020
+		End time   : Tue May 12 20:07:27 2020
+		Total time : 13min16sec
+
+Arnold for Maya 2020 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Tue May 12 20:07:42 2020
+		End time   : Tue May 12 20:07:55 2020
+		Total time : 13sec
+
+Autodesk Single Sign On Component (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Tue May 12 19:54:11 2020
+		End time   : Tue May 12 19:54:21 2020
+		Total time : 10sec
+
+**************************** End *************************** 
+
+
