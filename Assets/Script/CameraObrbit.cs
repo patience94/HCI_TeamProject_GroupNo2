@@ -15,7 +15,7 @@ public class CameraObrbit : MonoBehaviour
     private Vector2 rotation;
     private Vector2 target = new Vector2(Mathf.PI * 3 / 2, Mathf.PI / 6);
     private Vector2 targetOnDown;
-
+ 
     [SerializeField]
     private float speed = 25.0f;
     [SerializeField]
@@ -32,11 +32,10 @@ public class CameraObrbit : MonoBehaviour
 
     void Start()
     {
-
         distanceTarget = transform.position.magnitude;
         thisCamera = GetComponent<Camera>();
         worldDefalutForward = transform.forward;
-
+        
     }
     // Update is called once per frame
 
@@ -132,6 +131,8 @@ public class CameraObrbit : MonoBehaviour
     void FocusCheck()
     {
 
+        
+
         if (!focusOn)
         {
             RaycastHit hit;
@@ -144,6 +145,7 @@ public class CameraObrbit : MonoBehaviour
                 Debug.Log("FocusOn");
                 StartCoroutine(FocusConstellation(hit));
                 focusOn = true;
+                
             }
            
 
@@ -157,7 +159,9 @@ public class CameraObrbit : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition); 
         int layerMask = 1 << LayerMask.NameToLayer("Constellation");
         Constellation temp = focustarget.collider.GetComponent<Constellation>();
+        Explanation explanation = focustarget.collider.GetComponent<Explanation>();
         temp.FadeStart();
+        explanation.FadeStart();
 
 
         while (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, layerMask))
@@ -169,6 +173,7 @@ public class CameraObrbit : MonoBehaviour
 
         Debug.Log("FocusOff");
         temp.FadeReset();
+        explanation.FadeReset();
         focusOn = false;
 
     }

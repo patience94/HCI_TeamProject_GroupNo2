@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ConstellationMode.unity
     guid: 1347bdd8ab6dcbf4194f182fa37318bf
+  - enabled: 1
+    path: Assets/Scenes/CheckMySign.unity
+    guid: 11fa26f6d1f6e354cbcbf688a83ec69e
+  - enabled: 1
+    path: Assets/Scenes/Setting.unity
+    guid: 82756f965b8947044a4c2944f40a9b67
   m_configObjects: {}
