@@ -1,0 +1,33 @@
+# Configuration file for multitouch gestures
+# Format:
+# thresholdName = value1 ; value2 ; value3 ; value4 ; value5 ; value6
+# where:
+# value1 is for opaque tablets
+# value2 is for multitouch integrated displays
+# value3 is for apple magic mouse
+# value4 is for apple ipad
+# value5 is for apple built-in trackpad
+# value6 is for apple magic trackpad
+# if only one value per threshold is listed
+# all devices will adopt that same value for the given threshold
+MTTH_ONEFINGER_TAP_TIME						= 0.25 ; 0.25 ; 0.25 ; 0.25 ; 0.25 ; 0.25
+MTTH_ONEFINGER_HOLD_TIME					= 1.0 ; 1.0 ; 1.0 ; 1.0 ; 1.0 ; 1.0
+MTTH_ONEFINGER_HOLD_DISTANCE				= 10.0 ; 10.0 ; 75.0 ; 10.0 ; 75.0 ; 75.0
+MTTH_ONEFINGER_SWIPE_MULTIPLIER				= 1.0 ; 1.0 ; 0.5 ; 1.0 ; 1.0 ; 1.0
+MTTH_TWOFINGER_EVENT_COUNTER				= 10.0 ; 10.0 ; 10.0 ; 10.0 ; 10.0 ; 10.0
+MTTH_TWOFINGER_SEGMENT_DISTANCE				= 5.0 ; 50.0 ; 5.0 ; 50.0 ; 5.0 ; 5.0
+MTTH_TWOFINGER_HOLD_DISTANCE				= 10.0 ; 10.0 ; 10.0 ; 10.0 ; 10.0 ; 10.0
+MTTH_TWOFINGER_DELTASEGMENT_RATIO			= 0.2 ; 0.1 ; 0.2 ; 0.0 ; 0.2 ; 0.2
+MTTH_TWOFINGER_PINCHEXPAND_MULTIPLIER		= 1.0 ; 1.0 ; 1.0 ; 1.0 ; 1.0 ; 1.0
+MTTH_TWOFINGER_TRAVELSEGMENT_RATIO			= 10.0 ; 10.0 ; 10.0 ; 10.0 ; 10.0 ; 10.0
+MTTH_TWOFINGER_TRAVELCENTROIDPOINT_RATIO 	= 0.4 ; 0.4 ; 0.4 ; 0.4 ; 0.4 ; 0.4
+MTTH_TWOFINGER_TRAVEL_MULTIPLIER			= 1.0 ; 1.0 ; 1.0 ; 1.0 ; 1.0 ; 1.0
+MTTH_TWOFINGER_PINCHEXPAND_RATIO			= 0.3 ; 0.3 ; 0.3 ; 0.3 ; 0.3 ; 0.3	
+MTTH_ROLL_MIN_ROTATIVITY					= 0.1 ; 0.1 ; 1.0 ; 0.1 ; 1.0 ; 1.0
+MTTH_TWOFINGER_SWIPE_MAX_DIVERGENCE			= 0.7071 ; 0.7071 ; 0.7071 ; 0.7071 ; 0.7071 ; 0.7071
+MTTH_GESTURE_TIMER_MINTIME					= 2.0 ; 2.0 ; 2.0 ; 2.0 ; 2.0 ; 2.0
+MTTH_PROCESSEVENT_TIMER_TIME				= 20.0 ; 20.0 ; 20.0 ; 20.0 ; 20.0 ; 20.0
+MTTH_PROCESSEVENT_MAXTIME_MULTIPLIER		= 0.5 ; 0.5 ; 0.5 ; 0.5 ; 0.5 ; 0.5
+MTTH_PALM_MINIMUM_WIDTH						= 80.0 ; 200.0 ; 80.0 ; 80.0 ; 80.0 ; 80.0
+MTTH_PALM_USE_CONFIDENCE					= 1 ; 1 ; 1 ; 1 ; 1 ; 1
+MTTH_PEN_TOUCHEXCLUSION_RADIUS				= 0 ; 0 ; 0 ; 0 ; 0 ; 0

@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Login from './pages/Login'
-import SelectDorm from './pages/SelectDorm'
-import SelectFloor from './pages/SelectFloor'
-import SelectTeam from './pages/SelectTeam'
-import SelectRoom from './pages/SelectRoom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Login from './pages/Login';
+import SelectDorm from './pages/SelectDorm';
+import SelectFloor from './pages/SelectFloor';
+import SelectTeam from './pages/SelectTeam';
+import SelectRoom from './pages/SelectRoom';
 import Layout from './components/Layout';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core'
 
@@ -29,19 +29,19 @@ function App() {
       <Router>
         <Layout>
           <Switch>
-            <Route path="/Login">
+            <Route path="/Login" component={Login}>
               <Login />
             </Route>
-            <Route path="/SelectDorm">
+            <Route path="/SelectDorm" component={SelectDorm}>
               <SelectDorm />
             </Route>
-            <Route exact path="/">
+            <Route path="/SelectFloor" component={SelectFloor}>
               <SelectFloor />
             </Route>
-            <Route path="/SelectTeam">
+            <Route path="/SelectTeam" component={SelectTeam}>
               <SelectTeam />
             </Route>
-            <Route path="/SelectRoom">
+            <Route path="/SelectRoom" component={SelectRoom}>
               <SelectRoom />
             </Route>
           </Switch>

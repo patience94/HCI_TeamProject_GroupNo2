@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="0.12in" devLabel="0.12in" translation="0,12 pollici"/>
+	<label commandName="0.1in" devLabel="0.1in" translation="0,1 pollici"/>
+	<label commandName="0.24in" devLabel="0.24in" translation="0,24 pollici"/>
+	<label commandName="10.0mm" devLabel="10.0mm" translation="10,0 mm"/>
+	<label commandName="2.5mm" devLabel="2.5mm" translation="2,5 mm"/>
+	<label commandName="3.5mm" devLabel="3.5mm" translation="3,5 mm"/>
+	<label commandName="5.0mm" devLabel="5.0mm" translation="5,0 mm"/>
+	<label commandName="7.0mm" devLabel="7.0mm" translation="7,0 mm"/>
+	<label commandName="ActivityFeed" devLabel="Comments" translation="Commenti"/>
+	<label commandName="AddTitleBlock" devLabel="Add Title Block" translation="Aggiungi cartiglio"/>
+	<label commandName="AddTitleBlockEllipsis" devLabel="Add Title Block..." translation="Aggiungi cartiglio..."/>
+	<label commandName="AddTitleBlockFileDialogFilter" devLabel="AutoCAD drawing files" translation="File di disegno di AutoCAD"/>
+	<label commandName="AllSheetsMulti" devLabel="All Sheets (Multi-File)" translation="Tutti i fogli (più file)"/>
+	<label commandName="AllSheetsSingle" devLabel="All Sheets (Single File)" translation="Tutti i fogli (file singolo)"/>
+	<label commandName="AlternatePrecision" devLabel="Alternate Precision" translation="Precisione alternativa"/>
+	<label commandName="AlternateUnits" devLabel="Alternate Units" translation="Unità alternative"/>
+	<label commandName="Angular" devLabel="Angular" translation="Angolare"/>
+	<label commandName="Annotation" devLabel="Annotation" translation="Annotazione"/>
+	<label commandName="AppearanceGroup" devLabel="Appearance" translation="Aspetto"/>
+	<label commandName="Approved" devLabel="Approved" translation="Approvato"/>
+	<label commandName="ApprovedBy" devLabel="Approved by" translation="Approvato da"/>
+	<label commandName="ApprovedDate" devLabel="" translation=""/>
+	<label commandName="AssemblyReprensentation" devLabel="Assembly" translation="Assieme"/>
+	<label commandName="AssetReference" devLabel="Reference" translation="Riferimento"/>
+	<label commandName="AttCustom" devLabel="Custom" translation="Personalizzato"/>
+	<label commandName="AttDrawingScale" devLabel="Drawing Scale" translation="Scala disegno"/>
+	<label commandName="AttDrawnBy" devLabel="Drawn By" translation="Disegnato da"/>
+	<label commandName="AttDrawnDate" devLabel="Drawn Date" translation="Data disegno"/>
+	<label commandName="AttPaperSize" devLabel="Paper Size" translation="Dimensioni foglio"/>
+	<label commandName="AttProjectName" devLabel="Project Name" translation="Nome progetto"/>
+	<label commandName="AttSheetNumber" devLabel="Sheet Number" translation="Numero foglio"/>
+	<label commandName="AttTitle1" devLabel="Title 1" translation="Titolo 1"/>
+	<label commandName="AutocadDWG" devLabel="AutoCAD DWG" translation="AutoCAD DWG"/>
+	<label commandName="AutocadDXF" devLabel="AutoCAD DXF" translation="AutoCAD DXF"/>
+	<label commandName="Automatic" devLabel="Automatic" translation="Automatico"/>
+	<label commandName="Back" devLabel="Back" translation="Indietro"/>
+	<label commandName="BendExtents" devLabel="Bend Extents" translation="Estensioni piega"/>
+	<label commandName="Bottom" devLabel="Bottom" translation="Parte inferiore"/>
+	<label commandName="Browser" devLabel="Browser" translation="Browser"/>
+	<label commandName="BulletOptions" devLabel=" " translation=" "/>
+	<label commandName="Bullets" devLabel="Bullets" translation="Elenchi puntati"/>
+	<label commandName="CenterPatternReferenceEdgeSelectionInput" devLabel="Reference Edge" translation="Spigolo di riferimento"/>
+	<label commandName="CenterPatternSelectionInput" devLabel="Selection" translation="Selezione"/>
+	<label commandName="ChatSupport" devLabel="Chat with an Expert" translation="Parla in chat con un esperto"/>
+	<label commandName="Checked" devLabel="Checked" translation="Selezionata"/>
+	<label commandName="CheckedDate" devLabel="" translation=""/>
+	<label commandName="CloudStoreMustBeLoggedIn" devLabel="You must be logged in to perform this action." translation="È necessario eseguire il login per eseguire questa azione."/>
+	<label commandName="Code" devLabel="Code" translation="Codice"/>
+	<label commandName="ColumnDown" devLabel="Down" translation="In basso"/>
+	<label commandName="ColumnUp" devLabel="Up" translation="In alto"/>
+	<label commandName="Columns" devLabel="Columns" translation="Colonne"/>
+	<label commandName="ColumnsTable" devLabel="Columns" translation="Colonne"/>
+	<label commandName="ComponentReprensentation" devLabel="Component" translation="Componente"/>
+	<label commandName="ConfirmExitToModelWorkspace" devLabel="To create a drawing we'll need to switch to the modeling workspace." translation="Per creare un disegno, è necessario passare all'area di lavoro di modellazione."/>
+	<label commandName="Continue" devLabel="Continue" translation="Continua"/>
+	<label commandName="Continue Editing" devLabel="Continue Editing" translation="Continua la modifica"/>
+	<label commandName="CopyTransformPtTooltip" devLabel="Point to Point" translation="Da punto a punto"/>
+	<label commandName="CreateDrawingFromPreviousVersion" devLabel="Create Drawing from previous version instead?" translation="Creare un disegno dalla versione precedente?"/>
+	<label commandName="CreateNewDrawingInput" devLabel="Create New" translation="Crea nuovo"/>
+	<label commandName="CreateNewRef" devLabel="Create New" translation="Crea nuovo"/>
+	<label commandName="CreatedBy" devLabel="Created by" translation="Creato da"/>
+	<label commandName="CreatedDate" devLabel="" translation=""/>
+	<label commandName="CurrentSheet" devLabel="Current Sheet" translation="Foglio corrente"/>
+	<label commandName="Custom" devLabel="Custom" translation="Personalizzato"/>
+	<label commandName="CutBody" devLabel="Body Participating In Cut" translation="Corpo partecipante al taglio"/>
+	<label commandName="CutComponent" devLabel="Component Participating In Cut" translation="Componente partecipante al taglio"/>
+	<label commandName="CutInheritance" devLabel="Inherit Cut" translation="Eredita taglio"/>
+	<label commandName="DWG File" devLabel="DWG File" translation="File DWG"/>
+	<label commandName="DWGFilter2010" devLabel="AutoCAD 2010 Drawing (*.dwg)" translation="Disegno di AutoCAD 2010 (*.dwg)"/>
+	<label commandName="DWGFilter2013" devLabel="AutoCAD 2013 Drawing (*.dwg)" translation="Disegno di AutoCAD 2013 (*.dwg)"/>
+	<label commandName="DXFFilter2010" devLabel="AutoCAD 2010 Drawing (*.dxf)" translation="Disegno di AutoCAD 2010 (*.dxf)"/>
+	<label commandName="DXFFilter2013" devLabel="AutoCAD 2013 Drawing (*.dxf)" translation="Disegno di AutoCAD 2013 (*.dxf)"/>
+	<label commandName="DashboardCreateFusionDrawingCommand" devLabel="Dashboard Create Drawing" translation="Crea disegno plancia di comando"/>
+	<label commandName="DateOfIssue" devLabel="Date of issue" translation="Data di emissione"/>
+	<label commandName="Decimal" devLabel="Decimal" translation="Decimale"/>
+	<label commandName="DefaultRateValue" devLabel="" translation=""/>
+	<label commandName="DefaultSelectionInputText" devLabel="Select" translation="Seleziona"/>
+	<label commandName="DesignVersions" devLabel="Versions" translation="Versioni"/>
+	<label commandName="DestinationGroupStart" devLabel="Destination" translation="Destinazione"/>
+	<label commandName="Deviation" devLabel="Deviation" translation="Deviazione"/>
+	<label commandName="DimensionUnitsBrowserLabel" devLabel="Dimension Units: " translation="Unità di quota: "/>
+	<label commandName="DimensionUnitsBrowserTooltip" devLabel="Change Dimension Units" translation="Modifica unità di quota"/>
+	<label commandName="DisassociatedAnnotations" devLabel="Disassociated annotations" translation="Annotazioni dissociate"/>
+	<label commandName="DisplayBorderBrowserLabel" devLabel="Display Border: " translation="Visualizza bordo: "/>
+	<label commandName="DisplayBorderBrowserToolTip" devLabel="Change Display Border" translation="Modifica visualizzazione bordo"/>
+	<label commandName="DisplayTitleBlockBrowserLabel" devLabel="Display Title Block: " translation="Visualizza cartiglio: "/>
+	<label commandName="DisplayTitleBlockBrowserToolTip" devLabel="Change Display Title Block" translation="Modifica visualizzazione cartiglio"/>
+	<label commandName="Distribute" devLabel="Distribute" translation="Distribuisci"/>
+	<label commandName="DocAngularPrecisionBrowserLabel" devLabel="Angular Dimension Precision: " translation="Precisione quota angolare: "/>
+	<label commandName="DocAngularPrecisionBrowserToolTip" devLabel="Change Angular Dimension Precision" translation="Modifica precisione quota angolare"/>
+	<label commandName="DocDisplayLeadingZeroBrowserLabel" devLabel="Display Leading Zeros: " translation="Visualizza zeri iniziali: "/>
+	<label commandName="DocDisplayLeadingZeroBrowserToolTip" devLabel="Change Display Leading Zeros" translation="Modifica visualizzazione zeri iniziali"/>
+	<label commandName="DocDisplayLineWidthBrowserLabel" devLabel="Display Line Widths: " translation="Visualizza larghezze linee: "/>
+	<label commandName="DocDisplayLineWidthBrowserToolTip" devLabel="Change Display Line Widths" translation="Modifica visualizzazione larghezze linee"/>
+	<label commandName="DocDisplayTrailingZeroBrowserLabel" devLabel="Display Trailing Zeros: " translation="Visualizza zeri finali: "/>
+	<label commandName="DocDisplayTrailingZeroBrowserToolTip" devLabel="Change Display Trailing Zeros" translation="Modifica visualizzazione zeri finali"/>
+	<label commandName="DocFontBrowserLabel" devLabel="Font: " translation="Font: "/>
+	<label commandName="DocFontBrowserToolTip" devLabel="Change Font" translation="Modifica font"/>
+	<label commandName="DocLineWidthGroupBrowserLabel" devLabel="Line Width Group: " translation="Gruppo larghezza linea: "/>
+	<label commandName="DocLineWidthGroupBrowserToolTip" devLabel="Change Line Width Group" translation="Modifica gruppo larghezza linea"/>
+	<label commandName="DocLinearPrecisionBrowserLabel" devLabel="Linear Dimension Precision: " translation="Precisione quota lineare: "/>
+	<label commandName="DocLinearPrecisionBrowserToolTip" devLabel="Change Linear Dimension Precision" translation="Modifica precisione quota lineare"/>
+	<label commandName="DocTextHeightBrowserLabel" devLabel="Text Height: " translation="Altezza testo: "/>
+	<label commandName="DocTextHeightBrowserToolTip" devLabel="Change Text Height" translation="Modifica altezza testo"/>
+	<label commandName="DocUnitBrowserLabel" devLabel="Units: " translation="Unità: "/>
+	<label commandName="DocUnitBrowserToolTip" devLabel="Change Units" translation="Modifica unità"/>
+	<label commandName="DocUnitDisplayBrowserLabel" devLabel="Display Dimension Units: " translation="Visualizza unità di quota: "/>
+	<label commandName="DocUnitDisplayBrowserToolTip" devLabel="Change Display Dimension Units" translation="Modifica visualizzazione unità di quota"/>
+	<label commandName="DocUnitFormatBrowserLabel" devLabel="Dimension Format: " translation="Formato quota: "/>
+	<label commandName="DocUnitFormatBrowserToolTip" devLabel="Change Dimension Format" translation="Modifica formato quota"/>
+	<label commandName="DocumentStatus" devLabel="Document status" translation="Stato documento"/>
+	<label commandName="DocumentType" devLabel="Document type" translation="Tipo documento"/>
+	<label commandName="Documentation Environment" devLabel="Drawing" translation="Disegno"/>
+	<label commandName="DonnotShowMeAgainCheckBoxCaption" devLabel="Don't show me this again." translation="Non visualizzare più questo messaggio."/>
+	<label commandName="DrawingAlignedDimTypeInput" devLabel="Aligned" translation="Allineato"/>
+	<label commandName="DrawingDebug" devLabel="Drawing Debug" translation="Debug del disegno"/>
+	<label commandName="DrawingDebugCommandDesc" devLabel="Show some useful information for debugging or testing" translation="Mostra alcune informazioni utili per il debug o il test"/>
+	<label commandName="DrawingDiameterDimTypeInput" devLabel="Diameter" translation="Diametro"/>
+	<label commandName="DrawingFormat" devLabel="Format" translation="Formato"/>
+	<label commandName="DrawingHorizontalLinearDimTypeInput" devLabel="Horizontal" translation="Orizzontale"/>
+	<label commandName="DrawingOpenDocumentFail_OtherReasons" devLabel="Can't open this file. The file is corrupt or contains migration issues. &#xA;Please send the file to Autodesk Support for assistance." translation="Impossibile aprire il file. Il file è danneggiato o contiene problemi di migrazione. &#xA;Inviare il file al supporto tecnico di Autodesk per assistenza."/>
+	<label commandName="DrawingOsnapCenterInput" devLabel="Center" translation="Centro"/>
+	<label commandName="DrawingOsnapEndpointInput" devLabel="Endpoint" translation="Punto finale"/>
+	<label commandName="DrawingOsnapIntersectionInput" devLabel="Intersection" translation="Intersezione"/>
+	<label commandName="DrawingOsnapMidpointInput" devLabel="Midpoint" translation="Punto medio"/>
+	<label commandName="DrawingOsnapNoneInput" devLabel="None" translation="Nessuna"/>
+	<label commandName="DrawingOsnapPointInput" devLabel="Point" translation="Punto"/>
+	<label commandName="DrawingOsnapQuadrantInput" devLabel="Quadrant" translation="Quadrante"/>
+	<label commandName="DrawingOsnapTangentInput" devLabel="Tangent" translation="Tangente"/>
+	<label commandName="DrawingPrintDialog_LineWeights" devLabel="Lineweights" translation="Spessori linea"/>
+	<label commandName="DrawingPrintDialog_PrintToFolder" devLabel="Print to Folder" translation="Stampa su cartella"/>
+	<label commandName="DrawingPrintDialog_Range" devLabel="Define Range" translation="Definisci intervallo"/>
+	<label commandName="DrawingPrintDialog_Sheets" devLabel="Sheets" translation="Fogli"/>
+	<label commandName="DrawingPrintDialog_Sheets_AllSheets" devLabel="All Sheets" translation="Tutti i fogli"/>
+	<label commandName="DrawingPrintDialog_Sheets_CurrentSheet" devLabel="Current Sheet" translation="Foglio corrente"/>
+	<label commandName="DrawingPrintDialog_Sheets_Range" devLabel="Range" translation="Intervallo"/>
+	<label commandName="DrawingPrintDialog_Sheets_SelectedSheets" devLabel="Selected Sheets" translation="Fogli selezionati"/>
+	<label commandName="DrawingRadiusDimTypeInput" devLabel="Radius" translation="Raggio"/>
+	<label commandName="DrawingSheetCreateNew" devLabel="Create new sheet" translation="Crea nuovo foglio"/>
+	<label commandName="DrawingSheetInput" devLabel="Sheet" translation="Foglio"/>
+	<label commandName="DrawingSheets" devLabel="Sheets" translation="Fogli"/>
+	<label commandName="DrawingTemplateFileName" devLabel="Template" translation="Modello"/>
+	<label commandName="DrawingTemplateSaveAsFileFilters" devLabel="Drawing (*.f2d);;Drawing Template (*.f2t)" translation="Disegno (*.f2d);;Modello di disegno (*.f2t)"/>
+	<label commandName="DrawingVerticalLinearDimTypeInput" devLabel="Vertical" translation="Verticale"/>
+	<label commandName="Drawn" devLabel="Drawn" translation="Disegnato"/>
+	<label commandName="DrawnDate" devLabel="" translation=""/>
+	<label commandName="DwgNo" devLabel="DWG No." translation="N. DWG"/>
+	<label commandName="EDIT_DISPLAY_OPTIONS_GROUP" devLabel="Display" translation="Visualizzazione"/>
+	<label commandName="EDIT_PROPERTIES_GROUP" devLabel="Properties" translation="Proprietà"/>
+	<label commandName="EDIT_TOGGLE_BORDER_CMD" devLabel="Show Border" translation="Mostra bordo"/>
+	<label commandName="EDIT_TOGGLE_GRID_CMD" devLabel="Show Layout Grid" translation="Mostra griglia di layout"/>
+	<label commandName="EDIT_TOGGLE_OTHERGEOMETRY_CMD" devLabel="Other Geometry" translation="Altra geometria"/>
+	<label commandName="EDIT_TOGGLE_SHEET_CMD" devLabel="Show Sheet" translation="Mostra foglio"/>
+	<label commandName="EDIT_TOGGLE_SNAP_CMD" devLabel="Snap to Grid" translation="Snap a griglia"/>
+	<label commandName="EDIT_TOOL_OPTIONS_GROUP" devLabel="Options" translation="Opzioni"/>
+	<label commandName="EdgeVisibilityGroup" devLabel="Edge Visibility" translation="Visibilità spigolo"/>
+	<label commandName="EditPalette" devLabel="Edit Palette" translation="Modifica tavolozza"/>
+	<label commandName="EditPaletteLinetype" devLabel="Edit Palette Linetype" translation="Modifica tipo di linea tavolozza"/>
+	<label commandName="EditPaletteLineweight" devLabel="Edit Palette Lineweight" translation="Modifica spessore linea tavolozza"/>
+	<label commandName="EditToolPropertySetCustom" devLabel="Custom" translation="Personalizzato"/>
+	<label commandName="EditToolPropertySetDynamic" devLabel="Dynamic" translation="Dinamico"/>
+	<label commandName="EditToolPropertySetVaries" devLabel="*VARIES*" translation="*VARIE*"/>
+	<label commandName="EditToolProps" devLabel="Edit Tool" translation="Strumento di modifica"/>
+	<label commandName="EraseSelectionInput" devLabel="Selection" translation="Selezione"/>
+	<label commandName="ExportCmdFileExistAndIsNotWritable" devLabel="The file cannot be replaced because it is in use." translation="Impossibile sostituire il file. File in uso."/>
+	<label commandName="ExportPDFFilter" devLabel="PDF Files (*.pdf)" translation="File PDF (*.pdf)"/>
+	<label commandName="ExportPartsListFilter" devLabel="CSV file(*.csv)" translation="File CSV (*.csv)"/>
+	<label commandName="FD_APPROVED_BY" devLabel="Approved by" translation="Approvato da"/>
+	<label commandName="FD_APPROVED_DATE" devLabel="Date Approved" translation="Data approvazione"/>
+	<label commandName="FD_CHECKED_BY" devLabel="Checked by" translation="Verificato da"/>
+	<label commandName="FD_CHECKED_DATE" devLabel="Date checked" translation="Data verificata"/>
+	<label commandName="FD_CODE" devLabel="Code compliance" translation="Conformità codice"/>
+	<label commandName="FD_CREATED_DATE" devLabel="Date created" translation="Data di creazione"/>
+	<label commandName="FD_CREATE_BY" devLabel="Created by" translation="Creato da"/>
+	<label commandName="FD_DATE_OF_ISSUE" devLabel="Date of issue" translation="Data di emissione"/>
+	<label commandName="FD_DEPT" devLabel="Department" translation="Reparto"/>
+	<label commandName="FD_DOCUMENT_STATUS" devLabel="Document Status" translation="Stato documento"/>
+	<label commandName="FD_DOCUMENT_TYPE" devLabel="Document Type" translation="Tipo documento"/>
+	<label commandName="FD_DRAWING_NUMBER" devLabel="Drawing number" translation="Numero disegno"/>
+	<label commandName="FD_DRAWN_BY" devLabel="Drawn by" translation="Disegnato da"/>
+	<label commandName="FD_DRAWN_DATE" devLabel="Date drawn" translation="Data disegno"/>
+	<label commandName="FD_DWG_NO" devLabel="Drawing number" translation="Numero disegno"/>
+	<label commandName="FD_PROJECT" devLabel="Project name" translation="Nome progetto"/>
+	<label commandName="FD_REV" devLabel="Revision number" translation="Numero revisione"/>
+	<label commandName="FD_SCALE" devLabel="Drawing scale" translation="Scala disegno"/>
+	<label commandName="FD_SHEET" devLabel="Sheet number" translation="Numero foglio"/>
+	<label commandName="FD_SIZE" devLabel="Paper size" translation="Dimensioni foglio"/>
+	<label commandName="FD_TECHNICAL_REFERENCE" devLabel="Technical reference" translation="Riferimento tecnico"/>
+	<label commandName="FD_TITLE_1" devLabel="Title one" translation="Titolo uno"/>
+	<label commandName="FD_TITLE_2" devLabel="Title two" translation="Titolo due"/>
+	<label commandName="FD_TITLE_3" devLabel="Title three" translation="Titolo tre"/>
+	<label commandName="FD_WEIGHT" devLabel="Weight" translation="Peso"/>
+	<label commandName="FUSIONDOCBALLOONNOVIEWMSG" devLabel="This sheet has no drawing views. To add balloons, first add a base view." translation="Questo foglio non contiene viste del disegno. Per aggiungere numeri di riferimento, aggiungere innanzitutto una vista di base."/>
+	<label commandName="FUSIONDOCBALLOONNOVIEWTOOLTIP" devLabel="This sheet has no drawing views." translation="Questo foglio non contiene viste del disegno."/>
+	<label commandName="FUSIONDOCNOBALLOONORBENDIDTOOLTIP" devLabel="This sheet has no balloons or bend identifiers." translation="Questo foglio non contiene numeri di riferimento o identificatori di piega."/>
+	<label commandName="FUSIONDOCNOBALLOONTOOLTIP" devLabel="This sheet has no balloons." translation="Questo foglio non contiene numeri di riferimento."/>
+	<label commandName="FUSIONDOCPRINTERROR" devLabel=" did not print due to an unknown error." translation=" impossibile stampare a causa di un errore sconosciuto."/>
+	<label commandName="FUSIONDOCPRINTSHEETS" devLabel="&#xA;Sheet " translation="&#xA;Foglio "/>
+	<label commandName="FUSIONDOCPRINTSTATUS" devLabel="Sent to Printer" translation="Inviato alla stampante"/>
+	<label commandName="FUSIONDOCSENTTOPRINTER" devLabel=" sheets successfully sent to printer." translation=" fogli inviati alla stampante."/>
+	<label commandName="FUSIONDOCTABLERANGEMISMATCHTOOLTIP" devLabel="The copied cells cannot be pasted in specified target range." translation="Impossibile incollare le celle copiate nell'intervallo di destinazione specificato."/>
+	<label commandName="FeatureGroups" devLabel="Group" translation="Gruppo"/>
+	<label commandName="FileCreateDrawingFromPreviousVersion" devLabel="The file you are trying to create drawing from is currently being saved by another user. Do you want to create it from a previous version instead?&#xA;&#xA;" translation="Il file da cui si sta tentando di creare un disegno è attualmente salvato da un altro utente. Crearlo da una versione precedente?&#xA;&#xA;"/>
+	<label commandName="FinishEdit" devLabel="Finish Title Block" translation="Termina cartiglio"/>
+	<label commandName="FirstFrame" devLabel="First Frame" translation="Primo fotogramma"/>
+	<label commandName="FlatPatternRepresentation" devLabel="Flat Pattern" translation="Modello piatto"/>
+	<label commandName="FoldedComponentReprensentation" devLabel="Folded Component" translation="Componente piegato"/>
+	<label commandName="Fractional" devLabel="Fractional" translation="Frazionario"/>
+	<label commandName="From DWG File" devLabel="From DWG File" translation="Da file DWG"/>
+	<label commandName="From Existing" devLabel="From Existing" translation="Da esistente"/>
+	<label commandName="From Scratch" devLabel="From Scratch" translation="Da zero"/>
+	<label commandName="FromParent" devLabel="From Parent" translation="Dall'elemento principale"/>
+	<label commandName="Front" devLabel="Front" translation="Fronte"/>
+	<label commandName="Full Length" devLabel="Full Length" translation="Lunghezza totale"/>
+	<label commandName="FusDocDefaultSheetSizeValue0" devLabel="A0 (1189mm x 841mm)" translation="A0 (1189 mm x 841 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue1" devLabel="A1 (841mm x 594mm)" translation="A1 (841 mm x 594 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue10" devLabel="D (34in x 22in)" translation="D (34 pollici x 22 pollici)"/>
+	<label commandName="FusDocDefaultSheetSizeValue11" devLabel="E (44in x 34in)" translation="E (44 pollici x 34 pollici)"/>
+	<label commandName="FusDocDefaultSheetSizeValue2" devLabel="A2 (594mm x 420mm)" translation="A2 (594 mm x 420 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue3" devLabel="A3 (420mm x 297mm)" translation="A3 (420 mm x 297 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue4" devLabel="A4 (210mm x 297mm)" translation="A4 (210 mm x 297 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue5" devLabel="A4 (297mm x 210mm)" translation="A4 (297 mm x 210 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue6" devLabel="A (8.5in x 11in)" translation="A (8,5 pollici x 11 pollici)"/>
+	<label commandName="FusDocDefaultSheetSizeValue7" devLabel="A (11in x 8.5in)" translation="A (11 pollici x 8,5 pollici)"/>
+	<label commandName="FusDocDefaultSheetSizeValue8" devLabel="B (17in x 11in)" translation="B (17 pollici x 11 pollici)"/>
+	<label commandName="FusDocDefaultSheetSizeValue9" devLabel="C (22in x 17in)" translation="C (22 pollici x 17 pollici)"/>
+	<label commandName="FusDocLinearDimensionPrecision0" devLabel="0" translation="0"/>
+	<label commandName="FusDocLinearDimensionPrecision1" devLabel="0.1" translation="0.1"/>
+	<label commandName="FusDocLinearDimensionPrecision10" devLabel="-" translation="-"/>
+	<label commandName="FusDocLinearDimensionPrecision11" devLabel="1/2" translation="1/2"/>
+	<label commandName="FusDocLinearDimensionPrecision12" devLabel="1/4" translation="1/4"/>
+	<label commandName="FusDocLinearDimensionPrecision13" devLabel="1/8" translation="1/8"/>
+	<label commandName="FusDocLinearDimensionPrecision14" devLabel="1/16" translation="1/16"/>
+	<label commandName="FusDocLinearDimensionPrecision15" devLabel="1/32" translation="1/32"/>
+	<label commandName="FusDocLinearDimensionPrecision16" devLabel="1/64" translation="1/64"/>
+	<label commandName="FusDocLinearDimensionPrecision17" devLabel="1/128" translation="1/128"/>
+	<label commandName="FusDocLinearDimensionPrecision18" devLabel="1/256" translation="1/256"/>
+	<label commandName="FusDocLinearDimensionPrecision2" devLabel="0.12" translation="0,12"/>
+	<label commandName="FusDocLinearDimensionPrecision3" devLabel="0.123" translation="0,123"/>
+	<label commandName="FusDocLinearDimensionPrecision4" devLabel="0.1234" translation="0,1234"/>
+	<label commandName="FusDocLinearDimensionPrecision5" devLabel="0.12345" translation="0,12345"/>
+	<label commandName="FusDocLinearDimensionPrecision6" devLabel="0.123456" translation="0,123456"/>
+	<label commandName="FusDocLinearDimensionPrecision7" devLabel="0.1234567" translation="0,1234567"/>
+	<label commandName="FusDocLinearDimensionPrecision8" devLabel="0.12345678" translation="0,12345678"/>
+	<label commandName="FusionAddTitleBlockCommandDialogTitle1" devLabel="NEW TITLE BLOCK" translation="NUOVO CARTIGLIO"/>
+	<label commandName="FusionBendTableEdit" devLabel="BEND TABLE" translation="TABELLA PIEGA"/>
+	<label commandName="FusionChangeAngularPrecisionSettings" devLabel="Change Angular Dimension Precision" translation="Modifica precisione quota angolare"/>
+	<label commandName="FusionChangeDimensionUnitsSettings" devLabel="Change Dimension Units" translation="Modifica unità di quota"/>
+	<label commandName="FusionChangeDisplayBorderCommand" devLabel="Change Display Border" translation="Modifica visualizzazione bordo"/>
+	<label commandName="FusionChangeDisplayLeadingZeroSettings" devLabel="Change Display Leading Zeros" translation="Modifica visualizzazione zeri iniziali"/>
+	<label commandName="FusionChangeDisplayLineWidthSettings" devLabel="Change Display Line Widths" translation="Modifica visualizzazione larghezze linee"/>
+	<label commandName="FusionChangeDisplayTitleBlockCommand" devLabel="Change Display Title Block" translation="Modifica visualizzazione cartiglio"/>
+	<label commandName="FusionChangeDisplayTrailingZeroSettings" devLabel="Change Display Trailing Zeros" translation="Modifica visualizzazione zeri finali"/>
+	<label commandName="FusionChangeDisplayUnitsSettings" devLabel="Change Display Dimension Units" translation="Modifica visualizzazione unità di quota"/>
+	<label commandName="FusionChangeDocumentSettings" devLabel="Document Settings" translation="Impostazioni documento"/>
+	<label commandName="FusionChangeFontSettings" devLabel="Change Font" translation="Modifica font"/>
+	<label commandName="FusionChangeLineWidthGroupSettings" devLabel="Change Line Width Group" translation="Modifica gruppo larghezza linea"/>
+	<label commandName="FusionChangeLinearFormatSettings" devLabel="Change Dimension Format" translation="Modifica formato quota"/>
+	<label commandName="FusionChangeLinearPrecisionSettings" devLabel="Change Linear Dimension Precision" translation="Modifica precisione quota lineare"/>
+	<label commandName="FusionChangeMultiDocSettingCommand" devLabel="Change Document Settings" translation="Modifica impostazioni documento"/>
+	<label commandName="FusionChangeMultiSheetSettingsCommand" devLabel="Change Sheet Settings" translation="Modifica impostazioni foglio"/>
+	<label commandName="FusionChangeSheetSettings" devLabel="Sheet Settings" translation="Impostazioni foglio"/>
+	<label commandName="FusionChangeSheetSizeCommand" devLabel="Change Sheet Size" translation="Modifica dimensioni foglio"/>
+	<label commandName="FusionChangeTextHeightSettings" devLabel="Change Text Height" translation="Modifica altezza testo"/>
+	<label commandName="FusionChangeTitleBlockCommand" devLabel="Change Title Block" translation="Modifica cartiglio"/>
+	<label commandName="FusionCreateDrawingFromComponents" devLabel="Create Drawing" translation="Crea disegno"/>
+	<label commandName="FusionDashboardCreateFusionDrawingCommand" devLabel="Cannot find downloaded file. Expected filepath: %1%" translation="Impossibile trovare il file scaricato. Percorso file previsto: %1%"/>
+	<label commandName="FusionDashboardCreateFusionDrawingCommandError" devLabel="An unexpected error occurred while downloading and opening a document." translation="Si è verificato un errore imprevisto durante il download e l'apertura di un documento."/>
+	<label commandName="FusionDocAcCoreConsolePathName" devLabel="Path to AcCoreConsole" translation="Percorso di AcCoreConsole"/>
+	<label commandName="FusionDocAcCoreConsoleToolTip" devLabel="Path to AcCoreConsole" translation="Percorso di AcCoreConsole"/>
+	<label commandName="FusionDocAddDimensionBreak" devLabel="Add Dimension Break" translation="Aggiungi interruzione quota"/>
+	<label commandName="FusionDocAlignedDimension" devLabel="Aligned Dimension" translation="Quota allineata"/>
+	<label commandName="FusionDocAngularDimension" devLabel="Angular Dimension" translation="Quota angolare"/>
+	<label commandName="FusionDocArc" devLabel="3-Point Arc" translation="Arco a 3 punti"/>
+	<label commandName="FusionDocArcCenter" devLabel="ArcCenter" translation="ArcCenter"/>
+	<label commandName="FusionDocArcTangent" devLabel="ArcTangent" translation="ArcTangent"/>
+	<label commandName="FusionDocArrow" devLabel="Leader" translation="Direttrice"/>
+	<label commandName="FusionDocAttDef" devLabel="Attribute" translation="Attributo"/>
+	<label commandName="FusionDocAttEdit" devLabel="Attribute Definition Edit" translation="Modifica della definizione attributo"/>
+	<label commandName="FusionDocBalloon" devLabel="Balloon" translation="Numero di riferimento"/>
+	<label commandName="FusionDocBalloonsBodyNotInComponentTip" devLabel="A balloon can only be placed on a component" translation="È possibile posizionare un numero di riferimento solo su un componente."/>
+	<label commandName="FusionDocBalloonsBodyNotInComponentTip2" devLabel="&lt;b&gt;A balloon can only be placed on a component.&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Convert bodies to components in the Design." translation="&lt;b&gt;È possibile posizionare un numero di riferimento solo su un componente.&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Convertire i corpi in componenti nel progetto."/>
+	<label commandName="FusionDocBalloonsCannotBePutOnSketchTip" devLabel="A balloon cannot be put on sketches" translation="Impossibile inserire un numero di riferimento su schizzi"/>
+	<label commandName="FusionDocBalloonsCannotBePutOnSketchTip2" devLabel="&lt;b&gt;A balloon cannot be put on sketches.&lt;/b&gt;" translation="&lt;b&gt;Impossibile inserire un numero di riferimento su schizzi.&lt;/b&gt;"/>
+	<label commandName="FusionDocBaselineDimension" devLabel="Baseline Dimension" translation="Quota linea di base"/>
+	<label commandName="FusionDocBlockEdit" devLabel="Edit Title Block" translation="Modifica cartiglio"/>
+	<label commandName="FusionDocBorderEdit" devLabel="Edit Border" translation="Modifica bordo"/>
+	<label commandName="FusionDocCenterEditPattern" devLabel="Center Mark Pattern" translation="Modello di centro"/>
+	<label commandName="FusionDocCenterPattern" devLabel="Center Mark Pattern" translation="Modello di centro"/>
+	<label commandName="FusionDocCenterReassociate" devLabel="Reassociate" translation="Riassocia"/>
+	<label commandName="FusionDocCenterline" devLabel="Centerline" translation="Linea d\'asse"/>
+	<label commandName="FusionDocCentermark" devLabel="Center Mark" translation="Centro"/>
+	<label commandName="FusionDocChainDimension" devLabel="Chain Dimension" translation="Quota in serie"/>
+	<label commandName="FusionDocChooseVersionCommand" devLabel="Choose Version" translation="Scegli versione"/>
+	<label commandName="FusionDocCircle" devLabel="Center Radius Circle" translation="Cerchio centro-raggio"/>
+	<label commandName="FusionDocCircle2Point" devLabel="Circle2Point" translation="Circle2Point"/>
+	<label commandName="FusionDocCircle3Point" devLabel="Circle3Point" translation="Circle3Point"/>
+	<label commandName="FusionDocCircleDiameter" devLabel="CircleDiameter" translation="CircleDiameter"/>
+	<label commandName="FusionDocContinueEditingExistingBorderBlock" devLabel="The Border contains no geometry or text. Please add some geometry and/or text before finishing the edit.&#xA;If you want to hide the border from a sheet, go to Browser &gt; Sheet Settings &gt; Display Border.&#xA;" translation="Il bordo non contiene geometria o testo. Aggiungere geometria e/o testo prima di terminare la modifica.&#xA;Per nascondere il bordo da un foglio, passare a Browser &gt; Impostazioni foglio &gt; Visualizza bordo.&#xA;"/>
+	<label commandName="FusionDocContinueEditingExistingTitleBlock" devLabel="The Title Block contains no geometry or text. Please add some geometry and/or text before finishing the edit.&#xA;If you want to hide the Title Block from a sheet, go to Browser &gt; Sheet Settings &gt; Display Title Block.&#xA;" translation="Il cartiglio non contiene geometria o testo. Aggiungere geometria e/o testo prima di completare la modifica.&#xA;Per nascondere il cartiglio da un foglio, passare a Browser &gt; Impostazioni foglio &gt; Visualizza cartiglio.&#xA;"/>
+	<label commandName="FusionDocCopy" devLabel="Copy" translation="Copia"/>
+	<label commandName="FusionDocCopyDefaultCommand" devLabel="Copy" translation="Copia"/>
+	<label commandName="FusionDocCopyGeomEntityCommand" devLabel="Copy" translation="Copia"/>
+	<label commandName="FusionDocCopyMtextCommand" devLabel="Copy" translation="Copia"/>
+	<label commandName="FusionDocCopySketchCommand" devLabel="Copy" translation="Copia"/>
+	<label commandName="FusionDocCutDefaultCommand" devLabel="Cut" translation="Taglia"/>
+	<label commandName="FusionDocCutGeomEntityCommand" devLabel="Cut" translation="Taglia"/>
+	<label commandName="FusionDocCutMtextCommand" devLabel="Cut" translation="Taglia"/>
+	<label commandName="FusionDocCutSketchCommand" devLabel="Cut" translation="Taglia"/>
+	<label commandName="FusionDocDWGRecoveryDocument" devLabel="The document" translation="Il documento"/>
+	<label commandName="FusionDocDWGRecoveryErrorsFound" devLabel="&lt;b&gt;%1%&lt;/b&gt; has been damaged&lt;br/&gt;&lt;br/&gt;The file has been damaged and may have limited functionality.&lt;br/&gt;&lt;br/&gt;Any corrupt views will be outlined. We suggest deleting and recreating these views. If this does not resolve the issue, we recommend reverting to a previous drawing version by following the steps outlined here:&lt;br/&gt;&lt;br/&gt;&lt;a href=&quot;http://help.autodesk.com/view/NINVFUS/ENU/?guid=GUID-9610E274-6C25-4ED0-809D-35C9068F10BC&quot;&gt;How to Revert to a Previous Version&lt;/a&gt;" translation="&lt;b&gt;%1%&lt;/b&gt; è stato danneggiato.&lt;br/&gt;&lt;br/&gt;Il file è stato danneggiato e può avere una funzionalità limitata.&lt;br/&gt;&lt;br/&gt;Qualsiasi vista danneggiata verrà contrassegnata da un contorno. Si consiglia di eliminare e ricreare tali viste. Se questo non consente di risolvere il problema, si consiglia il ripristino di una versione precedente del disegno seguendo la procedura descritta di seguito:&lt;br/&gt;&lt;br/&gt;&lt;a href=&quot;http://help.autodesk.com/view/NINVFUS/ENU/?guid=GUID-9610E274-6C25-4ED0-809D-35C9068F10BC&quot;&gt;Come ripristinare una versione precedente&lt;/a&gt;"/>
+	<label commandName="FusionDocDatumId" devLabel="Datum Identifier" translation="Identificatore data"/>
+	<label commandName="FusionDocDatumIdEdgeOption" devLabel="Edge" translation="Spigolo"/>
+	<label commandName="FusionDocDatumIdSurfaceOption" devLabel="Surface" translation="Superficie"/>
+	<label commandName="FusionDocDebugOptionsDescription" devLabel="Preferences that used for easy of debugging drawing" translation="Preferenze utilizzate per semplificare il debug del disegno"/>
+	<label commandName="FusionDocDebugOptionsName" devLabel="Drawing Debug" translation="Debug del disegno"/>
+	<label commandName="FusionDocDefaultTitleBlock" devLabel="The default title block cannot be edited. Do you want to add a new title block based on this one?" translation="Impossibile modificare il cartiglio di default. Aggiungere un nuovo cartiglio basato su questo?"/>
+	<label commandName="FusionDocDelete" devLabel="Delete" translation="Elimina"/>
+	<label commandName="FusionDocDiameterDimension" devLabel="Diameter Dimension" translation="Quota diametro"/>
+	<label commandName="FusionDocDimReassociate" devLabel="Reassociate" translation="Riassocia"/>
+	<label commandName="FusionDocDimensionBreak" devLabel="Dimension Break" translation="Interruzione quota"/>
+	<label commandName="FusionDocDimensionEdit" devLabel="Edit Dimension" translation="Modifica quota"/>
+	<label commandName="FusionDocDimensionProperties1" devLabel="DIMENSION" translation="QUOTA"/>
+	<label commandName="FusionDocDisassociatedAnnotations" devLabel="One or more sheets contain disassociated annotations. If you continue, your drawings may contain errors." translation="Uno o più fogli contengono annotazioni dissociate. Se si continua, i disegni potrebbero contenere errori."/>
+	<label commandName="FusionDocDocumentNotSet" devLabel="Document name is not properly set." translation="Il nome del documento non è impostato correttamente."/>
+	<label commandName="FusionDocDwgSketchesBrowserLabel" devLabel="Sketches" translation="Schizzi"/>
+	<label commandName="FusionDocEdgeExtension" devLabel="Edge Extension" translation="Estensione spigolo"/>
+	<label commandName="FusionDocEllipse" devLabel="Ellipse" translation="Ellisse"/>
+	<label commandName="FusionDocEnableDebugAcCoreConsoleName" devLabel="Enable Debug AcCoreConsole" translation="Abilita debug di AcCoreConsole"/>
+	<label commandName="FusionDocEnableDebugAcCoreConsoleToolTip" devLabel="Enable debug AcCoreConsole" translation="Abilita debug di AcCoreConsole"/>
+	<label commandName="FusionDocErase" devLabel="Delete" translation="Elimina"/>
+	<label commandName="FusionDocExtend" devLabel="Extend" translation="Estendi"/>
+	<label commandName="FusionDocFeatureControlFrame" devLabel="Feature Control Frame" translation="Riquadro di controllo della geometria"/>
+	<label commandName="FusionDocFitCmd" devLabel="Fit" translation="Adatta"/>
+	<label commandName="FusionDocFitDesc" devLabel="Fit" translation="Adatta"/>
+	<label commandName="FusionDocHatchEdit" devLabel="Edit Hatch" translation="Modifica tratteggio"/>
+	<label commandName="FusionDocHatchProperties1" devLabel="HATCH" translation="TRATTEGGIO"/>
+	<label commandName="FusionDocInsertTitleBlockFailed" devLabel="Title block insert failed.&lt;br/&gt;For help with preparing DWG files for use as title blocks, see &lt;a href='%1%'&gt;More Information&lt;/a&gt;" translation="Impossibile inserire cartiglio.&lt;br/&gt;Per informazioni sulla preparazione di file DWG da utilizzare come cartigli, vedere &lt;a href='%1%'&gt;Ulteriori informazioni&lt;/a&gt;"/>
+	<label commandName="FusionDocInsertTitleBlockInvalidObject" devLabel="This DWG file can't be inserted because it contains one or more blocks or xrefs. Remove these objects and try inserting again.&lt;br/&gt;For help with preparing DWG files for use as title blocks, see &lt;a href='%1%'&gt;More Information&lt;/a&gt;" translation="Impossibile inserire il file DWG perché contiene uno o più blocchi o xrif. Rimuovere questi oggetti e riprovare a inserirli.&lt;br/&gt;Per informazioni sulla preparazione di file DWG da utilizzare come cartigli, vedere &lt;a href='%1%'&gt;Ulteriori informazioni&lt;/a&gt;"/>
+	<label commandName="FusionDocInsertTitleBlockNameConflict" devLabel="This DWG file can't be inserted because its name conflicts with an existing object. Rename the DWG file and try inserting again.&lt;br/&gt;For help with preparing DWG files for use as title blocks, see &lt;a href='%1%'&gt;More Information&lt;/a&gt;" translation="Impossibile inserire il file DWG perché il suo nome è in conflitto con un oggetto esistente. Rinominare il file DWG e riprovare ad inserirlo.&lt;br/&gt;Per informazioni sulla preparazione di file DWG da utilizzare come cartigli, vedere &lt;a href='%1%'&gt;Ulteriori informazioni&lt;/a&gt;"/>
+	<label commandName="FusionDocInsertTitleBlockObjectFiltered" devLabel="This DWG file contains one or more fields, 3D solids, or geolocation points. These objects have been automatically removed from the title block.&lt;br/&gt;For help with preparing DWG files for use as title blocks, see &lt;a href='%1%'&gt;More Information&lt;/a&gt;" translation="Questo file DWG contiene uno o più campi, solidi 3D o punti di geolocalizzazione. Tali oggetti sono stati rimossi automaticamente dal cartiglio.&lt;br/&gt;Per informazioni sulla preparazione di file DWG da utilizzare come cartigli, vedere &lt;a href='%1%'&gt;Ulteriori informazioni&lt;/a&gt;"/>
+	<label commandName="FusionDocInvalidFile" devLabel="&lt;b&gt;%1%&lt;/b&gt; has been corrupted&lt;br/&gt;&lt;br/&gt;The file has been corrupted and can no longer be opened by Fusion" translation="&lt;b&gt;%1%&lt;/b&gt; è stato danneggiato.&lt;br/&gt;&lt;br/&gt;Il file è stato danneggiato e non è più possibile aprirlo in Fusion."/>
+	<label commandName="FusionDocLeader" devLabel="Leader" translation="Direttrice"/>
+	<label commandName="FusionDocLegacyTextEdit" devLabel="Legacy Text Edit" translation="Modifica del testo esistente"/>
+	<label commandName="FusionDocLine" devLabel="Line" translation="Linea"/>
+	<label commandName="FusionDocLinearDimension" devLabel="Linear Dimension" translation="Quota lineare"/>
+	<label commandName="FusionDocMText" devLabel="Text" translation="Testo"/>
+	<label commandName="FusionDocMeasure" devLabel="Measure" translation="Misura"/>
+	<label commandName="FusionDocMove" devLabel="Move" translation="Sposta"/>
+	<label commandName="FusionDocMoveDialogTitle" devLabel="MOVE" translation="SPOSTA"/>
+	<label commandName="FusionDocNewTitleBlock" devLabel="New Title Block" translation="Nuovo cartiglio"/>
+	<label commandName="FusionDocObjPropSettings" devLabel="Object Property Settings" translation="Impostazioni proprietà oggetto"/>
+	<label commandName="FusionDocOffset" devLabel="Offset" translation="Offset"/>
+	<label commandName="FusionDocOrdinateDimension" devLabel="Ordinate Dimension" translation="Quota coordinata"/>
+	<label commandName="FusionDocOutdatedSheet" devLabel="The sheet is out of date. Make sure the sheet is up to date and try again." translation="Il foglio non è aggiornato. Verificare che il foglio sia aggiornato e riprovare."/>
+	<label commandName="FusionDocOutdatedSheets" devLabel="One or more sheets are out of date. Make sure all sheets are up to date and try again." translation="Uno o più fogli non sono aggiornati. Verificare che tutti i fogli siano aggiornati e riprovare."/>
+	<label commandName="FusionDocOverwriteExistingTitleBlock" devLabel="A title block with that name already exists. Do you want to overwrite the existing title block? Overwriting will replace all existing references to this title block in the drawing." translation="Esiste già un cartiglio con lo stesso nome. Sovrascrivere il cartiglio esistente? Sovrascrivendo, tutti i riferimenti a questo cartiglio esistenti nel disegno verranno sostituiti."/>
+	<label commandName="FusionDocPanCmd" devLabel="Pan" translation="Panoramica"/>
+	<label commandName="FusionDocPasteCustomMTextCommand" devLabel="Paste" translation="Incolla"/>
+	<label commandName="FusionDocPasteDefaultCommand" devLabel="Paste" translation="Incolla"/>
+	<label commandName="FusionDocPasteGeomEntityCommand" devLabel="Paste" translation="Incolla"/>
+	<label commandName="FusionDocPasteSketchCommand" devLabel="Paste" translation="Incolla"/>
+	<label commandName="FusionDocPasteTextCommand" devLabel="Paste" translation="Incolla"/>
+	<label commandName="FusionDocRadialDimension" devLabel="Radius Dimension" translation="Quota raggio"/>
+	<label commandName="FusionDocRectangle" devLabel="2-Point Rectangle" translation="Rettangolo mediante 2 punti"/>
+	<label commandName="FusionDocRedo" devLabel="Redo" translation="Ripeti"/>
+	<label commandName="FusionDocRemoveDimensionBreak" devLabel="Remove Dimension Break" translation="Rimuovi interruzione quota"/>
+	<label commandName="FusionDocRenumber" devLabel="Renumber" translation="Rinumera"/>
+	<label commandName="FusionDocReservedTitleBlockName" devLabel="The specified name conflicts with an existing Fusion 360 object. Please choose another name." translation="Il nome specificato è in conflitto con un oggetto di Fusion 360 esistente. Scegliere un altro nome."/>
+	<label commandName="FusionDocRestoreDefaultsCmd" devLabel="Restore" translation="Ripristina"/>
+	<label commandName="FusionDocRotate" devLabel="Rotate" translation="Ruota"/>
+	<label commandName="FusionDocScreenshotCmd" devLabel="Capture Image" translation="Cattura immagine"/>
+	<label commandName="FusionDocShowAcCoreConsoleWindowOption" devLabel="Show AcCoreConsole window" translation="Mostra finestra AcCoreConsole"/>
+	<label commandName="FusionDocShowAcCoreConsoleWindowToolTip" devLabel="Show AcCoreConsole window" translation="Mostra finestra AcCoreConsole"/>
+	<label commandName="FusionDocSingleDimensionCmdDef" devLabel="Dimension" translation="Quota"/>
+	<label commandName="FusionDocSingleSheetDisassociatedAnnotations" devLabel="Sheet contains disassociated annotations. If you continue, your drawing may contain errors." translation="Il foglio contiene annotazioni dissociate. Se si continua, il disegno potrebbe contenere errori."/>
+	<label commandName="FusionDocSketchCreate" devLabel="Create Sketch" translation="Crea schizzo"/>
+	<label commandName="FusionDocSourceFileHasBeenMoved" devLabel="Drawing has been moved or copied, would you like to associate it with a new model?" translation="Il disegno è stato spostato o copiato, associarlo ad un nuovo modello?"/>
+	<label commandName="FusionDocSplineBalloon" devLabel="Balloon" translation="Numero di riferimento"/>
+	<label commandName="FusionDocSuppress" devLabel="Toggle Suppress" translation="Attiva/disattiva Sopprimi"/>
+	<label commandName="FusionDocSurfaceTexture" devLabel="Surface Texture" translation="Stato della superficie"/>
+	<label commandName="FusionDocSymbolEdit" devLabel="Symbol Edit" translation="Modifica simbolo"/>
+	<label commandName="FusionDocTable" devLabel="Table" translation="Tabella"/>
+	<label commandName="FusionDocTableEdit" devLabel="Table" translation="Tabella"/>
+	<label commandName="FusionDocTableTextEdit" devLabel="Edit Table Text" translation="Modifica testo tabella"/>
+	<label commandName="FusionDocTextEdit" devLabel="TEXT PROPERTIES" translation="PROPRIETÀ TESTO"/>
+	<label commandName="FusionDocTrim" devLabel="Trim" translation="Ritaglia"/>
+	<label commandName="FusionDocUndo" devLabel="Undo" translation="Annulla"/>
+	<label commandName="FusionDocUpdateCommand" devLabel="Get Latest" translation="Carica ultima"/>
+	<label commandName="FusionDocUpdateMessage" devLabel="Changes have been made to a referenced design. &#xA;You can update the drawing from the button in the Application Bar." translation="Sono state apportate delle modifiche ad un disegno di riferimento. &#xA;È possibile aggiornare il disegno utilizzando il pulsante nella barra dell'applicazione."/>
+	<label commandName="FusionDocViewDetailDetailViewUnsupported" devLabel="Cannot detail a detail view" translation="Impossibile visualizzare i dettagli di una vista di dettaglio."/>
+	<label commandName="FusionDocViewDetailSectionViewUnsupported" devLabel="Cannot detail a section view" translation="Impossibile visualizzare i dettagli di una vista in sezione."/>
+	<label commandName="FusionDocViewProjDetailViewUnsupported" devLabel="Cannot project a detail view" translation="Impossibile proiettare una vista di dettaglio."/>
+	<label commandName="FusionDocViewProjNormalSectionViewUnsupported" devLabel="Cannot project this section view" translation="Impossibile proiettare questa vista in sezione"/>
+	<label commandName="FusionDocViewProjSectionViewUnsupported" devLabel="Cannot project a section view" translation="Impossibile proiettare una vista in sezione."/>
+	<label commandName="FusionDocViewSectionDetailViewUnsupported" devLabel="Cannot section a detail view" translation="Impossibile visualizzare sezioni di una vista di dettaglio."/>
+	<label commandName="FusionDocViewSectionNormalSectionViewUnsupported" devLabel="Cannot section this section view" translation="Impossibile visualizzare sezioni di questa vista in sezione"/>
+	<label commandName="FusionDocViewSectionSectionViewUnsupported" devLabel="Cannot section a section view" translation="Impossibile visualizzare sezioni di una vista in sezione."/>
+	<label commandName="FusionDocWaitForDebuggerOption" devLabel="Wait for Debugger" translation="Attendere il debugger"/>
+	<label commandName="FusionDocWaitForDebuggerToolTip" devLabel="Causes AcCoreConsole to pause on startup" translation="Causa la sospensione di AcCoreConsole all'avvio"/>
+	<label commandName="FusionDocZoomCmd" devLabel="Zoom Window" translation="Zoom finestra"/>
+	<label commandName="FusionDocumentSettingsAngularPrecisionInput" devLabel="Angular Dimension Precision" translation="Precisione quota angolare"/>
+	<label commandName="FusionDocumentSettingsBrowserLabel" devLabel="Document Settings" translation="Impostazioni documento"/>
+	<label commandName="FusionDocumentSettingsDimensionUnits" devLabel="Dimension Units" translation="Unità di quota"/>
+	<label commandName="FusionDocumentSettingsDisplayLeadingZeroInput" devLabel="Display Leading Zeros" translation="Visualizza zeri iniziali"/>
+	<label commandName="FusionDocumentSettingsDisplayLineWidthsInput" devLabel="Display Line Widths" translation="Visualizza larghezze linee"/>
+	<label commandName="FusionDocumentSettingsDisplayTrailingZeroInput" devLabel="Display Trailing Zeros" translation="Visualizza zeri finali"/>
+	<label commandName="FusionDocumentSettingsDisplayUnitsInput" devLabel="Display Dimension Units" translation="Visualizza unità di quota"/>
+	<label commandName="FusionDocumentSettingsFontInput" devLabel="Font" translation="Font"/>
+	<label commandName="FusionDocumentSettingsLineWidthGroupInput" devLabel="Line Width Group" translation="Gruppo larghezza linea"/>
+	<label commandName="FusionDocumentSettingsLinearFormatInput" devLabel="Dimension Format" translation="Formato quota"/>
+	<label commandName="FusionDocumentSettingsLinearPrecisionInput" devLabel="Linear Dimension Precision" translation="Precisione quota lineare"/>
+	<label commandName="FusionDocumentSettingsMediumLineWidthInput" devLabel="Medium Line Width" translation="Larghezza linea media"/>
+	<label commandName="FusionDocumentSettingsProjectionAngle" devLabel="Projection Angle" translation="Angolo di proiezione"/>
+	<label commandName="FusionDocumentSettingsStandardStringInput" devLabel="Standard             " translation="Standard             "/>
+	<label commandName="FusionDocumentSettingsTextHeightInput" devLabel="Text Height" translation="Altezza testo"/>
+	<label commandName="FusionDocumentSettingsThickLineWidthInput" devLabel="Thick Line Width" translation="Larghezza linea spessa"/>
+	<label commandName="FusionDocumentSettingsThinLineWidthInput" devLabel="Thin Line Width" translation="Larghezza linea sottile"/>
+	<label commandName="FusionDocumentSettingsUnits" devLabel="Units" translation="Unità"/>
+	<label commandName="FusionDrawingActivateEnvironmentCommand" devLabel="Workspace" translation="Area di lavoro"/>
+	<label commandName="FusionDrawingAlignBalloonCommand" devLabel="Align Balloons" translation="Allinea numeri di riferimento"/>
+	<label commandName="FusionDrawingAngularDimensionPrecision" devLabel="Angular Dimension Precision" translation="Precisione quota angolare"/>
+	<label commandName="FusionDrawingAnnotationFont" devLabel="Annotation Font" translation="Font annotazione"/>
+	<label commandName="FusionDrawingAnnotationLeadingZero" devLabel="Display Leading Zeros" translation="Visualizza zeri iniziali"/>
+	<label commandName="FusionDrawingAnnotationSettings" devLabel="Annotation Settings" translation="Impostazioni annotazione"/>
+	<label commandName="FusionDrawingAnnotationTextHeight" devLabel="Annotation Text Height" translation="Altezza testo annotazione"/>
+	<label commandName="FusionDrawingAnnotationTrailingZero" devLabel="Display Trailing Zeros" translation="Visualizza zeri finali"/>
+	<label commandName="FusionDrawingAnnotationUnit" devLabel="Annotation Unit" translation="Unità di annotazione"/>
+	<label commandName="FusionDrawingAnnotationUnitDisplay" devLabel="Display Annotation Unit" translation="Visualizza unità di annotazione"/>
+	<label commandName="FusionDrawingAnnotationUnitInches" devLabel="Inches (in)" translation="Pollici (in)"/>
+	<label commandName="FusionDrawingAnnotationUnitMillimetres" devLabel="Millimeters (mm)" translation="Millimetri (mm)"/>
+	<label commandName="FusionDrawingArcCenterCommandDesc" devLabel="ArcCenter" translation="ArcCenter"/>
+	<label commandName="FusionDrawingArcCommandDesc" devLabel="3-Point Arc" translation="Arco a 3 punti"/>
+	<label commandName="FusionDrawingArcTangentCommandDesc" devLabel="ArcTangent" translation="ArcTangent"/>
+	<label commandName="FusionDrawingAttDefCommandDesc" devLabel="Attribute" translation="Attributo"/>
+	<label commandName="FusionDrawingAttEditCommandDesc" devLabel="Attribute Definition Edit" translation="Modifica della definizione attributo"/>
+	<label commandName="FusionDrawingAttributeCommandDialogTitle1" devLabel="ATTRIBUTE" translation="ATTRIBUTO"/>
+	<label commandName="FusionDrawingBadInstallMessage" devLabel="&lt;b&gt;%1% Drawings cannot launch&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;An installation issue is preventing %1% Drawings from launching. Please follow the uninstall information at the link below and then reinstall in order to create a drawing.&lt;br /&gt;&lt;br /&gt;&lt;a href='https://knowledge.autodesk.com/support/fusion-360/troubleshooting/caas/sfdcarticles/sfdcarticles/How-to-do-an-automatic-Clean-Uninstall-for-Autodesk-Fusion-360.html'&gt;How to uninstall %1%&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;If you have reinstalled and are still encountering this message please contact support and we will respond promptly. Closing this dialog will return you to your design." translation="&lt;b&gt;Impossibile avviare i disegni %1%&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Un problema di installazione impedisce l'avvio dei disegni %1%. Seguire le informazioni sulla disinstallazione presso il collegamento riportato di seguito, quindi reinstallare per creare un disegno.&lt;br /&gt;&lt;br /&gt;&lt;a href='https://knowledge.autodesk.com/support/fusion-360/troubleshooting/caas/sfdcarticles/sfdcarticles/How-to-do-an-automatic-Clean-Uninstall-for-Autodesk-Fusion-360.html'&gt;Come disinstallare %1%&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Se è stata eseguita la reinstallazione e viene ancora visualizzato questo messaggio, contattare il supporto per ricevere assistenza immediata. Se si chiude questa finestra di dialogo, verrà ripristinato il progetto."/>
+	<label commandName="FusionDrawingBalloonCommandDesc" devLabel="Baloon" translation="Numero di riferimento"/>
+	<label commandName="FusionDrawingBlockEditorImageInsert" devLabel="Image" translation="Immagine"/>
+	<label commandName="FusionDrawingBorderDisplay" devLabel="Display Border" translation="Visualizza bordo"/>
+	<label commandName="FusionDrawingBrowserSheetName" devLabel="Sheet" translation="Foglio"/>
+	<label commandName="FusionDrawingCentermarkCommandDesc" devLabel="Center Mark" translation="Centro"/>
+	<label commandName="FusionDrawingCircle2PointCommandDesc" devLabel="Circle2Point" translation="Circle2Point"/>
+	<label commandName="FusionDrawingCircle3PointCommandDesc" devLabel="Circle3Point" translation="Circle3Point"/>
+	<label commandName="FusionDrawingCircleCommandDesc" devLabel="Center Radius Circle" translation="Cerchio centro-raggio"/>
+	<label commandName="FusionDrawingCircleDiameterCommandDesc" devLabel="CircleDiameter" translation="CircleDiameter"/>
+	<label commandName="FusionDrawingContinue" devLabel="Continue" translation="Continua"/>
+	<label commandName="FusionDrawingCopyCommandDesc" devLabel="Copy" translation="Copia"/>
+	<label commandName="FusionDrawingCreatePartsListCommand" devLabel="Parts List" translation="Elenco parti"/>
+	<label commandName="FusionDrawingDrawingBendID" devLabel="Bend Identifier" translation="Identificatore di piega"/>
+	<label commandName="FusionDrawingDrawingBlockRefEdit" devLabel="Properties" translation="Proprietà"/>
+	<label commandName="FusionDrawingEllipseCommandDesc" devLabel="Ellipse" translation="Ellisse"/>
+	<label commandName="FusionDrawingExtendCommandDesc" devLabel="Extend" translation="Estendi"/>
+	<label commandName="FusionDrawingFeatureToggle" devLabel="Feature Toggle..." translation="Attivazione/disattivazione lavorazione..."/>
+	<label commandName="FusionDrawingFeatureToggleCommandDesc" devLabel="Feature Toggle" translation="Attivazione/disattivazione lavorazione"/>
+	<label commandName="FusionDrawingImageEdit" devLabel="Image" translation="Immagine"/>
+	<label commandName="FusionDrawingImageInsert" devLabel="Image" translation="Immagine"/>
+	<label commandName="FusionDrawingLineCommandDesc" devLabel="Line" translation="Linea"/>
+	<label commandName="FusionDrawingLinearDimensionPrecision" devLabel="Linear Dimension Precision" translation="Precisione quota lineare"/>
+	<label commandName="FusionDrawingLinearUnitFormat" devLabel="Linear Unit Format" translation="Formato unità lineare"/>
+	<label commandName="FusionDrawingMLeaderContentEdit" devLabel="Edit Leader Text" translation="Modifica testo direttrice"/>
+	<label commandName="FusionDrawingMTextCommandDesc" devLabel="Text" translation="Testo"/>
+	<label commandName="FusionDrawingMTextEdit" devLabel="Edit Text" translation="Modifica testo"/>
+	<label commandName="FusionDrawingMeasureCommandDesc" devLabel="Measure" translation="Misura"/>
+	<label commandName="FusionDrawingMoveCmdDesc" devLabel="Move" translation="Sposta"/>
+	<label commandName="FusionDrawingMultiSheetDelete" devLabel="Delete Sheets" translation="Elimina fogli"/>
+	<label commandName="FusionDrawingNewTableCommandName" devLabel="Table" translation="Tabella"/>
+	<label commandName="FusionDrawingObjPropTable" devLabel="Object Property Table" translation="Tabella di proprietà oggetto"/>
+	<label commandName="FusionDrawingOffsetCommandDesc" devLabel="Offset" translation="Offset"/>
+	<label commandName="FusionDrawingPrint" devLabel="Print..." translation="Stampa..."/>
+	<label commandName="FusionDrawingPrintCommandDesc" devLabel="Print" translation="Stampa"/>
+	<label commandName="FusionDrawingPrintSelectedSheets" devLabel="Print" translation="Stampa"/>
+	<label commandName="FusionDrawingPrintSingleSheet" devLabel="Print" translation="Stampa"/>
+	<label commandName="FusionDrawingProjectionAngle" devLabel="Projection Angle" translation="Angolo di proiezione"/>
+	<label commandName="FusionDrawingProjectionAngleFirst" devLabel="First Angle Projection" translation="Proiezione del primo angolo"/>
+	<label commandName="FusionDrawingProjectionAngleThird" devLabel="Third Angle Projection" translation="Proiezione del terzo angolo"/>
+	<label commandName="FusionDrawingRectangleCommandDesc" devLabel="2-Point Rectangle" translation="Rettangolo mediante 2 punti"/>
+	<label commandName="FusionDrawingRepresentationFlatPattern" devLabel="Flat Pattern" translation="Modello piatto"/>
+	<label commandName="FusionDrawingRepresentationFoldedModel" devLabel="Folded Model" translation="Modello piegato"/>
+	<label commandName="FusionDrawingRepresentationInput" devLabel="Representation" translation="Rappresentazione"/>
+	<label commandName="FusionDrawingRotateCmdDesc" devLabel="Rotate" translation="Ruota"/>
+	<label commandName="FusionDrawingSheetActivate" devLabel="Activate Sheet" translation="Attiva foglio"/>
+	<label commandName="FusionDrawingSheetAdd" devLabel="Add Sheet" translation="Aggiungi foglio"/>
+	<label commandName="FusionDrawingSheetDelete" devLabel="Delete Sheet" translation="Elimina foglio"/>
+	<label commandName="FusionDrawingSheetNew" devLabel="Quick Add" translation="Aggiunta rapida"/>
+	<label commandName="FusionDrawingSheetRename" devLabel="Rename Sheet" translation="Rinomina foglio"/>
+	<label commandName="FusionDrawingSheetReorder" devLabel="Reorder Sheet" translation="Riordina foglio"/>
+	<label commandName="FusionDrawingSheetSettings" devLabel="Sheet Settings" translation="Impostazioni foglio"/>
+	<label commandName="FusionDrawingSheetSize" devLabel="Sheet Size" translation="Dimensioni foglio"/>
+	<label commandName="FusionDrawingShowAllChildCommand" devLabel="Show All Components" translation="Mostra tutti i componenti"/>
+	<label commandName="FusionDrawingShowAllCommand" devLabel="Show All Components" translation="Mostra tutti i componenti"/>
+	<label commandName="FusionDrawingShowHideCommand" devLabel="Show/Hide" translation="Mostra/Nascondi"/>
+	<label commandName="FusionDrawingSingleDimensionCmdDesc" devLabel="Dimension" translation="Quota"/>
+	<label commandName="FusionDrawingSketchClose" devLabel="Finish Sketch" translation="Termina schizzo"/>
+	<label commandName="FusionDrawingSketchCloseCommandDesc" devLabel="Finish Sketch" translation="Termina schizzo"/>
+	<label commandName="FusionDrawingSketchCommandDesc" devLabel="Create Sketch" translation="Crea schizzo"/>
+	<label commandName="FusionDrawingSketchDelete" devLabel="Delete" translation="Elimina"/>
+	<label commandName="FusionDrawingSketchEdit" devLabel="Edit Sketch" translation="Modifica schizzo"/>
+	<label commandName="FusionDrawingSketchRename" devLabel="Rename Sketch" translation="Rinomina schizzo"/>
+	<label commandName="FusionDrawingSmartDrawing" devLabel="SmartDrawing" translation="SmartDrawing"/>
+	<label commandName="FusionDrawingSmartSheet" devLabel="SmartSheet" translation="SmartSheet"/>
+	<label commandName="FusionDrawingStandard" devLabel="Standard" translation="Standard"/>
+	<label commandName="FusionDrawingStandardANSI" devLabel="ASME Standard" translation="Standard ASME"/>
+	<label commandName="FusionDrawingStandardISO" devLabel="ISO Standard" translation="Standard ISO"/>
+	<label commandName="FusionDrawingSuppressAllExceptSelectedCommand" devLabel="Suppress All Except Selected" translation="Sopprimi tutto eccetto i selezionati"/>
+	<label commandName="FusionDrawingSuppressCommand" devLabel="Suppress" translation="Sopprimi"/>
+	<label commandName="FusionDrawingSuppressUnsuppressCommand" devLabel="Suppress/UnSuppress" translation="Sopprimi/Scopri"/>
+	<label commandName="FusionDrawingTableCommandDesc" devLabel="Table" translation="Tabella"/>
+	<label commandName="FusionDrawingTableEditCommandDesc" devLabel="Table Edit" translation="Modifica tabella"/>
+	<label commandName="FusionDrawingTableHeaderLTScale" devLabel="LT SCale" translation="Scala tipo di linea"/>
+	<label commandName="FusionDrawingTableHeaderLineType" devLabel="Line Type" translation="Tipo di linea"/>
+	<label commandName="FusionDrawingTableHeaderLineWeight" devLabel="Line Weight" translation="Spessore linea"/>
+	<label commandName="FusionDrawingTableHeaderObjects" devLabel="Objects" translation="Oggetti"/>
+	<label commandName="FusionDrawingTemplateImageInsert" devLabel="Image" translation="Immagine"/>
+	<label commandName="FusionDrawingTextCommandDialogTitle1" devLabel="TEXT" translation="TESTO"/>
+	<label commandName="FusionDrawingTitleBlock1" devLabel="Title Block" translation="Cartiglio"/>
+	<label commandName="FusionDrawingTitleBlockDisplay" devLabel="Display Title Block" translation="Visualizza cartiglio"/>
+	<label commandName="FusionDrawingTitleBlockEdit" devLabel="Edit Title Block" translation="Modifica cartiglio"/>
+	<label commandName="FusionDrawingTitleBlockProperties1" devLabel="Title Block" translation="Cartiglio"/>
+	<label commandName="FusionDrawingTrimCommandDesc" devLabel="Trim" translation="Ritaglia"/>
+	<label commandName="FusionDrawingUnsuppressAllChildCommand" devLabel="Unsuppress All Components" translation="Scopri tutti i componenti"/>
+	<label commandName="FusionDrawingUnsuppressAllCommand" devLabel="Unsuppress All Components" translation="Scopri tutti i componenti"/>
+	<label commandName="FusionDrawingUnsuppressCommand" devLabel="Unsuppress" translation="Scopri"/>
+	<label commandName="FusionDrawingView" devLabel="Base View" translation="Vista di base"/>
+	<label commandName="FusionDrawingViewCommandDialogTitle1" devLabel="DRAWING VIEW" translation="VISTA DEL DISEGNO"/>
+	<label commandName="FusionDrawingViewCommandDialogTitle2" devLabel="PLACEHOLDER VIEW" translation="VISTA SEGNAPOSTO"/>
+	<label commandName="FusionDrawingViewDetail" devLabel="Detail View" translation="Vista di dettaglio"/>
+	<label commandName="FusionDrawingViewEdit" devLabel="Edit View" translation="Modifica vista"/>
+	<label commandName="FusionDrawingViewProject" devLabel="Projected View" translation="Vista proiettata"/>
+	<label commandName="FusionDrawingViewProjectCommandDesc" devLabel="Projected View" translation="Vista proiettata"/>
+	<label commandName="FusionDrawingViewSection" devLabel="Section View" translation="Vista in sezione"/>
+	<label commandName="FusionDrawingViewSimpleSection" devLabel="Simple Section View" translation="Vista in sezione semplice"/>
+	<label commandName="FusionDrawingsBlockEditorEnv" devLabel="Drawings Block Editor" translation="Editor blocchi di disegno"/>
+	<label commandName="FusionDrawingsSketchEnv" devLabel="Drawings Sketch Editor" translation="Editor schizzi disegni"/>
+	<label commandName="FusionEditPropertiesCommand" devLabel="Edit Properties" translation="Modifica proprietà"/>
+	<label commandName="FusionExportDrawingDXFDocument" devLabel="Output Sheet as DXF" translation="Foglio di output come DXF"/>
+	<label commandName="FusionExportDrawingDocument" devLabel="Output DWG" translation="DWG di output"/>
+	<label commandName="FusionExportDrawingDocumentCaption" devLabel="Output DWG" translation="DWG di output"/>
+	<label commandName="FusionExportDrawingDocumentDXFCaption" devLabel="Output Sheet as DXF" translation="Foglio di output come DXF"/>
+	<label commandName="FusionExportDrawingTemplate" devLabel="Output Drawing Template" translation="Modello di disegno di output"/>
+	<label commandName="FusionExportPDF" devLabel="Output PDF" translation="PDF di output"/>
+	<label commandName="FusionExportPDFCaption" devLabel="Output PDF" translation="PDF di output"/>
+	<label commandName="FusionExportPartsList" devLabel="Output CSV" translation="CSV di output"/>
+	<label commandName="FusionExportPartsListCaption" devLabel="Output Table" translation="Tabella di output"/>
+	<label commandName="FusionGripStretch" devLabel="GripStretch" translation="GripStretch"/>
+	<label commandName="FusionNewDrawingDocument" devLabel="Create Drawing" translation="Crea disegno"/>
+	<label commandName="FusionNewDrawingDocumentFromDesign1" devLabel="From Design" translation="Dal progetto"/>
+	<label commandName="FusionNewDrawingTemplate" devLabel="New Drawing Template" translation="Nuovo modello di disegno"/>
+	<label commandName="FusionPartsListEdit" devLabel="PARTS LIST" translation="ELENCO PARTI"/>
+	<label commandName="FusionResetPropertiesCommand" devLabel="Reset Properties" translation="Ripristina proprietà"/>
+	<label commandName="FusionSheetSettingsBrowserLabel" devLabel="Sheet Settings" translation="Impostazioni foglio"/>
+	<label commandName="FusionSheetSettingsDisplayBorderInput" devLabel="Display Border" translation="Visualizza bordo"/>
+	<label commandName="FusionSheetSettingsDisplayTitleBlockInput" devLabel="Display Title Block" translation="Visualizza cartiglio"/>
+	<label commandName="FusionSheetSettingsSheetSize" devLabel="Sheet Size" translation="Dimensioni foglio"/>
+	<label commandName="FusionSheetSettingsTitleBlock" devLabel="Title Block" translation="Cartiglio"/>
+	<label commandName="GeneralDWG" devLabel="Simplified DWG" translation="DWG semplificato"/>
+	<label commandName="GeneralDXF" devLabel="General DXF" translation="DXF generale"/>
+	<label commandName="GroupDestination" devLabel="Destination" translation="Destinazione"/>
+	<label commandName="GroupReference" devLabel="Reference" translation="Riferimento"/>
+	<label commandName="GroupReferenceStart" devLabel="Reference" translation="Riferimento"/>
+	<label commandName="HIDDEN_OPTION" devLabel="" translation=""/>
+	<label commandName="HIDDEN_OPTION_GROUP" devLabel="" translation=""/>
+	<label commandName="HatchEditPropertiesAngle" devLabel="Angle" translation="Angolo"/>
+	<label commandName="HatchEditPropertiesPattern" devLabel="Pattern" translation="Serie"/>
+	<label commandName="HatchEditPropertiesScale" devLabel="Scale Factor" translation="Fattore di scala"/>
+	<label commandName="ImageDistX" devLabel="X Distance" translation="Distanza X"/>
+	<label commandName="ImageDistY" devLabel="Y Distance" translation="Distanza Y"/>
+	<label commandName="ImageRotate" devLabel="Rotation Angle" translation="Angolo di rotazione"/>
+	<label commandName="ImageScale" devLabel="Scale" translation="Scala"/>
+	<label commandName="ImageSelect" devLabel="Select Image" translation="Seleziona immagine"/>
+	<label commandName="InfoAttributeType" devLabel="Attribute" translation="Attributo"/>
+	<label commandName="InputAutoCMP" devLabel="Auto-complete" translation="Completamento automatico"/>
+	<label commandName="InputCenterMark" devLabel="Center Mark" translation="Centro"/>
+	<label commandName="InputFullPCD" devLabel="Full PCD" translation="PCD completo"/>
+	<label commandName="InputIsLineweights" devLabel="Lineweights" translation="Spessori linea"/>
+	<label commandName="InputIsOpenPDF" devLabel="Open PDF" translation="Apri PDF"/>
+	<label commandName="InputOperation" devLabel="Operation" translation="Operazione"/>
+	<label commandName="InputRange" devLabel="Range" translation="Intervallo"/>
+	<label commandName="InputSheets" devLabel="Sheets" translation="Fogli"/>
+	<label commandName="InsertSymbol" devLabel="Insert Symbol" translation="Inserisci simbolo"/>
+	<label commandName="InsertSymbols" devLabel="Symbols" translation="Simboli"/>
+	<label commandName="InsertTitleBlockFileDialogFilter" devLabel="AutoCAD drawing files" translation="File di disegno di AutoCAD"/>
+	<label commandName="InspLabelBox" devLabel="Inspection Label" translation="Etichetta di ispezione"/>
+	<label commandName="InspLabelValue" devLabel="Label" translation="Etichetta"/>
+	<label commandName="InspRateBox" devLabel="Inspection Rate" translation="Frequenza di ispezione"/>
+	<label commandName="InspRateValue" devLabel="Rate" translation="Velocità"/>
+	<label commandName="InspectionCntlGroup" devLabel="Inspection" translation="Ispezione"/>
+	<label commandName="InspectionType" devLabel="Type" translation="Tipo"/>
+	<label commandName="InterferenceEdges" devLabel="Interference Edges" translation="Spigoli d'interferenza"/>
+	<label commandName="InvalidCharacters" devLabel="These characters \&lt;&gt;/?&quot;:;*|,=`$^ are not allowed." translation="I caratteri \&lt;&gt;/?&quot;:;*|,=`$^ non sono consentiti."/>
+	<label commandName="ItemAllSheets" devLabel="All Sheets" translation="Tutti i fogli"/>
+	<label commandName="ItemCurrentSheet" devLabel="Current Sheet" translation="Foglio corrente"/>
+	<label commandName="ItemRangeSheets" devLabel="Range" translation="Intervallo"/>
+	<label commandName="ItemSelectedSheets" devLabel="Selected Sheets" translation="Fogli selezionati"/>
+	<label commandName="Justification" devLabel="Justification" translation="Giustificazione"/>
+	<label commandName="JustificationMixed" devLabel="Mixed" translation="Misto"/>
+	<label commandName="LINETYPE_PROP" devLabel="Linetype" translation="Tipo di linea"/>
+	<label commandName="LINEWEIGHT_PROP" devLabel="Lineweight" translation="Spessore linea"/>
+	<label commandName="LatestMilestoneLabelStr" devLabel=" (latest milestone)" translation=" (ultima attività cardine)"/>
+	<label commandName="LatestVersionLabelStr" devLabel=" (latest version)" translation=" (ultima versione)"/>
+	<label commandName="LearningPanel" devLabel="In Product Marketing" translation="In Product Marketing"/>
+	<label commandName="Left" devLabel="Left" translation="Sinistra"/>
+	<label commandName="Lettering" devLabel="Lettering" translation="Letterizzazione"/>
+	<label commandName="Limit" devLabel="Limit" translation="Limite"/>
+	<label commandName="LineTypeCenter" devLabel="Center" translation="Centro"/>
+	<label commandName="LineTypeCenter2" devLabel="Center2" translation="Center2"/>
+	<label commandName="LineTypeContinuous" devLabel="Continuous" translation="Continua"/>
+	<label commandName="LineTypeHidden" devLabel="Hidden" translation="Nascosto"/>
+	<label commandName="LineTypeHidden2" devLabel="Hidden2" translation="Hidden2"/>
+	<label commandName="LineTypePhantom2" devLabel="Phantom2" translation="Phantom2"/>
+	<label commandName="LineWeight_0.0" devLabel="0.0mm" translation="0,0 mm"/>
+	<label commandName="LineWeight_0.13" devLabel="0.13mm" translation="0,13 mm"/>
+	<label commandName="LineWeight_0.18" devLabel="0.18mm" translation="0,18 mm"/>
+	<label commandName="LineWeight_0.25" devLabel="0.25mm" translation="0,25 mm"/>
+	<label commandName="LineWeight_0.3" devLabel="0.3mm" translation="0,3 mm"/>
+	<label commandName="LineWeight_0.35" devLabel="0.35mm" translation="0,35 mm"/>
+	<label commandName="LineWeight_0.5" devLabel="0.5mm" translation="0,5 mm"/>
+	<label commandName="LineWeight_0.6" devLabel="0.6mm" translation="0,6 mm"/>
+	<label commandName="LineWeight_0.7" devLabel="0.7mm" translation="0,7 mm"/>
+	<label commandName="LineWeight_0.8" devLabel="0.8mm" translation="0,8 mm"/>
+	<label commandName="LineWeight_1.0" devLabel="1.0mm" translation="1,0 mm"/>
+	<label commandName="LineWeight_1.4" devLabel="1.4mm" translation="1,4 mm"/>
+	<label commandName="LineWeight_1.58" devLabel="1.58mm" translation="1,58 mm"/>
+	<label commandName="LineWeight_2.0" devLabel="2.0mm" translation="2,0 mm"/>
+	<label commandName="LowerTolerance" devLabel="Lower Tolerance" translation="Tolleranza inferiore"/>
+	<label commandName="MainDashboard" devLabel="Data Panel" translation="Pannello dati"/>
+	<label commandName="Medium" devLabel="Medium" translation="Media"/>
+	<label commandName="MilestoneButCanUpdateStr" devLabel="Drawing is up to date; it's referencing the latest milestone of the design." translation="Il disegno è aggiornato e fa riferimento all'ultima attività cardine del progetto."/>
+	<label commandName="MilestoneReferenceLabelStr" devLabel="Reference: " translation="Riferimento: "/>
+	<label commandName="MilestoneVersionsOnly" devLabel="Milestones Only" translation="Solo attività cardine"/>
+	<label commandName="ModelReprensentation" devLabel="Model" translation="Modello"/>
+	<label commandName="MoveTransformPtPtTooltip" devLabel="Point to Point" translation="Da punto a punto"/>
+	<label commandName="NE Isometric" devLabel="NE Isometric" translation="NE assonometrico"/>
+	<label commandName="NTSBtn" devLabel="Not To Scale" translation="Non in scala"/>
+	<label commandName="NW Isometric" devLabel="NW Isometric" translation="NW assonometrico"/>
+	<label commandName="Name" devLabel="Name" translation="Nome"/>
+	<label commandName="NewDrawingDialogTitle" devLabel="CREATE DRAWING" translation="CREA DISEGNO"/>
+	<label commandName="NewDrawingMenuCommand" devLabel="New Drawing" translation="Nuovo disegno"/>
+	<label commandName="NewDrawingTemplateDialogTitle" devLabel="Create Drawing Template" translation="Crea modello di disegno"/>
+	<label commandName="NewFusionDrawingAnnotationUnitsInput" devLabel="Units" translation="Unità"/>
+	<label commandName="NewFusionDrawingComponentsInput" devLabel="Components" translation="Componenti"/>
+	<label commandName="NewFusionDrawingFormatANSIInput" devLabel="ASME" translation="ASME"/>
+	<label commandName="NewFusionDrawingFormatISOInput" devLabel="ISO" translation="ISO"/>
+	<label commandName="NewFusionDrawingFormatInput" devLabel="Standard" translation="Standard"/>
+	<label commandName="NewFusionDrawingFullAssembly" devLabel="Full Assembly" translation="Assieme completo"/>
+	<label commandName="NewFusionDrawingSheetSizeInput" devLabel="Sheet Size" translation="Dimensioni foglio"/>
+	<label commandName="NewFusionDrawingUnitsInchesInput" devLabel="in" translation="pollici"/>
+	<label commandName="NewFusionDrawingUnitsMillimetersInput" devLabel="mm" translation="mm"/>
+	<label commandName="NewOrExistingDrawingInput" devLabel="Drawing" translation="Disegno"/>
+	<label commandName="NewTableReferenceEmptyTable" devLabel="Empty Table" translation="Tabella vuota"/>
+	<label commandName="NewTableReferenceInput" devLabel="Reference" translation="Riferimento"/>
+	<label commandName="NewTableReferenceSelectView" devLabel="Select Drawing View" translation="Seleziona vista del disegno"/>
+	<label commandName="NewTableViewSelectionInput" devLabel="Drawing View" translation="Vista del disegno"/>
+	<label commandName="No" devLabel="No" translation="No"/>
+	<label commandName="NoBodyOrSketchForDrawing" devLabel="The design contains neither solid bodies nor sketches. A drawing cannot be created." translation="Il progetto non contiene né corpi solidi né schizzi. Impossibile creare un disegno."/>
+	<label commandName="NoFrame" devLabel="No Frame" translation="Nessun riquadro"/>
+	<label commandName="NoMeshOrTSplineWillBeIncluded" devLabel="Mesh, T-Spline and surface bodies will not be included in the drawing." translation="Mesh, T-spline e corpi di superficie non verranno inclusi nel disegno."/>
+	<label commandName="NoPartsListOrTableForExportWarning" devLabel="This sheet has no table." translation="Questo foglio non contiene tabelle."/>
+	<label commandName="None" devLabel="None" translation="Nessuna"/>
+	<label commandName="Numbering" devLabel="Numbering" translation="Numerazione"/>
+	<label commandName="OKButtonCaption" devLabel="OK" translation="OK"/>
+	<label commandName="Off" devLabel="Off" translation="Off"/>
+	<label commandName="OfflineFusionDrawingItem" devLabel="New Offline Drawing Item" translation="Nuovo elemento di disegno non in linea"/>
+	<label commandName="OffsetDistance" devLabel="Distance" translation="Distanza"/>
+	<label commandName="Ok" devLabel="OK" translation="OK"/>
+	<label commandName="On" devLabel="On" translation="On"/>
+	<label commandName="OpenRateLimitedMsg" devLabel="Unable to complete operation due to heavy system load. Please try again in a few minutes." translation="Impossibile completare l'operazione a causa di un carico di sistema elevato. Riprovare tra qualche minuto."/>
+	<label commandName="OpenRateLimitedTitle" devLabel="Unable to complete operation" translation="Impossibile completare l'operazione"/>
+	<label commandName="OpenRelatedDesignCommand" devLabel="Open" translation="Apri"/>
+	<label commandName="Orientation" devLabel="Orientation" translation="Orientamento"/>
+	<label commandName="Origin Block" devLabel="Origin Block" translation="Blocco origine"/>
+	<label commandName="OutOfDateContent" devLabel="Out of date content" translation="Contenuto non aggiornato"/>
+	<label commandName="OutputDrawingTemplateCaption" devLabel="Output Template" translation="Modello di output"/>
+	<label commandName="OutputDrawingTemplateFilter" devLabel="Drawing Template Files (*.f2t)" translation="File modello di disegno (*.f2t)"/>
+	<label commandName="Overwrite" devLabel="Overwrite" translation="Sovrascrivi"/>
+	<label commandName="PLM360DownloadFilePathEmpty" devLabel="Cannot insert this file." translation="Impossibile inserire questo file."/>
+	<label commandName="PartsListAllLevelInput" devLabel="All Levels" translation="Tutti i livelli"/>
+	<label commandName="PartsListFirstLevelInput" devLabel="First Level" translation="Primo livello"/>
+	<label commandName="PartsListStructureInput" devLabel="Structure" translation="Struttura"/>
+	<label commandName="Patent" devLabel="Patent" translation="Brevetto"/>
+	<label commandName="PrimaryPrecision" devLabel="Primary Precision" translation="Precisione primaria"/>
+	<label commandName="PrintDialog_Commit" devLabel="Print" translation="Stampa"/>
+	<label commandName="PrintDialog_Printer" devLabel="Printer" translation="Stampante"/>
+	<label commandName="PrintDialog_Title" devLabel="Print" translation="Stampa"/>
+	<label commandName="PrintToFileExistingFilesWarning" devLabel="%1% already exist.&#xA;&#xA;What would you like to do?" translation="%1% esiste già.&#xA;&#xA;Come si desidera procedere?"/>
+	<label commandName="PrintToFileExistingFilesWarning2" devLabel="%1% already exists.&#xA;&#xA;What would you like to do?" translation="%1% esiste già.&#xA;&#xA;Come si desidera procedere?"/>
+	<label commandName="PrintToFileFilesInUseWarning" devLabel="%1% cannot be replaced because they are in use." translation="Impossibile sostituire %1% perché sono in uso."/>
+	<label commandName="PrintToFileFilesInUseWarning2" devLabel="%1% cannot be replaced because it is in use." translation="Impossibile sostituire %1% perché è in uso."/>
+	<label commandName="PrintToFileList1" devLabel="and another %1% files" translation="e altri file %1%"/>
+	<label commandName="PrintToFileList2" devLabel="and another %1% file" translation="e un altro file %1%"/>
+	<label commandName="PrinterList_Printer" devLabel="Printer" translation="Stampante"/>
+	<label commandName="Range" devLabel="Range (Multi-File)" translation="Intervallo (più file)"/>
+	<label commandName="RangePreviewText" devLabel="eg. 1-4, 8, 9" translation="esempio: 1-4, 8, 9"/>
+	<label commandName="RedoCommand" devLabel="Redo" translation="Ripeti"/>
+	<label commandName="RedoCommandDesc" devLabel="Redo" translation="Ripeti"/>
+	<label commandName="ReferenceBtn" devLabel="Reference Dimension" translation="Quota di riferimento"/>
+	<label commandName="ReferenceLabelStr" devLabel="Reference: " translation="Riferimento: "/>
+	<label commandName="ReferencedDesignNotLastestVersion" devLabel="Referenced design is not the latest version. The latest version will be opened." translation="Il progetto di riferimento non è la versione più recente. Verrà aperta la versione più recente."/>
+	<label commandName="Referral" devLabel="Refer a Friend" translation="Fai riferimento a un amico"/>
+	<label commandName="RenumberSelectionInput" devLabel="Selection" translation="Selezione"/>
+	<label commandName="RenumberStartingNumber" devLabel="Starting Number" translation="Numero iniziale"/>
+	<label commandName="Representation" devLabel="Representation" translation="Rappresentazione"/>
+	<label commandName="RepresentationCntlGroup" devLabel="Representation" translation="Rappresentazione"/>
+	<label commandName="ResetDefault" devLabel="Reset Properties" translation="Ripristina proprietà"/>
+	<label commandName="RestartSelectionInput" devLabel="Restart Selection" translation="Riavvia selezione"/>
+	<label commandName="Revision" devLabel="Rev." translation="Rev."/>
+	<label commandName="Right" devLabel="Right" translation="Destra"/>
+	<label commandName="RotateAngleInput" devLabel="Angle" translation="Angolo"/>
+	<label commandName="RotateReference" devLabel="Reference" translation="Riferimento"/>
+	<label commandName="RotateTransformPtPtTooltip" devLabel="Rotate" translation="Ruota"/>
+	<label commandName="Round" devLabel="Round" translation="Circolare"/>
+	<label commandName="SE Isometric" devLabel="SE Isometric" translation="SE assonometrico"/>
+	<label commandName="SW Isometric" devLabel="SW Isometric" translation="SW assonometrico"/>
+	<label commandName="Scale" devLabel="Scale" translation="Scala"/>
+	<label commandName="SecondFrame" devLabel="Second Frame" translation="Secondo riquadro"/>
+	<label commandName="SelectDrawingComponents" devLabel="Select components to include in drawing" translation="Selezionare i componenti da includere nel disegno."/>
+	<label commandName="SelectedSheets" devLabel="Selected Sheets (Multi-File)" translation="Fogli selezionati (più file)"/>
+	<label commandName="SelectionInput" devLabel="Selection" translation="Selezione"/>
+	<label commandName="SelectionInputSimpleStyleTail" devLabel="selected" translation="selezionata"/>
+	<label commandName="SelectionInputSimpleStyleTail2" devLabel="Selected" translation="Selezionato"/>
+	<label commandName="ShadedWithVisibleAndHiddenEdges" devLabel="Shaded with Hidden Edges" translation="Ombreggiato con spigoli nascosti"/>
+	<label commandName="ShadedWithVisibleEdges" devLabel="Shaded" translation="Ombreggiato"/>
+	<label commandName="Sheet" devLabel="Sheet" translation="Foglio"/>
+	<label commandName="SheetSet" devLabel="Sheet Set" translation="Gruppo di fogli"/>
+	<label commandName="SheetSizeBrowserLabel" devLabel="Sheet Size: " translation="Dimensioni foglio: "/>
+	<label commandName="SheetSizeBrowserToolTip" devLabel="Change Sheet Size" translation="Modifica dimensioni foglio"/>
+	<label commandName="Shortened" devLabel="Shortened" translation="Ridotto"/>
+	<label commandName="SimpleDialog_Cancel" devLabel="Cancel" translation="Annulla"/>
+	<label commandName="SimpleDialog_Commit" devLabel="OK" translation="OK"/>
+	<label commandName="Size" devLabel="Size" translation="Dimensione"/>
+	<label commandName="SketchAlreadyPresent" devLabel="A sketch with same name already exists." translation="Esiste già uno schizzo con lo stesso nome."/>
+	<label commandName="SketchNameTooLong" devLabel="Sketch name is too long." translation="Il nome dello schizzo è troppo lungo."/>
+	<label commandName="SketchShowHideCommand" devLabel="Show/Hide" translation="Mostra/Nascondi"/>
+	<label commandName="Source" devLabel="Source" translation="Origine"/>
+	<label commandName="Standard" devLabel="Standard" translation="Standard"/>
+	<label commandName="Storyboard" devLabel="Storyboard" translation="Storyboard"/>
+	<label commandName="StoryboardRepresentation" devLabel="Storyboard" translation="Storyboard"/>
+	<label commandName="Survey" devLabel="Send Your Feedback" translation="Invia commenti"/>
+	<label commandName="Symmetrical" devLabel="Symmetrical" translation="Simmetrico"/>
+	<label commandName="TEBtn" devLabel="Theoretically Exact" translation="Teoricamente esatto"/>
+	<label commandName="TableDirectionInput" devLabel="Table Direction" translation="Direzione tabella"/>
+	<label commandName="TangentEdges" devLabel="Tangent Edges" translation="Spigoli tangenti"/>
+	<label commandName="TechnicalRef" devLabel="Technical reference" translation="Riferimento tecnico"/>
+	<label commandName="TemplateSheetName_Assembly" devLabel="Assembly" translation="Assieme"/>
+	<label commandName="TemplateSheetName_AssemblyInstruction" devLabel="Assembly Instruction" translation="Istruzione assieme"/>
+	<label commandName="TemplateSheetName_Component" devLabel="Component Detail" translation="Dettaglio componente"/>
+	<label commandName="TemplateSheetName_SheetMetal" devLabel="Sheet Metal Detail" translation="Dettaglio lamiera"/>
+	<label commandName="TextAlignment" devLabel="Text Alignment" translation="Allineamento testo"/>
+	<label commandName="TextBold" devLabel="Bold" translation="Grassetto"/>
+	<label commandName="TextCommands" devLabel="Text Commands" translation="Comandi di testo"/>
+	<label commandName="TextFont" devLabel="Font" translation="Font"/>
+	<label commandName="TextHeight" devLabel="Height" translation="Altezza"/>
+	<label commandName="TextItalic" devLabel="Italic" translation="Corsivo"/>
+	<label commandName="TextStyle" devLabel="" translation=""/>
+	<label commandName="TextUnderline" devLabel="Underline" translation="Sottolinea"/>
+	<label commandName="Thick" devLabel="Thick" translation="Spessa"/>
+	<label commandName="Thin" devLabel="Thin" translation="Sottile"/>
+	<label commandName="ThreadEdges" devLabel="Thread Edges" translation="Spigoli di filettatura"/>
+	<label commandName="Title1" devLabel="Title" translation="Titolo"/>
+	<label commandName="Title2" devLabel="" translation=""/>
+	<label commandName="Title3" devLabel="" translation=""/>
+	<label commandName="TitleBlockAttributesGroup" devLabel="Attributes" translation="Attributi"/>
+	<label commandName="TitleBlockBrowserLabel" devLabel="Title Block: " translation="Cartiglio: "/>
+	<label commandName="TitleBlockBrowserToolTip" devLabel="Change Title Block" translation="Modifica cartiglio"/>
+	<label commandName="TitleBlockDeleteLogo" devLabel="Delete Image" translation="Elimina immagine"/>
+	<label commandName="TitleBlockInsertLogo" devLabel="Insert Image" translation="Inserisci immagine"/>
+	<label commandName="TitleBlockLogoDistX" devLabel="X Distance" translation="Distanza X"/>
+	<label commandName="TitleBlockLogoDistY" devLabel="Y Distance" translation="Distanza Y"/>
+	<label commandName="TitleBlockLogoGroup" devLabel="Logo" translation="Logo"/>
+	<label commandName="TitleBlockLogoRotate" devLabel="Rotate" translation="Ruota"/>
+	<label commandName="TitleBlockLogoScale" devLabel="Scale" translation="Scala"/>
+	<label commandName="TitleBlockProject" devLabel="Project" translation="Progetto"/>
+	<label commandName="ToggleOtherGeometry" devLabel="Toggle Other Geometry" translation="Attiva/disattiva altra geometria"/>
+	<label commandName="TogglePaletteBorder" devLabel="Toggle Palette Border" translation="Attiva/disattiva bordo tavolozza"/>
+	<label commandName="TogglePaletteGrid" devLabel="Toggle Palette Grid" translation="Attiva/disattiva griglia tavolozza"/>
+	<label commandName="TogglePaletteSheet" devLabel="Toggle Palette Sheet" translation="Attiva/disattiva foglio tavolozza"/>
+	<label commandName="TogglePaletteSnap" devLabel="Toggle Palette Snap" translation="Attiva/disattiva snap a tavolozza"/>
+	<label commandName="Tolerance" devLabel="Tolerance" translation="Tolleranza"/>
+	<label commandName="ToleranceCntlGroup" devLabel="Tolerance" translation="Tolleranza"/>
+	<label commandName="ToleranceType" devLabel="Type" translation="Tipo"/>
+	<label commandName="Top" devLabel="Top" translation="Alto"/>
+	<label commandName="TransformPointToPoint" devLabel="Transform" translation="Trasforma"/>
+	<label commandName="TransformSelectionInput" devLabel="Selection" translation="Selezione"/>
+	<label commandName="Type" devLabel="Type" translation="Tipo"/>
+	<label commandName="UndoCommand" devLabel="Undo" translation="Annulla"/>
+	<label commandName="UndoCommandDesc" devLabel="Undo" translation="Annulla"/>
+	<label commandName="UnsavedDocumentLabel" devLabel="(Unsaved)" translation="(Non salvato)"/>
+	<label commandName="Update2NonMilestoneFromMilestone" devLabel="No new milestones available. Do you want to update the referenced design to the latest version?" translation="Nessuna nuova attività cardine disponibile. Aggiornare il progetto di riferimento alla versione più recente?"/>
+	<label commandName="UpperTolerance" devLabel="Upper Tolerance" translation="Tolleranza superiore"/>
+	<label commandName="VersionExistsLabelStr" devLabel=" exists)" translation=" esiste)"/>
+	<label commandName="VersionLabelStr" devLabel="&#xA;Version: " translation="&#xA;Versione: "/>
+	<label commandName="VersionOutdatedStr" devLabel="Drawing is out of date; it's referencing an older version of the design. &#xA;&#xA;Click to update the drawing to the latest version." translation="Il disegno è obsoleto; fa riferimento ad una versione precedente del progetto. &#xA;&#xA;Fare clic per aggiornare il disegno alla versione più recente."/>
+	<label commandName="VersionUnavailableNowStr" devLabel="&#xA;Version information unavailable at the moment" translation="&#xA;Informazioni sulla versione al momento non disponibili."/>
+	<label commandName="VersionUnavailableStr" devLabel="&#xA;Version information unavailable offline" translation="&#xA;Informazioni sulla versione non disponibili non in linea."/>
+	<label commandName="VersionUpdatedStr" devLabel="Drawing is up to date; it's referencing the latest version of the design." translation="Il disegno è aggiornato; fa riferimento alla versione più recente del progetto."/>
+	<label commandName="VeryThick" devLabel="Very Thick" translation="Molto spessa"/>
+	<label commandName="VeryThin" devLabel="Very Thin" translation="Molto sottile"/>
+	<label commandName="ViewStyle" devLabel="Style" translation="Stile"/>
+	<label commandName="VisibleAndHiddenEdge" devLabel="Visible and Hidden Edges" translation="Spigoli visibili e nascosti"/>
+	<label commandName="VisibleEdges" devLabel="Visible Edges" translation="Spigoli visibili"/>
+	<label commandName="Weight" devLabel="Weight" translation="Peso"/>
+	<label commandName="Yes" devLabel="Yes" translation="Sì"/>
+	<label commandName="alignLeft" devLabel="Left" translation="Sinistra"/>
+	<label commandName="alignRight" devLabel="Right" translation="Destra"/>
+	<label commandName="bottomCenter" devLabel="Bottom Center" translation="In basso al centro"/>
+	<label commandName="bottomLeft" devLabel="Bottom Left" translation="In basso a sinistra"/>
+	<label commandName="bottomRight" devLabel="Bottom Right" translation="In basso a destra"/>
+	<label commandName="bottomToTop" devLabel="Up" translation="In alto"/>
+	<label commandName="centerText" devLabel="Center" translation="Centro"/>
+	<label commandName="columnVisibility" devLabel="Toggle Column Visibility" translation="Attiva/disattiva visibilità colonna"/>
+	<label commandName="cutCheckBoxes" devLabel="Check Boxes for Participants" translation="Caselle di controllo per i partecipanti"/>
+	<label commandName="cutParticipantTable" devLabel="Cut Participant Table" translation="Taglia tabella partecipanti"/>
+	<label commandName="cutTableGroup" devLabel="Objects To Cut" translation="Oggetti da tagliare"/>
+	<label commandName="deleteColumn" devLabel="Delete Selected Columns" translation="Elimina colonne selezionate"/>
+	<label commandName="deleteRow" devLabel="Delete Selected Rows" translation="Elimina righe selezionate"/>
+	<label commandName="department" devLabel="Dept." translation="Reparto"/>
+	<label commandName="dwgExtension" devLabel=".dwg" translation=".dwg"/>
+	<label commandName="dxfExtension" devLabel=".dxf" translation=".dxf"/>
+	<label commandName="editColumns" devLabel="Edit Columns" translation="Modifica colonne"/>
+	<label commandName="editRows" devLabel="Edit Rows" translation="Modifica righe"/>
+	<label commandName="fd_buttonAbort" devLabel="Abort" translation="Interrompi"/>
+	<label commandName="fd_buttonIgnore" devLabel="Ignore" translation="Ignora"/>
+	<label commandName="fd_buttonRetry" devLabel="Retry" translation="Riprova"/>
+	<label commandName="fd_button_continue" devLabel="Continue" translation="Continua"/>
+	<label commandName="fd_button_try_again" devLabel="Try Again" translation="Riprova"/>
+	<label commandName="in" devLabel="in" translation="in"/>
+	<label commandName="insertColumnToLeft" devLabel="Insert Columns To Left" translation="Inserisci colonne a sinistra"/>
+	<label commandName="insertColumnToRight" devLabel="Insert Columns To Right" translation="Inserisci colonne a destra"/>
+	<label commandName="insertRowAbove" devLabel="Insert Rows Above" translation="Inserisci righe in alto"/>
+	<label commandName="insertRowBelow" devLabel="Insert Rows Below" translation="Inserisci righe in basso"/>
+	<label commandName="inspectionLabelTextDefault" devLabel="" translation=""/>
+	<label commandName="itemAddBreak" devLabel="Add Break" translation="Aggiungi interruzione"/>
+	<label commandName="itemDown" devLabel="Down" translation="In basso"/>
+	<label commandName="itemRemoveBreak" devLabel="Remove Break" translation="Rimuovi interruzione"/>
+	<label commandName="itemUP" devLabel="Up" translation="In alto"/>
+	<label commandName="justify" devLabel="Justify" translation="Giustifica"/>
+	<label commandName="lclzAddSheet" devLabel="Quick Add" translation="Aggiunta rapida"/>
+	<label commandName="lclzAlreadyIsUse" devLabel="The name &quot;%1%&quot; is already is use. &#xA; You will need to enter a different name." translation="Il nome &quot;%1%&quot; è già in uso. &#xA; Sarà necessario specificare un altro nome."/>
+	<label commandName="lclzAskIfNeedToGetLatest" devLabel="Version mismatch. Get Latest to proceed with view placement?" translation="Versione non corrispondente. Caricare la versione più recente per continuare con il posizionamento della vista?"/>
+	<label commandName="lclzBorderPalette" devLabel="Border" translation="Bordo"/>
+	<label commandName="lclzBorderTab" devLabel="BORDER" translation="BORDO"/>
+	<label commandName="lclzBrowse" devLabel="Browse..." translation="Sfoglia..."/>
+	<label commandName="lclzCannotFindTemplate" devLabel="The selected drawing template cannot be found." translation="Impossibile trovare il modello di disegno selezionato."/>
+	<label commandName="lclzChangeDocSettingDesc" devLabel="Some document settings are read-only, because they can only be set when you first create a drawing, or they are controlled by a standard." translation="Alcune impostazioni del documento sono di sola lettura, poiché possono essere impostate solo quando si crea un disegno per la prima volta oppure sono controllate da uno standard."/>
+	<label commandName="lclzChangeDocSettingTips" devLabel="View or change document settings related to standards, units, text, dimensions, and line widths for the current drawing." translation="Visualizzare o modificare le impostazioni del documento relative a standard, unità, testo, quote e spessori di linea per il disegno corrente."/>
+	<label commandName="lclzChangeDocSettingTipsAndTricksTitle" devLabel="Document Settings Information" translation="Informazioni sulle impostazioni documento"/>
+	<label commandName="lclzChangeSheetSettingDesc" devLabel="You can create as many title blocks as you need and switch between them. You can also toggle the border and title block on or off independently." translation="È possibile creare un numero illimitato di cartigli e passare da un cartiglio all'altro. È inoltre possibile attivare o disattivare in modo indipendente il bordo e il cartiglio."/>
+	<label commandName="lclzChangeSheetSettingTips" devLabel="Change the sheet size and title block for the current drawing." translation="Modificare le dimensioni del foglio e il cartiglio per il disegno corrente."/>
+	<label commandName="lclzChangeSheetSettingTipsAndTricksTitle" devLabel="Sheet Settings Information" translation="Informazioni sulle impostazioni foglio"/>
+	<label commandName="lclzContainsUnsupportedChars" devLabel="The name contains unsupported characters" translation="Il nome contiene caratteri non supportati"/>
+	<label commandName="lclzCurrentDrawing" devLabel="Current Drawing" translation="Disegno corrente"/>
+	<label commandName="lclzDefaultDocumentName" devLabel="Untitled" translation="Senza titolo"/>
+	<label commandName="lclzDimensions" devLabel="Dimensions" translation="Quote"/>
+	<label commandName="lclzExportFusionDrawingDocument1" devLabel="Creates a DXF file of the current drawing." translation="Crea un file DXF del disegno corrente."/>
+	<label commandName="lclzExportFusionDrawingTemplate1" devLabel="Creates a drawing template of the current drawing configuration that can be used when creating new drawings." translation="Crea un modello di disegno della configurazione del disegno corrente che può essere utilizzato per la creazione di nuovi disegni."/>
+	<label commandName="lclzExportFusionDrawingTemplate2" devLabel="A template retains the current drawing's drafting standard, annotation and sheet settings, title block, and border. All drawing views, associated annotations, and parts lists are removed." translation="Un modello mantiene la norma di disegno corrente del disegno, le impostazioni delle annotazioni e del foglio, il cartiglio e il bordo. Tutte le viste di disegno, le annotazioni associate e gli elenchi delle parti vengono rimossi."/>
+	<label commandName="lclzFinishBlock" devLabel="Finish Title Block" translation="Termina cartiglio"/>
+	<label commandName="lclzFinishBorder" devLabel="Finish Border" translation="Termina bordo"/>
+	<label commandName="lclzFinishEdit" devLabel="Finish Title Block" translation="Termina cartiglio"/>
+	<label commandName="lclzFinishSketch" devLabel="Finish Sketch" translation="Termina schizzo"/>
+	<label commandName="lclzFromScratch" devLabel="From Scratch" translation="Da zero"/>
+	<label commandName="lclzFusionDocTab" devLabel="DRAWING" translation="DISEGNO"/>
+	<label commandName="lclzFusionDrawingAddSheetTips" devLabel="Add a new sheet which by default inherits the properties of the active sheet, or select the desired options. " translation="Aggiungere un nuovo foglio che eredita per default le proprietà del foglio attivo o selezionare le opzioni desiderate. "/>
+	<label commandName="lclzFusionDrawingAddSheetTipsDesc" devLabel="Right-click anywhere within the sheet bar to add a new sheet there." translation="Fare clic con il pulsante destro del mouse all'interno della barra del foglio per aggiungere un nuovo foglio."/>
+	<label commandName="lclzFusionDrawingAddSheetTitle" devLabel="Add Sheet Information" translation="Aggiungi informazioni sui fogli"/>
+	<label commandName="lclzFusionDrawingAlignBalloon1" devLabel="Select existing balloons to align, then specify two points." translation="Selezionare i numeri di riferimento esistenti da allineare, quindi specificare due punti."/>
+	<label commandName="lclzFusionDrawingAlignBalloon2" devLabel="Balloons are aligned and distributed equally between the two points." translation="I numeri di riferimento vengono allineati e distribuiti in modo uniforme tra i due punti."/>
+	<label commandName="lclzFusionDrawingAlignedDimension1" devLabel="Measures the precise distance between two points. Create dimensions that are parallel to the locations or objects that you specify." translation="Misura la distanza precisa tra due punti. Creare quote parallele alle posizioni o agli oggetti specificati."/>
+	<label commandName="lclzFusionDrawingAngularDimension1" devLabel="Measures the angle of a rounded edge or the angle between two points or edges." translation="Misura l'angolo di uno spigolo arrotondato o l'angolo tra due punti o spigoli."/>
+	<label commandName="lclzFusionDrawingArc1" devLabel="Creates an arc using 3 points." translation="Crea un arco utilizzando tre punti."/>
+	<label commandName="lclzFusionDrawingArc2" devLabel="Specify the arc's start point, middle point and end point." translation="Specificare il punto iniziale, il punto medio e il punto finale dell'arco."/>
+	<label commandName="lclzFusionDrawingArrow1" devLabel="Creates a leader within the sketch." translation="Crea una direttrice all'interno dello schizzo."/>
+	<label commandName="lclzFusionDrawingArrow2" devLabel="Specify the leader's start point, then its end point." translation="Specificare il punto iniziale della direttrice, quindi il relativo punto finale."/>
+	<label commandName="lclzFusionDrawingAttribute1" devLabel="Specify a point then enter the attribute's prompt. When finished, click outside the text editor." translation="Specificare un punto, quindi immettere il messaggio di richiesta dell'attributo. Al termine, fare clic all'esterno dell'editor di testo."/>
+	<label commandName="lclzFusionDrawingBalloon" devLabel="Select a component within a drawing view, then place the balloon." translation="Selezionare un componente all'interno di una vista del disegno, quindi posizionare il numero di riferimento."/>
+	<label commandName="lclzFusionDrawingBalloonRenumber1" devLabel="Specify a starting number, then select existing balloons or bend identifiers." translation="Specificare un numero iniziale, quindi selezionare i numeri di riferimento o gli identificatori di piega esistenti."/>
+	<label commandName="lclzFusionDrawingBalloonRenumber2" devLabel="Balloons and bend identifiers are renumbered based on the order they are selected. Parts lists and bend tables will automatically sort based on the renumbering." translation="I numeri di riferimento e gli identificatori di piega vengono rinumerati in base all'ordine in cui sono selezionati. Gli elenchi parti e le tabelle piega vengono automaticamente ordinati in base alla rinumerazione."/>
+	<label commandName="lclzFusionDrawingBaselineDimension1" devLabel="Select an existing linear dimension, then specify a point to create a new dimension." translation="Selezionare una quota lineare esistente, quindi specificare un punto per creare una nuova quota."/>
+	<label commandName="lclzFusionDrawingBaselineDimension2" devLabel="Continue specifying points to create multiple dimensions all originating from the same base point." translation="Continuare a specificare i punti per creare più quote, tutte originate dallo stesso punto base."/>
+	<label commandName="lclzFusionDrawingBendID" devLabel="Select a bend centerline within a flat pattern drawing view. A bend identifier is created." translation="Selezionare una linea d'asse della piega in una vista del disegno del modello piatto. Viene creato un identificatore di piega."/>
+	<label commandName="lclzFusionDrawingBlocCloseCommandTip1" devLabel="Closes the editor and returns to the drawing or drawing template." translation="Chiude l'editor e torna al disegno o al modello di disegno."/>
+	<label commandName="lclzFusionDrawingBlockEditorImageInsert1" devLabel="Inserts the selected image into the current block definition." translation="Inserisce l'immagine selezionata nella definizione di blocco corrente."/>
+	<label commandName="lclzFusionDrawingCenterPattern1" devLabel="Select rounded edges, such as holes or fillets. A center mark pattern including a PCD is created." translation="Selezionare gli spigoli arrotondati, ad esempio fori o raccordi. Viene creato un modello di centro che include un PCD."/>
+	<label commandName="lclzFusionDrawingCenterPatternEdit1" devLabel="Select an existing centermark pattern for editing." translation="Selezionare un modello di centro esistente per la modifica."/>
+	<label commandName="lclzFusionDrawingCenterPatternTipsDesc" devLabel="A Reference Edge has to be selected while creating a center mark pattern for a slot." translation="Durante la creazione di un modello di centro per un'asola, è necessario selezionare uno spigolo di riferimento."/>
+	<label commandName="lclzFusionDrawingCenterPatternTipsTips" devLabel="Select the edges of features (e.g. holes) in the appropriate order to form the required center mark pattern. The Auto-complete checkbox is checked by default. The Center Mark Pattern is created automatically when you click just one hole or rounded edge." translation="Selezionare gli spigoli delle lavorazioni (ad esempio i fori) nell'ordine appropriato per formare il modello di centro desiderato. La casella di controllo Completamento automatico è selezionata per impostazione predefinita. Il modello di centro viene creato automaticamente quando si fa clic su un solo foro o spigolo arrotondato."/>
+	<label commandName="lclzFusionDrawingCenterPatternTipsTitle" devLabel="Center Mark Pattern Information" translation="Informazioni sul modello di centro"/>
+	<label commandName="lclzFusionDrawingCenterline1" devLabel="Select two straight edges. The centerline is created between them." translation="Selezionare due spigoli retti. La linea d'asse viene creata tra di essi."/>
+	<label commandName="lclzFusionDrawingCentermark1" devLabel="Select a rounded edge, such as a fillet, hole, sphere, or cylinder." translation="Selezionare uno spigolo arrotondato, ad esempio un raccordo, un foro, una sfera o un cilindro."/>
+	<label commandName="lclzFusionDrawingChainDimension1" devLabel="Select an existing linear dimension, then specify a point to create a new dimension." translation="Selezionare una quota lineare esistente, quindi specificare un punto per creare una nuova quota."/>
+	<label commandName="lclzFusionDrawingChainDimension2" devLabel="Continue specifying points to create multiple side-by-side dimensions." translation="Continuare a specificare i punti per creare più quote affiancate."/>
+	<label commandName="lclzFusionDrawingCircle1" devLabel="Creates a circle using its center point and radius." translation="Crea un cerchio utilizzando il suo punto centrale e il raggio."/>
+	<label commandName="lclzFusionDrawingCircle2" devLabel="Specify the circle's center point, then specify a second point to define its radius." translation="Specificare il punto centrale del cerchio, quindi specificare un secondo punto per definirne il raggio."/>
+	<label commandName="lclzFusionDrawingCopy1" devLabel="Select objects to copy, specify a base point, then specify a second point to define the copy's location." translation="Selezionare gli oggetti da copiare, specificare un punto base, quindi specificare un secondo punto per definire la posizione della copia."/>
+	<label commandName="lclzFusionDrawingCreateFromComponentsTipsDesc" devLabel="For more control over drawing defaults, make adjustments in Preferences in your User Name drop-down in the top right." translation="Per un maggior controllo sui valori di default del disegno, in alto a destra, nel menu a discesa del nome utente, apportare le modifiche in Preferenze."/>
+	<label commandName="lclzFusionDrawingCreateFromComponentsTipsTips" devLabel="Standard and Units cannot be changed once a drawing is created. Sheet size, however, can be adjusted at any time in Sheet Settings." translation="Impossibile modificare gli standard e le unità una volta creato un disegno. Le dimensioni del foglio, tuttavia, possono essere modificate in qualsiasi momento nelle impostazioni del foglio."/>
+	<label commandName="lclzFusionDrawingCreateFromComponentsTipsTitle" devLabel="Create Drawing Information" translation="Informazioni sulla creazione dei disegni"/>
+	<label commandName="lclzFusionDrawingCreatePartsList1" devLabel="Generates a parts list of the model associated to the drawing." translation="Genera un elenco delle parti del modello associato al disegno."/>
+	<label commandName="lclzFusionDrawingDatumId1" devLabel="Select an edge, or an existing dimension, or an existing feature control frame symbol, then place the datum identifier." translation="Selezionare uno spigolo, una quota esistente o un simbolo del riquadro di controllo della geometria, quindi posizionare l'identificatore della data."/>
+	<label commandName="lclzFusionDrawingDatumIdTipsDesc" devLabel="To create a surface symbol in an ISO drawing, select an object, right-click to activate the marking menu, and select Surface." translation="Per creare un simbolo di superficie in un disegno ISO, selezionare un oggetto, fare clic con il pulsante destro del mouse per attivare il menu comandi frequenti, quindi selezionare Superficie."/>
+	<label commandName="lclzFusionDrawingDatumIdTipsTips" devLabel="Symbols can be added from the text field in the drop-down menu." translation="È possibile aggiungere i simboli dal campo di testo nel menu a discesa."/>
+	<label commandName="lclzFusionDrawingDatumIdTipsTitle" devLabel="Datum Identifier Information" translation="Informazioni sull'identificatore della data"/>
+	<label commandName="lclzFusionDrawingDiameterDimension1" devLabel="Select a rounded edge, such as a fillet, hole, sphere, or cylinder, then place the dimension." translation="Selezionare uno spigolo arrotondato, ad esempio un raccordo, un foro, una sfera o un cilindro, quindi posizionare la quota."/>
+	<label commandName="lclzFusionDrawingDimensionBreak" devLabel="Select existing dimensions or leaders, then add or remove breaks where they overlap other dimensions and leaders." translation="Selezionare quote o direttrici esistenti, quindi aggiungere o rimuovere interruzioni nei punti in cui si sovrappongono ad altre quote e direttrici."/>
+	<label commandName="lclzFusionDrawingDimensionBreakTipsDesc" devLabel="Dimension Break breaks the selected intersecting dimensions at the intersection points. You can also add a Dimension Break to other objects like Balloons, Bend Identifiers, and Leaders." translation="Interruzione quota interrompe le quote intersecanti selezionate in corrispondenza dei punti di intersezione. È inoltre possibile aggiungere un'interruzione quota ad altri oggetti, come numeri di riferimento, identificatori di piega e direttrici."/>
+	<label commandName="lclzFusionDrawingDimensionBreakTipsTips" devLabel="Right-click on selected dimesnions to create Dimension Breaks." translation="Fare clic con il pulsante destro del mouse sulle quote selezionate per creare interruzioni quota."/>
+	<label commandName="lclzFusionDrawingDimensionBreakTipsTitle" devLabel="Dimension Break Information" translation="Informazioni sull'interruzione quota"/>
+	<label commandName="lclzFusionDrawingDimensionEdit1" devLabel="Select a dimension to modify its properties." translation="Selezionare una quota per modificarne le proprietà."/>
+	<label commandName="lclzFusionDrawingDimensionEditTipsDesc" devLabel="You can restore default properties if you modify the precision, alternate units, or tolerance type. Select the dimension, right-click to access the marking menu, and select Restore Defaults." translation="È possibile ripristinare le proprietà di default se si modifica la precisione, le unità alternative o il tipo di tolleranza. Selezionare la quota, fare clic con il pulsante destro del mouse per accedere al menu comandi frequenti, quindi selezionare Ripristina default."/>
+	<label commandName="lclzFusionDrawingDimensionEditTipsTips" devLabel="To change the settings for all dimensions on a sheet, use Annotation Settings at the bottom of the drawing area." translation="Per modificare le impostazioni di tutte le quote in un foglio, utilizzare Impostazioni annotazione nella parte inferiore dell'area di disegno."/>
+	<label commandName="lclzFusionDrawingDimensionEditTipsTitle" devLabel="Dimension Edit Information" translation="Informazioni sulla modifica delle quote"/>
+	<label commandName="lclzFusionDrawingEdgeExtension1" devLabel="Select two straight edges.  An edge extension is created for each edge that terminates at their intersection." translation="Selezionare due spigoli retti. Per ogni spigolo che termina in corrispondenza della loro intersezione viene creata un'estensione spigolo."/>
+	<label commandName="lclzFusionDrawingEllipse1" devLabel="Creates an ellipse." translation="Crea un'ellisse."/>
+	<label commandName="lclzFusionDrawingEllipse2" devLabel="The first two points of the ellipse determine the location and length of the first axis. The third point determines the distance between the center of the ellipse and the end point of the second axis." translation="I primi due punti dell'ellisse determinano la posizione e la lunghezza del primo asse. Il terzo punto determina la distanza tra il centro dell'ellisse e il punto finale del secondo asse."/>
+	<label commandName="lclzFusionDrawingErase1" devLabel="Select objects to delete, then press Enter." translation="Selezionare gli oggetti da eliminare, quindi premere INVIO."/>
+	<label commandName="lclzFusionDrawingEraseTipsDesc" devLabel="Deselect objects by holding Shift while dragging across or clicking objects." translation="Deselezionare gli oggetti tenendo premuto MAIUSC mentre si effettua il trascinamento o si fa clic sugli oggetti."/>
+	<label commandName="lclzFusionDrawingEraseTipsTips" devLabel="Click and drag to select multiple objects. A selection box from left to right will select all objects completely within the box. A selection box from right to left will select all objects partially within the box." translation="Fare clic e trascinare per selezionare più oggetti. Un riquadro di selezione da sinistra verso destra consente di selezionare tutti gli oggetti completamente al suo interno. Un riquadro di selezione da destra a sinistra consente di selezionare tutti gli oggetti parzialmente al suo interno."/>
+	<label commandName="lclzFusionDrawingEraseTipsTitle" devLabel="Delete Information" translation="Elimina informazioni"/>
+	<label commandName="lclzFusionDrawingExportDxfTips" devLabel="Hold either the Shift or Ctrl keys to select multiple sheets on the sheet bar to output a DXF" translation="Per esportare un file DXF, tenere premuto i tasti MAIUSC o CTRL e selezionare più fogli sulla barra dei fogli"/>
+	<label commandName="lclzFusionDrawingExportDxfTitle" devLabel="Output DXF Information" translation="Informazioni DXF di output"/>
+	<label commandName="lclzFusionDrawingExportPDF1" devLabel="Creates a PDF file of the current drawing." translation="Crea un file PDF del disegno corrente."/>
+	<label commandName="lclzFusionDrawingExportPartsList1" devLabel="Creates a CSV file of the selected table" translation="Crea un file CSV della tabella selezionata"/>
+	<label commandName="lclzFusionDrawingExportPdfTips" devLabel="Hold either the Shift or Ctrl keys to select multiple sheets on the sheet bar to output a PDF.&#xA;Check the Open PDF check box to open the PDF when the output is done." translation="Tenere premuto i tasti MAIUSC o CTRL per selezionare più fogli sulla barra dei fogli per generare un file PDF.&#xA;Selezionare la casella di controllo Apri PDF per aprire il file PDF quando l'output è stato creato."/>
+	<label commandName="lclzFusionDrawingExportPdfTitle" devLabel="Output PDF Information" translation="Informazioni PDF di output"/>
+	<label commandName="lclzFusionDrawingExtend1" devLabel="Select the objects to extend. All objects automatically become extension boundaries." translation="Selezionare gli oggetti da estendere. Tutti gli oggetti diventano automaticamente contorni di estensione."/>
+	<label commandName="lclzFusionDrawingFeatureControlFrame1" devLabel="Select either an edge or an existing dimension, then place the feature control frame." translation="Selezionare uno spigolo o una quota esistente, quindi posizionare il riquadro di controllo della geometria."/>
+	<label commandName="lclzFusionDrawingFeatureControlFrameTipsDesc" devLabel="To create a surface symbol in an ISO drawing, select an object, right-click to activate the marking menu, and select Surface." translation="Per creare un simbolo di superficie in un disegno ISO, selezionare un oggetto, fare clic con il pulsante destro del mouse per attivare il menu comandi frequenti, quindi selezionare Superficie."/>
+	<label commandName="lclzFusionDrawingFeatureControlFrameTipsTips" devLabel="Symbols can be added from the text field in the drop-down menu." translation="È possibile aggiungere i simboli dal campo di testo nel menu a discesa."/>
+	<label commandName="lclzFusionDrawingFeatureControlFrameTipsTitle" devLabel="Feature Control Frame Information" translation="Informazioni sul riquadro di controllo della geometria"/>
+	<label commandName="lclzFusionDrawingHatchEdit1" devLabel="Select a hatch to modify its properties." translation="Selezionare un tratteggio per modificarne le proprietà."/>
+	<label commandName="lclzFusionDrawingHatchEditTipsDesc" devLabel="Each hatch has its own properties. You can only modify one hatch pattern at a time." translation="Ogni tratteggio presenta proprietà specifiche. È possibile modificare un solo modello di tratteggio alla volta."/>
+	<label commandName="lclzFusionDrawingHatchEditTipsTips" devLabel="Double-click a hatch to modify the hatch properties of a section view. Edit the hatch pattern, the scale factor, and the angle of the hatch pattern." translation="Fare doppio clic su un tratteggio per modificare le proprietà di tratteggio di una vista in sezione. Modificare il modello di tratteggio, il fattore di scala e l'angolo del modello di tratteggio."/>
+	<label commandName="lclzFusionDrawingHatchEditTipsTitle" devLabel="Hatch Edit Information" translation="Informazioni sulla modifica del tratteggio"/>
+	<label commandName="lclzFusionDrawingImageInsert1" devLabel="Edits the selected image into the current sheet." translation="Modifica l'immagine selezionata nel foglio corrente."/>
+	<label commandName="lclzFusionDrawingLeader1" devLabel="Specify the arrowhead location, specify the location of the text, then enter text. When finished, click outside the text editor." translation="Specificare la posizione della punta della freccia, la posizione del testo, quindi immettere il testo. Al termine dell'operazione, fare clic in un punto esterno all'editor di testo."/>
+	<label commandName="lclzFusionDrawingLeaderTipsDesc" devLabel="You can control the font style and text height for all annotations in the drawing by clicking Annotation Settings at the bottom of the drawing area." translation="È possibile controllare lo stile del font e l'altezza del testo per tutti i tipi di annotazione del disegno facendo clic su Impostazioni di annotazione nella parte inferiore dell'area di disegno."/>
+	<label commandName="lclzFusionDrawingLeaderTipsTips" devLabel="You can include special characters and symbols by entering a control code or a Unicode string." translation="È possibile immettere simboli e caratteri speciali immettendo un codice di controllo o una stringa Unicode."/>
+	<label commandName="lclzFusionDrawingLeaderTipsTitle" devLabel="LEADER INFORMATION" translation="INFORMAZIONI SULLA DIRETTRICE"/>
+	<label commandName="lclzFusionDrawingLine1" devLabel="Creates straight lines." translation="Crea linee rette."/>
+	<label commandName="lclzFusionDrawingLine2" devLabel="Specify the line's start point, then specify a second point to define its angle and length." translation="Specificare il punto iniziale della linea, quindi specificare un secondo punto per definire l'angolo e la lunghezza."/>
+	<label commandName="lclzFusionDrawingLinearDimension1" devLabel="Measures the horizontal or vertical distance between two points. Create dimensions by selecting an edge or by selecting two points." translation="Misura la distanza orizzontale o verticale tra due punti. Creare le quote selezionando uno spigolo o due punti."/>
+	<label commandName="lclzFusionDrawingMLeaderContentEdit1" devLabel="Specify the arrowhead location, specify the location of the text, then enter text. When finished, click outside the text editor." translation="Specificare la posizione della punta della freccia, la posizione del testo, quindi immettere il testo. Al termine dell'operazione, fare clic in un punto esterno all'editor di testo."/>
+	<label commandName="lclzFusionDrawingMLeaderContentEditTipsDesc" devLabel="You can control the font style and text height for all annotations in the drawing by clicking Annotation Tools at the bottom of the drawing area." translation="È possibile controllare lo stile del font e l'altezza del testo per tutti i tipi di annotazione del disegno facendo clic su Strumenti di annotazione nella parte inferiore dell'area di disegno."/>
+	<label commandName="lclzFusionDrawingMLeaderContentEditTipsTips" devLabel="You can include special characters and symbols by entering a control code or a Unicode string." translation="È possibile immettere simboli e caratteri speciali immettendo un codice di controllo o una stringa Unicode."/>
+	<label commandName="lclzFusionDrawingMLeaderContentEditTipsTitle" devLabel="LEADER INFORMATION" translation="INFORMAZIONI SULLA DIRETTRICE"/>
+	<label commandName="lclzFusionDrawingMText1" devLabel="Specify the corners for the text box, then enter text. When finished, click outside the text editor." translation="Specificare gli angoli per la casella di testo, quindi immettere il testo. Al termine dell'operazione, fare clic in un punto esterno all'editor di testo."/>
+	<label commandName="lclzFusionDrawingMTextEdit1" devLabel="Specify the corners for the text box, then enter text. When finished, click outside the text editor." translation="Specificare gli angoli per la casella di testo, quindi immettere il testo. Al termine dell'operazione, fare clic in un punto esterno all'editor di testo."/>
+	<label commandName="lclzFusionDrawingMTextEditTipsDesc" devLabel="You can control the font style and text height for all annotations in the drawing by clicking Annotation Tools at the bottom of the drawing area." translation="È possibile controllare lo stile del font e l'altezza del testo per tutti i tipi di annotazione del disegno facendo clic su Strumenti di annotazione nella parte inferiore dell'area di disegno."/>
+	<label commandName="lclzFusionDrawingMTextEditTipsTips" devLabel="You can include special characters and symbols by entering a control code or a Unicode string." translation="È possibile immettere simboli e caratteri speciali immettendo un codice di controllo o una stringa Unicode."/>
+	<label commandName="lclzFusionDrawingMTextEditTipsTitle" devLabel="TEXT INFORMATION" translation="INFORMAZIONI SU TESTO"/>
+	<label commandName="lclzFusionDrawingMTextTipsDesc" devLabel="You can control the font style and text height for all annotations in the drawing by clicking Annotation Settings at the bottom of the drawing area." translation="È possibile controllare lo stile del font e l'altezza del testo per tutti i tipi di annotazione del disegno facendo clic su Impostazioni di annotazione nella parte inferiore dell'area di disegno."/>
+	<label commandName="lclzFusionDrawingMTextTipsTips" devLabel="You can include special characters and symbols by entering a control code or a Unicode string." translation="È possibile immettere simboli e caratteri speciali immettendo un codice di controllo o una stringa Unicode."/>
+	<label commandName="lclzFusionDrawingMTextTipsTitle" devLabel="TEXT INFORMATION" translation="INFORMAZIONI SU TESTO"/>
+	<label commandName="lclzFusionDrawingMeasure1" devLabel="Reports distance, angle and positional data for the selected points." translation="Segnala la distanza, l'angolo e i dati di posizione per i punti selezionati."/>
+	<label commandName="lclzFusionDrawingMove1" devLabel="Select objects to move, then click Transform. Then specify a base point and a second point." translation="Selezionare gli oggetti da spostare e fare clic su Trasforma. Quindi, specificare un punto base e un secondo punto."/>
+	<label commandName="lclzFusionDrawingMoveTipsDesc" devLabel="Deselect objects by holding Shift while dragging across or clicking objects." translation="Deselezionare gli oggetti tenendo premuto MAIUSC mentre si effettua il trascinamento o si fa clic sugli oggetti."/>
+	<label commandName="lclzFusionDrawingMoveTipsTips" devLabel="Click and drag to select multiple objects. A selection box from left to right will select all objects completely within the box. A selection box from right to left will select all objects partially within the box." translation="Fare clic e trascinare per selezionare più oggetti. Un riquadro di selezione da sinistra verso destra consente di selezionare tutti gli oggetti completamente al suo interno. Un riquadro di selezione da destra a sinistra consente di selezionare tutti gli oggetti parzialmente al suo interno."/>
+	<label commandName="lclzFusionDrawingMoveTipsTitle" devLabel="Move Information" translation="Sposta informazioni"/>
+	<label commandName="lclzFusionDrawingNewTable1" devLabel="Generates a parts list for single component, assembly and animation references, and bend tables for sheet metal flat patterns references." translation="Genera un elenco parti per riferimenti singolo componente, assieme e animazione e tabelle piega per riferimenti modelli piatti in lamiera."/>
+	<label commandName="lclzFusionDrawingNewTableTipsDesc" devLabel="To change the part number and description of a component, modify the component's properties in the Model workspace." translation="Per modificare il numero di parte e la descrizione di un componente, modificare le proprietà del componente nell'area di lavoro del modello."/>
+	<label commandName="lclzFusionDrawingNewTableTipsTips" devLabel="A parts list that is placed in the bottom half of the drawing sheet will flip its numbering, so that the parts are numbered from bottom to top. To lock or unlock flipping, press Shift." translation="Un elenco parti posizionato nella metà inferiore del foglio di disegno ne inverte la numerazione, in modo che le parti siano numerate dal basso verso l'alto. Per bloccare o sbloccare l'inversione, premere MAIUSC."/>
+	<label commandName="lclzFusionDrawingNewTableTipsTitle" devLabel="Parts List Information" translation="Informazioni sull'elenco parti"/>
+	<label commandName="lclzFusionDrawingOffset1" devLabel="Select the object to offset, enter the offset distance, then specify a point to define to side." translation="Selezionare l'oggetto di cui eseguire l'offset, immettere la distanza di offset, quindi specificare un punto da definire per lato."/>
+	<label commandName="lclzFusionDrawingOrdinateDimension1" devLabel="Define view origins and place ordinate dimensions referencing them." translation="Definire le origini della vista e posizionare le quote coordinata che fanno riferimento ad esse."/>
+	<label commandName="lclzFusionDrawingPartsListTipsDesc" devLabel="To change the part number and description of a component, modify the component's properties in the Model workspace." translation="Per modificare il numero di parte e la descrizione di un componente, modificare le proprietà del componente nell'area di lavoro del modello."/>
+	<label commandName="lclzFusionDrawingPartsListTipsTips" devLabel="A parts list that is placed in the bottom half of the drawing sheet will flip its numbering, so that the parts are numbered from bottom to top. To lock or unlock flipping, press Shift." translation="Un elenco parti posizionato nella metà inferiore del foglio di disegno ne inverte la numerazione, in modo che le parti siano numerate dal basso verso l'alto. Per bloccare o sbloccare l'inversione, premere MAIUSC."/>
+	<label commandName="lclzFusionDrawingPartsListTipsTitle" devLabel="Parts List Information" translation="Informazioni sull'elenco parti"/>
+	<label commandName="lclzFusionDrawingRadialDimension1" devLabel="Select a rounded edge, such as a fillet, hole, sphere, or cylinder, then place the dimension." translation="Selezionare uno spigolo arrotondato, ad esempio un raccordo, un foro, una sfera o un cilindro, quindi posizionare la quota."/>
+	<label commandName="lclzFusionDrawingRectangle1" devLabel="Creates a rectangle using 2 diagonal points." translation="Crea un rettangolo utilizzando due punti diagonali."/>
+	<label commandName="lclzFusionDrawingRectangle2" devLabel="Specify the rectangle's start point, then specify a second point to define its width and height." translation="Specificare il punto iniziale del rettangolo, quindi specificare un secondo punto per definirne la larghezza e l'altezza."/>
+	<label commandName="lclzFusionDrawingRotate1" devLabel="Select objects to rotate, then click Transform. Then specify a base point and a rotation angle." translation="Selezionare gli oggetti da ruotare, quindi fare clic su Trasforma. Specificare un punto base e un angolo di rotazione."/>
+	<label commandName="lclzFusionDrawingRotateTipsDesc" devLabel="If you want to redefine your selected objects or re-specify the base point without canceling the command, click Selection to return to Selection mode." translation="Se si desidera ridefinire gli oggetti selezionati o specificare nuovamente il punto base senza annullare il comando, fare clic su Selezione per tornare alla modalità di selezione."/>
+	<label commandName="lclzFusionDrawingRotateTipsTips" devLabel="After specifying a base point, click Reference Selection to define a reference angle along an edge or between any two points. " translation="Dopo aver specificato un punto base, fare clic su Selezione riferimento per definire un angolo di riferimento lungo uno spigolo o tra due punti qualsiasi. "/>
+	<label commandName="lclzFusionDrawingRotateTipsTitle" devLabel="Rotate Information" translation="Informazioni sulla rotazione"/>
+	<label commandName="lclzFusionDrawingSingleDim1" devLabel="Creates linear, aligned, angular, radius, and diameter dimensions." translation="Crea quote lineari, allineate, angolari, del raggio e quote del diametro."/>
+	<label commandName="lclzFusionDrawingSingleDim2" devLabel="Select objects, points, edges, existing dimensions, or select two points. Then place the dimension. The most appropriate dimension type is created." translation="Selezionare oggetti, punti, spigoli, quote esistenti o selezionare due punti. Posizionare, quindi, la quota. Viene creato il tipo di quota più adeguato."/>
+	<label commandName="lclzFusionDrawingSketchClose1" devLabel="Closes the sketch editing mode." translation="Chiude la modalità di modifica dello schizzo."/>
+	<label commandName="lclzFusionDrawingSketchCreate1" devLabel="Enters Sketch mode and creates a new sketch on the current sheet." translation="Attiva la modalità schizzo e crea un nuovo schizzo nel foglio corrente."/>
+	<label commandName="lclzFusionDrawingSketchCreate2" devLabel="Select Finish Sketch to exit out of the mode." translation="Selezionare Termina schizzo per uscire dalla modalità."/>
+	<label commandName="lclzFusionDrawingSurfaceTexture1" devLabel="Select an edge, or an existing dimension, or an existing feature control frame symbol, then place the surface texture." translation="Selezionare uno spigolo, una quota esistente o un simbolo del riquadro di controllo della geometria, quindi posizionare lo stato della superficie."/>
+	<label commandName="lclzFusionDrawingSurfaceTextureTipsDesc" devLabel="To attach a surface texture to a surface in an ISO drawing, select an object, right-click to activate the marking menu, and select Surface." translation="Per associare uno stato della superficie ad una superficie in un disegno ISO, selezionare un oggetto, fare clic con il pulsante destro del mouse per attivare il menu comandi frequenti, quindi selezionare Superficie."/>
+	<label commandName="lclzFusionDrawingSurfaceTextureTipsTips" devLabel="The available properties in the dialog box depend on which symbol type is selected, and the drafting standard in use." translation="Le proprietà disponibili nella finestra di dialogo variano a seconda del tipo di simbolo selezionato e le norme di disegno in uso."/>
+	<label commandName="lclzFusionDrawingSurfaceTextureTipsTitle" devLabel="Surface Texture Information" translation="Informazioni sullo stato della superficie"/>
+	<label commandName="lclzFusionDrawingSymbolEdit1" devLabel="Edit a symbol." translation="Modifica di un simbolo."/>
+	<label commandName="lclzFusionDrawingTable" devLabel="Insert a blank table to add data manually." translation="Inserire una tabella vuota per aggiungere dati manualmente."/>
+	<label commandName="lclzFusionDrawingTableEditTipsDesc" devLabel="To change the width of a column without changing the width of other columns, select a cell and use the grips that appear around that particular cell. The overall width of the table changes but the other columns maintain the same width. To change the width of a column without changing the overall width of the table, select the whole table by clicking on table or cell border and use the grips that appear on table columns." translation="Per modificare la larghezza di una colonna senza modificare la larghezza di altre colonne, selezionare una cella e utilizzare i grip visualizzati attorno a tale cella. La larghezza complessiva della tabella cambia, ma le altre colonne mantengono la stessa larghezza. Per modificare la larghezza di una colonna senza modificare la larghezza complessiva della tabella, selezionare l'intera tabella facendo clic sul bordo della tabella o della cella e utilizzare i grip visualizzati sulle colonne della tabella."/>
+	<label commandName="lclzFusionDrawingTableEditTipsTips" devLabel="When a cell is selected, double-click to edit the cell text. You can also start entering text when a cell is highlighted to replace its current content." translation="Quando si seleziona una cella, fare doppio clic per modificare il testo della cella. È inoltre possibile iniziare a immettere il testo quando una cella viene evidenziata per sostituire il contenuto corrente."/>
+	<label commandName="lclzFusionDrawingTableEditTipsTitle" devLabel="TABLE EDIT INFORMATION" translation="INFORMAZIONI DI MODIFICA DELLA TABELLA"/>
+	<label commandName="lclzFusionDrawingTemplateImageInsert1" devLabel="Inserts the selected image into the current sheet." translation="Inserisce l'immagine selezionata nel foglio corrente."/>
+	<label commandName="lclzFusionDrawingTitleBlockEditTipsDesc" devLabel="When you insert your own title block, the origin point (0,0) in the DWG will equate to the bottom right corner of the Fusion Drawing border." translation="Quando si inserisce un cartiglio personalizzato, il punto di origine (0,0) nel file DWG coinciderà con l'angolo inferiore destro del bordo del disegno di Fusion."/>
+	<label commandName="lclzFusionDrawingTitleBlockEditTipsTips" devLabel="The drawing's standard, ASME or ISO, defines the default title block. You can insert your own DWG file as a title block using Insert Title Block within Sheet Settings." translation="Lo standard del disegno, ASME o ISO, definisce il cartiglio di default. È possibile inserire il proprio file DWG come un cartiglio utilizzando Inserisci cartiglio in Impostazioni foglio."/>
+	<label commandName="lclzFusionDrawingTitleBlockEditTipsTitle" devLabel="Title Block Information" translation="Informazioni sul cartiglio"/>
+	<label commandName="lclzFusionDrawingTrim1" devLabel="Select the objects to trim. All objects automatically become cutting boundaries." translation="Selezionare gli oggetti da ritagliare. Tutti gli oggetti diventano automaticamente contorni di taglio."/>
+	<label commandName="lclzFusionDrawingViewBase1" devLabel="Generates a base view of the referenced design." translation="Genera una vista di base del progetto di riferimento."/>
+	<label commandName="lclzFusionDrawingViewBaseTemplate1" devLabel="Generates a base view placeholder." translation="Genera un segnaposto della vista di base."/>
+	<label commandName="lclzFusionDrawingViewBaseTemplate2" devLabel="When the drawing template is used to create a new drawing, the placeholder is updated to show the referenced design." translation="Quando il modello di disegno viene utilizzato per creare un nuovo disegno, il segnaposto viene aggiornato per mostrare il progetto di riferimento."/>
+	<label commandName="lclzFusionDrawingViewBaseTipsDesc" devLabel="Base view orientation can only be set during creation, while other attributes can be modified afterwards. Make sure the view orientation is how you'd like it before clicking OK." translation="È possibile impostare l'orientamento della vista di base solo durante la creazione, mentre altri attributi possono essere modificati in un secondo momento. Prima di fare clic su OK, assicurarsi che l'orientamento della vista soddisfi le esigenze."/>
+	<label commandName="lclzFusionDrawingViewBaseTipsTips" devLabel="Generates a drawing view that is derived from your selected 3D model. You can use a base view as a parent for other views." translation="Genera una vista di disegno derivata dal modello 3D selezionato. È possibile utilizzare una vista di base come vista primaria per altre viste."/>
+	<label commandName="lclzFusionDrawingViewBaseTipsTitle" devLabel="Base View Information" translation="Informazioni sulle viste di base"/>
+	<label commandName="lclzFusionDrawingViewDetail1" devLabel="Shows a specific portion of a view at an enlarged scale." translation="Consente di visualizzare una porzione specifica di una vista in scala ingrandita."/>
+	<label commandName="lclzFusionDrawingViewDetail2" devLabel="Select a parent view, specify the center point, specify the detail boundary, then place the detail view." translation="Selezionare una vista primaria, specificare il punto centrale e il contorno del dettaglio, quindi posizionare la vista di dettaglio."/>
+	<label commandName="lclzFusionDrawingViewDetailTipsDesc" devLabel="If you select the detail view boundary, you can use the gray grips to reposition the boundary. The detail view automatically updates." translation="Se si seleziona il contorno della vista di dettaglio, è possibile utilizzare i grip grigi per riposizionare il contorno. La vista di dettaglio viene aggiornata automaticamente."/>
+	<label commandName="lclzFusionDrawingViewDetailTipsTips" devLabel="Specify the center point of the area to magnify, specify the size of the boundary, then click to place the detail view. Modify the scale and edge visibility properties and click OK when done." translation="Specificare il punto centrale dell'area da ingrandire, specificare la dimensione del contorno, quindi fare clic per posizionare la vista di dettaglio. Modificare la scala e le proprietà di visibilità degli spigoli e, al termine, fare clic su OK."/>
+	<label commandName="lclzFusionDrawingViewDetailTipsTitle" devLabel="Detail View Information" translation="Informazioni sulle viste di dettaglio"/>
+	<label commandName="lclzFusionDrawingViewEdit1" devLabel="Select a view to modify its properties." translation="Selezionare una vista per modificarne le proprietà."/>
+	<label commandName="lclzFusionDrawingViewEditTipsDesc" devLabel="Projected views, detail views, and section views inherit properties from their parent view. If the properties of a view change, it will no longer inherit the settings from its parent view." translation="Le viste proiettate, le viste di dettaglio e le viste in sezione ereditano le proprietà dalla relativa vista principale. Se le proprietà di una vista cambiano, non erediteranno più le impostazioni dalla relativa vista primaria."/>
+	<label commandName="lclzFusionDrawingViewEditTipsTips" devLabel="When moving a projected view, you can press Shift to break that view's alignment with its parent. For example, if a projected view's alignment is “locked” vertically or horizontally with a base view, you can click Move on the toolbar, select the view, then press Shift to “unlock” the alignment. Press Shift again to realign the view." translation="Quando si sposta una vista proiettata, è possibile premere MAIUSC per interrompere l'allineamento della vista con la vista primaria. Ad esempio, se l'allineamento di una vista proiettata è &quot;bloccato&quot; verticalmente o orizzontalmente con una vista di base, è possibile fare clic su Sposta nella barra degli strumenti, selezionare la vista, quindi premere MAIUSC per &quot;sbloccare&quot; l'allineamento. Premere di nuovo MAIUSC per riallineare la vista."/>
+	<label commandName="lclzFusionDrawingViewEditTipsTitle" devLabel="View Edit Information" translation="Informazioni sulla modifica della vista"/>
+	<label commandName="lclzFusionDrawingViewProject1" devLabel="Generates projected orthogonal and isometric views." translation="Genera viste proiettate ortogonali e assonometriche."/>
+	<label commandName="lclzFusionDrawingViewProject2" devLabel="Select a parent view, click to place projected views, then press Enter. The position of the cursor determines the type of projected view you create." translation="Selezionare una vista principale, fare clic per posizionare le viste proiettate, quindi premere INVIO. La posizione del cursore determina il tipo di vista proiettata creata."/>
+	<label commandName="lclzFusionDrawingViewProjectTemplate1" devLabel="Generates projected and isometric view placeholders." translation="Genera segnaposto della vista proiettata e assonometrica."/>
+	<label commandName="lclzFusionDrawingViewProjectTemplate2" devLabel="When the drawing template is used to create a new drawing, the placeholders are updated to show the referenced design." translation="Quando il modello di disegno viene utilizzato per creare un nuovo disegno, i segnaposto vengono aggiornati in modo da visualizzare il progetto di riferimento."/>
+	<label commandName="lclzFusionDrawingViewSection1" devLabel="Generates a full, half, offset, or aligned section view." translation="Genera una vista in sezione completa, in semisezione, sfalsata o allineata."/>
+	<label commandName="lclzFusionDrawingViewSection2" devLabel="Use a section line to cut through a drawing view in order to reveal what is inside." translation="Utilizzare una linea di sezione per tagliare una vista di disegno in modo da visualizzare gli elementi all'interno."/>
+	<label commandName="lclzFusionDrawingViewSectionTipsDesc" devLabel="To modify a section view, click an existing section line and adjust the gray grips. If the path of the section line changes, the section view automatically updates." translation="Per modificare una vista in sezione, fare clic su una linea di sezione esistente e regolare i grip grigi. Se il percorso della linea di sezione cambia, la vista in sezione viene aggiornata automaticamente."/>
+	<label commandName="lclzFusionDrawingViewSectionTipsTips" devLabel="Click to specify the path of the section line. When complete, press Enter to generate the section view, then click to place it." translation="Fare clic per specificare la traiettoria della linea di sezione. Al termine, premere INVIO per generare la vista in sezione, quindi fare clic per posizionarla."/>
+	<label commandName="lclzFusionDrawingViewSectionTipsTitle" devLabel="Section View Information" translation="Informazioni sulla vista in sezione"/>
+	<label commandName="lclzFusionDrawingViewSimpleSection1" devLabel="Generates a simple (single segment cutting plane) section view from a drawing view." translation="Genera una vista in sezione semplice (piano di taglio a segmento singolo) da una vista del disegno."/>
+	<label commandName="lclzFusionDrawingViewSimpleSection2" devLabel="Select a parent view, then specify the section line's start and end points, and then specify the insertion point for your section view." translation="Selezionare una vista primaria, quindi specificare i punti iniziale e finale della linea di sezione, dopodiché specificare il punto di inserimento per la vista in sezione."/>
+	<label commandName="lclzGeometry" devLabel="Geometry" translation="Geometria"/>
+	<label commandName="lclzInsert" devLabel="Insert" translation="Inserisci"/>
+	<label commandName="lclzInspect" devLabel="Inspect" translation="Verifica"/>
+	<label commandName="lclzLinkedComponents" devLabel="Linked Components" translation="Componenti collegati"/>
+	<label commandName="lclzLinkedComponentsTooltip" devLabel="Creates a sheet for each linked component in the design" translation="Crea un foglio per ogni componente collegato nel progetto"/>
+	<label commandName="lclzModify" devLabel="Modify" translation="Modifica"/>
+	<label commandName="lclzNewFusionDrawingDocumentTipsDesc" devLabel="For more control over drawing defaults, make adjustments in Preferences in your User Name drop-down in the top right." translation="Per un maggior controllo sui valori di default del disegno, in alto a destra, nel menu a discesa del nome utente, apportare le modifiche in Preferenze."/>
+	<label commandName="lclzNewFusionDrawingDocumentTipsTips" devLabel="Standard and Units cannot be changed once a drawing is created. Sheet size, however, can be adjusted at any time in Sheet Settings." translation="Impossibile modificare gli standard e le unità una volta creato un disegno. Le dimensioni del foglio, tuttavia, possono essere modificate in qualsiasi momento nelle impostazioni del foglio."/>
+	<label commandName="lclzNewFusionDrawingDocumentTipsTitle" devLabel="Create Drawing Information" translation="Informazioni sulla creazione dei disegni"/>
+	<label commandName="lclzNewTitleBlockDesc" devLabel="After you select a source and click OK, the Title Block contextual environment opens, where you can create and modify geometry and text to customize the title block." translation="Dopo aver selezionato un'origine e fatto clic su OK, viene aperto l'ambiente contestuale Cartiglio, in cui è possibile creare e modificare la geometria e il testo per personalizzare il cartiglio."/>
+	<label commandName="lclzNewTitleBlockTips" devLabel="Create a new title block based on an existing title block, from scratch, or from a DWG file." translation="Creare un nuovo cartiglio in base ad un cartiglio esistente, da zero o da un file DWG."/>
+	<label commandName="lclzNewTitleBlockTipsAndTricksTitle" devLabel="New Title Block Information" translation="Informazioni su Nuovo cartiglio"/>
+	<label commandName="lclzOutOfDateLine" devLabel="This sheet is out of date." translation="Questo foglio non è aggiornato."/>
+	<label commandName="lclzOutOfDateLine2" devLabel="Click to refresh the sheet." translation="Fare clic per aggiornare il foglio."/>
+	<label commandName="lclzOutput" devLabel="Output" translation="Output"/>
+	<label commandName="lclzPlaceholderViews" devLabel="Placeholder Views" translation="Viste segnaposto"/>
+	<label commandName="lclzReference" devLabel="From" translation="Da"/>
+	<label commandName="lclzSelectTemplate" devLabel="Select Template" translation="Seleziona modello"/>
+	<label commandName="lclzSheet" devLabel="Sheet" translation="Foglio"/>
+	<label commandName="lclzSheet1" devLabel="Sheet1" translation="Sheet1"/>
+	<label commandName="lclzSheetSize" devLabel="Sheet Size" translation="Dimensioni foglio"/>
+	<label commandName="lclzSketchClose" devLabel="Sketch" translation="Schizzo"/>
+	<label commandName="lclzSketchTab" devLabel="SKETCH" translation="SCHIZZO"/>
+	<label commandName="lclzStandard" devLabel="Standard" translation="Standard"/>
+	<label commandName="lclzSymbols" devLabel="Symbols" translation="Simboli"/>
+	<label commandName="lclzTables" devLabel="Tables" translation="Tabelle"/>
+	<label commandName="lclzTemplate" devLabel="Template" translation="Modello"/>
+	<label commandName="lclzTemplateHasNoConfiguration" devLabel="The selected drawing template's configuration can't be retrieved. Please open, save and close the drawing template and try again." translation="Impossibile recuperare la configurazione del modello di disegno selezionato. Aprire, salvare e chiudere il modello di disegno e riprovare."/>
+	<label commandName="lclzText" devLabel="Text" translation="Testo"/>
+	<label commandName="lclzTitleBlockPalette" devLabel="Title Block" translation="Cartiglio"/>
+	<label commandName="lclzTitleBlockTab" devLabel="TITLE BLOCK" translation="CARTIGLIO"/>
+	<label commandName="lclzUnits" devLabel="Units" translation="Unità"/>
+	<label commandName="lclzUnmatchedTemplate" devLabel="The selected template's configuration does not match the current drawing's configuration. Select a template using the same standard and units." translation="La configurazione del modello selezionato non corrisponde alla configurazione del disegno corrente. Selezionare un modello utilizzando lo stesso standard e le stesse unità."/>
+	<label commandName="lclzUntitled" devLabel="Untitled" translation="Senza titolo"/>
+	<label commandName="lclzViews" devLabel="Drawing Views" translation="Viste del disegno"/>
+	<label commandName="lclzWorkspace" devLabel="Workspace" translation="Area di lavoro"/>
+	<label commandName="middleCenter" devLabel="Middle Center" translation="In mezzo al centro"/>
+	<label commandName="middleLeft" devLabel="Middle Left" translation="In mezzo a sinistra"/>
+	<label commandName="middleRight" devLabel="Middle Right" translation="In mezzo a destra"/>
+	<label commandName="mm" devLabel="mm" translation="mm"/>
+	<label commandName="multipleAlignment" devLabel="Multiple Alignments" translation="Allineamenti multipli"/>
+	<label commandName="partsListExtension" devLabel=".csv" translation=".csv"/>
+	<label commandName="pdfExtension" devLabel=".pdf" translation=".pdf"/>
+	<label commandName="tableDirection" devLabel="Table Direction" translation="Direzione tabella"/>
+	<label commandName="textAlignment" devLabel="Text Alignment" translation="Allineamento testo"/>
+	<label commandName="topCenter" devLabel="Top Center" translation="In alto al centro"/>
+	<label commandName="topLeft" devLabel="Top Left" translation="In alto a sinistra"/>
+	<label commandName="topRight" devLabel="Top Right" translation="In alto a destra"/>
+	<label commandName="topToBottom" devLabel="Down" translation="In basso"/>
+</Resource>

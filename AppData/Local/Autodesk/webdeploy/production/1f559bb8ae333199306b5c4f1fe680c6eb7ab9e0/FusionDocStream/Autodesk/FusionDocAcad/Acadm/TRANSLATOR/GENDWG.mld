@@ -1,0 +1,319 @@
+/lg ENU DEU DAN ESP FRA ITA PTG SVE FIN CSY HUN PLK RUS SVN JPN CHS CHT KOR PTB
+/cp ISO8859-1 ISO8859-1 ISO8859-1 iso8859-1 iso8859-1 ISO8859-1 ansi_1252 iso8859-1 ISO8859-1 ANSI_1250 ANSI_1250 ANSI_1250 ANSI_1251 ANSI_1250 dos932 GB2312 big5 ANSI_949 ANSI_1252 
+;;;*-*REV 24.05.00 A. Lauber: corrected language PTG for Genius 13.11 (changed codepage)
+;;;*-*REV 24.05.00 A. Lauber: corrected language PLK for Genius 13.11 (changed codepage)
+;;;*-*REV 17.05.00 A. Lauber: corrected language SVN for Genius 13.11 (changed codepage)
+;;;*-*REV 17.05.00 A. Lauber: corrected language SVE for Genius 13.11 (changed codepage)
+;;;*-*REV 17.05.00 A. Lauber: corrected language RUS for Genius 13.11 (changed codepage)
+;;;*-*REV 17.05.00 A. Lauber: corrected language KOR for Genius 13.11 (changed codepage)
+;;;*-*REV 17.05.00 A. Lauber: corrected language JPN for Genius 13.11 (changed codepage)
+;;;*-*REV 17.05.00 A. Lauber: corrected language ITA for Genius 13.11 (changed codepage)
+;;;*-*REV 17.05.00 A. Lauber: corrected language HUN for Genius 13.11 (changed codepage)
+;;;*-*REV 17.05.00 A. Lauber: corrected language FRA for Genius 13.11 (changed codepage)
+;;;*-*REV 17.05.00 A. Lauber: corrected language FIN for Genius 13.11 (changed codepage)
+;;;*-*REV 17.05.00 A. Lauber: corrected language ESP for Genius 13.11 (changed codepage)
+;;;*-*REV 17.05.00 A. Lauber: corrected language DAN for Genius 13.11 (changed codepage)
+;;;*-*REV 17.05.00 A. Lauber: corrected language CSY for Genius 13.11 (changed codepage)
+;;;*-*REV 17.05.00 A. Lauber: corrected language CHT for Genius 13.11 (changed codepage)
+;;;*-*REV 17.05.00 A. Lauber: corrected language CHS for Genius 13.11 (changed codepage)
+;;;*-*REV 14.04.00 MFü: #233439 fixed
+;;;       Mateji checked the mld file and found two problems:
+;;;       #	ENU		- 	SVN	 196	Material	=	Materijal 221	upto		=	na
+;;;*-*REV 12.04.00 MFü: #69 -> #218, #69 + '1' -> #219, #69 + '2' -> #220
+;;;       #89 -> #221, #29 -> #222, #104 -> #225, #63 -> 226
+;;;       #37 (without first part) -> #224 - not JPN, CHT
+;;;       #223 is now an abbreviation, no equal text found
+;;;       #35 without '1' -> #217
+;;;       used the translations of the already existing messages with the 
+;;;       same text in GB and D for the other 16 languages. So we
+;;;       ensure, that the 'old' parts list strings and the new 
+;;;       ones are the same in all languages
+;;;*-*REV 10.04.00 MFü: #219, #220 D: Standard -> Norm
+;;;*-*REV 06.04.00 MFü: #215-#226 added DEU messages and placeholders for 
+;;;       all other languages
+;;;*-*REV 05.04.00 MFü: removed #64, so fixed #224593
+;;;*-*REV 17.01.00 MFü: changed ENU in charge of Heike Johnson: 
+;;;       #107, #108 attribut -> attribute
+;;;*-*REV 15.07.99 A. Lauber: corrected language ITA for Genius 13.11 (changed codepage)
+;;;*-*REV 15.07.99 A. Lauber: corrected language FRA for Genius 13.11 (changed codepage)
+;;;*-*REV 15.07.99 A. Lauber: corrected language ESP for Genius 13.11 (changed codepage)
+;;;*-*REV 22.06.99 A. Lauber: corrected language SVN 
+;;;*-*REV 22.06.99 A. Lauber: corrected language RUS 
+;;;*-*REV 22.06.99 A. Lauber: corrected language PLK 
+;;;*-*REV 22.06.99 A. Lauber: corrected language HUN 
+;;;*-*REV 22.06.99 A. Lauber: corrected language CSY 
+;;;*-*REV 22.06.99 A. Lauber: corrected language FIN 
+;;;*-*REV 22.06.99 A. Lauber: corrected language SVE 
+;;;*-*REV 22.06.99 A. Lauber: corrected language PTG 
+;;;*-*REV 22.06.99 A. Lauber: corrected language ITA 
+;;;*-*REV 22.06.99 A. Lauber: corrected language FRA 
+;;;*-*REV 22.06.99 A. Lauber: corrected language ESP 
+;;;*-*REV 21.06.99 A. Lauber: corrected language DAN 
+;;;*-*REV 21.06.99 A. Lauber: corrected language DEU 
+;;;*-*REV 21.06.99 A. Lauber: corrected language KOR 
+;;;*-*REV 21.06.99 A. Lauber: corrected language CHT 
+;;;*-*REV 21.06.99 A. Lauber: corrected language CHS 
+;;;*-*REV 21.06.99 A. Lauber: corrected language JPN
+;;;*-*REV 03.06.99 Eckardt: #78,91 changed according new guidelines
+;;;*-*REV 26.05.99 Schmid: added #92, changed #96
+;;;*-*REV 27.04.99 Joh/Mul: LC - chd. msg. 9, 14, 44, 61, 78, 138 
+;;;*-*REV 20.04.99 Eckardt: #103 changed
+;;;*-*REV 19.04.99 Eckardt: copied message #110 from 14.1 version here
+;;;                         (need for migration)
+;;;*-*REV 01.02.99 Johnson: changed message #6 (D)
+;;;*-*REV 06.04.98 Lauber: added language SLO for Genius 14.0
+;;;*-*REV 23.02.98 Kopold: corrected language H for Genius 14.0 
+;;;*-*REV 20.01.98 Kopold: corrected language RU for Genius 14.0 
+;;;*-*REV 15.01.98 Kopold: corrected language E for Genius 14.0 
+;;;*-*REV 07.01.98 Kopold: corrected language ROK for Genius 14.0 
+;;;*-*REV 16.12.97 Kopold: corrected language SF for Genius 14.0 
+;;;*-*REV 10.12.97 Kopold: corrected language ROK for Genius 14.0 
+;;;*-*REV 08.12.97 Kopold: corrected language PL for Genius 14.0 
+;;;*-*REV 05.12.97 Kopold: corrected language E for Genius 14.0 
+;;;*-*REV 04.12.97 Kopold: corrected language H for Genius 14.0 
+;;;*-*REV 02.12.97 Kopold: corrected language RC for Genius 14.0 
+;;;*-*REV 27.11.97 Kopold: added language P for Genius 14.0
+;;;*-*REV 18.11.97 Kopold: added language PRC for Genius 14.0 
+;;;*-*REV 03.11.97 Kopold: corrected language J for Genius 14.0 
+;;;*-*REV 03.11.97 Kopold: corrected DOI for J
+;;;*-*REV 27.10.97 Kopold: corrected language S for Genius 14.0 
+;;;*-*REV 23.10.97 Kopold: corrected language RU for Genius 14.0 
+;;;*-*REV 20.10.97 Kopold: corrected language ROK for Genius 14.0 
+;;;*-*REV 14.10.97 Kopold: corrected language F for Genius 14.0 
+;;;*-*REV 14.10.97 Kopold: corrected language PL for Genius 14.0 
+;;;*-*REV 10.10.97 Kopold: corrected language F for Genius 14.0 
+;;;*-*REV 09.10.97 Kopold: corrected language CZ for Genius 14.0 
+;;;*-*REV 08.10.97 Kopold: corrected language RU for Genius 14.0 
+;;;*-*REV 07.10.97 Kopold: corrected language I for Genius 14.0 
+;;;*-*REV 29.09.97 Kopold: corrected language F for Genius 14.0 
+;;;*-*REV 06.07.97 Pudor: "Assembly item" changed to "Assembly number"
+;;;*-*REV 04.07.97 Pudor: Designation -> Description
+;;;*-*REV 04.07.97 Fiedler check english
+;;;*-*REV 01.07.97 Schwingl: changed codepage for D and GB ->ISO8859-1
+;;;*-*REV 18.06.97 Pudor: 106 changed
+;;;*-*REV 10.06.97 Pudor: 109 added
+;;;*-*REV 10.06.97 Pudor: 107,108 changed
+;;;*-*REV 10.06.97 Pudor: new 107,108
+;;;*-*REV 16.05.97 Pudor: new 106
+;;;*-*REV 16.05.97 Pudor: new 105
+;;;*-*REV 18.04.97 bau: new 215,216
+;;;*-*REV 17.04.97 bau: new 210-212
+;;;*-*REV 06.06.97 Eckardt: german message of #70 changed from "EDV Nr." to "Dateiname"
+;;;*-*REV 03.03.97 Kopold: corrected language RU for Genius 13.1 / 13.11
+;;;*-*REV 21.02.97 Flatres/Kopold: corrected language F for Genius 13.11
+;;;*-*REV 04.02.97 Kopold: corrected language ROK for Genius 13.1
+;;;;*-*DOI DK: #178 changed!;
+;;genprese.dwg
+1 "Standard paper format" "Standard Papier Format" "Standard papirformat" "Formato normalizado de papel" "Format de papier standard" "Formato foglio standard" "Formato de papel normalizado" "Ritformat" "Oletuspiirustuslomake" "Normalizovanı formát vıkresu" "Szabványos papírformátum" "Standardowy arkusz" "Ñòàíäàğòíûå ôîğìàòû ëèñòà" "Standardni format papirja" "•W€—p†Œ`®" "±ê×¼Í¼Ö½¸ñÊ½" "¼Ğ·Ç¹Ï¯È®æ¦¡" "Ç¥ÁØ ¿ëÁö Çü½Ä" "Formato de papel padrão"
+2 "A3" "A3" "A3" "A3" "A3" "A3" "A3" "A3" "A3" "A3" "A3" "A3" "A3" "A3" "A3" "A3" "A3" "A3" "A3"
+3 "Standard Title Block" "Standardschriftkopf" "Standard Titelfelt" "Bloque normalizado de cuadro de rotulación" "Cartouche normalisé" "Cartiglio standard" "Legenda normalizada" "Rithuvud" "Oletusotsikkoalue" "Normalizované razítko" "Szabványos címpecsét" "Standardowa tabelka" "Ñòàíäàğòíûå áëîêè îñíîâíûõ íàäïèñåé" "Standardna glava in okvir risbe" "•W€}–Ê˜g" "±ê×¼±êÌâÀ¸" "¼Ğ·Ç¼ĞÃDÄæ®Ø" "Ç¥ÁØ Á¦¸ñ ºí·Ï" "Bloco de título padrão"
+6 "Infopoint=0/Text=1/none=2" "Infopunkt=0/Text=1/ohne=2" "Infopunkt=0/Tekst=1/Ingen=2" "Infopunto=0/Texto=1/ninguno=2" "Point info=0/Texte=1/Aucun=2" "Infopoint=0/Testo=1/nessuno=2" "Infoponto=0/Texto=1/Nenhum=2" "Infopunkt=0/Text=1/ingen=2" "Infopiste=0/Teksti=1/Ei mitään=2" "Infobod=0/Text=1/nic=2" "Alkatrészreferencia=0/Szöveg=1/semmi=2" "Pkt.inform=0/Tekst=1/Brak=2" "Èíôîòî÷êà=0/òåêñò=1/íåò=2" "Infotoèka=0/Besedilo=1/niè=2" "Infopoint=0/•¶š—ñ=1/‚È‚µ=2" "ĞÅÏ¢µã=0/ÎÄ×Ö=1/ÎŞ=2" "¸ê°TÂI=0/¤å¦r=1/µL=2" "Á¤º¸Á¡=0/¹®ÀÚ=1/¾øÀ½=2" "Pontodeinformação=0/Texto=1/nenhum=2"
+7 "Horiz=1/Just=2/Circle=3" "Horiz=1/Ausgeri=2/Kreis=3" "Horis=1/Just=2/Cirkel=3" "Horiz=1/Justi=2/Círculo=3" "Horiz=1/Just=2/Cercle=3" "Orizz.=1/Giust.=2/Cerchio=3" "Horiz=1/Just=2/Círculo=3" "Horiz=1/Just=2/Cirkel=3" "Vaakas=1/Suuntaan=2/Ympyrä=3" "Horiz=1/Zarov=2/Kruh=3" "Vízszintes=1/Sorkizárt=2/Kör=3" "Poziomo=1/Just=2/Okr¹g=3" "Ãîğèç=1/Âûğàâí=2/Êğóã=3" "Horiz=1/Prilag=2/Krog=3" "…•½=1/ƒWƒƒƒXƒg=2/‰~=3" "Ë®Æ½=1/¶ÔÆë=2/Ô²=3" "¤ô¥­=1/­è¦n=2/¶ê°é=3" "¼öÆò=1/ÀÚ¸®¸ÂÃß±â=2/¿ø=3" "Horiz=1/Justi=2/Círculo=3"
+8 "Positend o0/>1/.2/>>3/ 4" "Positend o0/>1/.2/>>3/ 4" "Positend o0/>1/.2/>>3/ 4" "Posicfin o0/>1/.2/>>3/ 4" "Position o0/>1/.2>>3/ 4" "Fine posizione o0/>1/.2/>>3/ 4" "Positend o0/>1/.2/>>3/ 4" "Positend o0/>1/.2/>>3/ 4" "Viitev.pää o0/>1/.2/>>3/ 4" "Poèátek o0/>1/.2/>>3/ 4" "Tételvég o0/>1/.2/>>3/ 4" "Po³o¿kon o0/>1/.2/>>3/ 4" "Êîíå÷íûé íîìåğ ïîçèöèè o0/>1/.2/>>3/ 4" "Konc.lega o0/>1/.2/>>3/ 4" "‰¼‘z’[ o0/>1/.2/>>3/ 4" "Ö¸Ê¾µã ¿ÕĞÄµã(0)/¿ÕĞÄ¼ıÍ·(1)/ÊµĞÄµã2/ÊµĞÄ¼ıÍ·3/ÎŞ4" "«ü¥ÜÂI ªÅ¤ßÂI0/ªÅ¤ß½bÀY1/¹ê¤ßÂI2/¹ê¤ß½bÀY3/µL4" "Ç×¸ñ ¹øÈ£ o0/>1/.2/>>3/ 4" "Posiçãofinal ou0/>1/,2/>>3/ 4"
+9 "Increment Pos #" "Inkrement Posnr" "Forøg Pos #" "Nº incremento posición" "Incrément rep n°" "Incremento nr. pos." "Incremento de Pos #" "Steg Pos #" "Osanum. askel" "Pøírùstek poz. #" "Tételszámok növekménye #" "Przyrost numeru pozycji" "Ïğèğàùåíèå íîìåğà ïîçèöèè" "Korak Poz #" "Pos ‚Ì‘‰Á•ª #" "±àºÅµÄÔöÁ¿Öµ" "½s¸¹¤§¼W¶q­È" "Ç×¸ñ ¹øÈ£ ÁõºĞ°ª #" "Nº de posição de incremento"
+10 "Mask Position List" "Maske Positionsliste" "Dæk stykliste" "Máscara de lista por posición" "Masque de la liste de positions" "Maschera elenco per posizione" "Máscara para a lista por Posições" "Maskpositionslista" "Osaluett. malline" "Maska pozièního kus." "Tételes jegyzék maszkja" "Maska listy numerów" "Øàáëîí ïîçèöèîííîé ñïåöèôèêàöèè" "Skrij seznam pozicij" "•””ÔƒŠƒXƒg‚ğƒ}ƒXƒN" "ĞòºÅÃ÷Ï¸±íĞÎÊ½" "½s¸¹¦Cªí¤§§Î¦¡" "À§Ä¡ ¸®½ºÆ®" "Lista de posição de máscara"
+11 "Mask Summation List" "Maske Summenliste" "Dæk mængdeliste" "Máscara de lista por cantidad" "Masque de la liste de quantités" "Maschera elenco per sommatoria" "Máscara para lista por totais" "Maskmängdlista" "Määräluett. malline" "Maska sumaèního kus." "Összegzõ jegyzék maszkja" "Maska listy sumy" "Øàáëîí ñòàíäàğòíîé ñïåöèôèêàöèè" "Skrij seznam povzetkov" "WŒvƒŠƒXƒg‚ğƒ}ƒXƒN" "»ã×ÜÃ÷Ï¸±íĞÎÊ½" "¾B¸nÁ`­pªí" "¿ä¾à ¸®½ºÆ®" "Lista do somatório de máscara"
+12 "Standard Printer" "Standarddrucker" "Standard Printer" "Impresora normalizada" "Imprimante standard" "Stampante standard" "Impressora standard" "Standardskrivare" "Oletuskirjoitin" "Standardní tiskárna" "Szabványos nyomtató" "Standardowa drukarka" "Ñòàíäàğòíûé ïğèíòåğ" "Standardni tiskalnik" "•W€ƒvƒŠƒ“ƒ^" "±ê×¼´òÓ¡»ú" "¼Ğ·Ç¦Lªí¾÷" "Ç¥ÁØ ÇÁ¸°ÅÍ" "Impressora padrão"
+13 "Layergroup Standard Parts" "Layergruppe Normteile" "Laggruppe Standarddele" "Grupo de capas de piezas normalizadas" "Groupe de calques pour pièces norm." "Gruppo layer parti standard" "Grupo de layers para Componentes Normalizados" "Lagergrupp stand.komponenter" "Std.osien kuvatasoryhmä" "Skupina hladin normalizovanıch dílù" "Szabványos alkatrészek fóliacsoportja" "Grupa warstw czêœci znormalizowanych" "Ãğóïïà ñëîåâ äëÿ ñòàíäàğòíûõ äåòàëåé" "Skupina risalnih ravnin standardnih delov" "‰æ‘wƒOƒ‹[ƒv•W€•”•i" "±ê×¼¼ş²ã×éÃû" "¹Ï¼h¸s²Õ¼Ğ·Ç¹s¥ó" "Ç¥ÁØºÎÇ° µµ¸éÃş ±×·ì" "Peças padrão de grupo de camadas"
+14 "Scale for detail" "Maßstab für Detail" "Skala for detalje" "Escala del detalle" "Echelle de détail" "Scala per dettaglio" "Escala para o detalhe" "Detaljskala" "Osasuurennoksen mittakaava" "Mìøítko detailù" "Részletek méretaránya" "Skala dla szczegó³u" "Ìàñøòàá âûíîñíîãî ıëåìåíòà" "Merilo za detajl" "Ú×}‚ÌÚ“x" "¾Ö²¿·Å´óÍ¼±ÈÀı" "¸Ô¹Ï¤ñ¨Ò" "¼¼ºÎ ³»¿ëÀ» À§ÇÑ ÃàÃ´" "Escalar para detalhe"
+15 "Text Editor" "Texteditor" "Tekst Editor" "Editor de textos" "Editeur de textes" "Editor testo" "Editor de Texto" "Texteditor" "Tekstieditori" "Textovı editor" "Szövegszerkesztõ" "Edytor tekstu" "Ğåäàêòîğ òåêñòà" "Urejevalnik besedil" "ƒeƒLƒXƒg ƒGƒfƒBƒ^" "ÎÄ×Ö±à¼­Æ÷" "¤å¦r½s¿è¾¹" "¹®ÀÚ ÆíÁı±â" "Editor de texto"
+16 "Units Inch/Metric" "Einheiten Zoll/Metrisch" "Enheder Imperisk/Metrisk" "Unidades métricas/pulgadas" "Unités Pouce/Métrique" "Unità Pollici/Metriche" "Unidades Imperiais/Métricas" "Enhet Tum/Metrisk" "Yksiköt Tuumaiset/Metriset" "Jednotky palce/metrické" "Mértékegységek Angolszász/Metrikus" "Jednostki Cale/Metry" "Åäèíèöû Äşéìû/Ìåòğè÷åñêèå" "Enote Colske/Metriène" "’PˆÊ ƒCƒ“ƒ`/ƒ~ƒŠ" "µ¥Î»Ó¢ÖÆ(I)/¹«ÖÆ(M)" "³æ¦ì ­^¨î/¤½¨î" "ÀÎÄ¡/¹ÌÅÍ ´ÜÀ§" "Unidades métricas/polegadas"
+17 "Symbols ISO/ANSI" "Zeichensymbole ISO/ANSI" "Symboler ISO/ANSI" "Símbolos ISO/ANSI" "Symboles ISO/ANSI" "Simboli ISO/ANSI" "Símbolos ISO/ANSI" "Symbol ISO/ANSI" "Piirrosmerkit ISO/ANSI" "Symboly ISO/ANSI" "Rajzjelek ISO/ANSI" "Symbole ISO/ANSI" "Îôîğìëåíèå ISO/ANSI" "Simboli ISO/ANSI" "‹L† ISO/ANSI" "·ûºÅ±ê×¼¹«ÖÆ(ISO)/Ó¢ÖÆ(ANSI)" "²Å¸¹¼Ğ·Ç ¤½¨îISO/­^¨îANSI" "ISO/ANSI ±âÈ£" "Símbolos ISO/ANSI"
+;;genpos.dwg, geninfo.dwg, genpn1.dwg, genpn2.dwg, genpl1.dwg
+;;shortform for 31
+29 "Pos" "Pos." "Pos" "Pos." "Pos" "Pos" "Pos" "Pos" "Pos." "Poz" "Tsz." "Nr" "Ïîç" "Poz" "”Ô†" "ĞòºÅ" "¦ì¸m" "Ç×¸ñ ¹øÈ£" "Pos."
+;;23GENINF/23GENPOS
+30 "Filter" "Filter" "Filter" "Filtro" "Filtre" "Filtro" "Filtros" "Filter" "Suodatin" "Filtr" "Szûrõ" "Filtr" "Ôèëüòğ" "Filter" "ƒtƒBƒ‹ƒ^" "¹ıÂË" "¹LÂo¾¹" "ÇÊÅÍ" "Filtro"
+;;1GENINF/1GENPOS
+31 "Item Number" "Positionsnummer" "Positionsnummer" "Número de elemento" "Repère de position" "Numero di elemento" "Posição" "Pos.nummer" "Osa nro" "Pozice" "Tételszám" "Numer pozycji" "Íîìåğ ïîçèöèè" "Pozicijska številka" "•”•i”Ô†" "ĞòºÅ" "¶µ¥Ø¸¹½X" "Ç×¸ñ ¹øÈ£" "Número de item"
+;;2GENINF/2GENPOS
+32 "Quantity" "Menge" "Mængde" "Cantidad" "Quantité" "Quantità" "Quantidade" "Antal" "Määrä" "Mnoství" "Mennyiség" "Iloœæ" "Êîëè÷åñòâî" "Kolièina" "”—Ê" "ÊıÁ¿" "¼Æ¶q" "¼ö·®" "Quantidade"
+;;3GENINF/3GENPOS
+33 "Parts List Name" "Teilelisten-Name" "Stykliste navn" "Nombre de la lista de piezas" "Nom de la liste de pièces" "Nome elenco parti" "Nome da Lista de Peças" "Stycklistenamn" "Osaluettelon nimi" "Název kusovníku" "Alkatrészlista neve" "Nazwa listy elementów" "Èìÿ ñïèñêà äåòàëåé" "Ime kosovnice" "ƒp[ƒcˆê——–¼" "Ã÷Ï¸±íÎÄ¼şÃû" "¹Ï¦W" "ºÎÇ° ¸®½ºÆ® ÀÌ¸§" "Nome de lista de peças"
+;;4GENINF/4GENPOS
+34 "Parts List Path" "Teilelisten-Pfad" "Stykliste sti" "Ruta de la lista de piezas" "Chemin de la liste de pièces" "Percorso elenco parti" "Directoria p/ Lista de Peças" "Sökväg för stycklista" "Osaluett. polku" "Cesta na kusovník" "Alkatrészlista útvonala" "Œcie¿ka listy elementów" "Ïóòü ê ñïèñêó äåòàëåé" "Pot kosovnice" "ƒp[ƒcˆê——‚ÌƒpƒX" "Ã÷Ï¸±íÂ·¾¶" "¸ô®|" "ºÎÇ° ¸®½ºÆ® °æ·Î" "Caminho de lista de peças"
+;;5GENINF/5GENPOS
+35 "Description 1" "Beschreibung 1" "Benævnelse 1" "Descripción 1" "Description 1" "Descrizione 1" "Designação 1" "Beteckning 1" "Nimitys 1" "Popis 1" "1. leírás" "Opis 1" "Íàèìåíîâàíèå 1" "Naziv 1" "à–¾ 1" "Áã¼şÃèÊö 1" "»¡©ú 1" "¼³¸í 1" "Descrição 1"
+;;6GENINF/6GENPOS
+36 "Description 2" "Beschreibung 2" "Benævnelse 2" "Descripción 2" "Description 2" "Descrizione 2" "Designação 2" "Beteckning 2" "Nimitys 2" "Popis 2" "2. leírás" "Opis 2" "Íàèìåíîâàíèå 2" "Naziv 2" "à–¾ 2" "Áã¼şÃèÊö 2" "»¡©ú 2" "¼³¸í 2" "Descrição 2"
+;;7GENINF/7GENPOS
+37 "Standard/Supplier 1" "Norm/Lieferant 1" "Standard/Leverandør 1" "Norma/proveedor 1" "Norme/Fournisseur 1" "Standard/Fornitore 1" "Norma/Fornecedor 1" "Standard/Leverantör 1" "Std./Toimittaja 1" "Norma/dodavatel 1" "1. beszállító/Szabvány" "Norma/Dostawca 1" "Îáîçíà÷åíèå/Èçãîò. 1" "Standard/Dobavitelj 1" "‹KŠi”Ô† 1" "±ê×¼/¹©Ó¦ÉÌ 1" "¼Ğ·Ç/¨ÑÀ³°Ó 1" "Ç¥ÁØ/°ø±Ş¾÷Ã¼ 1" "Padrão/fornecedor 1"
+;;8GENINF/8GENPOS
+38 "Standard/Supplier 2" "Norm/Lieferant 2" "Standard/Leverandør 2" "Norma/proveedor 2" "Norme/Fournisseur 2" "Standard/Fornitore 2" "Norma/Fornecedor 2" "Standard/Leverantör 2" "Std./Toimittaja 2" "Norma/dodavatel 2" "2. beszállító/Szabvány" "Norma/Dostawca 2" "Îáîçíà÷åíèå/Èçãîò. 2" "Standard/Dobavitelj 2" "‹KŠi”Ô† 2" "±ê×¼/¹©Ó¦ÉÌ 2" "¼Ğ·Ç/¨ÑÀ³°Ó 2" "Ç¥ÁØ/°ø±Ş¾÷Ã¼ 2" "Padrão/fornecedor 2"
+;;9GENINF/9GENPOS
+39 "Material 1" "Material 1" "Materiale 1" "Material 1" "Matière 1" "Materiale 1" "Material 1" "Material 1" "Materiaali 1" "Materiál 1" "1. anyag" "Materia³ 1" "Ìàòåğèàë 1" "Material 1" "Ş—¿ 1" "²ÄÁÏ 1" "§÷®Æ 1" "Àç·á 1" "Material 1"
+;;10GENINF/10GENPOS
+40 "Material 2" "Material 2" "Materiale 2" "Material 2" "Matière 2" "Materiale 2" "Material 2" "Material 2" "Materiaali 2" "Materiál 2" "2. anyag" "Materia³ 2" "Ìàòåğèàë 2" "Material 2" "Ş—¿ 2" "²ÄÁÏ 2" "§÷®Æ 2" "Àç·á 2" "Material 2"
+;;11GENINF/11GENPOS
+41 "ID Number" "Teilenummer" "Ident. Nr." "Número ID" "N° d'ID" "Numero ID" "Número de ID" "ID-nummer" "Tunniste" "Id. èíslo" "Azonosító szám" "Numer identyfikacyjny" "Êîä ïî êëàññèôèêàòîğó" "ID številka" "ID ”Ô†" "ID ºÅ" "¹s¥ó®Æ¸¹" "ID ¹øÈ£" "Número da Id"
+;;12GENINF/12GENPOS
+42 "Mass" "Masse" "Masse" "Masa" "Masse" "Massa" "Massa" "Vikt" "Massa" "Hmotnost" "Tömeg" "Masa" "Ìàññà" "Tea" "¿—Ê" "ÖÊÁ¿" "½è¶q" "Áú·®" "Massa"
+;;13GENINF/13GENPOS
+43 "Price" "Preis" "Pris" "Precio" "Prix" "Prezzo" "Preço" "Pris" "Hinta" "Cena" "Ár" "Cena" "Öåíà" "Cena" "‰¿Ši" "µ¥¼Û" "³æ»ù" "°¡°İ" "Preço"
+;;14GENINF/14GENPOS
+44 "Measurement" "Abmessungen" "Mål" "Medida" "Mesure" "Misura" "Tamanho" "Dimension" "Mitta" "Rozmìr" "Méret" "Pomiar" "Åäèíèöà èçìåğåíèÿ" "Mera" "¡–@" "³ß´ç" "´ú¶q­È" "ÃøÁ¤°ª" "Medida"
+;;15GENINF/15GENPOS
+45 "User 1" "User 1" "Bruger 1" "Usuario 1" "Utilisateur 1" "Utente 1" "Utilizador 1" "Egen 1" "Käyttäjä 1" "Uiv. 1" "1. felhasználói" "U¿ytkownika 1" "1-é ïîëüçîâàòåëüñêèé" "Uporabnik 1" "ƒ†[ƒU 1" "ÓÃ»§¶¨Òå 1" "¨Ï¥ÎªÌ 1" "»ç¿ëÀÚ 1" "Usuário 1"
+;;16GENINF/16GENPOS
+46 "User 2" "User 2" "Bruger 2" "Usuario 2" "Utilisateur 2" "Utente 2" "Utilizador 2" "Egen 2" "Käyttäjä 2" "Uiv. 2" "2. felhasználói" "U¿ytkownika 2" "2-é ïîëüçîâàòåëüñêèé" "Uporabnik 2" "ƒ†[ƒU 2" "ÓÃ»§¶¨Òå 2" "¨Ï¥ÎªÌ 2" "»ç¿ëÀÚ 2" "Usuário 2"
+;;17GENINF/17GENPOS
+47 "User 3" "User 3" "Bruger 3" "Usuario 3" "Utilisateur 3" "Utente 3" "Utilizador 3" "Egen 3" "Käyttäjä 3" "Uiv. 3" "3. felhasználói" "U¿ytkownika 3" "3-é ïîëüçîâàòåëüñêèé" "Uporabnik 3" "ƒ†[ƒU 3" "ÓÃ»§¶¨Òå 3" "¨Ï¥ÎªÌ 3" "»ç¿ëÀÚ 3" "Usuário 3"
+;;18GENINF/18GENPOS
+48 "User 4" "User 4" "Bruger 4" "Usuario 4" "Utilisateur 4" "Utente 4" "Utilizador 4" "Egen 4" "Käyttäjä 4" "Uiv. 4" "4. felhasználói" "U¿ytkownika 4" "4-é ïîëüçîâàòåëüñêèé" "Uporabnik 4" "ƒ†[ƒU 4" "ÓÃ»§¶¨Òå 4" "¨Ï¥ÎªÌ 4" "»ç¿ëÀÚ 4" "Usuário 4"
+49 "unused" "unbenutzt" "ubrugt" "Sin usar" "inutilisé" "non usato" "Sem utilização" "oanvänd" "ei käytössä" "nepouito" "nem használt" "nieu¿ywane" "íå èñïîëüçóåòñÿ" "neuporabljen" "–¢g—p" "Î´Ê¹ÓÃ" "¥¼¨Ï¥Î" "¹Ì»ç¿ë" "não utilizado"
+;;gendimo.dwg
+50 "Number" "Position" "Nummer" "Número" "Numéro" "Numero" "Número" "Nummer" "Numero" "Èíslo" "Szám" "Numer" "Íîìåğ ïîçèöèè" "Številka" "”Ô†" "±àºÅ" "½s¸¹" "¹øÈ£" "Número"
+51 "Radius" "Radius" "Radius" "Radio" "Rayon" "Raggio" "Raio" "Radie" "Säde" "Polomìr" "Sugár" "Promieñ" "Ğàäèóñ" "Polmer" "”¼Œa" "°ë¾¶" "¥b®|" "¹İÁö¸§" "Raio"
+52 "Diameter" "Durchmesser" "Diameter" "Diámetro" "Diamètre" "Diametro" "Diâmetro" "Diameter" "Halkaisija" "Prùmìr" "Átmérõ" "Œrednica" "Äèàìåòğ" "Premer" "’¼Œa" "Ö±¾¶" "ª½®|" "Áö¸§" "Diâmetro"
+53 "Description" "Beschreibung" "Beskrivelse" "Descripción" "Description" "Descrizione" "Descrição" "Beskrivning" "Nimitys" "Popis" "Leírás" "Opis" "Îïèñàíèå" "Opis" "’ß" "ËµÃ÷" "»¡©ú" "¼³¸í" "Descrição"
+54 "List of Coordinates" "Koordinatenliste" "Koordinatliste" "Lista de coordenadas" "Liste de coordonnées" "Elenco coordinate" "Tabela de Coordenadas" "Koordinatlista" "Koordinaattiluettelo" "Vıpis souøadnic" "Koordináta lista" "Lista wspó³rzêdnych" "Ïåğå÷åíü êîîğäèíàò" "Seznam koordinat" "À•W‚ÌƒŠƒXƒg" "×ø±êÁĞ±í" "®y¼Ğ¦C¥Ü" "ÁÂÇ¥ ¸®½ºÆ®" "Lista de coordenadas"
+;; No. in gendim3.dwg
+55 "#" "Nr." "#" "Nº" "N°" "Nr." "#" "#" "Nro" "#" "#" "Nr" "Íîìåğ" "#" "”Ô†" "#" "#" "¹øÈ£" "#"
+;;gentitle.dwg
+;;060 refers to state of drawing (e.g. NEW, UPD, etc.)
+60 "State" "Zust." "Status" "Estado" "Etat" "Stato" "Est." "Status" "Tila" "Stav" "Állapot" "Stan" "Ñòàò." "Stanje" "ó‘Ô" "×´Ì¬" "ª¬ºA" "»óÅÂ" "Estado"
+61 "Changes" "Änderungen" "Revision" "Cambios" "Modifications" "Modifiche" "Alter." "Ändringar" "Muutos" "Zmìny" "Változtatások" "Zmiany" "Èçìåíåíèÿ" "Spremembe" "•ÏX" "¸ü¸Ä" "ÅÜ§ó" "º¯°æ ³»¿ë" "Alterações"
+62 "Date" "Datum" "Dato" "Fecha" "Date" "Data" "Data" "Datum" "Pvm" "Datum" "Dátum" "Data" "Äàòà" "Datum" "“ú•t" "ÈÕÆÚ" "¤é´Á" "³¯Â¥" "Data"
+63 "Name" "Name" "Navn" "Nombre" "Nom" "Nome" "Nome" "Namn" "Nimi" "Jméno" "Név" "Nazwa" "Ïîäï." "Ime" "–¼‘O" "Ãû³Æ" "©m¦W" "ÀÌ¸§" "Nome"
+;;64 "" "DIN7168" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+65 "fine middle course" "fein mittel grob" "fin middel grov" "curso medio fino" "fin moyen gros" "fine medio grezzo" "fino médio largo" "fin normal grov" "hieno keski karkea" "jemnı støední chod" "Finom Közepes Durva" "koñcowy œredni roboczy" "ìàëàÿ ñğåäíÿÿ áîëüøàÿ" "fino srednje grobo" "Ü’" "ÖĞ¼äÂ·Ïß" "¥X¹Ï³¹" "Â¡¹Ğ  Áß°£  °úÁ¤" "curso médio fino"
+67 "Drawn" "Bearb." "Tegnet" "Dibujante" "Dessiné" "Disegnato" "Desenhou" "Ritad" "Piirt." "Kreslil" "Rajzolta" "Rysowa³" "Ğàçğàá." "Risal" "ì}" "»æÍ¼" "Ã¸»s" "Á¦µµ" "Desenhado"
+68 "Checked" "Gepr." "Kontrol" "Aprobado" "Vérifié" "Controllato" "Verificou" "Kontrollerad" "Tark." "Kontroloval" "Ellenõrizte" "Sprawdzi³" "Ïğîâ." "Pregledal" "Šm”F" "ÉóºËÍê³É" "®Õ¹ï" "°ËÅä" "Verificado"
+69 "Standard" "Norm" "Standard" "Norma" "Norme" "Standard" "Norma" "Standard" "Standardi" "Norma" "Szabvány" "Norma" "Ñòàíäàğò" "Standard" "‹KŠi" "±ê×¼" "¼Ğ·Ç" "Ç¥ÁØ" "Padrão"
+70 "Filename" "Dateiname" "Filnavn" "Nombre de archivo" "Fichier" "Nome file" "Ficheiro" "Filnamn" "Tied.nimi" "Název souboru" "Fájlnév" "Nazwa pliku" "Ôàéë" "Ime datoteke" "ƒtƒ@ƒCƒ‹–¼" "ÎÄ¼şÃû" "ÀÉ¦W" "ÆÄÀÏ ÀÌ¸§" "Nome de arquivo"
+71 "Surface" "Oberfläche" "Overflade" "Superficie" "Surface" "Superficie" "Superf." "Yta" "Pinta" "Povrch" "Felület" "Powierzchnia" "Øåğîõ." "Površina" "dã‚°" "±íÃæ´¦Àí" "ªí­±³B²z" "Ç¥¸é" "Superfície"
+72 "Checked by" "Geprüft von" "Navn kontrol." "Nombre del responsable" "Vérifié par" "Controllato da" "Verificou" "Namn på kontrollant" "Tarkastanut" "Jméno kontrolora" "Ellenõrizte" "Sprawdz. przez" "Ïğîâ." "Pregledal" "Šm”FÒ" "ÉóºË" "ÀË¬dªÌ" "°ËÅäÀÚ" "Verificado por"
+73 "Scale" "Maßstab" "Skala" "Escala" "Echelle" "Scala" "Escala" "Skala" "Mittakaava" "Mìøítko" "Méretarány" "Podzia³ka" "Ìàñøòàá" "Merilo" "Ú“x" "±ÈÀı" "¤ñ¨Ò" "ÃàÃ´" "Escala"
+74 "Position" "Position" "Position" "Posición" "Position" "Posizione" "Posição" "Position" "Positio" "Umístìní" "Tétel" "Nr pozycji" "Ïîç." "Pozicija" "•”•i”Ô†" "ÏîÄ¿ĞòºÅ" "¦ì¸m" "À§Ä¡" "Posição"
+75 "Quantity" "Menge" "Mængde" "Cantidad" "Quantité" "Quantità" "Quantidade" "Antal" "Määrä" "Mnoství" "Mennyiség" "Iloœæ" "Êîë-âî" "Kolièina" "”—Ê" "ÊıÁ¿" "¼Æ¶q" "¼ö·®" "Quantidade"
+76 "Page" "Blatt" "Side" "Página" "Page" "Pagina" "Folha" "Sida" "Sivu" "Strana" "Oldal" "Strona" "Ëèñò" "Stran" "ƒy[ƒW" "Ò³Êı" "­¶¼Æ" "ÆäÀÌÁö" "Página"
+77 "Pg" "Bl" "s." "Pág." "Pg" "Pg" "Pg" "Sid" "s." "Str" "Old." "Str" "Ëèñòîâ" "Str." "Pg" "Ò³" "­¶" "ÆäÀÌÁö" "Pág."
+78 "Check Date" "Prüfdatum" "Kontroldato" "Fecha de aprobación" "Vérifier la date" "Data controllo" "Data da Verificação" "Kontrolldatum" "Tark.pvm" "Datum kontroly" "Ellenõrzés dátuma" "Data sprawdz." "Äàòà ïğîâåğêè" "Datum pregleda" "Šm”F“ú" "ÉóºËÈÕÆÚ" "®Õ¹ï¤é´Á" "°ËÅä ³¯Â¥" "Data de verificação"
+80 "Date" "Bearbeitungsdatum" "Dato" "Fecha" "Date" "Data" "Data" "Datum" "Pvm" "Datum" "Dátum" "Data" "Äàòà" "Datum" "“ú•t" "ÈÕÆÚ" "¤é´Á" "³¯Â¥" "Data"
+81 "Drawn by" "Name des Bearbeiters" "Fremstillet af" "Dibujado por" "Opérateur" "Disegnato da" "Desenhado por" "Producerad av" "Piirtänyt" "Kreslil" "Készítette" "Rysowane przez" "Ğàçğàá." "Risal" "ì¬Ò" "Éè¼ÆÕß" "Ã¸»sªÌ" "ÀÛ¼ºÀÚ" "Desenhado por"
+82 "Filename" "Dateiname" "Filnavn" "Nombre de archivo" "Fichier" "Nome file" "Ficheiro" "Filnamn" "Tiedostonimi" "Jméno souboru" "Fájlnév" "Nazwa pliku" "Ôàéë" "Ime datoteke" "ƒtƒ@ƒCƒ‹–¼" "ÎÄ¼şÃû" "ÀÉ¦W" "ÆÄÀÏ ÀÌ¸§" "Nome de arquivo"
+83 "Scale" "Maßstab" "Skala" "Escala" "Echelle" "Scala" "Escala" "Skala" "Mittakaava" "Mìøítko" "Méretarány" "Podzia³ka" "Ìàñøòàá" "Merilo" "Ú“x" "±ÈÀı" "¤ñ¨Ò" "ÃàÃ´" "Escala"
+84 "Drawing No." "Zeichnungsnummer" "Tegn nr." "Nº dibujo" "N° de dessin" "Nr. disegno" "Desenho No." "Ritningsnr." "Piirustus nro" "Vıkres è." "Rajzszám" "Nr rysunku" "Íîìåğ ğèñóíêà" "Št. risbe" "}–Ê”Ô†" "Í¼Ñù´úºÅ" "¹Ï¸¹" "µµ¸é ¹øÈ£" "Nº de desenho"
+85 "Raw Material " "Halbzeug (1.Zeile) " "Rå materiale " "Tipo de material " "Matière première 1 " "Materiale grezzo " "Material bruto " "Råmaterial " "Raaka-aine " "Surovina " "Nyersanyag " "Materia³ " "Ñûğüå " "Material " "‘f@Ş " "²ÄÁÏ " "¯À§÷ " "¿øÀç·á 1 " "Material  cru "
+86 "Raw Material (2nd line)" "Halbzeug (2.Zeile)" "Rå materiale (2.den linie)" "Tipo de material (2ª línea)" "Matière première 2" "Materiale grezzo (2da linea)" "Material bruto (2da linha)" "Råmaterial (2:a raden)" "Raaka-aine (2. rivi)" "Surovina (druhá øádka)" "Nyersanyag (2. sor)" "Materia³ (2-ga linia)" "Ñûğüå (2-ÿ ñòğîêà)" "Material (druga vrstica)" "‘f@Ş (2s–Ú)" "²ÄÁÏ (µÚ¶şĞĞ)" "¯À§÷ (²Ä¤G¦æ)" "¿øÀç·á 2 (µÎ¹øÂ° Çà)" "Material cru (2ª linha)"
+87 "Description, max. 20" "Zeichnungsname (mx. 20 Z.)" "Beskrivelse, maks. 20" "Descripción, máx. 20" "Description, max. 20 car." "Descrizione, max. 20" "Descrição,máx.20 caracteres" "Beskrivning, max. 20" "Nimitys, max. 20 mrk" "Popis, max. 20" "Leírás, max. 20" "Opis, maksymalnie 20" "Íàçâàíèå (äî 20 áóêâ)" "Opis, maks. 20" "}–Ê–¼ÌAÅ‘å 20" "ÃèÊö (×î¶à 20 ×Ö)" "»¡©ú, ³Ì¦h 20­Ó¦r¤¸" "¼³¸í (20 ¹®ÀÚ ÀÌ³»)" "Descrição, máx. 20"
+88 "Description 2" "Beschreibung 2" "Beskrivelse 2" "Descripción 2" "Description 2" "Descrizione 2" "Descrição 2" "Beskrivning 2" "Nimitys 2" "Popis 2" "2. leírás" "Opis 2" "Íàçâàíèå (2-ÿ ñòğîêà)" "Opis 2" "}–Ê–¼Ì 2" "ÃèÊö (µÚ¶şĞĞ)" "»¡©ú 2" "¼³¸í 2" "Descrição 2"
+89 "Material" "Werkstoff" "Materiale" "Material" "Matière" "Materiale" "Material" "Material" "Materiaali" "Materiál" "Anyag" "Materia³" "Ìàòåğèàë" "Material" "Ş—¿" "²ÄÁÏ" "§÷®Æ" "Àç·á" "Material"
+90 "Material (2nd Line)" "Material (2.Zeile)" "Materiale (2.den linje)" "Material (2ª línea)" "Matière (ligne 2)" "Materiale (2da linea)" "Material (2da linha)" "Material (2:a raden)" "Materiaali (2. rivi)" "Materiál (druhá øádka)" "Anyag (2. sor)" "Materia³ (2-ga linia)" "Ìàòåğèàë (2-ÿ ñòğîêà)" "Material (druga vrstica)" "Ş—¿ (2s–Ú)" "²ÄÁÏ (µÚ¶şĞĞ)" "§÷®Æ (²Ä¤G¦æ)" "Àç·á (µÎ¹øÂ° Çà)" "Material (2ª linha)"
+91 "Plot Date" "Plot-Datum" "Plotdato" "Fecha de trazado" "Date d'impression" "Data stampa" "Data da Impressão" "Plot-datum" "Tulostuspvm" "Datum vykreslení" "Nyomtatás dátuma" "Data kreœlenia" "Äàòà âû÷åğ÷èâàíèÿ" "Datum izrisa" "o}“ú" "³öÍ¼ÈÕÆÚ" "¥X¹Ï¤é´Á" "ÇÃ·Ô ³¯Â¥" "Data de plotagem"
+;;genrevi.dwg - revisionlist
+92 "Revision 2nd.line" "Änderung 2.Zeile" "Revision 2. linje" "Revisión 2ª línea" "Révision ligne 2" "2da linea revisione" "Revisão 2da.linha" "Revision 2:a raden" "Muutos, 2. rivi" "Revize 2. øádka" "Revízió 2. sor" "Opis rewizji (2-ga linia)" "2-ÿ ñòğ. èçìåíåíèé" "Popravki, druga vrstica" "—š—ğ 2 s–Ú" "¸ü¸ÄÀ¸ (µÚ¶şĞĞ)" "­×­q²Ä¤G¦æ" "°³Á¤ µÎ¹øÂ° Çà" "Revisão 2ª linha"
+93 "DWG" "Zeichnung" "DWG" "Dibujo" "Dessin" "DWG" "DWG" "DWG" "Piirustus" "DWG" "RAJZ" "DWG" "Ğèñóíîê" "DWG" "}–Ê–¼" "DWG" "DWG" "µµ¸é" "DWG"
+94 "Revision 1st.line" "Änderung 1.Zeile" "Revision 1.ste linje" "Revisión 1ª línea" "Révision ligne 1" "1ma linea revisione" "Revisão 1ra linha" "Revision 1:a raden" "Muutos, 1. rivi" "Revize 1. øádka" "Revízió 1. sor" "Opis rewizji (1-sza linia)" "1-ÿ ñòğ. èçìåíåíèé" "Popravki, prva vrstica" "—š—ğ 1 s–Ú" "¸ü¸ÄÀ¸ (µÚÒ»ĞĞ)" "­×­q²Ä¤@¦æ" "°³Á¤ Ã¹¹øÂ° Çà" "Revisão 1ª linha"
+95 "Date" "Datum" "Dato" "Fecha" "Date" "Data" "Data" "Datum" "Pvm" "Datum" "Dátum" "Data" "Äàòà" "Datum" "“ú•t" "ÈÕÆÚ" "¤é´Á" "³¯Â¥" "Data"
+96 "Revision" "Änderung" "Revision" "Revisión" "Révision" "Revisione" "Revisão" "Revision" "Muutos" "Revize" "Revízió" "Rewizja" "Èçìåíåíèÿ" "Popravki" "—š—ğ" "°æ±¾" "­×­q" "°³Á¤" "Revisão"
+97 "Name" "Name" "Navn" "Nombre" "Nom" "Nome" "Nome" "Namn" "Nimi" "Jméno" "Név" "Nazwisko" "Ïîäï." "Ime" "–¼‘O" "¸ü¸ÄÕß" "©m¦W" "ÀÌ¸§" "Nome"
+;;is now also used in gendim3
+98 "#" "Nr." "#" "Nº" "N°" "Nr." "#" "#" "Nro" "#" "#" "Nr" "Èçì." "#" "”Ô†" "#" "#" "¹øÈ£" "#"
+;; genpos.dwg - prompt description
+;;19GENINF/19GENPOS
+99 "User 5" "User 5" "Bruger 5" "Usuario 5" "Utilisateur 5" "Utente 5" "Utilizador 5" "Egen 5" "Käyttäjä 5" "Uiv. 5" "5. felhasználói" "U¿ytkownika 5" "5-é ïîëüçîâàòåëüñêèé" "Uporabnik 5" "ƒ†[ƒU 5" "ÓÃ»§¶¨Òå 5" "¨Ï¥ÎªÌ 5" "»ç¿ëÀÚ 5" "Usuário 5"
+;;20GENINF/20GENPOS
+100 "User 6" "User 6" "Bruger 6" "Usuario 6" "Utilisateur 6" "Utente 6" "Utilizador 6" "Egen 6" "Käyttäjä 6" "Uiv. 6" "6. felhasználói" "U¿ytkownika 6" "6-é ïîëüçîâàòåëüñêèé" "Uporabnik 6" "ƒ†[ƒU 6" "ÓÃ»§¶¨Òå 6" "¨Ï¥ÎªÌ 6" "»ç¿ëÀÚ 6" "Usuário 6"
+;;21GENINF/21GENPOS
+101 "User 7" "User 7" "Bruger 7" "Usuario 7" "Utilisateur 7" "Utente 7" "Utilizador 7" "Egen 7" "Käyttäjä 7" "Uiv. 7" "7. felhasználói" "U¿ytkownika 7" "7-é ïîëüçîâàòåëüñêèé" "Uporabnik 7" "ƒ†[ƒU 7" "ÓÃ»§¶¨Òå 7" "¨Ï¥ÎªÌ 7" "»ç¿ëÀÚ 7" "Usuário 7"
+;;22GENINF/22GENPOS
+102 "User 8" "User 8" "Bruger 8" "Usuario 8" "Utilisateur 8" "Utente 8" "Utilizador 8" "Egen 8" "Käyttäjä 8" "Uiv. 8" "8. felhasználói" "U¿ytkownika 8" "8-é ïîëüçîâàòåëüñêèé" "Uporabnik 8" "ƒ†[ƒU 8" "ÓÃ»§¶¨Òå 8" "¨Ï¥ÎªÌ 8" "»ç¿ëÀÚ 8" "Usuário 8"
+;;0GENINF/0GENPOS
+103 "Unique Part ID" "Normteile ID" "Unikt del-ID" "Identificación exclusiva de piezas" "ID de pièce unique" "ID parte unica" "ID único do componente" "Unikt komponent-ID" "Yksilöllinen osatunnus" "Jedineèné ID souèásti" "Egyedi alkatrész azonosító" "Niepowtarzalny identyfikator elementu" "Èäåíòèôèêàòîğ (âíóòğ.)" "Unikatni del-ID" "ˆêˆÓ‚Ì•”•i ID" "Î¨Ò»µÄÁã¼şºÅ" "°ß¤@ªº¹s¥ó ID" "°íÀ¯ ºÎÇ° ID" "Identificação de peças único"
+;;24GENINF/24GENPOS
+104 "Comment" "Bemerkung" "Kommentar" "Comentario" "Commentaire" "Commento" "Comentário" "Kommentar" "Huomautukset" "Komentáø" "Megjegyzés" "Komentarz" "Ïğèìå÷àíèå" "Komentar" "ƒRƒƒ“ƒg" "±¸×¢" "³Æµù" "ÁÖ¼®" "Comentário"
+;;25GENINF/25GENPOS
+105 "Supplier key" "Herstellerschlüssel" "Leverandørnøgle" "Clave del proveedor" "Identificateur fournisseur" "Chiave fornitore" "Código do fornecedor" "Leverantörsnyckel" "Toimittajan avain" "Dodavatelskı klíè" "Beszállító azonosító" "Kod dostawcy" "Êîä ïîñòàâùèêà" "Kljuè dobavitelja" "ƒ[ƒJ[ ƒR[ƒh" "¹©Ó¦ÉÌ¹Ø¼ü×Ö" "¨ÑÀ³°ÓÃöÁä¦r" "°ø±ŞÀÚ Å°" "Chave do fornecedor"
+;;26GENINF/26GENPOS
+106 "Assembly number" "Baugruppennummer" "Samlenummer" "Número de ensamblaje" "Numéro d'ensemble" "Numero assieme" "Número da montagem" "Sammanställn.nr" "Kokoonpanonumero" "Montání èíslo" "Összeállítás száma" "Numer zespo³u" "Íîìåğ óçëà" "Številka sklopa" "ƒ†ƒjƒbƒg”Ô†" "×°ÅäºÅ" "²Õ¦X¸¹½X" "Á¶¸³ ¹øÈ£" "Número de montagem"
+;;GENPOS14_VISIBLE1
+107 "1st visible attribute" "1. sichtbare Attribut" "1. synlige attribut" "1º atributo visible" "1er attribut visible" "1mo attributo visibile" "1º atributo visível" "Första synliga attribut" "1. näkyvä attribuutti" "1. viditelnı atribut" "1. látható attribútum" "1-szy widoczny atrybut" "1-é âèäèìûé àòğèáóò" "1. vidni atribut" "‘®« 1" "µÚÒ»¸ö¿É¼ûÊôĞÔ" "²Ä¤@­Ó¥i¨£Äİ©Ê" "Ã¹¹øÂ° °¡½Ã ¼Ó¼º" "1º atributo visível"
+;;GENPOS14_VISIBLE2
+108 "2nd visible attribute" "2. sichtbare Attribut" "2. synlige attribut" "2º atributo visible" "2ème attribut visible" "2do attributo visibile" "2º atributo visível" "Andra synliga attribut" "2. näkyvä attribuutti" "2. viditelnı atribut" "2. látható attribútum" "2-gi widoczny atrybut" "2-é âèäèìûé àòğèáóò" "2. vidni atribut" "‘®« 2" "µÚ¶ş¸ö¿É¼ûÊôĞÔ" "²Ä¤G­Ó¥i¨£Äİ©Ê" "µÎ¹øÂ° °¡½Ã ¼Ó¼º" "2º atributo visível"
+;;27GENINF/27GENPOS
+109 "DWG manager ID" "Zeichnungsverwaltungs-ID" "DWG-leder-ID" "ID Administrador DWG" "ID de l'environnement de dessin" "ID gestore DWG" "ID no gestor de DWG" "DWG manager ID" "DWG-hoitaja ID" "Identifikaèní èíslo správce DWG" "DWG kezelõ azonosító" "Identyfikator administratora DWG" "ID â Äèñï. ÷åğòåæåé" "DWG upravnik ID" "}–ÊŠÇ— ID" "Í¼ĞÎ¹ÜÀíÆ÷ºÅ" "¹ÏÀÉºŞ²z­û ID" "DWG °ü¸®ÀÚ ID" "ID do gerenciador DWG"
+110 "Description in ACADM-BOM" "Beschreibung in ACADM-Stückliste" "Beskrivelse i ACADM-BOM" "Descripción en lista de materiales de ACADM" "Description dans la nomenclature ACADM" "Descrizione in ACADM-BOM" "Descrição em ACADM-LP" "Beskrivning i ACADM-BOM" "Kuvaus ACADM-BOMissa" "Popis v ACADM-BOM" "Leírás az ACADM-BOM blokkban" "Opis w ACADM-BOM" "Îïèñàíèå â ACADM-BOM" "Opis v ACADM kosovnici" "ACAD-M BOM “à‚Ì‹Lq" "ACADM-BOM ÖĞµÄÃèÊö" "ACADM §÷®Æªí¤ºªº»¡©ú" "ACADM-BOMÀÇ ¼³¸í" "Descrição em lista de materiais de ACADM"
+;;faa, fab, fia, fib
+130 "Friction" "Reibung" "Friktion" "Fricción" "Frottement" "Attrito" "Atrito" "Friktion" "Kitka" "Tøení" "Súrlódás" "Tarcie" "Ñèëà òğåíèÿ" "Trenje" "–€C" "Ä¦²Á" "¿iÀ¿" "¸¶Âû" "Atrito"
+131 "Gradient" "Steigung" "Hældning" "Gradiente" "Gradient" "Forza resistente" "Gradiente" "Stigning" "Kaltevuuskulma" "Spád" "Emelkedés" "Si³a unosz¹ca" "Ïğ-ÿ ñèëû òÿæåñòè" "Naklon" "Œù”z" "Ğ±Ïò" "¶É±×¨¤" "±â¿ï±â" "Gradiente"
+132 "Total Force" "Gesamtkraft" "Total kraft" "Fuerza total" "Force totale" "Forza totale" "Result.Forças" "Total kraft" "Kokonaisvoima" "Celková síla" "Teljes erõ" "Si³a ca³kowita" "Ğàâíîäåéñò-ÿ ñèë" "Skupna sila" "‡Œv‰×d" "×ÜÁ¦" "Á`¤O" "ÀüÃ¼ Èû" "Força total"
+133 "Power" "Leistung" "Effekt" "Potencia" "Puissance" "Energia" "Potência" "Effekt" "Teho" "Vıkon" "Teljesítmény" "Moc" "Ìîùíîñòü" "Moè" "o—Í" "¹¦ÂÊ" "¥\²v" "ÇÏÁß" "Potência"
+134 "Coefficient of friction" "Reibungskoeffizient" "Friktionskoefficient" "Coef. de fricción" "Coef. frottement" "Coefficiente d'attrito" "Coef.Atrito" "Friktionskoefficient" "Kitkakerroin" "Koeficient tøení" "Súrlódási tényezõ" "Wspó³czynnik tarcia" "Êîıô. òğåíèÿ" "Koeficient trenja" "–€CŒW”" "Ä¦²ÁÏµÊı" "¿iÀ¿«Y¼Æ" "¸¶Âû °è¼ö" "Coeficiente de atrito"
+135 "Sliding 0.3" "gleitender Gurt 0.3" "Glidning 0.3" "Deslizamiento 0.3" "Glissant 0.3" "Radente 0.3" "Escorregamento 0.3" "Glidning 0,3" "Likukitka 0.3" "Prokluz 0.3" "Csúszás 0,3" "Œlizgowe 0.3" "Ñêîëüæåíèÿ 0.3" "Lezenje 0.3" "ŠŠ‚è 0.3" "»¬¶¯ 0.3" "·Æ°Ê 0.3" "¹Ì²ô·³ 0.3" "Deslizamento 0,3"
+136 "Chain 0.02" "Kette 0.02" "Kæde 0.02" "Cadena 0.02" "Chaîne 0.02" "Catena 0.02" "Atrelado 0.02" "Kedja 0,02" "Ketjukitka 0.02" "Øetìz 0.02" "Lánc 0.02" "£añcuchowe 0.02" "Öåïè 0.02" "Veriga 0.02" "ƒ`ƒF[ƒ“ 0.02" "Á´ 0.02" "Ãì 0.02" "Ã¼ÀÎ 0.02" "Corrente 0,02"
+137 "Roller 0.005" "Rollen 0.005" "Rulle 0.005" "Rodillo 0.005" "Rouleaux 0.005" "Volvente 0.005" "Rolamento 0.005" "Rulle 0,005" "Vierintäkitka 0.005" "Váleèek 0.005" "Görgõ 0.005" "Rolkowe 0.005" "Êà÷åíèÿ 0.005" "Valjèek 0.005" "ƒ[ƒ‰ 0.005" "¹ö×Ó 0.005" "ºu¤l 0.005" "·Ñ·¯ 0.005" "Rolo 0,005"
+138 "Mass m" "Masse m" "Masse m" "Masa m" "Masse m" "Massa m" "Massa m" "Massa m" "Massa m" "Hmotnost m" "Tömeg m" "Masa m" "Ìàññà m" "Masa m" "¿—Ê m" "ÖÊÁ¿ m" "½è¶q m" "Áú·® m" "Massa m"
+139 "Velocity v" "Fördergeschw. v" "Hastighed v" "Velocidad v" "Vitesse v" "Velocità v" "Velocidade v" "Hastighet v" "Nopeus v" "Rychlost v" "Sebesség v" "Prêdkoœæ v" "Ñêîğîñòü v" "Hitrost v" "‘¬“x v" "ËÙ¶È v" "³t«× v" "¼Óµµ v" "Velocidade v"
+140 "Gradient" "Steigung" "Hældning" "Gradiente" "Gradient" "Forza resistente" "Gradiente" "Stigning" "Kaltevuus" "Spád" "Emelkedés" "Si³a unosz¹ca" "Óãîë íàêëîíà" "Gradient" "Œù”z" "ÇãĞ±½Ç" "¶É±×¨¤" "±â¿ï±â" "Gradiente"
+141 "Efficiency" "Wirkungsgrad" "Effektivitet" "Eficiencia" "Rendement" "Efficienza" "Eficiência" "Effektivitet" "Hyötysuhde" "Úèinnost" "Hatásfok" "Sprawnoœæ" "ÊÏÄ" "Izkoristek" "Œø—¦" "Ğ§ÂÊ" "¦³®Ä«Y¼Æ" "È¿À²" "Eficiência"
+142 "Safety factor S" "Sicherheitsfaktor S" "Sikkerhedsfaktor S" "Factor seguridad S" "Fact. de sécurité S" "Fattore di sicurezza S" "Coef.Segurança S" "Säkerhetsfaktor S" "Varmuuskerroin" "Bezpeènost S" "Biztonsági tényezõ S" "Wspó³cz. bezp." "Çàïàñ ïğî÷íîñòè S" "Faktor varnosti S" "ˆÀ‘SŒW” S" "°²È«ÏµÊı S" "¦w¥ş«Y¼Æ S" "¾ÈÀü °è¼ö S" "Fator de segurança S"
+143 "Efficiency [0.7 .. 0.9]" "Wirkungsgrad [0.7 .. 0.9]" "Effektivitet [0.7 .. 0.9]" "Eficiencia [0.7 .. 0.9]" "Rendement [0.7 .. 0.9]" "Efficienza [0.7 .. 0.9]" "Eficiência [0.7 .. 0.9]" "Effektivitet [0,7 .. 0,9]" "Hyötysuhde [0.7 ... 0.9]" "Úèinnost [0.7 .. 0.9]" "Hatásfok [0.7 .. 0.9]" "Sprawnoœæ [0.7 .. 0.9]" "ÊÏÄ [0.7 .. 0.9]" "Izkoristek [0.7 .. 0.9]" "Œø—¦ [0.7 .. 0.9]" "Ğ§ÂÊ [0.7 .. 0.9]" "¦³®Ä«Y¼Æ [0.7 .. 0.9]" "È¿À² [0.7 .. 0.9]" "Eficiência [0,7 .. 0,9]"
+152 "Acceleration" "Beschleunigung" "Acceleration" "Aceleración" "Accélération" "Forza d'inerzia" "Aceleração" "Acceleration" "Kiihtyvyys" "Zrychlení" "Gyorsulás" "Przyspieszenie" "Ñèëà òÿãè" "Pospešek" "‰Á‘¬“x" "¼ÓËÙ¶È" "¥[³t«×" "°¡¼Óµµ" "Aceleração"
+155 "Transport Period" "Fahrzeit" "Transport periode" "Periodo de transp." "Durée de transport" "Periodo di trasporto" "Tempo Transporte" "Transportperiod" "Siirtoaika" "Transportní cyklus" "Menetidõ" "Okres transportu" "Âğåìÿ ïîëíîãî öèêëà" "Transportna Perioda" "ˆÚ“®“_" "´«¶¯ĞĞ³Ì" "¶Ç°Ê¦æµ{" "ÀÌµ¿ ±â°£" "Período de transporte"
+157 "Acceleration way Sa" "Beschl.-Strecke Sa" "Accelerationsvej Sa" "Sentido de acel. Sa" "Traj. d'accél. Sa" "Spazio per accel. Sa" "Aceleração linear Sa" "Accelerationssträcka Sa" "Kiihdytysmatka Sa" "Dráha zrychlení Sa" "Gyorsítási út Sa" "Droga przyspieszania Sa" "Äëèíà ğàçãîíà Sa" "Smer pospeška Sa" "‰Á‘¬‹——£ Sa" "¼ÓËÙĞĞ³Ì Sa" "¥[³t¦æµ{ Sa" "°¡¼Ó ¹æ¹ı Sa" "Sentido de aceleração Sa"
+158 "Max. Vel. v" "Max.Geschw. v" "Maks. hast. v" "Vel. máx. v" "Vit. max. v" "Velocità max. v" "Máx. Vel. v" "Max. Vel. v" "Enimmäisnopeus v" "Max. rychl. v" "Max. Seb. v" "Maksymalna prêdkoœæ v" "Ìàêñ.ñêîğîñòü v" "Maks. hit. v" "Å‘å‘¬“x v" "×î´óËÙ¶È v" "³Ì¤j³t«× v" "ÃÖ´ë ¼Óµµ v" "Vel. máx. v"
+159 "Way S" "Fahrweg S" "Vej S" "Dirección S" "Trajet S" "Direzione S" "Deslocamento S" "Sträcka S" "Matka S" "Dráha S" "Út S" "Droga S" "Ïóòü S" "Pot S" "ˆÚ“®‹——£ S" "ĞĞ³Ì S" "¦æµ{ S" "¹æ¹ı S" "Direção S"
+170 "Moment of Inertia" "Trägheitsmoment" "Inertimoment" "Momento de inercia" "Moment d'inertie" "Momenti d'inerzia" "Momento de inércia" "Tröghetsmoment" "Hitausmomentti" "Moment setrvaènosti" "Másodrendû nyomaték" "Moment bezw³adnoœci" "Ìîìåíò èíåğöèè" "Vztrajnostni moment" "Šµ«ƒ‚[ƒƒ“ƒg" "¹ßĞÔ¾Ø" "Â_­±ºD©Ê¯x" "°ü¼º ¸ğ¸àÆ®" "Momento de inércia"
+171 "Max. Border Dist." "max. Randabstand" "Maks. kant afstand" "Máx. dist. al límite" "Dist. max. au bord" "Distanza max. dal bordo" "Máx. Dist. da Margem." "Max. kantavstånd" "Enimmäisreunaetäisyys" "Max. vzdál. okraje" "Szélsõ szál távolsága" "Maksymalna odleg³oœæ granicy" "Ìàêñ. ãğàíè÷íîå ğàññòîÿíèå" "Maks. razd. meje" "‹«ŠE‚Ü‚Å‚ÌÅ‘å‹——£" "ÀëĞÎĞÄ×î´ó±ß½ç¾àÀë" "Â÷½è¤ß³Ì»·ºİªº¶ZÂ÷" "ÃÖ´ë °æ°è °Å¸®" "Máxima distância de limite"
+172 "Safety Factor" "Sicherheitsfaktor" "Sikkerhedsfaktor" "Factor de seguridad" "Facteur de sécurité" "Fattore di sicurezza" "Coef.Segurança" "Säkerhetsfaktor" "Varmuuskerroin" "Bezpeènostní faktor" "Biztonsági tényezõ" "Wspó³czynnik bezpieczeñstwa" "Çàïàñ ïğî÷íîñòè" "Faktor varnosti" "ˆÀ‘SŒW”" "°²È«ÏµÊı" "¦w¥ş«Y¼Æ" "¾ÈÀü °è¼ö" "Fator de segurança"
+173 "E-Modulus" "E-Modul" "E-Modul" "Módulo E" "Module-E" "Modulo E" "Módulo-E" "E-modul" "Kimmomoduuli" "Modul E" "Rugalmassági modulus" "Modu³ E" "Ìîäóëü Şíãà" "E-Modul" "c’e«ŒW” E" "µ¯ĞÔÄ£Á¿" "¼u©Ê«Y¼Æ" "Åº¼º °è¼ö" "E-modulus"
+174 "Ultimate Strength" "Dehn-/Streckgrenze" "Trækstyrke" "Fuerza de ruptura" "Limite d'élasticité" "Resistenza ultima" "Máx.Tensão no Limite Elást." "Brottgräns" "Murtolujuus" "Maximálmí pevnost" "Folyáshatár" "Wytrzyma³oœæ" "Ïğåäåë ïğî÷íîñòè" "Natezna trdnost" "‹ÉŒÀ‹­‚³" "Çü·şÇ¿¶È" "­°¥ñ±j«×" "±ØÇÑ °­µµ" "Força máxima"
+175 "Max.Stress" "Max.Spannung" "Maks.spænding" "Esfuerzo máx." "Contrainte max." "Tensione max." "Tensão Máx." "Max.belastning" "Enimmäisjännitys" "Max. napìtí" "Max. feszültség" "Maksymalne naprê¿enie" "Ìàêñ.íàïğÿæåíèå" "Maks. napetost" "Å‘å‰—Í" "×î´óÓ¦Á¦" "³Ì¤jÀ³¤O" "ÃÖ´ë ÀÀ·Â" "Tensão máx."
+176 "Max.Deflection" "Max.Durchbiegung" "Max.udbøjning" "Deflexión máx." "Fléchissement max." "Deformazione max." "Deflexão Máx." "Max.nedböjning" "Enimmäistaipuma" "Max. prùhyb" "Max. lehajlás" "Maksymalne odkszta³cenie" "Ìàêñ.äåôîğìàöèÿ" "Maks. upogib" "Å‘å‚½‚í‚İ" "×î´óÄÓ¶È" "³Ì¤j¼¸¦±" "ÃÖ´ë Ã³Áü" "Deflexão máx."
+177 "Max.Moment" "Max.Moment" "Max.moment" "Momento máx." "Moment max." "Momento max." "Momento Máx." "Max.moment" "Enimmäismomentti" "Max. moment" "Max. nyomaték" "Maksymalny moment" "Ìàêñ.ìîìåíò" "Maks. Moment" "Å‘åƒ‚[ƒƒ“ƒg" "×î´óÍäÇúÁ¦¾Ø" "³Ì¤j¤O¯x" "ÃÖ´ë ¸ğ¸àÆ®" "Momento máx."
+;;178 is the default of "Parts List Name(3GENPOS/3GENINF)"
+;; #178 changed!! <blabla> -> blabla
+178 "current" "aktuell" "<nuværende>" "actual" "actif" "corrente" "Corrente" "aktuell" "nykyinen" "aktuální" "aktuális" "bie¿¹cy" "òåêóùåå" "<trenuten>" "Œ»İ" "µ±Ç°µÄ" "¥Ø«e­È" "ÇöÀç" "atual"
+;;drawing symbols tolerances stored in library ISO 2768 Part1
+190 "Permissible deviations for linear dimensions except broken edges" "Zulässige Abweichungen für Linearbemaßungen mit Ausnahme von gebrochenen Kanten" "Tilladelig afvigelse for linære mål undtagen brudte kanter" "Desviación permitida para acotación lineal excepto bordes partidos" "Ecarts autorisés pour les cotes linéaires excepté pour les arêtes interrompues" "Deviazioni ammesse per quote lineari eccetto vertici spezzati" "Desvios permitidos para cotas lineares, excepto arestas partidas" "Tillåten avvikelse för linjärt mått utom brott" "Pituusmittojen sallitut poikkeamat lukuun ottamatta viistettyjä kulmia" "Povolená odchylka pro lineární rozmìry mimo pøerušenıch hran" "A lineáris méretektõl megengedett eltérés a megtört élek kivételével" "Dozwolone odchy³ki dla liniowych wymiarów bez przerwanych krawêdzi" "Äîïóñòèìûå îòêëîíåíèÿ ëèíåéíûõ ğàçìåğîâ (èñêëş÷àÿ êğîìêè ğàçëîìà)" "Dovoljene razlike za linearne mere, razen lomljenih robov" "–Êæ‚è•”•ª‚ğœ‚­’·‚³¡–@‚É‘Î‚·‚é‹–—e·" "³ı´ò¶Ï±ß½ç±ß½çÍâ, ÏßĞÔ³ß´ç±ê×¢µÄÈİĞíÆ«²î" "°£§éÂ_Ãä¥~,ªø«×¼Ğµùªº®e³\°¾®t" "²÷¾îÁø ¸ğ¼­¸®¸¦ Á¦¿ÜÇÑ ¼±Çü Ä¡¼ö¿¡ ´ëÇÑ Çã¿ë ÆíÂ÷" "Desvios admissíveis para as dimensões lineares exceto bordas quebradas"
+191 "Tolerance class" "Toleranzklasse" "Tolerance klasse" "Clase de tolerancia" "Classe de tolérance" "Classe di tolleranza" "Classe da Tolerância" "Toleransklass" "Toleranssiluokka" "Toleranèní tøída" "Tûrésosztály" "Klasa tolerancji" "Êâàëèòåò" "Toleranèni razred" "Œö·“™‹‰" "¹«²îµÈ¼¶" "¤½®tµ¥¯Å" "°øÂ÷ Å¬·¡½º" "Classe de tolerância"
+192 "Permissible deviations for basic size range" "Grenzabmaße für Nennmaßbereiche" "Tilladelig afvigelse for basis størrelse område" "Desviaciones admisibles para rango de tamaño básico" "Ecarts autorisés pour tailles nominales" "Deviazioni ammesse per intervallo di dimensioni base" "Desvios permitidos para os valores de tamanho básicos" "Tillåten avvikelse för grundläggande storleksintervall" "Sallitut poikkeamat perusmitta-alueella" "Povolená odchylka pro základní rozsah rozmìrù" "Alap mérettartománytól megengedett eltérések" "Dozwolone odchy³ki dla podstawowych wielkoœci" "Äîïóñòèìûå îòêëîíåíèÿ äèàïàçîíà áàçîâûõ ğàçìåğîâ" "Dovoljene razlike za osnovno obmoèje velikosti" "Šî€¡–@‚Ì‹æ•ª" "»ù±¾³ß´ç·¶Î§µÄÈİĞíÆ«²î" "°ò¥»¤j¤p½d³òªº®e³\°¾®t" "±âº» Å©±â ¹üÀ§¿¡ ´ëÇÑ Çã¿ë ÆíÂ÷" "Desvios admissíveis para faixa de tamanho básico"
+193 "Designation" "Bezeichnung" "Benævnelse" "Designación" "Désignation" "Designazione" "Designação" "Beteckning" "Tunnus" "Oznaèení" "Megjelölés" "Oznaczenie" "Îáîçíà÷åíèå" "Naziv" "w¦" "Ö¸¶¨" "ºÙ¸¹" "¸íÄª" "Designação"
+194 "Description" "Beschreibung" "Beskrivelse" "Descripción" "Description" "Descrizione" "Descrição" "Beskrivning" "Kuvaus" "Popis" "Leírás" "Opis" "Îïèñàíèå" "Opis" "à–¾" "ËµÃ÷" "»¡©ú" "¼³¸í" "Descrição"
+195 "over" "über" "over" "sobre" ">" "sopra" "acima" "över" "yli" "nad" "alsó határ:" "ponad" "îò" "èez" "ˆÈã" "³¬¹ı" "¶W¹L" "ÃÊ°ú" "acima"
+196 "upto" "bis" "op til" "hasta" "jusqu'à" "fino a" "até" "upp till" "asti" "a k" "felsõ határ:" "do" "äî" "na" "ˆÈ‰º" "´ïµ½" "¹F¨ì" "À§¿¡" "até"
+197 "fine" "fein" "fin" "fino" "fin" "sottile" "fino" "fin" "hieno" "jemné" "Finom" "dok³adne" "òî÷íûé" "fino" "¸‹‰" "¾«Ï¸" "ºë²Ó" "Á¤¹Ğ" "fino"
+198 "medium" "mittel" "middel" "medio" "moyen" "medio" "médio" "normal" "keskikarkea" "støední" "Közepes" "œrednie" "ñğåäíèé" "srednje" "’†‹‰" "ÖĞµÈ" "¤¤µ¥" "Áß°£" "médio"
+199 "coarse" "grob" "grov" "áspero" "gros" "grezzo" "largo" "grov" "karkea" "hrubé" "Durva" "zgrubne" "ãğóáûé" "grobo" "‘e‹‰" "´Ö²Ú" "²ÊÁW" "°ÅÄ£" "áspero"
+200 "very coarse" "sehr grob" "meget grov" "muy áspero" "très gros" "molto grezzo" "muito largo" "extra grov" "erittäin karkea" "velmi hrubé" "Nagyon durva" "bardzo zgrubne" "î÷åíü ãğóáûé" "zelo grobo" "‹É‘e‹‰" "·Ç³£´Ö²Ú" "«D±`²ÊÁW" "¸Å¿ì °ÅÄ£" "muito áspero"
+201 "Permissible deviations of angular dimensions" "Grenzabmaße für Winkelmaße" "Tilladelig afvigelse for vinkel mål" "Desviaciones admisibles para acotación angular" "Ecarts autorisés pour cotes angulaires" "Deviazioni ammesse per quote angolari" "Desvios permitidos para as cotas ângulares" "Tillåten avvikelse för vinkelmått" "Kulmamittojen sallitut poikkeamat" "Povolená odchylka úhlovıch rozmìrù" "A szögméretek megengedett eltérései" "Dozwolone odchy³ki dla wymiarów k¹towych" "Äîïóñòèìûå îòêëîíåíèÿ óãëîâûõ ğàçìåğîâ" "Dovoljene razlike za mere kotov" "Šp“x¡–@‚Ì‹–—e·" "½Ç¶È³ß´ç±ê×¢µÄÈİĞíÆ«²î" "¨¤«×¼Ğµùªº®e³\°¾®t" "°¢µµ Ä¡¼ö¿¡ ´ëÇÑ Çã¿ë ÆíÂ÷" "Desvios admissíveis de cotas angulares"
+;;202+203 is one term spread over 2 lines
+202 "Permissible deviations for ranges of lengths, in mm," "Grenzabmaße für Längenbereiche, in mm, für den" "Tilladelig afvigelse for områder af længder, i mm," "Desviaciones admisibles para rangos de longitud, en mm," "Ecarts autorisés pour longueurs en mm" "Deviazioni ammesse per intervalli di lunghezze, in mm," "Desvios permitidos para os valores dos comprimentos, em mm," "Tillåten avvikelse för längdintervall i mm," "K.o. kulman lyhyemmän sivun sallitut" "Povolená odchylka pro rozsah délek v mm," "A szóban forgó szög rövidebb oldalának" "Dozwolone odchy³ki dla zakresu d³ugoœci w mm," "Äîïóñòèìûå îòêëîíåíèÿ äèàïàçîíà äëèí, â ìì," "Dovoljene razlike za obmoèje dolin v mm," "‘ÎÛ‚Æ‚·‚éŠp“x‚Ì’Z‚¢•û‚Ì" "³¤¶È·¶Î§µÄÈİĞíÆ«²î, µ¥Î»ºÁÃ×," "ªø«×½d³òªº®e³\°¾®t,¤½¨î¤½Âç," "°ü°èµÈ °¢µµÀÇ ÂªÀº ÂÊ" "Desvios admissíveis para faixas de comprimento, em mm,"
+203 "of the shorter side of the angle concerned" "kürzeren Schenkel des betreffenden Winkels" "for den korte side af den berørte vinkel" "del lado más corto del ángulo en cuestión" "du côté le plus petit de l'angle" "del lato più corto dell'angolo interessato." "do menor lado do triângulo em causa" "av vinkelns korta sida." "poikkeamat pituusmitta-alueella (mm)" "uvaována kratší strana úhlu" "megengedett hossztartomány-eltérése mm-ben" "krótszego boku k¹ta" "êîğîòêîé ñòîğîíû ğàññìàòğèâàåìîãî óãëà" "najkrajši rob kota" "•Ó‚Ì’·‚³(’PˆÊmm)‚Ì‹æ•ª" "ÔÚ½Ç¶È¶ÌµÄÒ»±ß" "ÅU¼{¨¤«×µuªº¤@Ãä" "±æÀÌ ¹üÀ§(mm ´ÜÀ§)¿¡ ´ëÇÑ Çã¿ë ÆíÂ÷" "do lado mais curto do ângulo em questão"
+204 "Permissible deviations for broken edges" "Grenzabmaße für gebrochene Kanten" "Tilladelig afvigelse for brudte kanter" "Desviaciones admisibles para bordes partidos" "Ecarts autorisés pour les arêtes interrompues" "Deviazioni ammesse per vertici spezzati" "Desvios permitidos para as arestas partidas" "Tillåten avvikelse för brott" "Viistettyjen kulmien sallitut poikkeamat" "Povolená odchylka pøerušenıch hran" "A megtört élek megengedett eltérései" "Dozwolone odchy³ki dla przerwañ" "Äîïóñòèìûå îòêëîíåíèÿ äëÿ êğîìîê ğàçëîìà" "Dovoljene razlike za lomljene robove" "–Êæ‚è•”•ª‚Ì’·‚³¡–@‚É‘Î‚·‚é‹–—e·" "´ò¶Ï±ß½çµÄÈİĞíÆ«²î" "§éÂ_Ãäªº®e³\°¾®t" "²÷¾îÁø ¸ğ¼­¸®¿¡ ´ëÇÑ Çã¿ë ÆíÂ÷" "Desvios admissíveis para bordas quebradas"
+;;new in G14
+;;prompts in gendim0.dwg (not longer than 25 characters)
+210 "Identifier for Origin" "Kennzeichen für Ursprung" "Startpunktidentifikator" "Identificador para origen" "Identificateur d'origine" "Identificatore per origine:" "Identificador para origem" "Startpunktsidentifierare" "Lähtöpisteen (origon) tunnistin" "Identifikátor pro zdroj" "Kezdõpont azonosító" "Identyfikator pocz¹tku" "Ìåòêà íà÷àëà êîîğäèíàò" "Oznaka izhodišèa" "V‚µ‚¢Šî“_" "Æğµã±êÊ¶·û" "­ìÂI»{µı" "¿øÁ¡ ½Äº°ÀÚ" "Identificador para origem"
+211 "Separator" "Trennzeich. zur Pos-Nr." "Separator" "Separador" "Séparateur" "Separatore:" "Separador" "Skiljelinje" "Erotin" "Rozdìlovník" "Elválasztó" "Separator" "Ğàçäåëèòåëü" "Loèilo" "ƒZƒpƒŒ[ƒ^" "·Ö¸ô·û" "¤À¹j¸¹" "ºĞ¸®ÀÚ" "Separador"
+212 "Old Origin" "Alter Koordinatenursprung" "Gammelt startpunkt" "Origen antiguo" "Ancienne origine" "Vecchia origine" "Origem antiga" "Gammal startpunkt" "Vanha lähtöpiste" "Starı zdroj" "Régi kezdõpont" "Stary pocz¹tek" "Ïğåæíåå íà÷àëî êîîğäèíàò" "Staro izhodišèe" "ŒÃ‚¢Œ´“_" "¾ÉÆğµã" "­ì¦³ªº" "ÀÌÀü ¿øÁ¡" "Origem antiga"
+;;additonal for block gendimo.dwg
+215 "Tolerance for x value" "Toleranz für x-Wert" "Tolerance for x-værdi" "Tolerancia para el valor x" "Tolérance pour valeur x" "Tolleranza per valore x" "Tolerância para o valor x" "Gränsavmått för x-värdet" "Toleranssi arvolle x" "Tolerance pro x hodnotu" "x érték tûrése" "Tolerancja dla wartoœci x" "Äîïóñê ïî x" "Toleranca za x vrednost" "X ’l‚Ì‹–—e·" "X Ïò¹«²î" "X ­È¤½®t" "X°ª¿¡ ´ëÇÑ °øÂ÷" "Tolerância para o valor x"
+216 "Tolerance for y value" "Toleranz für y-Wert" "Tolerance for y-værdi" "Tolerancia para el valor y" "Tolérance pour valeur y" "Tolleranza per valore y" "Tolerância para o valor y" "Gränsavmått för y-värdet" "Toleranssi arvolle y" "Tolerance pro y hodnotu" "y érték tûrése" "Tolerancja dla wartoœci y" "Äîïóñê ïî y" "Toleranca za y vrednost" "Y ’l‚Ì‹–—e·" "Y Ïò¹«²î" "Y ­È¤½®t" "Y°ª¿¡ ´ëÇÑ °øÂ÷" "Tolerância para o valor y"
+217 "Description" "Beschreibung" "Beskrivelse" "Descripción" "Description" "Descrizione" "Designação" "Beskrivning" "Nimitys" "Popis" "Leírás" "Opis" "Íàèìåíîâàíèå" "Opis" "à–¾" "ËµÃ÷" "»¡©ú" "¼³¸í" "Descrição"
+218 "Standard" "Norm" "Standard" "Norma" "Norme" "Standard" "Norma" "Standard" "Standardi" "Norma" "Szabvány" "Norma" "Ñòàíäàğò" "Standard" "‹KŠi" "±ê×¼" "¼Ğ·Ç" "Ç¥ÁØ" "Padrão"
+219 "Standard 1" "Norm 1" "Standard 1" "Norma 1" "Norme 1" "Standard 1" "Norma 1" "Standard 1" "Standardi 1" "Norma 1" "1. szabvány" "Norma 1" "Ñòàíäàğò 1" "Standard 1" "‹KŠi 1" "±ê×¼ 1" "¼Ğ·Ç 1" "Ç¥ÁØ 1" "Padrão 1"
+220 "Standard 2" "Norm 2" "Standard 2" "Norma 2" "Norme 2" "Standard 2" "Norma 2" "Standard 2" "Standardi 2" "Norma 2" "2. szabvány" "Norma 2" "Ñòàíäàğò 2" "Standard 2" "‹KŠi 2" "±ê×¼ 2" "¼Ğ·Ç 2" "Ç¥ÁØ 2" "Padrão 2"
+221 "Material" "Werkstoff" "Materiale" "Material" "Matière" "Materiale" "Material" "Material" "Materiaali" "Materiál" "Anyag" "Materia³" "Ìàòåğèàë" "Materijal" "Ş—¿" "²ÄÁÏ" "§÷®Æ" "Àç·á" "Material"
+222 "Item" "Pos." "Pos" "Elemento" "Rep." "Pos." "Pos" "Pos" "Pos." "Poz" "Tétel" "Nr" "Ïîç" "Poz." "€–Ú" "ĞòºÅ" "¶µ¥Ø" "Ç×¸ñ" "Item"
+223 "Qty" "Anz" "Mængde" "Ctdad" "Qté" "Qtà" "Qtd." "Antal" "Määrä" "Ks" "Menny" "Iloœæ" "Êîë." "Kol." "”—Ê" "ÊıÁ¿" "¼Æ¶q" "¼ö·®" "Quantidade"
+224 "Vendor" "Lieferant" "Leverandør" "Proveedor" "Fournisseur" "Fornitore" "Fornecedor" "Leverantör" "Toimittaja" "Dodavatel" "Gyártó" "Dostawca" "Èçãîò" "Dobavitelj" "ƒxƒ“ƒ_[" "¹©Ó¦ÉÌ" "¼t°Ó" "°ø±Ş¾÷Ã¼" "Vendedor"
+225 "Note" "Bemerkung" "Note" "Nota" "Note" "Nota" "Nota" "Kommentar" "Huomautus" "Pozn." "Megj" "Uwaga" "Ïğèìå÷." "Opomba" "’‹L" "±¸×¢" "µù°O" "ÁÖ" "Nota"
+226 "Name" "Name" "Navn" "Nombre" "Nom" "Nome" "Nome" "Namn" "Nimi" "Jméno" "Név" "Nazwa" "Ïîäï." "Ime" "–¼‘O" "Ãû³Æ" "¦WºÙ" "ÀÌ¸§" "Nome"
+227 "Code Number" "Codenummer" "Code Number" "Número de código" "Numéro de code" "Codice" "Code Number" "Code Number" "Code Number" "Kódové èíslo" "Code Number" "Kod" "Êîäîâûé íîìåğ" "Code Number" "ƒR[ƒh”Ô†" "´úºÅ" "½X¸¹" "ÄÚµå ¹øÈ£" "Número de código"
+228 "Total Mass" "Gesamtmasse" "Total Mass" "Masa total" "Masse totale" "Massa totale" "Total Mass" "Total Mass" "Total Mass" "Celková hmotnost" "Total Mass" "Masa ca³kowita" "Èò.ìàñ" "Total Mass" "‘¿—Ê" "×ÜÖØ" "Á`½è¶q" "ÃÑ Áú·®" "Massa total"
+229 "Part Name" "Teilename" "Part Name" "Nombre de pieza" "Nom de la pièce" "Nome parte" "Part Name" "Part Name" "Part Name" "Èíslo souèásti" "Part Name" "Nazwa czêœci" "Èìÿ äåòàëè" "Part Name" "ƒp[ƒc–¼" "Ãû³Æ" "¹s¥ó¦WºÙ" "ºÎÇ° ÀÌ¸§" "Nome de peça"
+230 "Format" "Format" "Format" "Formato" "Format" "Formato" "Format" "Format" "Format" "Formát" "Format" "Format" "Ôîğìàò" "Format" "Œ`®" "¸ñÊ½" "®æ¦¡" "Çü½Ä" "Formato"
+231 "Zone" "Zone" "Zone" "Zona" "Zone" "Zona" "Zone" "Zone" "Zone" "Oblast" "Zone" "Strefa" "Çîíà" "Zone" "ƒ][ƒ“" "ÇøÓò" "°Ï°ì" "±¸¿ª" "Zona"
+232 "Part Number" "Teilenummer" "Part Number" "Número de pieza" "Numéro de pièce" "Numero parte" "Part Number" "Part Number" "Part Number" "Èíslo souèásti" "Part Number" "Numer czêœci" "Îáîçíà÷åíèå" "Part Number" "ƒp[ƒc”Ô†" "Áã¼ş±àºÅ" "¹s¥ó½s¸¹" "ºÎÇ° ¹øÈ£" "Número de peça"
+233 "Comments" "Kommentar" "Comments" "Comentarios" "Comment." "Commenti" "Comments" "Comments" "Comments" "Komentáøe" "Comments" "Komentarze" "Ïğèìå÷àíèÿ" "Comments" "ƒRƒƒ“ƒg" "±¸×¢" "µù¸Ñ" "ÁÖ¼®" "Comentários"
+234 "Documentation" "Dokumentation" "Documentation" "Documentación" "Documentation" "Documentazione" "Documentation" "Documentation" "Documentation" "Dokumentace" "Documentation" "Dokumentacja" "Äîêóìåíòàöèÿ" "Documentation" "ƒhƒLƒ…ƒƒ“ƒg" "ÎÄµµ" "¤å¥ó" "¹®¼­" "Documentação"
+235 "Complexes" "Komplexe" "Complexes" "Complejos" "Complexes" "Complessi" "Complexes" "Complexes" "Complexes" "Komplexy" "Complexes" "Obiekty z³o¿one" "Êîìïëåêñû" "Complexes" "•¡‡‘Ì" "¸´ÔÓ" "´_¦Xª«" "º¹ÇÕ" "Complexos"
+236 "Assemblies" "Baugruppen" "Assemblies" "Ensamblajes" "Ensembles" "Assiemi" "Assemblies" "Assemblies" "Assemblies" "Sestavy" "Assemblies" "Zespo³y" "Ñáîğêè." "Assemblies" "ƒAƒZƒ“ƒuƒŠ" "²¿¼ş" "²Õ¦X" "Á¶¸³Ç°" "Montagens"
+237 "Parts" "Teile" "Parts" "Piezas" "Pièces" "Parti" "Parts" "Parts" "Parts" "Souèásti" "Parts" "Czêœci" "Äåòàëè" "Parts" "ƒp[ƒc" "Áã¼ş" "¹s¥ó" "ºÎÇ°" "Peças"
+238 "Standard Parts" "Normteile" "Standard Parts" "Piezas normalizadas" "Pièces normalisées" "Parti standard" "Standard Parts" "Standard Parts" "Standard Parts" "Normalizované souèásti" "Standard Parts" "Czêœci znormalizowane" "Ñòàíäàğòíûå äåòàëè" "Standard Parts" "•W€•”•i" "±ê×¼Áã¼ş" "¼Ğ·Ç¹s¥ó" "Ç¥ÁØ ºÎÇ°" "Peças padrão"
+239 "Other Parts" "Sonstige Teile" "Other Parts" "Otras piezas" "Autres pièces" "Altre parti" "Other Parts" "Other Parts" "Other Parts" "Jiné souèásti" "Other Parts" "Inne czêœci" "Äğóãèå äåòàëè" "Other Parts" "‚»‚Ì‘¼‚Ìƒp[ƒc" "ÆäËûÁã¼ş" "¨ä¥L¹s¥ó" "±âÅ¸ ºÎÇ°" "Outras peças"
+240 "Materials" "Materialien" "Materials" "Materiales" "Matières" "Materiali" "Materials" "Materials" "Materials" "Materiály" "Materials" "Materia³y" "Ìàòåğèàëû" "Materials" "Ş—¿" "²ÄÁÏ" "§÷®Æ" "Àç·á" "Materiais"
+241 "Complete Sets" "Komplette Sätze" "Complete Sets" "Conjuntos completos" "Jeux complets" "Gruppi completi" "Complete Sets" "Complete Sets" "Complete Sets" "Úplné sady" "Complete Sets" "Zestawy pe³ne" "Êîìïëåêòû" "Complete Sets" "ˆê®" "ÍêÕû¼¯" "§¹¾ã¶°" "ÀüÃ¼ ¼¼Æ®" "Conjuntos completos"
+242 "Assembly Drawing" "Baugruppenzeichnung" "Assembly Drawing" "Dibujo de ensamblaje" "Dessin d'ensemble" "Disegno di assieme" "Assembly Drawing" "Assembly Drawing" "Assembly Drawing" "Vıkres sestavy" "Assembly Drawing" "Rysunek z³o¿eniowy" "Ñáîğî÷íûé ÷åğòåæ" "Assembly Drawing" "ƒAƒZƒ“ƒuƒŠ}–Ê" "²¿¼ş¹¤³ÌÍ¼" "²Õ¦X¹Ï­±" "Á¶¸³Ç° µµ¸é" "Desenho de montagem"
+243 "Units" "Einheiten" "??243" "Unidades" "Unités" "Unità" "??243" "??243" "??243" "Jednotky" "??243" "Jednostki" "Åäèíèöû" "??243" "’PˆÊ" "µ¥Î»" "³æ¦ì" "´ÜÀ§" "Unidades"

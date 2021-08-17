@@ -1,0 +1,43 @@
+<ThirdParties>
+  <!-- FUSIONDOCSTREAMER :  -->
+  <ThirdParty Id="FUSIONDOCSTREAMER" SDK="True">
+    <Platform Package="WIN64" Target="WIN64"  Version="R049.D.013">
+      <Configuration Target="Debug">
+        <Path>\FusionDocStream</Path>
+      </Configuration>
+      <Configuration Target="Release">
+        <Path>\FusionDocStream</Path>
+      </Configuration>
+      <CopyForInstall>
+        <Default>
+          <command exec="robocopy %_FUSIONDOCSTREAMER%\%_PATH% %_NEUTRON_INSTALLFOLDER%\FusionDocStream *.* /S /XO"/>
+        </Default>
+      </CopyForInstall>
+    </Platform>
+    <Platform Package="MAC64" Target="MAC64" Version="R049.D.013">
+    </Platform>
+</ThirdParty>
+
+ <!--AcCoreView-->
+  <ThirdParty Id="AcCoreView" SDK="False">
+    <Platform Package="WIN64" Target="WIN64"  Version="R049.D.013">
+      <Configuration Target="Debug">
+        <Path>\bin\Release</Path>
+      </Configuration>
+      <Configuration Target="Release">
+        <Path>\bin\Release</Path>
+      </Configuration>
+      <CopyForInstall>
+        <Default>
+          <command exec="robocopy %_AcCoreView%\%_PATH% %_NEUTRON_INSTALLFOLDER% *.dll *.exe *.html *.pak /XF *test*.* /S /XO"/>
+        </Default>
+      </CopyForInstall>
+    </Platform>
+    <Platform Package="MAC64" Target="MAC64" Version="R049.D.013">
+        <CopyForInstall>
+            <Default included="true"/>
+        </CopyForInstall>
+    </Platform>
+  </ThirdParty>
+  
+</ThirdParties>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root DllName="NaDrawingTranslator10" Identifier="DrawingTranslator" IsCoreAddIn="0" IsUIAddIn="0" 
+      IsTranslatorAddIn="1" Name="DrawingTranslator" FileFilterExt="*.dwg;*.pdf" FileFilterDescription="LOCID=DrawingFileFilterDescription" 
+      SupportImport="0" SupportExport="1">
+  <LOC Module="NaDrawingTranslator" _LCLZId="DrawingFileFilterDescription" _LCLZText="DWG Files (*.dwg);;PDF Files (*.pdf)"/>
+  <NeededAddIns>
+    <NeededAddIn>Scene</NeededAddIn>
+    <NeededAddIn>CommonData</NeededAddIn>
+    <NeededAddIn>Component</NeededAddIn>
+    <NeededAddIn>Body</NeededAddIn>
+    <NeededAddIn>FusionDoc</NeededAddIn>
+  </NeededAddIns>
+  <SupportedAssetTypes>
+    <SupportedAssetType>FusionDrawingAssetType</SupportedAssetType>
+  </SupportedAssetTypes>
+</root>

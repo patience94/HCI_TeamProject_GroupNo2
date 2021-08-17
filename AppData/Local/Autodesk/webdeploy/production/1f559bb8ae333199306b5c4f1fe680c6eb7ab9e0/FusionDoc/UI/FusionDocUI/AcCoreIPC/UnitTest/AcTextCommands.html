@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neutron - AcTestCommands Test Page</title>
+    
+    <style type="text/css" title="currentStyle">
+		@import "media/css/demo_page.css";
+		@import "media/css/demo_table.css";
+		.dataTables_filter {
+            display: none; 
+        }
+	</style>
+ 	<script type="text/javascript" src="media/js/jquery.js"></script>
+    <script type="text/javascript" language="javascript" src="media/js/jquery.dataTables.js"></script> 
+
+    <script type="text/javascript">
+        var nResponses = 0;   // Number of responses received from server.
+        var responseTable;
+        $(document).ready(function () {
+            eval(window.neutronJavaScriptObject.executeQuery('initializeSDK'));
+           
+        });
+    </script>
+     
+    <script type="text/javascript">
+       
+        function sendJavaScriptAPIcommand() {
+            if (window.neutronJavaScriptObject) {
+
+                // Returns a base64 encoded string of the input in rcJSON (hard-coded path for now)
+                var rcJSON = window.neutronJavaScriptObject.neuUI.readfile("C:/Temp/testSnapshot.bin");
+
+                // Takes a base64 encoded string. Returns the file path of the decoded file.
+                rcJSON = window.neutronJavaScriptObject.neuUI.writefile(rcJSON);
+
+                // Note: diffing the input file in readfile with the output file returned from writefile should be identical.
+
+                return rcJSON; 
+            }
+		}
+        
+	</script>
+</head>
+<body id="dt_example">
+		<div id="container">
+        <img src="media/images/autodesk.png" /> <br /> 
+			<div class="full_width big">
+				Neutron AcTestCommands Unit Test
+			</div>
+    <h1>Client</h1>	
+            
+    <div id="javaScriptAPI" class="test">
+        <h4>Test readfile/writefile: </h4>
+
+    </div>
+    <div>
+        <p></p>
+        <button onclick='sendJavaScriptAPIcommand()' title='Click the button to send the JavaScript API call to Neutron'>Send Message</button>
+        
+    </div>
+                     
+   
+</body>
+</html>

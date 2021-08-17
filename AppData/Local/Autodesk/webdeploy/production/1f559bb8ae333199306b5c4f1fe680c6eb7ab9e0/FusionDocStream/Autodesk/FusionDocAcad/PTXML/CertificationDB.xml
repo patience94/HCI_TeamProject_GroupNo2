@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OGSCert version="23.0.1" date="2018-01-15T14:04:22Z">
+ <LOOKUP>
+  <MANUFLOOKUP>
+   <MANUFACTURER name="NVIDIA" m_ID="1" IDArray="10DE" />
+   <MANUFACTURER name="AMD" m_ID="2" IDArray="1002" />
+   <MANUFACTURER name="INTEL" m_ID="3" IDArray="8086" />
+   <MANUFACTURER name="VMware" m_ID="4" IDArray="15AD" />
+   <MANUFACTURER name="Parallels" m_ID="5" IDArray="1AB8" />
+   <MANUFACTURER name="Matrox" m_ID="6" IDArray="102B" />
+   <MANUFACTURER name="Microsoft" m_ID="7" IDArray="1414" />
+  </MANUFLOOKUP>
+  <CARDCLASSLOOKUP>
+   <CARDCLASS cc_ID="1" displayName="Workstation" />
+   <CARDCLASS cc_ID="3" displayName="Consumer" />
+   <CARDCLASS cc_ID="4" displayName="Mobile" />
+  </CARDCLASSLOOKUP>
+  <CARDLOOKUP>
+   <CARD name="Intel(R) 82915G/GV/910GL Express Chipset Family" c_ID="93" m_ID="3" cc_ID="3" IDArray="2562,2572,2582,2592,3577,3582,358E,7800,1240,1132,7125,7123,7121" />
+   <CARD name="Intel(R) Q965/Q963 Express Chipset Family" c_ID="94" m_ID="3" cc_ID="3" IDArray="2772,2776,27A2,2972,2973,2982,2992,2993,29A2,29A3,29B2,29B3,29C2,29C3,29D2,29D3,2A42,2A43,2E23,2E22,2E33,2E32,2E42,2E43,2E92,2E93,2E12,2E13,2E02,2A02,2A03,2A12,2A13,A012,A011,A001,A002" />
+   <CARD name="Intel(R) 4 Series Internal Chipset" c_ID="106" m_ID="3" cc_ID="3" IDArray="2E02" />
+   <CARD name="Intel(R) Graphics Media Accelerator HD" c_ID="107" m_ID="3" cc_ID="3" IDArray="0042" />
+   <CARD name="Intel(R) HD Graphics Family" c_ID="134" m_ID="3" cc_ID="3" IDArray="0102,0106,0112,0116,0122,0126,0162,0166,016A,0152" />
+   <CARD name="Intel GMA 950" c_ID="164" m_ID="3" cc_ID="3" IDArray="08C7,08C8,08C9,08CA,08CB,08CC,08CD,08CE,08CF,0BE0,0BE1,0BE2,0BE3,4102,2E5B,8108,8109,27A6,27AE,2792,2592,2782,2582" />
+   <CARD name="Intel 915G/915GV/910GL Embedded Graphics" c_ID="165" m_ID="3" cc_ID="3" IDArray="2792" />
+   <CARD name="AMD Radeon Graphics Processor" c_ID="999" m_ID="2" cc_ID="4" IDArray="990F,9851,9851,990D,990B,9907,130A,1318,130A,990F,990D,9832,9907,990B,9830,130D,9903,1318,1309,130D,9874,9850,9850,9999,130E,9995,9999,9852,9903,9995,130C,9997,9832,9836,130E,990B,9874,9834,990C,9836,1309,9808,9830,130F,130C,9900,9850,1313,9838,9808,9990,999A,9853,9908,130F,990D,9997,1313,999B,990B,9908,9851,9900" />
+  </CARDLOOKUP>
+  <EFFECTLOOKUP>
+   <EFFECT name="ACAD_LineSmoothing" e_ID="185" featureLevel="30" />
+   <EFFECT name="ACAD_PerPixelLighting" e_ID="187" featureLevel="30" />
+   <EFFECT name="ACAD_AdvancedMaterial" e_ID="188" featureLevel="30" />
+   <EFFECT name="ACAD_FullShadows" e_ID="189" featureLevel="30" />
+   <EFFECT name="ACAD_TextureCompression" e_ID="190" featureLevel="21" />
+   <EFFECT name="ACAD_HQGeom" e_ID="192" featureLevel="50" />
+   <EFFECT name="ACAD_GlowHighlighting" e_ID="193" featureLevel="30" />
+   <EFFECT name="ACAD_Dx11" e_ID="194" featureLevel="50" />
+  </EFFECTLOOKUP>
+  <PRODUCTLOOKUP>
+   <PRODUCT name="AutoCAD">
+    <RELEASE displayname="AutoCAD 2018" version="2018" p_ID="149">
+     <DEFAULTDEVICE>
+        <MANUFACTURER m_ID="1">
+            <!--NVIDIA All supported OS-->
+            <DEVICEINFO osID="800BF000" driverstart="*" driverend="*" defaultdevice="DX11" />
+        </MANUFACTURER>
+        <MANUFACTURER m_ID="2">
+            <!--AMD All supported OS except Win10-->
+            <DEVICEINFO osID="3F000" driverstart="*" driverend="14.501.9999.9" defaultdevice="DX9" />
+            <DEVICEINFO osID="3F000" driverstart="14.502.0.0" driverend="*" defaultdevice="DX11" />
+            <!--AMD Win10-->
+            <DEVICEINFO osID="80080000" driverstart="*" driverend="15.201.1045.9" defaultdevice="DX9" />
+            <DEVICEINFO osID="80080000" driverstart="15.201.1046.0" driverend="*" defaultdevice="DX11" />
+        </MANUFACTURER>
+        <MANUFACTURER m_ID="3">
+            <DEVICEINFO osID="800BF000" driverstart="*" driverend="*" defaultdevice="DX11" />
+        </MANUFACTURER>
+        <MANUFACTURER m_ID="4">
+            <DEVICEINFO osID="800BF000" driverstart="*" driverend="*" defaultdevice="DX9" />
+        </MANUFACTURER>
+        <MANUFACTURER m_ID="5">
+            <DEVICEINFO osID="800BF000" driverstart="*" driverend="*" defaultdevice="DX9" />
+        </MANUFACTURER>
+        <MANUFACTURER m_ID="7">
+            <DEVICEINFO osID="800BF000" driverstart="*" driverend="*" defaultdevice="DX11" />
+        </MANUFACTURER>
+     </DEFAULTDEVICE>
+    </RELEASE>
+    <RELEASE displayname="AutoCAD 2019" version="2019" p_ID="155">
+     <DEFAULTDEVICE>
+        <MANUFACTURER m_ID="1">
+            <!--NVIDIA All supported OS-->
+            <DEVICEINFO osID="800BF000" driverstart="*" driverend="*" defaultdevice="DX11" />
+        </MANUFACTURER>
+        <MANUFACTURER m_ID="2">
+            <!--AMD All supported OS except Win10-->
+            <DEVICEINFO osID="3F000" driverstart="*" driverend="14.501.9999.9" defaultdevice="DX9" />
+            <DEVICEINFO osID="3F000" driverstart="14.502.0.0" driverend="*" defaultdevice="DX11" />
+            <!--AMD Win10-->
+            <DEVICEINFO osID="80080000" driverstart="*" driverend="15.201.1045.9" defaultdevice="DX9" />
+            <DEVICEINFO osID="80080000" driverstart="15.201.1046.0" driverend="*" defaultdevice="DX11" />
+        </MANUFACTURER>
+        <MANUFACTURER m_ID="3">
+            <DEVICEINFO osID="800BF000" driverstart="*" driverend="*" defaultdevice="DX11" />
+        </MANUFACTURER>
+        <MANUFACTURER m_ID="4">
+            <DEVICEINFO osID="800BF000" driverstart="*" driverend="*" defaultdevice="DX9" />
+        </MANUFACTURER>
+        <MANUFACTURER m_ID="5">
+            <DEVICEINFO osID="800BF000" driverstart="*" driverend="*" defaultdevice="DX9" />
+        </MANUFACTURER>
+        <MANUFACTURER m_ID="7">
+            <DEVICEINFO osID="800BF000" driverstart="*" driverend="*" defaultdevice="DX11" />
+        </MANUFACTURER>
+     </DEFAULTDEVICE>
+    </RELEASE>
+   </PRODUCT>
+  </PRODUCTLOOKUP>
+  <OSLOOKUP>
+   <OS name="Windows7" displayName="Windows 7 32-bit" id="1000" />
+   <OS name="Windows7_64" displayName="Windows 7 64-bit" id="2000" />
+   <OS name="Windows8" displayName="Windows 8 32-bit" id="4000" />
+   <OS name="Windows8_64" displayName="Windows 8 64-bit" id="8000" />
+   <OS name="Windows81" displayName="Windows 8.1 32-bit" id="10000" />
+   <OS name="Windows81_64" displayName="Windows 8.1 64-bit" id="20000" />
+   <OS name="Windows10_64" displayName="Windows 10 64-bit" id="80000" />
+   <OS name="Windows10" displayName="Windows 10 32-bit" id="80000000" />
+  </OSLOOKUP>
+  <DRIVERLOOKUP>
+  </DRIVERLOOKUP>
+  <COMMENTLOOKUP>
+  </COMMENTLOOKUP>
+ </LOOKUP>
+ <CERTIFICATION>
+  <CARD id="93">
+   <DRIVER version="*">
+    <PRODUCT id="149">
+     <DEVICE name="DX9" osID="800BF000" FL_Caps="0" FL_Tested="0" certified="1" d_ID="0" />
+    </PRODUCT> 
+	<PRODUCT id="155">
+     <DEVICE name="DX9" osID="800BF000" FL_Caps="0" FL_Tested="0" certified="1" d_ID="0" />
+    </PRODUCT> 
+   </DRIVER>
+  </CARD>
+  <CARD id="94">
+   <DRIVER version="*">
+    <PRODUCT id="149">
+     <DEVICE name="DX9" osID="800BF000" FL_Caps="0" FL_Tested="0" certified="1" d_ID="0" />
+    </PRODUCT> 
+	<PRODUCT id="155">
+     <DEVICE name="DX9" osID="800BF000" FL_Caps="0" FL_Tested="0" certified="1" d_ID="0" />
+    </PRODUCT> 
+   </DRIVER>
+  </CARD>
+  <CARD id="106">
+   <DRIVER version="*">
+    <PRODUCT id="149">
+     <DEVICE name="DX9" osID="800BF000" FL_Caps="0" FL_Tested="0" certified="1" d_ID="0" />
+    </PRODUCT> 
+	<PRODUCT id="155">
+     <DEVICE name="DX9" osID="800BF000" FL_Caps="0" FL_Tested="0" certified="1" d_ID="0" />
+    </PRODUCT> 
+   </DRIVER>
+  </CARD>
+  <CARD id="107">
+   <DRIVER version="*">
+    <PRODUCT id="149">
+     <DEVICE name="DX9" osID="800BF000" FL_Caps="0" FL_Tested="0" certified="1" d_ID="0" />
+    </PRODUCT> 
+	<PRODUCT id="155">
+     <DEVICE name="DX9" osID="800BF000" FL_Caps="0" FL_Tested="0" certified="1" d_ID="0" />
+    </PRODUCT> 
+   </DRIVER>
+  </CARD>
+  <CARD id="134">
+   <DRIVER version="*">
+    <PRODUCT id="149">
+     <DEVICE name="DX9" osID="800BF000" FL_Caps="0" FL_Tested="0" certified="1" d_ID="0" />
+    </PRODUCT> 
+	<PRODUCT id="155">
+     <DEVICE name="DX9" osID="800BF000" FL_Caps="0" FL_Tested="0" certified="1" d_ID="0" />
+    </PRODUCT> 
+   </DRIVER>
+  </CARD>
+  <CARD id="164">
+   <DRIVER version="*">
+    <PRODUCT id="149">
+     <DEVICE name="DX9" osID="800BF000" FL_Caps="0" FL_Tested="0" certified="1" d_ID="0" />
+    </PRODUCT> 
+	<PRODUCT id="155">
+     <DEVICE name="DX9" osID="800BF000" FL_Caps="0" FL_Tested="0" certified="1" d_ID="0" />
+    </PRODUCT> 
+   </DRIVER>
+  </CARD>
+  <CARD id="165">
+   <DRIVER version="*">
+    <PRODUCT id="149">
+     <DEVICE name="DX9" osID="800BF000" FL_Caps="0" FL_Tested="0" certified="1" d_ID="0" />
+    </PRODUCT> 
+	<PRODUCT id="155">
+     <DEVICE name="DX9" osID="800BF000" FL_Caps="0" FL_Tested="0" certified="1" d_ID="0" />
+    </PRODUCT> 
+   </DRIVER>
+  </CARD>
+  <CARD id="999">
+   <DRIVER version="*" driver2="15.299.9999.9">
+    <PRODUCT id="149">
+     <DEVICE name="DX9" osID="80080000" FL_Caps="0" FL_Tested="0" certified="1" d_ID="0" />
+    </PRODUCT>
+    <PRODUCT id="155">
+     <DEVICE name="DX9" osID="800BF000" FL_Caps="0" FL_Tested="0" certified="1" d_ID="0" />
+    </PRODUCT>
+   </DRIVER>
+  </CARD>
+ </CERTIFICATION>
+</OGSCert>

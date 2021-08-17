@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neutron - Bitmap Test Page</title>
+    
+    <style type="text/css" title="currentStyle">
+		@import "media/css/demo_page.css";
+		@import "media/css/demo_table.css";
+		.dataTables_filter {
+            display: none; 
+        }
+	</style>
+ 	<script type="text/javascript" src="media/js/jquery.js"></script>
+    <script type="text/javascript" language="javascript" src="media/js/jquery.dataTables.js"></script>
+
+    <script type="text/javascript">
+        var nResponses = 0;   // Number of responses received from server.
+        var responseTable;
+        $(document).ready(function () {
+            // Create and initialze jQuery response table 
+            responseTable = $('#example').dataTable({
+           "sScrollY": "200px",
+           "bPaginate": false,
+                "bSort": false,
+               "fnInitComplete": function () {
+                    var that = this;
+                    this.$('td').click(function () {
+                        that.fnFilter(this.innerHTML);
+                    });
+                }
+            });
+            eval(window.neutronJavaScriptObject.executeQuery('initializeSDK'));
+            // Delete initial blank row
+            responseTable.fnDeleteRow(0);  
+        });
+    </script>
+     
+    <script type="text/javascript">
+	
+	    // This is the object Neutron expects to talk to when it needs to send something out,
+	    // by calling neutronJavaScriptHandler.handle(cmdID, jsonArgs)
+		//
+	    window.neutronJavaScriptHandler = {
+	        // We should not let any exception throw out of this function, otherwise we will
+	        // get a crash on debug Neutron (with the Qt implementation).
+	        handle: function (commandId, jsonArgs) {
+	            try {
+	                //alert(commandId);
+	                // Append the server responses to the web page
+	                nResponses++;
+	                responseTable.dataTable().fnAddData([
+					nResponses,
+					JSON.parse(jsonArgs).id,
+					JSON.parse(jsonArgs).data
+					]);
+
+
+	            } catch (err) {
+	                console.log("Exception occured executing AcIPC: " + cmdId + ", args: " + jsonArgs);
+	            }
+
+	            return "processed";
+	        }
+	    }
+
+	    function createViews() {
+	        sendJavaScriptAPIcommand(Text1,{"x":0,"y":-1,"z":0},{"x":0,"y":0,"z":-1}, "ImgTop");
+	        sendJavaScriptAPIcommand(Text1,{"x":1,"y":1,"z":1},{"x":0,"y":1,"z":0},"ImgIso");
+	        sendJavaScriptAPIcommand(Text1,{"x":0,"y":0,"z":-1},{"x":0,"y":1,"z":0}, "ImgFront");
+	        sendJavaScriptAPIcommand(Text1,{"x":1,"y":0,"z":0},{"x":0,"y":1,"z":0}, "ImgSide");
+	    }
+
+	    function sendJavaScriptAPIcommand(jsCommand, cameraTarget, cameraUpVector, controlID) {
+            if (window.neutronJavaScriptObject) {
+              
+                // Try sending "neuUI.snapshot" for the command and {"x":0,"y":0,"z":0},{"x":-1,"y":-1,"z":-1},{"x":0,"y":1,"z":0},1,1024,1024,"" ,"/tmp/", 2 for the args
+                // arguments are "camera_position", "camera_target","camera_upvector","scale","image_width","image_height","image_name" -if blank you want a stream back,"save_location","asset_id","flags"
+                // flags right now don't work in JavaScript API.
+                // your return value should be something like data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA....
+                // var myParsedString = JSON.parse(jsArguments);
+                var cameraPosition = { 'x': 0, 'y': 0, 'z': 0 };
+                var scale = 1;
+                var imageHeight = 350;
+                var imageWidth = 350;
+                var path = '/tmp/';
+                var filename = '';
+                var optArgs = ['TransparentBackground', 'EncodedString'];
+                var assetId = 2;
+                var rcJSON = window.neutronJavaScriptObject.neuUI.snapshot(cameraPosition, cameraTarget, cameraUpVector, scale, imageHeight, imageWidth, path, filename, assetId, optArgs);
+               
+                // Update img element with image data
+                $("#" + controlID).attr('src', rcJSON);
+
+                return rcJSON;
+                
+                //alert("neutronJavaScriptHandler.executeQuery returned " + JSON.parse(rcJSON).data);
+            }
+		}
+        
+
+	</script>
+</head>
+<body id="dt_example">
+		<div id="container">
+        <img src="media/images/autodesk.png" /> <br /> 
+			<div class="full_width big">
+				Neutron Bitmap Unit Test
+			</div>
+
+        <!-- Kris - I added this for debugging. We can make changes without restarting Neutron -->
+        <input type='button' onclick='window.location.reload()' value='Reload' /><br />
+
+
+    <h1>Client</h1>
+        
+            
+
+     <!-- <img  id='jsImage' alt="Neutron Test Image" src="" height="350" width="350"/> -->
+
+      <div id="Div1" class="test">
+        <h4>Test javaScriptAPI: </h4>
+        <input type='text' id='Text1' size ='64'; value="neuUI.snapshot"  /><br />
+        <h4>Camera Target </h4>
+        <input type='text' id='cameraTargetId' size ='64'; value='{"x":1,"y":-1,"z":-1}'  /><br />
+        <h4>Camera Up Vector </h4>
+        <input type='text' id='CameraUpVectorId' size ='64'; value='{"x":0,"y":1,"z":0}'  /><br />
+    </div>
+    <div>
+        <p></p>
+       <!-- <button onclick="sendJavaScriptAPIcommand( Text1, Text2, 'Img1')" title='Click the button to send the JavaScript API call to Neutron'>Send Message</button>-->
+         <button onclick="createViews()" title='Click the button to create views'>Create View</button>
+    </div>
+            
+    <table >
+	
+		<tr>
+			<td><img  id='ImgTop' alt="Top View" src="" height="350" width="350"/></td>
+			<td><img  id='ImgIso' alt="Iso View" src="" height="350" width="350"/></td>
+		</tr>
+	   
+		<tr >
+			<td><img  id='ImgFront' alt="Front View" src="" height="350" width="350"/></td>
+			<td><img  id='ImgSide' alt="Side View" src="" height="350" width="350"/></td>
+		</tr>
+	   
+    </table>
+
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<div id="additionalStock"><p>当选择<b>先陡峭面</b>作为<b>优先级</b>时，用于在两个接近的陡峭壁之间生成更安全加工路径顺序的估算值。</p>
+<p>如果两个陡峭壁之间的上一操作剩余不均匀的毛坯材料，则仅在一个陡峭壁上切削到较大深度会在刀具接触其周围的剩余材料时产生很大的载荷。最好在两个陡峭壁之间交替切削以免损坏刀具。</p>
+<p><b>最大剩余毛坯</b>用于对刀具路径重新排序，使彼此接近的两个陡峭壁在相同的 Z 层进行加工，然后再移至下一 Z 层。</p>
+<p>估算的值，其大于两个壁周围的刀具路径段之间的距离。刀具和模型形状会影响进行重新排序的时间和位置。</p>
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="375" height="136" src="../images/Max_remaining_stock_2mm.png"/></center></td>
+</tr><tr>
+<td><center><p><b>最大剩余毛坯 = 2 毫米</b><br>
+单独加工陡峭壁。</p></center></td>
+</tr></table>
+
+<table class="tipTable" cellspacing="10">
+<tr>
+<td><center><img border="0" width="375" height="133" src="../images/Max_remaining_stock_4mm.png"/></center></td>
+</tr><tr>
+<td><center><p><b>最大剩余毛坯 = 4 毫米</b><br>
+同时加工陡峭壁。</p></center></td>
+</tr></table>
+<p>在此示例中，将“最大剩余毛坯”值从 2 毫米更改为 4 毫米以重新排序加工路径。</p>
+<p><b>注意: 如果未输入“最大剩余毛坯”值，将会使用默认最小值，即刀具半径的 10%。<span></span></b></p>
+</div>

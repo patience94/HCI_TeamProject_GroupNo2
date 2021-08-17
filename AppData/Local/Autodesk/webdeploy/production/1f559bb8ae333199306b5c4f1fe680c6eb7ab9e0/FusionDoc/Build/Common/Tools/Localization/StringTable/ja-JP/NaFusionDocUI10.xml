@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="0.12in" devLabel="0.12in" translation="0.12 in"/>
+	<label commandName="0.1in" devLabel="0.1in" translation="0.1 in"/>
+	<label commandName="0.24in" devLabel="0.24in" translation="0.24 in"/>
+	<label commandName="10.0mm" devLabel="10.0mm" translation="10.0 mm"/>
+	<label commandName="2.5mm" devLabel="2.5mm" translation="2.5 mm"/>
+	<label commandName="3.5mm" devLabel="3.5mm" translation="3.5 mm"/>
+	<label commandName="5.0mm" devLabel="5.0mm" translation="5.0 mm"/>
+	<label commandName="7.0mm" devLabel="7.0mm" translation="7.0 mm"/>
+	<label commandName="ActivityFeed" devLabel="Comments" translation="コメント"/>
+	<label commandName="AddTitleBlock" devLabel="Add Title Block" translation="表題欄を追加"/>
+	<label commandName="AddTitleBlockEllipsis" devLabel="Add Title Block..." translation="表題欄を追加..."/>
+	<label commandName="AddTitleBlockFileDialogFilter" devLabel="AutoCAD drawing files" translation="AutoCAD 図面ファイル"/>
+	<label commandName="AllSheetsMulti" devLabel="All Sheets (Multi-File)" translation="すべてのシート(複数ファイル)"/>
+	<label commandName="AllSheetsSingle" devLabel="All Sheets (Single File)" translation="すべてのシート(単一ファイル)"/>
+	<label commandName="AlternatePrecision" devLabel="Alternate Precision" translation="変換精度"/>
+	<label commandName="AlternateUnits" devLabel="Alternate Units" translation="変換単位"/>
+	<label commandName="Angular" devLabel="Angular" translation="角度"/>
+	<label commandName="Annotation" devLabel="Annotation" translation="注記"/>
+	<label commandName="AppearanceGroup" devLabel="Appearance" translation="外観"/>
+	<label commandName="Approved" devLabel="Approved" translation="承認済み"/>
+	<label commandName="ApprovedBy" devLabel="Approved by" translation="承認者"/>
+	<label commandName="ApprovedDate" devLabel="" translation=""/>
+	<label commandName="AssemblyReprensentation" devLabel="Assembly" translation="アセンブリ"/>
+	<label commandName="AssetReference" devLabel="Reference" translation="参照"/>
+	<label commandName="AttCustom" devLabel="Custom" translation="カスタム"/>
+	<label commandName="AttDrawingScale" devLabel="Drawing Scale" translation="図面尺度"/>
+	<label commandName="AttDrawnBy" devLabel="Drawn By" translation="作成者"/>
+	<label commandName="AttDrawnDate" devLabel="Drawn Date" translation="作成日"/>
+	<label commandName="AttPaperSize" devLabel="Paper Size" translation="用紙サイズ"/>
+	<label commandName="AttProjectName" devLabel="Project Name" translation="プロジェクト名"/>
+	<label commandName="AttSheetNumber" devLabel="Sheet Number" translation="シート番号"/>
+	<label commandName="AttTitle1" devLabel="Title 1" translation="表題 1"/>
+	<label commandName="AutocadDWG" devLabel="AutoCAD DWG" translation="AutoCAD DWG"/>
+	<label commandName="AutocadDXF" devLabel="AutoCAD DXF" translation="AutoCAD DXF"/>
+	<label commandName="Automatic" devLabel="Automatic" translation="自動"/>
+	<label commandName="Back" devLabel="Back" translation="後"/>
+	<label commandName="BendExtents" devLabel="Bend Extents" translation="曲げの範囲"/>
+	<label commandName="Bottom" devLabel="Bottom" translation="下"/>
+	<label commandName="Browser" devLabel="Browser" translation="ブラウザ"/>
+	<label commandName="BulletOptions" devLabel=" " translation=" "/>
+	<label commandName="Bullets" devLabel="Bullets" translation="箇条書き"/>
+	<label commandName="CenterPatternReferenceEdgeSelectionInput" devLabel="Reference Edge" translation="参照エッジ"/>
+	<label commandName="CenterPatternSelectionInput" devLabel="Selection" translation="選択"/>
+	<label commandName="ChatSupport" devLabel="Chat with an Expert" translation="エキスパートとチャットする"/>
+	<label commandName="Checked" devLabel="Checked" translation="確認済み"/>
+	<label commandName="CheckedDate" devLabel="" translation=""/>
+	<label commandName="CloudStoreMustBeLoggedIn" devLabel="You must be logged in to perform this action." translation="この操作を実行するには、ログインする必要があります。"/>
+	<label commandName="Code" devLabel="Code" translation="コード"/>
+	<label commandName="ColumnDown" devLabel="Down" translation="下"/>
+	<label commandName="ColumnUp" devLabel="Up" translation="上"/>
+	<label commandName="Columns" devLabel="Columns" translation="列"/>
+	<label commandName="ColumnsTable" devLabel="Columns" translation="列"/>
+	<label commandName="ComponentReprensentation" devLabel="Component" translation="コンポーネント"/>
+	<label commandName="ConfirmExitToModelWorkspace" devLabel="To create a drawing we'll need to switch to the modeling workspace." translation="図面を作成するには、モデル作業スペースに切り替える必要があります。"/>
+	<label commandName="Continue" devLabel="Continue" translation="続行"/>
+	<label commandName="Continue Editing" devLabel="Continue Editing" translation="編集を続行"/>
+	<label commandName="CopyTransformPtTooltip" devLabel="Point to Point" translation="点から点"/>
+	<label commandName="CreateDrawingFromPreviousVersion" devLabel="Create Drawing from previous version instead?" translation="代わりに旧バージョンから図面を作成しますか?"/>
+	<label commandName="CreateNewDrawingInput" devLabel="Create New" translation="新規作成"/>
+	<label commandName="CreateNewRef" devLabel="Create New" translation="新規作成"/>
+	<label commandName="CreatedBy" devLabel="Created by" translation="作成者"/>
+	<label commandName="CreatedDate" devLabel="" translation=""/>
+	<label commandName="CurrentSheet" devLabel="Current Sheet" translation="現在のシート"/>
+	<label commandName="Custom" devLabel="Custom" translation="カスタム"/>
+	<label commandName="CutBody" devLabel="Body Participating In Cut" translation="切り取りに関与するボディ"/>
+	<label commandName="CutComponent" devLabel="Component Participating In Cut" translation="切り取りに関与するコンポーネント"/>
+	<label commandName="CutInheritance" devLabel="Inherit Cut" translation="切り取りを継承"/>
+	<label commandName="DWG File" devLabel="DWG File" translation="DWG ファイル"/>
+	<label commandName="DWGFilter2010" devLabel="AutoCAD 2010 Drawing (*.dwg)" translation="AutoCAD 2010 図面 (*.dwg)"/>
+	<label commandName="DWGFilter2013" devLabel="AutoCAD 2013 Drawing (*.dwg)" translation="AutoCAD 2013 図面 (*.dwg)"/>
+	<label commandName="DXFFilter2010" devLabel="AutoCAD 2010 Drawing (*.dxf)" translation="AutoCAD 2010 図面(*.dxf)"/>
+	<label commandName="DXFFilter2013" devLabel="AutoCAD 2013 Drawing (*.dxf)" translation="AutoCAD 2013 図面(*.dxf)"/>
+	<label commandName="DashboardCreateFusionDrawingCommand" devLabel="Dashboard Create Drawing" translation="ダッシュボード: 図面を作成"/>
+	<label commandName="DateOfIssue" devLabel="Date of issue" translation="発行日"/>
+	<label commandName="Decimal" devLabel="Decimal" translation="十進表記"/>
+	<label commandName="DefaultRateValue" devLabel="" translation=""/>
+	<label commandName="DefaultSelectionInputText" devLabel="Select" translation="選択"/>
+	<label commandName="DesignVersions" devLabel="Versions" translation="バージョン"/>
+	<label commandName="DestinationGroupStart" devLabel="Destination" translation="出力先"/>
+	<label commandName="Deviation" devLabel="Deviation" translation="偏差"/>
+	<label commandName="DimensionUnitsBrowserLabel" devLabel="Dimension Units: " translation="寸法の単位: "/>
+	<label commandName="DimensionUnitsBrowserTooltip" devLabel="Change Dimension Units" translation="寸法の単位を変更"/>
+	<label commandName="DisassociatedAnnotations" devLabel="Disassociated annotations" translation="自動調整が解除された注記"/>
+	<label commandName="DisplayBorderBrowserLabel" devLabel="Display Border: " translation="境界を表示: "/>
+	<label commandName="DisplayBorderBrowserToolTip" devLabel="Change Display Border" translation="[境界を表示]を変更"/>
+	<label commandName="DisplayTitleBlockBrowserLabel" devLabel="Display Title Block: " translation="表題欄を表示: "/>
+	<label commandName="DisplayTitleBlockBrowserToolTip" devLabel="Change Display Title Block" translation="[表題欄を表示]を変更"/>
+	<label commandName="Distribute" devLabel="Distribute" translation="均等割り付け"/>
+	<label commandName="DocAngularPrecisionBrowserLabel" devLabel="Angular Dimension Precision: " translation="角度寸法の精度: "/>
+	<label commandName="DocAngularPrecisionBrowserToolTip" devLabel="Change Angular Dimension Precision" translation="角度寸法の精度を変更"/>
+	<label commandName="DocDisplayLeadingZeroBrowserLabel" devLabel="Display Leading Zeros: " translation="先頭のゼロを表示: "/>
+	<label commandName="DocDisplayLeadingZeroBrowserToolTip" devLabel="Change Display Leading Zeros" translation="[先頭のゼロを表示]を変更"/>
+	<label commandName="DocDisplayLineWidthBrowserLabel" devLabel="Display Line Widths: " translation="線幅を表示: "/>
+	<label commandName="DocDisplayLineWidthBrowserToolTip" devLabel="Change Display Line Widths" translation="[線幅を表示]を変更"/>
+	<label commandName="DocDisplayTrailingZeroBrowserLabel" devLabel="Display Trailing Zeros: " translation="末尾のゼロを表示: "/>
+	<label commandName="DocDisplayTrailingZeroBrowserToolTip" devLabel="Change Display Trailing Zeros" translation="[末尾のゼロを表示]を変更"/>
+	<label commandName="DocFontBrowserLabel" devLabel="Font: " translation="フォント: "/>
+	<label commandName="DocFontBrowserToolTip" devLabel="Change Font" translation="フォントを変更"/>
+	<label commandName="DocLineWidthGroupBrowserLabel" devLabel="Line Width Group: " translation="線幅グループ: "/>
+	<label commandName="DocLineWidthGroupBrowserToolTip" devLabel="Change Line Width Group" translation="線幅グループを変更"/>
+	<label commandName="DocLinearPrecisionBrowserLabel" devLabel="Linear Dimension Precision: " translation="長さ寸法の精度: "/>
+	<label commandName="DocLinearPrecisionBrowserToolTip" devLabel="Change Linear Dimension Precision" translation="長さ寸法の精度を変更"/>
+	<label commandName="DocTextHeightBrowserLabel" devLabel="Text Height: " translation="文字の高さ: "/>
+	<label commandName="DocTextHeightBrowserToolTip" devLabel="Change Text Height" translation="文字の高さを変更"/>
+	<label commandName="DocUnitBrowserLabel" devLabel="Units: " translation="単位: "/>
+	<label commandName="DocUnitBrowserToolTip" devLabel="Change Units" translation="単位を変更"/>
+	<label commandName="DocUnitDisplayBrowserLabel" devLabel="Display Dimension Units: " translation="寸法の単位を表示: "/>
+	<label commandName="DocUnitDisplayBrowserToolTip" devLabel="Change Display Dimension Units" translation="[寸法の単位を表示]を変更"/>
+	<label commandName="DocUnitFormatBrowserLabel" devLabel="Dimension Format: " translation="寸法形式: "/>
+	<label commandName="DocUnitFormatBrowserToolTip" devLabel="Change Dimension Format" translation="寸法形式を変更"/>
+	<label commandName="DocumentStatus" devLabel="Document status" translation="ドキュメント ステータス"/>
+	<label commandName="DocumentType" devLabel="Document type" translation="ドキュメント タイプ"/>
+	<label commandName="Documentation Environment" devLabel="Drawing" translation="図面"/>
+	<label commandName="DonnotShowMeAgainCheckBoxCaption" devLabel="Don't show me this again." translation="次回からこのメッセージを表示しない。"/>
+	<label commandName="DrawingAlignedDimTypeInput" devLabel="Aligned" translation="位置合わせ"/>
+	<label commandName="DrawingDebug" devLabel="Drawing Debug" translation="図面のデバッグ"/>
+	<label commandName="DrawingDebugCommandDesc" devLabel="Show some useful information for debugging or testing" translation="デバッグやテストに役立ついくつかの情報を表示"/>
+	<label commandName="DrawingDiameterDimTypeInput" devLabel="Diameter" translation="直径"/>
+	<label commandName="DrawingFormat" devLabel="Format" translation="形式"/>
+	<label commandName="DrawingHorizontalLinearDimTypeInput" devLabel="Horizontal" translation="水平"/>
+	<label commandName="DrawingOpenDocumentFail_OtherReasons" devLabel="Can't open this file. The file is corrupt or contains migration issues. &#xA;Please send the file to Autodesk Support for assistance." translation="このファイルを開くことができません。ファイルが破損しているか、マイグレーションの問題が発生しました。&#xA;オートデスクのサポートにファイルを送信してください。"/>
+	<label commandName="DrawingOsnapCenterInput" devLabel="Center" translation="中心"/>
+	<label commandName="DrawingOsnapEndpointInput" devLabel="Endpoint" translation="端点"/>
+	<label commandName="DrawingOsnapIntersectionInput" devLabel="Intersection" translation="交点"/>
+	<label commandName="DrawingOsnapMidpointInput" devLabel="Midpoint" translation="中点"/>
+	<label commandName="DrawingOsnapNoneInput" devLabel="None" translation="なし"/>
+	<label commandName="DrawingOsnapPointInput" devLabel="Point" translation="点"/>
+	<label commandName="DrawingOsnapQuadrantInput" devLabel="Quadrant" translation="四半円点"/>
+	<label commandName="DrawingOsnapTangentInput" devLabel="Tangent" translation="接線"/>
+	<label commandName="DrawingPrintDialog_LineWeights" devLabel="Lineweights" translation="線の太さ"/>
+	<label commandName="DrawingPrintDialog_PrintToFolder" devLabel="Print to Folder" translation="フォルダに印刷"/>
+	<label commandName="DrawingPrintDialog_Range" devLabel="Define Range" translation="範囲を定義"/>
+	<label commandName="DrawingPrintDialog_Sheets" devLabel="Sheets" translation="シート"/>
+	<label commandName="DrawingPrintDialog_Sheets_AllSheets" devLabel="All Sheets" translation="すべてのシート"/>
+	<label commandName="DrawingPrintDialog_Sheets_CurrentSheet" devLabel="Current Sheet" translation="現在のシート"/>
+	<label commandName="DrawingPrintDialog_Sheets_Range" devLabel="Range" translation="範囲"/>
+	<label commandName="DrawingPrintDialog_Sheets_SelectedSheets" devLabel="Selected Sheets" translation="選択したシート"/>
+	<label commandName="DrawingRadiusDimTypeInput" devLabel="Radius" translation="半径"/>
+	<label commandName="DrawingSheetCreateNew" devLabel="Create new sheet" translation="新規シートを作成"/>
+	<label commandName="DrawingSheetInput" devLabel="Sheet" translation="シート"/>
+	<label commandName="DrawingSheets" devLabel="Sheets" translation="シート"/>
+	<label commandName="DrawingTemplateFileName" devLabel="Template" translation="テンプレート"/>
+	<label commandName="DrawingTemplateSaveAsFileFilters" devLabel="Drawing (*.f2d);;Drawing Template (*.f2t)" translation="図面 (*.f2d);;図面テンプレート (*.f2t)"/>
+	<label commandName="DrawingVerticalLinearDimTypeInput" devLabel="Vertical" translation="垂直"/>
+	<label commandName="Drawn" devLabel="Drawn" translation="作成済み"/>
+	<label commandName="DrawnDate" devLabel="" translation=""/>
+	<label commandName="DwgNo" devLabel="DWG No." translation="図面番号"/>
+	<label commandName="EDIT_DISPLAY_OPTIONS_GROUP" devLabel="Display" translation="表示"/>
+	<label commandName="EDIT_PROPERTIES_GROUP" devLabel="Properties" translation="プロパティ"/>
+	<label commandName="EDIT_TOGGLE_BORDER_CMD" devLabel="Show Border" translation="境界を表示"/>
+	<label commandName="EDIT_TOGGLE_GRID_CMD" devLabel="Show Layout Grid" translation="レイアウト グリッドを表示"/>
+	<label commandName="EDIT_TOGGLE_OTHERGEOMETRY_CMD" devLabel="Other Geometry" translation="その他のジオメトリ"/>
+	<label commandName="EDIT_TOGGLE_SHEET_CMD" devLabel="Show Sheet" translation="シートを表示"/>
+	<label commandName="EDIT_TOGGLE_SNAP_CMD" devLabel="Snap to Grid" translation="グリッドにスナップ"/>
+	<label commandName="EDIT_TOOL_OPTIONS_GROUP" devLabel="Options" translation="オプション"/>
+	<label commandName="EdgeVisibilityGroup" devLabel="Edge Visibility" translation="エッジの表示設定"/>
+	<label commandName="EditPalette" devLabel="Edit Palette" translation="編集パレット"/>
+	<label commandName="EditPaletteLinetype" devLabel="Edit Palette Linetype" translation="パレットの線種を編集"/>
+	<label commandName="EditPaletteLineweight" devLabel="Edit Palette Lineweight" translation="パレットの線の太さを編集"/>
+	<label commandName="EditToolPropertySetCustom" devLabel="Custom" translation="カスタム"/>
+	<label commandName="EditToolPropertySetDynamic" devLabel="Dynamic" translation="ダイナミック"/>
+	<label commandName="EditToolPropertySetVaries" devLabel="*VARIES*" translation="* 各種 *"/>
+	<label commandName="EditToolProps" devLabel="Edit Tool" translation="編集ツール"/>
+	<label commandName="EraseSelectionInput" devLabel="Selection" translation="選択"/>
+	<label commandName="ExportCmdFileExistAndIsNotWritable" devLabel="The file cannot be replaced because it is in use." translation="ファイルは使用中のため置換できません。"/>
+	<label commandName="ExportPDFFilter" devLabel="PDF Files (*.pdf)" translation="PDF ファイル (*.pdf)"/>
+	<label commandName="ExportPartsListFilter" devLabel="CSV file(*.csv)" translation="CSV ファイル(*.csv)"/>
+	<label commandName="FD_APPROVED_BY" devLabel="Approved by" translation="承認者"/>
+	<label commandName="FD_APPROVED_DATE" devLabel="Date Approved" translation="承認日"/>
+	<label commandName="FD_CHECKED_BY" devLabel="Checked by" translation="確認者"/>
+	<label commandName="FD_CHECKED_DATE" devLabel="Date checked" translation="確認日"/>
+	<label commandName="FD_CODE" devLabel="Code compliance" translation="規準に適合"/>
+	<label commandName="FD_CREATED_DATE" devLabel="Date created" translation="作成日"/>
+	<label commandName="FD_CREATE_BY" devLabel="Created by" translation="作成者"/>
+	<label commandName="FD_DATE_OF_ISSUE" devLabel="Date of issue" translation="発行日"/>
+	<label commandName="FD_DEPT" devLabel="Department" translation="部門"/>
+	<label commandName="FD_DOCUMENT_STATUS" devLabel="Document Status" translation="ドキュメント ステータス"/>
+	<label commandName="FD_DOCUMENT_TYPE" devLabel="Document Type" translation="ドキュメント タイプ"/>
+	<label commandName="FD_DRAWING_NUMBER" devLabel="Drawing number" translation="図面番号"/>
+	<label commandName="FD_DRAWN_BY" devLabel="Drawn by" translation="作成者"/>
+	<label commandName="FD_DRAWN_DATE" devLabel="Date drawn" translation="作成日"/>
+	<label commandName="FD_DWG_NO" devLabel="Drawing number" translation="図面番号"/>
+	<label commandName="FD_PROJECT" devLabel="Project name" translation="プロジェクト名"/>
+	<label commandName="FD_REV" devLabel="Revision number" translation="リビジョン番号"/>
+	<label commandName="FD_SCALE" devLabel="Drawing scale" translation="図面尺度"/>
+	<label commandName="FD_SHEET" devLabel="Sheet number" translation="シート番号"/>
+	<label commandName="FD_SIZE" devLabel="Paper size" translation="用紙サイズ"/>
+	<label commandName="FD_TECHNICAL_REFERENCE" devLabel="Technical reference" translation="テクニカル リファレンス"/>
+	<label commandName="FD_TITLE_1" devLabel="Title one" translation="タイトル 1"/>
+	<label commandName="FD_TITLE_2" devLabel="Title two" translation="タイトル 2"/>
+	<label commandName="FD_TITLE_3" devLabel="Title three" translation="タイトル 3"/>
+	<label commandName="FD_WEIGHT" devLabel="Weight" translation="ウェイト"/>
+	<label commandName="FUSIONDOCBALLOONNOVIEWMSG" devLabel="This sheet has no drawing views. To add balloons, first add a base view." translation="このシートに図面ビューがありません。バルーンを追加するには、最初にベース ビューを追加します。"/>
+	<label commandName="FUSIONDOCBALLOONNOVIEWTOOLTIP" devLabel="This sheet has no drawing views." translation="このシートに図面ビューがありません。"/>
+	<label commandName="FUSIONDOCNOBALLOONORBENDIDTOOLTIP" devLabel="This sheet has no balloons or bend identifiers." translation="このシートにはバルーンや曲げ ID がありません。"/>
+	<label commandName="FUSIONDOCNOBALLOONTOOLTIP" devLabel="This sheet has no balloons." translation="このシートにバルーンがありません。"/>
+	<label commandName="FUSIONDOCPRINTERROR" devLabel=" did not print due to an unknown error." translation=" 不明なエラーが原因で印刷されませんでした。"/>
+	<label commandName="FUSIONDOCPRINTSHEETS" devLabel="&#xA;Sheet " translation="&#xA;シート"/>
+	<label commandName="FUSIONDOCPRINTSTATUS" devLabel="Sent to Printer" translation="プリンタに送信されました"/>
+	<label commandName="FUSIONDOCSENTTOPRINTER" devLabel=" sheets successfully sent to printer." translation=" シートが正常にプリンタに送信されました。"/>
+	<label commandName="FUSIONDOCTABLERANGEMISMATCHTOOLTIP" devLabel="The copied cells cannot be pasted in specified target range." translation="コピーしたセルを指定した対象範囲に貼り付けることはできません。"/>
+	<label commandName="FeatureGroups" devLabel="Group" translation="グループ"/>
+	<label commandName="FileCreateDrawingFromPreviousVersion" devLabel="The file you are trying to create drawing from is currently being saved by another user. Do you want to create it from a previous version instead?&#xA;&#xA;" translation="図面の作成元にしようとしているファイルは、現在、別のユーザが保存しています。代わりに前のバージョンから図面を作成しますか?&#xA;&#xA;"/>
+	<label commandName="FinishEdit" devLabel="Finish Title Block" translation="表題欄を終了"/>
+	<label commandName="FirstFrame" devLabel="First Frame" translation="最初のフレーム"/>
+	<label commandName="FlatPatternRepresentation" devLabel="Flat Pattern" translation="フラット パターン"/>
+	<label commandName="FoldedComponentReprensentation" devLabel="Folded Component" translation="曲げコンポーネント"/>
+	<label commandName="Fractional" devLabel="Fractional" translation="分数表記"/>
+	<label commandName="From DWG File" devLabel="From DWG File" translation="DWGファイルから"/>
+	<label commandName="From Existing" devLabel="From Existing" translation="既存から"/>
+	<label commandName="From Scratch" devLabel="From Scratch" translation="最初から"/>
+	<label commandName="FromParent" devLabel="From Parent" translation="親から"/>
+	<label commandName="Front" devLabel="Front" translation="前"/>
+	<label commandName="Full Length" devLabel="Full Length" translation="全体の長さ"/>
+	<label commandName="FusDocDefaultSheetSizeValue0" devLabel="A0 (1189mm x 841mm)" translation="A0 (1189 mm x 841 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue1" devLabel="A1 (841mm x 594mm)" translation="A1 (841 mm x 594 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue10" devLabel="D (34in x 22in)" translation="D (34 in x 22 in)"/>
+	<label commandName="FusDocDefaultSheetSizeValue11" devLabel="E (44in x 34in)" translation="E (44 in x 34 in)"/>
+	<label commandName="FusDocDefaultSheetSizeValue2" devLabel="A2 (594mm x 420mm)" translation="A2 (594 mm x 420 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue3" devLabel="A3 (420mm x 297mm)" translation="A3 (420 mm x 297 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue4" devLabel="A4 (210mm x 297mm)" translation="A4 (210 mm x 297 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue5" devLabel="A4 (297mm x 210mm)" translation="A4 (297 mm x 210 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue6" devLabel="A (8.5in x 11in)" translation="A (8.5 in x 11 in)"/>
+	<label commandName="FusDocDefaultSheetSizeValue7" devLabel="A (11in x 8.5in)" translation="A (11 in x 8.5 in)"/>
+	<label commandName="FusDocDefaultSheetSizeValue8" devLabel="B (17in x 11in)" translation="B (17 in x 11 in)"/>
+	<label commandName="FusDocDefaultSheetSizeValue9" devLabel="C (22in x 17in)" translation="C (22 in x 17 in)"/>
+	<label commandName="FusDocLinearDimensionPrecision0" devLabel="0" translation="0"/>
+	<label commandName="FusDocLinearDimensionPrecision1" devLabel="0.1" translation="0.1"/>
+	<label commandName="FusDocLinearDimensionPrecision10" devLabel="-" translation="-"/>
+	<label commandName="FusDocLinearDimensionPrecision11" devLabel="1/2" translation="1/2"/>
+	<label commandName="FusDocLinearDimensionPrecision12" devLabel="1/4" translation="1/4"/>
+	<label commandName="FusDocLinearDimensionPrecision13" devLabel="1/8" translation="1/8"/>
+	<label commandName="FusDocLinearDimensionPrecision14" devLabel="1/16" translation="1/16"/>
+	<label commandName="FusDocLinearDimensionPrecision15" devLabel="1/32" translation="1/32"/>
+	<label commandName="FusDocLinearDimensionPrecision16" devLabel="1/64" translation="1/64"/>
+	<label commandName="FusDocLinearDimensionPrecision17" devLabel="1/128" translation="1/128"/>
+	<label commandName="FusDocLinearDimensionPrecision18" devLabel="1/256" translation="1/256"/>
+	<label commandName="FusDocLinearDimensionPrecision2" devLabel="0.12" translation="0.12"/>
+	<label commandName="FusDocLinearDimensionPrecision3" devLabel="0.123" translation="0.123"/>
+	<label commandName="FusDocLinearDimensionPrecision4" devLabel="0.1234" translation="0.1234"/>
+	<label commandName="FusDocLinearDimensionPrecision5" devLabel="0.12345" translation="0.12345"/>
+	<label commandName="FusDocLinearDimensionPrecision6" devLabel="0.123456" translation="0.123456"/>
+	<label commandName="FusDocLinearDimensionPrecision7" devLabel="0.1234567" translation="0.1234567"/>
+	<label commandName="FusDocLinearDimensionPrecision8" devLabel="0.12345678" translation="0.12345678"/>
+	<label commandName="FusionAddTitleBlockCommandDialogTitle1" devLabel="NEW TITLE BLOCK" translation="新しい表題欄"/>
+	<label commandName="FusionBendTableEdit" devLabel="BEND TABLE" translation="曲げテーブル"/>
+	<label commandName="FusionChangeAngularPrecisionSettings" devLabel="Change Angular Dimension Precision" translation="角度寸法の精度を変更"/>
+	<label commandName="FusionChangeDimensionUnitsSettings" devLabel="Change Dimension Units" translation="寸法の単位を変更"/>
+	<label commandName="FusionChangeDisplayBorderCommand" devLabel="Change Display Border" translation="[境界を表示]を変更"/>
+	<label commandName="FusionChangeDisplayLeadingZeroSettings" devLabel="Change Display Leading Zeros" translation="[先頭のゼロを表示]を変更"/>
+	<label commandName="FusionChangeDisplayLineWidthSettings" devLabel="Change Display Line Widths" translation="[線幅を表示]を変更"/>
+	<label commandName="FusionChangeDisplayTitleBlockCommand" devLabel="Change Display Title Block" translation="[表題欄を表示]を変更"/>
+	<label commandName="FusionChangeDisplayTrailingZeroSettings" devLabel="Change Display Trailing Zeros" translation="[末尾のゼロを表示]を変更"/>
+	<label commandName="FusionChangeDisplayUnitsSettings" devLabel="Change Display Dimension Units" translation="[寸法の単位を表示]を変更"/>
+	<label commandName="FusionChangeDocumentSettings" devLabel="Document Settings" translation="ドキュメントの設定"/>
+	<label commandName="FusionChangeFontSettings" devLabel="Change Font" translation="フォントを変更"/>
+	<label commandName="FusionChangeLineWidthGroupSettings" devLabel="Change Line Width Group" translation="線幅グループを変更"/>
+	<label commandName="FusionChangeLinearFormatSettings" devLabel="Change Dimension Format" translation="寸法形式を変更"/>
+	<label commandName="FusionChangeLinearPrecisionSettings" devLabel="Change Linear Dimension Precision" translation="長さ寸法の精度を変更"/>
+	<label commandName="FusionChangeMultiDocSettingCommand" devLabel="Change Document Settings" translation="ドキュメントの設定を変更"/>
+	<label commandName="FusionChangeMultiSheetSettingsCommand" devLabel="Change Sheet Settings" translation="シート設定を変更"/>
+	<label commandName="FusionChangeSheetSettings" devLabel="Sheet Settings" translation="シート設定"/>
+	<label commandName="FusionChangeSheetSizeCommand" devLabel="Change Sheet Size" translation="シート サイズを変更"/>
+	<label commandName="FusionChangeTextHeightSettings" devLabel="Change Text Height" translation="文字の高さを変更"/>
+	<label commandName="FusionChangeTitleBlockCommand" devLabel="Change Title Block" translation="表題欄を変更"/>
+	<label commandName="FusionCreateDrawingFromComponents" devLabel="Create Drawing" translation="図面を作成"/>
+	<label commandName="FusionDashboardCreateFusionDrawingCommand" devLabel="Cannot find downloaded file. Expected filepath: %1%" translation="ダウンロードしたファイルが見つかりません。考えられるファイルパス: %1%"/>
+	<label commandName="FusionDashboardCreateFusionDrawingCommandError" devLabel="An unexpected error occurred while downloading and opening a document." translation="ドキュメントをダウンロードして開いているときに予期しないエラーが発生しました。"/>
+	<label commandName="FusionDocAcCoreConsolePathName" devLabel="Path to AcCoreConsole" translation="AcCoreConsole へのパス"/>
+	<label commandName="FusionDocAcCoreConsoleToolTip" devLabel="Path to AcCoreConsole" translation="AcCoreConsole へのパス"/>
+	<label commandName="FusionDocAddDimensionBreak" devLabel="Add Dimension Break" translation="寸法マスクを追加"/>
+	<label commandName="FusionDocAlignedDimension" devLabel="Aligned Dimension" translation="平行寸法"/>
+	<label commandName="FusionDocAngularDimension" devLabel="Angular Dimension" translation="角度寸法"/>
+	<label commandName="FusionDocArc" devLabel="3-Point Arc" translation="3 点指定の円弧"/>
+	<label commandName="FusionDocArcCenter" devLabel="ArcCenter" translation="円弧中心"/>
+	<label commandName="FusionDocArcTangent" devLabel="ArcTangent" translation="接線円弧"/>
+	<label commandName="FusionDocArrow" devLabel="Leader" translation="引出線"/>
+	<label commandName="FusionDocAttDef" devLabel="Attribute" translation="属性"/>
+	<label commandName="FusionDocAttEdit" devLabel="Attribute Definition Edit" translation="属性定義を編集"/>
+	<label commandName="FusionDocBalloon" devLabel="Balloon" translation="バルーン"/>
+	<label commandName="FusionDocBalloonsBodyNotInComponentTip" devLabel="A balloon can only be placed on a component" translation="バルーンはコンポーネントにのみ配置できます"/>
+	<label commandName="FusionDocBalloonsBodyNotInComponentTip2" devLabel="&lt;b&gt;A balloon can only be placed on a component.&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Convert bodies to components in the Design." translation="&lt;b&gt;バルーンはコンポーネントにのみ配置できます。&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;[デザイン]でボディをコンポーネントに変換してください。"/>
+	<label commandName="FusionDocBalloonsCannotBePutOnSketchTip" devLabel="A balloon cannot be put on sketches" translation="バルーンをスケッチに配置することはできません"/>
+	<label commandName="FusionDocBalloonsCannotBePutOnSketchTip2" devLabel="&lt;b&gt;A balloon cannot be put on sketches.&lt;/b&gt;" translation="&lt;b&gt;バルーンをスケッチに配置することはできません。&lt;/b&gt;"/>
+	<label commandName="FusionDocBaselineDimension" devLabel="Baseline Dimension" translation="並列寸法"/>
+	<label commandName="FusionDocBlockEdit" devLabel="Edit Title Block" translation="表題欄を編集"/>
+	<label commandName="FusionDocBorderEdit" devLabel="Edit Border" translation="罫線を編集"/>
+	<label commandName="FusionDocCenterEditPattern" devLabel="Center Mark Pattern" translation="中心マーク パターン"/>
+	<label commandName="FusionDocCenterPattern" devLabel="Center Mark Pattern" translation="中心マーク パターン"/>
+	<label commandName="FusionDocCenterReassociate" devLabel="Reassociate" translation="寸法自動調整再割り当て"/>
+	<label commandName="FusionDocCenterline" devLabel="Centerline" translation="中心線"/>
+	<label commandName="FusionDocCentermark" devLabel="Center Mark" translation="中心マーク"/>
+	<label commandName="FusionDocChainDimension" devLabel="Chain Dimension" translation="直列寸法"/>
+	<label commandName="FusionDocChooseVersionCommand" devLabel="Choose Version" translation="バージョンを選択"/>
+	<label commandName="FusionDocCircle" devLabel="Center Radius Circle" translation="中心と半径指定の円"/>
+	<label commandName="FusionDocCircle2Point" devLabel="Circle2Point" translation="2 点指定の円"/>
+	<label commandName="FusionDocCircle3Point" devLabel="Circle3Point" translation="3 点指定の円"/>
+	<label commandName="FusionDocCircleDiameter" devLabel="CircleDiameter" translation="直径指定の円"/>
+	<label commandName="FusionDocContinueEditingExistingBorderBlock" devLabel="The Border contains no geometry or text. Please add some geometry and/or text before finishing the edit.&#xA;If you want to hide the border from a sheet, go to Browser &gt; Sheet Settings &gt; Display Border.&#xA;" translation="境界にジオメトリまたは文字が含まれていません。ジオメトリ、文字をいくつか追加してから編集を完了してください。&#xA;境界をシートから非表示にするには、ブラウザ &gt; [シート設定] &gt; [境界を表示]に移動します。&#xA;"/>
+	<label commandName="FusionDocContinueEditingExistingTitleBlock" devLabel="The Title Block contains no geometry or text. Please add some geometry and/or text before finishing the edit.&#xA;If you want to hide the Title Block from a sheet, go to Browser &gt; Sheet Settings &gt; Display Title Block.&#xA;" translation="表題欄にジオメトリまたは文字が含まれていません。ジオメトリ、文字をいくつか追加してから編集を完了してください。&#xA;表題欄をシートから非表示にするには、ブラウザ &gt; [シート設定] &gt; [表題欄を表示]に移動します。&#xA;"/>
+	<label commandName="FusionDocCopy" devLabel="Copy" translation="コピー"/>
+	<label commandName="FusionDocCopyDefaultCommand" devLabel="Copy" translation="コピー"/>
+	<label commandName="FusionDocCopyGeomEntityCommand" devLabel="Copy" translation="コピー"/>
+	<label commandName="FusionDocCopyMtextCommand" devLabel="Copy" translation="コピー"/>
+	<label commandName="FusionDocCopySketchCommand" devLabel="Copy" translation="コピー"/>
+	<label commandName="FusionDocCutDefaultCommand" devLabel="Cut" translation="切り取り"/>
+	<label commandName="FusionDocCutGeomEntityCommand" devLabel="Cut" translation="切り取り"/>
+	<label commandName="FusionDocCutMtextCommand" devLabel="Cut" translation="切り取り"/>
+	<label commandName="FusionDocCutSketchCommand" devLabel="Cut" translation="切り取り"/>
+	<label commandName="FusionDocDWGRecoveryDocument" devLabel="The document" translation="ドキュメント"/>
+	<label commandName="FusionDocDWGRecoveryErrorsFound" devLabel="&lt;b&gt;%1%&lt;/b&gt; has been damaged&lt;br/&gt;&lt;br/&gt;The file has been damaged and may have limited functionality.&lt;br/&gt;&lt;br/&gt;Any corrupt views will be outlined. We suggest deleting and recreating these views. If this does not resolve the issue, we recommend reverting to a previous drawing version by following the steps outlined here:&lt;br/&gt;&lt;br/&gt;&lt;a href=&quot;http://help.autodesk.com/view/NINVFUS/ENU/?guid=GUID-9610E274-6C25-4ED0-809D-35C9068F10BC&quot;&gt;How to Revert to a Previous Version&lt;/a&gt;" translation="&lt;b&gt;%1%&lt;/b&gt; は破損しています&lt;br/&gt;&lt;br/&gt;ファイルは破損しているため機能が制限される可能性があります。&lt;br/&gt;&lt;br/&gt;破損したビューは枠で囲まれます。これらのビューは、いったん削除して再作成することをお勧めします。これで問題が解決しない場合は、前の図面のバージョンに戻すことをお勧めします。次のトピックに記載されている手順を実行して、前の図面のバージョンに戻すことをお勧めします。&lt;br/&gt;&lt;br/&gt;&lt;a href=&quot;http://help.autodesk.com/view/NINVFUS/JPN/?guid=GUID-9610E274-6C25-4ED0-809D-35C9068F10BC&quot;&gt;前のバージョンに戻す方法&lt;/a&gt;"/>
+	<label commandName="FusionDocDatumId" devLabel="Datum Identifier" translation="データム ID"/>
+	<label commandName="FusionDocDatumIdEdgeOption" devLabel="Edge" translation="エッジ"/>
+	<label commandName="FusionDocDatumIdSurfaceOption" devLabel="Surface" translation="サーフェス"/>
+	<label commandName="FusionDocDebugOptionsDescription" devLabel="Preferences that used for easy of debugging drawing" translation="図面のデバッグを簡単にするために使用される基本設定"/>
+	<label commandName="FusionDocDebugOptionsName" devLabel="Drawing Debug" translation="図面のデバッグ"/>
+	<label commandName="FusionDocDefaultTitleBlock" devLabel="The default title block cannot be edited. Do you want to add a new title block based on this one?" translation="既定の表題欄は編集できません。この表題欄に基づいて新しい表題欄を追加しますか。"/>
+	<label commandName="FusionDocDelete" devLabel="Delete" translation="削除"/>
+	<label commandName="FusionDocDiameterDimension" devLabel="Diameter Dimension" translation="直径寸法"/>
+	<label commandName="FusionDocDimReassociate" devLabel="Reassociate" translation="寸法自動調整再割り当て"/>
+	<label commandName="FusionDocDimensionBreak" devLabel="Dimension Break" translation="寸法マスク"/>
+	<label commandName="FusionDocDimensionEdit" devLabel="Edit Dimension" translation="寸法編集"/>
+	<label commandName="FusionDocDimensionProperties1" devLabel="DIMENSION" translation="寸法"/>
+	<label commandName="FusionDocDisassociatedAnnotations" devLabel="One or more sheets contain disassociated annotations. If you continue, your drawings may contain errors." translation="1 つまたは複数のシートに、関連付けが解除された注釈が含まれています。続行すると、図面にエラーが含まれる可能性があります。"/>
+	<label commandName="FusionDocDocumentNotSet" devLabel="Document name is not properly set." translation="ドキュメント名が適切に設定されていません。"/>
+	<label commandName="FusionDocDwgSketchesBrowserLabel" devLabel="Sketches" translation="スケッチ"/>
+	<label commandName="FusionDocEdgeExtension" devLabel="Edge Extension" translation="エッジ延長"/>
+	<label commandName="FusionDocEllipse" devLabel="Ellipse" translation="楕円"/>
+	<label commandName="FusionDocEnableDebugAcCoreConsoleName" devLabel="Enable Debug AcCoreConsole" translation="AcCoreConsole のデバッグを有効化"/>
+	<label commandName="FusionDocEnableDebugAcCoreConsoleToolTip" devLabel="Enable debug AcCoreConsole" translation="AcCoreConsole のデバッグを有効化"/>
+	<label commandName="FusionDocErase" devLabel="Delete" translation="削除"/>
+	<label commandName="FusionDocExtend" devLabel="Extend" translation="延長"/>
+	<label commandName="FusionDocFeatureControlFrame" devLabel="Feature Control Frame" translation="幾何公差"/>
+	<label commandName="FusionDocFitCmd" devLabel="Fit" translation="フィット"/>
+	<label commandName="FusionDocFitDesc" devLabel="Fit" translation="フィット"/>
+	<label commandName="FusionDocHatchEdit" devLabel="Edit Hatch" translation="ハッチングを編集"/>
+	<label commandName="FusionDocHatchProperties1" devLabel="HATCH" translation="ハッチング"/>
+	<label commandName="FusionDocInsertTitleBlockFailed" devLabel="Title block insert failed.&lt;br/&gt;For help with preparing DWG files for use as title blocks, see &lt;a href='%1%'&gt;More Information&lt;/a&gt;" translation="タイトル ブロックの挿入に失敗しました。&lt;br/&gt;タイトル ブロックとして使用するための DWG ファイルの準備については、&lt;a href='%1%'&gt;詳細情報&lt;/a&gt;を参照してください"/>
+	<label commandName="FusionDocInsertTitleBlockInvalidObject" devLabel="This DWG file can't be inserted because it contains one or more blocks or xrefs. Remove these objects and try inserting again.&lt;br/&gt;For help with preparing DWG files for use as title blocks, see &lt;a href='%1%'&gt;More Information&lt;/a&gt;" translation="この DWG ファイルには、1 つまたは複数のブロック、または外部参照が含まれているため挿入できません。 これらのオブジェクトを削除し、再度挿入してください。&lt;br/&gt;タイトル ブロックとして使用するための DWG ファイルの準備については、&lt;a href='%1%'&gt;詳細情報&lt;/a&gt;を参照してください。"/>
+	<label commandName="FusionDocInsertTitleBlockNameConflict" devLabel="This DWG file can't be inserted because its name conflicts with an existing object. Rename the DWG file and try inserting again.&lt;br/&gt;For help with preparing DWG files for use as title blocks, see &lt;a href='%1%'&gt;More Information&lt;/a&gt;" translation="この DWG ファイルは、名前が既存のオブジェクトと重複しているため挿入できません。 DWG ファイルの名前を変更し、再度挿入してください。&lt;br/&gt;タイトル ブロックとして使用するための DWG ファイルの準備については、&lt;a href='%1%'&gt;詳細情報&lt;/a&gt;を参照してください。"/>
+	<label commandName="FusionDocInsertTitleBlockObjectFiltered" devLabel="This DWG file contains one or more fields, 3D solids, or geolocation points. These objects have been automatically removed from the title block.&lt;br/&gt;For help with preparing DWG files for use as title blocks, see &lt;a href='%1%'&gt;More Information&lt;/a&gt;" translation="この DWG ファイルには、1 つまたは複数のフィールド、3D ソリッド、または地理的位置の点が含まれています。 これらのオブジェクトは、自動的にタイトル ブロックから削除されました。&lt;br/&gt;タイトル ブロックとして使用するための DWG ファイルの準備については、&lt;a href='%1%'&gt;詳細情報&lt;/a&gt;を参照してください。"/>
+	<label commandName="FusionDocInvalidFile" devLabel="&lt;b&gt;%1%&lt;/b&gt; has been corrupted&lt;br/&gt;&lt;br/&gt;The file has been corrupted and can no longer be opened by Fusion" translation="&lt;b&gt;%1%&lt;/b&gt; は破損しています&lt;br/&gt;&lt;br/&gt;ファイルは破損しているため Fusion で開くことができません"/>
+	<label commandName="FusionDocLeader" devLabel="Leader" translation="引出線"/>
+	<label commandName="FusionDocLegacyTextEdit" devLabel="Legacy Text Edit" translation="従来のテキスト編集"/>
+	<label commandName="FusionDocLine" devLabel="Line" translation="線分"/>
+	<label commandName="FusionDocLinearDimension" devLabel="Linear Dimension" translation="長さ寸法"/>
+	<label commandName="FusionDocMText" devLabel="Text" translation="テキスト"/>
+	<label commandName="FusionDocMeasure" devLabel="Measure" translation="計測"/>
+	<label commandName="FusionDocMove" devLabel="Move" translation="移動"/>
+	<label commandName="FusionDocMoveDialogTitle" devLabel="MOVE" translation="移動"/>
+	<label commandName="FusionDocNewTitleBlock" devLabel="New Title Block" translation="新しい表題欄"/>
+	<label commandName="FusionDocObjPropSettings" devLabel="Object Property Settings" translation="オブジェクト プロパティ設定"/>
+	<label commandName="FusionDocOffset" devLabel="Offset" translation="オフセット"/>
+	<label commandName="FusionDocOrdinateDimension" devLabel="Ordinate Dimension" translation="座標寸法"/>
+	<label commandName="FusionDocOutdatedSheet" devLabel="The sheet is out of date. Make sure the sheet is up to date and try again." translation="シートが最新ではありません。シートが最新であることを確認し、もう一度試してください。"/>
+	<label commandName="FusionDocOutdatedSheets" devLabel="One or more sheets are out of date. Make sure all sheets are up to date and try again." translation="1 つまたは複数のシートが最新ではありません。すべてのシートを最新にして、もう一度試してください。"/>
+	<label commandName="FusionDocOverwriteExistingTitleBlock" devLabel="A title block with that name already exists. Do you want to overwrite the existing title block? Overwriting will replace all existing references to this title block in the drawing." translation="この名前の表題欄は既に存在します。上書きしますか? 上書きすると、この表題欄に対するこの図面上の既存の参照がすべて置き換えられます。"/>
+	<label commandName="FusionDocPanCmd" devLabel="Pan" translation="画面移動"/>
+	<label commandName="FusionDocPasteCustomMTextCommand" devLabel="Paste" translation="貼り付け"/>
+	<label commandName="FusionDocPasteDefaultCommand" devLabel="Paste" translation="貼り付け"/>
+	<label commandName="FusionDocPasteGeomEntityCommand" devLabel="Paste" translation="貼り付け"/>
+	<label commandName="FusionDocPasteSketchCommand" devLabel="Paste" translation="貼り付け"/>
+	<label commandName="FusionDocPasteTextCommand" devLabel="Paste" translation="貼り付け"/>
+	<label commandName="FusionDocRadialDimension" devLabel="Radius Dimension" translation="半径寸法"/>
+	<label commandName="FusionDocRectangle" devLabel="2-Point Rectangle" translation="2 点指定の長方形"/>
+	<label commandName="FusionDocRedo" devLabel="Redo" translation="やり直し"/>
+	<label commandName="FusionDocRemoveDimensionBreak" devLabel="Remove Dimension Break" translation="寸法マスクを削除"/>
+	<label commandName="FusionDocRenumber" devLabel="Renumber" translation="再番号付け"/>
+	<label commandName="FusionDocReservedTitleBlockName" devLabel="The specified name conflicts with an existing Fusion 360 object. Please choose another name." translation="指定した名前が既存の Fusion 360オブジェクトと重複します。他の名前を選んでください。"/>
+	<label commandName="FusionDocRestoreDefaultsCmd" devLabel="Restore" translation="復元"/>
+	<label commandName="FusionDocRotate" devLabel="Rotate" translation="回転"/>
+	<label commandName="FusionDocScreenshotCmd" devLabel="Capture Image" translation="イメージをキャプチャ..."/>
+	<label commandName="FusionDocShowAcCoreConsoleWindowOption" devLabel="Show AcCoreConsole window" translation="AcCoreConsole ウィンドウを表示"/>
+	<label commandName="FusionDocShowAcCoreConsoleWindowToolTip" devLabel="Show AcCoreConsole window" translation="AcCoreConsole ウィンドウを表示"/>
+	<label commandName="FusionDocSingleDimensionCmdDef" devLabel="Dimension" translation="寸法"/>
+	<label commandName="FusionDocSingleSheetDisassociatedAnnotations" devLabel="Sheet contains disassociated annotations. If you continue, your drawing may contain errors." translation="シートに、関連付けが解除された注釈が含まれています。続行すると、図面にエラーが含まれる可能性があります。"/>
+	<label commandName="FusionDocSketchCreate" devLabel="Create Sketch" translation="スケッチを作成"/>
+	<label commandName="FusionDocSourceFileHasBeenMoved" devLabel="Drawing has been moved or copied, would you like to associate it with a new model?" translation="図面は移動またはコピーされています。新しいモデルに関連付けますか?"/>
+	<label commandName="FusionDocSplineBalloon" devLabel="Balloon" translation="バルーン"/>
+	<label commandName="FusionDocSuppress" devLabel="Toggle Suppress" translation="省略を切り替え"/>
+	<label commandName="FusionDocSurfaceTexture" devLabel="Surface Texture" translation="面の指示記号"/>
+	<label commandName="FusionDocSymbolEdit" devLabel="Symbol Edit" translation="記号の編集"/>
+	<label commandName="FusionDocTable" devLabel="Table" translation="テーブル"/>
+	<label commandName="FusionDocTableEdit" devLabel="Table" translation="テーブル"/>
+	<label commandName="FusionDocTableTextEdit" devLabel="Edit Table Text" translation="テーブルの文字を編集"/>
+	<label commandName="FusionDocTextEdit" devLabel="TEXT PROPERTIES" translation="文字のプロパティ"/>
+	<label commandName="FusionDocTrim" devLabel="Trim" translation="トリム"/>
+	<label commandName="FusionDocUndo" devLabel="Undo" translation="元に戻す"/>
+	<label commandName="FusionDocUpdateCommand" devLabel="Get Latest" translation="最新を取得"/>
+	<label commandName="FusionDocUpdateMessage" devLabel="Changes have been made to a referenced design. &#xA;You can update the drawing from the button in the Application Bar." translation="参照先のデザインが変更されました。&#xA;アプリケーション バーのボタンを使用して、図面を更新できます。"/>
+	<label commandName="FusionDocViewDetailDetailViewUnsupported" devLabel="Cannot detail a detail view" translation="詳細図で詳細図は作成できません"/>
+	<label commandName="FusionDocViewDetailSectionViewUnsupported" devLabel="Cannot detail a section view" translation="断面図で詳細図は作成できません"/>
+	<label commandName="FusionDocViewProjDetailViewUnsupported" devLabel="Cannot project a detail view" translation="詳細図を投影できません"/>
+	<label commandName="FusionDocViewProjNormalSectionViewUnsupported" devLabel="Cannot project this section view" translation="この断面ビューを投影できません"/>
+	<label commandName="FusionDocViewProjSectionViewUnsupported" devLabel="Cannot project a section view" translation="断面図を投影できません"/>
+	<label commandName="FusionDocViewSectionDetailViewUnsupported" devLabel="Cannot section a detail view" translation="詳細図で断面図は作成できません"/>
+	<label commandName="FusionDocViewSectionNormalSectionViewUnsupported" devLabel="Cannot section this section view" translation="この断面ビュー切断できません"/>
+	<label commandName="FusionDocViewSectionSectionViewUnsupported" devLabel="Cannot section a section view" translation="断面図で断面図は作成できません"/>
+	<label commandName="FusionDocWaitForDebuggerOption" devLabel="Wait for Debugger" translation="デバッガを待機"/>
+	<label commandName="FusionDocWaitForDebuggerToolTip" devLabel="Causes AcCoreConsole to pause on startup" translation="起動時に AcCoreConsole が一時停止します"/>
+	<label commandName="FusionDocZoomCmd" devLabel="Zoom Window" translation="ウィンドウ ズーム"/>
+	<label commandName="FusionDocumentSettingsAngularPrecisionInput" devLabel="Angular Dimension Precision" translation="角度寸法の精度"/>
+	<label commandName="FusionDocumentSettingsBrowserLabel" devLabel="Document Settings" translation="ドキュメントの設定"/>
+	<label commandName="FusionDocumentSettingsDimensionUnits" devLabel="Dimension Units" translation="寸法の単位"/>
+	<label commandName="FusionDocumentSettingsDisplayLeadingZeroInput" devLabel="Display Leading Zeros" translation="先頭のゼロを表示"/>
+	<label commandName="FusionDocumentSettingsDisplayLineWidthsInput" devLabel="Display Line Widths" translation="線幅を表示"/>
+	<label commandName="FusionDocumentSettingsDisplayTrailingZeroInput" devLabel="Display Trailing Zeros" translation="末尾のゼロを表示"/>
+	<label commandName="FusionDocumentSettingsDisplayUnitsInput" devLabel="Display Dimension Units" translation="寸法の単位を表示"/>
+	<label commandName="FusionDocumentSettingsFontInput" devLabel="Font" translation="フォント"/>
+	<label commandName="FusionDocumentSettingsLineWidthGroupInput" devLabel="Line Width Group" translation="線幅グループ"/>
+	<label commandName="FusionDocumentSettingsLinearFormatInput" devLabel="Dimension Format" translation="寸法形式"/>
+	<label commandName="FusionDocumentSettingsLinearPrecisionInput" devLabel="Linear Dimension Precision" translation="長さ寸法の精度"/>
+	<label commandName="FusionDocumentSettingsMediumLineWidthInput" devLabel="Medium Line Width" translation="中間の線幅"/>
+	<label commandName="FusionDocumentSettingsProjectionAngle" devLabel="Projection Angle" translation="投影角度"/>
+	<label commandName="FusionDocumentSettingsStandardStringInput" devLabel="Standard             " translation="標準             "/>
+	<label commandName="FusionDocumentSettingsTextHeightInput" devLabel="Text Height" translation="文字の高さ"/>
+	<label commandName="FusionDocumentSettingsThickLineWidthInput" devLabel="Thick Line Width" translation="太い線幅"/>
+	<label commandName="FusionDocumentSettingsThinLineWidthInput" devLabel="Thin Line Width" translation="細い線幅"/>
+	<label commandName="FusionDocumentSettingsUnits" devLabel="Units" translation="単位"/>
+	<label commandName="FusionDrawingActivateEnvironmentCommand" devLabel="Workspace" translation="作業スペース"/>
+	<label commandName="FusionDrawingAlignBalloonCommand" devLabel="Align Balloons" translation="バルーンを位置合わせ"/>
+	<label commandName="FusionDrawingAngularDimensionPrecision" devLabel="Angular Dimension Precision" translation="角度寸法の精度"/>
+	<label commandName="FusionDrawingAnnotationFont" devLabel="Annotation Font" translation="注記のフォント"/>
+	<label commandName="FusionDrawingAnnotationLeadingZero" devLabel="Display Leading Zeros" translation="先頭のゼロを表示"/>
+	<label commandName="FusionDrawingAnnotationSettings" devLabel="Annotation Settings" translation="注記の設定"/>
+	<label commandName="FusionDrawingAnnotationTextHeight" devLabel="Annotation Text Height" translation="注記の文字の高さ"/>
+	<label commandName="FusionDrawingAnnotationTrailingZero" devLabel="Display Trailing Zeros" translation="末尾のゼロを表示"/>
+	<label commandName="FusionDrawingAnnotationUnit" devLabel="Annotation Unit" translation="注記の単位"/>
+	<label commandName="FusionDrawingAnnotationUnitDisplay" devLabel="Display Annotation Unit" translation="注記の単位を表示"/>
+	<label commandName="FusionDrawingAnnotationUnitInches" devLabel="Inches (in)" translation="インチ(in)"/>
+	<label commandName="FusionDrawingAnnotationUnitMillimetres" devLabel="Millimeters (mm)" translation="ミリメートル(mm)"/>
+	<label commandName="FusionDrawingArcCenterCommandDesc" devLabel="ArcCenter" translation="円弧中心"/>
+	<label commandName="FusionDrawingArcCommandDesc" devLabel="3-Point Arc" translation="3 点指定の円弧"/>
+	<label commandName="FusionDrawingArcTangentCommandDesc" devLabel="ArcTangent" translation="接線円弧"/>
+	<label commandName="FusionDrawingAttDefCommandDesc" devLabel="Attribute" translation="属性"/>
+	<label commandName="FusionDrawingAttEditCommandDesc" devLabel="Attribute Definition Edit" translation="属性定義を編集"/>
+	<label commandName="FusionDrawingAttributeCommandDialogTitle1" devLabel="ATTRIBUTE" translation="属性"/>
+	<label commandName="FusionDrawingBadInstallMessage" devLabel="&lt;b&gt;%1% Drawings cannot launch&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;An installation issue is preventing %1% Drawings from launching. Please follow the uninstall information at the link below and then reinstall in order to create a drawing.&lt;br /&gt;&lt;br /&gt;&lt;a href='https://knowledge.autodesk.com/support/fusion-360/troubleshooting/caas/sfdcarticles/sfdcarticles/How-to-do-an-automatic-Clean-Uninstall-for-Autodesk-Fusion-360.html'&gt;How to uninstall %1%&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;If you have reinstalled and are still encountering this message please contact support and we will respond promptly. Closing this dialog will return you to your design." translation="&lt;b&gt;%1%図面を開始できません&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;インストールのが原因で %1% の図面を開始できなくなっています。下記のリンクに記載されている情報に従って、アンインストールを行ってから、再インストールしてください。&lt;br/&gt;&lt;br/&gt;&lt;a href=''&gt;https://knowledge.autodesk.com/support/fusion-360/troubleshooting/caas/sfdcarticles/sfdcarticles/how-to-do-an-automatic-clean-uninstall-for-autodesk-fusion-360.htmlアンインストール方法%1%&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;再インストールしても、このメッセージが表示される場合は、サポートにお問い合わせください。サポート チームが迅速に対応いたします。このダイアログを閉じると、デザインに戻ります。"/>
+	<label commandName="FusionDrawingBalloonCommandDesc" devLabel="Baloon" translation="バルーン"/>
+	<label commandName="FusionDrawingBlockEditorImageInsert" devLabel="Image" translation="イメージ"/>
+	<label commandName="FusionDrawingBorderDisplay" devLabel="Display Border" translation="境界を表示"/>
+	<label commandName="FusionDrawingBrowserSheetName" devLabel="Sheet" translation="シート"/>
+	<label commandName="FusionDrawingCentermarkCommandDesc" devLabel="Center Mark" translation="中心マーク"/>
+	<label commandName="FusionDrawingCircle2PointCommandDesc" devLabel="Circle2Point" translation="2 点指定の円"/>
+	<label commandName="FusionDrawingCircle3PointCommandDesc" devLabel="Circle3Point" translation="3 点指定の円"/>
+	<label commandName="FusionDrawingCircleCommandDesc" devLabel="Center Radius Circle" translation="中心と半径指定の円"/>
+	<label commandName="FusionDrawingCircleDiameterCommandDesc" devLabel="CircleDiameter" translation="直径指定の円"/>
+	<label commandName="FusionDrawingContinue" devLabel="Continue" translation="続行"/>
+	<label commandName="FusionDrawingCopyCommandDesc" devLabel="Copy" translation="コピー"/>
+	<label commandName="FusionDrawingCreatePartsListCommand" devLabel="Parts List" translation="パーツ一覧"/>
+	<label commandName="FusionDrawingDrawingBendID" devLabel="Bend Identifier" translation="曲げ ID"/>
+	<label commandName="FusionDrawingDrawingBlockRefEdit" devLabel="Properties" translation="プロパティ"/>
+	<label commandName="FusionDrawingEllipseCommandDesc" devLabel="Ellipse" translation="楕円"/>
+	<label commandName="FusionDrawingExtendCommandDesc" devLabel="Extend" translation="延長"/>
+	<label commandName="FusionDrawingFeatureToggle" devLabel="Feature Toggle..." translation="フィーチャの切り替え..."/>
+	<label commandName="FusionDrawingFeatureToggleCommandDesc" devLabel="Feature Toggle" translation="フィーチャの切り替え"/>
+	<label commandName="FusionDrawingImageEdit" devLabel="Image" translation="イメージ"/>
+	<label commandName="FusionDrawingImageInsert" devLabel="Image" translation="イメージ"/>
+	<label commandName="FusionDrawingLineCommandDesc" devLabel="Line" translation="線分"/>
+	<label commandName="FusionDrawingLinearDimensionPrecision" devLabel="Linear Dimension Precision" translation="長さ寸法の精度"/>
+	<label commandName="FusionDrawingLinearUnitFormat" devLabel="Linear Unit Format" translation="長さの単位形式"/>
+	<label commandName="FusionDrawingMLeaderContentEdit" devLabel="Edit Leader Text" translation="引出線注記を編集"/>
+	<label commandName="FusionDrawingMTextCommandDesc" devLabel="Text" translation="テキスト"/>
+	<label commandName="FusionDrawingMTextEdit" devLabel="Edit Text" translation="文字を編集"/>
+	<label commandName="FusionDrawingMeasureCommandDesc" devLabel="Measure" translation="計測"/>
+	<label commandName="FusionDrawingMoveCmdDesc" devLabel="Move" translation="移動"/>
+	<label commandName="FusionDrawingMultiSheetDelete" devLabel="Delete Sheets" translation="シートを削除"/>
+	<label commandName="FusionDrawingNewTableCommandName" devLabel="Table" translation="テーブル"/>
+	<label commandName="FusionDrawingObjPropTable" devLabel="Object Property Table" translation="オブジェクト プロパティ テーブル"/>
+	<label commandName="FusionDrawingOffsetCommandDesc" devLabel="Offset" translation="オフセット"/>
+	<label commandName="FusionDrawingPrint" devLabel="Print..." translation="印刷(P)..."/>
+	<label commandName="FusionDrawingPrintCommandDesc" devLabel="Print" translation="印刷"/>
+	<label commandName="FusionDrawingPrintSelectedSheets" devLabel="Print" translation="印刷"/>
+	<label commandName="FusionDrawingPrintSingleSheet" devLabel="Print" translation="印刷"/>
+	<label commandName="FusionDrawingProjectionAngle" devLabel="Projection Angle" translation="投影角度"/>
+	<label commandName="FusionDrawingProjectionAngleFirst" devLabel="First Angle Projection" translation="第一角法"/>
+	<label commandName="FusionDrawingProjectionAngleThird" devLabel="Third Angle Projection" translation="第三角法"/>
+	<label commandName="FusionDrawingRectangleCommandDesc" devLabel="2-Point Rectangle" translation="2 点指定の長方形"/>
+	<label commandName="FusionDrawingRepresentationFlatPattern" devLabel="Flat Pattern" translation="フラット パターン"/>
+	<label commandName="FusionDrawingRepresentationFoldedModel" devLabel="Folded Model" translation="曲げモデル"/>
+	<label commandName="FusionDrawingRepresentationInput" devLabel="Representation" translation="リプレゼンテーション"/>
+	<label commandName="FusionDrawingRotateCmdDesc" devLabel="Rotate" translation="回転"/>
+	<label commandName="FusionDrawingSheetActivate" devLabel="Activate Sheet" translation="シートをアクティブ化"/>
+	<label commandName="FusionDrawingSheetAdd" devLabel="Add Sheet" translation="シートを追加"/>
+	<label commandName="FusionDrawingSheetDelete" devLabel="Delete Sheet" translation="シートを削除"/>
+	<label commandName="FusionDrawingSheetNew" devLabel="Quick Add" translation="クイック追加"/>
+	<label commandName="FusionDrawingSheetRename" devLabel="Rename Sheet" translation="シートを名前変更"/>
+	<label commandName="FusionDrawingSheetReorder" devLabel="Reorder Sheet" translation="シートの順序を変更"/>
+	<label commandName="FusionDrawingSheetSettings" devLabel="Sheet Settings" translation="シート設定"/>
+	<label commandName="FusionDrawingSheetSize" devLabel="Sheet Size" translation="シート サイズ"/>
+	<label commandName="FusionDrawingShowAllChildCommand" devLabel="Show All Components" translation="すべてのコンポーネントを表示"/>
+	<label commandName="FusionDrawingShowAllCommand" devLabel="Show All Components" translation="すべてのコンポーネントを表示"/>
+	<label commandName="FusionDrawingShowHideCommand" devLabel="Show/Hide" translation="表示/非表示"/>
+	<label commandName="FusionDrawingSingleDimensionCmdDesc" devLabel="Dimension" translation="寸法"/>
+	<label commandName="FusionDrawingSketchClose" devLabel="Finish Sketch" translation="スケッチを終了"/>
+	<label commandName="FusionDrawingSketchCloseCommandDesc" devLabel="Finish Sketch" translation="スケッチを終了"/>
+	<label commandName="FusionDrawingSketchCommandDesc" devLabel="Create Sketch" translation="スケッチを作成"/>
+	<label commandName="FusionDrawingSketchDelete" devLabel="Delete" translation="削除"/>
+	<label commandName="FusionDrawingSketchEdit" devLabel="Edit Sketch" translation="スケッチを編集"/>
+	<label commandName="FusionDrawingSketchRename" devLabel="Rename Sketch" translation="スケッチの名前を変更"/>
+	<label commandName="FusionDrawingSmartDrawing" devLabel="SmartDrawing" translation="スマート図面"/>
+	<label commandName="FusionDrawingSmartSheet" devLabel="SmartSheet" translation="SmartSheet"/>
+	<label commandName="FusionDrawingStandard" devLabel="Standard" translation="標準"/>
+	<label commandName="FusionDrawingStandardANSI" devLabel="ASME Standard" translation="ASME 規格"/>
+	<label commandName="FusionDrawingStandardISO" devLabel="ISO Standard" translation="ISO 規格"/>
+	<label commandName="FusionDrawingSuppressAllExceptSelectedCommand" devLabel="Suppress All Except Selected" translation="選択した項目を除きすべて抑制"/>
+	<label commandName="FusionDrawingSuppressCommand" devLabel="Suppress" translation="抑制"/>
+	<label commandName="FusionDrawingSuppressUnsuppressCommand" devLabel="Suppress/UnSuppress" translation="抑制/抑制解除"/>
+	<label commandName="FusionDrawingTableCommandDesc" devLabel="Table" translation="テーブル"/>
+	<label commandName="FusionDrawingTableEditCommandDesc" devLabel="Table Edit" translation="テーブルを編集"/>
+	<label commandName="FusionDrawingTableHeaderLTScale" devLabel="LT SCale" translation="LT SCale"/>
+	<label commandName="FusionDrawingTableHeaderLineType" devLabel="Line Type" translation="線種"/>
+	<label commandName="FusionDrawingTableHeaderLineWeight" devLabel="Line Weight" translation="線の太さ"/>
+	<label commandName="FusionDrawingTableHeaderObjects" devLabel="Objects" translation="オブジェクト"/>
+	<label commandName="FusionDrawingTemplateImageInsert" devLabel="Image" translation="イメージ"/>
+	<label commandName="FusionDrawingTextCommandDialogTitle1" devLabel="TEXT" translation="テキスト"/>
+	<label commandName="FusionDrawingTitleBlock1" devLabel="Title Block" translation="表題欄"/>
+	<label commandName="FusionDrawingTitleBlockDisplay" devLabel="Display Title Block" translation="表題欄を表示"/>
+	<label commandName="FusionDrawingTitleBlockEdit" devLabel="Edit Title Block" translation="表題欄を編集"/>
+	<label commandName="FusionDrawingTitleBlockProperties1" devLabel="Title Block" translation="表題欄"/>
+	<label commandName="FusionDrawingTrimCommandDesc" devLabel="Trim" translation="トリム"/>
+	<label commandName="FusionDrawingUnsuppressAllChildCommand" devLabel="Unsuppress All Components" translation="すべてのコンポーネントを抑制解除"/>
+	<label commandName="FusionDrawingUnsuppressAllCommand" devLabel="Unsuppress All Components" translation="すべてのコンポーネントを抑制解除"/>
+	<label commandName="FusionDrawingUnsuppressCommand" devLabel="Unsuppress" translation="抑制解除"/>
+	<label commandName="FusionDrawingView" devLabel="Base View" translation="ベース ビュー"/>
+	<label commandName="FusionDrawingViewCommandDialogTitle1" devLabel="DRAWING VIEW" translation="図面ビュー"/>
+	<label commandName="FusionDrawingViewCommandDialogTitle2" devLabel="PLACEHOLDER VIEW" translation="プレースホルダ ビュー"/>
+	<label commandName="FusionDrawingViewDetail" devLabel="Detail View" translation="詳細図"/>
+	<label commandName="FusionDrawingViewEdit" devLabel="Edit View" translation="ビューを編集"/>
+	<label commandName="FusionDrawingViewProject" devLabel="Projected View" translation="投影ビュー"/>
+	<label commandName="FusionDrawingViewProjectCommandDesc" devLabel="Projected View" translation="投影ビュー"/>
+	<label commandName="FusionDrawingViewSection" devLabel="Section View" translation="断面図"/>
+	<label commandName="FusionDrawingViewSimpleSection" devLabel="Simple Section View" translation="単純断面図"/>
+	<label commandName="FusionDrawingsBlockEditorEnv" devLabel="Drawings Block Editor" translation="図面ブロック エディタ"/>
+	<label commandName="FusionDrawingsSketchEnv" devLabel="Drawings Sketch Editor" translation="図面スケッチ エディタ"/>
+	<label commandName="FusionEditPropertiesCommand" devLabel="Edit Properties" translation="プロパティを編集"/>
+	<label commandName="FusionExportDrawingDXFDocument" devLabel="Output Sheet as DXF" translation="DXF としてシートを出力"/>
+	<label commandName="FusionExportDrawingDocument" devLabel="Output DWG" translation="DWG 出力"/>
+	<label commandName="FusionExportDrawingDocumentCaption" devLabel="Output DWG" translation="DWG 出力"/>
+	<label commandName="FusionExportDrawingDocumentDXFCaption" devLabel="Output Sheet as DXF" translation="DXF としてシートを出力"/>
+	<label commandName="FusionExportDrawingTemplate" devLabel="Output Drawing Template" translation="出力図面テンプレート"/>
+	<label commandName="FusionExportPDF" devLabel="Output PDF" translation="PDF 出力"/>
+	<label commandName="FusionExportPDFCaption" devLabel="Output PDF" translation="PDF 出力"/>
+	<label commandName="FusionExportPartsList" devLabel="Output CSV" translation="CSV 出力"/>
+	<label commandName="FusionExportPartsListCaption" devLabel="Output Table" translation="テーブル出力"/>
+	<label commandName="FusionGripStretch" devLabel="GripStretch" translation="グリップ ストレッチ"/>
+	<label commandName="FusionNewDrawingDocument" devLabel="Create Drawing" translation="図面を作成"/>
+	<label commandName="FusionNewDrawingDocumentFromDesign1" devLabel="From Design" translation="デザインから"/>
+	<label commandName="FusionNewDrawingTemplate" devLabel="New Drawing Template" translation="新規図面テンプレート"/>
+	<label commandName="FusionPartsListEdit" devLabel="PARTS LIST" translation="パーツ一覧"/>
+	<label commandName="FusionResetPropertiesCommand" devLabel="Reset Properties" translation="プロパティをリセット"/>
+	<label commandName="FusionSheetSettingsBrowserLabel" devLabel="Sheet Settings" translation="シート設定"/>
+	<label commandName="FusionSheetSettingsDisplayBorderInput" devLabel="Display Border" translation="境界を表示"/>
+	<label commandName="FusionSheetSettingsDisplayTitleBlockInput" devLabel="Display Title Block" translation="表題欄を表示"/>
+	<label commandName="FusionSheetSettingsSheetSize" devLabel="Sheet Size" translation="シート サイズ"/>
+	<label commandName="FusionSheetSettingsTitleBlock" devLabel="Title Block" translation="表題欄"/>
+	<label commandName="GeneralDWG" devLabel="Simplified DWG" translation="簡易 DWG"/>
+	<label commandName="GeneralDXF" devLabel="General DXF" translation="一般的な DXF"/>
+	<label commandName="GroupDestination" devLabel="Destination" translation="宛先"/>
+	<label commandName="GroupReference" devLabel="Reference" translation="参照"/>
+	<label commandName="GroupReferenceStart" devLabel="Reference" translation="参照"/>
+	<label commandName="HIDDEN_OPTION" devLabel="" translation=""/>
+	<label commandName="HIDDEN_OPTION_GROUP" devLabel="" translation=""/>
+	<label commandName="HatchEditPropertiesAngle" devLabel="Angle" translation="角度"/>
+	<label commandName="HatchEditPropertiesPattern" devLabel="Pattern" translation="パターン"/>
+	<label commandName="HatchEditPropertiesScale" devLabel="Scale Factor" translation="尺度係数"/>
+	<label commandName="ImageDistX" devLabel="X Distance" translation="X 距離"/>
+	<label commandName="ImageDistY" devLabel="Y Distance" translation="Y 距離"/>
+	<label commandName="ImageRotate" devLabel="Rotation Angle" translation="回転角度"/>
+	<label commandName="ImageScale" devLabel="Scale" translation="尺度"/>
+	<label commandName="ImageSelect" devLabel="Select Image" translation="イメージを選択"/>
+	<label commandName="InfoAttributeType" devLabel="Attribute" translation="属性"/>
+	<label commandName="InputAutoCMP" devLabel="Auto-complete" translation="自動完了"/>
+	<label commandName="InputCenterMark" devLabel="Center Mark" translation="中心マーク"/>
+	<label commandName="InputFullPCD" devLabel="Full PCD" translation="完全な PCD"/>
+	<label commandName="InputIsLineweights" devLabel="Lineweights" translation="線の太さ"/>
+	<label commandName="InputIsOpenPDF" devLabel="Open PDF" translation="PDF を開く"/>
+	<label commandName="InputOperation" devLabel="Operation" translation="操作"/>
+	<label commandName="InputRange" devLabel="Range" translation="範囲"/>
+	<label commandName="InputSheets" devLabel="Sheets" translation="シート"/>
+	<label commandName="InsertSymbol" devLabel="Insert Symbol" translation="記号を挿入"/>
+	<label commandName="InsertSymbols" devLabel="Symbols" translation="記号"/>
+	<label commandName="InsertTitleBlockFileDialogFilter" devLabel="AutoCAD drawing files" translation="AutoCAD 図面ファイル"/>
+	<label commandName="InspLabelBox" devLabel="Inspection Label" translation="検査ラベル"/>
+	<label commandName="InspLabelValue" devLabel="Label" translation="ラベル"/>
+	<label commandName="InspRateBox" devLabel="Inspection Rate" translation="検査レート"/>
+	<label commandName="InspRateValue" devLabel="Rate" translation="レート"/>
+	<label commandName="InspectionCntlGroup" devLabel="Inspection" translation="検査"/>
+	<label commandName="InspectionType" devLabel="Type" translation="タイプ"/>
+	<label commandName="InterferenceEdges" devLabel="Interference Edges" translation="干渉エッジ"/>
+	<label commandName="InvalidCharacters" devLabel="These characters \&lt;&gt;/?&quot;:;*|,=`$^ are not allowed." translation="文字 \&lt;&gt;/?&quot;:;*|,=`$^ は使用できません。"/>
+	<label commandName="ItemAllSheets" devLabel="All Sheets" translation="すべてのシート"/>
+	<label commandName="ItemCurrentSheet" devLabel="Current Sheet" translation="現在のシート"/>
+	<label commandName="ItemRangeSheets" devLabel="Range" translation="範囲"/>
+	<label commandName="ItemSelectedSheets" devLabel="Selected Sheets" translation="選択したシート"/>
+	<label commandName="Justification" devLabel="Justification" translation="位置合わせ"/>
+	<label commandName="JustificationMixed" devLabel="Mixed" translation="混合"/>
+	<label commandName="LINETYPE_PROP" devLabel="Linetype" translation="線種"/>
+	<label commandName="LINEWEIGHT_PROP" devLabel="Lineweight" translation="線の太さ"/>
+	<label commandName="LatestMilestoneLabelStr" devLabel=" (latest milestone)" translation=" (最新のマイルストーン)"/>
+	<label commandName="LatestVersionLabelStr" devLabel=" (latest version)" translation=" (最新バージョン)"/>
+	<label commandName="LearningPanel" devLabel="In Product Marketing" translation="製品マーケティング"/>
+	<label commandName="Left" devLabel="Left" translation="左"/>
+	<label commandName="Lettering" devLabel="Lettering" translation="文字"/>
+	<label commandName="Limit" devLabel="Limit" translation="範囲"/>
+	<label commandName="LineTypeCenter" devLabel="Center" translation="中心"/>
+	<label commandName="LineTypeCenter2" devLabel="Center2" translation="中心 2"/>
+	<label commandName="LineTypeContinuous" devLabel="Continuous" translation="連続"/>
+	<label commandName="LineTypeHidden" devLabel="Hidden" translation="非表示"/>
+	<label commandName="LineTypeHidden2" devLabel="Hidden2" translation="非表示 2"/>
+	<label commandName="LineTypePhantom2" devLabel="Phantom2" translation="仮想 2"/>
+	<label commandName="LineWeight_0.0" devLabel="0.0mm" translation="0.0 mm"/>
+	<label commandName="LineWeight_0.13" devLabel="0.13mm" translation="0.13 mm"/>
+	<label commandName="LineWeight_0.18" devLabel="0.18mm" translation="0.18 mm"/>
+	<label commandName="LineWeight_0.25" devLabel="0.25mm" translation="0.25 mm"/>
+	<label commandName="LineWeight_0.3" devLabel="0.3mm" translation="0.3 mm"/>
+	<label commandName="LineWeight_0.35" devLabel="0.35mm" translation="0.35 mm"/>
+	<label commandName="LineWeight_0.5" devLabel="0.5mm" translation="0.5 mm"/>
+	<label commandName="LineWeight_0.6" devLabel="0.6mm" translation="0.6 mm"/>
+	<label commandName="LineWeight_0.7" devLabel="0.7mm" translation="0.7 mm"/>
+	<label commandName="LineWeight_0.8" devLabel="0.8mm" translation="0.8 mm"/>
+	<label commandName="LineWeight_1.0" devLabel="1.0mm" translation="1.0 mm"/>
+	<label commandName="LineWeight_1.4" devLabel="1.4mm" translation="1.4 mm"/>
+	<label commandName="LineWeight_1.58" devLabel="1.58mm" translation="1.58 mm"/>
+	<label commandName="LineWeight_2.0" devLabel="2.0mm" translation="2.0 mm"/>
+	<label commandName="LowerTolerance" devLabel="Lower Tolerance" translation="下限公差"/>
+	<label commandName="MainDashboard" devLabel="Data Panel" translation="データ パネル"/>
+	<label commandName="Medium" devLabel="Medium" translation="中間"/>
+	<label commandName="MilestoneButCanUpdateStr" devLabel="Drawing is up to date; it's referencing the latest milestone of the design." translation="図面は最新です。デザインの最新のマイルストーンを参照しています。"/>
+	<label commandName="MilestoneReferenceLabelStr" devLabel="Reference: " translation="参照: "/>
+	<label commandName="MilestoneVersionsOnly" devLabel="Milestones Only" translation="マイルストーンのみ"/>
+	<label commandName="ModelReprensentation" devLabel="Model" translation="モデル"/>
+	<label commandName="MoveTransformPtPtTooltip" devLabel="Point to Point" translation="点から点"/>
+	<label commandName="NE Isometric" devLabel="NE Isometric" translation="北東アイソメ ビュー"/>
+	<label commandName="NTSBtn" devLabel="Not To Scale" translation="尺度変更しない"/>
+	<label commandName="NW Isometric" devLabel="NW Isometric" translation="北西アイソメ ビュー"/>
+	<label commandName="Name" devLabel="Name" translation="名前"/>
+	<label commandName="NewDrawingDialogTitle" devLabel="CREATE DRAWING" translation="図面を作成"/>
+	<label commandName="NewDrawingMenuCommand" devLabel="New Drawing" translation="新規図面"/>
+	<label commandName="NewDrawingTemplateDialogTitle" devLabel="Create Drawing Template" translation="図面テンプレートを作成"/>
+	<label commandName="NewFusionDrawingAnnotationUnitsInput" devLabel="Units" translation="単位"/>
+	<label commandName="NewFusionDrawingComponentsInput" devLabel="Components" translation="コンポーネント"/>
+	<label commandName="NewFusionDrawingFormatANSIInput" devLabel="ASME" translation="ASME"/>
+	<label commandName="NewFusionDrawingFormatISOInput" devLabel="ISO" translation="ISO"/>
+	<label commandName="NewFusionDrawingFormatInput" devLabel="Standard" translation="製図規格"/>
+	<label commandName="NewFusionDrawingFullAssembly" devLabel="Full Assembly" translation="完全なアセンブリ"/>
+	<label commandName="NewFusionDrawingSheetSizeInput" devLabel="Sheet Size" translation="シート サイズ"/>
+	<label commandName="NewFusionDrawingUnitsInchesInput" devLabel="in" translation="in"/>
+	<label commandName="NewFusionDrawingUnitsMillimetersInput" devLabel="mm" translation="mm"/>
+	<label commandName="NewOrExistingDrawingInput" devLabel="Drawing" translation="図面"/>
+	<label commandName="NewTableReferenceEmptyTable" devLabel="Empty Table" translation="空のテーブル"/>
+	<label commandName="NewTableReferenceInput" devLabel="Reference" translation="参照"/>
+	<label commandName="NewTableReferenceSelectView" devLabel="Select Drawing View" translation="図面ビューを選択"/>
+	<label commandName="NewTableViewSelectionInput" devLabel="Drawing View" translation="図面ビュー"/>
+	<label commandName="No" devLabel="No" translation="いいえ"/>
+	<label commandName="NoBodyOrSketchForDrawing" devLabel="The design contains neither solid bodies nor sketches. A drawing cannot be created." translation="デザインにはソリッド ボディまたはスケッチが含まれていません。図面を作成できません。"/>
+	<label commandName="NoFrame" devLabel="No Frame" translation="フレームなし"/>
+	<label commandName="NoMeshOrTSplineWillBeIncluded" devLabel="Mesh, T-Spline and surface bodies will not be included in the drawing." translation="メッシュ、T スプライン、およびサーフェス ボディは図面に含められません。"/>
+	<label commandName="NoPartsListOrTableForExportWarning" devLabel="This sheet has no table." translation="このシートにはテーブルがありません。"/>
+	<label commandName="None" devLabel="None" translation="なし"/>
+	<label commandName="Numbering" devLabel="Numbering" translation="番号付け"/>
+	<label commandName="OKButtonCaption" devLabel="OK" translation="OK"/>
+	<label commandName="Off" devLabel="Off" translation="オフ"/>
+	<label commandName="OfflineFusionDrawingItem" devLabel="New Offline Drawing Item" translation="新規オフライン図面項目"/>
+	<label commandName="OffsetDistance" devLabel="Distance" translation="距離"/>
+	<label commandName="Ok" devLabel="OK" translation="OK"/>
+	<label commandName="On" devLabel="On" translation="オン"/>
+	<label commandName="OpenRateLimitedMsg" devLabel="Unable to complete operation due to heavy system load. Please try again in a few minutes." translation="システムの負荷が大きいため操作を完了できません。後ほど再試行してください。"/>
+	<label commandName="OpenRateLimitedTitle" devLabel="Unable to complete operation" translation="操作を完了できません"/>
+	<label commandName="OpenRelatedDesignCommand" devLabel="Open" translation="開く"/>
+	<label commandName="Orientation" devLabel="Orientation" translation="方向"/>
+	<label commandName="Origin Block" devLabel="Origin Block" translation="寸法基点ブロック"/>
+	<label commandName="OutOfDateContent" devLabel="Out of date content" translation="古いコンテンツ"/>
+	<label commandName="OutputDrawingTemplateCaption" devLabel="Output Template" translation="出力テンプレート"/>
+	<label commandName="OutputDrawingTemplateFilter" devLabel="Drawing Template Files (*.f2t)" translation="図面テンプレート ファイル(*.f2t)"/>
+	<label commandName="Overwrite" devLabel="Overwrite" translation="上書き"/>
+	<label commandName="PLM360DownloadFilePathEmpty" devLabel="Cannot insert this file." translation="このファイルを挿入できません。"/>
+	<label commandName="PartsListAllLevelInput" devLabel="All Levels" translation="すべてのレベル"/>
+	<label commandName="PartsListFirstLevelInput" devLabel="First Level" translation="トップ レベル"/>
+	<label commandName="PartsListStructureInput" devLabel="Structure" translation="構造"/>
+	<label commandName="Patent" devLabel="Patent" translation="特許"/>
+	<label commandName="PrimaryPrecision" devLabel="Primary Precision" translation="基本精度"/>
+	<label commandName="PrintDialog_Commit" devLabel="Print" translation="印刷"/>
+	<label commandName="PrintDialog_Printer" devLabel="Printer" translation="プリンタ"/>
+	<label commandName="PrintDialog_Title" devLabel="Print" translation="印刷"/>
+	<label commandName="PrintToFileExistingFilesWarning" devLabel="%1% already exist.&#xA;&#xA;What would you like to do?" translation="%1% は既に存在します。&#xA;&#xA;どうしますか?"/>
+	<label commandName="PrintToFileExistingFilesWarning2" devLabel="%1% already exists.&#xA;&#xA;What would you like to do?" translation="%1% は既に存在します。&#xA;&#xA;どうしますか?"/>
+	<label commandName="PrintToFileFilesInUseWarning" devLabel="%1% cannot be replaced because they are in use." translation="%1% は使用中のため置換できません。"/>
+	<label commandName="PrintToFileFilesInUseWarning2" devLabel="%1% cannot be replaced because it is in use." translation="%1% は使用中のため置換できません。"/>
+	<label commandName="PrintToFileList1" devLabel="and another %1% files" translation="および別の %1% 個のファイル"/>
+	<label commandName="PrintToFileList2" devLabel="and another %1% file" translation="および別の %1% 個のファイル"/>
+	<label commandName="PrinterList_Printer" devLabel="Printer" translation="プリンタ"/>
+	<label commandName="Range" devLabel="Range (Multi-File)" translation="範囲(複数ファイル)"/>
+	<label commandName="RangePreviewText" devLabel="eg. 1-4, 8, 9" translation="例: 1 ～ 4、8、9"/>
+	<label commandName="RedoCommand" devLabel="Redo" translation="やり直し"/>
+	<label commandName="RedoCommandDesc" devLabel="Redo" translation="やり直し"/>
+	<label commandName="ReferenceBtn" devLabel="Reference Dimension" translation="参照寸法"/>
+	<label commandName="ReferenceLabelStr" devLabel="Reference: " translation="参照: "/>
+	<label commandName="ReferencedDesignNotLastestVersion" devLabel="Referenced design is not the latest version. The latest version will be opened." translation="参照先のデザインが最新バージョンではありません。 最新バージョンが開きます。"/>
+	<label commandName="Referral" devLabel="Refer a Friend" translation="お友達を紹介"/>
+	<label commandName="RenumberSelectionInput" devLabel="Selection" translation="選択"/>
+	<label commandName="RenumberStartingNumber" devLabel="Starting Number" translation="開始番号"/>
+	<label commandName="Representation" devLabel="Representation" translation="リプレゼンテーション"/>
+	<label commandName="RepresentationCntlGroup" devLabel="Representation" translation="リプレゼンテーション"/>
+	<label commandName="ResetDefault" devLabel="Reset Properties" translation="プロパティをリセット"/>
+	<label commandName="RestartSelectionInput" devLabel="Restart Selection" translation="選択を再開"/>
+	<label commandName="Revision" devLabel="Rev." translation="履歴"/>
+	<label commandName="Right" devLabel="Right" translation="右"/>
+	<label commandName="RotateAngleInput" devLabel="Angle" translation="角度"/>
+	<label commandName="RotateReference" devLabel="Reference" translation="参照"/>
+	<label commandName="RotateTransformPtPtTooltip" devLabel="Rotate" translation="回転"/>
+	<label commandName="Round" devLabel="Round" translation="円形"/>
+	<label commandName="SE Isometric" devLabel="SE Isometric" translation="南東アイソメ ビュー"/>
+	<label commandName="SW Isometric" devLabel="SW Isometric" translation="南西アイソメ ビュー"/>
+	<label commandName="Scale" devLabel="Scale" translation="尺度"/>
+	<label commandName="SecondFrame" devLabel="Second Frame" translation="2 番目のフレーム"/>
+	<label commandName="SelectDrawingComponents" devLabel="Select components to include in drawing" translation="図面に含めるコンポーネントを選択"/>
+	<label commandName="SelectedSheets" devLabel="Selected Sheets (Multi-File)" translation="選択したシート(複数ファイル)"/>
+	<label commandName="SelectionInput" devLabel="Selection" translation="選択"/>
+	<label commandName="SelectionInputSimpleStyleTail" devLabel="selected" translation="選択済み"/>
+	<label commandName="SelectionInputSimpleStyleTail2" devLabel="Selected" translation="選択"/>
+	<label commandName="ShadedWithVisibleAndHiddenEdges" devLabel="Shaded with Hidden Edges" translation="シェーディング、隠線エッジ表示"/>
+	<label commandName="ShadedWithVisibleEdges" devLabel="Shaded" translation="シェーディング"/>
+	<label commandName="Sheet" devLabel="Sheet" translation="シート"/>
+	<label commandName="SheetSet" devLabel="Sheet Set" translation="シート セット"/>
+	<label commandName="SheetSizeBrowserLabel" devLabel="Sheet Size: " translation="シート サイズ: "/>
+	<label commandName="SheetSizeBrowserToolTip" devLabel="Change Sheet Size" translation="シート サイズを変更"/>
+	<label commandName="Shortened" devLabel="Shortened" translation="短縮"/>
+	<label commandName="SimpleDialog_Cancel" devLabel="Cancel" translation="キャンセル"/>
+	<label commandName="SimpleDialog_Commit" devLabel="OK" translation="OK"/>
+	<label commandName="Size" devLabel="Size" translation="サイズ"/>
+	<label commandName="SketchAlreadyPresent" devLabel="A sketch with same name already exists." translation="同じ名前のスケッチが既に存在します。"/>
+	<label commandName="SketchNameTooLong" devLabel="Sketch name is too long." translation="スケッチの名前が長すぎます。"/>
+	<label commandName="SketchShowHideCommand" devLabel="Show/Hide" translation="表示/非表示"/>
+	<label commandName="Source" devLabel="Source" translation="ソース"/>
+	<label commandName="Standard" devLabel="Standard" translation="標準"/>
+	<label commandName="Storyboard" devLabel="Storyboard" translation="ストーリーボード"/>
+	<label commandName="StoryboardRepresentation" devLabel="Storyboard" translation="ストーリーボード"/>
+	<label commandName="Survey" devLabel="Send Your Feedback" translation="フィードバックを送信"/>
+	<label commandName="Symmetrical" devLabel="Symmetrical" translation="対称"/>
+	<label commandName="TEBtn" devLabel="Theoretically Exact" translation="理論的に一致"/>
+	<label commandName="TableDirectionInput" devLabel="Table Direction" translation="テーブルの方向"/>
+	<label commandName="TangentEdges" devLabel="Tangent Edges" translation="接線エッジ"/>
+	<label commandName="TechnicalRef" devLabel="Technical reference" translation="テクニカル リファレンス"/>
+	<label commandName="TemplateSheetName_Assembly" devLabel="Assembly" translation="アセンブリ"/>
+	<label commandName="TemplateSheetName_AssemblyInstruction" devLabel="Assembly Instruction" translation="アセンブリ インストラクション"/>
+	<label commandName="TemplateSheetName_Component" devLabel="Component Detail" translation="コンポーネント詳細"/>
+	<label commandName="TemplateSheetName_SheetMetal" devLabel="Sheet Metal Detail" translation="シート メタル詳細"/>
+	<label commandName="TextAlignment" devLabel="Text Alignment" translation="寸法値の位置合わせ"/>
+	<label commandName="TextBold" devLabel="Bold" translation="太字"/>
+	<label commandName="TextCommands" devLabel="Text Commands" translation="テキスト コマンド"/>
+	<label commandName="TextFont" devLabel="Font" translation="フォント"/>
+	<label commandName="TextHeight" devLabel="Height" translation="高さ"/>
+	<label commandName="TextItalic" devLabel="Italic" translation="斜体"/>
+	<label commandName="TextStyle" devLabel="" translation=""/>
+	<label commandName="TextUnderline" devLabel="Underline" translation="下線"/>
+	<label commandName="Thick" devLabel="Thick" translation="太い"/>
+	<label commandName="Thin" devLabel="Thin" translation="細い"/>
+	<label commandName="ThreadEdges" devLabel="Thread Edges" translation="ねじのエッジ"/>
+	<label commandName="Title1" devLabel="Title" translation="タイトル"/>
+	<label commandName="Title2" devLabel="" translation=""/>
+	<label commandName="Title3" devLabel="" translation=""/>
+	<label commandName="TitleBlockAttributesGroup" devLabel="Attributes" translation="属性"/>
+	<label commandName="TitleBlockBrowserLabel" devLabel="Title Block: " translation="表題欄: "/>
+	<label commandName="TitleBlockBrowserToolTip" devLabel="Change Title Block" translation="表題欄を変更"/>
+	<label commandName="TitleBlockDeleteLogo" devLabel="Delete Image" translation="イメージを削除"/>
+	<label commandName="TitleBlockInsertLogo" devLabel="Insert Image" translation="イメージを挿入"/>
+	<label commandName="TitleBlockLogoDistX" devLabel="X Distance" translation="X 距離"/>
+	<label commandName="TitleBlockLogoDistY" devLabel="Y Distance" translation="Y 方向の距離"/>
+	<label commandName="TitleBlockLogoGroup" devLabel="Logo" translation="ロゴ"/>
+	<label commandName="TitleBlockLogoRotate" devLabel="Rotate" translation="回転"/>
+	<label commandName="TitleBlockLogoScale" devLabel="Scale" translation="尺度"/>
+	<label commandName="TitleBlockProject" devLabel="Project" translation="プロジェクト"/>
+	<label commandName="ToggleOtherGeometry" devLabel="Toggle Other Geometry" translation="他のジオメトリに切り替え"/>
+	<label commandName="TogglePaletteBorder" devLabel="Toggle Palette Border" translation="パレットの境界を切り替え"/>
+	<label commandName="TogglePaletteGrid" devLabel="Toggle Palette Grid" translation="パレット グリッドを切り替え"/>
+	<label commandName="TogglePaletteSheet" devLabel="Toggle Palette Sheet" translation="パレット シートを切り替え"/>
+	<label commandName="TogglePaletteSnap" devLabel="Toggle Palette Snap" translation="パレット スナップを切り替え"/>
+	<label commandName="Tolerance" devLabel="Tolerance" translation="許容差"/>
+	<label commandName="ToleranceCntlGroup" devLabel="Tolerance" translation="許容差"/>
+	<label commandName="ToleranceType" devLabel="Type" translation="タイプ"/>
+	<label commandName="Top" devLabel="Top" translation="上"/>
+	<label commandName="TransformPointToPoint" devLabel="Transform" translation="移動"/>
+	<label commandName="TransformSelectionInput" devLabel="Selection" translation="選択"/>
+	<label commandName="Type" devLabel="Type" translation="タイプ"/>
+	<label commandName="UndoCommand" devLabel="Undo" translation="元に戻す"/>
+	<label commandName="UndoCommandDesc" devLabel="Undo" translation="元に戻す"/>
+	<label commandName="UnsavedDocumentLabel" devLabel="(Unsaved)" translation="(未保存)"/>
+	<label commandName="Update2NonMilestoneFromMilestone" devLabel="No new milestones available. Do you want to update the referenced design to the latest version?" translation="新しいマイルストーンを使用できません。参照先のデザインを最新バージョンに更新しますか?"/>
+	<label commandName="UpperTolerance" devLabel="Upper Tolerance" translation="上限公差"/>
+	<label commandName="VersionExistsLabelStr" devLabel=" exists)" translation=" 存在します)"/>
+	<label commandName="VersionLabelStr" devLabel="&#xA;Version: " translation="&#xA;バージョン: "/>
+	<label commandName="VersionOutdatedStr" devLabel="Drawing is out of date; it's referencing an older version of the design. &#xA;&#xA;Click to update the drawing to the latest version." translation="図面は最新ではありません。古いバージョンのデザインを参照しています。&#xA;&#xA;クリックすると図面が最新バージョンに更新されます。"/>
+	<label commandName="VersionUnavailableNowStr" devLabel="&#xA;Version information unavailable at the moment" translation="&#xA;現在、バージョン情報は利用できません"/>
+	<label commandName="VersionUnavailableStr" devLabel="&#xA;Version information unavailable offline" translation="&#xA;バージョン情報はオフラインでは利用できません"/>
+	<label commandName="VersionUpdatedStr" devLabel="Drawing is up to date; it's referencing the latest version of the design." translation="図面は最新です。デザインの最新バージョンを参照しています。"/>
+	<label commandName="VeryThick" devLabel="Very Thick" translation="非常に太い"/>
+	<label commandName="VeryThin" devLabel="Very Thin" translation="非常に細い"/>
+	<label commandName="ViewStyle" devLabel="Style" translation="スタイル"/>
+	<label commandName="VisibleAndHiddenEdge" devLabel="Visible and Hidden Edges" translation="表示エッジと隠線エッジ"/>
+	<label commandName="VisibleEdges" devLabel="Visible Edges" translation="表示エッジ"/>
+	<label commandName="Weight" devLabel="Weight" translation="ウェイト"/>
+	<label commandName="Yes" devLabel="Yes" translation="はい"/>
+	<label commandName="alignLeft" devLabel="Left" translation="左"/>
+	<label commandName="alignRight" devLabel="Right" translation="右"/>
+	<label commandName="bottomCenter" devLabel="Bottom Center" translation="中心下"/>
+	<label commandName="bottomLeft" devLabel="Bottom Left" translation="左下"/>
+	<label commandName="bottomRight" devLabel="Bottom Right" translation="右下"/>
+	<label commandName="bottomToTop" devLabel="Up" translation="上"/>
+	<label commandName="centerText" devLabel="Center" translation="中心"/>
+	<label commandName="columnVisibility" devLabel="Toggle Column Visibility" translation="列の表示/非表示を切り替えます"/>
+	<label commandName="cutCheckBoxes" devLabel="Check Boxes for Participants" translation="切り取りへの関与に関するチェック ボックス"/>
+	<label commandName="cutParticipantTable" devLabel="Cut Participant Table" translation="切り取りに関与するコンポーネントのテーブル"/>
+	<label commandName="cutTableGroup" devLabel="Objects To Cut" translation="切り取るオブジェクト"/>
+	<label commandName="deleteColumn" devLabel="Delete Selected Columns" translation="選択した列を削除"/>
+	<label commandName="deleteRow" devLabel="Delete Selected Rows" translation="選択した行を削除"/>
+	<label commandName="department" devLabel="Dept." translation="部門"/>
+	<label commandName="dwgExtension" devLabel=".dwg" translation=".dwg"/>
+	<label commandName="dxfExtension" devLabel=".dxf" translation=".dxf"/>
+	<label commandName="editColumns" devLabel="Edit Columns" translation="列を編集"/>
+	<label commandName="editRows" devLabel="Edit Rows" translation="行を編集"/>
+	<label commandName="fd_buttonAbort" devLabel="Abort" translation="中止"/>
+	<label commandName="fd_buttonIgnore" devLabel="Ignore" translation="無視"/>
+	<label commandName="fd_buttonRetry" devLabel="Retry" translation="再試行"/>
+	<label commandName="fd_button_continue" devLabel="Continue" translation="続行"/>
+	<label commandName="fd_button_try_again" devLabel="Try Again" translation="再試行してください"/>
+	<label commandName="in" devLabel="in" translation="in"/>
+	<label commandName="insertColumnToLeft" devLabel="Insert Columns To Left" translation="列を左に挿入"/>
+	<label commandName="insertColumnToRight" devLabel="Insert Columns To Right" translation="列を右に挿入"/>
+	<label commandName="insertRowAbove" devLabel="Insert Rows Above" translation="行を上に挿入"/>
+	<label commandName="insertRowBelow" devLabel="Insert Rows Below" translation="行を下に挿入"/>
+	<label commandName="inspectionLabelTextDefault" devLabel="" translation=""/>
+	<label commandName="itemAddBreak" devLabel="Add Break" translation="寸法マスクを追加"/>
+	<label commandName="itemDown" devLabel="Down" translation="下"/>
+	<label commandName="itemRemoveBreak" devLabel="Remove Break" translation="寸法マスクを削除"/>
+	<label commandName="itemUP" devLabel="Up" translation="上"/>
+	<label commandName="justify" devLabel="Justify" translation="位置合わせ"/>
+	<label commandName="lclzAddSheet" devLabel="Quick Add" translation="クイックに追加"/>
+	<label commandName="lclzAlreadyIsUse" devLabel="The name &quot;%1%&quot; is already is use. &#xA; You will need to enter a different name." translation="&quot;%1%&quot; という名前は既に使用されています。&#xA;別の名前を入力する必要があります。"/>
+	<label commandName="lclzAskIfNeedToGetLatest" devLabel="Version mismatch. Get Latest to proceed with view placement?" translation="バージョンが一致しません。[最新を取得]して、ビューの配置を続行しますか?"/>
+	<label commandName="lclzBorderPalette" devLabel="Border" translation="境界"/>
+	<label commandName="lclzBorderTab" devLabel="BORDER" translation="境界"/>
+	<label commandName="lclzBrowse" devLabel="Browse..." translation="参照..."/>
+	<label commandName="lclzCannotFindTemplate" devLabel="The selected drawing template cannot be found." translation="選択された図面テンプレートが見つかりません。"/>
+	<label commandName="lclzChangeDocSettingDesc" devLabel="Some document settings are read-only, because they can only be set when you first create a drawing, or they are controlled by a standard." translation="一部のドキュメントの設定は読み取り専用です。これらの設定は、最初に図面を作成するときにのみ設定できるか、標準によってコントロールされるためです。"/>
+	<label commandName="lclzChangeDocSettingTips" devLabel="View or change document settings related to standards, units, text, dimensions, and line widths for the current drawing." translation="現在の図面の標準、単位、テキスト、寸法、および線幅に関連するドキュメントの設定を表示または変更します。"/>
+	<label commandName="lclzChangeDocSettingTipsAndTricksTitle" devLabel="Document Settings Information" translation="ドキュメントの設定情報"/>
+	<label commandName="lclzChangeSheetSettingDesc" devLabel="You can create as many title blocks as you need and switch between them. You can also toggle the border and title block on or off independently." translation="必要な数だけ表題欄を作成し、それらを切り替えることができます。境界と表題欄のオンまたはオフを個別に切り替えることもできます。"/>
+	<label commandName="lclzChangeSheetSettingTips" devLabel="Change the sheet size and title block for the current drawing." translation="現在の図面のシート サイズと表題欄を変更します。"/>
+	<label commandName="lclzChangeSheetSettingTipsAndTricksTitle" devLabel="Sheet Settings Information" translation="シートの設定情報"/>
+	<label commandName="lclzContainsUnsupportedChars" devLabel="The name contains unsupported characters" translation="名前にサポートされていない文字が含まれています。"/>
+	<label commandName="lclzCurrentDrawing" devLabel="Current Drawing" translation="現在の図面"/>
+	<label commandName="lclzDefaultDocumentName" devLabel="Untitled" translation="無題"/>
+	<label commandName="lclzDimensions" devLabel="Dimensions" translation="寸法"/>
+	<label commandName="lclzExportFusionDrawingDocument1" devLabel="Creates a DXF file of the current drawing." translation="現在の図面の DXF ファイルを作成します。"/>
+	<label commandName="lclzExportFusionDrawingTemplate1" devLabel="Creates a drawing template of the current drawing configuration that can be used when creating new drawings." translation="新しい図面を作成するときに使用可能な、現在の図面設定の図面テンプレートを作成します。"/>
+	<label commandName="lclzExportFusionDrawingTemplate2" devLabel="A template retains the current drawing's drafting standard, annotation and sheet settings, title block, and border. All drawing views, associated annotations, and parts lists are removed." translation="テンプレートは、現在の図面の製図規格、注記とシートの設定、表題欄、および図面枠を保持します。図面ビュー、関連する注釈、およびパーツ一覧はすべて削除されます。"/>
+	<label commandName="lclzFinishBlock" devLabel="Finish Title Block" translation="表題欄を終了"/>
+	<label commandName="lclzFinishBorder" devLabel="Finish Border" translation="境界を終了"/>
+	<label commandName="lclzFinishEdit" devLabel="Finish Title Block" translation="表題欄を終了"/>
+	<label commandName="lclzFinishSketch" devLabel="Finish Sketch" translation="スケッチを終了"/>
+	<label commandName="lclzFromScratch" devLabel="From Scratch" translation="最初から"/>
+	<label commandName="lclzFusionDocTab" devLabel="DRAWING" translation="図面"/>
+	<label commandName="lclzFusionDrawingAddSheetTips" devLabel="Add a new sheet which by default inherits the properties of the active sheet, or select the desired options. " translation="アクティブなシートのプロパティを既定で継承する新しいシートを追加するか、目的のオプションを選択します。 "/>
+	<label commandName="lclzFusionDrawingAddSheetTipsDesc" devLabel="Right-click anywhere within the sheet bar to add a new sheet there." translation="シート バー内の任意の場所を右クリックすると、新しいシートを追加できます。"/>
+	<label commandName="lclzFusionDrawingAddSheetTitle" devLabel="Add Sheet Information" translation="シートの情報を追加する"/>
+	<label commandName="lclzFusionDrawingAlignBalloon1" devLabel="Select existing balloons to align, then specify two points." translation="位置合わせする既存のバルーンを選択し、2 点を指定します。"/>
+	<label commandName="lclzFusionDrawingAlignBalloon2" devLabel="Balloons are aligned and distributed equally between the two points." translation="バルーンが位置合わせされ、2 点間で等間隔に配置されます。"/>
+	<label commandName="lclzFusionDrawingAlignedDimension1" devLabel="Measures the precise distance between two points. Create dimensions that are parallel to the locations or objects that you specify." translation="2 点間の正確な距離を計測します。指定した位置またはオブジェクトに平行な寸法を作成します。"/>
+	<label commandName="lclzFusionDrawingAngularDimension1" devLabel="Measures the angle of a rounded edge or the angle between two points or edges." translation="丸みのあるエッジの角度、2 点間または 2 つのエッジ間の角度を計測します。"/>
+	<label commandName="lclzFusionDrawingArc1" devLabel="Creates an arc using 3 points." translation="3 点を指定して円弧を作成します。"/>
+	<label commandName="lclzFusionDrawingArc2" devLabel="Specify the arc's start point, middle point and end point." translation="円弧の始点、中点、終点を指定します。"/>
+	<label commandName="lclzFusionDrawingArrow1" devLabel="Creates a leader within the sketch." translation="スケッチ内に引出線を作成します。"/>
+	<label commandName="lclzFusionDrawingArrow2" devLabel="Specify the leader's start point, then its end point." translation="引出線の始点を指定し、次に終点を指定します。"/>
+	<label commandName="lclzFusionDrawingAttribute1" devLabel="Specify a point then enter the attribute's prompt. When finished, click outside the text editor." translation="点を指定し、属性のプロンプトを入力します。終了したら、テキスト エディタの外側をクリックします。"/>
+	<label commandName="lclzFusionDrawingBalloon" devLabel="Select a component within a drawing view, then place the balloon." translation="図面ビュー内のコンポーネントを選択し、次にバルーンを配置します。"/>
+	<label commandName="lclzFusionDrawingBalloonRenumber1" devLabel="Specify a starting number, then select existing balloons or bend identifiers." translation="開始番号を指定し、既存のバルーンまたは曲げ ID を選択します。"/>
+	<label commandName="lclzFusionDrawingBalloonRenumber2" devLabel="Balloons and bend identifiers are renumbered based on the order they are selected. Parts lists and bend tables will automatically sort based on the renumbering." translation="バルーンと曲げ ID は、選択されている順序に基づいて再番号付けされます。パーツ一覧と曲げテーブルは再番号付けに基づいて自動的にソートされます。"/>
+	<label commandName="lclzFusionDrawingBaselineDimension1" devLabel="Select an existing linear dimension, then specify a point to create a new dimension." translation="既存の長さ寸法を選択し、新しい寸法を作成する点を指定します。"/>
+	<label commandName="lclzFusionDrawingBaselineDimension2" devLabel="Continue specifying points to create multiple dimensions all originating from the same base point." translation="基点がすべて同じ寸法を複数作成するには、引き続き点を指定します。"/>
+	<label commandName="lclzFusionDrawingBendID" devLabel="Select a bend centerline within a flat pattern drawing view. A bend identifier is created." translation="フラット パターンの図面ビュー内の曲げ中心線を選択します。曲げ ID が作成されます。"/>
+	<label commandName="lclzFusionDrawingBlocCloseCommandTip1" devLabel="Closes the editor and returns to the drawing or drawing template." translation="エディタを閉じ、図面または図面テンプレートに戻ります。"/>
+	<label commandName="lclzFusionDrawingBlockEditorImageInsert1" devLabel="Inserts the selected image into the current block definition." translation="選択したイメージを現在のブロック定義に挿入します。"/>
+	<label commandName="lclzFusionDrawingCenterPattern1" devLabel="Select rounded edges, such as holes or fillets. A center mark pattern including a PCD is created." translation="穴やフィレットなど丸みのあるエッジを選択してください。PCD を含む中心マーク パターンが作成されます。"/>
+	<label commandName="lclzFusionDrawingCenterPatternEdit1" devLabel="Select an existing centermark pattern for editing." translation="編集のために既存の中心マーク パターンを選択します。"/>
+	<label commandName="lclzFusionDrawingCenterPatternTipsDesc" devLabel="A Reference Edge has to be selected while creating a center mark pattern for a slot." translation="スロットの中心マーク パターンの作成中に参照エッジを選択する必要があります。"/>
+	<label commandName="lclzFusionDrawingCenterPatternTipsTips" devLabel="Select the edges of features (e.g. holes) in the appropriate order to form the required center mark pattern. The Auto-complete checkbox is checked by default. The Center Mark Pattern is created automatically when you click just one hole or rounded edge." translation="フィーチャのエッジ(穴など)を適切な順序で選択して必要な中心マーク パターンを形成します。[自動完了]チェックボックスは既定でオンになっています。中心マーク パターンは、穴または丸みのあるエッジを 1 つクリックすると自動的に作成されます。"/>
+	<label commandName="lclzFusionDrawingCenterPatternTipsTitle" devLabel="Center Mark Pattern Information" translation="中心マーク パターンに関する情報"/>
+	<label commandName="lclzFusionDrawingCenterline1" devLabel="Select two straight edges. The centerline is created between them." translation="直線エッジを 2 つ選択します。2 つの直線エッジ間に中心線が作成されます。"/>
+	<label commandName="lclzFusionDrawingCentermark1" devLabel="Select a rounded edge, such as a fillet, hole, sphere, or cylinder." translation="フィレット、穴、球、円柱など、丸みのあるエッジを選択します。"/>
+	<label commandName="lclzFusionDrawingChainDimension1" devLabel="Select an existing linear dimension, then specify a point to create a new dimension." translation="既存の長さ寸法を選択し、新しい寸法を作成する点を指定します。"/>
+	<label commandName="lclzFusionDrawingChainDimension2" devLabel="Continue specifying points to create multiple side-by-side dimensions." translation="並列寸法を複数作成するには、引き続き点を指定します。"/>
+	<label commandName="lclzFusionDrawingCircle1" devLabel="Creates a circle using its center point and radius." translation="中心点と半径を指定して、円を作成します。"/>
+	<label commandName="lclzFusionDrawingCircle2" devLabel="Specify the circle's center point, then specify a second point to define its radius." translation="円の中心点を指定し、次にその半径を定義する 2 番目の点を指定します。"/>
+	<label commandName="lclzFusionDrawingCopy1" devLabel="Select objects to copy, specify a base point, then specify a second point to define the copy's location." translation="コピーするオブジェクトを選択し、基点を指定し、次に、コピーの位置を定義する 2 番目の点を指定します。"/>
+	<label commandName="lclzFusionDrawingCreateFromComponentsTipsDesc" devLabel="For more control over drawing defaults, make adjustments in Preferences in your User Name drop-down in the top right." translation="図面の既定をさらに細かく設定するには、右上の[ユーザ名]ドロップダウンの[基本設定]で調整を行います。"/>
+	<label commandName="lclzFusionDrawingCreateFromComponentsTipsTips" devLabel="Standard and Units cannot be changed once a drawing is created. Sheet size, however, can be adjusted at any time in Sheet Settings." translation="図面の作成後は、標準および単位を変更できません。ただし、シート サイズは、[シート設定]でいつでも変更することができます。"/>
+	<label commandName="lclzFusionDrawingCreateFromComponentsTipsTitle" devLabel="Create Drawing Information" translation="[図面を作成]に関する情報"/>
+	<label commandName="lclzFusionDrawingCreatePartsList1" devLabel="Generates a parts list of the model associated to the drawing." translation="図面に関連付けられたモデルのパーツ一覧を生成します。"/>
+	<label commandName="lclzFusionDrawingDatumId1" devLabel="Select an edge, or an existing dimension, or an existing feature control frame symbol, then place the datum identifier." translation="エッジ、既存の寸法、または既存の幾何公差記号を選択し、データム ID を配置します。"/>
+	<label commandName="lclzFusionDrawingDatumIdTipsDesc" devLabel="To create a surface symbol in an ISO drawing, select an object, right-click to activate the marking menu, and select Surface." translation="ISO 図面にサーフェスの記号を作成するには、オブジェクトを選択し、右クリックしてマーキング メニューをアクティブにして、[サーフェス]を選択します。"/>
+	<label commandName="lclzFusionDrawingDatumIdTipsTips" devLabel="Symbols can be added from the text field in the drop-down menu." translation="記号は、ドロップダウン メニューのテキスト フィールドから追加できます。"/>
+	<label commandName="lclzFusionDrawingDatumIdTipsTitle" devLabel="Datum Identifier Information" translation="データム ID の情報"/>
+	<label commandName="lclzFusionDrawingDiameterDimension1" devLabel="Select a rounded edge, such as a fillet, hole, sphere, or cylinder, then place the dimension." translation="フィレット、穴、球、円柱など、丸みのあるエッジを選択し、寸法を配置します。"/>
+	<label commandName="lclzFusionDrawingDimensionBreak" devLabel="Select existing dimensions or leaders, then add or remove breaks where they overlap other dimensions and leaders." translation="既存の寸法または引出線を選択し、その他の寸法および引出線とオーバーラップする寸法マスクを追加または削除します。"/>
+	<label commandName="lclzFusionDrawingDimensionBreakTipsDesc" devLabel="Dimension Break breaks the selected intersecting dimensions at the intersection points. You can also add a Dimension Break to other objects like Balloons, Bend Identifiers, and Leaders." translation="寸法マスクは交点で選択した交差寸法をマスクします。バルーン、曲げ ID、および引出線などの他のオブジェクトに寸法マスクを追加することもできます。"/>
+	<label commandName="lclzFusionDrawingDimensionBreakTipsTips" devLabel="Right-click on selected dimesnions to create Dimension Breaks." translation="選択した寸法を右クリックし、寸法マスクを作成します。"/>
+	<label commandName="lclzFusionDrawingDimensionBreakTipsTitle" devLabel="Dimension Break Information" translation="寸法マスク情報"/>
+	<label commandName="lclzFusionDrawingDimensionEdit1" devLabel="Select a dimension to modify its properties." translation="寸法を選択し、寸法のプロパティを修正します。"/>
+	<label commandName="lclzFusionDrawingDimensionEditTipsDesc" devLabel="You can restore default properties if you modify the precision, alternate units, or tolerance type. Select the dimension, right-click to access the marking menu, and select Restore Defaults." translation="精度、変換単位、または公差のタイプを変更する場合、既定のプロパティを復元できます。寸法を選択し、右クリックしてマーキング メニューにアクセスし、[既定に戻す]を選択します。"/>
+	<label commandName="lclzFusionDrawingDimensionEditTipsTips" devLabel="To change the settings for all dimensions on a sheet, use Annotation Settings at the bottom of the drawing area." translation="シート上のすべての寸法の設定を変更するには、作図領域の下部にある[注記の設定]を使用します。"/>
+	<label commandName="lclzFusionDrawingDimensionEditTipsTitle" devLabel="Dimension Edit Information" translation="[寸法編集]に関する情報"/>
+	<label commandName="lclzFusionDrawingEdgeExtension1" devLabel="Select two straight edges.  An edge extension is created for each edge that terminates at their intersection." translation="2 つの直線状エッジを選択します。エッジ延長は交点で終了する各エッジに作成されます。"/>
+	<label commandName="lclzFusionDrawingEllipse1" devLabel="Creates an ellipse." translation="楕円を作成します。"/>
+	<label commandName="lclzFusionDrawingEllipse2" devLabel="The first two points of the ellipse determine the location and length of the first axis. The third point determines the distance between the center of the ellipse and the end point of the second axis." translation="楕円の最初の 2 つの点によって、最初の軸の位置と長さが決まります。3 番目の点は、楕円の中心と 2 番目の軸の端点の間の距離を決定します。"/>
+	<label commandName="lclzFusionDrawingErase1" devLabel="Select objects to delete, then press Enter." translation="削除するオブジェクトを選択し、[Enter]を押します。"/>
+	<label commandName="lclzFusionDrawingEraseTipsDesc" devLabel="Deselect objects by holding Shift while dragging across or clicking objects." translation="[Shift]キーを押しながらオブジェクト上をドラッグするかオブジェクトをクリックして、選択を解除します。"/>
+	<label commandName="lclzFusionDrawingEraseTipsTips" devLabel="Click and drag to select multiple objects. A selection box from left to right will select all objects completely within the box. A selection box from right to left will select all objects partially within the box." translation="複数のオブジェクトを選択するにはクリック アンド ドラッグします。選択ボックスを左から右にドラッグすると、ボックス内に完全に入っているオブジェクトすべてを選択できます。選択ボックスを右から左にドラッグすると、ボックス内に一部でも入っているオブジェクトすべてを選択できます。"/>
+	<label commandName="lclzFusionDrawingEraseTipsTitle" devLabel="Delete Information" translation="[削除]に関する情報"/>
+	<label commandName="lclzFusionDrawingExportDxfTips" devLabel="Hold either the Shift or Ctrl keys to select multiple sheets on the sheet bar to output a DXF" translation="[Shift]または[Ctrl]キーを押したままシート バーで複数のシートを選択し、DXF を出力します"/>
+	<label commandName="lclzFusionDrawingExportDxfTitle" devLabel="Output DXF Information" translation="DXF の情報を出力"/>
+	<label commandName="lclzFusionDrawingExportPDF1" devLabel="Creates a PDF file of the current drawing." translation="現在の図面の PDF ファイルを作成します。"/>
+	<label commandName="lclzFusionDrawingExportPartsList1" devLabel="Creates a CSV file of the selected table" translation="選択したテーブルの CSV ファイルを作成"/>
+	<label commandName="lclzFusionDrawingExportPdfTips" devLabel="Hold either the Shift or Ctrl keys to select multiple sheets on the sheet bar to output a PDF.&#xA;Check the Open PDF check box to open the PDF when the output is done." translation="シート バーで複数のシートを選択して PDF に出力するには、[Shift]または[Ctrl]キーを使用します。&#xA;出力が完了したときに PDF ファイルを開くには、[PDF を開く]チェック ボックスをオンにします。"/>
+	<label commandName="lclzFusionDrawingExportPdfTitle" devLabel="Output PDF Information" translation="PDF の情報を出力"/>
+	<label commandName="lclzFusionDrawingExtend1" devLabel="Select the objects to extend. All objects automatically become extension boundaries." translation="延長するオブジェクトを選択します。すべてのオブジェクトが自動的に延長境界になります。"/>
+	<label commandName="lclzFusionDrawingFeatureControlFrame1" devLabel="Select either an edge or an existing dimension, then place the feature control frame." translation="エッジまたは既存の寸法を選択し、幾何公差を配置します。"/>
+	<label commandName="lclzFusionDrawingFeatureControlFrameTipsDesc" devLabel="To create a surface symbol in an ISO drawing, select an object, right-click to activate the marking menu, and select Surface." translation="ISO 図面にサーフェスの記号を作成するには、オブジェクトを選択し、右クリックしてマーキング メニューをアクティブにして、[サーフェス]を選択します。"/>
+	<label commandName="lclzFusionDrawingFeatureControlFrameTipsTips" devLabel="Symbols can be added from the text field in the drop-down menu." translation="記号は、ドロップダウン メニューのテキスト フィールドから追加できます。"/>
+	<label commandName="lclzFusionDrawingFeatureControlFrameTipsTitle" devLabel="Feature Control Frame Information" translation="[幾何公差]に関する情報"/>
+	<label commandName="lclzFusionDrawingHatchEdit1" devLabel="Select a hatch to modify its properties." translation="ハッチングを選択し、ハッチングのプロパティを修正します。"/>
+	<label commandName="lclzFusionDrawingHatchEditTipsDesc" devLabel="Each hatch has its own properties. You can only modify one hatch pattern at a time." translation="ハッチングごとに独自のプロパティがあります。一度に 1 つのハッチング パターンのみ修正することができます。"/>
+	<label commandName="lclzFusionDrawingHatchEditTipsTips" devLabel="Double-click a hatch to modify the hatch properties of a section view. Edit the hatch pattern, the scale factor, and the angle of the hatch pattern." translation="ハッチングをダブルクリックして断面図のハッチング プロパティを修正します。ハッチング パターン、尺度係数、ハッチング パターンの角度を編集します。"/>
+	<label commandName="lclzFusionDrawingHatchEditTipsTitle" devLabel="Hatch Edit Information" translation="[ハッチングの編集]に関する情報"/>
+	<label commandName="lclzFusionDrawingImageInsert1" devLabel="Edits the selected image into the current sheet." translation="選択したイメージを現在のシートで編集します。"/>
+	<label commandName="lclzFusionDrawingLeader1" devLabel="Specify the arrowhead location, specify the location of the text, then enter text. When finished, click outside the text editor." translation="矢印の位置を指定し、テキストの位置を指定して、テキストを入力します。完了したら、テキスト エディタの外側をクリックします。"/>
+	<label commandName="lclzFusionDrawingLeaderTipsDesc" devLabel="You can control the font style and text height for all annotations in the drawing by clicking Annotation Settings at the bottom of the drawing area." translation="作図領域の下部にある[注記の設定]をクリックして、図面内のすべての注釈のフォント スタイルと文字の高さをコントロールすることができます。"/>
+	<label commandName="lclzFusionDrawingLeaderTipsTips" devLabel="You can include special characters and symbols by entering a control code or a Unicode string." translation="コントロール コードや Unicode 文字列を入力することにより、特殊文字やシンボルを含めることができます。"/>
+	<label commandName="lclzFusionDrawingLeaderTipsTitle" devLabel="LEADER INFORMATION" translation="[引出線]に関する情報"/>
+	<label commandName="lclzFusionDrawingLine1" devLabel="Creates straight lines." translation="直線を作成します。"/>
+	<label commandName="lclzFusionDrawingLine2" devLabel="Specify the line's start point, then specify a second point to define its angle and length." translation="線分の始点を指定し、その角度と長さを定義する 2 番目の点を指定します。"/>
+	<label commandName="lclzFusionDrawingLinearDimension1" devLabel="Measures the horizontal or vertical distance between two points. Create dimensions by selecting an edge or by selecting two points." translation="2 点間の水平距離または垂直距離を計測します。エッジを選択するか、2 点を選択して、寸法を作成します。"/>
+	<label commandName="lclzFusionDrawingMLeaderContentEdit1" devLabel="Specify the arrowhead location, specify the location of the text, then enter text. When finished, click outside the text editor." translation="矢印の位置を指定し、テキストの位置を指定して、テキストを入力します。完了したら、テキスト エディタの外側をクリックします。"/>
+	<label commandName="lclzFusionDrawingMLeaderContentEditTipsDesc" devLabel="You can control the font style and text height for all annotations in the drawing by clicking Annotation Tools at the bottom of the drawing area." translation="作図領域の下部にある[注釈ツール]をクリックして、図面内のすべての注釈のフォント スタイルと文字の高さをコントロールすることができます。"/>
+	<label commandName="lclzFusionDrawingMLeaderContentEditTipsTips" devLabel="You can include special characters and symbols by entering a control code or a Unicode string." translation="コントロール コードや Unicode 文字列を入力することにより、特殊文字やシンボルを含めることができます。"/>
+	<label commandName="lclzFusionDrawingMLeaderContentEditTipsTitle" devLabel="LEADER INFORMATION" translation="[引出線]に関する情報"/>
+	<label commandName="lclzFusionDrawingMText1" devLabel="Specify the corners for the text box, then enter text. When finished, click outside the text editor." translation="テキスト ボックスのコーナーを指定し、テキストを入力します。完了したら、テキスト エディタの外側をクリックします。"/>
+	<label commandName="lclzFusionDrawingMTextEdit1" devLabel="Specify the corners for the text box, then enter text. When finished, click outside the text editor." translation="テキスト ボックスのコーナーを指定し、テキストを入力します。完了したら、テキスト エディタの外側をクリックします。"/>
+	<label commandName="lclzFusionDrawingMTextEditTipsDesc" devLabel="You can control the font style and text height for all annotations in the drawing by clicking Annotation Tools at the bottom of the drawing area." translation="作図領域の下部にある[注釈ツール]をクリックして、図面内のすべての注釈のフォント スタイルと文字の高さをコントロールすることができます。"/>
+	<label commandName="lclzFusionDrawingMTextEditTipsTips" devLabel="You can include special characters and symbols by entering a control code or a Unicode string." translation="コントロール コードや Unicode 文字列を入力することにより、特殊文字やシンボルを含めることができます。"/>
+	<label commandName="lclzFusionDrawingMTextEditTipsTitle" devLabel="TEXT INFORMATION" translation="[テキスト]に関する情報"/>
+	<label commandName="lclzFusionDrawingMTextTipsDesc" devLabel="You can control the font style and text height for all annotations in the drawing by clicking Annotation Settings at the bottom of the drawing area." translation="作図領域の下部にある[注記の設定]をクリックして、図面内のすべての注釈のフォント スタイルと文字の高さをコントロールすることができます。"/>
+	<label commandName="lclzFusionDrawingMTextTipsTips" devLabel="You can include special characters and symbols by entering a control code or a Unicode string." translation="コントロール コードや Unicode 文字列を入力することにより、特殊文字やシンボルを含めることができます。"/>
+	<label commandName="lclzFusionDrawingMTextTipsTitle" devLabel="TEXT INFORMATION" translation="[テキスト]に関する情報"/>
+	<label commandName="lclzFusionDrawingMeasure1" devLabel="Reports distance, angle and positional data for the selected points." translation="選択した点の距離、角度、および位置データをレポートします。"/>
+	<label commandName="lclzFusionDrawingMove1" devLabel="Select objects to move, then click Transform. Then specify a base point and a second point." translation="移動するオブジェクトを選択し、[移動]をクリックします。次に、基点と 2 番目の点を指定します。"/>
+	<label commandName="lclzFusionDrawingMoveTipsDesc" devLabel="Deselect objects by holding Shift while dragging across or clicking objects." translation="[Shift]キーを押しながらオブジェクト上をドラッグするかオブジェクトをクリックして、選択を解除します。"/>
+	<label commandName="lclzFusionDrawingMoveTipsTips" devLabel="Click and drag to select multiple objects. A selection box from left to right will select all objects completely within the box. A selection box from right to left will select all objects partially within the box." translation="複数のオブジェクトを選択するにはクリック アンド ドラッグします。選択ボックスを左から右にドラッグすると、ボックス内に完全に入っているオブジェクトすべてを選択できます。選択ボックスを右から左にドラッグすると、ボックス内に一部でも入っているオブジェクトすべてを選択できます。"/>
+	<label commandName="lclzFusionDrawingMoveTipsTitle" devLabel="Move Information" translation="[移動]に関する情報"/>
+	<label commandName="lclzFusionDrawingNewTable1" devLabel="Generates a parts list for single component, assembly and animation references, and bend tables for sheet metal flat patterns references." translation="1 つのコンポーネント、アセンブリおよびアニメーション リファレンス用のパーツ一覧と、シート メタルのフラット パターン リファレンスの曲げテーブルを生成します。"/>
+	<label commandName="lclzFusionDrawingNewTableTipsDesc" devLabel="To change the part number and description of a component, modify the component's properties in the Model workspace." translation="パーツ番号とコンポーネントの説明を変更するには、[モデル]作業スペースのコンポーネントのプロパティを修正します。"/>
+	<label commandName="lclzFusionDrawingNewTableTipsTips" devLabel="A parts list that is placed in the bottom half of the drawing sheet will flip its numbering, so that the parts are numbered from bottom to top. To lock or unlock flipping, press Shift." translation="図面シートの下半分に配置されているパーツ一覧の番号付けは反転するため、パーツは下から上に向けて番号が付けられます。 反転をロックまたはロック解除するには、[Shift]を押します。"/>
+	<label commandName="lclzFusionDrawingNewTableTipsTitle" devLabel="Parts List Information" translation="パーツ一覧の情報"/>
+	<label commandName="lclzFusionDrawingOffset1" devLabel="Select the object to offset, enter the offset distance, then specify a point to define to side." translation="オフセットするオブジェクトを選択し、オフセット距離を入力し、側面に定義する点を指定します。"/>
+	<label commandName="lclzFusionDrawingOrdinateDimension1" devLabel="Define view origins and place ordinate dimensions referencing them." translation="ビューの原点を定義して参照する座標寸法を配置します。"/>
+	<label commandName="lclzFusionDrawingPartsListTipsDesc" devLabel="To change the part number and description of a component, modify the component's properties in the Model workspace." translation="パーツ番号とコンポーネントの説明を変更するには、[モデル]作業スペースのコンポーネントのプロパティを修正します。"/>
+	<label commandName="lclzFusionDrawingPartsListTipsTips" devLabel="A parts list that is placed in the bottom half of the drawing sheet will flip its numbering, so that the parts are numbered from bottom to top. To lock or unlock flipping, press Shift." translation="図面シートの下半分に配置されているパーツ一覧の番号付けは反転するため、パーツは下から上に向けて番号が付けられます。反転をロックまたはロック解除するには、[Shift]を押します。"/>
+	<label commandName="lclzFusionDrawingPartsListTipsTitle" devLabel="Parts List Information" translation="[パーツ一覧]に関する情報"/>
+	<label commandName="lclzFusionDrawingRadialDimension1" devLabel="Select a rounded edge, such as a fillet, hole, sphere, or cylinder, then place the dimension." translation="フィレット、穴、球、円柱など、丸みのあるエッジを選択し、寸法を配置します。"/>
+	<label commandName="lclzFusionDrawingRectangle1" devLabel="Creates a rectangle using 2 diagonal points." translation="2 つの対角点を使用して長方形を作成します。"/>
+	<label commandName="lclzFusionDrawingRectangle2" devLabel="Specify the rectangle's start point, then specify a second point to define its width and height." translation="長方形の始点を指定し、その幅と高さを定義する 2 番目の点を指定します。"/>
+	<label commandName="lclzFusionDrawingRotate1" devLabel="Select objects to rotate, then click Transform. Then specify a base point and a rotation angle." translation="回転するオブジェクトを選択し、[移動]をクリックします。 次に、基点と回転角度を指定します。"/>
+	<label commandName="lclzFusionDrawingRotateTipsDesc" devLabel="If you want to redefine your selected objects or re-specify the base point without canceling the command, click Selection to return to Selection mode." translation="選択したオブジェクトを再定義するか、またはコマンドをキャンセルせずに基点を再度指定したい場合は、[選択]をクリックして選択モードに戻ります。"/>
+	<label commandName="lclzFusionDrawingRotateTipsTips" devLabel="After specifying a base point, click Reference Selection to define a reference angle along an edge or between any two points. " translation="基点を指定した後、[参照選択]をクリックして、エッジに沿った参照角度または任意の 2 つの点間を指定します。 "/>
+	<label commandName="lclzFusionDrawingRotateTipsTitle" devLabel="Rotate Information" translation="回転情報"/>
+	<label commandName="lclzFusionDrawingSingleDim1" devLabel="Creates linear, aligned, angular, radius, and diameter dimensions." translation="長さ寸法、平行寸法、角度寸法、半径寸法、直径寸法を作成します。"/>
+	<label commandName="lclzFusionDrawingSingleDim2" devLabel="Select objects, points, edges, existing dimensions, or select two points. Then place the dimension. The most appropriate dimension type is created." translation="オブジェクト、点、エッジ、既存の寸法を選択するか、2 つの点を選択します。次に、寸法を配置します。最適な寸法タイプが作成されます。"/>
+	<label commandName="lclzFusionDrawingSketchClose1" devLabel="Closes the sketch editing mode." translation="スケッチ編集モードを終了します。"/>
+	<label commandName="lclzFusionDrawingSketchCreate1" devLabel="Enters Sketch mode and creates a new sketch on the current sheet." translation="スケッチ モードに入り、現在のシートに新しいスケッチを作成します。"/>
+	<label commandName="lclzFusionDrawingSketchCreate2" devLabel="Select Finish Sketch to exit out of the mode." translation="[スケッチを終了]を選択してモードを終了します。"/>
+	<label commandName="lclzFusionDrawingSurfaceTexture1" devLabel="Select an edge, or an existing dimension, or an existing feature control frame symbol, then place the surface texture." translation="エッジ、既存の寸法、または既存の幾何公差記号を選択し、面の指示記号を配置します。"/>
+	<label commandName="lclzFusionDrawingSurfaceTextureTipsDesc" devLabel="To attach a surface texture to a surface in an ISO drawing, select an object, right-click to activate the marking menu, and select Surface." translation="ISO 図面でサーフェスに面の指示記号をアタッチするには、オブジェクトを選択して右クリックし、マーキング メニューをアクティブにして、[サーフェス]を選択します。"/>
+	<label commandName="lclzFusionDrawingSurfaceTextureTipsTips" devLabel="The available properties in the dialog box depend on which symbol type is selected, and the drafting standard in use." translation="ダイアログ ボックスで指定できるプロパティは、選択した記号タイプおよび使用している製図規格に応じて異なります。"/>
+	<label commandName="lclzFusionDrawingSurfaceTextureTipsTitle" devLabel="Surface Texture Information" translation="[面の指示記号]に関する情報"/>
+	<label commandName="lclzFusionDrawingSymbolEdit1" devLabel="Edit a symbol." translation="シンボルを編集します。"/>
+	<label commandName="lclzFusionDrawingTable" devLabel="Insert a blank table to add data manually." translation="データを手動で追加するには、空のテーブルを挿入します。"/>
+	<label commandName="lclzFusionDrawingTableEditTipsDesc" devLabel="To change the width of a column without changing the width of other columns, select a cell and use the grips that appear around that particular cell. The overall width of the table changes but the other columns maintain the same width. To change the width of a column without changing the overall width of the table, select the whole table by clicking on table or cell border and use the grips that appear on table columns." translation="他の列の幅を変更せずに列の幅を変更するには、セルを選択し、特定のセルの周囲に表示されるグリップを使用します。テーブル全体の幅は変わりますが、他の列では同じ幅が維持されます。テーブルの全体の幅を変更せずに列の幅を変更するには、テーブルまたはセル境界をクリックしてテーブル全体を選択し、テーブルの列に表示されるグリップを使用します。"/>
+	<label commandName="lclzFusionDrawingTableEditTipsTips" devLabel="When a cell is selected, double-click to edit the cell text. You can also start entering text when a cell is highlighted to replace its current content." translation="セルを選択中にダブルクリックすると、セルの文字を編集することがます。また、セルの現在の内容がハイライト表示されている場合は、テキスト入力を開始することで内容を置き換えることができます。"/>
+	<label commandName="lclzFusionDrawingTableEditTipsTitle" devLabel="TABLE EDIT INFORMATION" translation="[テーブルを編集]に関する情報"/>
+	<label commandName="lclzFusionDrawingTemplateImageInsert1" devLabel="Inserts the selected image into the current sheet." translation="選択したイメージを現在のシートに挿入します。"/>
+	<label commandName="lclzFusionDrawingTitleBlockEditTipsDesc" devLabel="When you insert your own title block, the origin point (0,0) in the DWG will equate to the bottom right corner of the Fusion Drawing border." translation="独自作成した表題欄の DWG を挿入する際、DWG の原点(0,0)は Fusion 図面枠の右下コーナーに相当します。"/>
+	<label commandName="lclzFusionDrawingTitleBlockEditTipsTips" devLabel="The drawing's standard, ASME or ISO, defines the default title block. You can insert your own DWG file as a title block using Insert Title Block within Sheet Settings." translation="図面の規格、ASME、または ISO によって既定の表題欄が定義されます。[シート設定]の[表題欄を挿入]を使用して、表題欄として独自の DWG ファイルを挿入することができます。"/>
+	<label commandName="lclzFusionDrawingTitleBlockEditTipsTitle" devLabel="Title Block Information" translation="表題欄の情報"/>
+	<label commandName="lclzFusionDrawingTrim1" devLabel="Select the objects to trim. All objects automatically become cutting boundaries." translation="トリムするオブジェクトを選択します。すべてのオブジェクトが自動的に切り取り境界になります。"/>
+	<label commandName="lclzFusionDrawingViewBase1" devLabel="Generates a base view of the referenced design." translation="参照先のデザインのベース ビューを生成します。"/>
+	<label commandName="lclzFusionDrawingViewBaseTemplate1" devLabel="Generates a base view placeholder." translation="ベース ビューのプレースホルダを生成します。"/>
+	<label commandName="lclzFusionDrawingViewBaseTemplate2" devLabel="When the drawing template is used to create a new drawing, the placeholder is updated to show the referenced design." translation="図面テンプレートが新しい図面の作成に使用されている場合、プレースホルダは、参照先のデザインを表示するために更新されます。"/>
+	<label commandName="lclzFusionDrawingViewBaseTipsDesc" devLabel="Base view orientation can only be set during creation, while other attributes can be modified afterwards. Make sure the view orientation is how you'd like it before clicking OK." translation="ベース ビューの方向は作成時にのみ設定できます。その他の属性は後から修正できます。[OK]をクリックする前に、ビューの方向が目的に沿っているかを確認してください。"/>
+	<label commandName="lclzFusionDrawingViewBaseTipsTips" devLabel="Generates a drawing view that is derived from your selected 3D model. You can use a base view as a parent for other views." translation="選択した 3D モデルから派生した図面ビューを生成します。ベース ビューを他のビューの親として使用することができます。"/>
+	<label commandName="lclzFusionDrawingViewBaseTipsTitle" devLabel="Base View Information" translation="[ベース ビュー]に関する情報"/>
+	<label commandName="lclzFusionDrawingViewDetail1" devLabel="Shows a specific portion of a view at an enlarged scale." translation="拡大尺度でビューの特定の部分を表示します。"/>
+	<label commandName="lclzFusionDrawingViewDetail2" devLabel="Select a parent view, specify the center point, specify the detail boundary, then place the detail view." translation="親ビューを選択し、中心点を指定します。詳細境界を指定し、詳細図を配置します。"/>
+	<label commandName="lclzFusionDrawingViewDetailTipsDesc" devLabel="If you select the detail view boundary, you can use the gray grips to reposition the boundary. The detail view automatically updates." translation="詳細図の境界を選択すると、灰色のグリップを使用して、境界を再配置できます。詳細図は自動的に更新されます。"/>
+	<label commandName="lclzFusionDrawingViewDetailTipsTips" devLabel="Specify the center point of the area to magnify, specify the size of the boundary, then click to place the detail view. Modify the scale and edge visibility properties and click OK when done." translation="拡大表示する領域の中心点を指定し、境界のサイズを指定します。詳細図をクリックして配置します。尺度およびエッジの表示設定のプロパティを修正し、完了したら[OK]をクリックします。"/>
+	<label commandName="lclzFusionDrawingViewDetailTipsTitle" devLabel="Detail View Information" translation="[詳細図]に関する情報"/>
+	<label commandName="lclzFusionDrawingViewEdit1" devLabel="Select a view to modify its properties." translation="ビューを選択し、ビューのプロパティを修正します。"/>
+	<label commandName="lclzFusionDrawingViewEditTipsDesc" devLabel="Projected views, detail views, and section views inherit properties from their parent view. If the properties of a view change, it will no longer inherit the settings from its parent view." translation="投影ビュー、詳細図、および断面図は、親ビューのプロパティを継承します。ビューのプロパティが変更されると、親ビューから設定を継承しなくなります。"/>
+	<label commandName="lclzFusionDrawingViewEditTipsTips" devLabel="When moving a projected view, you can press Shift to break that view's alignment with its parent. For example, if a projected view's alignment is “locked” vertically or horizontally with a base view, you can click Move on the toolbar, select the view, then press Shift to “unlock” the alignment. Press Shift again to realign the view." translation="投影ビューを移動するときに、そのビューの親との位置合わせを解除するには、[Shift]を押します。たとえば、投影ビューの位置合わせがベース ビューで垂直または水平に 「ロック」されている場合は、ツールバー上の[移動]をクリックしてビューを選択し、[Shift]を押して位置合わせのロックを「解除」することができます。もう一度[Shift]を押すと、ビューを再位置合わせできます。"/>
+	<label commandName="lclzFusionDrawingViewEditTipsTitle" devLabel="View Edit Information" translation="[ビューの編集]に関する情報"/>
+	<label commandName="lclzFusionDrawingViewProject1" devLabel="Generates projected orthogonal and isometric views." translation="直交投影ビューまたはアイソメ ビューを生成します。"/>
+	<label commandName="lclzFusionDrawingViewProject2" devLabel="Select a parent view, click to place projected views, then press Enter. The position of the cursor determines the type of projected view you create." translation="親ビューを選択し、クリックして投影ビューを配置し、[Enter]を押します。作成する投影ビューのタイプは、カーソルの位置によって決定します。"/>
+	<label commandName="lclzFusionDrawingViewProjectTemplate1" devLabel="Generates projected and isometric view placeholders." translation="投影ビューおよびアイソメ ビューのプレースホルダを生成します。"/>
+	<label commandName="lclzFusionDrawingViewProjectTemplate2" devLabel="When the drawing template is used to create a new drawing, the placeholders are updated to show the referenced design." translation="図面テンプレートが新しい図面の作成に使用されている場合、プレースホルダは、参照先のデザインを表示するために更新されます。"/>
+	<label commandName="lclzFusionDrawingViewSection1" devLabel="Generates a full, half, offset, or aligned section view." translation="全断面図、半断面図、オフセット断面図、または整列断面図を生成します。"/>
+	<label commandName="lclzFusionDrawingViewSection2" devLabel="Use a section line to cut through a drawing view in order to reveal what is inside." translation="内部を表示するには、切断線を使用して、図面ビューを切断します。"/>
+	<label commandName="lclzFusionDrawingViewSectionTipsDesc" devLabel="To modify a section view, click an existing section line and adjust the gray grips. If the path of the section line changes, the section view automatically updates." translation="断面図を修正するには、既存の切断線をクリックし、グレーのグリップを調整します。切断線のパスが変わると、断面図が自動的に更新されます。"/>
+	<label commandName="lclzFusionDrawingViewSectionTipsTips" devLabel="Click to specify the path of the section line. When complete, press Enter to generate the section view, then click to place it." translation="クリックして切断線のパスを指定します。完了したら、[Enter]を押して、断面図を生成し、クリックして配置します。"/>
+	<label commandName="lclzFusionDrawingViewSectionTipsTitle" devLabel="Section View Information" translation="[断面図]に関する情報"/>
+	<label commandName="lclzFusionDrawingViewSimpleSection1" devLabel="Generates a simple (single segment cutting plane) section view from a drawing view." translation="図面ビューから単純な断面図(単一のセグメントの切断面)を生成します。"/>
+	<label commandName="lclzFusionDrawingViewSimpleSection2" devLabel="Select a parent view, then specify the section line's start and end points, and then specify the insertion point for your section view." translation="親ビューを選択し、切断線の始点と端点を指定し、断面図の挿入点を指定します。"/>
+	<label commandName="lclzGeometry" devLabel="Geometry" translation="ジオメトリ"/>
+	<label commandName="lclzInsert" devLabel="Insert" translation="挿入"/>
+	<label commandName="lclzInspect" devLabel="Inspect" translation="検査"/>
+	<label commandName="lclzLinkedComponents" devLabel="Linked Components" translation="リンクされたコンポーネント"/>
+	<label commandName="lclzLinkedComponentsTooltip" devLabel="Creates a sheet for each linked component in the design" translation="デザイン内のリンクされた各コンポーネントのシートを作成します。"/>
+	<label commandName="lclzModify" devLabel="Modify" translation="修正"/>
+	<label commandName="lclzNewFusionDrawingDocumentTipsDesc" devLabel="For more control over drawing defaults, make adjustments in Preferences in your User Name drop-down in the top right." translation="図面の既定をさらに細かく設定するには、右上の[ユーザ名]ドロップダウンの[基本設定]で調整を行います。"/>
+	<label commandName="lclzNewFusionDrawingDocumentTipsTips" devLabel="Standard and Units cannot be changed once a drawing is created. Sheet size, however, can be adjusted at any time in Sheet Settings." translation="図面の作成後は、標準および単位を変更できません。ただし、シート サイズは、[シート設定]でいつでも変更することができます。"/>
+	<label commandName="lclzNewFusionDrawingDocumentTipsTitle" devLabel="Create Drawing Information" translation="[図面を作成]に関する情報"/>
+	<label commandName="lclzNewTitleBlockDesc" devLabel="After you select a source and click OK, the Title Block contextual environment opens, where you can create and modify geometry and text to customize the title block." translation="ソースを選択してから[OK]をクリックすると、表題欄のコンテキスト環境が開きます。ここでは、ジオメトリとテキストを作成および修正して、表題欄をカスタマイズできます。"/>
+	<label commandName="lclzNewTitleBlockTips" devLabel="Create a new title block based on an existing title block, from scratch, or from a DWG file." translation="既存の表題欄に基づいて、最初から、または DWG ファイルから、新しい表題欄を作成します。"/>
+	<label commandName="lclzNewTitleBlockTipsAndTricksTitle" devLabel="New Title Block Information" translation="新しい表題欄の情報"/>
+	<label commandName="lclzOutOfDateLine" devLabel="This sheet is out of date." translation="このシートは古くなっています。"/>
+	<label commandName="lclzOutOfDateLine2" devLabel="Click to refresh the sheet." translation="クリックしてシートを更新してください。"/>
+	<label commandName="lclzOutput" devLabel="Output" translation="出力"/>
+	<label commandName="lclzPlaceholderViews" devLabel="Placeholder Views" translation="プレースホルダ ビュー"/>
+	<label commandName="lclzReference" devLabel="From" translation="始点"/>
+	<label commandName="lclzSelectTemplate" devLabel="Select Template" translation="テンプレートを選択"/>
+	<label commandName="lclzSheet" devLabel="Sheet" translation="シート"/>
+	<label commandName="lclzSheet1" devLabel="Sheet1" translation="シート 1"/>
+	<label commandName="lclzSheetSize" devLabel="Sheet Size" translation="シート サイズ"/>
+	<label commandName="lclzSketchClose" devLabel="Sketch" translation="スケッチ"/>
+	<label commandName="lclzSketchTab" devLabel="SKETCH" translation="スケッチ"/>
+	<label commandName="lclzStandard" devLabel="Standard" translation="標準"/>
+	<label commandName="lclzSymbols" devLabel="Symbols" translation="記号"/>
+	<label commandName="lclzTables" devLabel="Tables" translation="テーブル"/>
+	<label commandName="lclzTemplate" devLabel="Template" translation="テンプレート"/>
+	<label commandName="lclzTemplateHasNoConfiguration" devLabel="The selected drawing template's configuration can't be retrieved. Please open, save and close the drawing template and try again." translation="選択した図面テンプレートの設定を取得できません。図面テンプレートを開き、保存してから閉じて再試行してください。"/>
+	<label commandName="lclzText" devLabel="Text" translation="テキスト"/>
+	<label commandName="lclzTitleBlockPalette" devLabel="Title Block" translation="表題欄"/>
+	<label commandName="lclzTitleBlockTab" devLabel="TITLE BLOCK" translation="表題欄"/>
+	<label commandName="lclzUnits" devLabel="Units" translation="単位"/>
+	<label commandName="lclzUnmatchedTemplate" devLabel="The selected template's configuration does not match the current drawing's configuration. Select a template using the same standard and units." translation="選択したテンプレートの設定が現在の図面の設定と一致しません。同じ規格と単位が使用されているテンプレートを選択してください。"/>
+	<label commandName="lclzUntitled" devLabel="Untitled" translation="無題"/>
+	<label commandName="lclzViews" devLabel="Drawing Views" translation="図面ビュー"/>
+	<label commandName="lclzWorkspace" devLabel="Workspace" translation="作業スペース"/>
+	<label commandName="middleCenter" devLabel="Middle Center" translation="中央"/>
+	<label commandName="middleLeft" devLabel="Middle Left" translation="左中央"/>
+	<label commandName="middleRight" devLabel="Middle Right" translation="右中央"/>
+	<label commandName="mm" devLabel="mm" translation="mm"/>
+	<label commandName="multipleAlignment" devLabel="Multiple Alignments" translation="複数の位置合わせ"/>
+	<label commandName="partsListExtension" devLabel=".csv" translation=".csv"/>
+	<label commandName="pdfExtension" devLabel=".pdf" translation=".pdf"/>
+	<label commandName="tableDirection" devLabel="Table Direction" translation="テーブルの方向"/>
+	<label commandName="textAlignment" devLabel="Text Alignment" translation="寸法値の位置合わせ"/>
+	<label commandName="topCenter" devLabel="Top Center" translation="中心上"/>
+	<label commandName="topLeft" devLabel="Top Left" translation="左上"/>
+	<label commandName="topRight" devLabel="Top Right" translation="右上"/>
+	<label commandName="topToBottom" devLabel="Down" translation="下"/>
+</Resource>

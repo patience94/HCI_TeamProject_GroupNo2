@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- NOTE:
+     If you make any change to the layout here, before you run that applicaiton, please don't forget to delete the file
+     "NULastDisplayedLayout.xml"(that is the file to remember the last displayed layout, and it will be applied automatically
+     when the applicaiton run next time.) located at
+     "C:\Users\[username]\AppData\Roaming\Autodesk\Neutron Test Application Technical Preview [version, like 2011]\Options"
+     folder in Windows, the similar thing should be done to Mac OS.
+     
+    PLEASE MAKE SURE ALL YOUR CHANGES ARE IN ALL XMLS: AssetShellLayout.xml, WebShellLayout.xml, AssetDwgShellLayout.xml, NewManagementShellLayout.xml
+-->
+<Area Contents="Desktop" Visible="True" Version="2.21">
+    <Area Contents="Workspace" Placement="Absolute" Visible="True">
+
+      <Area Name="MainDashboardColumn" Placement="Left" Size="0,600" LayoutPattern="Column">
+        <Area Name="MainDashboardPalette" Placement="Right" Size="0,600" Resizable="True" Stretchable="True" Visible="True">
+          <State Size="0,600" StateType="initial"/>
+          <!-- remove TitleBar="False" attribute from following line once we decide to use regular palette with title and iconize and collapse controls (see example below) -->
+          <Parameters Title="LOCID=MainDashboard" DockingOption="VerticalOnly" TitleBar="False">
+            <LOC Module="NuCommands" _LCLZId="MainDashboard" _LCLZText="Data Panel"/>
+          </Parameters>
+          <Area Contents="WebControl" Name="MainDashboard" Placement="Center" MarginTop="3"/>
+        </Area>
+      </Area>
+
+      <Area Name="LearningPanelColumn" Placement="Right" Size="0,600" LayoutPattern="Column">
+        <Area Name="LearningPanelPalette" Placement="Right" Size="0,600" Resizable="True" Stretchable="True" Visible="True">
+          <State Size="0,600" StateType="initial"/>
+          <!-- remove TitleBar="False" attribute from following line once we decide to use regular palette with title and iconize and collapse controls (see example below) -->
+          <Parameters Title="LOCID=LearningPanel" DockingOption="VerticalOnly" TitleBar="False">
+            <LOC Module="NuCommands" _LCLZId="LearningPanel" _LCLZText="In Product Marketing"/>
+          </Parameters>
+          <Area Contents="WebControl" Name="LearningPanel" Placement="Center" MarginTop="3"/>
+        </Area>
+      </Area>
+
+      <Area Placement="Right" Size="361,400" LayoutPattern="Column">
+        <Area Contents="Palette" Name="ChatPalette" Placement="Right" Size="361,400" MinimumSize="361,400" MaximumWidth="361" Resizable="True" Stretchable="False" Visible="False">
+          <Parameters Title="LOCID=ChatSupport" DockingOption="VerticalOnly" TitleBar="True" Footer="True">
+            <LOC Module="Nu" _LCLZId="ChatSupport" _LCLZText="Chat with an Expert"/>
+          </Parameters>
+          <Area Contents="WebControl" Name="ChatSupport" Placement="Center" MarginTop="0"/>
+        </Area>
+      </Area>
+
+      <!-- an example to have the data panel iconised and working as regular palette 
+        <Area Contents="IconifiedPaletteBar" Iconified="True" LayoutPattern="Column" Margin="18,0,10,0" Placement="Left" Rect="0,22,940,0" SubLayoutPattern="Iconified" Visible="True">
+        <State Size="402,940" StateType="Dock"/>
+        <Area Contents="Palette" Iconified="True" MaximumSize="402,2147483647" MinimumSize="402,25" Name="MainDashboardPalette" Placement="Right" Rect="0,22,121,0" Resizable="False" Stretchable="True" Visible="True">
+          <State Size="402,600" StateType="Dock"/>
+          <State Size="402,600" StateType="Initial"/>
+          <Parameters DockingOption="VerticalOnly" Title="LOCID=MainDashboard">
+            <LOC Module="NuCommands" _LCLZId="MainDashboard" _LCLZText="Data Panel"/>
+          </Parameters><Area Contents="WebControl" Margin="3,0,0,0" Name="MainDashboard" Placement="Center"/>
+        </Area>
+      </Area>      
+-->	
+		<Area Placement="Center" LayoutPattern="Default">
+        <Area Placement="Top" Height="116" LayoutPattern="Row">
+            <Area Contents="ApplicationBar" Name="ApplicationBar" Placement="Top" Height="116" Resizable="False" Stretchable="True" Visible="True" LayoutPattern="Column">
+					<Area Contents="ToolBar" Name="ToolBar" Placement="Top" Height="0" InternalPadding="0,0,0,0" Stretchable="True" Resizable="False">
+                </Area>
+            </Area>
+        </Area>
+        <Area Placement="Top" LayoutPattern="Row" Height="40">
+            <Area Contents="MessageBanner" Name="MessageBanner" Placement="Top" Height="40" Resizable="False" Stretchable="True" Visible="False" />
+        </Area>
+        <Area Placement="Bottom" Size="200,150" LayoutPattern="Row">
+            <Area Contents="Palette" Name="TextCommands" Placement="Bottom" Size="200,150" Resizable="True" Stretchable="True" InternalPaddingTop="22" Visible="False">
+                <Parameters Title="LOCID=TextCommands" DockingOption="HorizontalOnly">
+                    <LOC Module="NuCommands" _LCLZId="TextCommands" _LCLZText="Text Commands"/>
+                </Parameters>
+                <Area Contents="TextCommands" Placement="Center"/>
+            </Area>
+        </Area>
+        <Area Placement="Bottom" Height="50" LayoutPattern="Row">
+            <Area Contents="SheetSet" Name="SheetSet" Placement="Bottom" Height="50" Resizable="False" Stretchable="True" InternalPadding="0,0,0,0" Visible="True">
+                <Parameters Title="LOCID=SheetSet" Transparent="True" DockingOption="HorizontalOnly">
+                    <LOC Module="FusionDocUI" _LCLZId="SheetSet" _LCLZText="Sheet Set"/>
+                </Parameters>
+                <Area Contents="SheetSetWindow" Placement="Center"/>
+            </Area>
+        </Area>
+        <Area Placement="Center" Name="CenterRegion" Visible="True" LayoutPattern="Layer">
+          <Area Contents="DwgControl" Name="AssetDwgShell" Placement="Center" Visible="True" Spacing="4" InternalPadding="4,4,4,4">
+              <Area Contents="FusionDocNavToolbar" Name="NavToolbar" Alignment="Center,Bottom" Size="232,24"/>
+          </Area>
+
+          <Area Placement="Center" Name="CenterWidgets" Visible="True" Spacing="4" InternalPadding="4,4,4,4">
+
+                <Area Placement="Right" Size="550,650" LayoutPattern="Column">
+                    <Area Contents="Palette" Name="ReferralPalette" Placement="Right" Size="550,650" MinimumSize="200,200" Resizable="True" Stretchable="False" Visible="False">
+                        <Parameters Title="LOCID=Referral" TitleBar="True" Footer="True">
+                            <LOC Module="Nu" _LCLZId="Referral" _LCLZText="Refer a Friend"/>
+                        </Parameters>
+                        <Area Contents="WebControl" Name="Referral" Placement="Center" MarginTop="0"/>
+                    </Area>
+                </Area>
+
+                <Area Placement="Absolute" Size="750,513" LayoutPattern="Column">
+                    <Area Contents="Palette" Name="SurveyPalette" Placement="Right" Size="750,513" MinimumSize="750,513" Resizable="True" Stretchable="False" Visible="False">
+                        <Parameters Title="LOCID=Survey" TitleBar="True" Footer="True">
+                            <LOC Module="Nu" _LCLZId="Survey" _LCLZText="Send Your Feedback" />
+                        </Parameters>
+                        <Area Contents="WebControl" Name="Survey" Placement="Center" MarginTop="0" />
+                    </Area>
+                </Area>
+
+					<Area Placement="Left" Size="300,720" LayoutPattern="Column">
+            <Area Collapsed="False" Contents="Palette" Size="300,450" Placement="Left" Name="Browser" Resizable="True" Stretchable="True" InternalPaddingTop="25" Visible="True">
+              <Parameters Title="LOCID=Browser" Transparent="True" DockingOption="VerticalOnly">
+                <LOC Module="NuCommands" _LCLZId="Browser" _LCLZText="Browser"/>
+              </Parameters>
+              <Area Contents="BrowserWindow" Placement="Center" MarginTop="3">
+                <Parameters ShowBrowserInSplitViews="True" />
+              </Area>/>
+            </Area>
+						<Area Collapsed="True" Contents="Palette" Name="ActivityFeedPalette" Placement="Left" Size="300,270" Resizable="True" Stretchable="True" Visible="True">
+							<State Size="300,270" StateType="Initial"/>
+							<Parameters Title="LOCID=ActivityFeed" DockingOption="VerticalOnly" Footer="False">
+								<LOC Module="NuCommands" _LCLZId="ActivityFeed" _LCLZText="Comments"/>
+							</Parameters>
+							<Area Contents="WebControl" Name="ActivityFeed" Placement="Center" MarginTop="3"/>
+						</Area>
+					</Area>
+
+          <Area Contents="ProgressBar" HorizontalAlignment="Center"/>
+                <Area Contents="InteractivityMeter" Alignment="Left,Bottom" Visible="False"/>
+                <Area Contents="ErrorRateMeter" Alignment="Left,Bottom" Visible="False"/>
+                <Area Contents="MessageTray" Alignment="Right,Bottom" Size="16,16" Visible="False"/>
+                <Area Contents="NotificationCenter" Alignment="Right,Bottom" Visible="False"/>
+          </Area>
+    </Area>
+  </Area>
+</Area>
+</Area>

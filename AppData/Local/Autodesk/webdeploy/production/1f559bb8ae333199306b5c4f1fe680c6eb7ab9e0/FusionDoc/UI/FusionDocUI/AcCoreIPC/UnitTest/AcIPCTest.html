@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neutron - AcIPC Test Page</title>
+    
+    <style type="text/css" title="currentStyle">
+		@import "media/css/demo_page.css";
+		@import "media/css/demo_table.css";
+		.dataTables_filter {
+            display: none; 
+        }
+	</style>
+ 	<script type="text/javascript" src="media/js/jquery.js"></script>
+    <script type="text/javascript" language="javascript" src="media/js/jquery.dataTables.js"></script> 
+
+    <script type="text/javascript">
+        var nResponses = 0;   // Number of responses received from server.
+        var responseTable;
+        $(document).ready(function () {
+            // Create and initialze jQuery response table 
+            responseTable = $('#example').dataTable({
+           "sScrollY": "200px",
+           "bPaginate": false,
+                "bSort": false,
+               "fnInitComplete": function () {
+                    var that = this;
+                    this.$('td').click(function () {
+                        that.fnFilter(this.innerHTML);
+                    });
+                }
+            });
+            // Delete initial blank row
+            responseTable.fnDeleteRow(0);  
+        });
+    </script>
+     
+    <script type="text/javascript">
+       
+		// This is used for communicating back to Neutron.
+        function invoke(cmdId, jsonArgs) {
+            // Loop several times to test sending multiple messages
+            //for (var i = 0; i <= 10; i++) {  
+                if (window.neutronJavaScriptObject) {
+                    var rcJSON = window.neutronJavaScriptObject.executeQuery(cmdId, jsonArgs);
+                    $('#ipcCmdReturn').val(rcJSON);
+
+                    // Call attention to the return value
+                    $('#ipcCmdReturn').css({ opacity: 0 });
+                    $('#ipcCmdReturn').animate({ opacity: 1 }, 700);
+                }
+                else
+                    console.log("Command sent. ID: " + cmdId + ", args: " + jsonArgs);
+            //}
+	    }
+	
+	    // This is the object Neutron expects to talk to when it needs to send something out,
+	    // by calling neutronJavaScriptHandler.handle(cmdID, jsonArgs)
+		//
+	    window.neutronJavaScriptHandler = {
+	        // We should not let any exception throw out of this function, otherwise we will
+	        // get a crash on debug Neutron (with the Qt implementation).
+	        handle: function (commandId, jsonArgs) {
+	            try {
+	                //alert(commandId);
+	                // Append the server responses to the web page
+	                nResponses++;
+	                responseTable.dataTable().fnAddData([
+					nResponses,
+					JSON.parse(jsonArgs).id,
+					JSON.parse(jsonArgs).data
+					]);
+
+
+	            } catch (err) {
+	                console.log("Exception occured executing AcIPC: " + cmdId + ", args: " + jsonArgs);
+	            }
+
+	            return "processed";
+	        }
+	    }
+			    				
+	    function sendIPCMessage()
+		{
+		    // Call AcIPC 
+		    // Note: the cmdType: 'Acad' argument is needed so we can differentiate between Neutron and AutoCAD commands.
+		    // Special handling is required in FusionDocController::handle().
+		    var args = JSON.stringify({ cmdType: 'Acad', functionName: 'TestMessage', invokeAsCommand: false, functionParams: ipcText.value });
+		    invoke("100", args); //FDMSG_INIT 100  - For testing purposes, using the cmdId as the message ID. 
+		}
+
+		function sendIPCCommand() {
+
+		 
+		    var args = JSON.stringify({ cmdType: 'Acad', URL: ipcURL.value, invokeAsCommand: ipcInvokeAsCommand.selectedIndex, functionParams: ipcCommandArgs.value });
+		    invoke(ipcCommandId.value, args);
+		}
+        
+        function sendJavaScriptAPIcommand(jsCommand, jsArguments) {
+            if (window.neutronJavaScriptObject) {
+                // Try sending "neuUI.snapshot" for the command and {"x":0,"y":0,"z":0},{"x":-1,"y":-1,"z":-1},{"x":0,"y":1,"z":0},1,1024,1024,"" ,"/tmp/", 2 for the args
+                // arguments are "camera_position", "camera_target","camera_upvector","scale","image_width","image_height","image_name" -if blank you want a stream back,"save_location","asset_id","flags"
+                // flags right now don't work in JavaScript API.
+                // your return value should be something like data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA....
+                var rcJSON = window.neutronJavaScriptObject.executeAPI(jsCommand.value, jsArguments.value);
+                
+                // Update img element with image data
+                $('#jsImage').attr('src', rcJSON);
+
+                return rcJSON;
+                
+                //alert("neutronJavaScriptHandler.executeQuery returned " + JSON.parse(rcJSON).data);
+            }
+
+		}
+        
+
+	</script>
+</head>
+<body id="dt_example">
+		<div id="container">
+        <img src="media/images/autodesk.png" /> <br /> 
+			<div class="full_width big">
+				Neutron AcIPC Unit Test
+			</div>
+    <h1>Client</h1>
+
+    <div id="ipcCommand" class="command">
+	    <h4>IPC Command: </h4>
+        <!-- Setup sample test parameters -->
+        <table >
+        <tr>
+            <td>Command ID:</td>
+			<td><input type='text' id='ipcCommandId' value='Neutron.testCommand' size ='64';   /></td>
+		</tr>
+		<tr >
+			<td>Command Args:</td>
+            <td><input type='text' id='ipcCommandArgs' value='{&quot;allowArbitraryInput&quot;:false,&quot;limitsChecked&quot;:true}' size ='64'; /></td>		</tr>
+
+        <tr >
+			<td>URL:</td>
+            <!-- Specifying http://www.autodesk.com will get us past the isTrustedDomain check in AcJsCoreStub	-->
+            <td><input type='text' id='ipcURL' value='http://www.autodesk.com' size ='64';   /></td>	
+        </tr>
+        <tr>
+            <td align='right'>InvokeAsCommand:</td>
+            <td>
+            <select id='ipcInvokeAsCommand'>
+            <option selected>false</option>
+            <option>true</option>
+            </select>
+        </td>
+        </tr>   
+        <tr >
+            <td><button onclick='sendIPCCommand()' title='Click the button to execute a command'>Send Command</button></td>
+             <td><input type='text' id='ipcCmdReturn' value='Command return value' size ='64';   /></td>
+        </tr>
+        </table >
+	</div>
+			
+	<div id="ipcMessage" class="test">
+		<h4>IPC Message: </h4>
+        <input type='text' id='ipcText' size ='64'; value="Who is Bertie Wooster's butler?"  /><br />
+	</div>
+	<div>
+		<p></p>
+		<button onclick='sendIPCMessage()' title='Click the button to send the IPC message to server'>Send Message</button>
+		
+	</div>
+            
+    <div id="javaScriptAPI" class="test">
+        <h4>Test javaScriptAPI: </h4>
+        <input type='text' id='jsCommand' size ='64'; value="neuUI.snapshot"  /><br />
+        <input type='text' id='jsArguments' size ='64'; value="{'x':0,'y':0,'z':0},{'x':-1,'y':-1,'z':-1},{'x':0,'y':1,'z':0},1,512,512,'' ,'/tmp/', 2"  /><br />
+
+    </div>
+    <div>
+        <p></p>
+        <button onclick='sendJavaScriptAPIcommand(jsCommand, jsArguments)' title='Click the button to send the JavaScript API call to Neutron'>Send Message</button>
+        
+    </div>
+            
+
+    <img  id='jsImage' alt="Neutron Test Image" src="" height="1024" width="1024"/>
+            
+    <h1>Server</h1>
+            
+    <div id="demo">
+        <h4>Responses from server</h4>
+        <table cellpadding="0" cellspacing="0" border="0" class="display" id="example" >
+
+	    <thead>
+		    <tr>
+			    <th align="left" width="10%" >No.</th>
+			    <th align="left"width="15%">ID </th>
+			    <th align="left">Data</th>
+			
+		    </tr>
+	    </thead>
+	    <tbody>
+		    <tr >
+			    <td></td>
+			    <td></td>
+			    <td></td>
+			
+		    </tr>
+	    </tbody>
+        </table>
+    </div>
+</body>
+</html>

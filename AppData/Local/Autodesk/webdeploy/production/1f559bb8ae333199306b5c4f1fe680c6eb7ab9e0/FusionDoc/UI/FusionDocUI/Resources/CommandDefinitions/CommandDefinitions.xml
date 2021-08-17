@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<CommandDefinitions>
+  <CommandDefinition Id="NewFusionDrawingDocumentCommand">
+    <TipsAndTricks MoreInfo="DRAWINGS-CREATE-FROM-DESIGN-CMD">
+      <Title _LCLZId="lclzNewFusionDrawingDocumentTipsTitle" _LCLZText="Create Drawing Information"/>
+      <Tips _LCLZId="lclzNewFusionDrawingDocumentTipsTips" _LCLZText="Standard and Units cannot be changed once a drawing is created. Sheet size, however, can be adjusted at any time in Sheet Settings."/>
+      <Description _LCLZId="lclzNewFusionDrawingDocumentTipsDesc" _LCLZText="For more control over drawing defaults, make adjustments in Preferences in your User Name drop-down in the top right."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingCreateFromComponentsCommand">
+    <TipsAndTricks MoreInfo="DRAWINGS-CREATE-FROM-COMPONENTS-CMD">
+      <Title _LCLZId="lclzFusionDrawingCreateFromComponentsTipsTitle" _LCLZText="Create Drawing Information"/>
+      <Tips _LCLZId="lclzFusionDrawingCreateFromComponentsTipsTips" _LCLZText="Standard and Units cannot be changed once a drawing is created. Sheet size, however, can be adjusted at any time in Sheet Settings."/>
+      <Description _LCLZId="lclzFusionDrawingCreateFromComponentsTipsDesc" _LCLZText="For more control over drawing defaults, make adjustments in Preferences in your User Name drop-down in the top right."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingTitleBlockEditCommand">
+    <TipsAndTricks MoreInfo="DRAWINGS-TITLE-BLOCK-CMD">
+      <Title _LCLZId="lclzFusionDrawingTitleBlockEditTipsTitle" _LCLZText="Title Block Information"/>
+      <Tips _LCLZId="lclzFusionDrawingTitleBlockEditTipsTips" _LCLZText="The drawing's standard, ASME or ISO, defines the default title block. You can insert your own DWG file as a title block using Insert Title Block within Sheet Settings."/>
+      <Description _LCLZId="lclzFusionDrawingTitleBlockEditTipsDesc" _LCLZText="When you insert your own title block, the origin point (0,0) in the DWG will equate to the bottom right corner of the Fusion Drawing border."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+
+  <CommandDefinition Id="FusionDrawingGripStretchCommand">
+  </CommandDefinition>
+
+  <CommandDefinition Id="FusionDrawingViewEditCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingViewEdit1" _LCLZText="Select a view to modify its properties."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-VIEW-EDIT-CMD">
+      <Title _LCLZId="lclzFusionDrawingViewEditTipsTitle" _LCLZText="View Edit Information"/>
+      <Tips _LCLZId="lclzFusionDrawingViewEditTipsTips" _LCLZText="When moving a projected view, you can press Shift to break that view's alignment with its parent. For example, if a projected view's alignment is “locked” vertically or horizontally with a base view, you can click Move on the toolbar, select the view, then press Shift to “unlock” the alignment. Press Shift again to realign the view."/>
+      <Description _LCLZId="lclzFusionDrawingViewEditTipsDesc" _LCLZText="Projected views, detail views, and section views inherit properties from their parent view. If the properties of a view change, it will no longer inherit the settings from its parent view."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingViewBaseCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingViewBase1" _LCLZText="Generates a base view of the referenced design."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-BASE-VIEW-CMD">
+      <Title _LCLZId="lclzFusionDrawingViewBaseTipsTitle" _LCLZText="Base View Information"/>
+      <Tips _LCLZId="lclzFusionDrawingViewBaseTipsTips" _LCLZText="Generates a drawing view that is derived from your selected 3D model. You can use a base view as a parent for other views."/>
+      <Description _LCLZId="lclzFusionDrawingViewBaseTipsDesc" _LCLZText="Base view orientation can only be set during creation, while other attributes can be modified afterwards. Make sure the view orientation is how you'd like it before clicking OK."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingViewBaseTemplateCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingViewBaseTemplate1" _LCLZText="Generates a base view placeholder."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingViewBaseTemplate2" _LCLZText="When the drawing template is used to create a new drawing, the placeholder is updated to show the referenced design."/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-VIEW-BASE-TEMPLATE-CMD">
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingViewProjectCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingViewProject1" _LCLZText="Generates projected orthogonal and isometric views."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingViewProject2" _LCLZText="Select a parent view, click to place projected views, then press Enter. The position of the cursor determines the type of projected view you create."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingViewProjectTemplateCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingViewProjectTemplate1" _LCLZText="Generates projected and isometric view placeholders."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingViewProjectTemplate2" _LCLZText="When the drawing template is used to create a new drawing, the placeholders are updated to show the referenced design."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingViewSimpleSectionCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingViewSimpleSection1" _LCLZText="Generates a simple (single segment cutting plane) section view from a drawing view."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingViewSimpleSection2" _LCLZText="Select a parent view, then specify the section line's start and end points, and then specify the insertion point for your section view."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingViewSectionCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingViewSection1" _LCLZText="Generates a full, half, offset, or aligned section view."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingViewSection2" _LCLZText="Use a section line to cut through a drawing view in order to reveal what is inside."/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-SECTION-VIEW-CMD">
+      <Title _LCLZId="lclzFusionDrawingViewSectionTipsTitle" _LCLZText="Section View Information"/>
+      <Tips _LCLZId="lclzFusionDrawingViewSectionTipsTips" _LCLZText="Click to specify the path of the section line. When complete, press Enter to generate the section view, then click to place it."/>
+      <Description _LCLZId="lclzFusionDrawingViewSectionTipsDesc" _LCLZText="To modify a section view, click an existing section line and adjust the gray grips. If the path of the section line changes, the section view automatically updates."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingViewDetailCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingViewDetail1" _LCLZText="Shows a specific portion of a view at an enlarged scale."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingViewDetail2" _LCLZText="Select a parent view, specify the center point, specify the detail boundary, then place the detail view."/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-DETAIL-VIEW-CMD">
+      <Title _LCLZId="lclzFusionDrawingViewDetailTipsTitle" _LCLZText="Detail View Information"/>
+      <Tips _LCLZId="lclzFusionDrawingViewDetailTipsTips" _LCLZText="Specify the center point of the area to magnify, specify the size of the boundary, then click to place the detail view. Modify the scale and edge visibility properties and click OK when done."/>
+      <Description _LCLZId="lclzFusionDrawingViewDetailTipsDesc" _LCLZText="If you select the detail view boundary, you can use the gray grips to reposition the boundary. The detail view automatically updates."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingMoveCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingMove1" _LCLZText="Select objects to move, then click Transform. Then specify a base point and a second point."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-MOVE-CMD">
+        <Title _LCLZId="lclzFusionDrawingMoveTipsTitle" _LCLZText="Move Information"/>
+        <Tips _LCLZId="lclzFusionDrawingMoveTipsTips" _LCLZText="Click and drag to select multiple objects. A selection box from left to right will select all objects completely within the box. A selection box from right to left will select all objects partially within the box."/>
+        <Description _LCLZId="lclzFusionDrawingMoveTipsDesc" _LCLZText="Deselect objects by holding Shift while dragging across or clicking objects."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDocRotateCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingRotate1" _LCLZText="Select objects to rotate, then click Transform. Then specify a base point and a rotation angle."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-ROTATE-CMD">
+      <Title _LCLZId="lclzFusionDrawingRotateTipsTitle" _LCLZText="Rotate Information"/>
+      <Tips _LCLZId="lclzFusionDrawingRotateTipsTips" _LCLZText="After specifying a base point, click Reference Selection to define a reference angle along an edge or between any two points.
+"/>
+      <Description _LCLZId="lclzFusionDrawingRotateTipsDesc" _LCLZText="If you want to redefine your selected objects or re-specify the base point without canceling the command, click Selection to return to Selection mode."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingEraseCmd" HotKey="Delete">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingErase1" _LCLZText="Select objects to delete, then press Enter."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-DELETE-CMD">
+      <Title _LCLZId="lclzFusionDrawingEraseTipsTitle" _LCLZText="Delete Information"/>
+      <Tips _LCLZId="lclzFusionDrawingEraseTipsTips" _LCLZText="Click and drag to select multiple objects. A selection box from left to right will select all objects completely within the box. A selection box from right to left will select all objects partially within the box."/>
+      <Description _LCLZId="lclzFusionDrawingEraseTipsDesc" _LCLZText="Deselect objects by holding Shift while dragging across or clicking objects."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingHatchEditCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingHatchEdit1" _LCLZText="Select a hatch to modify its properties."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-HATCH-EDIT-CMD">
+      <Title _LCLZId="lclzFusionDrawingHatchEditTipsTitle" _LCLZText="Hatch Edit Information"/>
+      <Tips _LCLZId="lclzFusionDrawingHatchEditTipsTips" _LCLZText="Double-click a hatch to modify the hatch properties of a section view. Edit the hatch pattern, the scale factor, and the angle of the hatch pattern."/>
+      <Description _LCLZId="lclzFusionDrawingHatchEditTipsDesc" _LCLZText="Each hatch has its own properties. You can only modify one hatch pattern at a time."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingDimensionEditCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingDimensionEdit1" _LCLZText="Select a dimension to modify its properties."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-DIMENSION-EDIT-CMD">
+      <Title _LCLZId="lclzFusionDrawingDimensionEditTipsTitle" _LCLZText="Dimension Edit Information"/>
+      <Tips _LCLZId="lclzFusionDrawingDimensionEditTipsTips" _LCLZText="To change the settings for all dimensions on a sheet, use Annotation Settings at the bottom of the drawing area."/>
+      <Description _LCLZId="lclzFusionDrawingDimensionEditTipsDesc" _LCLZText="You can restore default properties if you modify the precision, alternate units, or tolerance type. Select the dimension, right-click to access the marking menu, and select Restore Defaults."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingLinearDimensionCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingLinearDimension1" _LCLZText="Measures the horizontal or vertical distance between two points. Create dimensions by selecting an edge or by selecting two points."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingAlignedDimensionCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingAlignedDimension1" _LCLZText="Measures the precise distance between two points. Create dimensions that are parallel to the locations or objects that you specify."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingAngularDimensionCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingAngularDimension1" _LCLZText="Measures the angle of a rounded edge or the angle between two points or edges."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingRadialDimensionCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingRadialDimension1" _LCLZText="Select a rounded edge, such as a fillet, hole, sphere, or cylinder, then place the dimension."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingDiameterDimensionCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingDiameterDimension1" _LCLZText="Select a rounded edge, such as a fillet, hole, sphere, or cylinder, then place the dimension."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingBaselineDimensionCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingBaselineDimension1" _LCLZText="Select an existing linear dimension, then specify a point to create a new dimension."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingBaselineDimension2" _LCLZText="Continue specifying points to create multiple dimensions all originating from the same base point."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingChainDimensionCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingChainDimension1" _LCLZText="Select an existing linear dimension, then specify a point to create a new dimension."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingChainDimension2" _LCLZText="Continue specifying points to create multiple side-by-side dimensions."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingOrdinateDimensionCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingOrdinateDimension1" _LCLZText="Define view origins and place ordinate dimensions referencing them."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingEdgeExtensionCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingEdgeExtension1" _LCLZText="Select two straight edges.  An edge extension is created for each edge that terminates at their intersection."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+    <CommandDefinition Id="FusionDrawingDimensionBreakCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingDimensionBreak" _LCLZText="Select existing dimensions or leaders, then add or remove breaks where they overlap other dimensions and leaders."/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-DIMENSION-BREAK-CMD">
+        <Title _LCLZId="lclzFusionDrawingDimensionBreakTipsTitle" _LCLZText="Dimension Break Information"/>
+        <Tips _LCLZId="lclzFusionDrawingDimensionBreakTipsTips" _LCLZText="Right-click on selected dimesnions to create Dimension Breaks."/>
+        <Description _LCLZId="lclzFusionDrawingDimensionBreakTipsDesc" _LCLZText="Dimension Break breaks the selected intersecting dimensions at the intersection points. You can also add a Dimension Break to other objects like Balloons, Bend Identifiers, and Leaders."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingMTextCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingMText1" _LCLZText="Specify the corners for the text box, then enter text. When finished, click outside the text editor."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-TEXT-CMD">
+      <Title _LCLZId="lclzFusionDrawingMTextTipsTitle" _LCLZText="TEXT INFORMATION"/>
+      <Tips _LCLZId="lclzFusionDrawingMTextTipsTips" _LCLZText="You can include special characters and symbols by entering a control code or a Unicode string."/>
+      <Description _LCLZId="lclzFusionDrawingMTextTipsDesc" _LCLZText="You can control the font style and text height for all annotations in the drawing by clicking Annotation Settings at the bottom of the drawing area."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingMTextEditCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingMTextEdit1" _LCLZText="Specify the corners for the text box, then enter text. When finished, click outside the text editor."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-TEXT-CMD">
+      <Title _LCLZId="lclzFusionDrawingMTextEditTipsTitle" _LCLZText="TEXT INFORMATION"/>
+      <Tips _LCLZId="lclzFusionDrawingMTextEditTipsTips" _LCLZText="You can include special characters and symbols by entering a control code or a Unicode string."/>
+      <Description _LCLZId="lclzFusionDrawingMTextEditTipsDesc" _LCLZText="You can control the font style and text height for all annotations in the drawing by clicking Annotation Tools at the bottom of the drawing area."/>
+    </TipsAndTricks>
+  </CommandDefinition>  
+  <CommandDefinition Id="FusionDrawingLeaderCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingLeader1" _LCLZText="Specify the arrowhead location, specify the location of the text, then enter text. When finished, click outside the text editor."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-LEADER-CMD">
+      <Title _LCLZId="lclzFusionDrawingLeaderTipsTitle" _LCLZText="LEADER INFORMATION"/>
+      <Tips _LCLZId="lclzFusionDrawingLeaderTipsTips" _LCLZText="You can include special characters and symbols by entering a control code or a Unicode string."/>
+      <Description _LCLZId="lclzFusionDrawingLeaderTipsDesc" _LCLZText="You can control the font style and text height for all annotations in the drawing by clicking Annotation Settings at the bottom of the drawing area."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingMLeaderContentEditCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingMLeaderContentEdit1" _LCLZText="Specify the arrowhead location, specify the location of the text, then enter text. When finished, click outside the text editor."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-LEADER-CMD">
+      <Title _LCLZId="lclzFusionDrawingMLeaderContentEditTipsTitle" _LCLZText="LEADER INFORMATION"/>
+      <Tips _LCLZId="lclzFusionDrawingMLeaderContentEditTipsTips" _LCLZText="You can include special characters and symbols by entering a control code or a Unicode string."/>
+      <Description _LCLZId="lclzFusionDrawingMLeaderContentEditTipsDesc" _LCLZText="You can control the font style and text height for all annotations in the drawing by clicking Annotation Tools at the bottom of the drawing area."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingArrowCommand">
+      <Tooltip>
+          <ExpandedContent>
+              <TextBlock _LCLZId="lclzFusionDrawingArrow1" _LCLZText="Creates a leader within the sketch."/>
+              <TextBlock/>
+              <TextBlock _LCLZId="lclzFusionDrawingArrow2" _LCLZText="Specify the leader's start point, then its end point."/>
+          </ExpandedContent>
+      </Tooltip>
+      <TipsAndTricks MoreInfo="DRAWINGS-ARROW-CMD">
+      </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingTableCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingTable" _LCLZText="Insert a blank table to add data manually."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingTableEditCommand">
+    <TipsAndTricks MoreInfo="DRAWINGS-TABLE-EDIT-CMD">
+      <Title _LCLZId="lclzFusionDrawingTableEditTipsTitle" _LCLZText="TABLE EDIT INFORMATION"/>
+      <Tips _LCLZId="lclzFusionDrawingTableEditTipsTips" _LCLZText="When a cell is selected, double-click to edit the cell text. You can also start entering text when a cell is highlighted to replace its current content."/>
+      <Description _LCLZId="lclzFusionDrawingTableEditTipsDesc" _LCLZText="To change the width of a column without changing the width of other columns, select a cell and use the grips that appear around that particular cell. The overall width of the table changes but the other columns maintain the same width. To change the width of a column without changing the overall width of the table, select the whole table by clicking on table or cell border and use the grips that appear on table columns."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingTableTextEditCommand">
+    <TipsAndTricks MoreInfo="DRAWINGS-TEXT-CMD">
+      <Title _LCLZId="lclzFusionDrawingMTextEditTipsTitle" _LCLZText="TEXT INFORMATION"/>
+      <Tips _LCLZId="lclzFusionDrawingMTextEditTipsTips" _LCLZText="You can include special characters and symbols by entering a control code or a Unicode string."/>
+      <Description _LCLZId="lclzFusionDrawingMTextEditTipsDesc" _LCLZText="You can control the font style and text height for all annotations in the drawing by clicking Annotation Tools at the bottom of the drawing area."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingCenterlineCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingCenterline1" _LCLZText="Select two straight edges. The centerline is created between them."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingCentermarkCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingCentermark1" _LCLZText="Select a rounded edge, such as a fillet, hole, sphere, or cylinder."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingCenterPatternCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingCenterPattern1" _LCLZText="Select rounded edges, such as holes or fillets. A center mark pattern including a PCD is created."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-CENTER-MARK-PATTERN-CMD">
+       <Title _LCLZId="lclzFusionDrawingCenterPatternTipsTitle" _LCLZText="Center Mark Pattern Information"/>
+        <Tips _LCLZId="lclzFusionDrawingCenterPatternTipsTips" _LCLZText="Select the edges of features (e.g. holes) in the appropriate order to form the required center mark pattern. The Auto-complete checkbox is checked by default. The Center Mark Pattern is created automatically when you click just one hole or rounded edge."/>
+        <Description _LCLZId="lclzFusionDrawingCenterPatternTipsDesc" _LCLZText="A Reference Edge has to be selected while creating a center mark pattern for a slot."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingCenterPatternEditCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingCenterPatternEdit1" _LCLZText="Select an existing centermark pattern for editing."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingSingleDimensionCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingSingleDim1" _LCLZText="Creates linear, aligned, angular, radius, and diameter dimensions."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingSingleDim2" _LCLZText="Select objects, points, edges, existing dimensions, or select two points. Then place the dimension. The most appropriate dimension type is created."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingCreatePartsListCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingCreatePartsList1" _LCLZText="Generates a parts list of the model associated to the drawing."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-TABLE-CREATE-CMD">
+      <Title _LCLZId="lclzFusionDrawingPartsListTipsTitle" _LCLZText="Parts List Information"/>
+      <Tips _LCLZId="lclzFusionDrawingPartsListTipsTips" _LCLZText="A parts list that is placed in the bottom half of the drawing sheet will flip its numbering, so that the parts are numbered from bottom to top. To lock or unlock flipping, press Shift."/>
+      <Description _LCLZId="lclzFusionDrawingPartsListTipsDesc" _LCLZText="To change the part number and description of a component, modify the component's properties in the Model workspace."/>
+    </TipsAndTricks>    
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingNewTableCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingNewTable1" _LCLZText="Generates a parts list for single component, assembly and animation references, and bend tables for sheet metal flat patterns references."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-TABLE-CREATE-CMD">
+      <Title _LCLZId="lclzFusionDrawingNewTableTipsTitle" _LCLZText="Parts List Information"/>
+      <Tips _LCLZId="lclzFusionDrawingNewTableTipsTips" _LCLZText="A parts list that is placed in the bottom half of the drawing sheet will flip its numbering, so that the parts are numbered from bottom to top. To lock or unlock flipping, press Shift."/>
+      <Description _LCLZId="lclzFusionDrawingNewTableTipsDesc" _LCLZText="To change the part number and description of a component, modify the component's properties in the Model workspace."/>
+    </TipsAndTricks>    
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingBalloonCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingBalloon" _LCLZText="Select a component within a drawing view, then place the balloon."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-BALLOON-CREATE-CMD">
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingSplineBalloonCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingBalloon" _LCLZText="Select a component within a drawing view, then place the balloon."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-BALLOON-CREATE-CMD">
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingRenumberCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingBalloonRenumber1" _LCLZText="Specify a starting number, then select existing balloons or bend identifiers."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingBalloonRenumber2" _LCLZText="Balloons and bend identifiers are renumbered based on the order they are selected. Parts lists and bend tables will automatically sort based on the renumbering."/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-BALLOON-RENUMBER-CMD">
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingAlignBalloonCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingAlignBalloon1" _LCLZText="Select existing balloons to align, then specify two points."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingAlignBalloon2" _LCLZText="Balloons are aligned and distributed equally between the two points."/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-BALLOON-ALIGN-CMD">
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="ExportFusionDrawingDocumentCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzExportFusionDrawingDocument1" _LCLZText="Creates a DWG file of the current drawing."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+	<TipsAndTricks MoreInfo="DRAWINGS-OUTPUT-DWG-CMD">
+      <Title _LCLZId="lclzFusionDrawingExportPdfTitle" _LCLZText="Output DWG Information"/>
+      <Tips _LCLZId="lclzFusionDrawingExportPdfTips" _LCLZText="Hold either the Shift or Ctrl keys to select multiple sheets on the sheet bar to output a DWG."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingExportDXFCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzExportFusionDrawingDocument1" _LCLZText="Creates a DXF file of the current drawing."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-OUTPUT-DXF-CMD">
+      <Title _LCLZId="lclzFusionDrawingExportDxfTitle" _LCLZText="Output DXF Information"/>
+      <Tips _LCLZId="lclzFusionDrawingExportDxfTips" _LCLZText="Hold either the Shift or Ctrl keys to select multiple sheets on the sheet bar to output a DXF"/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingSheetAddCommand">
+    <TipsAndTricks MoreInfo="DRAWINGS-ADD-SHEET-CMD">
+      <Title _LCLZId="lclzFusionDrawingAddSheetTitle" _LCLZText="Add Sheet Information"/>
+      <Tips _LCLZId="lclzFusionDrawingAddSheetTips" _LCLZText="Add a new sheet which by default inherits the properties of the active sheet, or select the desired options. "/>
+      <Description _LCLZId="lclzFusionDrawingAddSheetTipsDesc" _LCLZText="Right-click anywhere within the sheet bar to add a new sheet there."/>
+    </TipsAndTricks>
+  </CommandDefinition>  
+  <CommandDefinition Id="FusionDrawingExportPDFCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingExportPDF1" _LCLZText="Creates a PDF file of the current drawing."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-OUTPUT-PDF-CMD">
+      <Title _LCLZId="lclzFusionDrawingExportPdfTitle" _LCLZText="Output PDF Information"/>
+      <Tips _LCLZId="lclzFusionDrawingExportPdfTips" _LCLZText="Hold either the Shift or Ctrl keys to select multiple sheets on the sheet bar to output a PDF.&#xD;&#xA;Check the Open PDF check box to open the PDF when the output is done."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingExportSinglePDFCommand">
+    <TipsAndTricks MoreInfo="DRAWINGS-OUTPUT-PDF-CMD">
+      <Title _LCLZId="lclzFusionDrawingExportPdfTitle" _LCLZText="Output PDF Information"/>
+      <Tips _LCLZId="lclzFusionDrawingExportPdfTips" _LCLZText="Hold either the Shift or Ctrl keys to select multiple sheets on the sheet bar to output a PDF.&#xD;&#xA;Check the Open PDF check box to open the PDF when the output is done."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingExportSelectedSheetsPDFCommand">
+    <TipsAndTricks MoreInfo="DRAWINGS-OUTPUT-PDF-CMD">
+      <Title _LCLZId="lclzFusionDrawingExportPdfTitle" _LCLZText="Output PDF Information"/>
+      <Tips _LCLZId="lclzFusionDrawingExportPdfTips" _LCLZText="Hold either the Shift or Ctrl keys to select multiple sheets on the sheet bar to output a PDF.&#xD;&#xA;Check the Open PDF check box to open the PDF when the output is done."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="ExportFusionDrawingTemplateCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzExportFusionDrawingTemplate1" _LCLZText="Creates a drawing template of the current drawing configuration that can be used when creating new drawings."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzExportFusionDrawingTemplate2" _LCLZText="A template retains the current drawing's drafting standard, annotation and sheet settings, title block, and border. All drawing views, associated annotations, and parts lists are removed."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+   <CommandDefinition Id="FusionDrawingExportPartsListCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingExportPartsList1" _LCLZText="Creates a CSV file of the selected table"/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingDatumIdCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingDatumId1" _LCLZText="Select an edge, or an existing dimension, or an existing feature control frame symbol, then place the datum identifier."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-DATUM-IDENTIFIER-CMD">
+      <Title _LCLZId="lclzFusionDrawingDatumIdTipsTitle" _LCLZText="Datum Identifier Information"/>
+      <Tips _LCLZId="lclzFusionDrawingDatumIdTipsTips" _LCLZText="Symbols can be added from the text field in the drop-down menu."/>
+      <Description _LCLZId="lclzFusionDrawingDatumIdTipsDesc" _LCLZText="To create a surface symbol in an ISO drawing, select an object, right-click to activate the marking menu, and select Surface."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingImageInsertCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingImageInsert1" _LCLZText="Inserts the selected image into the current sheet."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-IMAGE-CMD">
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingImageEditCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingImageInsert1" _LCLZText="Edits the selected image into the current sheet."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-IMAGE-CMD">
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingBlockCloseCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingBlocCloseCommandTip1" _LCLZText="Closes the editor and returns to the drawing or drawing template."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingBlockEditorImageInsertCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingBlockEditorImageInsert1" _LCLZText="Inserts the selected image into the current block definition."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-IMAGE-CMD">
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingTemplateImageInsertCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingTemplateImageInsert1" _LCLZText="Inserts the selected image into the current sheet."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-IMAGE-CMD">
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingFeatureControlFrameCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingFeatureControlFrame1" _LCLZText="Select either an edge or an existing dimension, then place the feature control frame."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-FEATURE-CONTROL-FRAME-CMD">
+      <Title _LCLZId="lclzFusionDrawingFeatureControlFrameTipsTitle" _LCLZText="Feature Control Frame Information"/>
+      <Tips _LCLZId="lclzFusionDrawingFeatureControlFrameTipsTips" _LCLZText="Symbols can be added from the text field in the drop-down menu."/>
+      <Description _LCLZId="lclzFusionDrawingFeatureControlFrameTipsDesc" _LCLZText="To create a surface symbol in an ISO drawing, select an object, right-click to activate the marking menu, and select Surface."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingSurfaceTextureCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingSurfaceTexture1" _LCLZText="Select an edge, or an existing dimension, or an existing feature control frame symbol, then place the surface texture."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-SURFACE-TEXTURE-CMD">
+        <Title _LCLZId="lclzFusionDrawingSurfaceTextureTipsTitle" _LCLZText="Surface Texture Information"/>
+        <Tips _LCLZId="lclzFusionDrawingSurfaceTextureTipsTips" _LCLZText="The available properties in the dialog box depend on which symbol type is selected, and the drafting standard in use."/>
+        <Description _LCLZId="lclzFusionDrawingSurfaceTextureTipsDesc" _LCLZText="To attach a surface texture to a surface in an ISO drawing, select an object, right-click to activate the marking menu, and select Surface."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingSymbolEditCmd">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingSymbolEdit1" _LCLZText="Edit a symbol."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingBendIDCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingBendID" _LCLZText="Select a bend centerline within a flat pattern drawing view. A bend identifier is created."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-BEND-ID-CMD">
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingMeasureCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingMeasure1" _LCLZText="Reports distance, angle and positional data for the selected points."/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-TB-MEASURE-CMD">
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingLineCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingLine1" _LCLZText="Creates straight lines."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingLine2" _LCLZText="Specify the line's start point, then specify a second point to define its angle and length."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingRectangleCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingRectangle1" _LCLZText="Creates a rectangle using 2 diagonal points."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingRectangle2" _LCLZText="Specify the rectangle's start point, then specify a second point to define its width and height."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingCircleCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingCircle1" _LCLZText="Creates a circle using its center point and radius."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingCircle2" _LCLZText="Specify the circle's center point, then specify a second point to define its radius."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingArcCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingArc1" _LCLZText="Creates an arc using 3 points."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingArc2" _LCLZText="Specify the arc's start point, middle point and end point."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingEllipseCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingEllipse1" _LCLZText="Creates an ellipse."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingEllipse2" _LCLZText="The first two points of the ellipse determine the location and length of the first axis. The third point determines the distance between the center of the ellipse and the end point of the second axis."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingCopyCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingCopy1" _LCLZText="Select objects to copy, specify a base point, then specify a second point to define the copy's location."/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-TB-COPY-CMD">
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingTrimCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingTrim1" _LCLZText="Select the objects to trim. All objects automatically become cutting boundaries."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingExtendCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingExtend1" _LCLZText="Select the objects to extend. All objects automatically become extension boundaries."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingOffsetCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingOffset1" _LCLZText="Select the object to offset, enter the offset distance, then specify a point to define to side."/>
+      </ExpandedContent>
+    </Tooltip>
+    <TipsAndTricks MoreInfo="DRAWINGS-TB-OFFSET-CMD">
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingAttDefCommand">
+    <Tooltip>
+      <ExpandedContent>
+        <TextBlock _LCLZId="lclzFusionDrawingAttribute1" _LCLZText="Specify a point then enter the attribute's prompt. When finished, click outside the text editor."/>
+      </ExpandedContent>
+    </Tooltip>
+  <TipsAndTricks MoreInfo="GUID-B0A4BEF9-5DBB-4843-9D5B-EE080CCFD9E7">
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingAttEditCommand">
+    <TipsAndTricks MoreInfo="GUID-B0A4BEF9-5DBB-4843-9D5B-EE080CCFD9E7">
+     </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingBlockRefEditCommand">
+    <TipsAndTricks MoreInfo="DRAWINGS-TB-TEXT-ATTRIBUTE-CMD">
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingSketchCommand">
+    <Tooltip>
+      <ExpandedContent>
+<TextBlock _LCLZId="lclzFusionDrawingSketchCreate1" _LCLZText="Enters Sketch mode and creates a new sketch on the current sheet."/>
+        <TextBlock/>
+        <TextBlock _LCLZId="lclzFusionDrawingSketchCreate2" _LCLZText="Select Finish Sketch to exit out of the mode."/>
+      </ExpandedContent>
+    </Tooltip>
+  </CommandDefinition>
+    <CommandDefinition Id="FusionDrawingSketchCloseCommand">
+    <Tooltip>
+        <ExpandedContent>
+            <TextBlock _LCLZId="lclzFusionDrawingSketchClose1" _LCLZText="Closes the sketch editing mode."/>
+            </ExpandedContent>
+    </Tooltip>
+    </CommandDefinition>
+  <CommandDefinition Id="FusionChangeDocSettingCommand">
+    <TipsAndTricks MoreInfo="DWG-REF-DOCUMENT-SETTINGS">
+      <Title _LCLZId="lclzChangeDocSettingTipsAndTricksTitle" _LCLZText="Document Settings Information"/>
+        <Tips _LCLZId="lclzChangeDocSettingTips" _LCLZText="View or change document settings related to standards, units, text, dimensions, and line widths for the current drawing."/>
+        <Description _LCLZId="lclzChangeDocSettingDesc" _LCLZText="Some document settings are read-only, because they can only be set when you first create a drawing, or they are controlled by a standard."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionChangeSheetSettingCommand">
+    <TipsAndTricks MoreInfo="DWG-REF-SHEET-SETTINGS">
+      <Title _LCLZId="lclzChangeSheetSettingTipsAndTricksTitle" _LCLZText="Sheet Settings Information"/>
+        <Tips _LCLZId="lclzChangeSheetSettingTips" _LCLZText="Change the sheet size and title block for the current drawing."/>
+        <Description _LCLZId="lclzChangeSheetSettingDesc" _LCLZText="You can create as many title blocks as you need and switch between them. You can also toggle the border and title block on or off independently."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+  <CommandDefinition Id="FusionDrawingNewTitleBlockCommand">
+    <TipsAndTricks MoreInfo="DWG-REF-NEW-TITLE-BLOCK">
+      <Title _LCLZId="lclzNewTitleBlockTipsAndTricksTitle" _LCLZText="New Title Block Information"/>
+        <Tips _LCLZId="lclzNewTitleBlockTips" _LCLZText="Create a new title block based on an existing title block, from scratch, or from a DWG file."/>
+        <Description _LCLZId="lclzNewTitleBlockDesc" _LCLZText="After you select a source and click OK, the Title Block contextual environment opens, where you can create and modify geometry and text to customize the title block."/>
+    </TipsAndTricks>
+  </CommandDefinition>
+</CommandDefinitions>

@@ -77,7 +77,7 @@ export default function Layout({ children }) {
         {
             text: '남녀층 배정',
             icon: <ListIcon color="primary" />,
-            path: '/'
+            path: '/SelectFloor'
         },
         {
             text: '교수님팀 배정',

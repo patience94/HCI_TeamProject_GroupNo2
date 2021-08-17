@@ -1,0 +1,11 @@
+{
+    "build"     : "Release",
+
+    "platform"  : "darwin",
+
+    "packageId" : "AcCoreView",
+   
+    "package-files" : {
+      "third-party-var" : "_AcCoreView"
+      }
+}

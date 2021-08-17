@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<CommandDefinitions>
+  <EnvironmentDefinition Id="CAMEnvironment">
+    <Tooltip>
+      <ExpandedContent ToolClip="ToolClip/cam_workspace.png">
+        <TextBlock _LCLZId="lclzCamWorkspaceTitle" _LCLZText="Generates tool-path strategies for the design to be fabricated."/>
+        <TextBlock/>
+      </ExpandedContent>
+    </Tooltip>
+  </EnvironmentDefinition>
+</CommandDefinitions>

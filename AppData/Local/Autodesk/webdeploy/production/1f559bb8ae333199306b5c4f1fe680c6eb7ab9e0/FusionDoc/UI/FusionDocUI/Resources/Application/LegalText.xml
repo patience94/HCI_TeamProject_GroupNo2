@@ -1,0 +1,2760 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=us-ascii">
+	<TITLE>Copyright Standardization Task Force</TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 3.3  (FreeBSD/amd64)">
+	<META NAME="AUTHOR" CONTENT="nagatok">
+	<META NAME="CREATED" CONTENT="20131209;6480000">
+	<META NAME="CHANGEDBY" CONTENT="Shirley Lam-Lewis">
+	<META NAME="CHANGED" CONTENT="20131209;6530000">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin-right: 1in; margin-top: 0.5in; margin-bottom: 0.5in }
+		P { margin-bottom: 0.08in; text-align: left }
+		P.western { font-family: "Times New Roman", serif; font-size: 12pt; so-language: en-US }
+		P.cjk { font-family: "MS Mincho", "?l?r ??'c", monospace; font-size: 12pt; so-language: ja-JP }
+		P.ctl { font-family: "Times New Roman", serif; font-size: 12pt; so-language: ar-SA }
+		A:link { color: #0000ff }
+		A.ctl:link { font-family: "Times New Roman", serif }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" LINK="#0000ff" DIR="LTR" STYLE="border: none; padding: 0in" >
+<font color="#DADADA">
+<DIV TYPE=HEADER>
+	<P STYLE="margin-bottom: 0.46in"><BR>
+	</P>
+</DIV>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><B>&copy;
+2013 Autodesk, Inc.  All rights reserved.  </B></FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><B>All
+use of this Software is subject to the terms and conditions of the
+Autodesk End User License Agreement accepted upon installation of
+this Software and/or packaged with the Software.<BR></B></FONT></FONT><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><B>Trademarks</B></FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Arial, sans-serif"><FONT SIZE=1 STYLE="font-size: 8pt">The
+following are registered trademarks or trademarks of Autodesk, Inc.,
+and/or its subsidiaries and/or affiliates in the USA and other
+countries: 123D, 3ds Max, Algor, Alias, AliasStudio, ATC, AutoCAD LT,
+AutoCAD, Autodesk, the Autodesk logo, Autodesk 123D, Autodesk
+Homestyler, Autodesk Inventor, Autodesk MapGuide, Autodesk
+Streamline, AutoLISP, AutoSketch, AutoSnap, AutoTrack, Backburner,
+Backdraft, Beast, BIM 360, Burn, Buzzsaw, CADmep, CAiCE, CAMduct,
+CFdesign, Civil 3D, Cleaner, Combustion, Communication Specification,
+Constructware, Content Explorer, Creative Bridge, Dancing Baby
+(image), DesignCenter, DesignKids, DesignStudio, Discreet, DWF, DWG,
+DWG (design/logo), DWG Extreme, DWG TrueConvert, DWG TrueView, DWGX,
+DXF, Ecotect, ESTmep, Evolver, FABmep, Face Robot, FBX, Fempro, Fire,
+Flame, Flare, Flint, FMDesktop, ForceEffect, FormIt, Freewheel,
+Fusion 360, Glue, Green Building Studio, Heidi, Homestyler, HumanIK,
+i-drop, ImageModeler, Incinerator, Inferno, InfraWorks,
+Instructables, Instructables (stylized robot design/logo), Inventor
+LT, Inventor, Kynapse, Kynogon, LandXplorer, Lustre, MatchMover,
+Maya, Maya LT, Mechanical Desktop, MIMI, Mockup 360, Moldflow
+Plastics Advisers, Moldflow Plastics Insight, Moldflow, Moondust,
+MotionBuilder, Movimento, MPA (design/logo), MPA, MPI (design/logo),
+MPX (design/logo), MPX, Mudbox, Navisworks, ObjectARX, ObjectDBX,
+Opticore, Pipeplus, Pixlr, Pixlr-o-matic, Productstream, RasterDWG,
+RealDWG, ReCap, Remote, Revit LT, Revit, RiverCAD, Robot, Scaleform,
+Showcase, ShowMotion, Sim 360, SketchBook, Smoke, Socialcam,
+Softimage, Sparks, SteeringWheels, Stitcher, Stone, StormNET,
+TinkerBox, ToolClip, Topobase, Toxik, TrustedDWG, T-Splines,
+ViewCube, Visual LISP, Visual, VRED, Wire, Wiretap, WiretapCentral,
+XSI</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">ACE&trade;,
+TAO&trade;, CIAO&trade;, and CoSMIC&trade; are copyrighted by Douglas
+C. Schmidt and his research group at Washington University,
+University of California, Irvine, and Vanderbilt University,
+Copyright (c) 1993-2009, all rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">ACIS<SUP>
+</SUP>Geometric Modeler is the registered trademark of SPATIAL
+TECHNOLOGY, INC.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Microsoft
+and Visual Basic are registered trademarks in the United States and
+other countries and the Microsoft Visual Basic Technology logo is a
+trademark of Microsoft Corporation.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">ArchVision,
+realpeople, and RPC are either registered trademarks or trademarks of
+ArchVision, Inc.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Microsoft,
+Direct3D, DirectX, Excel, Windows, are either registered trademarks
+or trademarks of Microsoft Corp. in the United States and/or other
+countries.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>RSA
+is either a registered trademark or trademark of RSA Security, Inc.,
+in the United States and/or other countries.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Wise
+Solutions is either a registered trademark or trademark of Wise
+Solutions, Inc., in the United States and/or other countries.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Adobe,
+Acrobat, Acrobat Reader, Adobe PDF (logo), Flash, OpenType (logo),
+Reader, and Streamline are either registered trademarks or trademarks
+of Adobe Systems, Inc., in the United States and/or other countries.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>dataBased
+Intelligence and dBASE are either registered trademarks or trademarks
+of dataBased Intelligence, Inc., in the United States and/or other
+countries.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Microsoft,
+ActiveX, Direct3D, DirectX, Excel, Microsoft Internet Explorer
+(logo), OpenType, Tahoma, Windows, Windows (logo), Windows NT, and
+Windows Start (logo) are either registered trademarks or trademarks
+of Microsoft Corp. in the United States and/or other countries.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>SGI,
+OpenGL, and OpenGL (logo) are either registered trademarks or
+trademarks of Silicon Graphics, Inc., in the United States and/or
+other countries.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>SMLib
+is either a registered trademark or trademark of Solid Modeling
+Solutions, Inc., in the United States and/or other countries.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Spatial,
+ACIS, and SAT are either registered trademarks or trademarks of
+Spatial Corp. in the United States and/or other countries.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"> 
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">mental images and
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>mental ray are
+registered trademarks of NVIDIA ARC GmbH, licensed for use by
+Autodesk, Inc.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif">Intel,
+Xeon and Pentium are registered trademarks or trademarks of Intel
+Corporation or its subsidiaries in the United States and other
+countries.</FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>GRANITE<SUP>&reg;</SUP>
+is either a registered trademark or trademark of Parametric
+Technology Corporation, in the United States and/or other countries.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>D-Cubed
+is a trademark of Siemens Industry Software Limited.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Visual
+LISP, Volo, Vtour, Wire, Wiretap, WiretapCentral, XSI, and XSI
+(design/logo).</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">All
+other brand names, product names or trademarks belong to their
+respective holders.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><B>Patents</B></FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Protected
+by each of the following patents:  U.S. Patent Nos.</FONT><FONT SIZE=2 STYLE="font-size: 9pt">&nbsp;</FONT><FONT SIZE=2 STYLE="font-size: 9pt">
+6,363,503, 7,168,012, 6,888,542,  5,528,260, 5,793,377, 5,760,716,
+5,990,911, 5,818,460, 6,111,587, 6,040,830, 6,803,927, 5,990,864,
+6,058,219, 6,232,985, 6,232,983, 6,717,587, 6,219,056, 6,064,386,
+6,462,751, 6,999,102, 6,025,849, 6,463,180, 6,081,624, 6,370,602,
+6,219,772, 6,512,519, 6,396,420, 5,572,639, 6,323,859, 6,573,903,
+6,016,147, 7,098,933, 6,480,813, 6,346,943, 6,911,981, 5,982,399,
+6,401,141, 6,392,662, 6,046,749, 6,281,906, 6,801,217, 6,918,087,
+6,556,227, 7,000,197, 6,353,441, 6,369,829, 6,417,865, 6,628,285,
+6,823,299, 6,646,641, 6,683,622, 6,848,082, 7,366,980, 7,016,922,
+6,954,895, 6,992,680, 6,870,546, 6,675,355, 6,964,015, 6,836,886,
+6,670,961, 7,401,299, 7,027,068, 6,927,768, 6,867,771, 7,359,914,
+7,380,091, 7,272,698, 7,363,615, 7,287,191, 7,325,166, 6,847,384,
+6,931,600, 6,144,382, 6,992,685, 7,483,827, 7,620,911, 7,620,947,
+7,526,719, 7,254,235, 7,770,135. 7,782,319, </FONT><FONT SIZE=2>7,047,180,
+7,062,532, 7,860,691, </FONT><FONT SIZE=2 STYLE="font-size: 9pt">D623657,
+D624933, D625732, D625328, D625327, D623656, D623658; and patents
+pending</FONT><FONT SIZE=2 STYLE="font-size: 9pt">.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"> 
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><B>Third</B></FONT><FONT SIZE=2><B>-</B></FONT><FONT SIZE=2><B>Party
+Software Credits and Attributions</B></FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">This
+software is based in part on the works of the following:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">This Autodesk software contains OpenMCDF v.1.5.4. The source code of this OpenMCDF library is licensed under the Mozilla Public License v.1.1, which can be found at http://www.mozilla.org/MPL/1.1/. A text copy of this license and the source code for OpenMCDF v.1.5.4 (and modifications made by Autodesk, if any) are included on the media provided by Autodesk or with the download of this Autodesk software.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Portions
+related to ezXML are Copyright 2004, 2005 Aaron Voisine, under the
+following license:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Permission
+is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the &ldquo;Software&rdquo;),
+to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">The
+above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">THE
+SOFTWARE IS PROVIDED &ldquo;AS IS&rdquo;, WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT, SHALL THE AUTHORIS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>ACIS&reg;
+&copy; 1989&ndash;2002 Spatial Corp.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Portions
+&copy;1997- 2009 Acresso Software Inc. and/or InstallShield Co. Inc.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Portions
+Copyright (c) 1997-2000 Barry Allyn. All rights reserved.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Portions
+relating to Adobe Photoshop<SUP>&reg;</SUP> CS4 software Copyright
+1990-1991 by Thomas Knoll. Copyright 1992-1995 by Adobe Systems, Inc.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Portions
+related to Apache Xerces DLL are Copyright &copy; 1999-2000 The
+Apache Software Foundation.  All rights reserved.  This product
+includes software developed by the Apache Software Foundation
+(<B>http://www.apache.org</B>) subject to its license terms and
+conditions (<B>http://xml.apache.org/dist/LICENSE.txt</B>).</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Typefaces
+from the Bitstream &reg; typeface library Copyright &copy; 1992.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Portions
+related to HLM are D-Cubed&trade; HLM &copy; 2010. Siements Product
+Lifecycle Management Software (GB) Limited. All Rights Reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"> <FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">D-Cubed&trade;
+2D DCM &copy; Copyright 2010. Siemens Product Lifecycle Management
+Software (GB) Limited. All Rights Reserved.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Portions
+relating to JPEG software is copyright &copy; 1991-1998, Thomas G.
+Lane.  All Rights Reserved.  Portions of this software are based on
+the work of the Independent JPEG Group.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Active
+Delivery&trade; 2.0 &copy; 1999-2004 Inner Media, Inc.  All rights
+reserved.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">libpng
+version 1.2.8 - December 3, 2004, Copyright (c) 1998-2004 Glenn
+Randers-Pehrson, Copyright (c) 1996-1997 Andreas Dilger, Copyright
+(c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">LibTiff
+(<U>http://www.libtiff.org</U>), Copyright (c) 1988-1997 Sam Leffler,
+Copyright (c) 1991-1997 Silicon Graphics, Inc., under the following
+license:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Permission
+to use, copy, modify, distribute, and sell this [libtiff] software
+and its documentation for any purpose is hereby granted without fee,
+provided that (i) the above copyright notices and this permission
+notice appear in all copies of the software and related
+documentation, and (ii) the names of Sam Leffler and Silicon Graphics
+may not be used in any advertising or publicity relating to the
+software without the specific, prior written permission of Sam
+Leffler and Silicon Graphics.</FONT></FONT></P>
+<P STYLE="margin-left: 0.27in; margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">THE
+SOFTWARE IS PROVIDED &quot;AS-IS&quot; AND WITHOUT WARRANTY OF ANY
+KIND, EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION,
+ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. 
+</FONT></FONT>
+</P>
+<P STYLE="margin-left: 0.27in; margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">IN
+NO EVENT SHALL SAM LEFFLER OR SILICON GRAPHICS BE LIABLE FOR ANY
+SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND,
+OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+PROFITS, WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON
+ANY THEORY OF LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE
+OR PERFORMANCE OF THIS SOFTWARE</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Portions
+are Copyright &copy; Lingea s.r.o. 2006.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+Portions of this computer program are copyright &copy; 1995-2011
+Celartum, Inc., doing business as LizardTech. All rights reserved.
+MrSID is protected by U.S. Patent No. 5,710,835. Foreign Patents
+Pending.</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Portions
+Copyrighted <I>mental images</I>GmbH &amp; Co. KG 1989-2007</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Copyright
+&copy; 1996-2012 Microsoft Corporation. All rights reserved</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Portions
+utilize Microsoft Windows Media Technologies. Copyright &copy;
+1999-2004 Microsoft Corporation. All Rights Reserved.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Portions
+utilize StdString.h Copyright &copy; 2002 Joseph M. O&rsquo;Leary.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Portions
+Copyright 1992, 1996 Payne Loving Trust, All rights reserved.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Portions
+of the subdivision surface implementation technology are protected by
+U.S. patents 6,037,949, 6,222,553, 6,300,960, and 6,489,960 and used
+under license from Pixar. Use of the Pixar creasing software may
+require a license under patents owned by Pixar. </FONT></FONT>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">The
+Sentry Spelling-Checker Engine Copyright &copy; 1994-2003 Wintertree
+Software, Inc.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Portions
+of this product include one or more Boost libraries.  Boost Software
+License &ndash; Version 1.0&ndash; August 17<SUP>th</SUP>, 2003,
+under the following license:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0.5in; margin-bottom: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">Permission
+is hereby granted, free of charge, to any person or organization
+obtaining a copy of the software and accompanying documentation
+covered by this license (the &ldquo;Software&rdquo;) to use,
+reproduce, display, distribute, execute, and transmit the Software,
+and to prepare derivative works of the Software, and to permit
+third-parties to whom the Software is furnished to do so, all subject
+to the following:</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0.5in; margin-bottom: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0.5in; margin-bottom: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">The
+copyright notices in the Software and this entire statement,
+including the above license grant, this restriction and the following
+disclaimer, must be included in all copies of the Software, in whole
+or in part, and all derivative works of the Software, unless such
+copies or derivative works are solely in the form of
+machine-executable object code granted by a source language
+processor.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0.5in; margin-bottom: 0in">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-left: 0.5in; margin-bottom: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2 STYLE="font-size: 9pt">THE
+SOFTWARE IS PROVIDED &ldquo;AS IS&rdquo;, WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND
+NON-INFRINGEMENT, IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR ANYONE
+DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR OTHER
+LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT
+OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><A NAME="_GoBack"></A><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Consolas, monospace"><FONT SIZE=2 STYLE="font-size: 9pt">Portions
+related to Chromium v 17.0.963.79 are </FONT></FONT><FONT FACE="Courier New, monospace"><FONT SIZE=2>Copyright
+(c) 2013 The Chromium Authors. All rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Redistribution
+and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>*
+Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>*
+Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>*
+Neither the name of Google Inc. nor the names of its contributors may
+be used to endorse or promote products derived from this software
+without specific prior written permission.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>THIS
+SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS
+IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P LANG="en" CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Portions
+related to Apple Webkit are Copyright (C) 2005, 2006, 2007, 2008,
+2009 Apple Inc. All rights reserved.</FONT></FONT></P>
+<P LANG="en" CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P LANG="en" CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Redistribution
+and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:</FONT></FONT></P>
+<P LANG="en" CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>1.
+ Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.</FONT></FONT></P>
+<P LANG="en" CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>2.
+ Redistributions in binary form must reproduce the above copyright  
+notice, this list of conditions and the following disclaimer in the  
+ documentation and/or other materials provided with the distribution.</FONT></FONT></P>
+<P LANG="en" CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P LANG="en" CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>THIS
+SOFTWARE IS PROVIDED BY APPLE INC. AND ITS CONTRIBUTORS ``AS IS'' AND
+ANYEXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED</FONT></FONT></P>
+<P LANG="en" CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>WARRANTIES
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE</FONT></FONT></P>
+<P LANG="en" CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>DISCLAIMED.
+IN NO EVENT SHALL APPLE INC. OR ITS CONTRIBUTORS BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER
+IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</FONT></FONT></P>
+<P LANG="en" CLASS="western" STYLE="margin-bottom: 0in"><IMG SRC="0570308001386629078_fusiondoccopyrights%20keystone%20120913%20to%20team_html_5c72b44.gif" NAME="graphics1" ALIGN=BOTTOM WIDTH=624 HEIGHT=2 BORDER=0></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>libpng
+versions 1.2.6, August 15, 2004, through 1.5.12, July 11, 2012, are</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Copyright
+(c) 2004, 2006-2012 Glenn Randers-Pehrson, and are distributed
+according to the same disclaimer and license as libpng-1.2.5 with the
+following individual added to the list of Contributing Authors Cosmin
+Truta</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>libpng
+versions 1.0.7, July 1, 2000, through 1.2.5 - October 3, 2002, are</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Copyright
+(c) 2000-2002 Glenn Randers-Pehrson, and are distributed according to
+the same disclaimer and license as libpng-1.0.6 with the following
+individuals added to the list of Contributing Authors Simon-Pierre
+Cadieux</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Eric
+S. Raymond, Gilles Vollant and with the following additions to the
+disclaimer:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>There
+is no warranty against interference with your enjoyment of the
+library or against infringement. There is no warranty that our
+efforts or the library will fulfill any of your particular purposes
+or needs. This library is provided with all faults, and the entire
+risk of satisfactory quality, performance, accuracy, and effort is
+with the user.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>libpng
+versions 0.97, January 1998, through 1.0.6, March 20, 2000, are</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Copyright
+(c) 1998, 1999 Glenn Randers-Pehrson, and are distributed according
+to the same disclaimer and license as libpng-0.96, with the following
+individuals added to the list of Contributing Authors:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Tom
+Lane</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Glenn
+Randers-Pehrson</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Willem
+van Schaik</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>libpng
+versions 0.89, June 1996, through 0.96, May 1997, are</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Copyright
+(c) 1996, 1997 Andreas Dilger</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Distributed
+according to the same disclaimer and license as libpng-0.88,</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>with
+the following individuals added to the list of Contributing Authors:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>John
+Bowler</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Kevin
+Bracey</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Sam
+Bushell</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Magnus
+Holmgren</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Greg
+Roelofs</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Tom
+Tanner</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>libpng
+versions 0.5, May 1995, through 0.88, January 1996, are</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Copyright
+(c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>For
+the purposes of this copyright and license, &quot;Contributing
+Authors&quot;</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>is
+defined as the following set of individuals:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Andreas
+Dilger</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Dave
+Martindale</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Guy
+Eric Schalnat</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Paul
+Schmidt</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Tim
+Wegner</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>The
+PNG Reference Library is supplied &quot;AS IS&quot;. The Contributing
+Authors</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>and
+Group 42, Inc. disclaim all warranties, expressed or implied,
+including, without limitation, the warranties of merchantability and
+of fitness for any purpose. The Contributing Authors and Group 42,
+Inc. assume no liability for direct, indirect, incidental, special,
+exemplary, or consequential damages, which may result from the use of
+the PNG Reference Library, even if advised of the possibility of such
+damage.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Permission
+is hereby granted to use, copy, modify, and distribute this source
+code, or portions hereof, for any purpose, without fee, subject to
+the following restrictions:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>1.
+The origin of this source code must not be misrepresented.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>2.
+Altered versions must be plainly marked as such and must not be
+misrepresented as being the original source.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>3.
+This Copyright notice may not be removed or altered from any source
+or altered source distribution.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>The
+Contributing Authors and Group 42, Inc. specifically permit, without
+fee, and encourage the use of this source code as a component to
+supporting the PNG file format in commercial products. If you use
+this source code in a product, acknowledgment is not required but
+would be appreciated.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="LucidaConsole, sans-serif"><FONT SIZE=1 STYLE="font-size: 8pt">Portions
+related to google-jstemplate are Copyright 2006 Google Inc. </FONT></FONT><FONT FACE="Courier New, monospace"><FONT SIZE=2>Licensed
+under the Apache License, Version 2.0 (the &quot;License&quot;);you
+may not use this file except in compliance with the License. You may
+obtain a copy of the License at     
+http://www.apache.org/licenses/LICENSE-2.0</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Unless
+required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot;
+BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied. See the License for the specific language governing
+permissions and   limitations under the License.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Portions
+related to jQuery JavaScript Library are Copyright 2013 jQuery
+Foundation and other contributors</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>http://jquery.com/</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Permission
+is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the &quot;Software&quot;),
+to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>The
+above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>THE
+SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Portions
+related to libcurl v7.23.1 are Copyright (c) 1996 - 2011, Daniel
+Stenberg, &lt;daniel@haxx.se&gt;.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>All
+rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Permission
+to use, copy, modify, and distribute this software for any purpose</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>with
+or without fee is hereby granted, provided that the above copyright</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>notice
+and this permission notice appear in all copies.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>THE
+SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM,</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>DAMAGES
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>OR
+OTHER DEALINGS IN THE SOFTWARE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"> 
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Except
+as contained in this notice, the name of a copyright holder shall not</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>be
+used in advertising or otherwise to promote the sale, use or other
+ealings in this Software without prior written authorization of the
+copyright holder.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Portions
+of CS-Map v. 14.00 is (c) 2008, Autodesk, Inc. All rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>Redistribution
+and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>*
+Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>*
+Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>*
+Neither the name of the Autodesk, Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Courier New, monospace"><FONT SIZE=2>THIS
+SOFTWARE IS PROVIDED BY Autodesk, Inc. ``AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL Autodesk, Inc. OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Portions related to
+Log4Net are Copyright &copy; 2004-2006 The Apache Software Foundation</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Licensed under the
+Apache License, Version 2.0 (the &quot;License&quot;);  you may not
+use this file except in compliance with the License.  You may obtain
+a copy of the License at      
+http://www.apache.org/licenses/LICENSE-2.0</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Unless required by
+applicable law or agreed to in writing, software  distributed under
+the License is distributed on an &quot;AS IS&quot; BASIS,  WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See
+the License for the specific language governing permissions and 
+limitations under the License.</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Portions related to
+Lucene.net are  Copyright 2006 The Apache Software Foundation</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">The Apache Software
+Foundation (<A CLASS="western" HREF="http://www.apache.org/">http://www.apache.org/</A>).
+  Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+ you may not use this file except in compliance with the License. You
+may obtain a copy of the License at 
+http://www.apache.org/licenses/LICENSE-2.0</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">Unless required by
+applicable law or agreed to in writing, software  distributed under
+the License is distributed on an &quot;AS IS&quot; BASIS,  WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See
+the License for the specific language governing permissions and 
+limitations under the License.</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">This product includes
+software  developed by The Apache Software Foundation
+(<A CLASS="western" HREF="http://www.apache.org/"><U>http://www.apache.org/</U></A>).
+The snowball stemmers in contrib/snowball/src/java/net/sf/snowball</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">were developed by
+Martin Porter and Richard Boulton. The full snowball package is
+available from <A CLASS="western" HREF="http://snowball.tartarus.org/"><U>http://snowball.tartarus.org/</U></A>
+The Arabic stemmer (contrib/analyzers) comes with a default</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">stopword  list that is
+BSD-licensed  created by Jacques Savoy.  The file resides in
+contrib/analyzers/common/src/resources/org/apache/lucene/analysis/ar/stopwords.txt.</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">See
+<A CLASS="western" HREF="http://members.unine.ch/jacques.savoy/clef/index.html"><U>http://members.unine.ch/jacques.savoy/clef/index.html</U></A>.
+The Persian analyzer (contrib/analyzers) comes with a default
+stopword list that is BSD-licensed created by Jacques Savoy.  The
+file resides in
+contrib/analyzers/common/src/resources/org/apache/lucene/analysis/fa/stopwords.txt.</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">See
+<A CLASS="western" HREF="http://members.unine.ch/jacques.savoy/clef/index.html"><U>http://members.unine.ch/jacques.savoy/clef/index.html</U></A>.
+Includes lib/servlet-api-2.4.jar from  Apache Tomcat The
+SmartChineseAnalyzer source code (under contrib/analyzers) was
+provided by Xiaoping Gao and copyright 2009 by <A CLASS="western" HREF="http://www.imdict.net/"><U>www.imdict.net</U></A>.
+ICU4J, (under contrib/collation) is licensed under an MIT styles
+license (contrib/collation/lib/ICU-LICENSE.txt) and Copyright (c)
+1995-2008 International Business Machines Corporation and others</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to Info-ZIP are Copyright (c) 1990-1999 Info-ZIP.  All rights
+reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>For
+the purposes of this copyright and license, &quot;Info-ZIP&quot; is
+defined as the following set of individuals:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Mark
+Adler, John Bush, Karl Davis, Harald Denker, Jean-Michel Dubois,
+Jean-loup Gailly, Hunter Goatley, Ian Gorman, Chris Herborth, Dirk
+Haase, Greg Hartwig, Robert Heath, Jonathan Hudson, Paul Kienitz,
+David Kirschbaum, Johnny Lee, Onno van der Linden, Igor Mandrichenko,
+Steve P. Miller, Sergio Monesi, Keith Owens, George Petrov, Greg
+Roelofs, Kai Uwe Rommel, Steve Salisbury, Dave Smith, Christian
+Spieler, Antoine Verheijen, Paul von Behren, Rich Wales, Mike White.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>This
+software is provided &quot;as is,&quot; without warranty of any kind,
+express or implied.  In no event shall Info-ZIP or its contributors
+be held liable for any direct, indirect, incidental, special or
+consequential damages arising out of the use of or inability to use
+this software.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Permission
+is granted to anyone to use this software for any purpose, including
+commercial applications, and to alter it and redistribute it freely,
+subject to the following restrictions:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>1.
+Redistributions of source code must retain the above copyright
+notice, definition, disclaimer, and this list of conditions.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>2.
+Redistributions in binary form must reproduce the above copyright
+notice, definition, disclaimer, and this list of conditions in
+documentation and/or other materials provided with the distribution.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>3.
+Altered versions--including, but not limited to, ports to new
+operating systems, existing ports with new graphical interfaces, and
+dynamic, shared, or static library versions--must be plainly marked
+as such and must not be misrepresented as being the original source. 
+Such      altered versions also must not be misrepresented as being
+Info-ZIP releases--including, but not limited to, labeling of the
+altered versions with the names &quot;Info-ZIP&quot; (or any
+variation thereof, including, but not limited to, different
+capitalizations), &quot;Pocket UnZip,&quot; &quot;WiZ&quot; or
+&quot;MacZip&quot; without the explicit permission of Info-ZIP.  Such
+altered versions are further prohibited from misrepresentative use of
+the Zip-Bugs or Info-ZIP e-mail addresses or of the Info-ZIP URL(s).</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>4.
+Info-ZIP retains the right to use the names &quot;Info-ZIP,&quot;
+&quot;Zip,&quot; &quot;UnZip,&quot; &quot;WiZ,&quot; &quot;Pocket
+UnZip,&quot; &quot;Pocket Zip,&quot; and &quot;MacZip&quot; for its
+own source and binary releases.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">  
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to Libcurl are Copyright (c) 1996 - 2009, Daniel Stenberg,
+&lt;daniel@haxx.se&gt;.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>All
+rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"> 
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Permission
+to use, copy, modify, and distribute this software for any purpose
+with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"> 
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>THE
+SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM,</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>DAMAGES
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Except
+as contained in this notice, the name of a copyright holder shall not</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>be
+used in advertising or otherwise to promote the sale, use or other
+dealings</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>in
+this Software without prior written authorization of the copyright
+holder.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to OpenSSL are Copyright (c) 1998-2006 The OpenSSL Project. 
+All rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Redistribution
+and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>1.
+Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer. </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>2.
+Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>3.
+All advertising materials mentioning features or use of this software
+must display the following acknowledgment: &quot;This product
+includes software developed by the OpenSSL Project  for use in the
+OpenSSL Toolkit. (http://www.openssl.org/)&quot;</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>4.
+The names &quot;OpenSSL Toolkit&quot; and &quot;OpenSSL Project&quot;
+must not be used to endorse or promote products derived from this
+software without prior written permission. For written permission,
+please contact openssl-core@openssl.org.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>5.
+Products derived from this software may not be called &quot;OpenSSL&quot;
+nor may &quot;OpenSSL&quot; appear in their names without prior
+written permission of the OpenSSL Project.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>6.
+Redistributions of any form whatsoever must retain the following
+acknowledgment:   &quot;This product includes software developed by
+the OpenSSL Project for use in the OpenSSL Toolkit
+(http://www.openssl.org/)&quot;</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>THIS
+SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
+EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR ITS
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>LOSS
+OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY
+WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>This
+product includes cryptographic software written by Eric Young
+(eay@cryptsoft.com).  This product includes software written by Tim
+Hudson (tjh@cryptsoft.com).</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"> <FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Original
+SSLeay License Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>All
+rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>This
+package is an SSL implementation written by Eric Young
+(eay@cryptsoft.com).</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>The
+implementation was written so as to conform with Netscapes SSL.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"> 
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>This
+library is free for commercial and non-commercial use as long as the
+following conditions are adhered to.  The following conditions apply
+to all code found in this distribution, be it the RC4, RSA, lhash,
+DES, etc., code; not just the SSL code.  The SSL documentation
+included with this distribution is covered by the same copyright
+terms except that the holder is Tim Hudson (tjh@cryptsoft.com).
+Copyright remains Eric Young's, and as such any Copyright notices in
+the code are not to be removed. If this package is used in a product,
+Eric Young should be given attribution as the author of the parts of
+the library used.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>This
+can be in the form of a textual message at program startup or in
+documentation (online or textual) provided with the
+package.Redistribution and use in source and binary forms, with or
+without modification, are permitted provided that the following
+conditions are met:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>1.
+Redistributions of source code must retain the copyright notice, this
+list of conditions and the following disclaimer.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>2.
+Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>3.
+All advertising materials mentioning features or use of this software
+must display the following acknowledgement: &quot;This product
+includes cryptographic software written by Eric Young
+(eay@cryptsoft.com)&quot; The word 'cryptographic' can be left out if
+the rouines [sic] from the library being used are not cryptographic
+related :-).</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>4.
+If you include any Windows specific code (or a derivative thereof)
+from the apps directory (application code) you must include an
+acknowledgement: &quot;This product includes software written by Tim
+Hudson (tjh@cryptsoft.com)&quot;</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>THIS
+SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Apache
+Avro Copyright 2009-2012 The Apache Software Foundation</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Licensed
+under the Apache License, Version 2.0 (the &quot;License&quot;); you
+may not use this file except in compliance with the License.  You may
+obtain a copy of the License at      
+http://www.apache.org/licenses/LICENSE-2.0</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Unless
+required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot;
+BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied. See the License for the specific language governing
+permissions and limitations under the License.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Portions
+relating to Windows Template Library-WTL v.8.0 are Copyright (C)
+Microsoft Corporation. All rights reserved. </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">This
+file is a part of the Windows Template Library. The use and
+distribution terms for this software are covered by the Common Public
+License 1.0 (</FONT></FONT><A CLASS="western" HREF="http://opensource.org/osi3.0/licenses/cpl1.0.php"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><U>http://opensource.org/osi3.0/licenses/cpl1.0.php</U></FONT></FONT></A><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">)
+which can be found in the file CPL.TXT at the root of this
+distribution. By using this software in any fashion, you are agreeing
+to be bound by the terms of this license. You must not remove this
+notice, or any other, from this software.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">The
+source code for WTL v.8.0 (and modifications made by Autodesk, if
+any) is available from </FONT></FONT><A CLASS="western" HREF="http://www.autodesk.com/lgplsource"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><U>www.autodesk.com/lgplsource</U></FONT></FONT></A><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">.</FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">
+</FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Portions
+related to </FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">KQOAuth
+v.0.97 </FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">are
+</FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">authored
+by Johan Paul (johan.paul@gmail.com) </FONT></FONT><A CLASS="western" HREF="http://www.johanpaul.com/"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><U>http://www.johanpaul.com</U></FONT></FONT></A><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">.</FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">
+This Autodesk software contains </FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">KQOAuth
+v.0.97</FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">,
+as modified by Autodesk.</FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">&nbsp;</FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">
+</FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">KQOAuth
+v.0.97 </FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">is
+licensed under the GNU Lesser General Public License v.2.1, which can
+be found at </FONT></FONT><A CLASS="western" HREF="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><U>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</U></FONT></FONT></A><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">.
+</FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">&nbsp;&nbsp;</FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">A
+text copy of this license is included on the media provided by
+Autodesk or with the download of this Autodesk software.  You may
+obtain a copy of the source code for KQOAuth v.0.97, as modified by
+Autodesk, from <A CLASS="western" HREF="http://www.autodesk.com/lgplsource">www.autodesk.com/lgplsource</A>
+or by sending a written request to:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Autodesk,
+Inc.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Attention:
+ General Counsel</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Legal
+Department</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">111
+McInnis Parkway</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">San
+Rafael, CA 94903</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Your
+written request must:</FONT></FONT></P>
+<OL>
+	<LI><P CLASS="western" STYLE="margin-right: 0.56in; margin-bottom: 0in; line-height: 0.17in">
+	<FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Contain
+	a self-addressed CD/DVD mailer (or envelope sufficiently large to
+	hold a DVD) with postage sufficient to cover the amount of the
+	current U.S. Post Office First Class postage rate for CD/DVD mailers
+	(or the envelope you have chosen) weighing  5 ounces from San
+	Rafael, California USA to your indicated address; and</FONT></FONT></P>
+	<LI><P CLASS="western" STYLE="margin-right: 0.56in; line-height: 0.17in">
+	<FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Identify:</FONT></FONT></P>
+	<OL>
+		<LI><P CLASS="western" STYLE="margin-right: 0.56in; line-height: 0.17in">
+		<FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">This
+		Autodesk software name and release number;</FONT></FONT></P>
+		<LI><P CLASS="western" STYLE="margin-right: 0.56in; line-height: 0.17in">
+		<FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">That
+		you are requesting  the source code for KQOAuth v.0.97, as modified
+		by Autodesk; and</FONT></FONT></P>
+		<LI><P CLASS="western" STYLE="margin-right: 0.56in; line-height: 0.17in">
+		<FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">The
+		above URL (<A CLASS="western" HREF="http://www.autodesk.com/lgplsource">www.autodesk.com/lgplsource</A>)</FONT></FONT></P>
+	</OL>
+</OL>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">so
+that Autodesk may properly respond to your request.  The offer to
+receive this KQOAuth v.0.97 source code via the above URL
+(<A CLASS="western" HREF="http://www.autodesk.com/lgplsource">www.autodesk.com/lgplsource</A>)
+or by written request to Autodesk is valid for a period of three (3)
+years from the date you purchased your license to this Autodesk
+software. </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">You
+may modify, debug and relink KQOAuth v.0.97 to this Autodesk software
+as provided under the terms of the GNU Lesser General Public License
+v.2.1.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Portions
+relating to OpenSSL toolkit v.1.0.0e are Copyright (c) 1998-2011 The
+OpenSSL Project.  All rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Redistribution
+and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<OL>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Redistributions
+	of source code must retain the above copyright notice, this list of
+	conditions and the following disclaimer.</FONT></FONT></P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Redistributions
+	in binary form must reproduce the above copyright notice, this list
+	of conditions and the following disclaimer in the documentation
+	and/or other materials provided with the distribution.</FONT></FONT></P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">All
+	advertising materials mentioning features or use of this software
+	must display the following acknowledgment: &quot;This product
+	includes software developed by the OpenSSL Project for use in the
+	OpenSSL Toolkit. (</FONT></FONT><A CLASS="western" HREF="http://www.openssl.org/"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><U>http://www.openssl.org/</U></FONT></FONT></A><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">)&quot;</FONT></FONT></P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">The
+	names &quot;OpenSSL Toolkit&quot; and &quot;OpenSSL Project&quot;
+	must not be used to endorse or promote products derived from this
+	software without prior written permission. For written permission,
+	please contact </FONT></FONT><A CLASS="western" HREF="mailto:openssl-core@openssl.org"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><U>openssl-core@openssl.org</U></FONT></FONT></A><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">.</FONT></FONT></P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Products
+	derived from this software may not be called &quot;OpenSSL&quot; nor
+	may &quot;OpenSSL&quot; appear in their names without prior written
+	permission of the OpenSSL Project.</FONT></FONT></P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Redistributions
+	of any form whatsoever must retain the following acknowledgment:
+	&quot;This product includes software developed by the OpenSSL
+	Project for use in the OpenSSL Toolkit (http://www.openssl.org/)&quot;</FONT></FONT></P>
+</OL>
+<P CLASS="western" STYLE="margin-bottom: 0in"> 
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">THIS
+SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY 
+EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR ITS
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Portions
+relating to OpenSSL toolkit v.1.0.0e are Copyright (C) 1995-1998 Eric
+Young (eay@cryptsoft.com). All rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">This
+package is an SSL implementation written by Eric Young
+(eay@cryptsoft.com). The implementation was written so as to conform
+with Netscapes SSL.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">This
+library is free for commercial and non-commercial use as long as the
+following conditions are aheared to.  The following conditions apply
+to all code found in this distribution, be it the RC4, RSA, lhash,
+DES, etc., code; not just the SSL code.  The SSL documentation
+included with this distribution is covered by the same copyright
+terms except that the holder is Tim Hudson (tjh@cryptsoft.com).</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Copyright
+remains Eric Young's, and as such any Copyright notices in the code
+are not to be removed. If this package is used in a product, Eric
+Young should be given attribution as the author of the parts of the
+library used. This can be in the form of a textual message at program
+startup or in documentation (online or textual) provided with the
+package.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Redistribution
+and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<OL>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Redistributions
+	of source code must retain the copyright notice, this list of
+	conditions and the following disclaimer.</FONT></FONT></P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Redistributions
+	in binary form must reproduce the above copyright notice, this list
+	of conditions and the following disclaimer in the documentation
+	and/or other materials provided with the distribution.</FONT></FONT></P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">All
+	advertising materials mentioning features or use of this software
+	must display the following acknowledgement: &quot;This product
+	includes cryptographic software written by Eric Young
+	(eay@cryptsoft.com).&quot; The word 'cryptographic' can be left out
+	if the rouines [sic] from the library being used are not
+	cryptographic related :-).</FONT></FONT></P>
+	<LI><P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">If
+	you include any Windows specific code (or a derivative thereof) from
+	the apps directory (application code) you must include an
+	acknowledgement: &quot;This product includes software written by Tim
+	Hudson (tjh@cryptsoft.com)&quot;</FONT></FONT></P>
+</OL>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">THIS
+SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Portions
+relating to QAxContainer are Copyright (c) 2009 Nokia Corporation
+and/or its subsidiary(-ies). All rights reserved. Contact: Qt
+Software Information (qt-info@nokia.com). This software contains
+QAxContainer.  </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Redistribution
+and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">*
+Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">*
+Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">*
+Neither the name of Nokia Corporation and its Subsidiary(-ies) nor
+the names of its contributors may be used to endorse or promote
+products derived from this software without specific prior written
+permission.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">THIS
+SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS
+IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Portions
+relating to Qt v.4.7.2 are Copyright (c) 2011 Nokia Corporation
+and/or its subsidiary(-ies).  All rights reserved.  Contact: Qt
+Software Information (qt-info@nokia.com).  This Autodesk software
+contains Qt v.4.7.2.  Qt is licensed under the GNU Lesser General
+Public License v.2.1, which can be found at
+</FONT></FONT><A CLASS="western" HREF="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><U>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</U></FONT></FONT></A><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">.
+  A text copy of this license is included on the media provided by
+Autodesk or with the download of this Autodesk software.  You may
+obtain a copy of the source code for Qt v4.7.2 from
+</FONT></FONT><A CLASS="western" HREF="http://www.autodesk.com/lgplsource"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><U>www.autodesk.com/lgplsource</U></FONT></FONT></A><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">
+or by sending a written request to:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Autodesk,
+Inc.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Attention:
+ General Counsel</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Legal
+Department</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">111
+McInnis Parkway</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">San
+Rafael, CA 94903</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Your
+written request must:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">1.
+Contain a self-addressed CD/DVD mailer (or envelope sufficiently
+large to hold a DVD) with postage sufficient to cover the amount of
+the current U.S. Post Office First Class postage rate for CD/DVD
+mailers (or the envelope you have chosen) weighing  5 ounces from San
+Rafael, California USA to your indicated address; and</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">2.
+Identify:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"> <FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">a.
+This Autodesk software name and release number;</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"> <FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">b.
+That you are requesting the source code for Qt v4.7.2; and</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"> <FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">c.
+The above URL (</FONT></FONT><A CLASS="western" HREF="http://www.autodesk.com/lgplsource"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><U>www.autodesk.com/lgplsource</U></FONT></FONT></A><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">)</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">so
+that Autodesk may properly respond to your request.  The offer to
+receive this Qt source code via the above URL
+(</FONT></FONT><A CLASS="western" HREF="http://www.autodesk.com/lgplsource"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><U>www.autodesk.com/lgplsource</U></FONT></FONT></A><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">)
+or by written request to Autodesk is valid for a period of three (3)
+years from the date you purchased your license to this Autodesk
+software. </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">You
+may modify, debug and relink Qt to this Autodesk software as provided
+under the terms of the GNU Lesser General Public License v.2.1.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+relating to ACIS<SUP>&reg; &copy;</SUP> 1989&ndash;2001 Spatial Corp.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to Intel<SUP>&reg; </SUP>Threading Building Blocks v.4.0 are
+Copyright (C) 2005-2012 Intel Corporation.  All Rights Reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions related to
+Intel</FONT></FONT><SUP><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>&reg;</FONT></FONT></SUP>
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Math Kernel Library
+v.10.0.3 (<A CLASS="western" HREF="http://www.intel.com/software/products/mkl">www.intel.com/software/products/mkl</A>)
+are Copyright (C) 2000&ndash;2008, Intel Corporation. All rights
+reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>This Autodesk software
+contains the following software components licensed from Siemens
+Industry Software Limited:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>D-Cubed</FONT></FONT><SUP><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>TM</FONT></FONT></SUP><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>
+HLM</FONT></FONT><SUP><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>
+&copy;</FONT></FONT></SUP><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>
+2012. Siemens Industry Software Limited. All Rights Reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>D-Cubed</FONT></FONT><SUP><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>TM</FONT></FONT></SUP><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>
+CDM</FONT></FONT><SUP><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>
+&copy;</FONT></FONT></SUP><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>
+2012. Siemens Industry Software Limited. All Rights Reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+relating to JTOpen Toolkit v.6.3 are licensed from Siemens Product
+Lifecycle Management Software Inc.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Open
+Inventor code is copyright SGI. All rights reserved.&nbsp; This
+Autodesk software contains Open Inventor.&nbsp; Open Inventor is
+licensed under the GNU Lesser General Public License v.3.0, which can
+be found at </FONT></FONT><A CLASS="western" HREF="http://www.gnu.org/licenses/lgpl.html"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><U>http://www.gnu.org/licenses/lgpl.html</U></FONT></FONT></A><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>.
+&nbsp;&nbsp;A text copy of this license and the source code for Open
+Inventor (and modifications made by Autodesk, if any) are included on
+the media provided by Autodesk or with the download of this Autodesk
+software. &nbsp;You may modify, debug and relink Open Inventor to
+this Autodesk software as provided under the terms of the GNU Lesser
+General Public License v.3.0.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+relating to libjpeg software v.6b are copyright &copy; 1991-2010,
+Thomas G. Lane, Guido Vollbeding.  All Rights Reserved.  This
+software is based in part on the work of the Independent JPEG Group.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>This
+Autodesk software contains DevIL v.1.7.8.&nbsp; DevIL</FONT></FONT><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><I>
+</I></FONT></FONT><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>is
+licensed under the GNU Lesser General Public License v.2.1, which can
+be found at </FONT></FONT><A CLASS="western" HREF="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><U>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</U></FONT></FONT></A><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>.
+&nbsp;&nbsp;A text copy of this license and the source code for DevIL
+v. v.1.7.8 (and modifications made by Autodesk, if any) are included
+on the DVD or with the download of this Autodesk software. &nbsp;You
+may modify, debug and relink DevIL to this Autodesk software as
+provided under the terms of the GNU Lesser General Public License
+v.2.1.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>PCRE
+LICENSE</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>------------</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>PCRE
+is a library of functions to support regular expressions whose syntax
+and semantics are as close as possible to those of the Perl 5
+language.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Release
+8 of PCRE is distributed under the terms of the &quot;BSD&quot;
+licence, as specified below. The documentation for PCRE, supplied in
+the &quot;doc&quot; directory, is distributed under the same terms as
+the software itself.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>The
+basic library functions are written in C and are freestanding. Also
+included in the distribution is a set of C++ wrapper functions.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>THE
+BASIC LIBRARY FUNCTIONS</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>---------------------------</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Written
+by:       Philip Hazel</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Email
+local part: ph10</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Email
+domain:     cam.ac.uk</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>University
+of Cambridge Computing Service,</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Cambridge,
+England.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Copyright
+(c) 1997-2010 University of Cambridge</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>All
+rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>THE
+C++ WRAPPER FUNCTIONS</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>-------------------------</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Contributed
+by:   Google Inc.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Copyright
+(c) 2007-2010, Google Inc.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>All
+rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>THE
+&quot;BSD&quot; LICENCE</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>-----------------</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Redistribution
+and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">    <FONT FACE="Verdana, sans-serif"><FONT SIZE=2>*
+Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">    <FONT FACE="Verdana, sans-serif"><FONT SIZE=2>*
+Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">    <FONT FACE="Verdana, sans-serif"><FONT SIZE=2>*
+Neither the name of the University of Cambridge nor the name of
+Google Inc. nor the names of their contributors may be used to
+endorse or promote products derived from this software without
+specific prior written permission.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>THIS
+SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS
+IS&quot;</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+BE</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>ARISING
+IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>POSSIBILITY OF SUCH
+DAMAGE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Intel</FONT></FONT><SUP><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>&reg;</FONT></FONT></SUP>
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Threading Building
+Blocks v.3.0.5 are Copyright (C) 2005-2012 Intel Corporation.  All
+Rights Reserved. </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+relating to Xerces-C++ v.3.1.1 are Copyright &copy; 1999-2010 The
+Apache Software Foundation. All Rights Reserved. Licensed under the
+Apache License, Version 2.0 (the &quot;License&quot;); you may not
+use this file except in compliance with the License. You may obtain a
+copy of the License at <A CLASS="western" HREF="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</A>.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot;
+BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied.   See the License for the specific language governing
+permissions and limitations under the License.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+relating to Parasolid Communicator Toolkit v.25 are Copyright 2012
+Siemens Product Lifecycle Management Software Inc. All rights
+reserved. </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions relating to
+GRANITE</FONT></FONT><SUP><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>&reg;
+</FONT></FONT></SUP><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Interoperability
+Kernel v.8.0 are Copyright</FONT></FONT><SUP><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>
+&copy;</FONT></FONT></SUP><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>
+2011 Parametric Technology Corporation and/or Its Subsidiary
+Companies. All Rights Reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions relating to
+RODX/CAT, RODX/CAT5, and WODX/CAT5 are Copyright</FONT></FONT><SUP> &copy;</SUP>
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>CADCAM-E.COM, Inc.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"> 
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+relating to uuencode/uudecode are<SUP> &copy;</SUP> 1983&ndash;2006
+Regents of the University of California. All rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+relating to RSA Data Security, Inc.MD5 Message-Digest Algorithm are<SUP>
+&copy;</SUP> 1991&ndash;2007 RSA Data Security, Inc. All rights
+reserved.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>License
+to copy and use this software is granted provided that it is
+identified as the &quot;RSA Data Security, Inc. MD5 Message-Digest
+Algorithm&quot; in all material mentioning or referencing this
+software or this function.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>License
+is also granted to make and use derivative works provided that such
+works are identified as &quot;derived from the RSA Data Security,
+Inc. MD5 Message-Digest Algorithm&quot; in all material mentioning or
+referencing the derived work.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>RSA
+Data Security, Inc. makes no representations concerning either the
+merchantability of this software or the suitability of this software
+for any particular purpose. It is provided &quot;as is&quot; without
+express or implied warranty of any kind.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>These
+notices must be retained in any copies of any part of this
+documentation and/or software. </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+relating to 2D DCM v.60 are licensed from Siemens Industry Software
+Limited: D-Cubed<SUP>TM </SUP>2D DCM<SUP> &copy;</SUP> 2012. Siemens
+Industry Software Limited. All Rights Reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions relating to
+JTOpen Toolkit v.6.0 are licensed from Siemens Product Lifecycle
+Management Software Inc.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+<BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+relating to DirectX SDK v.43 are<SUP> &copy;</SUP> 1981&ndash;2010
+Microsoft Corp. All rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><FONT COLOR="#000000">Portions
+related to Qt MFC Migration Framework are Copyright (c) 2009 Nokia
+Corporation </FONT>and/or its subsidiary(-ies). This Autodesk
+software contains Qt MFC Migration Framework v.2.8, as modified by
+Autodesk, Inc..  Qt MFC Migration Framework is licensed under the GNU
+Lesser General Public License v.2.1, which can be found at
+http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt.   A text copy
+of this license is included on the media provided by Autodesk or with
+the download of this Autodesk software.  You may obtain a copy of the
+source code for Qt MFC Migration Framework v.2.8, as modified by
+Autodesk, Inc., from www.autodesk.com/lgplsource or by sending a
+written request  to:<BR>Autodesk, Inc.<BR>Attention:  General
+Counsel<BR>Legal Department<BR>111 McInnis Parkway<BR>San Rafael, CA
+94903<BR>Your written request must:<BR>1. Contain a self-addressed
+CD/DVD mailer (or envelope sufficiently large to hold a DVD) with
+postage sufficient to cover the amount of the current U.S. Post
+Office First Class postage rate for CD/DVD mailers (or the envelope
+you have chosen) weighing  5 ounces from San Rafael, California USA
+to your indicated address; and<BR>2. Identify:<BR>a. This Autodesk
+software name and release number;<BR>b. That you are requesting  the
+source code for Qt MFC Migration Framework v.2.8, as modified by
+Autodesk, Inc.; and<BR>c. The above URL
+(www.autodesk.com/lgplsource)<BR>so that Autodesk may properly
+respond to your request.  The offer to receive this Qt MFC Migration
+Framework source code, as modified by Autodesk, Inc.,  via the above
+URL (www.autodesk.com/lgplsource) or by written request to Autodesk
+is valid for a period of three (3) years from the date you purchased
+your license to this Autodesk software. <BR>You may modify, debug and
+relink Qt MFC Migration Framework to this Autodesk software as
+provided under the terms of the GNU Lesser General Public License
+v.2.1.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to Qt v.4.8.2</FONT></FONT><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>&nbsp;</FONT></FONT><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>are
+Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies). All
+rights reserved. This Autodesk software contains Qt v. 4.8.2, as
+modified by Autodesk.</FONT></FONT><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>&nbsp;</FONT></FONT><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>
+Qt is licensed under the GNU Lesser General Public License v.2.1,
+which can be found at
+</FONT></FONT><A CLASS="western" HREF="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><U>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</U></FONT></FONT></A><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>.
+</FONT></FONT><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>&nbsp;&nbsp;</FONT></FONT><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>A
+text copy of this license is included on the media provided by
+Autodesk or with the download of this Autodesk software.  You may
+obtain a copy of the source code for Qt v. 4.8.2, as modified by
+Autodesk, from </FONT></FONT><A CLASS="western" HREF="http://www.autodesk.com/lgplsource"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><U>www.autodesk.com/lgplsource</U></FONT></FONT></A><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>
+or by sending a written request to:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Autodesk,
+Inc.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Attention:
+ General Counsel</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Legal
+Department</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>111
+McInnis Parkway</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-left: 0.5in; margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>San
+Rafael, CA 94903</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Your
+written request must:</FONT></FONT></P>
+<OL>
+	<LI><P CLASS="western" STYLE="margin-right: 0.56in; margin-bottom: 0in; line-height: 0.17in">
+	<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Contain a
+	self-addressed CD/DVD mailer (or envelope sufficiently large to hold
+	a DVD) with postage sufficient to cover the amount of the current
+	U.S. Post Office First Class postage rate for CD/DVD mailers (or the
+	envelope you have chosen) weighing  5 ounces from San Rafael,
+	California USA to your indicated address; and</FONT></FONT></P>
+	<LI><P CLASS="western" STYLE="margin-right: 0.56in; line-height: 0.17in">
+	<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Identify:</FONT></FONT></P>
+	<OL>
+		<LI><P CLASS="western" STYLE="margin-right: 0.56in; line-height: 0.17in">
+		<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>This Autodesk
+		software name and release number;</FONT></FONT></P>
+		<LI><P CLASS="western" STYLE="margin-right: 0.56in; line-height: 0.17in">
+		<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>That you are
+		requesting  the source code for Qt v. 4.8.2, as modified by
+		Autodesk; and</FONT></FONT></P>
+		<LI><P CLASS="western" STYLE="margin-right: 0.56in; line-height: 0.17in">
+		<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>The above URL
+		(www.autodesk.com/lgplsource)</FONT></FONT></P>
+	</OL>
+</OL>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>so
+that Autodesk may properly respond to your request.  The offer to
+receive this Qt source code via the above URL
+(</FONT></FONT><A CLASS="western" HREF="http://www.autodesk.com/lgplsource"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><U>www.autodesk.com/lgplsource</U></FONT></FONT></A><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>)
+or by written request to Autodesk is valid for a period of three (3)
+years from the date you purchased your license to this Autodesk
+software. </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>You
+may modify, debug and relink Qt to this Autodesk software as provided
+under the terms of the GNU Lesser General Public License v.2.1.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in">&nbsp;<FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to FIPS 180-2 SHA-224/256/384/512 are Copyright (C) 2005,
+2007 Olivier Gay &lt;&gt;<BR>&nbsp;All rights
+reserved.<BR>&nbsp;Redistribution and use in source and binary forms,
+with or without&nbsp;&nbsp;modification, are permitted provided that
+the following conditions&nbsp;&nbsp;are met:<BR>&nbsp;&nbsp;1.
+Redistributions of source code must retain the above
+copyright&nbsp;notice, this list of conditions and the following
+disclaimer.<BR>&nbsp;&nbsp;2. Redistributions in binary form must
+reproduce the above copyright&nbsp;&nbsp;notice, this list of
+conditions and the following disclaimer in the&nbsp;documentation
+and/or other materials provided with the distribution.<BR>&nbsp;&nbsp;3.
+Neither the name of the project nor the names of its contributors&nbsp;may
+be used to endorse or promote products derived from this
+software&nbsp;without specific prior written permission.<BR>&nbsp;THIS
+SOFTWARE IS PROVIDED BY THE PROJECT AND CONTRIBUTORS ``AS IS''
+AND&nbsp;ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE&nbsp;IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE&nbsp;ARE DISCLAIMED. &nbsp;IN NO
+EVENT SHALL THE PROJECT OR CONTRIBUTORS BE LIABLE&nbsp;FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL&nbsp;DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS&nbsp;OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION)<BR>&nbsp;HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT&nbsp;&nbsp;LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY&nbsp;&nbsp;OUT
+OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+OF&nbsp;&nbsp;SUCH DAMAGE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to MurmurHash are Copyright (c) 2009 MurmurHash2, 64-bit
+versions, by Austin ission is hereby granted, free of charge, to any
+person obtaining a copyof this software and associated documentation
+files (the &quot;Software&quot;), to deal in the Software without
+restriction, including without limitation the rights to use, copy,
+modify, merge, publish, distribute, sublicense, and/or sell<BR>copies
+of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:<BR>The above
+copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.<BR>THE SOFTWARE IS
+PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to Paul Hsieh Super Fast Hash are Copyright (c) 2004-2007
+Paul Hsieh <BR>All rights reserved.<BR>Redistribution and use in
+source and binary forms, with or without modification, are permitted
+provided that the following conditions are met: <BR>Redistributions
+of source code must retain the above copyright notice, this list of
+conditions and the following disclaimer.  Redistributions in binary
+form must reproduce the above copyright notice, this list of
+conditions and the following disclaimer in the documentation and/or
+other materials provided with the distribution.  <BR> Neither the
+name of the Paul Hsieh nor the names of its contributors may be used
+to endorse or promote products derived from this software without
+specific prior written permission.  <BR>THIS SOFTWARE IS PROVIDED BY
+THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to sparsehash are Copyright (C) 2005, Google Inc. &nbsp;All
+rights reserved.<BR>&nbsp;Redistribution and use in source and binary
+forms, with or without &nbsp;modification, are permitted provided
+that the following conditions&nbsp;are met:<BR>&nbsp;&nbsp;1.
+Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.<BR>&nbsp;&nbsp;2.
+Redistributions in binary form must reproduce the above
+copyright&nbsp;notice, this list of conditions and the following
+disclaimer in the&nbsp;documentation and/or other materials provided
+with the distribution.<BR>&nbsp;&nbsp;3. Neither the name of the
+project nor the names of its contributors&nbsp;may be used to endorse
+or promote products derived from this software&nbsp;without specific
+prior written permission.<BR>&nbsp;THIS SOFTWARE IS PROVIDED BY THE
+PROJECT AND CONTRIBUTORS ``AS IS'' AND&nbsp;ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE&nbsp;IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE&nbsp;&nbsp;ARE DISCLAIMED. &nbsp;IN NO EVENT SHALL THE
+PROJECT OR CONTRIBUTORS BE LIABLE&nbsp;FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL&nbsp;&nbsp;DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS&nbsp;OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION)<BR>HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT&nbsp;&nbsp;LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY&nbsp;&nbsp;OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF&nbsp;&nbsp;SUCH
+DAMAGE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to libcurl are Copyright (c) 1996 - 2010, Daniel Stenberg,
+&lt;daniel@haxx.se&gt;.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in">&nbsp;</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>All
+rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in">&nbsp;</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Permission
+to use, copy, modify, and distribute this software for any purpose</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>with
+or without fee is hereby granted, provided that the above copyright</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>notice
+and this permission notice appear in all copies.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in">&nbsp;</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>THE
+SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS.
+IN</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>DAMAGES
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>OR
+OTHER DEALINGS IN THE SOFTWARE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in">&nbsp;</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Except
+as contained in this notice, the name of a copyright holder shall not</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>be
+used in advertising or otherwise to promote the sale, use or other
+dealings</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>in
+this Software without prior written authorization of the copyright
+holder.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to zlib are Copyright (C) 1995-2004 Jean-loup Gailly and Mark
+Adler<BR>&nbsp;&nbsp;This software is provided 'as-is', without any
+express or implied<BR>&nbsp;&nbsp;&nbsp;warranty. &nbsp;In no event
+will the authors be held liable for any damages<BR>&nbsp;&nbsp;&nbsp;arising
+from the use of this software.<BR>&nbsp;&nbsp;Permission is granted
+to anyone to use this software for any purpose,<BR>&nbsp;&nbsp;&nbsp;including
+commercial applications, and to alter it and redistribute
+it<BR>&nbsp;&nbsp;&nbsp;freely, subject to the following
+restrictions:<BR>&nbsp;&nbsp;1. The origin of this software must not
+be misrepresented; you must not<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;claim
+that you wrote the original software. If you use this
+software<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in a product, an
+acknowledgment in the product documentation would
+be<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;appreciated but is not
+required.<BR>&nbsp;&nbsp;&nbsp;2. Altered source versions must be
+plainly marked as such, and must not be<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;misrepresented
+as being the original software.<BR>&nbsp;&nbsp;&nbsp;3. This notice
+may not be removed or altered from any source
+distribution.<BR>&nbsp;&nbsp;Jean-loup Gailly </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to OpenSSL License are Copyright (c) 1998-2011 The OpenSSL
+Project. All rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Redistribution
+and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>1.
+Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>2.
+Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>3.
+All advertising materials mentioning features or use of this software
+must display the following acknowledgment: &quot;This product
+includes software developed by the OpenSSL Project for use in the
+OpenSSL Toolkit. (</FONT></FONT><A CLASS="western" HREF="http://www.openssl.org/"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><U>http://www.openssl.org/</U></FONT></FONT></A><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>)&quot;</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>4.
+The names &quot;OpenSSL Toolkit&quot; and &quot;OpenSSL Project&quot;
+must not be used to endorse or promote products derived from this
+software without prior written permission. For written permission,
+please contact openssl-core@openssl.org.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>5.
+Products derived from this software may not be called &quot;OpenSSL&quot;
+nor may &quot;OpenSSL&quot; appear in their names without prior
+written permission of the OpenSSL Project.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>6.
+Redistributions of any form whatsoever must retain the following
+acknowledgment:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>*
+&quot;This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)&quot;</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>THIS
+SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
+EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE OpenSSL PROJECT OR ITS
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION)HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>====================================================================</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>This
+product includes cryptographic software written by Eric
+Young(eay@cryptsoft.com). This product includes software written by
+Tim Hudson (tjh@cryptsoft.com).</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Original
+SSLeay License</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>-----------------------</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Copyright
+(C) 1995-1998 Eric Young (</FONT></FONT><A CLASS="western" HREF="mailto:eay@cryptsoft.com"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><U>eay@cryptsoft.com</U></FONT></FONT></A><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>)
+All rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>This
+package is an SSL implementation written by Eric Young
+(eay@cryptsoft.com).</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>*
+The implementation was written so as to conform with Netscapes SSL.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>This
+library is free for commercial and non-commercial use as long as the
+following conditions are aheared [sic] to. The following conditions
+apply to all code found in this distribution, be it the RC4, RSA,
+lhash, DES, etc., code; not just the SSL code. The SSL documentation
+included with this distribution is covered by the same copyright
+terms except that the holder is Tim Hudson (tjh@cryptsoft.com).
+Copyright remains Eric Young's, and as such any Copyright notices in
+the code are not to be removed. If this package is used in a product,
+Eric Young should be given attribution as the author of the parts of
+the library used. This can be in the form of a textual message at
+program startup or in documentation (online or textual) provided with
+the package.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Redistribution
+and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>1.
+Redistributions of source code must retain the copyright notice, this
+list of conditions and the following disclaimer.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>2.
+Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>3.
+All advertising materials mentioning features or use of this software
+must display the following acknowledgement: &quot;This product
+includes cryptographic software written by Eric Young
+(eay@cryptsoft.com)&quot; The word 'cryptographic' can be left out if
+the rouines [sic] from the library being used are not cryptographic
+related :-).</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>4.
+If you include any Windows specific code (or a derivative thereof)
+from the apps directory (application code) you must include an
+acknowledgement:&quot;This product includes software written by Tim
+Hudson (tjh@cryptsoft.com)&quot;</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>THIS
+SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. The licence and
+distribution terms for any publically available version or derivative
+of this code cannot be changed. i.e. this code cannot simply be
+copied and put under another distribution licence [including the GNU
+Public Licence.]</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to Log4CPLUS v 1.0.4 are Copyright 2011 Apache, Inc.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Licensed
+under the Apache License, Version 2.0 (the &quot;License&quot;); you
+may not use this file except in compliance with the License. You may
+obtain a copy of the License at 
+http://www.apache.org/licenses/LICENSE-2.0</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Unless
+required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot;
+BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied. See the License for the specific language governing
+permissions and limitations under the License.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Development
+tools and related technology provided under license from 3Dconnexion.
+(C) 1992-2009 3Dconnexion. All rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to libtiff are Copyright (c) 1988-1997 Sam Leffler<BR>Copyright
+(c) 1991-1997 Silicon Graphics, Inc.<BR>Permission to use, copy,
+modify, distribute, and sell this software and its documentation for
+any purpose is hereby granted without fee, provided that (i) the
+above copyright notices and this permission notice appear in all
+copies of the software and related documentation, and (ii) the names
+of Sam Leffler and Silicon Graphics may not be used in any
+advertising or publicity relating to the software without the
+specific, prior written permission of Sam Leffler and Silicon
+Graphics. THE SOFTWARE IS PROVIDED &quot;AS-IS&quot; AND WITHOUT
+WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR OTHERWISE, INCLUDING
+WITHOUT LIMITATION, ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A
+PARTICULAR PURPOSE.&nbsp; <BR>IN NO EVENT SHALL SAM LEFFLER OR
+SILICON GRAPHICS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT OR
+CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER
+RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER OR NOT ADVISED
+OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF LIABILITY, ARISING
+OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Except
+where otherwise noted in the source code (e.g. the files hash.c,
+list.c and the trio files, which are covered by a similar licence but
+with different Copyright notices) all the files related to libxml
+are:<BR>&nbsp;Copyright (C) 1998-2003 Daniel Veillard.&nbsp; All
+Rights Reserved. Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated documentation
+files (the &quot;Software&quot;), to deal in the Software without
+restriction, including without limitation the rights to use, copy,
+modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions: The above copyright
+notice and this permission notice shall be included in all copies or
+substantial portions of the Software. THE SOFTWARE IS PROVIDED &quot;AS
+IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR<BR>IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.&nbsp; IN NO
+EVENT SHALL THE DANIEL VEILLARD BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CON NECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE. Except as contained in this
+notice, the name of Daniel Veillard shall not<BR>be used in
+advertising or otherwise to promote the sale, use or other dealings
+in this Software without prior written authorization from him.<BR>&nbsp;</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to QJson v 0.7.2 are Copyright (c) 2012 Digia Plc and/or its
+subsidiary(-ies). This Autodesk software contains QJson v.0.7.2, as
+modified by Autodesk, Inc.  QJson is licensed under the GNU Lesser
+General Public License v.2.1, which can be found at
+http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt.   A text copy
+of this license is included on the media provided by Autodesk or with
+the download of this Autodesk software.  You may obtain a copy of the
+source code for QJson v.0.7.2 as modified by Autodesk, Inc. from
+</FONT></FONT><A CLASS="western" HREF="http://www.autodesk.com/lgplsource"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><U>www.autodesk.com/lgplsource</U></FONT></FONT></A><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>
+or by sending a written request to:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Autodesk,
+Inc.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Attention:
+ General Counsel</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Legal
+Department</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>111
+McInnis Parkway</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>San
+Rafael, CA 94903</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Your
+written request must:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>1.
+Contain a self-addressed CD/DVD mailer (or envelope sufficiently
+large to hold a DVD) with postage sufficient to cover the amount of
+the current U.S. Post Office First Class postage rate for CD/DVD
+mailers (or the envelope you have chosen) weighing  5 ounces from San
+Rafael, California USA to your indicated address; and</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>2.
+ Identify:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>a.
+This Autodesk software name and release number;</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>b.
+That you are requesting  the source code for QJson v.0.7.2, as
+modified by Autodesk; and</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>c.
+The above URL (www.autodesk.com/lgplsource)</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>so
+that Autodesk may properly respond to your request.  The offer to
+receive this QJson v 0.7.2 source code via the above URL
+(www.autodesk.com/lgplsource) or by written request to Autodesk is
+valid for a period of three (3) years  from the date you purchased
+your license to this Autodesk software. You may modify, debug and
+relink QJson v0.7.2  to this Autodesk software as provided under the
+terms of the GNU Lesser General Public License v.2.1.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to OpenSSL plugin to Qt Cryptographic Architecture
+are<BR>Copyright (C) 2003-2007  Justin Karneges &lt;justin@affinix.com&gt;
+<BR>Copyright (C) 2004-2006  Brad Hards &lt;bradh@frogmouth.net&gt;
+<BR><BR>This Autodesk software contains OpenSSL plugin to Qt
+Cryptographic Architecture v2.0.0 beta3 (OpenSSL plugin to QCA), as
+modified by Autodesk.  OpenSSL plugin to QCA is licensed under the
+GNU Lesser General Public License v.2.1, which can be found at
+http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt.   A text copy
+of this license is included on the media provided by Autodesk or with
+the download of this Autodesk software.  You may obtain a copy of the
+source code for OpenSSL plugin to QCA v2.0.0 beta3, as modified by
+Autodesk, from www.autodesk.com/lgplsource or by sending a written
+request  to:<BR>Autodesk, Inc.<BR>Attention:  General Counsel<BR>Legal
+Department<BR>111 McInnis Parkway<BR>San Rafael, CA 94903<BR>Your
+written request must:<BR>1. Contain a self-addressed CD/DVD mailer
+(or envelope sufficiently large to hold a DVD) with postage
+sufficient to cover the amount of the current U.S. Post Office First
+Class postage rate for CD/DVD mailers (or the envelope you have
+chosen) weighing  5 ounces from San Rafael, California USA to your
+indicated address; and<BR>2. Identify:<BR>a. This Autodesk software
+name and release number;<BR>b. That you are requesting  the source
+code for OpenSSL plugin to QCA v2.0.0 beta3, as modified by Autodesk;
+and<BR>c. The above URL (www.autodesk.com/lgplsource)<BR>so that
+Autodesk may properly respond to your request.  The offer to receive
+this OpenSSL plugin to QCA source code via the above URL
+(www.autodesk.com/lgplsource) or by written request to Autodesk is
+valid for a period of three (3) years from the date you purchased
+your license to this Autodesk software. <BR>You may modify, debug and
+relink OpenSSL plugin to QCA to this Autodesk software as provided
+under the terms of the GNU Lesser General Public License v.2.1.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to QOAuth are Copyright (C) 2010 Dominik Kapusta &lt;d@ayoy.net&gt;</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>This
+Autodesk software contains QOAuth v 1.0, as modified by Autodesk. 
+QOAuth is licensed under the GNU Lesser General Public License v.2.1,
+which can be found at
+http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt.   A text copy
+of this license is included on the media provided by Autodesk or with
+the download of this Autodesk software.  You may obtain a copy of the
+source code for QOAuth v 1.0, as modified by Autodesk, from
+www.autodesk.com/lgplsource or by sending a written request  to:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Autodesk,
+Inc.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Attention:
+ General Counsel</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Legal
+Department</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>111
+McInnis Parkway</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>San
+Rafael, CA 94903</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Your
+written request must:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>1.
+Contain a self-addressed CD/DVD mailer (or envelope sufficiently
+large to hold a DVD) with postage sufficient to cover the amount of
+the current U.S. Post Office First Class postage rate for CD/DVD
+mailers (or the envelope you have chosen) weighing  5 ounces from San
+Rafael, California USA to your indicated address; and</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>2.
+Identify:</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>a.
+This Autodesk software name and release number;</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>b.
+That you are requesting  the source code for QOAuth v 1.0, as
+modified by Autodesk; and</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>c.
+The above URL (www.autodesk.com/lgplsource)</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>so
+that Autodesk may properly respond to your request.  The offer to
+receive this QOAuth v 1.0 source code via the above URL
+(www.autodesk.com/lgplsource) or by written request to Autodesk is
+valid for a period of three (3) years from the date you purchased
+your license to this Autodesk software. </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>You
+may modify, debug and relink QOAuth v 1.0 to this Autodesk software
+as provided under the terms of the GNU Lesser General Public License
+v.2.1.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to  Qt Cryptographic Architecture are <BR>Copyright (C)
+2003-2007  Justin Karneges &lt;justin@affinix.com&gt; <BR>Copyright
+(C) 2004-2007  Brad Hards bradh@frogmouth.net<BR><BR>This Autodesk
+software contains Qt Cryptographic Architecture v. 2.0.2 (QCA).  QCA
+is licensed under the GNU Lesser General Public License v.2.1, which
+can be found at
+http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt.   A text copy
+of this license is included on the media provided by Autodesk or with
+the download of this Autodesk software.  You may obtain a copy of the
+source code for QCA v 2.0.2 from www.autodesk.com/lgplsource or by
+sending a written request  to:<BR>Autodesk, Inc.<BR>Attention: 
+General Counsel<BR>Legal Department<BR>111 McInnis Parkway<BR>San
+Rafael, CA 94903<BR>Your written request must:<BR>1. Contain a
+self-addressed CD/DVD mailer (or envelope sufficiently large to hold
+a DVD) with postage sufficient to cover the amount of the current
+U.S. Post Office First Class postage rate for CD/DVD mailers (or the
+envelope you have chosen) weighing  5 ounces from San Rafael,
+California USA to your indicated address; and<BR>2. Identify:<BR>a.
+This Autodesk software name and release number;<BR>b. That you are
+requesting  the source code for QCA v 2.0.2; and<BR>c. The above URL
+(www.autodesk.com/lgplsource)<BR><BR>so that Autodesk may properly
+respond to your request.  The offer to receive this QCA source code
+via the above URL (www.autodesk.com/lgplsource) or by written request
+to Autodesk is valid for a period of three (3) years from the date
+you purchased your license to this Autodesk software. <BR>You may
+modify, debug and relink QCA to this Autodesk software as provided
+under the terms of the GNU Lesser General Public License v.2.1.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to AXIS2/C v1.6.0 are Copyright (C) 2009 The Apache Software
+Foundation. Licensed under the Apache License, Version 2.0 (the
+&quot;License&quot;); you may not use this file except in compliance
+with the License. You may obtain a copy of the License at    
+http://www.apache.org/licenses/LICENSE-2.0. Unless required by
+applicable law or agreed to in writing, software distributed under
+the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  
+See the License for the specific language governing permissions and 
+limitations under the License.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><BR>&nbsp;About
+Box notice for copies of unmodified libiconv  v.1.9.2 source code
+provided via electronic link:  <BR>Portions related to libiconv are
+Copyright 1999-2003 Free Software Foundation, Inc.  This Autodesk
+software contains libiconv v.1.9.2.  libiconv is licensed under the
+GNU Lesser General Public License v.2.1, which can be found at
+http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt.   A text copy
+of this license is included on the media provided by Autodesk or with
+the download of this Autodesk software.  You may obtain a copy of the
+source code for libiconv v.1.9.2 from www.autodesk.com/lgplsource or
+by sending a written request  to:<BR>Autodesk, Inc.<BR>Attention: 
+General Counsel<BR>Legal Department<BR>111 McInnis Parkway<BR>San
+Rafael, CA 94903<BR>Your written request must:<BR>1. Contain a
+self-addressed CD/DVD mailer (or envelope sufficiently large to hold
+a DVD) with postage sufficient to cover the amount of the current
+U.S. Post Office First Class postage rate for CD/DVD mailers (or the
+envelope you have chosen) weighing  5 ounces from San Rafael,
+California USA to your indicated address; and<BR>2. Identify:<BR>a.
+This Autodesk software name and release number;<BR>b. That you are
+requesting  the source code for libiconv v.1.9.2; and<BR>c. The above
+URL (www.autodesk.com/lgplsource)<BR>so that Autodesk may properly
+respond to your request.  The offer to receive this libiconv v.1.9.2
+source code via the above URL (www.autodesk.com/lgplsource) or by
+written request to Autodesk is valid for a period of three (3) years 
+from the date you purchased your license to this Autodesk software.
+<BR>You may modify, debug and relink libiconv to this Autodesk
+software as provided under the terms of the GNU Lesser General Public
+License v.2.1.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Copyright
+&copy; 1996 2009 Acresso Software Inc. and/or InstallShield Co. Inc.
+All Rights Reserved.<BR><BR>This product contains proprietary and
+confidential technology, information and creative works owned by
+Acresso Software Inc. and/or InstallShield Co. Inc. and their
+respective licensors, if any. Any use, copying, publication,
+distribution, display, modification, or transmission of such
+technology in whole or in part in any form or by any means without
+the prior express written permission of Acresso Software Inc. and/or
+InstallShield Co. Inc. is strictly prohibited. Except where expressly
+provided by Acresso Software Inc. and/or InstallShield Co. Inc. in
+writing, possession of this technology shall not be construed to
+confer any license or rights under any Acresso Software Inc. and/or
+InstallShield Co. Inc. intellectual property rights, whether by
+estoppel, implication, or otherwise.<BR><BR>All copies of the
+technology and related information, if allowed by Acresso Software
+Inc. and/or InstallShield Co. Inc., must display this notice of
+copyright and ownership in full.<BR><BR>Trademarks <BR><BR>Acresso,
+AdminStudio, FLEXnet Connect, InstallShield, InstallShield Developer,
+InstallShield DevStudio, InstallShield Professional, OneClickInstall,
+and QuickPatch are registered trademarks or trademarks of Acresso
+Software Inc. and/or InstallShield Co. Inc. in the United States of
+America and/or other countries. All other brand and product names
+mentioned herein are the trademarks and registered trademarks of
+their respective owners.<BR><BR>Restricted Rights Legend <BR><BR>The
+software and documentation are commercial items, as that term is
+defined at 48 C.F.R. &sect;2.101, consisting of commercial computer
+software and commercial computer software documentation, as such
+terms are used in 48 C.F.R. &sect;12.212 or 48 C.F.R. &sect;227.2702,
+as applicable. Consistent with 48 C.F.R. &sect;12.212 or 48 C.F.R.
+&sect;227.2702-1 through 227.7202-4, as applicable, the commercial
+computer software and commercial computer software documentation are
+being licensed to U.S. government end users (A) only as commercial
+items and (B) with only those rights as are granted to all other end
+users pursuant to the terms and conditions set forth in the Acresso
+Software standard commercial agreement for this software. Unpublished
+rights reserved under the copyright laws of the United States of
+America.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>libpng
+versions 0.97, January 1998, through 1.0.6, March 20, 2000, are
+Copyright (c) 1998, 1999 Glenn Randers-Pehrson, and are distributed
+according to the same disclaimer and license as libpng-0.96, with the
+following individuals added to the list of Contributing Authors: <BR>
+<BR>   Tom Lane    Glenn Randers-Pehrson    Willem van Schaik <BR>
+<BR>libpng versions 0.89, June 1996, through 0.96, May 1997, are
+Copyright (c) 1996, 1997 Andreas Dilger Distributed according to the
+same disclaimer and license as libpng-0.88, with the following
+individuals added to the list of Contributing Authors: <BR> <BR>  
+John Bowler    Kevin Bracey    Sam Bushell    Magnus Holmgren    Greg
+Roelofs    Tom Tanner <BR> <BR>libpng versions 0.5, May 1995, through
+0.88, January 1996, are Copyright (c) 1995, 1996 Guy Eric Schalnat,
+Group 42, Inc. <BR> <BR>For the purposes of this copyright and
+license, &quot;Contributing Authors&quot; is defined as the following
+set of individuals: <BR> <BR>   Andreas Dilger    Dave Martindale   
+Guy Eric Schalnat    Paul Schmidt    Tim Wegner <BR> <BR>The PNG
+Reference Library is supplied &quot;AS IS&quot;.  The Contributing
+Authors and Group 42, Inc. disclaim all warranties, expressed or
+implied, including, without limitation, the warranties of
+merchantability and of fitness for any purpose.  The Contributing
+Authors and Group 42, Inc. assume no liability for direct, indirect,
+incidental, special, exemplary, or consequential damages, which may
+result from the use of the PNG Reference Library, even if advised of
+the possibility of such damage. <BR> <BR>Permission is hereby granted
+to use, copy, modify, and distribute this source code, or portions
+hereof, for any purpose, without fee, subject to the following
+restrictions: <BR> <BR>1. The origin of this source code must not be
+misrepresented. <BR> <BR>2. Altered versions must be plainly marked
+as such and must not    be misrepresented as being the original
+source. <BR> <BR>3. This Copyright notice may not be removed or
+altered from any    source or altered source distribution. <BR> <BR>The
+Contributing Authors and Group 42, Inc. specifically permit, without
+fee, and encourage the use of this source code as a component to
+supporting the PNG file format in commercial products.  If you use
+this source code in a product, acknowledgment is not required but
+would be appreciated. </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to LuaPlus v5.1 are Copyright &copy; 1994&ndash;2008 Lua.org,
+PUC-Rio. </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"> <FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Permission
+is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the &quot;Software&quot;),
+to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions: </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"> <FONT FACE="Verdana, sans-serif"><FONT SIZE=2>The
+above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software. </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"> <FONT FACE="Verdana, sans-serif"><FONT SIZE=2>THE
+SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Portions
+relating to OpenEXR 1.6.0 Copyright &copy; 2004, Industrial Light &amp;
+Magic, a division of Lucas Digital Ltd. LLC All rights reserved. </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Redistribution
+and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:
+Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+Neither the name of Industrial Light &amp; Magic nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission. THIS
+SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS
+IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </FONT></FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Portions
+relating to TIFF &copy; Copyright 1988-1997 Sam Leffler. &copy;
+Copyright 1991-1997 Silicon Graphics, Inc. All rights reserved.
+Permission to use, copy, modify, distribute, and sell this software
+and its documentation for any purpose is hereby granted without fee,
+provided that (i) the above copyright notices and this permission
+notice appear in all copies of the software and related
+documentation, and (ii) the names of Sam Leffler and Silicon Graphics
+may not be used in any advertising or publicity relating to the
+software without the specific, prior written permission of Sam
+Leffler and Silicon Graphics.</FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><BR><BR></FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">THE
+SOFTWARE IS PROVIDED &ldquo;AS-IS&rdquo; AND WITHOUT WARRANTY OF ANY
+KIND, EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION,
+ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. 
+IN NO EVENT SHALL SAM LEFFLER OR SILICON GRAPHICS BE LIABLE FOR ANY
+SPECIAL, INCIDENTIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND,
+OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+PROFITS, WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON
+ANY THEORY OF LIABIBITLY, ARISING OUT OF OR IN CONNECTION WITH THE
+USE OR PERFORMANCE OF THIS SOFTWARE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+relating to Libxerces-c 2.7.0 are copyright 1999-2000, 2004 The
+Apache Software Foundation.  Licensed under the Apache License,
+Version 2.0 (the &ldquo;License&rdquo;); you may not use this file
+except in compliance with the License. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0.  Unless
+required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &ldquo;AS IS&rdquo;
+BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied. See the License for the specific language governing
+permissions and limitations under the License.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>This
+product includes the SwiftShader Software GPU Toolkit, Copyright (c)
+2003-2011 Transgaming, Inc. All rights reserved.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2>Portions
+related to open-vcdiff are Copyright 2008 &copy; Google,
+Inc.<BR>Licensed under the Apache License, Version 2.0 (the
+&quot;License&quot;); you may not use this file except in compliance
+with the License.   You may obtain a copy of the License at      
+http://www.apache.org/licenses/LICENSE-2.0<BR>Unless required by
+applicable law or agreed to in writing, software distributed under
+the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See
+the License for the specific language governing permissions and
+limitations under the License.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">Cousine-Regular.ttf:
+Digitized data copyright (c) 2010 Google Corporation. </FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">Cousine-Italic.ttf:
+Digitized data copyright (c) 2010 Google Corporation. </FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">Cousine-Bold.ttf:
+Digitized data copyright (c) 2010 Google Corporation. </FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">Cousine-BoldItalic.ttf:
+Digitized data copyright (c) 2010 Google Corporation.</FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">JosefinSans-Bold.ttf:
+Copyright (c) 2010 by Typemade. All rights reserved. </FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">JosefinSans-BoldItalic.ttf:
+Copyright (c) 2010 by Typemade. All rights reserved.</FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">JosefinSans-Regular.ttf:
+Copyright (c) 2010 by Typemade. All rights reserved. </FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">JosefinSans-Italic.ttf:
+Copyright (c) 2010 by Typemade. All rights reserved.</FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">Lora-Regular.ttf:
+Copyright (c) 2011 by Olga Karpushina | Cyreal.org. All rights
+reserved. </FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">Lora-Italic.ttf:
+Copyright (c) 2011 by Olga Karpushina | Cyreal.org. All rights
+reserved. </FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">Lora-Bold.ttf:
+Copyright (c) 2011 by Olga Karpushina | Cyreal.org. All rights
+reserved.</FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">ReenieBeanie.ttf:
+Copyright (c) 2010 Typeco. All rights reserved.</FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">SourceSansPro-Bold.ttf:
+Copyright 2010, 2012 Adobe Systems Incorporated
+(http://www.adobe.com/), with Reserved Font Name 'Source'. Source is
+a trademark of Adobe Systems Incorporated in the United States and/or
+other countries. </FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">SourceSansPro-BoldItalic.ttf:
+Copyright 2010, 2012 Adobe Systems Incorporated
+(http://www.adobe.com/), with Reserved Font Name 'Source'. Source is
+a trademark of Adobe Systems Incorporated in the United States and/or
+other countries.</FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">SourceSansPro-Italic.ttf:
+Copyright 2010, 2012 Adobe Systems Incorporated
+(http://www.adobe.com/), with Reserved Font Name 'Source'. Source is
+a trademark of Adobe Systems Incorporated in the United States and/or
+other countries.</FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">SourceSansPro-Light.ttf:
+Copyright 2010, 2012 Adobe Systems Incorporated
+(http://www.adobe.com/), with Reserved Font Name 'Source'. Source is
+a trademark of Adobe Systems Incorporated in the United States and/or
+other countries. </FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">SourceSansPro-LightItalic.ttf:
+Copyright 2010, 2012 Adobe Systems Incorporated
+(http://www.adobe.com/), with Reserved Font Name 'Source'. Source is
+a trademark of Adobe Systems Incorporated in the United States and/or
+other countries. </FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in; line-height: 0.21in"><FONT FACE="Calibri, sans-serif">SourceSansPro-Regular.ttf:
+Copyright 2010, 2012 Adobe Systems Incorporated
+(http://www.adobe.com/), with Reserved Font Name 'Source'. Source is
+a trademark of Adobe Systems Incorporated in the United States and/or
+other countries.</FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><A NAME="949d16a9"></A><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">The
+Font Software products listed above are licensed under the SIL Open
+Font License, Version 1.1. This license is copied below, and is also
+available with a FAQ at: </FONT></FONT><A CLASS="western" HREF="http://scripts.sil.org/OFL"><FONT COLOR="#0000ff"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><U>http://scripts.sil.org/OFL</U></FONT></FONT></FONT></A></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">SIL
+OPEN FONT LICENSE</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Version
+1.1 - 26 February 2007</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; line-height: 130%"><A NAME="c6e67051"></A>
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; line-height: 130%"><FONT COLOR="#666666"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>PREAMBLE</B></FONT></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">The
+goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font
+creation efforts of academic and linguistic communities, and to
+provide a free and open framework in which fonts may be shared and
+improved in partnership with others. </FONT></FONT>
+</P>
+<P STYLE="margin-bottom: 0in"><A NAME="ebb1469e"></A><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">The
+OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any
+reserved names are not used by derivative works. The fonts and
+derivatives, however, cannot be released under any other type of
+license. The requirement for fonts to remain under this license does
+not apply<BR>to any document created using the fonts or their
+derivatives.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">DEFINITIONS</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">&quot;Font
+Software&quot; refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">&quot;Reserved
+Font Name&quot; refers to any names specified as such after the
+copyright statement(s).</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">&quot;Original
+Version&quot; refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">&quot;Modified
+Version&quot; refers to any derivative made by adding to, deleting,
+or substituting &mdash; in part or in whole &mdash; any of the
+components of the Original Version, by changing formats or by porting
+the Font Software to a new environment.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">&quot;Author&quot;
+refers to any designer, engineer, programmer, technical writer or
+other person who contributed to the Font Software.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; line-height: 130%"><A NAME="eb655f4e"></A>
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; line-height: 130%"><FONT COLOR="#666666"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>PERMISSION
+&amp; CONDITIONS</B></FONT></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Permission
+is hereby granted, free of charge, to any person obtaining a copy of
+the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">1)
+Neither the Font Software nor any of its individual components, in
+Original or Modified Versions, may be sold by itself.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">2)
+Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the
+user.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">3)
+No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the
+corresponding Copyright Holder. This restriction only applies to the
+primary font name as presented to the users.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">4)
+The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit
+written<BR>permission.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">5)
+The Font Software, modified or unmodified, in part or in whole, must
+be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; line-height: 130%"><A NAME="81bc75c5"></A>
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; line-height: 130%"><FONT COLOR="#666666"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>TERMINATION</B></FONT></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">This
+license becomes null and void if any of the above conditions are not
+met.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; line-height: 130%"><A NAME="c6abc7e0"></A>
+<BR>
+</P>
+<P STYLE="margin-bottom: 0in; line-height: 130%"><FONT COLOR="#666666"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>DISCLAIMER</B></FONT></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">THE
+FONT SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY
+KIND,<BR>EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY
+WARRANTIES OF<BR>MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT.
+IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT,
+INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR
+INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT
+SOFTWARE.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif">OpenSans-CondLight.ttf:
+Digitized data copyright &copy; 2011, Google Corporation. </FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif">OpenSans-CondLightItalic.ttf:
+Digitized data copyright &copy; 2010-2011, Google Corporation. </FONT>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif">OpenSans-CondBold.ttf:
+Digitized data copyright &copy; 2010-2011, Google Corporation.</FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><SPAN LANG="en">Licensed
+under the Apache License, Version 2.0 (the &quot;License&quot;); you
+may not use this file except in compliance with the License.  You may
+obtain a copy of the License at    
+</SPAN></FONT><A CLASS="western" HREF="http://www.apache.org/licenses/LICENSE-2.0"><FONT COLOR="#0000ff"><FONT FACE="Calibri, sans-serif"><SPAN LANG="en"><U>http://www.apache.org/licenses/LICENSE-2.0</U></SPAN></FONT></FONT></A></P>
+<P LANG="en" CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif">Unless
+required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot;
+BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied.  See the License for the specific language governing
+permissions and limitations under the License.</FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<DIV TYPE=FOOTER>
+	<P ALIGN=RIGHT STYLE="margin-top: 0.46in; margin-bottom: 0in; border-top: none; border-bottom: 1px solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.01in; padding-left: 0in; padding-right: 0in">
+	<FONT COLOR="#808080"><FONT SIZE=2 STYLE="font-size: 9pt">Rev
+	12/2009</FONT></FONT></P>
+	<P ALIGN=CENTER STYLE="margin-bottom: 0in"><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><B>-
+	<SDFIELD TYPE=PAGE SUBTYPE=RANDOM FORMAT=ARABIC>29</SDFIELD></B></FONT></FONT><FONT FACE="Verdana, sans-serif"><FONT SIZE=2><B>
+	-</B></FONT></FONT></P>
+</DIV>
+</BODY>
+</HTML>

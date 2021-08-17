@@ -1,0 +1,250 @@
+/**************************************************************** 
+    Style sheet for QTSimpleDialog.cpp 
+****************************************************************/
+
+/***********************
+    Object
+***********************/
+
+QObject 
+{
+    font-family: Arial, Sans-Serif; 
+    font-size: 13px;
+}
+
+/***********************
+    Dialog
+***********************/
+
+QDialog
+{
+    border: 1px solid #D2D2D2;
+    background-color: #FFFFFF;
+}
+
+/***********************
+    Label
+***********************/
+
+QLabel 
+{
+    color: #666666;
+    font-size: 12px;
+}
+
+QLabel:disabled 
+{
+    color: #999999;
+}
+
+QLabel#TitleLabel 
+{
+    font-size: 24px;
+    color: #6C6C6C;
+    margin-top: 0px;
+}
+
+/***********************
+    LineEdit
+***********************/
+
+QLineEdit 
+{
+     background-color: #FFFFFF;
+     border-radius: 3px;
+     border: 1px solid #D2D2D2;
+     padding: 5px 10px;
+}
+
+QLineEdit:focus 
+{
+    border: 1px solid #00A6E2;
+}
+
+/***********************
+    CheckBox 
+***********************/
+
+QCheckBox 
+{
+    color: #666666;	
+}
+
+/***********************
+    PushButtons
+***********************/
+
+QPushButton 
+{
+    background-color: transparent;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 9px 16px 8px 16px;
+    color: #6C6C6C;
+}
+
+QPushButton#CommitButton 
+{
+    background-color: #00A6E2;
+    border: 1px solid #00A6E2;
+    color: #FFFFFF;
+}
+
+QPushButton#CommitButton:disabled 
+{
+    background-color: #A5E0F5;
+    border: 1px solid #A5E0F5;
+}
+
+QPushButton#CommitButton:hover 
+{
+    background-color: #3AB5E1;
+    border: 1px solid #3AB5E1;
+}
+
+QPushButton#CommitButton:pressed 
+{
+    background-color: #007EC0;
+    border: 1px solid #007EC0;
+}
+
+QPushButton#CancelButton
+{
+    background-color: #FAFAFA;
+    border: 1px solid #A2A2A2;
+}
+
+QPushButton#CancelButton:disabled
+{
+    background-color: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    color: #D2D2D2;
+}
+
+QPushButton#CancelButton:hover
+{
+    background-color: #FFFFFF;
+    border: 1px solid #D2D2D2;
+}
+
+QPushButton#CancelButton:pressed
+{
+    background-color: #EAEAEA;
+    border: 1px solid #ADADAD;
+}
+
+
+QPushButton#CloseButton 
+{
+    border: none;
+}
+
+/***********************
+    ComboBox
+***********************/
+
+QComboBox 
+{
+    font-size: 12px;
+    color: #6C6C6C;
+    background-color: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+QComboBox:focus
+{
+    border-color: #00A6E2;
+}
+
+QComboBox QListView
+{
+    font-size: 12px;
+    color: #6C6C6C;
+    background-color: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    padding: 5px 0px 2px 8px;
+}
+
+QComboBox::drop-down
+{
+    width: 20px;
+    border: 1px;
+    border-color:#D2D2D2;
+    border-left-style:none;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-right-style: none;
+    background-color: #FAFAFA;
+    border-radius: 3px;
+}
+
+QComboBox::drop-down:focus
+{
+    border-color:#00A6E2;
+}
+
+QComboBox::drop-down:hover
+{
+    background-color: #FFFFFF;
+}
+
+QComboBox::drop-down:pressed
+{
+    background-color: #EAEAEA;
+}
+
+/***********************
+    Frames
+***********************/
+
+QFrame#HeaderLineFrame
+{
+    color: #D2D2D2;
+}
+
+QFrame#FooterFrame 
+{
+    background-color:transparent;
+}
+
+/***********************
+    ScrollBar
+***********************/
+
+QScrollBar
+{
+    height: 10px;
+    width: 8px;
+    background: #FCFDFF;
+}
+
+QScrollBar::handle 
+{
+    border-radius: 3px;
+    background: #C2C2C2;
+}
+
+QScrollBar::handle:hover 
+{
+    background: #979797;
+}
+
+QScrollBar::add-page, QScrollBar::sub-page 
+{
+    background: none;
+}
+
+/* 
+Without height, width set to 0, the control is invisible but still there. When the handle is at the top / bottom,
+it is not possible to drag the handle because on top of it
+there is the invisible sub-line, add-lne control.
+UP-26722
+*/
+QScrollBar::sub-line, QScrollBar::add-line 
+{
+    height: 0px;  
+    width: 0px;
+    background: none;
+}

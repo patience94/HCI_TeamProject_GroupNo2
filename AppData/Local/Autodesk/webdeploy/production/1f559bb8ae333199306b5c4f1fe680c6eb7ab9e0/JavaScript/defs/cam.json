@@ -1,0 +1,742 @@
+{
+    "!name": "cam",
+    "!define": {
+    },
+
+    "adsk": {
+        "cam": {
+            "CAM": {
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.CAM"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.CAM",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.CAM"
+                    },
+                    "prototype": {
+                        "setups" : {
+                            "!type" : "+adsk.cam.Setups"
+                        },
+                        "allOperations" : {
+                            "!type" : "+adsk.core.ObjectCollection"
+                        },
+                        "genericPostFolder" : {
+                            "!type" : "string"
+                        },
+                        "personalPostFolder" : {
+                            "!type" : "string"
+                        },
+                        "temporaryFolder" : {
+                            "!type" : "string"
+                        },
+                        "customGraphicsGroups" : {
+                            "!type" : "+adsk.fusion.CustomGraphicsGroups"
+                        },
+                        "designRootOccurrence" : {
+                            "!type" : "+adsk.fusion.Occurrence"
+                        },
+                        "flatPatternOccurrences" : {
+                            "!type" : "+adsk.fusion.OccurrenceList"
+                        },
+                        "allMachines" : {
+                            "!type" : "+adsk.core.ObjectCollection"
+                        },
+                        "export3MFForDefaultAdditiveSetup" : {
+                            "!type" : "fn(filepath: string) -> boolean"
+                        },
+                        "generateToolpath" : {
+                            "!type" : "fn(operations: +adsk.core.Base) -> +adsk.cam.GenerateToolpathFuture"
+                        },
+                        "generateAllToolpaths" : {
+                            "!type" : "fn(skipValid: boolean) -> +adsk.cam.GenerateToolpathFuture"
+                        },
+                        "clearToolpath" : {
+                            "!type" : "fn(operations: +adsk.core.Base) -> boolean"
+                        },
+                        "clearAllToolpaths" : {
+                            "!type" : "fn() -> boolean"
+                        },
+                        "checkToolpath" : {
+                            "!type" : "fn(operations: +adsk.core.Base) -> boolean"
+                        },
+                        "checkAllToolpaths" : {
+                            "!type" : "fn() -> boolean"
+                        },
+                        "postProcess" : {
+                            "!type" : "fn(operations: +adsk.core.Base, input: +adsk.cam.PostProcessInput) -> boolean"
+                        },
+                        "postProcessAll" : {
+                            "!type" : "fn(input: +adsk.cam.PostProcessInput) -> boolean"
+                        },
+                        "generateSetupSheet" : {
+                            "!type" : "fn(operations: +adsk.core.Base, format: number, folder: string, openDocument: boolean) -> boolean"
+                        },
+                        "generateAllSetupSheets" : {
+                            "!type" : "fn(format: number, folder: string, openDocument: boolean) -> boolean"
+                        },
+                        "getMachiningTime" : {
+                            "!type" : "fn(operations: +adsk.core.Base, feedScale: number, rapidFeed: number, toolChangeTime: number) -> +adsk.cam.MachiningTime"
+                        }
+                    }
+            },
+
+            "CAMFolders": {
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.CAMFolders"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.CAMFolders",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.CAMFolders"
+                    },
+                    "prototype": {
+                        "count" : {
+                            "!type" : "number"
+                        },
+                        "item" : {
+                            "!type" : "fn(index: number) -> +adsk.cam.CAMFolder"
+                        },
+                        "itemByName" : {
+                            "!type" : "fn(name: string) -> +adsk.cam.CAMFolder"
+                        },
+                        "itemByOperationId" : {
+                            "!type" : "fn(id: number) -> +adsk.cam.CAMFolder"
+                        }
+                    }
+            },
+
+            "CAMParameter": {
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.CAMParameter"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.CAMParameter",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.CAMParameter"
+                    },
+                    "prototype": {
+                        "name" : {
+                            "!type" : "string"
+                        },
+                        "title" : {
+                            "!type" : "string"
+                        },
+                        "expression" : {
+                            "!type" : "string"
+                        },
+                        "isEnabled" : {
+                            "!type" : "boolean"
+                        },
+                        "error" : {
+                            "!type" : "string"
+                        },
+                        "warning" : {
+                            "!type" : "string"
+                        }
+                    }
+            },
+
+            "CAMParameters": {
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.CAMParameters"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.CAMParameters",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.CAMParameters"
+                    },
+                    "prototype": {
+                        "count" : {
+                            "!type" : "number"
+                        },
+                        "item" : {
+                            "!type" : "fn(index: number) -> +adsk.cam.CAMParameter"
+                        },
+                        "itemByName" : {
+                            "!type" : "fn(internalName: string) -> +adsk.cam.CAMParameter"
+                        }
+                    }
+            },
+
+            "CAMPatterns": {
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.CAMPatterns"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.CAMPatterns",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.CAMPatterns"
+                    },
+                    "prototype": {
+                        "count" : {
+                            "!type" : "number"
+                        },
+                        "item" : {
+                            "!type" : "fn(index: number) -> +adsk.cam.CAMPattern"
+                        },
+                        "itemByName" : {
+                            "!type" : "fn(name: string) -> +adsk.cam.CAMPattern"
+                        },
+                        "itemByOperationId" : {
+                            "!type" : "fn(id: number) -> +adsk.cam.CAMPattern"
+                        }
+                    }
+            },
+
+            "ChildOperationList": {
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.ChildOperationList"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.ChildOperationList",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.ChildOperationList"
+                    },
+                    "prototype": {
+                        "count" : {
+                            "!type" : "number"
+                        },
+                        "item" : {
+                            "!type" : "fn(index: number) -> +adsk.core.Base"
+                        },
+                        "itemByName" : {
+                            "!type" : "fn(name: string) -> +adsk.core.Base"
+                        },
+                        "itemByOperationId" : {
+                            "!type" : "fn(id: number) -> +adsk.core.Base"
+                        }
+                    }
+            },
+
+            "GenerateToolpathFuture": {
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.GenerateToolpathFuture"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.GenerateToolpathFuture",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.GenerateToolpathFuture"
+                    },
+                    "prototype": {
+                        "numberOfOperations" : {
+                            "!type" : "number"
+                        },
+                        "numberOfCompleted" : {
+                            "!type" : "number"
+                        },
+                        "operations" : {
+                            "!type" : "+adsk.cam.Operations"
+                        },
+                        "isGenerationCompleted" : {
+                            "!type" : "boolean"
+                        }
+                    }
+            },
+
+            "Machine": {
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.Machine"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.Machine",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.Machine"
+                    },
+                    "prototype": {
+                        "vendor" : {
+                            "!type" : "string"
+                        },
+                        "model" : {
+                            "!type" : "string"
+                        },
+                        "description" : {
+                            "!type" : "string"
+                        },
+                        "id" : {
+                            "!type" : "string"
+                        }
+                    }
+            },
+
+            "MachiningTime": {
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.MachiningTime"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.MachiningTime",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.MachiningTime"
+                    },
+                    "prototype": {
+                        "feedDistance" : {
+                            "!type" : "number"
+                        },
+                        "totalFeedTime" : {
+                            "!type" : "number"
+                        },
+                        "rapidDistance" : {
+                            "!type" : "number"
+                        },
+                        "totalRapidTime" : {
+                            "!type" : "number"
+                        },
+                        "toolChangeCount" : {
+                            "!type" : "number"
+                        },
+                        "totalToolChangeTime" : {
+                            "!type" : "number"
+                        },
+                        "machiningTime" : {
+                            "!type" : "number"
+                        }
+                    }
+            },
+
+            "OperationBase": {
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.OperationBase"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.OperationBase",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.OperationBase"
+                    },
+                    "prototype": {
+                        "name" : {
+                            "!type" : "string"
+                        },
+                        "isProtected" : {
+                            "!type" : "boolean"
+                        },
+                        "isOptional" : {
+                            "!type" : "boolean"
+                        },
+                        "isSuppressed" : {
+                            "!type" : "boolean"
+                        },
+                        "parentSetup" : {
+                            "!type" : "+adsk.cam.Setup"
+                        },
+                        "isSelected" : {
+                            "!type" : "boolean"
+                        },
+                        "notes" : {
+                            "!type" : "string"
+                        },
+                        "operationId" : {
+                            "!type" : "number"
+                        },
+                        "parameters" : {
+                            "!type" : "+adsk.cam.CAMParameters"
+                        }
+                    }
+            },
+
+            "Operations": {
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.Operations"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.Operations",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.Operations"
+                    },
+                    "prototype": {
+                        "count" : {
+                            "!type" : "number"
+                        },
+                        "item" : {
+                            "!type" : "fn(index: number) -> +adsk.cam.Operation"
+                        },
+                        "itemByName" : {
+                            "!type" : "fn(name: string) -> +adsk.cam.Operation"
+                        },
+                        "itemByOperationId" : {
+                            "!type" : "fn(id: number) -> +adsk.cam.Operation"
+                        }
+                    }
+            },
+
+            "OperationStates": {
+                "IsValidOperationState":{
+                    "!type" : "number"
+                },
+                "IsInvalidOperationState":{
+                    "!type" : "number"
+                },
+                "SuppressedOperationState":{
+                    "!type" : "number"
+                },
+                "NoToolpathOperationState":{
+                    "!type" : "number"
+                }
+            },
+
+            "OperationStrategyTypes": {
+                "AdaptiveClearing2D":{
+                    "!type" : "number"
+                },
+                "Pocket2D":{
+                    "!type" : "number"
+                },
+                "Face":{
+                    "!type" : "number"
+                },
+                "Contour2D":{
+                    "!type" : "number"
+                },
+                "Slot":{
+                    "!type" : "number"
+                },
+                "Trace":{
+                    "!type" : "number"
+                },
+                "Thread":{
+                    "!type" : "number"
+                },
+                "Bore":{
+                    "!type" : "number"
+                },
+                "Circular":{
+                    "!type" : "number"
+                },
+                "Engrave":{
+                    "!type" : "number"
+                },
+                "AdaptiveClearing":{
+                    "!type" : "number"
+                },
+                "PocketClearing":{
+                    "!type" : "number"
+                },
+                "Parallel":{
+                    "!type" : "number"
+                },
+                "Contour":{
+                    "!type" : "number"
+                },
+                "Ramp":{
+                    "!type" : "number"
+                },
+                "Horizontal":{
+                    "!type" : "number"
+                },
+                "Pencil":{
+                    "!type" : "number"
+                },
+                "Scallop":{
+                    "!type" : "number"
+                },
+                "Spiral":{
+                    "!type" : "number"
+                },
+                "Radial":{
+                    "!type" : "number"
+                },
+                "MorphedSpiral":{
+                    "!type" : "number"
+                },
+                "Projection":{
+                    "!type" : "number"
+                },
+                "Drilling":{
+                    "!type" : "number"
+                },
+                "Jet2D":{
+                    "!type" : "number"
+                },
+                "TurningChamfer":{
+                    "!type" : "number"
+                },
+                "TurningFace":{
+                    "!type" : "number"
+                },
+                "TurningGroove":{
+                    "!type" : "number"
+                },
+                "TurningPart":{
+                    "!type" : "number"
+                },
+                "TurningProfile":{
+                    "!type" : "number"
+                },
+                "TurningProfileGroove":{
+                    "!type" : "number"
+                },
+                "TurningStockTransfer":{
+                    "!type" : "number"
+                },
+                "TurningThread":{
+                    "!type" : "number"
+                }
+            },
+
+            "OperationTypes": {
+                "MillingOperation":{
+                    "!type" : "number"
+                },
+                "TurningOperation":{
+                    "!type" : "number"
+                },
+                "JetOperation":{
+                    "!type" : "number"
+                }
+            },
+
+            "PostOutputUnitOptions": {
+                "DocumentUnitsOutput":{
+                    "!type" : "number"
+                },
+                "InchesOutput":{
+                    "!type" : "number"
+                },
+                "MillimetersOutput":{
+                    "!type" : "number"
+                }
+            },
+
+            "PostProcessInput": {
+                    "create" : {
+                        "!type" : "fn(programName: string, postConfiguration: string, outputFolder: string, outputUnits: number) -> +adsk.cam.PostProcessInput"
+                    },
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.PostProcessInput"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.PostProcessInput",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.PostProcessInput"
+                    },
+                    "prototype": {
+                        "programName" : {
+                            "!type" : "string"
+                        },
+                        "programComment" : {
+                            "!type" : "string"
+                        },
+                        "postConfiguration" : {
+                            "!type" : "string"
+                        },
+                        "outputFolder" : {
+                            "!type" : "string"
+                        },
+                        "outputUnits" : {
+                            "!type" : "number"
+                        },
+                        "isOpenInEditor" : {
+                            "!type" : "boolean"
+                        },
+                        "areToolChangesMinimized" : {
+                            "!type" : "boolean"
+                        },
+                        "postProperties" : {
+                            "!type" : "+adsk.core.NamedValues"
+                        }
+                    }
+            },
+
+            "Setups": {
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.Setups"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.Setups",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.Setups"
+                    },
+                    "prototype": {
+                        "count" : {
+                            "!type" : "number"
+                        },
+                        "item" : {
+                            "!type" : "fn(index: number) -> +adsk.cam.Setup"
+                        },
+                        "itemByName" : {
+                            "!type" : "fn(name: string) -> +adsk.cam.Setup"
+                        },
+                        "itemByOperationId" : {
+                            "!type" : "fn(id: number) -> +adsk.cam.Setup"
+                        }
+                    }
+            },
+
+            "SetupSheetFormats": {
+                "HTMLFormat":{
+                    "!type" : "number"
+                },
+                "ExcelFormat":{
+                    "!type" : "number"
+                }
+            },
+
+            "CAMFolder": {
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.CAMFolder"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.CAMFolder",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.CAMFolder"
+                    },
+                    "prototype": {
+                        "isActive" : {
+                            "!type" : "boolean"
+                        },
+                        "operations" : {
+                            "!type" : "+adsk.cam.Operations"
+                        },
+                        "folders" : {
+                            "!type" : "+adsk.cam.CAMFolders"
+                        },
+                        "patterns" : {
+                            "!type" : "+adsk.cam.CAMPatterns"
+                        },
+                        "children" : {
+                            "!type" : "+adsk.cam.ChildOperationList"
+                        },
+                        "parent" : {
+                            "!type" : "+adsk.core.Base"
+                        },
+                        "allOperations" : {
+                            "!type" : "+adsk.core.ObjectCollection"
+                        },
+                        "createFromTemplate" : {
+                            "!type" : "fn(templateFilePath: string) -> +adsk.core.ObjectCollection"
+                        }
+                    }
+            },
+
+            "Operation": {
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.Operation"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.Operation",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.Operation"
+                    },
+                    "prototype": {
+                        "strategyType" : {
+                            "!type" : "number"
+                        },
+                        "isToolpathValid" : {
+                            "!type" : "boolean"
+                        },
+                        "isGenerating" : {
+                            "!type" : "boolean"
+                        },
+                        "hasWarning" : {
+                            "!type" : "boolean"
+                        },
+                        "parent" : {
+                            "!type" : "+adsk.core.Base"
+                        },
+                        "hasToolpath" : {
+                            "!type" : "boolean"
+                        },
+                        "operationState" : {
+                            "!type" : "number"
+                        },
+                        "generatingProgress" : {
+                            "!type" : "string"
+                        }
+                    }
+            },
+
+            "Setup": {
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.Setup"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.Setup",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.Setup"
+                    },
+                    "prototype": {
+                        "operationType" : {
+                            "!type" : "number"
+                        },
+                        "isActive" : {
+                            "!type" : "boolean"
+                        },
+                        "operations" : {
+                            "!type" : "+adsk.cam.Operations"
+                        },
+                        "folders" : {
+                            "!type" : "+adsk.cam.CAMFolders"
+                        },
+                        "patterns" : {
+                            "!type" : "+adsk.cam.CAMPatterns"
+                        },
+                        "children" : {
+                            "!type" : "+adsk.cam.ChildOperationList"
+                        },
+                        "allOperations" : {
+                            "!type" : "+adsk.core.ObjectCollection"
+                        },
+                        "models" : {
+                            "!type" : "+adsk.core.ObjectCollection"
+                        },
+                        "fixtures" : {
+                            "!type" : "+adsk.core.ObjectCollection"
+                        },
+                        "stockSolids" : {
+                            "!type" : "+adsk.core.ObjectCollection"
+                        },
+                        "machine" : {
+                            "!type" : "+adsk.cam.Machine"
+                        },
+                        "createFromTemplate" : {
+                            "!type" : "fn(templateFilePath: string) -> +adsk.core.ObjectCollection"
+                        }
+                    }
+            },
+
+            "CAMPattern": {
+                    "classType" : {
+                        "!type" : "fn() -> +adsk.cam.CAMPattern"
+                    },
+                    "!type": "fn(handle: ?) -> + adsk.cam.CAMPattern",
+                    "interfaceId": {
+                        "!type": "string"
+                    },
+                    "cast": {
+                        "!type": "fn(object: ?) -> +adsk.cam.CAMPattern"
+                    }
+            }
+        }
+    }
+}

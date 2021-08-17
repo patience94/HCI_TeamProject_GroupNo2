@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="ASSEMBLYSOURCETYPE" devLabel="Assembly" translation="部件"/>
+	<label commandName="COMPONENTSOURCETYPE" devLabel="Component" translation="零部件"/>
+	<label commandName="FLATPATTERNSOURCETYPE" devLabel="Component(Flat Pattern)" translation="零部件(展开模式)"/>
+	<label commandName="FOLDEDMODELSOURCETYPE" devLabel="Component" translation="零部件"/>
+	<label commandName="FlatPattern" devLabel="Flat Pattern" translation="展开模式"/>
+	<label commandName="FusDocDefaultSheetSizeValue0" devLabel="A0 (1189mm x 841mm)" translation="A0 (1189 毫米 x 84 毫米)"/>
+	<label commandName="FusDocDefaultSheetSizeValue1" devLabel="A1 (841mm x 594mm)" translation="A1 (841 毫米 x 594 毫米)"/>
+	<label commandName="FusDocDefaultSheetSizeValue10" devLabel="D (34in x 22in)" translation="D (34 英寸 x 22 英寸)"/>
+	<label commandName="FusDocDefaultSheetSizeValue11" devLabel="E (44in x 34in)" translation="E (44 英寸 x 34 英寸)"/>
+	<label commandName="FusDocDefaultSheetSizeValue2" devLabel="A2 (594mm x 420mm)" translation="A2 (594 毫米 x 420 毫米)"/>
+	<label commandName="FusDocDefaultSheetSizeValue3" devLabel="A3 (420mm x 297mm)" translation="A3 (420 毫米 x 297 毫米)"/>
+	<label commandName="FusDocDefaultSheetSizeValue4" devLabel="A4 (210mm x 297mm)" translation="A4 (210 毫米 x 297 毫米)"/>
+	<label commandName="FusDocDefaultSheetSizeValue5" devLabel="A4 (297mm x 210mm)" translation="A4 (297 毫米 x 210 毫米)"/>
+	<label commandName="FusDocDefaultSheetSizeValue6" devLabel="A (8.5in x 11in)" translation="A (8.5 英寸 x 11 英寸)"/>
+	<label commandName="FusDocDefaultSheetSizeValue7" devLabel="A (11in x 8.5in)" translation="A (11 英寸 x 8.5 英寸)"/>
+	<label commandName="FusDocDefaultSheetSizeValue8" devLabel="B (17in x 11in)" translation="B (17 英寸 x 11 英寸)"/>
+	<label commandName="FusDocDefaultSheetSizeValue9" devLabel="C (22in x 17in)" translation="C (22 英寸 x 17 英寸)"/>
+	<label commandName="FusDocDesignDlError" devLabel="Could not download design file." translation="无法下载设计文件。"/>
+	<label commandName="FusDocDesignLinkNotFoundError" devLabel="Could not find the Design file linked with this Drawing" translation="找不到与此工程图链接的设计文件"/>
+	<label commandName="FusDocLinearDimensionPrecision0" devLabel="0" translation="0"/>
+	<label commandName="FusDocLinearDimensionPrecision1" devLabel="0.1" translation="0.1"/>
+	<label commandName="FusDocLinearDimensionPrecision10" devLabel="-" translation="-"/>
+	<label commandName="FusDocLinearDimensionPrecision11" devLabel="1/2" translation="1/2"/>
+	<label commandName="FusDocLinearDimensionPrecision12" devLabel="1/4" translation="1/4"/>
+	<label commandName="FusDocLinearDimensionPrecision13" devLabel="1/8" translation="1/8"/>
+	<label commandName="FusDocLinearDimensionPrecision14" devLabel="1/16" translation="1/16"/>
+	<label commandName="FusDocLinearDimensionPrecision15" devLabel="1/32" translation="1/32"/>
+	<label commandName="FusDocLinearDimensionPrecision16" devLabel="1/64" translation="1/64"/>
+	<label commandName="FusDocLinearDimensionPrecision17" devLabel="1/128" translation="1/128"/>
+	<label commandName="FusDocLinearDimensionPrecision18" devLabel="1/256" translation="1/256"/>
+	<label commandName="FusDocLinearDimensionPrecision2" devLabel="0.12" translation="0.12"/>
+	<label commandName="FusDocLinearDimensionPrecision3" devLabel="0.123" translation="0.123"/>
+	<label commandName="FusDocLinearDimensionPrecision4" devLabel="0.1234" translation="0.1234"/>
+	<label commandName="FusDocLinearDimensionPrecision5" devLabel="0.12345" translation="0.12345"/>
+	<label commandName="FusDocLinearDimensionPrecision6" devLabel="0.123456" translation="0.123456"/>
+	<label commandName="FusDocLinearDimensionPrecision7" devLabel="0.1234567" translation="0.1234567"/>
+	<label commandName="FusDocLinearDimensionPrecision8" devLabel="0.12345678" translation="0.12345678"/>
+	<label commandName="FusDocViewProjectionDirectionValue0" devLabel="First Angle" translation="第一角"/>
+	<label commandName="FusDocViewProjectionDirectionValue1" devLabel="Third Angle" translation="第三角"/>
+	<label commandName="FusionDocAngularDimensionPrecisionName" devLabel=" Angular Dimension Precision" translation=" 角度标注精度"/>
+	<label commandName="FusionDocAngularDimensionPrecisionToolTip" devLabel="Sets the default angular dimension precision for drawings created using the 'From Scratch' option" translation="为使用“从头开始”选项创建的工程图设置默认角度标注精度"/>
+	<label commandName="FusionDocAnnotationFormatName" devLabel="Standard" translation="标准"/>
+	<label commandName="FusionDocAnnotationHeightName" devLabel="Text Height" translation="文本高度"/>
+	<label commandName="FusionDocAnnotationsFormatToolTip" devLabel="Sets the default drafting standard for drawings created using the 'From Scratch' option" translation="为使用“从头开始”选项创建的工程图设置默认绘图标准"/>
+	<label commandName="FusionDocAnnotationsHeightToolTip" devLabel="Sets the default text height for drawings created using the 'From Scratch' option" translation="为使用“从头开始”选项创建的工程图设置默认文本高度"/>
+	<label commandName="FusionDocAnnotationsUnitDisplayToolTip" devLabel="Sets the default display of dimension unit abbreviation in dimension values for drawings created using the 'From Scratch' option" translation="为使用“从头开始”选项创建的工程图设置尺寸标注值中尺寸单位缩写的默认显示"/>
+	<label commandName="FusionDocAnnotationsUnitsToolTip" devLabel="Sets the default annotation units for drawings created using the 'From Scratch' option" translation="为使用“从头开始”选项创建的工程图设置默认标注单位"/>
+	<label commandName="FusionDocBorderDisplayName" devLabel="Display Border" translation="显示边框"/>
+	<label commandName="FusionDocBorderDisplayToolTip" devLabel="Display or hide border" translation="显示或隐藏边框"/>
+	<label commandName="FusionDocDefaultSheetSizeIFDOnlyToolTip" devLabel="To Specify a Sheet Size as a Preference, select a Drafting Standard in the above drop-down" translation="若要将“图纸尺寸”指定为首选项，请在上面的下拉列表中选择“绘图标准”"/>
+	<label commandName="FusionDocDefaultSheetSizeName" devLabel="Sheet Size" translation="图纸尺寸"/>
+	<label commandName="FusionDocDefaultSheetSizeNameIFDOnly" devLabel="Sheet Size" translation="图纸尺寸"/>
+	<label commandName="FusionDocDefaultSheetSizeToolTip" devLabel="Sets the default sheet size for drawings created using the 'From Scratch' option" translation="为使用“从头开始”选项创建的工程图设置默认图纸尺寸"/>
+	<label commandName="FusionDocDesignOpenError" devLabel="Could not open the design file." translation="无法打开设计文件。"/>
+	<label commandName="FusionDocDesignOpenNotValid" devLabel="The opened referenced design file is invalid." translation="打开的参考设计文件无效。"/>
+	<label commandName="FusionDocDimLeadingZeroToolTip" devLabel="Sets the default display of leading zeros within dimension values for drawings created using the 'From Scratch' option" translation="为使用“从头开始”选项创建的工程图设置尺寸标注值中前导零的默认显示"/>
+	<label commandName="FusionDocDimTrailingZeroToolTip" devLabel="Sets the default display of trailing zeros within dimension values for drawings created using the 'From Scratch' option" translation="为使用“从头开始”选项创建的工程图设置尺寸标注值中尾随零的默认显示"/>
+	<label commandName="FusionDocDisplayLineWidth" devLabel="Display Line Widths" translation="显示线宽"/>
+	<label commandName="FusionDocDisplayLineWidthToolTip" devLabel="Sets the default display of line widths for drawings created using the 'From Scratch' option" translation="为使用“从头开始”选项创建的工程图设置线宽的默认显示"/>
+	<label commandName="FusionDocDrawingUnitsName" devLabel="Units" translation="单位"/>
+	<label commandName="FusionDocFontName" devLabel="Font" translation="字体"/>
+	<label commandName="FusionDocFontToolTip" devLabel="Sets the default font for drawings created using the 'From Scratch' option" translation="为使用“从头开始”选项创建的工程图设置默认字体"/>
+	<label commandName="FusionDocLeadingZeroName" devLabel="Display Leading Zeros" translation="显示前导零"/>
+	<label commandName="FusionDocLineWidthGroup" devLabel="Line Width Group" translation="线宽组"/>
+	<label commandName="FusionDocLineWidthGroupToolTip" devLabel="Sets the default line width group for drawings created using the 'From Scratch' option" translation="为使用“从头开始”选项创建的工程图设置默认线宽组"/>
+	<label commandName="FusionDocLinearDimensionPrecisionName" devLabel="Linear Dimension Precision" translation="线性标注精度"/>
+	<label commandName="FusionDocLinearDimensionPrecisionToolTip" devLabel="Sets the default linear dimension precision for drawings created using the 'From Scratch' option" translation="为使用“从头开始”选项创建的工程图设置默认线性标注精度"/>
+	<label commandName="FusionDocLinearUnitName" devLabel="Dimension Format" translation="标注格式"/>
+	<label commandName="FusionDocLinearUnitToolTip" devLabel="Sets the default dimension format for drawings created using the 'From Scratch' option" translation="为使用“从头开始”选项创建的工程图设置默认标注格式"/>
+	<label commandName="FusionDocMediumLineWidth" devLabel="Medium Line Width" translation="中等线宽"/>
+	<label commandName="FusionDocMediumLineWidthToolTip" devLabel="Sets the default medium line width for drawings created using the 'From Scratch' option. The medium line width is defined by the selected line width group" translation="为使用“从头开始”选项创建的工程图设置默认中等线宽。中等线宽由选定的线宽组定义"/>
+	<label commandName="FusionDocOptionDrawingGroupToolTip" devLabel="Preferences controlling Fusion 360 Drawings behavior" translation="用于控制 Fusion 360 工程图行为的首选项"/>
+	<label commandName="FusionDocOptionGroupToolTip" devLabel="Preferences that set defaults for drawings created using the 'From Scratch' option" translation="用于为使用“从头开始”选项创建的工程图设置默认值的首选项"/>
+	<label commandName="FusionDocOptionGroupUserName" devLabel="Drawing" translation="工程图"/>
+	<label commandName="FusionDocOverrideFormatDefaultsName" devLabel="Override or Restore Format Defaults Below" translation="替代或恢复下面的格式默认值"/>
+	<label commandName="FusionDocOverrideFormatDefaultsToolTip" devLabel="Checking this allows editing of the below fields, unchecking restores default values" translation="选中此选项将允许编辑下面的字段，取消选中将恢复默认值"/>
+	<label commandName="FusionDocPopNewDrawingWarning" devLabel="Warning if contains mesh, surface or TSpline" translation="如果包含网格、曲面或 T-Spline，则发出警告"/>
+	<label commandName="FusionDocRemoveLinkError" devLabel="Old link could not be removed" translation="无法移除旧链接"/>
+	<label commandName="FusionDocThickLineWidth" devLabel="Thick Line Width" translation="粗线宽"/>
+	<label commandName="FusionDocThickLineWidthToolTip" devLabel="Sets the default thick line width for drawings created using the 'From Scratch' option. The thick line width is defined by the selected line width group" translation="为使用“从头开始”选项创建的工程图设置默认的粗线宽。粗线宽由选定的线宽组定义"/>
+	<label commandName="FusionDocThinLineWidth" devLabel="Thin Line Width" translation="细线宽"/>
+	<label commandName="FusionDocThinLineWidthToolTip" devLabel="Sets the default thin line width for drawings created using the 'From Scratch' option. The thin line width is defined by the selected line width group" translation="为使用“从头开始”选项创建的工程图设置默认的细线宽。细线宽由选定的线宽组定义"/>
+	<label commandName="FusionDocTitleBlockDisplayName" devLabel="Display Title Block" translation="显示标题栏"/>
+	<label commandName="FusionDocTitleBlockDisplayToolTip" devLabel="Display or hide title block" translation="显示或隐藏标题栏"/>
+	<label commandName="FusionDocTrailingZeroName" devLabel="Display Trailing Zeros" translation="显示尾随零"/>
+	<label commandName="FusionDocUnexpectedError" devLabel="Unexpected error" translation="意外错误"/>
+	<label commandName="FusionDocUnitDisplayName" devLabel="Display Dimension Units" translation="显示尺寸单位"/>
+	<label commandName="FusionDocUpdateMessage" devLabel="Changes have been made to a referenced design. &#xA;You can update the drawing from the button in the Application Bar." translation="已对参考设计进行了更改。 &#xA;您可以通过应用程序栏中的按钮更新工程图。"/>
+	<label commandName="FusionDocViewProjectionDirName" devLabel="Projection Angle" translation="投影角度"/>
+	<label commandName="FusionDocViewProjectionDirToolTip" devLabel="Sets the default projection angle for drawings created using the 'From Scratch' option" translation="为使用“从头开始”选项创建的工程图设置默认投影角度"/>
+	<label commandName="FusionDrawingEntryNameBendTable" devLabel="Bend Table" translation="折弯表"/>
+	<label commandName="FusionDrawingEntryNamePartsList" devLabel="Parts List" translation="明细表"/>
+	<label commandName="FusionDrawingExtFileBlobSerializer" devLabel="Fusion Drawing failed to generate a small thumbnail." translation="Fusion 工程图无法生成小缩略图。"/>
+	<label commandName="GeneralAnnotationFonts0" devLabel="Arial" translation="Arial"/>
+	<label commandName="GeneralAnnotationFormatValue0" devLabel="ASME" translation="ASME"/>
+	<label commandName="GeneralAnnotationFormatValue1" devLabel="ISO" translation="ISO"/>
+	<label commandName="GeneralAnnotationFormatValue2" devLabel="Inherit From Design" translation="从设计继承"/>
+	<label commandName="GeneralAnnotationHeightValue0" devLabel="0.1in" translation="0.1in"/>
+	<label commandName="GeneralAnnotationHeightValue1" devLabel="0.12in" translation="0.12in"/>
+	<label commandName="GeneralAnnotationHeightValue2" devLabel="0.24in" translation="0.24in"/>
+	<label commandName="GeneralAnnotationHeightValue3" devLabel="2.5mm" translation="2.5mm"/>
+	<label commandName="GeneralAnnotationHeightValue4" devLabel="3.5mm" translation="3.5mm"/>
+	<label commandName="GeneralAnnotationHeightValue5" devLabel="5.0mm" translation="5.0mm"/>
+	<label commandName="GeneralAnnotationHeightValue6" devLabel="7.0mm" translation="7.0mm"/>
+	<label commandName="GeneralAnnotationHeightValue7" devLabel="10.0mm" translation="10.0mm"/>
+	<label commandName="GeneralAnnotationSheetSizeIFDOnly1" devLabel="Based on Standard" translation="基于标准"/>
+	<label commandName="GeneralAnnotationUnitsValue0" devLabel="mm" translation="mm"/>
+	<label commandName="GeneralAnnotationUnitsValue3" devLabel="in" translation="in"/>
+	<label commandName="GeneralAnnotationUnitsValue4" devLabel="Inherit From Design" translation="从设计继承"/>
+	<label commandName="InnerStep" devLabel="%1% Inner Step" translation="%1% 内部步长"/>
+	<label commandName="LineWidthGroup0" devLabel="Very Thin" translation="非常细"/>
+	<label commandName="LineWidthGroup1" devLabel="Thin" translation="细"/>
+	<label commandName="LineWidthGroup2" devLabel="Medium" translation="中等"/>
+	<label commandName="LineWidthGroup3" devLabel="Thick" translation="粗"/>
+	<label commandName="LineWidthGroup4" devLabel="Very Thick" translation="非常粗"/>
+	<label commandName="LinearUnitFormat0" devLabel="Decimal" translation="小数"/>
+	<label commandName="LinearUnitFormat1" devLabel="Fractional" translation="分数"/>
+	<label commandName="OfflineFailedGetDesignMsg" devLabel="The design file %1% is not available in Offline mode. Please switch to Online mode to perform the command again." translation="设计文件 %1% 在脱机模式下不可用。请切换到联机模式以再次执行该命令。"/>
+	<label commandName="PARTSLISTTABLENAME" devLabel="PARTS LIST" translation="明细表"/>
+	<label commandName="STORYBOARDSOURCETYPE" devLabel="Assembly(Storyboard)" translation="部件(故事板)"/>
+	<label commandName="UserPropertyOnComponent__ITEM_ID" devLabel="Item" translation="序号"/>
+	<label commandName="UserPropertyOnComponent__QTY" devLabel="Qty" translation="数量"/>
+	<label commandName="VOJointOrigin" devLabel="Joint Origins" translation="联接原点"/>
+</Resource>

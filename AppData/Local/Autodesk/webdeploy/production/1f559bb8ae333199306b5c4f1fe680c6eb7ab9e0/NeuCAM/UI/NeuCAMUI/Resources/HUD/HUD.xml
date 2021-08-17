@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HUDs>
+
+	<HUD Id="CAMMoveComponentsCommand">
+		<DynamicControls Id="MoveComponentsTransformInput"/>
+	</HUD>
+
+	<HUD Id="NeuCAMFilletEdges">
+    <DropDownEntry Id="radiusInput" WidthString="000.000 cm" />
+    <CheckBox Id="cornerInput" />
+  </HUD>
+  
+  <HUD Id="NeuCAMTestAngleManipulator">
+    <DropDownButton Id="dropDownInput" ShowText="true" SynchronizedWithCurrentItem="true" />
+    <DropDownEntry Id="angleInput" WidthString="00000.000 deg" />
+  </HUD>
+
+  <HUD Id="NeuCAMTestDistanceManipulator">
+    <DropDownEntry Id="distanceInput" WidthString="000.000 cm" />
+  </HUD>
+
+  <HUD Id="NeuCAMTestModelessHud">
+    <Button Id="HideTextCommandsCommand" />
+    <Button Id="ShowTextCommandsCommand" />
+    <Separator />
+    <Button Id="NeuCAMSimpleCommand" />
+    <NewLine />
+    <DropDownButton Id="VisualMaterialCommand" Text="" ShowText="true" SynchronizedWithCurrentItem="true" WidthString="MetallicLavender"/>
+  </HUD>
+  <HUD Id="NeuCAMMoveComponentsCommand">
+    <DynamicControls Id="MoveComponentsTransformInput"/>
+  </HUD>
+  <HUD Id="NeuCAMTweakFacesCommand">
+    <DynamicControls Id="OffsetFacesTransformInput"/>
+  </HUD>
+  <HUD Id="NeuCAMTestPlanarMoveManipulator">
+    <DropDownEntry Id="xInput" WidthString="00000.00 cm" />
+    <DropDownEntry Id="yInput" WidthString="00000.00 cm" />
+  </HUD>
+  
+  <HUD Id="NeuCAMTestTweakManipulator">
+    <DropDownEntry Id="xInput" WidthString="00000.00 cm" />
+    <DropDownEntry Id="yInput" WidthString="00000.00 cm" />
+  </HUD>
+
+  <HUD Id="HalfSectionViewCommand">
+    <DynamicControls Id="SectionViewTransformInput"/>
+  </HUD>
+  
+  <HUD Id="NeuCAMTestToolkitCommand">
+    <Slider Id="Slider1" NoIcon="true" NumSliders="2"
+        Text="Size:" ShowText="true"
+        ShowValue="true" UseText="false"
+        ValueType="int" LowerLimit="-5" UpperLimit="10" WidthSlider="100"/>
+    <NewLine/>
+    <Slider Id="Slider2" NoIcon="true" NumSliders="2"
+        Text="Size:" ShowText="true" 
+        ShowValue="true" UseText="false"
+        ValueList="(-2.0, -1.0, 0.0, 0.3, 2, 5, 9 ,20 ,25,60)"
+        ValueType="float" LowerLimit="0" UpperLimit="10" WidthSlider="100"/>
+    <NewLine/>
+    <Slider Id="Slider3" NoIcon="true" NumSliders="1"
+        Text="Size:" ShowText="true" 
+        ShowValue="true" UseText="true" ShowLimits="true"
+        ValueList="(0.0, 0.1, 0.2, 0.5, 0.8, 0.9, 1.0)"
+        ValueType="float" LowerLimit="0" UpperLimit="10" WidthSlider="100"/>
+    <NewLine/>
+    <Slider Id="Slider4" NoIcon="true" NumSliders="2"
+        Text="Opacity:" ShowText="true" 
+        ShowValue="true" UseText="true" NumTickMarks="4" NumSnappingPointsPerTickMark="5"
+        ValueType="float" LowerLimit="0.1" UpperLimit="10.0" WidthSlider="100"/>
+    <NewLine/>
+    <Slider Id="Slider5" NoIcon="true" NumSliders="2"
+        Text="Size:" ShowText="true" 
+        ShowValue="true" UseText="false"
+        ValueList="(-4, -2, 0, 1, 4, 5, 9, 20, 25, 60)"
+        ValueType="int" LowerLimit="-4" UpperLimit="60" WidthSlider="100"/>    
+    <NewLine/>
+    <DropDownEntry Id="Textbox1" ShowText="true" Width="90" Value="0" NoIcon="false" IsEnabled="false"/>
+    <NewLine/>
+    <DynamicControls Id="firstSetOfControls"/>
+    <NewLine/>
+    <CheckBox Id="CheckBox1"/>
+    <NewLine/>
+    <Slider Id="Slider6" NoIcon="true" NumSliders="1" ShowText="false" ShowValue="false" UseText="false" ValueType="int" LowerLimit="0" UpperLimit="10" WidthSlider="200" NumTickMarks="9"/>
+  </HUD>
+  
+  <HUD Id="NeuCAMTestToolkitCommand.focusTest1">
+    <DropDownEntry Id="Textbox1" ShowText="true" Width="90" Value="0" NoIcon="false" IsEnabled="false"/>
+    <DropDownEntry Id="Textbox2" ShowText="true" Width="90" Value="0" NoIcon="false" IsEnabled="false"/>
+    <NewLine/>
+    <DropDownEntry Id="Textbox3" ShowText="true" Width="90" Value="0" NoIcon="false" IsEnabled="false"/>
+    <DropDownEntry Id="Textbox4" ShowText="true" Width="90" Value="0" NoIcon="false" IsEnabled="false"/>
+    <NewLine/>
+    <DropDownEntry Id="Textbox5" ShowText="true" Width="90" Value="0" NoIcon="false" IsEnabled="false"/>
+    <DropDownEntry Id="Textbox6" ShowText="true" Width="90" Value="0" NoIcon="false" IsEnabled="false"/>
+  </HUD>
+  
+  <HUD Id="NeuCAMTestToolkitCommand.focusTest2">
+    <DropDownEntry Id="Textbox1" ShowText="true" Width="90" Value="0" NoIcon="false" IsEnabled="false"/>
+    <NewLine/>
+    <DropDownEntry Id="Textbox2" ShowText="true" Width="90" Value="0" NoIcon="false" IsEnabled="false"/>
+    <NewLine/>
+    <DropDownEntry Id="Textbox3" ShowText="true" Width="90" Value="0" NoIcon="false" IsEnabled="false"/>
+  </HUD>
+  
+  <HUD Id="NeuCAMTestToolkitCommand.focusTest3">
+    <DropDownEntry Id="Textbox1" ShowText="true" Width="90" Value="0" NoIcon="false" IsEnabled="false"/>
+    <DropDownEntry Id="Textbox2" ShowText="true" Width="90" Value="0" NoIcon="false" IsEnabled="false"/>
+    <DropDownEntry Id="Textbox3" ShowText="true" Width="90" Value="0" NoIcon="false" IsEnabled="false"/>
+  </HUD>
+
+  <HUD Id="NeuCAMTestMultipleSelectionsCommand">
+	<DropDownButton Id="ReorderFaces" ShowText="true" SynchronizedWithCurrentItem="true" WidthString="200"/>
+  </HUD>
+  <HUD Id="ChainSelectionHUD">
+  </HUD>
+  <HUD Id="CamGizmoHUD">
+  </HUD>
+</HUDs>

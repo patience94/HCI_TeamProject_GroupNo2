@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neutron - AcIPC Asynchronous Test Page</title>
+    
+    <style type="text/css" title="currentStyle">
+		@import "media/css/demo_page.css";
+		@import "media/css/demo_table.css";
+		.dataTables_filter {
+            display: none;  
+        }
+	</style>
+ 	<script type="text/javascript" src="media/js/jquery.js"></script>
+    
+    <script type="text/javascript" language="javascript" src="media/js/jquery.dataTables.js"></script> 
+
+    <script type="text/javascript">
+
+        var callbacks = new Array();
+        var callbackNameOnComplete = "testOnComplete";
+        var callbackNameOnError = "testOnError";
+
+        function fcnTestOnComplete(jsonArgs) {
+            alert("fcnTestOnComplete called with jsonArgs: " + jsonArgs);
+        }
+
+        function fcnTestOnError(jsonArgs) {
+            alert("fcnTestOnError called with jsonArgs: " + jsonArgs);
+        }
+
+        // Add Asynchronous callback functions
+        callbacks[callbackNameOnComplete] = fcnTestOnComplete;
+        callbacks[callbackNameOnError] = fcnTestOnError;
+
+        $(document).ready(function () {
+            eval(window.neutronJavaScriptObject.executeQuery('initializeSDK'));
+        });
+    </script>
+     
+    <script type="text/javascript">
+       
+	
+	    // This is the object Neutron expects to talk to when it needs to send something out,
+	    // by calling neutronJavaScriptHandler.handle(cmdID, jsonArgs)
+		//
+        window.neutronJavaScriptHandler = {
+            // We should not let any exception throw out of this function, otherwise we will
+            // get a crash on debug Neutron (with the Qt implementation).
+            handle: function (name, jsonArgs) {
+                try 
+                {
+                    callbacks[name](jsonArgs);
+
+                } catch (err) {
+                    console.log("Exception occured executing callback: " + commandId + ", args: " + jsonArgs);
+                }
+
+                return "processed";
+            }
+        }
+
+
+        function sendIPCCommandAsync() {
+            var args = JSON.stringify({ URL: ipcURL.value, functionParams: ipcCommandArgs.value, onComplete: callbackNameOnComplete, onError: callbackNameOnError });
+
+		    if (window.neutronJavaScriptObject) {
+		        var rcJSON = window.neutronJavaScriptObject.executeCommand(ipcCommandId.value, args);
+
+		    }
+		    else
+		        console.log("Command sent. ID: " + ipcCommandId.value + ", args: " + args);
+		}
+        
+
+	</script>
+</head>
+<body id="dt_example">
+		<div id="container">
+        <img src="media/images/autodesk.png" /> <br /> 
+			<div class="full_width big">
+				Neutron AcIPC Asynchronous Unit Test
+			</div>
+    <h1>Client</h1>
+
+    <div id="ipcCommand" class="command">
+	    <h4>IPC Asynchronous Command: </h4>
+        <!-- Setup sample test parameters -->
+        <table >
+        <tr>
+            <td>Command ID:</td>
+			<td><input type='text' id='ipcCommandId' value='Neutron.testAsyncCommand1' size ='64';   /></td>
+		</tr>
+		<tr >
+			<td>Command Args:</td>
+            <td><input type='text' id='ipcCommandArgs' value='{&quot;numberOfCalculations&quot;:100000001,&quot;testRetCode&quot;:0}' size ='64'; /></td>		</tr>
+
+        <tr >
+			<td>URL:</td>
+            <!-- Specifying http://www.autodesk.com will get us past the isTrustedDomain check in AcJsCoreStub	-->
+            <td><input type='text' id='ipcURL' value='http://www.autodesk.com' size ='64';   /></td>	
+        </tr>
+        <tr >
+            <td><button onclick='sendIPCCommandAsync()' title='Click the button to invoke an asynchronous command'>Invoke Async</button></td>
+           
+        </tr>
+        </table >
+	</div>
+			
+</body>
+</html>

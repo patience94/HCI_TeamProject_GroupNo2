@@ -1,0 +1,40 @@
+{
+	"build"	   : "Release",
+
+	"platform" : "win32",
+
+	"packageId": "drawing",
+
+	    "package-properties" : { 
+        "removed-product-ids" : ["{CD2A85EC-C80D-4CAC-01C1-FCCDE4A651C8}", "{0188C9F4-CCDE-41E9-0150-6B1CFC6AC596}"] 
+    },  
+    "pre-deploy-tasks" : [ 
+        "a9cdc10b1ed64039b7dfd3bf8a0dcd5e"
+    ],
+
+	"packageDependencies": [
+		"FUSIONDOCSTREAMER",
+		"AcCoreView"
+    ],
+
+	"included-files" : [
+		{
+      "include-filter" : [
+        "FusionDoc/",
+        "Applications/FusionDoc/NaFusionDocUI10.xml",
+        "Applications/FusionDoc/NaFusionDocUI10.dll",
+		"Applications/FusionDoc/NaFusionDoc10.xml",
+		"Applications/FusionDoc/NaFusionDoc10.dll",
+		"Applications/FusionDoc/FusionDocApp10.xml"
+      ],
+     "exclude-filter" : [
+			"FusionDoc/Test"
+			]
+		},
+	  	
+		{
+			"alt-source" : "Publish/FusionDoc/Build/Common/Tools/Localization",
+			"include-filter" : ["StringTable"]
+		}
+	]
+}

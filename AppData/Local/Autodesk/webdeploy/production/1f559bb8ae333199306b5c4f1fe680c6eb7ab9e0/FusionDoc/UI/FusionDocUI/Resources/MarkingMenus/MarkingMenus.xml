@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menus>
+  <!--/////////////////////////////////////////////
+    This document determines the order in which the contents of the menu will appear.
+    To determine whether the command joins the menu or not, edit the CmdDef onAddToContextMenu method.
+  //////////////////////////////////////////////-->
+  <MarkingMenu EnvId="FusionDrawingAnnoBadgeEnvironment">
+    <Menu TypeId="BaseMenu">
+      <MenuItem Id="FusionDrawingDimReassociateCmd" Position="East" />
+      <MenuItem Id="FusionDrawingEraseCmd" Position="West" />
+    </Menu>
+  </MarkingMenu>
+
+  <MarkingMenu EnvId="FusionDrawingSmartObjBadgeEnvironment">
+    <Menu TypeId="BaseMenu">
+      <MenuItem Id="FusionDrawingSmartObjReassociateCmd" Position="East" />
+      <MenuItem Id="FusionDrawingEraseCmd" Position="West" />
+    </Menu>
+  </MarkingMenu>
+
+  <MarkingMenu EnvId="FusionDrawingCancelContinueIntermediateEnvironment">
+    <Menu TypeId="BaseMenu">
+      <MenuItem Id="FusionDrawingContinueCmd" Position="East" />
+      <MenuItem Id="CancelCommand" Position="West" />
+    </Menu>
+  </MarkingMenu>
+
+  <MarkingMenu EnvId="FusionDrawingDisabledReassocEnvironment">
+    <Menu TypeId="BaseMenu">
+      <MenuItem Id="FusionDrawingDisabledReassocCmd" Position="East" />
+      <MenuItem Id="FusionDrawingEraseCmd" Position="West" />
+    </Menu>
+  </MarkingMenu>
+
+  <!--This is the default marking menu-->
+  <MarkingMenu EnvId="FusionDrawingWithContinueEnvironment">
+    <Menu TypeId="BaseMenu">
+      <MenuItem Id="RepeatCommand" Position="North" />
+      <MenuItem Id="FusionDrawingViewEditCommand" _LCLZId="FusionDrawingWithContinueEnvironmentFusionDrawingViewEditCommandMarkingMenuText" Position="Northeast" />
+      <MenuItem Id="FusionDrawingContinueCmd" Position="East" />
+      <MenuItem Id="FusionDrawingViewProjectCommand" Position="Southeast" />
+      <MenuItem Text="LOCID=Annotation" Position="South">
+        <LOC Module="NaFusionDocUI" _LCLZId="Annotation" _LCLZText="Annotation"/>
+        <MenuItem Id="FusionDrawingAngularDimensionCmd" Position="North" />
+        <MenuItem Id="FusionDrawingRadialDimensionCmd" Position="Northeast" />
+        <MenuItem Id="FusionDrawingLeaderCommand" Position="East" />
+        <MenuItem Id="FusionDrawingDiameterDimensionCmd" Position="Southeast" />
+        <MenuItem Id="FusionDrawingAlignedDimensionCmd" Position="Southwest" />
+        <MenuItem Id="FusionDrawingMTextCommand" Position="West" />
+        <MenuItem Id="FusionDrawingLinearDimensionCmd" Position="Northwest" />
+      </MenuItem>
+      <MenuItem Id="FusionDrawingMoveCmd" Position="Southwest" />
+      <MenuItem Id="FusionDrawingUndoCommand" Position="West" />
+      <MenuItem Id="FusionDrawingEraseCmd" Position="Northwest" />
+    </Menu>
+  </MarkingMenu>
+
+  <!--This is the default marking menu-->
+  <MarkingMenu EnvId="FusionDrawingEnvironment">
+    <Menu TypeId="BaseMenu">
+      <MenuItem Id="RepeatCommand" Position="North" />
+      <MenuItem Id="FusionDrawingViewEditCommand" _LCLZId="FusionDrawingEnvironmentFusionDrawingViewEditCommandMarkingMenuText" Position="Northeast" />
+      <MenuItem Id="FusionDrawingRedoCommand" Position="East" />
+      <MenuItem Id="FusionDrawingViewProjectCommand" Position="Southeast" />
+      <MenuItem Text="LOCID=Annotation" Position="South">
+        <LOC Module="NaFusionDocUI" _LCLZId="Annotation" _LCLZText="Annotation"/>
+        <MenuItem Id="FusionDrawingAngularDimensionCmd" Position="North" />
+        <MenuItem Id="FusionDrawingRadialDimensionCmd" Position="Northeast" />
+        <MenuItem Id="FusionDrawingLeaderCommand" Position="East" />
+        <MenuItem Id="FusionDrawingDiameterDimensionCmd" Position="Southeast" />
+        <MenuItem Id="FusionDrawingAlignedDimensionCmd" Position="Southwest" />
+        <MenuItem Id="FusionDrawingMTextCommand" Position="West" />
+        <MenuItem Id="FusionDrawingLinearDimensionCmd" Position="Northwest" />
+      </MenuItem>
+      <MenuItem Id="FusionDrawingMoveCmd" Position="Southwest" />
+      <MenuItem Id="FusionDrawingUndoCommand" Position="West" />
+      <MenuItem Id="FusionDrawingEraseCmd" Position="Northwest" />
+    </Menu>
+    <Menu TypeId="Overflow">
+      <MenuItem Id="FusionChangeMultiDocSettingCommand" />
+      <MenuItem Id="FusionChangeDocumentSettingsCommand" />
+      <MenuItem Id="FusionChangeFontCommand" />
+      <MenuItem Id="FusionChangeTextHeightCommand" />
+      <MenuItem Id="FusionChangeLinearFormatCommand" />
+      <MenuItem Id="FusionChangeLinearPrecisionCommand" />
+      <MenuItem Id="FusionChangeAngularPrecisionCommand" />
+      <MenuItem Id="FusionChangeDisplayLeadingZeroCommand" />
+      <MenuItem Id="FusionChangeDisplayTrailingZeroCommand" />
+      <MenuItem Id="FusionChangeDisplayUnitsCommand" />
+      <MenuItem Id="FusionChangeLineWidthGroupCommand" />
+      <MenuItem Id="FusionChangeDisplayLineWidthCommand" />
+      <MenuItem Id="FusionChangeDimensionUnitsCommand" />
+      <Separator />   
+      <MenuItem Id="FusionChangeMultiSheetSettingsCommand" />
+      <MenuItem Id="FusionChangeSheetSizeCommand" />
+      <MenuItem Id="FusionChangeTitleBlockCommand" />
+      <MenuItem Id="FusionChangeDisplayBorderCommand" />
+      <MenuItem Id="FusionChangeDisplayTitleBlockCommand" />
+      <Separator />
+      <MenuItem Id="OpenRelatedDesignCommand" />
+      <MenuItem Id="FusionDocRestoreDefaultsCmd" />
+      <MenuItem Id="FusionDrawingAddDimensionBreakCmd" />
+      <MenuItem Id="FusionDrawingRemoveDimensionBreakCmd" />
+      <MenuItem Id="FusionDrawingViewBaseCommand" />
+      <MenuItem Id="FusionDrawingCreatePartsListCommand" />
+      <MenuItem Id="FusionDrawingNewTableCommand" />
+      <MenuItem Id="FusionDrawingBorderEditCommand" />
+      <MenuItem Id="FusionDrawingNewTitleBlockCommand" />
+      <MenuItem Id="FusionDrawingBlockEditCommand" />
+      <Separator />
+        <MenuItem Id="FusionEditPropertiesCommand" />
+        <MenuItem Id="FusionResetPropertiesCommand" />
+        <Separator />
+        <MenuItem Id="FusionDrawingExportPartsListCommand" />
+        <MenuItem Id="FusionDrawingSketchEditCommand" />
+        <Separator />
+        <MenuItem Id="FusionDocCutSketchCommand" />
+        <MenuItem Id="FusionDocCopySketchCommand" />
+        <MenuItem Id="FusionDocPasteSketchCommand" />
+        <MenuItem Id="FusionDocCutGeomEntityCommand" />
+        <MenuItem Id="FusionDocCopyGeomEntityCommand" />
+        <MenuItem Id="FusionDocPasteGeomEntityCommand" />
+        <MenuItem Id="FusionDocCutMtextCommand" />
+        <MenuItem Id="FusionDocCopyMtextCommand" />
+        <MenuItem Id="FusionDocPasteTextCommand" />
+        <MenuItem Id="FusionDocPasteCustomMTextCommand" />
+        <MenuItem Id="FusionDocDeleteCmd" />
+        <MenuItem Id="FusionDrawingSketchDeleteCommand" />
+      <Separator />
+      <MenuItem Id="SketchShowHideCommand" />
+      <Separator />
+      <MenuItem Id="FusionDrawingShowHideCommand" />
+      <MenuItem Id="FusionDrawingShowHideSketchesSketchCommand" />
+      <MenuItem Id="FusionDrawingShowAllChildCommand" />
+      <MenuItem Id="FusionDrawingShowAllCommand" />
+      <MenuItem Id="FusionDrawingUnsuppressAllCommand" />
+      <Separator />
+      <MenuItem Id="FusionDrawingSuppressCommand" />
+      <MenuItem Id="FusionDrawingUnsuppressCommand" />
+      <MenuItem Id="FusionDrawingUnsuppressAllChildCommand" />
+      <MenuItem Id="FusionDrawingSuppressAllExceptSelectedCommand" />
+    </Menu>
+  </MarkingMenu>
+
+  <!--This is the default marking menu for template -->
+  <MarkingMenu EnvId="FusionDrawingTemplateEnvironment">
+    <Menu TypeId="BaseMenu">
+      <MenuItem Id="RepeatCommand" Position="North" />
+      <MenuItem Id="FusionDrawingViewEditCommand" _LCLZId="FusionDrawingEnvironmentFusionDrawingViewEditCommandMarkingMenuText" Position="Northeast" />
+      <MenuItem Id="FusionDrawingRedoCommand" Position="East" />
+      <MenuItem Id="FusionDrawingViewProjectTemplateCommand" Position="Southeast" />
+      <MenuItem Text="LOCID=Annotation" Position="South">
+        <LOC Module="NaFusionDocUI" _LCLZId="Annotation" _LCLZText="Annotation"/>
+        <MenuItem Id="FusionDrawingAngularDimensionCmd" Position="North" />
+        <MenuItem Id="FusionDrawingRadialDimensionCmd" Position="Northeast" />
+        <MenuItem Id="FusionDrawingLeaderCommand" Position="East" />
+        <MenuItem Id="FusionDrawingDiameterDimensionCmd" Position="Southeast" />
+        <MenuItem Id="FusionDrawingAlignedDimensionCmd" Position="Southwest" />
+        <MenuItem Id="FusionDrawingMTextCommand" Position="West" />
+        <MenuItem Id="FusionDrawingLinearDimensionCmd" Position="Northwest" />
+      </MenuItem>
+      <MenuItem Id="FusionDrawingMoveCmd" Position="Southwest" />
+      <MenuItem Id="FusionDrawingUndoCommand" Position="West" />
+      <MenuItem Id="FusionDrawingEraseCmd" Position="Northwest" />
+    </Menu>
+    <Menu TypeId="Overflow">
+      <MenuItem Id="FusionChangeMultiDocSettingCommand" />
+      <MenuItem Id="FusionChangeDocumentSettingsCommand" />
+      <MenuItem Id="FusionChangeFontCommand" />
+      <MenuItem Id="FusionChangeTextHeightCommand" />
+      <MenuItem Id="FusionChangeLinearFormatCommand" />
+      <MenuItem Id="FusionChangeLinearPrecisionCommand" />
+      <MenuItem Id="FusionChangeAngularPrecisionCommand" />
+      <MenuItem Id="FusionChangeDisplayLeadingZeroCommand" />
+      <MenuItem Id="FusionChangeDisplayTrailingZeroCommand" />
+      <MenuItem Id="FusionChangeDisplayUnitsCommand" />
+      <MenuItem Id="FusionChangeLineWidthGroupCommand" />
+      <MenuItem Id="FusionChangeDisplayLineWidthCommand" />
+      <MenuItem Id="FusionChangeDimensionUnitsCommand" />
+      <Separator />
+      <MenuItem Id="FusionChangeMultiSheetSettingsCommand" />
+      <MenuItem Id="FusionChangeSheetSizeCommand" />
+      <MenuItem Id="FusionChangeTitleBlockCommand" />
+      <MenuItem Id="FusionChangeDisplayBorderCommand" />
+      <MenuItem Id="FusionChangeDisplayTitleBlockCommand" />
+        <Separator />
+      <MenuItem Id="FusionDocRestoreDefaultsCmd" />
+      <MenuItem Id="FusionDrawingAddDimensionBreakCmd" />
+      <MenuItem Id="FusionDrawingRemoveDimensionBreakCmd" />
+      <MenuItem Id="FusionDrawingViewBaseTemplateCommand" />
+      <MenuItem Id="FusionDrawingCreatePartsListCommand" />
+      <MenuItem Id="FusionDrawingBorderEditCommand" />
+      <MenuItem Id="FusionDrawingNewTitleBlockCommand" />
+      <MenuItem Id="FusionDrawingNewTableCommand" />
+      <MenuItem Id="FusionDrawingBlockEditCommand" />
+      <Separator />
+        <MenuItem Id="FusionEditPropertiesCommand" />
+        <MenuItem Id="FusionResetPropertiesCommand" />
+        <Separator />
+        <MenuItem Id="FusionDrawingExportPartsListCommand" />
+        <MenuItem Id="FusionDocDeleteCmd" />
+        <MenuItem Id="FusionDocCutGeomEntityCommand" />
+        <MenuItem Id="FusionDocCopyGeomEntityCommand" />
+        <MenuItem Id="FusionDocPasteGeomEntityCommand" />
+        <MenuItem Id="FusionDocCutMtextCommand" />
+        <MenuItem Id="FusionDocCopyMtextCommand" />
+        <MenuItem Id="FusionDocPasteTextCommand" />
+        <MenuItem Id="FusionDocPasteCustomMTextCommand" />
+      <Separator />
+      <MenuItem Id="FusionDrawingShowHideCommand" />
+      <MenuItem Id="FusionDrawingShowHideSketchesSketchCommand" />
+      <MenuItem Id="FusionDrawingShowAllChildCommand" />
+      <MenuItem Id="FusionDrawingShowAllCommand" />
+      <MenuItem Id="FusionDrawingUnsuppressAllCommand" />
+      <Separator />
+      <MenuItem Id="FusionDrawingSuppressCommand" />
+      <MenuItem Id="FusionDrawingUnsuppressCommand" />
+      <MenuItem Id="FusionDrawingUnsuppressAllChildCommand" />
+      <MenuItem Id="FusionDrawingSuppressAllExceptSelectedCommand" />   
+    </Menu>
+  </MarkingMenu>
+</Menus>

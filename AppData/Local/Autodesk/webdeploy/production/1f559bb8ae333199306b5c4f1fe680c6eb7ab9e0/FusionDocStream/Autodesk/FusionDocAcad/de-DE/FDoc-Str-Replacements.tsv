@@ -1,0 +1,116 @@
+##File Name	##String Id	##ACAD String	##FDOC String
+## This section is for AcDim strings			
+AcDimRes.dll	5115	\nSpecify second extension line origin or [Select/Undo] &lt;Select&gt;: 	\nSpecify point on an object: 
+AcDimRes.dll	5127	\nSelect continued dimension: 	\nSelect base dimension: 
+AcDimRes.dll	5140	\nSpecify second extension line origin or [Select/Undo] &lt;Select&gt;: 	\nSelect second edge: 
+AcDimRes.dll	5242	\nSpecify first extension line origin or &lt;select object&gt;: 	\nSpecify point on an object\nPress Spacebar to select edge: 
+AcDimRes.dll	5243	\nSelect object to dimension: 	\nSelect edge\nPress Spacebar to specify point on an object: 
+AcDimRes.dll	5247	\nSpecify second extension line origin: 	\nSpecify second point on an object: 
+AcDimRes.dll	5250	\nSpecify dimension line location or \n[Mtext/Text/Angle]: 	\nPlace dimension: 
+AcDimRes.dll	5255	\nSpecify angle vertex: 	\nSpecify point on an object\nPress Spacebar to select edge: 
+AcDimRes.dll	5256	\nSpecify first angle endpoint: 	\nSpecify point to define first arm: 
+AcDimRes.dll	5257	\nSpecify second angle endpoint: 	\nSpecify point to define second arm: 
+AcDimRes.dll	5259	"\nSelect arc, circle, line, or &lt;specify vertex&gt;: "	\nSelect edge\nPress Spacebar to specify point on an object: 
+AcDimRes.dll	5262	\nSelect second line: 	\nSelect second edge: 
+AcDimRes.dll	5266	\nSpecify dimension arc line location or [Mtext/Text/Angle/Quadrant]: 	\nPlace dimension: 
+AcDimRes.dll	5274	\nSelect arc or circle: 	\nSelect edge: 
+AcDimRes.dll	5400	\nSpecify first extension line origin or &lt;select object&gt;: 	\nSpecify point on an object\nPress Spacebar to select edge: 
+AcDimRes.dll	5401	\nSelect object to dimension: 	\nSelect edge\nPress Spacebar to specify point on an object: 
+AcDimRes.dll	5405	\nSpecify second extension line origin: 	\nSpecify second point on an object: 
+AcDimRes.dll	5410	\nSpecify dimension line location or \n[Mtext/Text/Angle/Horizontal/Vertical/Rotated]: 	\nPlace dimension: 
+AcDimRes.dll	5416	\nSpecify dimension line location or [Mtext/Text/Angle]: 	\nPlace dimension: 
+AcDimRes.dll	5883	\nSpecify first extension line origin or [Select object] &lt;next&gt;: 	\nSpecify first extension line origin: 
+AcDimRes.dll	5887	\nSpecify second extension line origin &lt;next&gt;: 	\nSpecify second extension line origin: 
+AcDimRes.dll	5889	\nSelect arc or circle &lt;next&gt;: 	\nSelect arc or circle: 
+AcDimRes.dll	5892	\nSpecify feature location &lt;next&gt;: 	\nSelect reference: 
+AcDimRes.dll	5893	\nSelect first line &lt;next&gt;:	\nSelect first line: 
+AcDimRes.dll	5895	\nSelect second line &lt;next&gt;:	\nSelect second line: 
+AcDimRes.dll	5896	\nSpecify angle vertex or [Select arc or circle] &lt;next&gt;: 	\nSpecify angle vertex: 
+AcDimRes.dll	5900	\nSpecify leader association point &lt;next&gt;: 	\nSpecify leader association point: 
+AcDimRes.dll	5929	\nSelect dimensions: 	\nSelect dimension(s) to add or remove breaks.
+AcDimRes.dll	42435	\nSpecify angular dimension location or [Mtext/Text/text aNgle/Undo]: 	\nPlace dimension: 
+AcDimRes.dll	42437	\nSelect line to specify second side of angle: 	: 
+AcDimRes.dll	42451	Specify second extension line origin or [Undo]:	\nSpecify point on an object: 
+AcDimRes.dll	42452	Select line to specify extension lines origin:	: 
+AcDimRes.dll	42453	\nSelect parallel line segment to define extension line end point: 	: 
+AcDimRes.dll	42454	Select objects or specify first extension line origin or [Angular/Baseline/Continue/Ordinate/aliGn/Distribute/Layer/Undo]:	\nSelect edge or specify point on an object: 
+AcDimRes.dll	42461	Select circle to specify diameter or [Radius/Jogged/Angular]:	: 
+AcDimRes.dll	42465	Select arc to specify radius or [Diameter/Jogged/arc Length/Angular]:	: 
+AcDimRes.dll	42481	Specify first extension line origin or [Angular/Baseline/Continue/Ordinate/aliGn/Distribute/Layer/Undo]:	\nSelect edge or specify point on an object: 
+AcDimRes.dll	42488	Select extension line origin to continue or [Baseline]:	\nSelect extension line to begin chain: 
+AcDimRes.dll	42531	Specify dimension line location or second line for angle [Mtext/Text/text aNgle/Undo]:	\nPlace dimension: 
+AcDimRes.dll	42532	Specify dimension line location or [Mtext/Text/text aNgle/Undo]:	\nPlace dimension: 
+AcDimRes.dll	42538	Specify diameter dimension location or [Radius/Mtext/Text/text aNgle/Undo]:	\nPlace dimension: 
+AcDimRes.dll	42543	Specify radius dimension location or [Diameter/Angular/Mtext/Text/text aNgle/Undo]:	\nPlace dimension: 
+AcDimRes.dll	42546	\nSpecify angular dimension location or [Mtext/Text/text aNgle/Undo]: 	\nSpecify angular dimension location: 
+AcDimRes.dll	42547	\nSpecify angular dimension location or [Radius/Diameter/Mtext/Text/text aNgle/Undo]: 	\nSpecify angular dimension location: 
+AcDimRes.dll	1201	\nSpecify leader arrowhead location or [leader Landing first/Content first/Options] &lt;%s&gt;: 	\nSpecify start point: 
+AcDimRes.dll	1208	\nSpecify next point: 	\nSpecify bend point: 
+AcDimRes.dll	1210	\nSpecify leader landing location: 	\nPlace text: 
+AcDimRes.dll	1226	\nSpecify balloon location: 	\nPlace balloon: 
+AcDimRes.dll	1227	\nSelect component edge: 	\nSelect edge of component: 
+AcDimRes.dll	26799	\n	\nSelect bend centerline: 
+AcDimRes.dll	1413		\nSelect balloons to align: 
+AcDimRes.dll	1414		\nSpecify start point: 
+AcDimRes.dll	1415		\nSpecify end point: 
+## This section is for AcModelDoc strings			
+AcModelDocRes.dll	576	\nSpecify end point or [Undo]: 	\nSpecify end point: 
+AcModelDocRes.dll	602	\nSpecify location of section view or: 	\nPlace section view.
+AcModelDocRes.dll	577	\nSpecify next point or [Undo]: 	\nSpecify point: 
+AcModelDocRes.dll	578	\nSpecify next point or [Undo/Done] <Done>: 	\nSpecify point\nOr press Enter: 
+AcModelDocRes.dll	581	\nSpecify start point or [Type/Representation/Hidden lines/Scale/Visibility/Annotation/hatCh] <Type>: 	\nSpecify start point of section line: 
+AcModelDocRes.dll	668	\nSpecify start point or [Type/Hidden lines/Scale/Visibility/Annotation/hatCh] <Type>: 	\nSpecify start point: 
+AcModelDocRes.dll	748	\nSpecify start point or [Type/Representation/Hidden lines/Scale/Visibility/cUt/Annotation/hatCh] <Type>: 	\nSpecify start point: 
+AcModelDocRes.dll	749	\nSpecify start point or [Type/Hidden lines/Scale/Visibility/cUt/Annotation/hatCh] <Type>: 	\nSpecify start point: 
+AcModelDocRes.dll	352	\nSelect option [Representation/Hidden lines/Scale/Visibility/Projection/Depth/Annotation/hatCh/Move/eXit] <eXit>: 	
+AcModelDocRes.dll	662	\nSpecify center point or [Representation/Hidden lines/Scale/Visibility/Boundary/model Edge/Annotation] <Boundary>: 	\nSpecify center point of detail boundary: 
+AcModelDocRes.dll	776	\nSpecify size of boundary or [Rectangular/Undo]: 	\nSpecify size of boundary: 
+AcModelDocRes.dll	367	\nSelect option [Representation/Hidden lines/Scale/Visibility/Boundary/model Edge/Annotation/Move/eXit] <eXit>: 	
+AcModelDocRes.dll	374	Model File accept _Model File accept accept	Model fuSion File accept _Model fuSion File accept accept
+AcModelDocRes.dll	227	\nSelect orientation [Current/Top/Bottom/Left/Right/Front/BAck/SW iso/SE iso/NE iso/NW iso] <%s>: 	\nSelect orientation [Current/Top/Bottom/Left/Right/Front/BAck/SW iso/SE iso/NE iso/NW iso/cuStom] <%s>: 
+AcModelDocRes.dll	228	Current Top Bottom Left Right Front BAck SW SE NE NW accept _Current Top Bottom Left Right Front BAck SW SE NE NW accept	Current Top Bottom Left Right Front BAck SW SE NE NW cuStom accept _Current Top Bottom Left Right Front BAck SW SE NE NW cuStom accept
+AcModelDocRes.dll	523	\nSpecify location of base view: 	\nPlace base view: 
+AcModelDocRes.dll	645	\nSpecify location of detail view: 	\nPlace detail view: 
+AcModelDocRes.dll	524	\nSpecify location of projected view	\nPlace projected view\nOr press Enter
+AcModelDocRes.dll	652	\nPress SHIFT to cycle between:\n - Maintain alignment\n - Break alignment	 Press Shift to toggle view alignment
+AcModelDocRes.dll	824	Select view for reference	Select drawing view
+AcModelDocRes.dll	157	\nSpecify location of parts list: 	\nPlace parts list. Press Shift to toggle flipping
+AcModelDocRes.dll	833	Select view for reference	Select view
+## This section is for AcIsmUi strings			
+AcIsmUiRes.dll 	2040	\nSpecify scale factor <1>: 	\nScale image 
+AcIsmUiRes.dll 	2041	\nSpecify scale factor or [Unit] <1>: 	\nScale image or [Unit] 
+AcIsmUiRes.dll 	2044	\nSpecify rotation angle <0>: 	\nRotate image 
+AcIsmUiRes.dll 	2066	"\nSpecify insertion point <0,0>: "	\nPlace image 
+## This section is for acmted strings			
+acmtedRes.dll 	1073	Specify opposite corner or	Specify opposite corner
+## This section is for AcSmartCenter strings			
+AcSmartCenterRes.dll	1017	Select circle or arc to associate center mark: 	\nSelect a hole or rounded edge: 
+AcSmartCenterRes.dll	1018	\nSelect first line: 	\nSelect first edge: 
+AcSmartCenterRes.dll	1019	\nSelect second line: 	\nSelect second edge: 
+AcSmartCenterRes.dll	1023	\nSelect first line: 	\nSelect first edge: 
+AcSmartCenterRes.dll	1024	\nSelect second line: 	\nSelect second edge: 
+AcSmartCenterRes.dll	1027	\nSelect circle or arc to add center mark: 	\nSelect hole or rounded edge: 
+AcSmartCenterRes.dll	1060	\nSelect hole or rounded edge or press Enter: 	\nSelect hole or rounded edge\nOr press Enter: 
+## This section is for AcDb23 strings			
+AcDb23res.dll	9006	Layout	Sheet
+AcDb23res.dll	16005	\nSpecify stretch point or [Base point/Copy/Undo/eXit]:	\nSpecify stretch point: 
+AcDb23res.dll	15955	\nSpecify stretch point or [Base point/Copy/Undo/eXit]:	\nSpecify stretch point: 
+AcDb23res.dll	15996	\nSpecify stretch point or [Base point/Copy/Undo/eXit]:	\nSpecify stretch point: 
+AcDb23res.dll	15991	\nSpecify stretch point or [Base point/Copy/Undo/eXit]:	\nSpecify stretch point: 
+AcDb23res.dll	15965	\nSpecify stretch point or [Base point/Copy/Undo/eXit]:	\nSpecify stretch point: 
+AcDb23res.dll	16021	\nSpecify stretch point or [Base point/Copy/Undo/eXit]:	\nSpecify stretch point: 
+AcDb23res.dll	16045	\nSpecify stretch point or [Base point/Copy/Undo/eXit]	\nSpecify stretch point: 
+AcDb23res.dll	15803	\nSpecify stretch point or [Base point/Copy/Undo/eXit]:	\nSpecify stretch point: 
+AcDb23res.dll	15976	\nSpecify stretch point or [Base point/Copy/Undo/eXit]:	\nSpecify stretch point: 
+## This section is for Acad strings			
+acadres.dll	20241	Unknown command &quot;%s&quot;.  Press F1 for help.\n	Unknown command &quot;%s&quot;.\n
+acadres.dll	21183	\nSpecify base point or [Displacement] &lt;Displacement&gt;: 	\nSpecify base point: 
+acadres.dll	21186	\nSpecify second point or &lt;use first point as displacement&gt;: 	\nSpecify second point. 
+acadres.dll	21187	\nSpecify rotation angle or [Copy/Reference] &lt;%.99q2&gt;: 	\nSpecify rotation angle: 
+acadres.dll	49105	\nSpecify rotation angle or [Copy/Reference]: 	\nSpecify rotation angle: 
+acadres.dll	21188	\nSpecify the new angle or [Points] &lt;%.99q2&gt;: 	\nSpecify the new angle: 
+acadres.dll	25356	\nSpecify stretch point or [Base point/Copy/Undo/eXit]: 	\nSpecify stretch point: 
+acadres.dll	25497	\nSpecify stretch point or [Base point/Undo/eXit]: 	\nSpecify stretch point: 
+acadres.dll	63926	Specify opposite corner or [Fence/WPolygon/CPolygon]: 	Specify opposite corner: 
+acadres.dll	48256	\nSpecify destination point or [Base point/eXit]: 	\nPlace view. 
+acadres.dll	56494	\nPress Shift to cycle between: \n  - Maintain alignment \n  - Break alignment	Press Shift to toggle view alignment

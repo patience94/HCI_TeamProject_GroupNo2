@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbars>
+
+  <CommandToolbar Id="FusionDrawingAssetType">
+
+    <!-- Dummy panel for workspace to avoid the hang on right click -->
+    <Panel Id="FusionDocumentationEnvironment" _LCLZId="lclzWorkspace" _LCLZText="Workspace" />
+
+    <!--All Tab info-->
+    <Tab Id="FusionDocTab"
+         _LCLZId="lclzFusionDocTab"
+         _LCLZText="DRAWING"
+         Panels="ViewsPanel;DrawingPanel;CreatePanel;ModifyPanel;GeometryPanel;DimensionsPanel;TextPanel;InspectPanel;SymbolsPanel;InsertPanel;BillOfMaterialsPanel;BlockPanel;StopSketchEditPanel;OutputPanel"
+         Environment="FusionDocumentationEnvironment"/>
+
+    <Tab Id="TitleBlockTab"
+        _LCLZId="lclzTitleBlockTab"
+        _LCLZText="TITLE BLOCK"
+        Panels="DrawingPanel;CreatePanel;ModifyPanel;TextPanel;InspectPanel;InsertPanel;StopBlockEditPanel"
+        Environment="FusionDocumentationEnvironment"
+        ContextualFinishId="FusionDrawingBlockCloseCommand"/>
+
+    <Tab Id="BorderTab"
+         _LCLZId="lclzBorderTab"
+         _LCLZText="BORDER"
+         Panels="DrawingPanel;CreatePanel;ModifyPanel;TextPanel;InspectPanel;InsertPanel;StopBorderEditPanel"
+         Environment="FusionDocumentationEnvironment"
+         ContextualFinishId="FusionDrawingBorderCloseCommand"/>
+
+    <Tab Id="SketchTab"
+         _LCLZId="lclzSketchTab"
+         _LCLZText="SKETCH"
+         Panels="DrawingPanel;CreatePanel;ModifyPanel;TextPanel;InspectPanel;InsertPanel;StopSketchEditPanel"
+         Environment="FusionDocumentationEnvironment"
+         ContextualFinishId="FusionDrawingSketchCloseCommand"/>
+
+    <!-- ************************** -->
+    <!-- ** Views Panel ** -->
+    <!-- ************************** -->
+      <Panel Id="ViewsPanel" _LCLZId="lclzViews" _LCLZText="Drawing Views" Environment="FusionDocumentationEnvironment">
+          <Controls>
+              <Button Id="FusionDrawingViewBaseCommand" />
+              <Button Id="FusionDrawingViewBaseTemplateCommand" />
+              <Button Id="FusionDrawingViewProjectCommand" />
+              <Button Id="FusionDrawingViewProjectTemplateCommand" />
+              <Button Id="FusionDrawingViewSimpleSectionCommand" />
+              <Button Id="FusionDrawingViewSectionCommand" />
+              <Button Id="FusionDrawingViewDetailCommand" />
+          </Controls>
+          <PanelDropdown>
+              <Button Id="FusionDrawingViewBaseCommand" />
+              <Button Id="FusionDrawingViewBaseTemplateCommand" />
+              <Button Id="FusionDrawingViewProjectCommand" />
+              <Button Id="FusionDrawingViewProjectTemplateCommand" />
+              <Button Id="FusionDrawingViewSimpleSectionCommand" />
+              <Button Id="FusionDrawingViewSectionCommand" />
+              <Button Id="FusionDrawingViewDetailCommand" />
+          </PanelDropdown>
+      </Panel>
+    <!-- ************************** -->
+    <!-- ** Drawing Panel ** -->
+    <!-- ************************** -->
+    <Panel Id="DrawingPanel" _LCLZId="lclzGeometry" _LCLZText="Geometry" Environment="FusionDocumentationEnvironment">
+        <Controls>
+            <Button Id="FusionDrawingLineCommand" />
+            <Button Id="FusionDrawingRectangleCommand" />
+            <Button Id="FusionDrawingCircleCommand" />
+            <Button Id="FusionDrawingArcCommand" />
+            <Button Id="FusionDrawingArrowCommand" />
+        </Controls>
+        <PanelDropdown>
+            <Button Id="FusionDrawingLineCommand" />
+            <Button Id="FusionDrawingRectangleCommand" />
+            <Button Id="FusionDrawingCircleCommand" />
+            <Button Id="FusionDrawingArcCommand" />
+            <Button Id="FusionDrawingArrowCommand" />
+        </PanelDropdown>
+    </Panel>
+
+    <!-- ************************** -->
+    <!-- ** Modify Panel ** -->
+    <!-- ************************** -->
+    <Panel Id="ModifyPanel" _LCLZId="lclzModify" _LCLZText="Modify" Environment="FusionDocumentationEnvironment">
+        <Controls>
+            <Button Id="FusionDrawingMoveCmd" />
+            <Button Id="FusionDocRotateCmd" />
+            <Button Id="FusionDrawingCopyCommand" />
+            <Button Id="FusionDrawingTrimCommand" />
+            <Button Id="FusionDrawingExtendCommand" />
+        </Controls>
+        <PanelDropdown>
+            <Button Id="FusionDrawingMoveCmd" />
+            <Button Id="FusionDocRotateCmd" />
+            <Button Id="FusionDrawingCopyCommand" />
+            <Button Id="FusionDrawingTrimCommand" />
+            <Button Id="FusionDrawingExtendCommand" />
+            <Button Id="FusionDrawingOffsetCommand" />
+            <Button Id="FusionDrawingEraseCmd" />
+        </PanelDropdown>
+    </Panel>
+
+    <!-- ************************** -->
+    <!-- ** Geometry Panel ** -->
+    <!-- ************************** -->
+    <Panel Id="GeometryPanel" _LCLZId="lclzGeometry" _LCLZText="Geometry" Environment="FusionDocumentationEnvironment">
+      <Controls>
+        <Button Id="FusionDrawingCenterlineCommand" />
+        <Button Id="FusionDrawingCentermarkCommand" />
+        <Button Id="FusionDrawingCenterPatternCommand" />
+        <Button Id="FusionDrawingEdgeExtensionCmd" />
+        <Button Id="FusionDrawingSketchCommand" />
+      </Controls>
+      <PanelDropdown>
+        <Button Id="FusionDrawingCenterlineCommand" />
+        <Button Id="FusionDrawingCentermarkCommand" />
+        <Button Id="FusionDrawingCenterPatternCommand" />
+        <Separator />
+        <Button Id="FusionDrawingEdgeExtensionCmd" />
+        <Separator />
+        <Button Id="FusionDrawingSketchCommand" />
+      </PanelDropdown>
+    </Panel>
+
+    <!-- ************************** -->
+    <!-- ** Dimensions Panel ** -->
+    <!-- ************************** -->
+    <Panel Id="DimensionsPanel" _LCLZId="lclzDimensions" _LCLZText="Dimensions" Environment="FusionDocumentationEnvironment">
+      <Controls>
+        <Button Id="FusionDrawingSingleDimensionCmd" />
+        <Button Id="FusionDrawingOrdinateDimensionCmd" />
+      </Controls>
+      <PanelDropdown>
+        <Button Id="FusionDrawingSingleDimensionCmd" />
+        <Button Id="FusionDrawingOrdinateDimensionCmd" />
+        <Separator />
+        <Button Id="FusionDrawingLinearDimensionCmd" />
+        <Button Id="FusionDrawingAlignedDimensionCmd" />
+        <Button Id="FusionDrawingAngularDimensionCmd" />
+        <Button Id="FusionDrawingRadialDimensionCmd" />
+        <Button Id="FusionDrawingDiameterDimensionCmd" />
+        <Separator />
+        <Button Id="FusionDrawingBaselineDimensionCmd" />
+        <Button Id="FusionDrawingChainDimensionCmd" />
+        <Separator />
+        <Button Id="FusionDrawingDimensionBreakCmd" />
+      </PanelDropdown>
+    </Panel>
+
+
+    <!-- ************************** -->
+    <!-- ** Text Panel ** -->
+    <!-- ************************** -->
+    <Panel Id="TextPanel" _LCLZId="lclzText" _LCLZText="Text" Environment="FusionDocumentationEnvironment">
+      <Controls>
+        <Button Id="FusionDrawingMTextCommand" />
+        <Button Id="FusionDrawingLeaderCommand" />
+        <Button Id="FusionDrawingAttDefCommand" />
+      </Controls>
+      <PanelDropdown>
+        <Button Id="FusionDrawingMTextCommand" />
+        <Button Id="FusionDrawingLeaderCommand" />
+        <Button Id="FusionDrawingAttDefCommand" />
+      </PanelDropdown>
+    </Panel>
+
+    <!-- ************************** -->
+    <!-- ** Inspect Panel ** -->
+    <!-- ************************** -->
+    <Panel Id="InspectPanel" _LCLZId="lclzInspect" _LCLZText="Inspect" Environment="FusionDocumentationEnvironment">
+        <Controls>
+            <Button Id="FusionDrawingMeasureCommand" />
+        </Controls>
+    </Panel>
+
+      <!-- ************************** -->
+    <!-- ** Symbols Panel ** -->
+    <!-- ************************** -->
+    <Panel Id="SymbolsPanel" _LCLZId="lclzSymbols" _LCLZText="Symbols" Environment="FusionDocumentationEnvironment">
+      <Controls>
+        <Button Id="FusionDrawingSurfaceTextureCmd" />
+        <Button Id="FusionDrawingFeatureControlFrameCmd" />
+        <Button Id="FusionDrawingDatumIdCmd" />
+      </Controls>
+      <PanelDropdown>
+        <Button Id="FusionDrawingSurfaceTextureCmd" />
+        <Separator />
+        <Button Id="FusionDrawingFeatureControlFrameCmd" />
+        <Button Id="FusionDrawingDatumIdCmd" />
+      </PanelDropdown>
+    </Panel>
+
+
+    <!-- ************************** -->
+    <!-- ** Insert Panel ** -->
+    <!-- ************************** -->
+    <Panel Id="InsertPanel" _LCLZId="lclzInsert" _LCLZText="Insert" Environment="FusionDocumentationEnvironment">
+      <Controls>
+        <Button Id="FusionDrawingImageInsertCommand" />
+        <Button Id="FusionDrawingBlockEditorImageInsertCommand" />
+        <Button Id="FusionDrawingTemplateImageInsertCommand" />
+      </Controls>
+      <PanelDropdown>
+        <Button Id="FusionDrawingImageInsertCommand" />
+        <Button Id="FusionDrawingBlockEditorImageInsertCommand" />
+        <Button Id="FusionDrawingTemplateImageInsertCommand" />
+      </PanelDropdown>
+    </Panel>
+
+
+    <!-- ************************** -->
+    <!-- ** BOM Panel ** -->
+    <!-- ************************** -->
+
+    <Panel Id="BillOfMaterialsPanel" _LCLZId="lclzTables" _LCLZText="Tables" Environment="FusionDocumentationEnvironment">
+      <Controls>
+        <Button Id="FusionDrawingNewTableCommand" />
+        <Button Id="FusionDrawingBalloonCommand" />
+      </Controls>
+      <PanelDropdown>
+        <Button Id="FusionDrawingCreatePartsListCommand" />
+        <Button Id="FusionDrawingNewTableCommand" />
+        <Separator />
+        <Button Id="FusionDrawingBalloonCommand" />
+        <Button Id="FusionDrawingBendIDCommand" />
+        <Separator />
+        <Button Id="FusionDrawingRenumberCommand" />
+        <Button Id="FusionDrawingAlignBalloonCommand" />
+      </PanelDropdown>
+    </Panel>
+
+    <!-- ************************** -->
+    <!-- ** Block Panel ** -->
+    <!-- ************************** -->
+    <Panel Id="BlockPanel" _LCLZId="lclzFinishEdit" _LCLZText="Finish Title Block" Environment="FusionDocumentationEnvironment">
+        <Controls>
+            <Button Id="FusionDrawingBlockCloseCommand" />
+            <Button Id="FusionDrawingBorderCloseCommand" />
+            <Button Id="FusionDrawingSketchCloseCommand" />
+        </Controls>
+    </Panel>
+
+    <Panel Id="StopBlockEditPanel" _LCLZId="lclzFinishBlock" _LCLZText="Finish Title Block" ContextualFinishId="FusionDrawingBlockCloseCommand" AvailableBaseTabs="{none}" >
+      <Controls>
+        <Button Id="FusionDrawingBlockCloseCommand" />
+      </Controls>
+    </Panel>
+
+    <Panel Id="StopBorderEditPanel" _LCLZId="lclzFinishBorder" _LCLZText="Finish Border" ContextualFinishId="FusionDrawingBorderCloseCommand" AvailableBaseTabs="{none}" >
+      <Controls>
+        <Button Id="FusionDrawingBorderCloseCommand" />
+      </Controls>
+    </Panel>
+
+    <Panel Id="StopSketchEditPanel" _LCLZId="lclzFinishSketch" _LCLZText="Finish Sketch" ContextualFinishId="FusionDrawingSketchCloseCommand" AvailableBaseTabs="{none}" >
+      <Controls>
+        <Button Id="FusionDrawingSketchCloseCommand" />
+      </Controls>
+    </Panel>
+
+    <!-- ************************** -->
+    <!-- ** Output Panel ** -->
+    <!-- ************************** -->
+    <Panel Id="OutputPanel" _LCLZId="lclzOutput" _LCLZText="Output" Environment="FusionDocumentationEnvironment">
+      <Controls>
+        <Button Id="FusionDrawingExportPDFCommand" />
+      </Controls>
+      <PanelDropdown>
+        <Button Id="FusionDrawingExportPDFCommand" />
+        <Button Id="ExportFusionDrawingDocumentCommand" />
+        <Button Id="FusionDrawingExportDXFCommand" />
+        <Button Id="ExportFusionDrawingTemplateCommand" />
+        <Button Id="FusionDrawingExportPartsListCommand" />
+        <Button Id="FusionDrawingDebugCommand" />
+      </PanelDropdown>
+    </Panel>
+  </CommandToolbar>
+
+	<!-- *******************-->
+	<!-- Navigation Toolbar -->
+	<!-- *******************-->
+	<Toolbar Id="FusionDocNavToolbar" Style="ToolbarSmallStyle">
+    <Button Id="FusionDrawingPanCmd" />
+    <Button Id="FusionDrawingZoomCmd" />
+    <Button Id="FusionDrawingFitCmd" />
+  </Toolbar>
+
+  <Toolbar Id="QAT" >
+      <Button Id="FusionDocUpdateCommand"/>	  
+      <Button Id="FusionDocChooseVersionCommand"/>
+      <Button Id="FusionDrawingFeatureToggleCommand" />
+  </Toolbar>
+  
+</Toolbars>

@@ -1,0 +1,64 @@
+{
+    "!name": "utilities",
+    "!define": {
+    },
+
+    "adsk": {
+
+        "toBase64": {
+            "!type" : "fn() -> string"
+        },
+
+        "fromBase64": {
+            "!type" : "fn() -> +ArrayBuffer"
+        },
+
+        "utf8ToString": {
+            "!type" : "fn(buffer: ?) -> string"
+        },
+
+        "readFile": {
+            "!type" : "fn(filename: string) -> +ArrayBuffer"
+        },
+
+        "writeFile": {
+            "!type" : "fn(filename: string, data: ?, mode?: string) -> boolean"
+        },
+
+        "copyFile": {
+            "!type" : "fn(fromFilename: string, toFilename: string) -> boolean"
+        },
+
+        "renameFile": {
+            "!type" : "fn(fromFilename: string, toFilename: string) -> boolean"
+        },
+
+        "removeFile": {
+            "!type" : "fn(filename: string) -> boolean"
+        },
+
+        "createDirectory": {
+            "!type" : "fn(filename: string) -> boolean"
+        },
+
+        "listDirectoryFiles": {
+            "!type" : "fn(filename: string, regularFilesOnly?: boolean, recursive?: boolean) -> [string]"
+        },
+
+        "fileExists": {
+            "!type" : "fn(filename: string) -> boolean"
+        },
+
+        "fileIsDirectory": {
+            "!type" : "fn(filename: string) -> boolean"
+        },
+
+        "fileSize": {
+            "!type" : "fn(filename: string) -> number"
+        },
+
+        "tempDirectory": {
+            "!type" : "fn() -> string"
+        }
+    }
+}

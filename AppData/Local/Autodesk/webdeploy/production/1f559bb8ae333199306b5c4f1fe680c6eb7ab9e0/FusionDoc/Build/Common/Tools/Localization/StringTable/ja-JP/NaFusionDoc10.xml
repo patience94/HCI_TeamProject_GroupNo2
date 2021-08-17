@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="ASSEMBLYSOURCETYPE" devLabel="Assembly" translation="アセンブリ"/>
+	<label commandName="COMPONENTSOURCETYPE" devLabel="Component" translation="コンポーネント"/>
+	<label commandName="FLATPATTERNSOURCETYPE" devLabel="Component(Flat Pattern)" translation="コンポーネント(フラット パターン)"/>
+	<label commandName="FOLDEDMODELSOURCETYPE" devLabel="Component" translation="コンポーネント"/>
+	<label commandName="FlatPattern" devLabel="Flat Pattern" translation="フラット パターン"/>
+	<label commandName="FusDocDefaultSheetSizeValue0" devLabel="A0 (1189mm x 841mm)" translation="A0 (1189 mm x 841 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue1" devLabel="A1 (841mm x 594mm)" translation="A1 (841 mm x 594 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue10" devLabel="D (34in x 22in)" translation="D (34 in x 22 in)"/>
+	<label commandName="FusDocDefaultSheetSizeValue11" devLabel="E (44in x 34in)" translation="E (44 in x 34 in)"/>
+	<label commandName="FusDocDefaultSheetSizeValue2" devLabel="A2 (594mm x 420mm)" translation="A2 (594 mm x 420 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue3" devLabel="A3 (420mm x 297mm)" translation="A3 (420 mm x 297 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue4" devLabel="A4 (210mm x 297mm)" translation="A4 (210 mm x 297 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue5" devLabel="A4 (297mm x 210mm)" translation="A4 (297 mm x 210 mm)"/>
+	<label commandName="FusDocDefaultSheetSizeValue6" devLabel="A (8.5in x 11in)" translation="A (8.5 in x 11 in)"/>
+	<label commandName="FusDocDefaultSheetSizeValue7" devLabel="A (11in x 8.5in)" translation="A (11 in x 8.5 in)"/>
+	<label commandName="FusDocDefaultSheetSizeValue8" devLabel="B (17in x 11in)" translation="B (17 in x 11 in)"/>
+	<label commandName="FusDocDefaultSheetSizeValue9" devLabel="C (22in x 17in)" translation="C (22 in x 17 in)"/>
+	<label commandName="FusDocDesignDlError" devLabel="Could not download design file." translation="デザイン ファイルをダウンロードできませんでした。"/>
+	<label commandName="FusDocDesignLinkNotFoundError" devLabel="Could not find the Design file linked with this Drawing" translation="この図面にリンクされているデザイン ファイルが見つかりませんでした"/>
+	<label commandName="FusDocLinearDimensionPrecision0" devLabel="0" translation="0"/>
+	<label commandName="FusDocLinearDimensionPrecision1" devLabel="0.1" translation="0.1"/>
+	<label commandName="FusDocLinearDimensionPrecision10" devLabel="-" translation="-"/>
+	<label commandName="FusDocLinearDimensionPrecision11" devLabel="1/2" translation="1/2"/>
+	<label commandName="FusDocLinearDimensionPrecision12" devLabel="1/4" translation="1/4"/>
+	<label commandName="FusDocLinearDimensionPrecision13" devLabel="1/8" translation="1/8"/>
+	<label commandName="FusDocLinearDimensionPrecision14" devLabel="1/16" translation="1/16"/>
+	<label commandName="FusDocLinearDimensionPrecision15" devLabel="1/32" translation="1/32"/>
+	<label commandName="FusDocLinearDimensionPrecision16" devLabel="1/64" translation="1/64"/>
+	<label commandName="FusDocLinearDimensionPrecision17" devLabel="1/128" translation="1/128"/>
+	<label commandName="FusDocLinearDimensionPrecision18" devLabel="1/256" translation="1/256"/>
+	<label commandName="FusDocLinearDimensionPrecision2" devLabel="0.12" translation="0.12"/>
+	<label commandName="FusDocLinearDimensionPrecision3" devLabel="0.123" translation="0.123"/>
+	<label commandName="FusDocLinearDimensionPrecision4" devLabel="0.1234" translation="0.1234"/>
+	<label commandName="FusDocLinearDimensionPrecision5" devLabel="0.12345" translation="0.12345"/>
+	<label commandName="FusDocLinearDimensionPrecision6" devLabel="0.123456" translation="0.123456"/>
+	<label commandName="FusDocLinearDimensionPrecision7" devLabel="0.1234567" translation="0.1234567"/>
+	<label commandName="FusDocLinearDimensionPrecision8" devLabel="0.12345678" translation="0.12345678"/>
+	<label commandName="FusDocViewProjectionDirectionValue0" devLabel="First Angle" translation="第一角法"/>
+	<label commandName="FusDocViewProjectionDirectionValue1" devLabel="Third Angle" translation="第三角法"/>
+	<label commandName="FusionDocAngularDimensionPrecisionName" devLabel=" Angular Dimension Precision" translation=" 角度寸法の精度"/>
+	<label commandName="FusionDocAngularDimensionPrecisionToolTip" devLabel="Sets the default angular dimension precision for drawings created using the 'From Scratch' option" translation="'最初から' オプションを使用して作成した図面の既定の角度寸法の精度を設定します"/>
+	<label commandName="FusionDocAnnotationFormatName" devLabel="Standard" translation="製図規格"/>
+	<label commandName="FusionDocAnnotationHeightName" devLabel="Text Height" translation="文字の高さ"/>
+	<label commandName="FusionDocAnnotationsFormatToolTip" devLabel="Sets the default drafting standard for drawings created using the 'From Scratch' option" translation="'最初から' オプションを使用して作成した図面の既定の製図規格を設定します"/>
+	<label commandName="FusionDocAnnotationsHeightToolTip" devLabel="Sets the default text height for drawings created using the 'From Scratch' option" translation="'最初から' オプションを使用して作成した図面の既定の文字の高さを設定します"/>
+	<label commandName="FusionDocAnnotationsUnitDisplayToolTip" devLabel="Sets the default display of dimension unit abbreviation in dimension values for drawings created using the 'From Scratch' option" translation="'最初から' オプションを使用して作成した図面の寸法値内での寸法単位略号の既定の表示を設定します"/>
+	<label commandName="FusionDocAnnotationsUnitsToolTip" devLabel="Sets the default annotation units for drawings created using the 'From Scratch' option" translation="'最初から' オプションを使用して作成した図面の既定の注記の単位を設定します"/>
+	<label commandName="FusionDocBorderDisplayName" devLabel="Display Border" translation="境界を表示"/>
+	<label commandName="FusionDocBorderDisplayToolTip" devLabel="Display or hide border" translation="境界の表示/非表示を切り替えます"/>
+	<label commandName="FusionDocDefaultSheetSizeIFDOnlyToolTip" devLabel="To Specify a Sheet Size as a Preference, select a Drafting Standard in the above drop-down" translation="シートサイズの基本設定を指定するには、上にあるドロップダウンで製図規格を選択します。"/>
+	<label commandName="FusionDocDefaultSheetSizeName" devLabel="Sheet Size" translation="シート サイズ"/>
+	<label commandName="FusionDocDefaultSheetSizeNameIFDOnly" devLabel="Sheet Size" translation="シート サイズ"/>
+	<label commandName="FusionDocDefaultSheetSizeToolTip" devLabel="Sets the default sheet size for drawings created using the 'From Scratch' option" translation="'最初から' オプションを使用して作成した図面の既定のシート サイズを設定します"/>
+	<label commandName="FusionDocDesignOpenError" devLabel="Could not open the design file." translation="デザイン ファイルを開くことができませんでした。"/>
+	<label commandName="FusionDocDesignOpenNotValid" devLabel="The opened referenced design file is invalid." translation="開いている参照デザイン ファイルは無効です。"/>
+	<label commandName="FusionDocDimLeadingZeroToolTip" devLabel="Sets the default display of leading zeros within dimension values for drawings created using the 'From Scratch' option" translation="'最初から' オプションを使用して作成した図面の寸法値内での先頭ゼロの既定の表示を設定します"/>
+	<label commandName="FusionDocDimTrailingZeroToolTip" devLabel="Sets the default display of trailing zeros within dimension values for drawings created using the 'From Scratch' option" translation="'最初から' オプションを使用して作成した図面の寸法値内での末尾ゼロの既定の表示を設定します"/>
+	<label commandName="FusionDocDisplayLineWidth" devLabel="Display Line Widths" translation="線幅を表示"/>
+	<label commandName="FusionDocDisplayLineWidthToolTip" devLabel="Sets the default display of line widths for drawings created using the 'From Scratch' option" translation="'最初から' オプションを使用して作成した図面の線幅の既定の表示を設定します"/>
+	<label commandName="FusionDocDrawingUnitsName" devLabel="Units" translation="単位"/>
+	<label commandName="FusionDocFontName" devLabel="Font" translation="フォント"/>
+	<label commandName="FusionDocFontToolTip" devLabel="Sets the default font for drawings created using the 'From Scratch' option" translation="'最初から' オプションを使用して作成した図面の既定のフォントを設定します"/>
+	<label commandName="FusionDocLeadingZeroName" devLabel="Display Leading Zeros" translation="先頭のゼロを表示"/>
+	<label commandName="FusionDocLineWidthGroup" devLabel="Line Width Group" translation="線幅グループ"/>
+	<label commandName="FusionDocLineWidthGroupToolTip" devLabel="Sets the default line width group for drawings created using the 'From Scratch' option" translation="'最初から' オプションを使用して作成した図面の既定の線幅グループを設定します"/>
+	<label commandName="FusionDocLinearDimensionPrecisionName" devLabel="Linear Dimension Precision" translation="長さ寸法の精度"/>
+	<label commandName="FusionDocLinearDimensionPrecisionToolTip" devLabel="Sets the default linear dimension precision for drawings created using the 'From Scratch' option" translation="'最初から' オプションを使用して作成した図面の既定の長さ寸法の精度を設定します"/>
+	<label commandName="FusionDocLinearUnitName" devLabel="Dimension Format" translation="寸法形式"/>
+	<label commandName="FusionDocLinearUnitToolTip" devLabel="Sets the default dimension format for drawings created using the 'From Scratch' option" translation="'最初から' オプションを使用して作成した図面の既定の寸法形式を設定します"/>
+	<label commandName="FusionDocMediumLineWidth" devLabel="Medium Line Width" translation="中間の線幅"/>
+	<label commandName="FusionDocMediumLineWidthToolTip" devLabel="Sets the default medium line width for drawings created using the 'From Scratch' option. The medium line width is defined by the selected line width group" translation="'最初から' オプションを使用して作成した図面の既定の中間の線幅を設定します。中間の線幅は、選択した線幅グループによって定義されます"/>
+	<label commandName="FusionDocOptionDrawingGroupToolTip" devLabel="Preferences controlling Fusion 360 Drawings behavior" translation="Fusion 360 図面の動作をコントロールする基本設定です"/>
+	<label commandName="FusionDocOptionGroupToolTip" devLabel="Preferences that set defaults for drawings created using the 'From Scratch' option" translation="'最初から' オプションを使用して作成した図面の既定値を設定する基本設定"/>
+	<label commandName="FusionDocOptionGroupUserName" devLabel="Drawing" translation="図面"/>
+	<label commandName="FusionDocOverrideFormatDefaultsName" devLabel="Override or Restore Format Defaults Below" translation="以下の形式の既定をオーバーライドまたは復元"/>
+	<label commandName="FusionDocOverrideFormatDefaultsToolTip" devLabel="Checking this allows editing of the below fields, unchecking restores default values" translation="このチェック ボックスをオンにすると、以下のフィールドを編集できます。オフにすると、既定値に戻ります。"/>
+	<label commandName="FusionDocPopNewDrawingWarning" devLabel="Warning if contains mesh, surface or TSpline" translation="メッシュ、サーフェス、または T スプラインが含まれている場合の警告"/>
+	<label commandName="FusionDocRemoveLinkError" devLabel="Old link could not be removed" translation="古いリンクを削除できませんでした"/>
+	<label commandName="FusionDocThickLineWidth" devLabel="Thick Line Width" translation="太い線幅"/>
+	<label commandName="FusionDocThickLineWidthToolTip" devLabel="Sets the default thick line width for drawings created using the 'From Scratch' option. The thick line width is defined by the selected line width group" translation="'最初から' オプションを使用して作成した図面の既定の太い線幅を設定します。太い線幅は、選択した線幅グループによって定義されます"/>
+	<label commandName="FusionDocThinLineWidth" devLabel="Thin Line Width" translation="細い線幅"/>
+	<label commandName="FusionDocThinLineWidthToolTip" devLabel="Sets the default thin line width for drawings created using the 'From Scratch' option. The thin line width is defined by the selected line width group" translation="'最初から' オプションを使用して作成した図面の既定の細い線幅を設定します。細い線幅は、選択した線幅グループによって定義されます"/>
+	<label commandName="FusionDocTitleBlockDisplayName" devLabel="Display Title Block" translation="表題欄を表示"/>
+	<label commandName="FusionDocTitleBlockDisplayToolTip" devLabel="Display or hide title block" translation="表題欄の表示/非表示を切り替えます"/>
+	<label commandName="FusionDocTrailingZeroName" devLabel="Display Trailing Zeros" translation="末尾のゼロを表示"/>
+	<label commandName="FusionDocUnexpectedError" devLabel="Unexpected error" translation="予期しないエラー"/>
+	<label commandName="FusionDocUnitDisplayName" devLabel="Display Dimension Units" translation="寸法の単位を表示"/>
+	<label commandName="FusionDocUpdateMessage" devLabel="Changes have been made to a referenced design. &#xA;You can update the drawing from the button in the Application Bar." translation="参照先のデザインが変更されました。&#xA;アプリケーション バーのボタンを使用して、図面を更新できます。"/>
+	<label commandName="FusionDocViewProjectionDirName" devLabel="Projection Angle" translation="投影角度"/>
+	<label commandName="FusionDocViewProjectionDirToolTip" devLabel="Sets the default projection angle for drawings created using the 'From Scratch' option" translation="'最初から' オプションを使用して作成した図面の既定の投影角度を設定します"/>
+	<label commandName="FusionDrawingEntryNameBendTable" devLabel="Bend Table" translation="曲げテーブル"/>
+	<label commandName="FusionDrawingEntryNamePartsList" devLabel="Parts List" translation="パーツ一覧"/>
+	<label commandName="FusionDrawingExtFileBlobSerializer" devLabel="Fusion Drawing failed to generate a small thumbnail." translation="Fusion 図面で小さいサムネイルの生成に失敗しました。"/>
+	<label commandName="GeneralAnnotationFonts0" devLabel="Arial" translation="MS UI Gothic"/>
+	<label commandName="GeneralAnnotationFormatValue0" devLabel="ASME" translation="ASME"/>
+	<label commandName="GeneralAnnotationFormatValue1" devLabel="ISO" translation="ISO"/>
+	<label commandName="GeneralAnnotationFormatValue2" devLabel="Inherit From Design" translation="デザインから継承"/>
+	<label commandName="GeneralAnnotationHeightValue0" devLabel="0.1in" translation="0.1 in"/>
+	<label commandName="GeneralAnnotationHeightValue1" devLabel="0.12in" translation="0.12 in"/>
+	<label commandName="GeneralAnnotationHeightValue2" devLabel="0.24in" translation="0.24 in"/>
+	<label commandName="GeneralAnnotationHeightValue3" devLabel="2.5mm" translation="2.5 mm"/>
+	<label commandName="GeneralAnnotationHeightValue4" devLabel="3.5mm" translation="3.5 mm"/>
+	<label commandName="GeneralAnnotationHeightValue5" devLabel="5.0mm" translation="5.0 mm"/>
+	<label commandName="GeneralAnnotationHeightValue6" devLabel="7.0mm" translation="7.0 mm"/>
+	<label commandName="GeneralAnnotationHeightValue7" devLabel="10.0mm" translation="10.0 mm"/>
+	<label commandName="GeneralAnnotationSheetSizeIFDOnly1" devLabel="Based on Standard" translation="製図規格に準拠"/>
+	<label commandName="GeneralAnnotationUnitsValue0" devLabel="mm" translation="mm"/>
+	<label commandName="GeneralAnnotationUnitsValue3" devLabel="in" translation="in"/>
+	<label commandName="GeneralAnnotationUnitsValue4" devLabel="Inherit From Design" translation="デザインから継承"/>
+	<label commandName="InnerStep" devLabel="%1% Inner Step" translation="%1% 内部ステップ"/>
+	<label commandName="LineWidthGroup0" devLabel="Very Thin" translation="非常に細い"/>
+	<label commandName="LineWidthGroup1" devLabel="Thin" translation="細い"/>
+	<label commandName="LineWidthGroup2" devLabel="Medium" translation="中間"/>
+	<label commandName="LineWidthGroup3" devLabel="Thick" translation="太い"/>
+	<label commandName="LineWidthGroup4" devLabel="Very Thick" translation="非常に太い"/>
+	<label commandName="LinearUnitFormat0" devLabel="Decimal" translation="十進表記"/>
+	<label commandName="LinearUnitFormat1" devLabel="Fractional" translation="分数表記"/>
+	<label commandName="OfflineFailedGetDesignMsg" devLabel="The design file %1% is not available in Offline mode. Please switch to Online mode to perform the command again." translation="デザイン ファイル %1% はオフライン モードでは使用できません。オンライン モードに切り替えてからコマンドをもう一度実行してください。"/>
+	<label commandName="PARTSLISTTABLENAME" devLabel="PARTS LIST" translation="パーツ一覧"/>
+	<label commandName="STORYBOARDSOURCETYPE" devLabel="Assembly(Storyboard)" translation="アセンブリ(ストーリーボード)"/>
+	<label commandName="UserPropertyOnComponent__ITEM_ID" devLabel="Item" translation="品番"/>
+	<label commandName="UserPropertyOnComponent__QTY" devLabel="Qty" translation="数量"/>
+	<label commandName="VOJointOrigin" devLabel="Joint Origins" translation="ジョイントの原点"/>
+</Resource>

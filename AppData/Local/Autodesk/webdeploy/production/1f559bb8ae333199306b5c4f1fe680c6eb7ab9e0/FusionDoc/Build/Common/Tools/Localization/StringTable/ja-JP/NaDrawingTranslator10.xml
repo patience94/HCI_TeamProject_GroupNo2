@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<label commandName="CreatePDFOutputConfigError" devLabel="Error when create AcCoreConsole script file for output pdf!" translation="PDF 出力用の AcCoreConsole スクリプト ファイルの作成時にエラーが発生しました。"/>
+	<label commandName="DrawingFileFilterDescription" devLabel="DWG Files (*.dwg);;PDF Files (*.pdf)" translation="DWG ファイル (*.dwg);;PDF ファイル (*.pdf)"/>
+	<label commandName="FindAcCoreConsoleError" devLabel="Cannot located AcCoreConsole application!" translation="AcCoreConsole アプリケーションが見つかりません。"/>
+</Resource>

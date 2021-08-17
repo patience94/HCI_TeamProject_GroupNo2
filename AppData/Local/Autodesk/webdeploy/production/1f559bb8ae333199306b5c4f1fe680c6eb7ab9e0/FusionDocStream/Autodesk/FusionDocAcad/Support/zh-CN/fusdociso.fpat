@@ -1,0 +1,14 @@
+; FusionDwg hatch pattern lookup list
+; The first entry is the name that will show in Fusion
+; The 2nd entry on line is the matching acad.pat name used internally
+; Just one entry needed for same names.
+; Only 1 space to seperate, 128 chars per line max
+; This file is for ISO settings - show ISP patterns first
+ANSI31
+ANSI32
+ANSI33
+ANSI34
+ANSI35
+ANSI36
+ANSI37
+ANSI38

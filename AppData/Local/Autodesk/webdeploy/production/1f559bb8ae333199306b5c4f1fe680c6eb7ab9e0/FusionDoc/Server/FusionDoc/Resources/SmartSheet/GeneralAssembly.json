@@ -1,0 +1,53 @@
+{
+    "Type": "GeneralAssebmly",
+    "SourcePath": "",
+    "Sheet":
+    [
+        {
+            "SheetId": -1,
+            "ViewChain":
+            [
+                {
+                    "BaseView":
+                    {
+                        "SourceId": "",
+                        "Orientation": 0,
+                        "Scale": "1:1",
+                        "Style": "Visible",
+                        "X": 0.0,
+                        "Y": 0.0
+                    },
+                    "ProjectView":
+                    [
+                        {
+                            "Orientation": 5,
+                            "Scale": "",
+                            "Style": 0,
+                            "X": 0.0,
+                            "Y": 0.0
+                        },
+                        {
+                            "Orientation": 1,
+                            "Scale": "",
+                            "Style": 0,
+                            "X": 0.0,
+                            "Y": 0.0
+                        },
+                        {
+                            "Orientation": 7,
+                            "Scale": "",
+                            "Style": 0,
+                            "X": 0.0,
+                            "Y": 0.0
+                        }
+                    ],
+                    "Table":
+                    [
+                        { "Type": "PartsList"}
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

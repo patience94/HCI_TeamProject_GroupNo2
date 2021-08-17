@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
+    <assemblyIdentity name="MeshMixer" type="win32" version="0.0.0.0"/>
+    <file name="AMTVoxelizer.dll"/>
+    <file name="metis.dll"/>
+    <file name="mmsdk.dll"/>
+    <file name="mumps.dll"/>
+    <file name="netfabbSDK.dll"/>
+</assembly>

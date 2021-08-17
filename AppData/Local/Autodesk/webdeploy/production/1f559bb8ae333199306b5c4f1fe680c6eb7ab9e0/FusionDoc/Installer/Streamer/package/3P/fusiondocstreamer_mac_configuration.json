@@ -1,0 +1,19 @@
+{
+	"build"	   : "Release",
+
+	"platform" : "darwin",
+
+	"packageId": "FUSIONDOCSTREAMER",
+
+	"package-files" : {
+		"third-party-var" : "_FUSIONDOCSTREAMER"
+	},
+
+	"included-files" : [
+		{
+			"include-filter" : [
+			"Autodesk Fusion 360.app/Contents/Helpers/AcCoreConsole.app"
+			]
+		}
+	]
+}

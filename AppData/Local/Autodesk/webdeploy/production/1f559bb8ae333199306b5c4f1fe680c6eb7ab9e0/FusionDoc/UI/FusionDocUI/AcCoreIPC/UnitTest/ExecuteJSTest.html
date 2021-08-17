@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Neutron - Bitmap Test Page</title>
+  <style type="text/css" title="currentStyle">
+    @import "media/css/demo_page.css";
+    @import "media/css/demo_table.css";
+    .dataTables_filter
+    {
+      display: none;
+    }
+  </style>
+  <script type="text/javascript" src="media/js/jquery.js"></script>
+  <script type="text/javascript" language="javascript" src="media/js/jquery.dataTables.js"></script>
+  <script type="text/javascript">
+
+    // This is the object Neutron expects to talk to when it needs to send something out,
+    // by calling neutronJavaScriptHandler.handle(cmdID, jsonArgs)
+    //
+    var assetId;
+    window.neutronJavaScriptHandler = {
+      // We should not let any exception throw out of this function, otherwise we will
+      // get a crash on debug Neutron (with the Qt implementation).
+      handle: function (commandId, jsonArgs) {
+        try {
+          if (commandId == 'NewDocument') {
+            window.neutronJavaScriptObject.executeCommand("NewDocumentCompleted", "");
+          } else if (commandId == 'ExecuteJs') {
+
+            eval(jsonArgs);
+            window.neutronJavaScriptObject.executeCommand("ExecuteJSCompleted", "");
+
+          }
+        } catch (err) {
+          console.log("Exception occured executing AcIPC: " + commandId + ", args: " + jsonArgs);
+        }
+
+        return "processed";
+      }
+    }
+  </script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
+	<script type="text/javascript">
+	  $(document).ready(function () {
+	    if (window.neutronJavaScriptObject) {
+	      eval(window.neutronJavaScriptObject.executeQuery('initializeSDK'));
+	      window.neutronJavaScriptObject.executeCommand("PageLoaded", "");
+
+	    }
+	  });
+    </script>
+</head>
+<body id="dt_example">
+  <div id="container">
+    <img src="media/images/autodesk.png" />
+    <br />
+  </div>
+</body>
+</html>

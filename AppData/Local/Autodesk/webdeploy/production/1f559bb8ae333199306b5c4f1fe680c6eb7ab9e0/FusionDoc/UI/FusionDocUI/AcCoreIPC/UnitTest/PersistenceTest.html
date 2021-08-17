@@ -1,0 +1,208 @@
+<html>
+<head>
+	<title>Neutron - Bitmap Test Page</title>
+    
+    <style type="text/css" title="currentStyle">
+		@import "media/css/demo_page.css";
+		@import "media/css/demo_table.css";
+		.dataTables_filter {
+            display: none; 
+        }
+	</style>
+ 	<script type="text/javascript" src="media/js/jquery.js"></script>
+    <script type="text/javascript" language="javascript" src="media/js/jquery.dataTables.js"></script>
+
+     
+    <script type="text/javascript">
+	
+	    // This is the object Neutron expects to talk to when it needs to send something out,
+	    // by calling neutronJavaScriptHandler.handle(cmdID, jsonArgs)
+		//
+        window.neutronJavaScriptHandler = {
+            // We should not let any exception throw out of this function, otherwise we will
+            // get a crash on debug Neutron (with the Qt implementation).
+            handle: function (commandId, jsonArgs) {
+                try {
+                    if (commandId == 'NewDocument') {
+                        var jsonObject = JSON.parse(jsonArgs);
+                        var assetId = jsonObject.AssetID;
+                        var scale = jsonObject.Scale;
+                        var tmpDir = jsonObject.tempDir;
+                        var drawingUnits = jsonObject.FusionDocDrawingUnits;
+                        var annotationFormat = jsonObject.FusionDocAnnotationFormat;
+                        var displayUnits = jsonObject.FusionDocUnitDisplay;
+                        var font = jsonObject.FusionDocFont;
+                        var annotationHeight = jsonObject.FusionDocAnnotationHeight;
+                        var linearDimensionPrecision = jsonObject.FusionDocLinearDimensionPrecision;
+                        var angularDimensionPrecision = jsonObject.FusionDocAngularDimensionPrecision;
+                        var sheetSizes = jsonObject.FusionDocSheetSizes;
+                        var defaultSheetSize = jsonObject.FusionDocDefaultSheetSize;
+                        var viewProjectionDir = jsonObject.FusionDocViewProjectionDir;
+                        var titleBlock = jsonObject.FusionDocTitleBlock;
+                        var largeImage = jsonObject.LargeImageName;
+                        var smallImage = jsonObject.SmallImageName;
+                        var dwgName = jsonObject.DwgName;
+
+                        document.getElementById("assetID").innerHTML = assetId;
+                        document.getElementById("tmpDirId").innerHTML = tmpDir;
+                        document.getElementById("scaleId").innerHTML = scale;
+                        document.getElementById("drawingUnitsId").innerHTML = drawingUnits;
+                        document.getElementById("annotationFormatId").innerHTML = annotationFormat;
+                        document.getElementById("displayUnitsId").innerHTML = displayUnits;
+                        document.getElementById("fontId").innerHTML = font;
+                        document.getElementById("annotationHeightId").innerHTML = annotationHeight;
+                        document.getElementById("linearDimensionPrecisionId").innerHTML = linearDimensionPrecision;
+                        document.getElementById("angularDimensionPrecisionId").innerHTML = angularDimensionPrecision;
+                        document.getElementById("defaultSheetSizeId").innerHTML = defaultSheetSize;
+                        document.getElementById("viewProjectionDirId").innerHTML = viewProjectionDir;
+                        document.getElementById("titleBlockId").innerHTML = titleBlock;
+                        document.getElementById("largeImageId").innerHTML = largeImage;
+                        document.getElementById("smallImageId").innerHTML = smallImage;
+                        document.getElementById("dwgFileId").innerHTML = dwgName;
+
+
+                    } else if (commandId == 'QuerySaveDocumentCommand') {
+                        var params = {};
+                        params.target = "application";
+                        params.action = "spot";
+                        var paramStr = JSON.stringify(params);
+                        var args = {};
+                        args.cmdType = "Acad";
+                        args.URL = "http://www.autodesk.com";
+                        args.invokeAsCommand = false;
+                        args.functionParams = paramStr;
+
+                        var rcJSON = JSON.stringify(args);
+                        return rcJSON;
+                    } else if (commandId == 'QueryExitCommand') {
+                        var params = {};
+                        params.target = "application";
+                        params.action = "quit";
+                        var paramStr = JSON.stringify(params);
+                        var args = {};
+                        args.cmdType = "Acad";
+                        args.URL = "http://www.autodesk.com";
+                        args.invokeAsCommand = false;
+                        args.functionParams = paramStr;
+
+                        var rcJSON = JSON.stringify(args);
+                        return rcJSON;
+                    }
+                    else if (commandId == 'QueryDocumentClose') {
+                        var params = {};
+                        params.target = "application";
+                        params.action = "quit";
+                        var paramStr = JSON.stringify(params);
+                        var args = {};
+                        args.cmdType = "Acad";
+                        args.URL = "http://www.autodesk.com";
+                        args.invokeAsCommand = false;
+                        args.functionParams = paramStr;
+
+                        var rcJSON = JSON.stringify(args);
+                        return rcJSON;
+                    } else if (commandId == 'ActivateDocument') {
+                        alert("Activated");
+                    }
+                } catch (err) {
+                    console.log("Exception occured executing AcIPC: " + commandId + ", args: " + jsonArgs);
+                }
+
+                return "processed";
+            }
+        }
+	
+        
+
+	</script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
+	<script type="text/javascript">
+    	    $(document).ready(function () {
+	        if (window.neutronJavaScriptObject) {
+	            window.neutronJavaScriptObject.executeCommand("PageLoaded", "");
+	        }
+	    });
+    </script>
+
+
+
+</head>
+<body id="dt_example">
+		<div id="container">
+        <img src="media/images/autodesk.png" /> <br /> 
+
+     <!-- <img  id='jsImage' alt="Neutron Test Image" src="" height="350" width="350"/> -->
+            
+    <table >
+	
+		<tr>
+            <td>Asset ID:</td>
+			<td id = 'assetID'></td> 
+            </tr> 
+            <tr>
+            <td>TempDir:</td>
+			<td id = 'tmpDirId'></td> 
+            </tr>
+            <tr>
+            <td>Scale:</td>
+			<td id = 'scaleId'></td> 
+            </tr> 
+            <tr>
+             <td>Drawing Units:</td>
+			<td id = 'drawingUnitsId'></td> 
+             </tr>
+             <tr>
+             <td>Annotation Format:</td>
+			<td id = 'annotationFormatId'></td>
+             </tr>  
+             <tr>
+             <td>Display Units:</td>
+			<td id = 'displayUnitsId'></td> 
+             </tr>
+             <tr> 
+             <td>Font:</td>
+			<td id = 'fontId'></td> 
+            </tr>
+            <tr> 
+             <td>Annotation Height:</td>
+			<td id = 'annotationHeightId'></td> 
+            </tr>
+            <tr> 
+             <td>Linear Dimension Precision:</td>
+			<td id = 'linearDimensionPrecisionId'></td> 
+            </tr> 
+            <tr>
+             <td>Angular Dimension Precision:</td>
+			<td id = 'angularDimensionPrecisionId'></td> 
+             </tr>
+             <tr> 
+             <td>Default Sheet Size:</td>
+			<td id = 'defaultSheetSizeId'></td> 
+             </tr>
+             <tr> 
+             <td>View Projection Direction:</td>
+			<td id = 'viewProjectionDirId'></td> 
+             </tr> 
+             <tr>
+             <td>Title Block:</td>
+			<td id = 'titleBlockId'></td>
+            </tr> 
+                <tr>
+             <td>Large Image:</td>
+			<td id = 'largeImageId'></td>
+            </tr> 
+                <tr>
+             <td>Small Block:</td>
+			<td id = 'smallImageId'></td>
+            </tr> 
+                <tr>
+             <td>Dwg File Name:</td>
+			<td id = 'dwgFileId'></td>
+            </tr> 
+
+	   
+    </table>
+
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+	"build" : "Release",
+
+	"platform" : "darwin",
+
+	"packageId": "drawing",
+
+	"packageDependencies": [
+		"FUSIONDOCSTREAMER",
+		"AcCoreView"
+	],
+	
+	"included-files" : [
+		{
+			"include-filter" : [
+			"Autodesk Fusion 360.app/Contents/Libraries/Applications/FusionDoc"
+			]
+		},
+		{
+		"alt-source" : "Publish/FusionDoc/Build/Common/Tools/Localization",
+		"alt-target" : "Autodesk Fusion 360.app/Contents/Libraries/Neutron",
+		"include-filter" : ["StringTable"]
+		}
+	]
+}
