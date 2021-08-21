@@ -123,8 +123,8 @@ export default function Layout({ children }) {
                     <Typography variant="h6" className={classes.title}>
                         로뎀관 Lothem                        
                     </Typography>
-                    <Typography variant="h6" className={classes.title}>
-                        로뎀관 Lothem                        
+                    <Typography variant="h6" color="primary" className={classes.title}>
+                        생활관 관리 시스템                      
                     </Typography>
                     <Divider/>
                 </div>

@@ -12,7 +12,7 @@ import Drawer from '@material-ui/core/Drawer';
 import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List'
 import Button from '@material-ui/core/Button';
-
+import { Link } from 'react-router-dom'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemIcon from '@material-ui/core/ListItemIcon'
 import ListItemText from '@material-ui/core/ListItemText'
@@ -231,9 +231,11 @@ export default function SelectFloor() {
                     <br/>
                     <br/>
                     <div className={classes.root}>
+                    <Link to="/SelectTeam">
                     <Button size="large" variant="contained" color="primary">
                     <Typography variant="h5">다음 단계</Typography>
                     </Button>
+                    </Link>
                     </div>
                 </List>
             </Drawer>
